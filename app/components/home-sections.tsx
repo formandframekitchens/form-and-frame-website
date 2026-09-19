@@ -13,15 +13,22 @@ function Action({ children, href = "#quote", secondary = false }: { children: Re
 export function Hero() {
   return (
     <section className="hero">
-      <div className="container hero-grid">
+      <div className="container hero-layout">
         <div className="hero-copy">
-          <Eyebrow>Luton <span aria-hidden="true">•</span> Bedfordshire</Eyebrow>
-          <h1><span>KITCHEN FITTER</span><span>IN LUTON</span></h1>
-          <p className="hero-subtitle">Independent Kitchen Installation by Form & Frame</p>
-          <p className="hero-description">20 years of experience across joinery manufacturing, design and installation. Professional installation of customer-supplied kitchens, from initial plan review through to final finishing.</p>
-          <div className="hero-actions"><Action>Get an initial quote</Action><Action secondary href={planContactHref}>Send my kitchen plan</Action></div>
+          <Eyebrow>Independent kitchen installation <span aria-hidden="true">·</span> Luton</Eyebrow>
+          <h1>Kitchen Installation in Luton</h1>
+          <p className="hero-description">20 years of experience in joinery manufacturing, design and installation — from reviewing your kitchen plan and preparing the room through to accurate fitting, worktops, appliances, finishing and complete project coordination.</p>
         </div>
-        <div className="hero-visual"><Photo name="hero" /></div>
+        {/* Temporary Drive-hosted reference asset; replace with an optimized local image. */}
+        <div className="hero-image" role="img" aria-label="A professionally installed contemporary kitchen with fitted cabinetry and an island">
+          <div className="hero-overlay">
+            <div className="hero-promise">
+              <strong>From plan to finished kitchen.</strong>
+              <span className="hero-process">Review <i>→</i> Prepare <i>→</i> Install <i>→</i> Finish</span>
+            </div>
+            <div className="hero-actions"><Action>Get a Quote</Action><Action href={planContactHref}>Send Your Plan</Action></div>
+          </div>
+        </div>
       </div>
     </section>
   );
@@ -30,7 +37,10 @@ export function Hero() {
 export function TrustStrip() {
   return (
     <div className="trust-strip"><ul className="container">
-      <li>20 Years’ Experience</li><li>Luton Based</li><li>Independent Installer</li><li>Customer-Supplied Kitchens</li>
+      <li><strong>20 Years</strong><span>Joinery experience</span></li>
+      <li><strong>Independent</strong><span>Kitchen installer</span></li>
+      <li><strong>Luton Based</strong><span>Local service</span></li>
+      <li><strong>Any Supplier</strong><span>Customer-supplied kitchens welcome</span></li>
     </ul></div>
   );
 }
@@ -43,7 +53,7 @@ export function KitchenInstallation() {
           <h2>Already Bought Your Kitchen?<br />We Can Install It.</h2>
           <div><p>You choose the kitchen. We bring the installation experience. Form & Frame independently installs customer-supplied kitchens from major manufacturers.</p><a className="text-link" href="#installation-details">Kitchen installation <span aria-hidden="true">↗</span></a></div>
         </div>
-        <ul className="manufacturer-list">{manufacturers.map(item => <li key={item.name}>{item.name}</li>)}</ul>
+        <ul className="manufacturer-list" id="kitchen-brands">{manufacturers.map(item => <li key={item.name}>{item.name}</li>)}</ul>
 
       </div>
     </section>

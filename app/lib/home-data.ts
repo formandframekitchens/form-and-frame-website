@@ -1,10 +1,8 @@
 export const navigation = [
-  { label: "Kitchen Installation", href: "#kitchen-installation" },
-  { label: "Internal Doors", href: "#internal-doors" },
-  { label: "Bespoke Joinery", href: "#bespoke-joinery" },
-  { label: "Projects", href: "#projects" },
+  { label: "Services", href: "#kitchen-installation" },
+  { label: "Kitchen Brands", href: "#kitchen-brands" },
+  { label: "How It Works", href: "#process" },
   { label: "Areas", href: "#areas" },
-  { label: "About", href: "#about" },
 ];
 // Reserved routes: keep as text placeholders until the supplier pages exist.
 export const manufacturers = [

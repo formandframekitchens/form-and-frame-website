@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import { navigation } from "../lib/home-data";
+import { planContactHref } from "../lib/contact";
 
 export function Wordmark() {
   return <a className="wordmark" href="#" aria-label="Form and Frame home">FORM <span>&amp;</span> FRAME</a>;
@@ -17,10 +18,10 @@ export function Header() {
       <header className="site-header"><div className="container header-inner">
         <Wordmark />
         <nav className="desktop-nav" aria-label="Main navigation">{navigation.map(item => <a key={item.href} href={item.href}>{item.label}</a>)}</nav>
-        <a className="button header-quote" href="#quote">Get a quote <span aria-hidden="true">↗</span></a>
+        <a className="button header-contact" href={planContactHref}>WhatsApp <span aria-hidden="true">↗</span></a>
         <details className="mobile-menu" ref={menu} onKeyDown={event => { if (event.key === "Escape") { closeMenu(); menu.current?.querySelector("summary")?.focus(); } }}>
           <summary>Menu <span aria-hidden="true">☰</span></summary>
-          <nav aria-label="Mobile navigation">{navigation.map(item => <a onClick={closeMenu} key={item.href} href={item.href}>{item.label}</a>)}<a onClick={closeMenu} href="#quote">Get a quote ↗</a></nav>
+          <nav aria-label="Mobile navigation">{navigation.map(item => <a onClick={closeMenu} key={item.href} href={item.href}>{item.label}</a>)}<a onClick={closeMenu} href={planContactHref}>WhatsApp ↗</a></nav>
         </details>
       </div></header>
     </>
