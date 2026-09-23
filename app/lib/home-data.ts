@@ -1,19 +1,15 @@
+import { supplierPages } from "./supplier-pages";
+
 export const navigation = [
-  { label: "Services", href: "#kitchen-installation" },
-  { label: "Kitchen Brands", href: "#kitchen-brands" },
-  { label: "How It Works", href: "#process" },
-  { label: "Areas", href: "#areas" },
+  { label: "Services", href: "/kitchen-installation" },
+  { label: "Kitchen Brands", href: "/kitchen-installation#suppliers" },
+  { label: "How It Works", href: "/kitchen-installation#installation-process" },
+  { label: "Areas", href: "/kitchen-installation#service-areas" },
 ];
-// Reserved routes: keep as text placeholders until the supplier pages exist.
+// Supplier pages share one source of truth with routing and the sitemap.
 export const manufacturers = [
-  { name: "Howdens", futureHref: "/kitchen-installation/howdens" },
-  { name: "Wren", futureHref: "/kitchen-installation/wren" },
-  { name: "IKEA", futureHref: "/kitchen-installation/ikea" },
-  { name: "Magnet", futureHref: "/kitchen-installation/magnet" },
-  { name: "Wickes", futureHref: "/kitchen-installation/wickes" },
-  { name: "Benchmarx", futureHref: "/kitchen-installation/benchmarx" },
-  { name: "B&Q", futureHref: "/kitchen-installation/b-and-q" },
-  { name: "Other manufacturers", futureHref: null },
+  ...supplierPages.map(({ name, slug }) => ({ name, href: `/kitchen-installation/${slug}` })),
+  { name: "Other manufacturers", href: null },
 ];
 export const processSteps = [
   { title: "Send your plan", copy: "Send the kitchen plan, postcode, room photographs and approximate installation date." },

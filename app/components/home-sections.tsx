@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { ReactNode } from "react";
 import { manufacturers, processSteps, homepageServices, faqs } from "../lib/home-data";
 import { WHATSAPP_NUMBER, planContactHref } from "../lib/contact";
@@ -7,7 +8,7 @@ function Eyebrow({ children }: { children: ReactNode }) {
   return <p className="eyebrow">{children}</p>;
 }
 function Action({ children, href = "#quote", secondary = false }: { children: ReactNode; href?: string; secondary?: boolean }) {
-  return <a className={`button${secondary ? " button-outline" : ""}`} href={href}>{children}<span aria-hidden="true">↗</span></a>;
+  return <Link className={`button${secondary ? " button-outline" : ""}`} href={href}>{children}<span aria-hidden="true">↗</span></Link>;
 }
 
 export function Hero() {
@@ -51,9 +52,9 @@ export function KitchenInstallation() {
       <div className="container">
         <div className="installation-intro">
           <h2>Already Bought Your Kitchen?<br />We Can Install It.</h2>
-          <div><p>You choose the kitchen. We bring the installation experience. Form & Frame independently installs customer-supplied kitchens from major manufacturers.</p><a className="text-link" href="#installation-details">Kitchen installation <span aria-hidden="true">↗</span></a></div>
+          <div><p>You choose the kitchen. We bring the installation experience. Form & Frame independently installs customer-supplied kitchens from major manufacturers.</p><Link className="text-link" href="/kitchen-installation">Kitchen installation <span aria-hidden="true">↗</span></Link></div>
         </div>
-        <ul className="manufacturer-list" id="kitchen-brands">{manufacturers.map(item => <li key={item.name}>{item.name}</li>)}</ul>
+        <ul className="manufacturer-list" id="kitchen-brands">{manufacturers.map(item => <li key={item.name}>{item.href ? <Link href={item.href}>{item.name}</Link> : item.name}</li>)}</ul>
 
       </div>
     </section>
@@ -72,6 +73,7 @@ export function TechnicalExpertise() {
           <ul className="capability-list">
             <li>Accurate cabinet levelling</li><li>Precision scribes &amp; fillers</li><li>Worktop routing &amp; fitting</li><li>Integrated appliances &amp; complex layouts</li>
           </ul>
+          <Link className="text-link" href="/in-frame-kitchens">Specialist in-frame kitchens <span aria-hidden="true">↗</span></Link>
         </div>
       </div>
     </section>
@@ -107,9 +109,9 @@ export function SecondaryServices() {
     <section className="supporting-section"><div className="container">
       <h2>Other Services</h2>
       <div className="service-grid">{homepageServices.map(service => (
-        <article id={service.id} key={service.id}><h3>{service.title}</h3><p>{service.copy}</p><a className="text-link" href={planContactHref} aria-label={`Enquire about ${service.title.toLowerCase()}`}>Enquire <span aria-hidden="true">↗</span></a></article>
+        <article id={service.id} key={service.id}><h3>{service.title}</h3><p>{service.copy}</p><Link className="text-link" href={service.id === "internal-doors" ? "/internal-door-installation" : planContactHref} aria-label={service.id === "internal-doors" ? "Explore internal door installation" : `Enquire about ${service.title.toLowerCase()}`}>{service.id === "internal-doors" ? "Explore service" : "Enquire"} <span aria-hidden="true">↗</span></Link></article>
       ))}</div>
-      <div className="service-area" id="areas"><p>Based in Luton and working across selected areas of Bedfordshire and nearby Hertfordshire.</p><a className="text-link" href="#areas-answer">Areas we cover <span aria-hidden="true">↗</span></a></div>
+      <div className="service-area" id="areas"><p>Based in Luton and working across selected areas of Bedfordshire and nearby Hertfordshire.</p><Link className="text-link" href="/kitchen-installation#service-areas">Areas we cover <span aria-hidden="true">↗</span></Link></div>
     </div></section>
   );
 }

@@ -214,3 +214,61 @@ summary::-webkit-details-marker { display: none; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
+
+/* Service pages extend the established ivory, green and brass palette. */
+.service-page .container { max-width: 1280px; }
+.service-hero { padding-block: 28px 64px; }
+.breadcrumbs { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 48px; font-size: 14px; }
+.breadcrumbs a { text-decoration: underline; text-underline-offset: 4px; }
+.service-hero .eyebrow { color: var(--oak); }
+.service-hero h1 { max-width: 1050px; font: 400 clamp(40px, 5.5vw, 76px)/1.06 Georgia, "Times New Roman", serif; letter-spacing: -.045em; text-wrap: balance; }
+.service-lead { max-width: 820px; margin-top: 28px; font-size: clamp(18px, 1.6vw, 22px); }
+.service-hero .button { margin-top: 28px; }
+.service-section { padding-block: 64px; border-top: 1px solid var(--line); }
+.service-section-muted { background: color-mix(in srgb, var(--stone) 15%, var(--ivory)); }
+.service-section h2 { max-width: 1000px; font-size: clamp(34px, 3.7vw, 52px); line-height: 1.12; text-wrap: balance; }
+.service-section-body { margin-top: 32px; }
+.service-prose { max-width: 820px; }
+.service-detail-grid { display: grid; grid-template-columns: 1fr; gap: 32px; }
+.service-prose + .service-detail-grid { margin-top: 36px; }
+.service-detail-grid article { min-width: 0; padding-top: 24px; border-top: 1px solid var(--line); }
+.service-detail-grid h3 { font-size: 24px; }
+.service-detail-grid p { margin-top: 16px; font-size: 17px; }
+.service-note { max-width: 850px; margin-top: 32px; font-size: 15px; }
+.independent-notice { max-width: 960px; border-left: 2px solid var(--brass); padding-left: 20px; margin-block: 28px 40px; font-size: 15px; }
+.supplier-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+.service-prose + nav { margin-top: 32px; }
+.supplier-card { display: flex; height: 100%; flex-direction: column; justify-content: space-between; gap: 20px; padding: 24px; border: 1px solid var(--stone); background: var(--ivory); }
+.supplier-brand-slot { display: flex; min-height: 48px; align-items: center; font-size: 24px; font-weight: 600; letter-spacing: -.025em; }
+.supplier-card-caption { display: flex; justify-content: space-between; gap: 12px; font-size: 13px; }
+.supplier-card:hover, .supplier-card[aria-current="page"] { border-color: var(--green); background: color-mix(in srgb, var(--stone) 22%, var(--ivory)); }
+.manufacturer-list a { display: inline-flex; align-items: center; min-height: 44px; text-decoration: underline; text-decoration-color: var(--brass); text-underline-offset: 6px; }
+.service-page .process-grid { margin-top: 0; }
+.service-area-list { display: flex; flex-wrap: wrap; gap: 12px 28px; margin-top: 24px; font-size: 16px; }
+.service-faqs { max-width: 960px; }
+.service-contact-note { margin-top: 24px; max-width: 660px; font-size: 15px; }
+.inframe-intro { display: grid; gap: 40px; align-items: center; }
+.inframe-intro p + p { margin-top: 24px; }
+.inframe-study { padding: 28px; background: color-mix(in srgb, var(--stone) 24%, var(--ivory)); }
+.inframe-cabinet { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; padding: 16px 16px 36px; background: #647064; border-top: 12px solid var(--oak); box-shadow: 0 6px 14px rgb(32 32 29 / 12%); }
+.inframe-door { position: relative; aspect-ratio: 1 / 1.8; padding: 16%; border: 2px solid #364137; background: #7c887b; }
+.inframe-door span { display: block; height: 100%; background: #6c786b; box-shadow: inset 0 0 0 2px rgb(32 32 29 / 20%); }
+.inframe-door::after { content: ""; position: absolute; width: 9px; height: 9px; top: 25%; right: 5%; border-radius: 50%; background: var(--brass); }
+.inframe-door + .inframe-door::after { right: auto; left: 5%; }
+.inframe-study figcaption { margin-top: 18px; font-size: 13px; line-height: 1.5; }
+.inframe-process { display: grid; gap: 32px; margin-top: 40px; }
+.inframe-process li { display: flex; gap: 24px; border-top: 1px solid var(--line); padding-top: 24px; }
+.inframe-process .step-number { flex-shrink: 0; }
+.inframe-process h3 { font-size: 23px; }
+.inframe-process p { margin-top: 12px; font-size: 17px; }
+@media (min-width: 600px) {
+  .supplier-grid, .service-detail-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .service-hero { padding-bottom: 80px; }
+  .service-section { padding-block: 80px; }
+}
+@media (min-width: 1000px) {
+  .supplier-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .service-detail-grid { gap: 40px; }
+  .inframe-intro { grid-template-columns: 1.2fr 1fr; gap: 64px; }
+  .inframe-process { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; }
+}
