@@ -1,13 +1,15 @@
 import Link from "next/link";
-import { DetailGrid, ServiceFAQs, ServicePage, ServiceQuote, ServiceSection } from "../components/service-page";
+import { DetailGrid, ImageTextSection, ServiceFAQs, ServiceGallery, ServicePage, ServiceQuote, ServiceSection } from "../components/service-page";
 import { serviceMetadata } from "../lib/service-metadata";
 
-export const metadata = serviceMetadata("Internal Door Installation Luton", "Local internal door fitting in Luton: new doors in existing frames, trimming, hinges, latches, mortice locks and multiple-door installations by Form & Frame.", "/internal-door-installation");
+export const metadata = serviceMetadata("Internal Door Installation Luton", "Local internal door fitting around Luton: new doors in existing frames, trimming, hinges, latches, mortice locks and multiple-door installations by Form & Frame.", "/internal-door-installation");
 
 export default function InternalDoorInstallationPage() {
-  return <ServicePage eyebrow="A supporting local joinery service" title="Internal door installation in Luton" introduction="New internal doors, carefully fitted to your home. Alongside our core kitchen installation work, we offer local door fitting for individual openings and multiple-door projects." parent={{ label: "Kitchen installation", href: "/kitchen-installation" }}>
-    <ServiceSection title="A good fit starts with the existing opening" eyebrow="Measure. Fit. Adjust.">
+  return <ServicePage eyebrow="A supporting local joinery service" title="Internal door installation" introduction="New internal doors, carefully fitted to your home. Alongside our core kitchen installation work, we offer local door fitting for individual openings and multiple-door projects around Luton and nearby areas." parent={{ label: "Kitchen installation", href: "/kitchen-installation" }} imageKey="internal-door-installation">
+    <ImageTextSection imageKey="internal-door-installation" title="A good fit starts with the existing opening" eyebrow="Measure. Fit. Adjust.">
       <p className="service-prose">Existing frames are not always square or consistent from room to room. We assess the openings, door sizes, hardware and floor clearances before agreeing the fitting work. The chosen door must be suitable for the opening and any required trimming.</p>
+    </ImageTextSection>
+    <ServiceSection title="What the installation can include">
       <DetailGrid items={[
         { title: "Doors in existing frames", copy: "Fit new internal doors into existing frames, with accurate scribing and trimming within the door manufacturer's permitted allowances." },
         { title: "Hinges, latches and locks", copy: "Fit suitable hinges, latches, handles and mortice locks as specified, with careful positioning and adjustment for smooth operation." },
@@ -15,6 +17,7 @@ export default function InternalDoorInstallationPage() {
         { title: "Multiple-door installations", copy: "Plan several doors as one job, checking each opening and coordinating the hardware, clearances and finishing requirements across the home." },
       ]} />
     </ServiceSection>
+    <ServiceGallery imageKey="internal-door-installation" title="Internal door project gallery" />
     <ServiceSection title="What to send for an initial quote" muted>
       <p className="service-prose">Tell us your postcode, the number of doors, approximate opening sizes and the door type you have chosen. Photographs of the existing doors, frames and hardware help us review the work. We confirm the condition of the openings and final scope before installation.</p>
     </ServiceSection>
