@@ -10,10 +10,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 1,
     },
-    ...["/kitchen-installation", ...supplierPages.map(({ slug }) => `/kitchen-installation/${slug}`), "/in-frame-kitchens", "/internal-door-installation"].map(path => ({
+    ...[
+      "/kitchen-installation",
+      ...supplierPages.map(({ slug }) => `/kitchen-installation/${slug}`),
+      "/in-frame-kitchens",
+      "/internal-door-installation",
+      "/contact",
+    ].map(path => ({
       url: `${siteUrl}${path}`,
       changeFrequency: "monthly" as const,
-      priority: path === "/kitchen-installation" ? 0.9 : 0.7,
+      priority: path === "/kitchen-installation" ? 0.9 : path === "/contact" ? 0.6 : 0.7,
     })),
   ];
 }
