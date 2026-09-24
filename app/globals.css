@@ -696,40 +696,20 @@ summary::-webkit-details-marker { display: none; }
 .services-hub-trust p:not(.eyebrow) { max-width: 760px; margin-top: 22px; }
 .service-back-link { padding-bottom: 64px; }
 
-/* Kitchen choices and editable enquiry context */
-.kitchen-choice-page .breadcrumbs { margin-bottom: 20px; }
-.kitchen-choice-page .service-hero-copy .eyebrow { margin-bottom: 12px; }
-.kitchen-choice-page .service-lead { margin-top: 16px; }
-.kitchen-choice-page .service-hero-brand-selector { margin-top: 26px; padding-top: 24px; }
-.kitchen-choice-flow > .eyebrow { margin-bottom: 8px; }
-.kitchen-choice-flow h2 { font-size: clamp(28px, 3vw, 38px); line-height: 1.12; }
-.kitchen-choice-intro { margin-top: 10px; font-size: 16px; }
-.kitchen-choice-fieldset { min-width: 0; margin: 22px 0 0; padding: 0; border: 0; }
-.kitchen-choice-fieldset legend { padding: 0; margin-bottom: 12px; font-size: 15px; font-weight: 600; }
-.kitchen-choice-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
-.kitchen-choice { display: flex; align-items: flex-start; gap: 10px; padding: 18px 16px; border: 1px solid var(--stone); background: #fffdf9; cursor: pointer; }
-.kitchen-choice input, .kitchen-supplier-choice input { flex-shrink: 0; width: 18px; height: 18px; margin: 3px 0 0; accent-color: var(--green); }
-.kitchen-choice strong { display: block; font-size: 17px; line-height: 1.3; font-weight: 600; }
-.kitchen-choice small { display: block; margin-top: 8px; font-size: 14px; line-height: 1.45; color: color-mix(in srgb, var(--charcoal) 80%, var(--ivory)); }
-.kitchen-choice:has(input:checked), .kitchen-supplier-choice:has(input:checked) { border-color: var(--green); box-shadow: inset 0 0 0 1px var(--green); background: color-mix(in srgb, var(--stone) 18%, var(--ivory)); }
-.kitchen-choice:focus-within, .kitchen-supplier-choice:focus-within { outline: 2px solid var(--oak); outline-offset: 3px; }
-.kitchen-choice input:focus-visible, .kitchen-supplier-choice input:focus-visible { outline: none; }
-.kitchen-choice-next { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line); }
-.kitchen-choice-next .kitchen-choice-fieldset { margin-top: 0; }
-.kitchen-choice-next h3 { font-size: 23px; }
-.kitchen-choice-hint { font-size: 14px; margin-block: 8px 14px; }
-.kitchen-supplier-options { display: flex; flex-wrap: wrap; gap: 10px; }
-.kitchen-supplier-choice { display: flex; align-items: center; gap: 8px; min-height: 46px; padding: 10px 14px; border: 1px solid var(--stone); background: #fffdf9; font-size: 14px; cursor: pointer; }
-.kitchen-supplier-choice input { margin: 0; }
-.kitchen-choice-summary { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; margin-top: 22px; padding: 20px; background: color-mix(in srgb, var(--stone) 20%, var(--ivory)); }
-.kitchen-choice-summary strong, .kitchen-choice-summary span { display: block; font-size: 14px; }
-.kitchen-choice-summary .button { margin-top: 0; }
+/* B05: kitchen selection follows the approved Services composition. */
+.kitchen-selection { --kitchen-thumb-height: clamp(64px, 8.3svh, 96px); padding-block: 20px; }
+.kitchen-selection .services-hub-hero { padding-bottom: 20px; }
+.kitchen-selection .services-hub-hero h1 { font-size: clamp(34px, 3.6vw, 46px); }
+.kitchen-selection .services-hub-row { grid-template-columns: 44px calc(var(--kitchen-thumb-height) * 1.5) minmax(0, 1fr) auto; padding-block: 7px; }
+.kitchen-selection .services-card-image { height: var(--kitchen-thumb-height); }
+.kitchen-selection .services-card-content h2 { font-size: clamp(22px, 2vw, 28px); }
+.kitchen-selection .services-card-content p { margin-top: 4px; }
+.kitchen-image-note { max-width: 760px; margin-top: 20px; font-size: 13px; color: var(--muted); }
+
+/* Editable enquiry context */
 .enquiry-prefill-note { padding: 16px 20px; margin-bottom: 24px; border-left: 3px solid var(--brass); background: #fffdf9; font-size: 15px; }
 .enquiry-loading { min-height: 560px; }
-.enquiry-loading a, .service-prose > a, .kitchen-choice-flow noscript a { text-decoration: underline; text-underline-offset: 4px; }
-@media (max-width: 1000px) {
-  .kitchen-choice-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
+.enquiry-loading a, .service-prose > a { text-decoration: underline; text-underline-offset: 4px; }
 @media (max-width: 900px) {
   .services-hub-row { grid-template-columns: 30px 96px minmax(0, 1fr) auto; gap: 16px; padding-inline: 0; }
   .services-card-image { height: 72px; }
@@ -747,13 +727,19 @@ summary::-webkit-details-marker { display: none; }
   .services-card-action { grid-column: 3; justify-self: start; font-size: 10px; line-height: 1.4; }
   .services-card-action > span { font-size: 14px; }
   .services-hub-trust { padding-block: 48px; }
-  .kitchen-choice-grid { grid-template-columns: 1fr; }
-  .kitchen-choice { padding: 15px; }
-  .kitchen-choice-summary { padding: 16px; }
-  .kitchen-choice-summary .button { width: 100%; }
-  .kitchen-choice-page .service-hero-brand-selector { margin-top: 22px; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .services-hub-row, .services-card-image img { transition: none; }
+}
+
+@media (max-width: 900px) {
+  .kitchen-selection .services-hub-row { grid-template-columns: 30px 96px minmax(0, 1fr) auto; }
+  .kitchen-selection .services-card-image { height: 64px; }
+}
+@media (max-width: 600px) {
+  .kitchen-selection { padding-block: 24px; }
+  .kitchen-selection .services-hub-hero h1 { font-size: 32px; }
+  .kitchen-selection .services-hub-row { grid-template-columns: 22px 72px minmax(0, 1fr); padding-block: 12px; }
+  .kitchen-selection .services-card-content h2 { font-size: 21px; }
 }

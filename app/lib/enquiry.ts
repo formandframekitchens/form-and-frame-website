@@ -2,6 +2,7 @@ export const serviceOptions = [
   { value: "bespoke-joinery", label: "Bespoke joinery & fitted furniture" },
   { value: "kitchen-installation", label: "Kitchen installation" },
   { value: "in-frame-kitchens", label: "In-frame kitchen" },
+  { value: "bespoke-kitchens", label: "Bespoke kitchen" },
   { value: "internal-door-installation", label: "Internal door installation" },
   { value: "joinery-installation", label: "Joinery & furniture installation" },
   { value: "other", label: "Other joinery enquiry" },
@@ -31,9 +32,14 @@ export const installationOptions = [
     service: "kitchen-installation", usesSupplier: true,
   },
   {
-    value: "design-supply-installation", label: "I need a kitchen designed & supplied",
+    value: "design-supply-installation", label: "In-frame kitchen designed, supplied & installed by Form & Frame",
     description: "Explore our complete design, supply and installation service for traditional in-frame kitchens.",
     service: "in-frame-kitchens", usesSupplier: false,
+  },
+  {
+    value: "bespoke-design-supply-installation", label: "Bespoke kitchen designed, supplied & installed by Form & Frame",
+    description: "A kitchen designed and supplied for your room, with installation included.",
+    service: "bespoke-kitchens", usesSupplier: false,
   },
   {
     value: "advice", label: "I’m still planning",
@@ -52,7 +58,7 @@ export type EnquirySelection = {
 };
 
 export function isKitchenService(service: string) {
-  return service === "kitchen-installation" || service === "in-frame-kitchens";
+  return service === "kitchen-installation" || service === "in-frame-kitchens" || service === "bespoke-kitchens";
 }
 
 // URL values are identifiers, never free text to inject into a visitor's enquiry.
@@ -85,7 +91,7 @@ export function enquiryEmail(data: FormData) {
       `Phone: ${data.get("phone") || ""}`,
       `Postcode / town: ${data.get("location") || ""}`,
       `Service: ${service}`,
-      ...(isKitchenService(selection.service) ? [`Kitchen requirement: ${installation}`, `Kitchen supplier: ${supplier}`] : []),
+      ...(isKitchenService(selection.service) ? [`Kitchen requirement: ${installation}`, `Kitchen supplier: ${installationOptions.find(option => option.value === selection.installation)?.usesSupplier === false ? "Form & Frame" : supplier}`] : []),
       `Project stage: ${data.get("stage") || ""}`,
       "", String(data.get("message") || ""), "",
       "Plans / images: please attach them to this email before sending.",

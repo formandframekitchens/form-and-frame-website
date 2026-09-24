@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       "/kitchen-installation",
       ...supplierPages.map(({ slug }) => `/kitchen-installation/${slug}`),
       "/in-frame-kitchens",
+      "/bespoke-kitchens",
       "/internal-door-installation",
       "/contact",
     ].map(path => ({

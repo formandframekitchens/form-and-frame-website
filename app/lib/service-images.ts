@@ -1,3 +1,5 @@
+import { kitchenChoices } from "./kitchen-choices";
+
 export type ServiceImage = {
   src?: string;
   alt: string;
@@ -29,16 +31,28 @@ const makeSet = (label: string, location = "Luton and surrounding areas"): Servi
   })),
 });
 
+const makeKitchenSet = (key: string, label: string): ServiceImageSet => {
+  const images = makeSet(label);
+  const choice = kitchenChoices.find(item => item.href.split("/").pop() === key);
+  if (choice) images.hero = {
+    src: choice.image,
+    alt: choice.alt,
+    caption: "AI-generated kitchen concept. Illustrative design, not a photograph of a supplier range or completed project.",
+  };
+  return images;
+};
+
 export const serviceImages: Record<string, ServiceImageSet> = {
   "kitchen-installation": makeSet("Kitchen installation"),
-  howdens: makeSet("Howdens kitchen installation"),
-  wren: makeSet("Wren kitchen installation"),
-  ikea: makeSet("IKEA kitchen installation"),
-  magnet: makeSet("Magnet kitchen installation"),
-  wickes: makeSet("Wickes kitchen installation"),
+  howdens: makeKitchenSet("howdens", "Howdens kitchen installation"),
+  wren: makeKitchenSet("wren", "Wren kitchen installation"),
+  ikea: makeKitchenSet("ikea", "IKEA kitchen installation"),
+  magnet: makeKitchenSet("magnet", "Magnet kitchen installation"),
+  wickes: makeKitchenSet("wickes", "Wickes kitchen installation"),
   benchmarx: makeSet("Benchmarx kitchen installation"),
   "b-and-q": makeSet("B&Q kitchen installation"),
-  "in-frame-kitchens": makeSet("Traditional in-frame kitchen"),
+  "in-frame-kitchens": makeKitchenSet("in-frame-kitchens", "Traditional in-frame kitchen"),
+  "bespoke-kitchens": makeKitchenSet("bespoke-kitchens", "Bespoke kitchen"),
   "internal-door-installation": makeSet("Internal door installation"),
 };
 

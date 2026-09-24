@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { ImageTextSection, IndependentNotice, InstallationProcess, InstallationScope, LocalServiceArea, ServiceFAQs, ServiceGallery, ServicePage, ServiceQuote, ServiceSection, SupplierNavigation, WhyChooseUs } from "../components/service-page";
+import { ImageTextSection, IndependentNotice, InstallationProcess, InstallationScope, LocalServiceArea, ServiceFAQs, ServiceGallery, ServiceQuote, ServiceSection, SupplierNavigation, WhyChooseUs } from "../components/service-page";
+import { Footer, Header } from "../components/site-shell";
 import { KitchenChoiceFlow } from "../components/kitchen-choice-flow";
 import { enquiryHref } from "../lib/enquiry";
 import { kitchenFAQs } from "../lib/supplier-pages";
@@ -8,20 +9,19 @@ import { serviceMetadata } from "../lib/service-metadata";
 export const metadata = serviceMetadata("Kitchen Installation in Luton", "Independent kitchen installation from Luton across Bedfordshire and Hertfordshire: preparation, cabinet fitting, worktops, appliances and complete project coordination.", "/kitchen-installation");
 
 export default function KitchenInstallationPage() {
-  return <ServicePage
-    eyebrow="Our core service · Luton, Bedfordshire & Hertfordshire"
-    title="Kitchen installation"
-    introduction="Independent kitchen installation for customer-supplied kitchens from major manufacturers, with practical coordination from plan review through fitting and final checks."
-    imageKey="kitchen-installation"
-    parent={{ label: "Services", href: "/services" }}
-    compactHub
-    hideHeroActions
-    beforeTrust={<KitchenChoiceFlow />}
-  >
+  return <>
+    <Header />
+    <main id="main-content" className="service-page services-hub">
+    <KitchenChoiceFlow />
     <ServiceSection title="Explore installation by supplier" eyebrow="Your kitchen, independently fitted" id="suppliers">
-      <p className="service-prose">Read about fitting your chosen kitchen below. Already know what you need? <Link href="#choose-installation">Choose your service and start an enquiry.</Link></p>
+      <p className="service-prose">Independent kitchen installation for customer-supplied kitchens across Luton, Bedfordshire and Hertfordshire. We also fit kitchens from Benchmarx, B&amp;Q and other suppliers. <Link href="#choose-installation">Choose your kitchen above</Link>, or tell us about your project below.</p>
       <SupplierNavigation />
+      <div className="actions">
+        <Link className="text-link" href={enquiryHref({ service: "kitchen-installation", supplier: "other", installation: "own-kitchen" })}>Another or overseas supplier <span aria-hidden="true">↗</span></Link>
+        <Link className="text-link" href={enquiryHref({ service: "kitchen-installation", supplier: "not-chosen", installation: "advice" })}>Still choosing my kitchen <span aria-hidden="true">↗</span></Link>
+      </div>
       <IndependentNotice />
+      <p className="kitchen-image-note">Kitchen images are AI-generated design illustrations, rather than photographs of particular supplier ranges or completed projects.</p>
     </ServiceSection>
     <ImageTextSection imageKey="kitchen-installation" title="From a kitchen plan to a finished room" eyebrow="More than cabinet assembly">
       <p className="service-prose">A successful fit begins before the first cabinet is fixed. We review the plan, room photographs, service positions, appliances and worktop specification so that preparation, cabinetry and finishing can be sequenced sensibly.</p>
@@ -41,5 +41,7 @@ export default function KitchenInstallationPage() {
       { question: "Can you work outside Luton?", answer: "Yes. Luton is the core base, with projects considered across Dunstable, Harpenden, St Albans, Hemel Hempstead, Hitchin, Welwyn Garden City, Berkhamsted, Leighton Buzzard, Milton Keynes, Bedford and surrounding Bedfordshire and Hertfordshire." }
     ]} />
     <ServiceQuote enquiryUrl={enquiryHref({ service: "kitchen-installation" })} />
-  </ServicePage>;
+    </main>
+    <Footer />
+  </>;
 }
