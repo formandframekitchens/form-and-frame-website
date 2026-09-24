@@ -26,7 +26,7 @@ function Visual({ image, className = "" }: { image: ServiceImage; className?: st
   </figure>;
 }
 
-export function ServicePage({ eyebrow, title, introduction, children, parent, imageKey = "kitchen-installation", brandName, brandAccent }: {
+export function ServicePage({ eyebrow, title, introduction, children, parent, imageKey = "kitchen-installation", brandName, brandAccent, beforeTrust, compactHub = false }: {
   eyebrow: string;
   title: string;
   introduction: string;
@@ -35,6 +35,8 @@ export function ServicePage({ eyebrow, title, introduction, children, parent, im
   imageKey?: string;
   brandName?: string;
   brandAccent?: string;
+  beforeTrust?: ReactNode;
+  compactHub?: boolean;
 }) {
   const images = getServiceImages(imageKey);
   return <>
@@ -42,7 +44,7 @@ export function ServicePage({ eyebrow, title, introduction, children, parent, im
     <main id="main-content" className="service-page" style={brandAccent ? { "--supplier-accent": brandAccent } as React.CSSProperties : undefined}>
       <header className="service-hero"><div className="container">
         <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/">Home</Link>{parent && <><span aria-hidden="true">/</span><Link href={parent.href}>{parent.label}</Link></>}</nav>
-        <div className="service-hero-grid">
+        <div className={`service-hero-grid${compactHub ? " service-hero-grid-compact" : ""}`}>
           <div className="service-hero-copy">
             {brandName && <div className="supplier-identity"><span className="supplier-identity-mark" aria-hidden="true" /><strong className="supplier-identity-name">{brandName}</strong><small>Independent installation</small></div>}
             <p className="eyebrow">{eyebrow}</p>
@@ -53,8 +55,9 @@ export function ServicePage({ eyebrow, title, introduction, children, parent, im
               <a className="button button-outline" href={WHATSAPP_HREF}>WhatsApp <span aria-hidden="true">↗</span></a>
             </div>
           </div>
-          <Visual image={images.hero} className="service-hero-visual" />
+          {!compactHub && <Visual image={images.hero} className="service-hero-visual" />}
         </div>
+        {beforeTrust && <div className="service-hero-brand-selector">{beforeTrust}</div>}
       </div></header>
       <ul className="service-trust-strip"><li><strong>Complete installation</strong><span>Plan to final checks</span></li><li><strong>Independent fitter</strong><span>Major kitchen suppliers</span></li><li><strong>Local coordination</strong><span>Bedfordshire & Hertfordshire</span></li><li><strong>Fast enquiry</strong><span>WhatsApp or website form</span></li></ul>
       {children}
@@ -85,9 +88,10 @@ export function ImageTextSection({ imageKey, title, eyebrow, children, reverse =
 
 export function ServiceGallery({ imageKey, title = "Project & kitchen gallery" }: { imageKey: string; title?: string }) {
   const images = getServiceImages(imageKey);
-  return <ServiceSection title={title} eyebrow="Photography framework" muted>
-    <p className="service-prose">This gallery is prepared for Form & Frame project photography. Real installation images will replace these placeholders as the portfolio is curated.</p>
-    <div className="service-gallery">{images.gallery.map((image, index) => <Visual key={index} image={image} className={index === 0 ? "service-gallery-feature" : ""} />)}</div>
+  const realImages = images.gallery.filter(image => Boolean(image.src));
+  if (realImages.length < 3) return null;
+  return <ServiceSection title={title} eyebrow="Selected projects" muted>
+    <div className="service-gallery">{realImages.map((image, index) => <Visual key={index} image={image} className={index === 0 ? "service-gallery-feature" : ""} />)}</div>
   </ServiceSection>;
 }
 
@@ -101,7 +105,7 @@ export function InstallationScope() {
 
 export function SupplierNavigation({ current }: { current?: string }) {
   return <nav aria-label="Kitchen suppliers"><ul className="supplier-grid">{supplierPages.map(supplier => <li key={supplier.slug}>
-    <Link className="supplier-card" style={{ borderTopColor: supplierAccent[supplier.slug] }} href={`/kitchen-installation/${supplier.slug}`} aria-current={current === supplier.slug ? "page" : undefined}>
+    <Link className="supplier-card" style={{ "--supplier-card-accent": supplierAccent[supplier.slug] } as React.CSSProperties} href={`/kitchen-installation/${supplier.slug}`} aria-current={current === supplier.slug ? "page" : undefined}>
       <span className="supplier-brand-slot"><strong>{supplier.name}</strong></span><span className="supplier-card-caption">Independent installation <span aria-hidden="true">↗</span></span>
     </Link>
   </li>)}</ul></nav>;
@@ -160,10 +164,10 @@ export function SupplierPage({ supplier }: { supplier: SupplierPageData }) {
     </ImageTextSection>
     <InstallationScope />
     <ServiceSection title={`${supplier.name} installation considerations`} eyebrow="The details that guide the fit"><DetailGrid items={supplier.considerations} /></ServiceSection>
-    <ServiceGallery imageKey={supplier.slug} title={`${supplier.name} kitchen gallery`} />
     <InstallationProcess />
     <LocalServiceArea />
     <WhyChooseUs />
+    <ServiceGallery imageKey={supplier.slug} title={`${supplier.name} kitchen gallery`} />
     <ServiceFAQs items={[supplier.faq, ...kitchenFAQs, { question: `Are you an approved ${supplier.name} installer?`, answer: `No. Form & Frame provides an independent installation service and is not affiliated with, endorsed by or an approved installer for ${supplier.name}. Your kitchen purchase remains with your supplier.` }, { question: "What should I send with my enquiry?", answer: "Send your kitchen plan, postcode, room photographs, preferred installation timing and any appliance or worktop information already available. The more complete the information, the more useful the first scope review can be." }]} />
     <ServiceSection title="Explore installation by supplier" muted><SupplierNavigation current={supplier.slug} /></ServiceSection>
     <ServiceQuote />
