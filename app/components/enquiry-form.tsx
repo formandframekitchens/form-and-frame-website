@@ -31,10 +31,10 @@ export function EnquiryForm() {
       <label>Email<input name="email" type="email" required autoComplete="email" /></label>
       <label>Phone<input name="phone" type="tel" required autoComplete="tel" /></label>
       <label>Postcode / town<input name="location" required autoComplete="postal-code" /></label>
-      <label>Service<select name="service" required defaultValue=""><option value="" disabled>Select service</option><option>Kitchen installation</option><option>In-frame kitchen</option><option>Internal door installation</option><option>Other joinery enquiry</option></select></label>
+      <label>Service<select name="service" required defaultValue=""><option value="" disabled>Select service</option><option>Bespoke joinery & fitted furniture</option><option>Kitchen installation</option><option>In-frame kitchen</option><option>Internal door installation</option><option>Joinery & furniture installation</option><option>Other joinery enquiry</option></select></label>
       <label>Kitchen supplier<select name="supplier" defaultValue=""><option value="">Not applicable / not chosen</option><option>Howdens</option><option>Wren</option><option>IKEA</option><option>Magnet</option><option>Wickes</option><option>Benchmarx</option><option>B&Q</option><option>Other</option></select></label>
       <label>Project stage<select name="stage" defaultValue=""><option value="">Select stage</option><option>Planning / researching</option><option>Kitchen designed</option><option>Kitchen ordered</option><option>Ready for installation</option></select></label>
-      <label className="form-span">Project details<textarea name="message" rows={7} required placeholder="Tell us about the kitchen, room, timing and any preparation work." /></label>
+      <label className="form-span">Project details<textarea name="message" rows={7} required placeholder="Tell us about the project, room or site, timing and any drawings, plans or preparation work." /></label>
     </div>
     <div className="upload-placeholder"><strong>Plans & photographs</strong><span>File upload will be connected later. For now, submit the form and attach your plan and room photographs to the email that opens.</span></div>
     <label className="consent"><input type="checkbox" required /> <span>I agree that Form & Frame can use these details to respond to my enquiry.</span></label>
