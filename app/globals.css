@@ -349,3 +349,53 @@ summary::-webkit-details-marker { display: none; }
   .form-grid { grid-template-columns: 1fr; }
   .form-span { grid-column: auto; }
 }
+
+
+/* Revision 2.1: stronger supplier identity and simpler hero CTAs */
+.supplier-identity {
+  padding: 14px 18px;
+  margin-bottom: 24px;
+  gap: 14px;
+  border-left-width: 7px;
+}
+.supplier-identity-mark {
+  width: 16px;
+  height: 16px;
+}
+.supplier-identity-name {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(26px, 2.2vw, 36px);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -.035em;
+}
+.supplier-identity small {
+  font-size: 11px;
+  letter-spacing: .08em;
+}
+.supplier-brand-slot {
+  min-height: 64px;
+  align-items: center;
+}
+.supplier-brand-slot strong {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(28px, 2.2vw, 36px);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -.035em;
+}
+.supplier-card {
+  min-height: 160px;
+  border-top-width: 5px;
+}
+.service-contact-actions {
+  gap: 14px;
+}
+@media (max-width: 600px) {
+  .supplier-identity-name {
+    font-size: 28px;
+  }
+  .supplier-brand-slot strong {
+    font-size: 28px;
+  }
+}
