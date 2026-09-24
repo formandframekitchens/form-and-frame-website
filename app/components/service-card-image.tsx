@@ -12,7 +12,7 @@ export function ServiceCardImage({ src, alt, number }: { src: string; alt: strin
         src={src}
         alt={alt}
         fill
-        sizes="(max-width: 600px) 56px, (max-width: 900px) 80px, 112px"
+        sizes="(max-width: 600px) 72px, (max-width: 900px) 96px, 144px"
         onError={() => setFailed(true)}
       />
     ) : (

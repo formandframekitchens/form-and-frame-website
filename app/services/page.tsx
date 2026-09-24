@@ -14,33 +14,33 @@ const services = [
     number: "01",
     title: "Bespoke Joinery & Fitted Furniture",
     href: "/bespoke-joinery",
-    image: "/images/services-hub/bespoke-joinery.svg",
-    alt: "Illustration of fitted wardrobes and shelving",
+    image: "/images/services-hub/01-bespoke-joinery-ai.webp",
+    alt: "AI illustration of bespoke sage-green wardrobes with fitted oak shelving",
     copy: "Wardrobes, alcoves, media walls and offices, designed and fitted for your room.",
   },
   {
     number: "02",
     title: "Kitchen Installation",
     href: "/kitchen-installation",
-    image: "/images/homepage/modern-white-handleless-kitchen-installation.webp",
-    alt: "Professional fitted kitchen installation by Form & Frame",
+    image: "/images/services-hub/02-kitchen-installation-ai.webp",
+    alt: "AI illustration of a fitted kitchen with oak and sage-green cabinetry",
     copy: "Your kitchen, professionally fitted. Choose your installation and supplier.",
   },
   {
     number: "03",
     title: "Internal Door Installation",
     href: "/internal-door-installation",
-    image: "/images/services-hub/internal-door.svg",
-    alt: "Illustration of a panelled internal door and frame",
+    image: "/images/services-hub/03-internal-door-ai.webp",
+    alt: "AI illustration of an oak internal door fitted into its matching frame",
     copy: "Doors fitted into existing frames, with hinges, handles and final adjustments.",
   },
   {
     number: "04",
     title: "Joinery & Furniture Installation",
     href: "/joinery-installation",
-    image: "/images/homepage/fitted-kitchen-utility-storage-installation.webp",
-    alt: "Fitted cabinetry and storage installation detail",
-    copy: "Fitting for cabinetry and furniture made by your chosen supplier.",
+    image: "/images/services-hub/04-factory-joinery-ai.webp",
+    alt: "AI illustration of finished cabinets in a joinery factory, ready for site installation",
+    copy: "Installation of factory-made cabinetry and furniture from your chosen manufacturer.",
   },
 ];
 
@@ -59,12 +59,10 @@ export default function ServicesPage() {
   return <>
     <Header />
     <main id="main-content" className="services-hub">
-      <header className="services-hub-hero"><div className="container">
-        <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/">Home</Link><span aria-hidden="true">/</span><span>Services</span></nav>
-        <p className="eyebrow">Form & Frame services</p>
-        <h1>Choose the service you need</h1>
-        <p className="services-hub-lead">From a new kitchen to fitted furniture. Find the right help for your home in Luton, Bedfordshire and Hertfordshire.</p>
-      </div></header>
+      <div className="services-hub-selection">
+        <header className="services-hub-hero"><div className="container">
+          <h1>Choose the service you need</h1>
+        </div></header>
 
       <section className="services-hub-list-section" aria-label="Our four services"><div className="container">
         <ol className="services-hub-list">
@@ -81,6 +79,7 @@ export default function ServicesPage() {
           </li>)}
         </ol>
       </div></section>
+      </div>
 
       <section className="services-hub-trust"><div className="container">
         <p className="eyebrow">Based in Luton</p>

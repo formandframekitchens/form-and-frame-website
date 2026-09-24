@@ -4,7 +4,7 @@ The existing `services-hub-and-enquiry` branch remains the B05 TEST branch. Revi
 
 ## Visitor journey
 
-- `/services` presents four horizontal numbered rows with thumbnails, short descriptions and links to the existing service routes.
+- `/services` opens with only the heading and four horizontal numbered rows, with matching AI-generated thumbnails, short descriptions and links to the existing service routes. The opening section fills the viewport so “Based in Luton” and the enquiry support section appear after scrolling.
 - `/kitchen-installation` starts with four choices: an existing kitchen, fitting a supplied in-frame kitchen, a complete in-frame design/supply/installation project, or early-stage advice.
 - Installation enquiries can select any of the seven existing suppliers, another/overseas supplier, or “Not chosen yet”.
 - The enquiry link carries `service`, `supplier` and `installation` identifiers to `/contact`, with `#enquiry-form` as the destination.
@@ -20,7 +20,7 @@ The form continues to prepare an email in the visitor's email application. It do
 
 All existing routes, supplier links, metadata, canonical URLs and sitemap entries remain available. Query variants retain the canonical `/contact` URL. The Services ItemList retains the four routes in order.
 
-Kitchen and cabinetry thumbnails use existing website photographs. Wardrobe and door thumbnails are SVG illustrations, labelled as illustrations in their alternative text; they replace missing image references without presenting invented portfolio photographs.
+All four service thumbnails are matching AI-generated concept illustrations: bespoke wardrobes, a fitted kitchen, an internal door and a joinery factory with cabinets ready for installation. Alternative text identifies them as AI illustrations; none are described as completed Form & Frame projects. The image prompts and asset paths are recorded in `docs/b05-service-image-prompts.md`.
 
 ## Verification
 
