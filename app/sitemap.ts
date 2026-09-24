@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 
 import { siteUrl } from "./lib/site";
 import { supplierPages } from "./lib/supplier-pages";
+import { joineryCategories } from "./lib/joinery-categories";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
@@ -13,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...[
       "/services",
       "/bespoke-joinery",
+      ...joineryCategories.map(({ slug }) => `/bespoke-joinery/${slug}`),
       "/joinery-installation",
       "/kitchen-installation",
       ...supplierPages.map(({ slug }) => `/kitchen-installation/${slug}`),

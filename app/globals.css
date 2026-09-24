@@ -696,14 +696,14 @@ summary::-webkit-details-marker { display: none; }
 .services-hub-trust p:not(.eyebrow) { max-width: 760px; margin-top: 22px; }
 .service-back-link { padding-bottom: 64px; }
 
-/* B05: kitchen selection follows the approved Services composition. */
-.kitchen-selection { --kitchen-thumb-height: clamp(64px, 8.3svh, 96px); padding-block: 20px; }
-.kitchen-selection .services-hub-hero { padding-bottom: 20px; }
-.kitchen-selection .services-hub-hero h1 { font-size: clamp(34px, 3.6vw, 46px); }
-.kitchen-selection .services-hub-row { grid-template-columns: 44px calc(var(--kitchen-thumb-height) * 1.5) minmax(0, 1fr) auto; padding-block: 7px; }
-.kitchen-selection .services-card-image { height: var(--kitchen-thumb-height); }
-.kitchen-selection .services-card-content h2 { font-size: clamp(22px, 2vw, 28px); }
-.kitchen-selection .services-card-content p { margin-top: 4px; }
+/* Compact kitchen and joinery selections share the approved Services composition. */
+.service-selection-compact { --selection-thumb-height: clamp(64px, 8.3svh, 96px); padding-block: 20px; }
+.service-selection-compact .services-hub-hero { padding-bottom: 20px; }
+.service-selection-compact .services-hub-hero h1 { font-size: clamp(34px, 3.6vw, 46px); }
+.service-selection-compact .services-hub-row { grid-template-columns: 44px calc(var(--selection-thumb-height) * 1.5) minmax(0, 1fr) auto; padding-block: 7px; }
+.service-selection-compact .services-card-image { height: var(--selection-thumb-height); }
+.service-selection-compact .services-card-content h2 { font-size: clamp(22px, 2vw, 28px); }
+.service-selection-compact .services-card-content p { margin-top: 4px; }
 
 /* Editable enquiry context */
 .enquiry-prefill-note { padding: 16px 20px; margin-bottom: 24px; border-left: 3px solid var(--brass); background: #fffdf9; font-size: 15px; }
@@ -733,12 +733,19 @@ summary::-webkit-details-marker { display: none; }
 }
 
 @media (max-width: 900px) {
-  .kitchen-selection .services-hub-row { grid-template-columns: 30px 96px minmax(0, 1fr) auto; }
-  .kitchen-selection .services-card-image { height: 64px; }
+  .service-selection-compact .services-hub-row { grid-template-columns: 30px 96px minmax(0, 1fr) auto; }
+  .service-selection-compact .services-card-image { height: 64px; }
 }
 @media (max-width: 600px) {
-  .kitchen-selection { padding-block: 24px; }
-  .kitchen-selection .services-hub-hero h1 { font-size: 32px; }
-  .kitchen-selection .services-hub-row { grid-template-columns: 22px 72px minmax(0, 1fr); padding-block: 12px; }
-  .kitchen-selection .services-card-content h2 { font-size: 21px; }
+  .service-selection-compact { padding-block: 24px; }
+  .service-selection-compact .services-hub-hero h1 { font-size: 32px; }
+  .service-selection-compact .services-hub-row { grid-template-columns: 22px 72px minmax(0, 1fr); padding-block: 12px; }
+  .service-selection-compact .services-card-content h2 { font-size: 21px; }
 }
+
+/* B06: category pages are ready for curated galleries. */
+.joinery-considerations { max-width: 900px; list-style: disc; padding-left: 24px; }
+.joinery-considerations li + li { margin-top: 12px; }
+.joinery-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+@media (max-width: 1000px) { .joinery-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .joinery-gallery { grid-template-columns: 1fr; } }

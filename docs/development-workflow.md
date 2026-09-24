@@ -37,15 +37,19 @@ This keeps the structure simple:
 
 Current development batch:
 
-- B05 — Services hub and enquiry flow
+- B06 — Bespoke joinery selection and category pages
+- Git branch: `b06-bespoke-joinery`
+
+Previous approved batch:
+
+- B05 — Services hub and kitchen selection flow, merged into `master`
 
 Next development batch:
 
-- B06 — next website change
+- B07 — next website change
 
 Then:
 
-- B07
 - B08
 - B09
 - etc.

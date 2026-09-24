@@ -1,5 +1,8 @@
 import Link from "next/link";
-import { DetailGrid, ServiceFAQs, ServicePage, ServiceQuote, ServiceSection } from "../components/service-page";
+import { DetailGrid, ServiceFAQs, ServiceQuote, ServiceSection } from "../components/service-page";
+import { Footer, Header } from "../components/site-shell";
+import { ServiceSelection } from "../components/service-selection";
+import { joineryCategories } from "../lib/joinery-categories";
 import { serviceMetadata } from "../lib/service-metadata";
 import { enquiryHref } from "../lib/enquiry";
 
@@ -9,13 +12,6 @@ export const metadata = serviceMetadata(
   "/bespoke-joinery"
 );
 
-const projectTypes = [
-  { title: "Wardrobes & fitted storage", copy: "Built-in wardrobes and fitted storage designed around the room, access, proportions and day-to-day use." },
-  { title: "Alcoves & media walls", copy: "Fitted cabinetry for living spaces, including alcove units, shelving, media walls and selected display or storage features." },
-  { title: "Home offices", copy: "Purpose-built desks, cabinetry, shelving and storage designed around the room and the way the space needs to work." },
-  { title: "Utility & boot rooms", copy: "Practical fitted storage, cabinetry, bench seating and selected furniture for utility, entrance and boot-room spaces." },
-];
-
 const process = [
   { title: "Survey & brief", copy: "We review the room, measurements, intended use, finish preferences and practical constraints." },
   { title: "Design & technical coordination", copy: "Layouts, proportions and technical details are developed so the project can be manufactured and installed accurately." },
@@ -24,17 +20,14 @@ const process = [
 ];
 
 export default function BespokeJoineryPage() {
-  return <ServicePage
-    enquiryUrl={enquiryHref({ service: "bespoke-joinery" })}
-    eyebrow="Designed fitted furniture"
-    title="Bespoke joinery & fitted furniture"
-    introduction="Fitted furniture designed around the room, with Form & Frame coordinating survey, technical development, specialist manufacture where appropriate, installation and final quality control."
-    parent={{ label: "Services", href: "/services" }}
-    compactHub
-  >
-    <ServiceSection title="Furniture designed for the space" eyebrow="What we can help with">
-      <DetailGrid items={projectTypes} />
-    </ServiceSection>
+  return <div>
+    <Header />
+    <main id="main-content" className="service-page services-hub">
+      <ServiceSelection id="choose-joinery" title="Choose your bespoke joinery" label="Bespoke joinery and fitted furniture types" choices={joineryCategories.map(category => ({ ...category, href: '/bespoke-joinery/' + category.slug }))} action="Explore joinery" className="joinery-selection" />
+      <ServiceSection title="Furniture designed for the space" eyebrow="Bespoke joinery & fitted furniture" id="joinery-details">
+        <p className="service-prose">Fitted furniture designed around the room, with Form & Frame coordinating survey, technical development, specialist manufacture where appropriate, installation and final quality control. Choose the furniture you need above, or send us an enquiry if your project brings several types together.</p>
+        <Link className="text-link" href={enquiryHref({ service: "bespoke-joinery" })}>Request a quote <span aria-hidden="true">↗</span></Link>
+      </ServiceSection>
 
     <ServiceSection title="From survey to fitted result" eyebrow="A coordinated process" muted>
       <DetailGrid items={process} />
@@ -56,5 +49,7 @@ export default function BespokeJoineryPage() {
 
     <ServiceQuote enquiryUrl={enquiryHref({ service: "bespoke-joinery" })} title="Tell us about your fitted-joinery project" copy="Send your postcode, room photographs, approximate dimensions, style references and any existing drawings. We can review the project before arranging the next step." action="Send an enquiry" />
     <div className="container service-back-link"><Link className="text-link" href="/services">Back to all services <span aria-hidden="true">↗</span></Link></div>
-  </ServicePage>;
+    </main>
+    <Footer />
+  </div>;
 }

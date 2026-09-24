@@ -1,3 +1,5 @@
+import { joineryOptions, type JoineryId } from "./joinery-types";
+
 export const serviceOptions = [
   { value: "bespoke-joinery", label: "Bespoke joinery & fitted furniture" },
   { value: "kitchen-installation", label: "Kitchen installation" },
@@ -55,6 +57,7 @@ export type EnquirySelection = {
   service: ServiceId | "";
   supplier: SupplierId | "";
   installation: InstallationId | "";
+  joinery: JoineryId | "";
 };
 
 export function isKitchenService(service: string) {
@@ -68,13 +71,17 @@ export function readEnquirySelection(params: Pick<URLSearchParams, "get">): Enqu
   const supplier = isKitchenService(service) && installation?.usesSupplier !== false
     ? supplierOptions.find(option => option.value === params.get("supplier"))?.value || ""
     : "";
-  return { service, supplier, installation: installation?.value || "" };
+  const joinery = service === "bespoke-joinery"
+    ? joineryOptions.find(option => option.value === params.get("joinery"))?.value || ""
+    : "";
+  return { service, supplier, installation: installation?.value || "", joinery };
 }
 
-export function enquiryHref(selection: { service: ServiceId; supplier?: SupplierId | ""; installation?: InstallationId | "" }) {
+export function enquiryHref(selection: { service: ServiceId; supplier?: SupplierId | ""; installation?: InstallationId | ""; joinery?: JoineryId | "" }) {
   const params = new URLSearchParams({ service: selection.service });
   if (selection.supplier) params.set("supplier", selection.supplier);
   if (selection.installation) params.set("installation", selection.installation);
+  if (selection.joinery && selection.service === "bespoke-joinery") params.set("joinery", selection.joinery);
   return `/contact?${params.toString()}#enquiry-form`;
 }
 
@@ -91,6 +98,7 @@ export function enquiryEmail(data: FormData) {
       `Phone: ${data.get("phone") || ""}`,
       `Postcode / town: ${data.get("location") || ""}`,
       `Service: ${service}`,
+      ...(selection.service === "bespoke-joinery" ? [`Joinery type: ${joineryOptions.find(option => option.value === selection.joinery)?.label || "Not specified"}`] : []),
       ...(isKitchenService(selection.service) ? [`Kitchen requirement: ${installation}`, `Kitchen supplier: ${installationOptions.find(option => option.value === selection.installation)?.usesSupplier === false ? "Form & Frame" : supplier}`] : []),
       `Project stage: ${data.get("stage") || ""}`,
       "", String(data.get("message") || ""), "",
