@@ -44,20 +44,19 @@ export function ServicePage({ eyebrow, title, introduction, children, parent, im
         <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/">Home</Link>{parent && <><span aria-hidden="true">/</span><Link href={parent.href}>{parent.label}</Link></>}</nav>
         <div className="service-hero-grid">
           <div className="service-hero-copy">
-            {brandName && <div className="supplier-identity"><span className="supplier-identity-mark" aria-hidden="true" /><strong>{brandName}</strong><small>Independent installation</small></div>}
+            {brandName && <div className="supplier-identity"><span className="supplier-identity-mark" aria-hidden="true" /><strong className="supplier-identity-name">{brandName}</strong><small>Independent installation</small></div>}
             <p className="eyebrow">{eyebrow}</p>
             <h1>{title}</h1>
             <p className="service-lead">{introduction}</p>
             <div className="service-contact-actions">
               <Link className="button" href="/contact">Request a quote <span aria-hidden="true">↗</span></Link>
               <a className="button button-outline" href={WHATSAPP_HREF}>WhatsApp <span aria-hidden="true">↗</span></a>
-              <a className="service-phone-link" href={PHONE_HREF}>{BUSINESS_PHONE_DISPLAY}</a>
             </div>
           </div>
           <Visual image={images.hero} className="service-hero-visual" />
         </div>
       </div></header>
-      <ul className="service-trust-strip"><li><strong>Complete installation</strong><span>Plan to final checks</span></li><li><strong>Independent fitter</strong><span>Major kitchen suppliers</span></li><li><strong>Local coordination</strong><span>Bedfordshire & Hertfordshire</span></li><li><strong>Direct contact</strong><span>{BUSINESS_PHONE_DISPLAY}</span></li></ul>
+      <ul className="service-trust-strip"><li><strong>Complete installation</strong><span>Plan to final checks</span></li><li><strong>Independent fitter</strong><span>Major kitchen suppliers</span></li><li><strong>Local coordination</strong><span>Bedfordshire & Hertfordshire</span></li><li><strong>Fast enquiry</strong><span>WhatsApp or website form</span></li></ul>
       {children}
     </main>
     <Footer />
@@ -103,7 +102,7 @@ export function InstallationScope() {
 export function SupplierNavigation({ current }: { current?: string }) {
   return <nav aria-label="Kitchen suppliers"><ul className="supplier-grid">{supplierPages.map(supplier => <li key={supplier.slug}>
     <Link className="supplier-card" style={{ borderTopColor: supplierAccent[supplier.slug] }} href={`/kitchen-installation/${supplier.slug}`} aria-current={current === supplier.slug ? "page" : undefined}>
-      <span className="supplier-brand-slot">{supplier.name}</span><span className="supplier-card-caption">Independent installation <span aria-hidden="true">↗</span></span>
+      <span className="supplier-brand-slot"><strong>{supplier.name}</strong></span><span className="supplier-card-caption">Independent installation <span aria-hidden="true">↗</span></span>
     </Link>
   </li>)}</ul></nav>;
 }
