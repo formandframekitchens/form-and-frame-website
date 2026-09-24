@@ -7,12 +7,20 @@ import { serviceMetadata } from "../lib/service-metadata";
 export const metadata = serviceMetadata("Kitchen Installation in Luton", "Independent kitchen installation from Luton across Bedfordshire and Hertfordshire: preparation, cabinet fitting, worktops, appliances and complete project coordination.", "/kitchen-installation");
 
 export default function KitchenInstallationPage() {
-  return <ServicePage eyebrow="Our core service · Luton, Bedfordshire & Hertfordshire" title="Kitchen installation, properly coordinated" introduction={installationContent.introduction} imageKey="kitchen-installation">
-    <ServiceSection title="Your kitchen. Your choice of supplier." eyebrow="Independent installation" id="suppliers">
-      <p className="service-prose">Already chosen your kitchen? Explore our installation service for each supplier below. Other manufacturers are welcome too: send the plan and specification so we can review the work, the room and the installation sequence.</p>
+  return <ServicePage
+    eyebrow="Our core service · Luton, Bedfordshire & Hertfordshire"
+    title="Kitchen installation"
+    introduction="Independent kitchen installation for customer-supplied kitchens from major manufacturers, with practical coordination from plan review through fitting and final checks."
+    imageKey="kitchen-installation"
+    compactHub
+    beforeTrust={<div id="suppliers" className="brand-selector-block">
+      <p className="eyebrow">Choose your kitchen brand</p>
+      <h2>Which kitchen are you installing?</h2>
+      <p className="brand-selector-intro">Choose the supplier to see installation details, or send us another manufacturer’s plan for review.</p>
       <SupplierNavigation />
       <IndependentNotice />
-    </ServiceSection>
+    </div>}
+  >
     <ImageTextSection imageKey="kitchen-installation" title="From a kitchen plan to a finished room" eyebrow="More than cabinet assembly">
       <p className="service-prose">A successful fit begins before the first cabinet is fixed. We review the plan, room photographs, service positions, appliances and worktop specification so that preparation, cabinetry and finishing can be sequenced sensibly.</p>
       <p className="service-prose service-prose-spaced">If you already have a supplier plan, send it with your postcode and preferred installation period. We can establish the likely scope remotely before arranging the site visit used to confirm final conditions and quotation.</p>
