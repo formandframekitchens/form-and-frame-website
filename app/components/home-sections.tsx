@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import { manufacturers, processSteps, homepageServices, faqs } from "../lib/home-data";
 import { WHATSAPP_NUMBER, planContactHref } from "../lib/contact";
 import { Photo } from "./photo";
+import { KitchenCarousel } from "./kitchen-carousel";
 
 function Eyebrow({ children }: { children: ReactNode }) {
   return <p className="eyebrow">{children}</p>;
@@ -20,8 +21,8 @@ export function Hero() {
           <h1>Kitchen Installation in Luton</h1>
           <p className="hero-description">20 years of experience in joinery manufacturing, design and installation — from reviewing your kitchen plan and preparing the room through to accurate fitting, worktops, appliances, finishing and complete project coordination.</p>
         </div>
-        {/* Temporary Drive-hosted reference asset; replace with an optimized local image. */}
-        <div className="hero-image" role="img" aria-label="A professionally installed contemporary kitchen with fitted cabinetry and an island">
+        <div className="hero-image">
+          <KitchenCarousel />
           <div className="hero-overlay">
             <div className="hero-promise">
               <strong>From plan to finished kitchen.</strong>
