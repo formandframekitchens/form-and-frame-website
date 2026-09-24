@@ -1,7 +1,7 @@
 import { supplierPages } from "./supplier-pages";
 
 export const navigation = [
-  { label: "Services", href: "/kitchen-installation" },
+  { label: "Services", href: "/services" },
   { label: "Kitchen Brands", href: "/kitchen-installation#suppliers" },
   { label: "How It Works", href: "/kitchen-installation#installation-process" },
   { label: "Areas", href: "/kitchen-installation#service-areas" },
@@ -55,7 +55,7 @@ export const faqs = [
 ];
 
 export const homepageServices = [
-  { id: "internal-doors", title: "Internal Door Installation", copy: "Internal doors fitted to existing frames, with accurate trimming, hinges, latches and adjustments." },
-  { id: "bespoke-joinery", title: "Bespoke Joinery", copy: "Wardrobes, alcove units and fitted furniture, with specialist manufacturing partners where appropriate." },
-  { id: "joinery-installation", title: "Joinery Installation", copy: "Professional installation of cabinetry and fitted furniture supplied by joinery companies, builders and clients." },
+  { id: "internal-doors", title: "Internal Door Installation", href: "/internal-door-installation", copy: "Internal doors fitted to existing frames, with accurate trimming, hinges, latches and adjustments." },
+  { id: "bespoke-joinery", title: "Bespoke Joinery", href: "/bespoke-joinery", copy: "Wardrobes, alcove units and fitted furniture, with specialist manufacturing partners where appropriate." },
+  { id: "joinery-installation", title: "Joinery Installation", href: "/joinery-installation", copy: "Professional installation of cabinetry and fitted furniture supplied by joinery companies, builders and clients." },
 ];

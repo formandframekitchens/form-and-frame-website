@@ -11,15 +11,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     ...[
+      "/services",
+      "/bespoke-joinery",
+      "/joinery-installation",
       "/kitchen-installation",
       ...supplierPages.map(({ slug }) => `/kitchen-installation/${slug}`),
       "/in-frame-kitchens",
+      "/bespoke-kitchens",
       "/internal-door-installation",
       "/contact",
     ].map(path => ({
       url: `${siteUrl}${path}`,
       changeFrequency: "monthly" as const,
-      priority: path === "/kitchen-installation" ? 0.9 : path === "/contact" ? 0.6 : 0.7,
+      priority: path === "/services" ? 0.9 : path === "/kitchen-installation" ? 0.9 : path === "/contact" ? 0.6 : 0.7,
     })),
   ];
 }

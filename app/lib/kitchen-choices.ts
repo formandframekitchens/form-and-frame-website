@@ -1,0 +1,51 @@
+export const kitchenChoices = [
+  {
+    title: "In-frame kitchens",
+    copy: "Designed, supplied and installed by Form & Frame.",
+    href: "/in-frame-kitchens",
+    image: "/images/kitchen-choices/01-in-frame-ai.webp",
+    alt: "A sage-green in-frame kitchen with inset doors and visible face frames",
+  },
+  {
+    title: "Bespoke kitchens",
+    copy: "Made for your room. Designed, supplied and installed by Form & Frame.",
+    href: "/bespoke-kitchens",
+    image: "/images/kitchen-choices/02-bespoke-ai.webp",
+    alt: "A bespoke kitchen with a curved oak island and tailored cabinetry",
+  },
+  {
+    title: "Howdens",
+    copy: "Your Howdens kitchen, independently installed.",
+    href: "/kitchen-installation/howdens",
+    image: "/images/kitchen-choices/03-howdens-ai.webp",
+    alt: "Kitchen with olive Shaker cabinets and pale stone worktops",
+  },
+  {
+    title: "Wren",
+    copy: "Your Wren kitchen, independently installed.",
+    href: "/kitchen-installation/wren",
+    image: "/images/kitchen-choices/04-wren-ai.webp",
+    alt: "Kitchen with taupe handleless cabinets and an oak peninsula",
+  },
+  {
+    title: "IKEA",
+    copy: "Your IKEA kitchen, independently installed.",
+    href: "/kitchen-installation/ikea",
+    image: "/images/kitchen-choices/05-ikea-ai.webp",
+    alt: "Kitchen with white cabinets and natural oak worktops",
+  },
+  {
+    title: "Magnet",
+    copy: "Your Magnet kitchen, independently installed.",
+    href: "/kitchen-installation/magnet",
+    image: "/images/kitchen-choices/06-magnet-ai.webp",
+    alt: "Kitchen with forest-green cabinets and a natural oak island",
+  },
+  {
+    title: "Wickes",
+    copy: "Your Wickes kitchen, independently installed.",
+    href: "/kitchen-installation/wickes",
+    image: "/images/kitchen-choices/07-wickes-ai.webp",
+    alt: "Kitchen with stone-grey Shaker cabinets and oak worktops",
+  },
+] as const;

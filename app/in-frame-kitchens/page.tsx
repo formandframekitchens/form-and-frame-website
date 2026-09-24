@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { DetailGrid, ImageTextSection, ServiceFAQs, ServiceGallery, ServicePage, ServiceQuote, ServiceSection } from "../components/service-page";
 import { serviceMetadata } from "../lib/service-metadata";
+import { enquiryHref } from "../lib/enquiry";
 
 export const metadata = serviceMetadata("Traditional In-Frame Kitchens Luton", "Traditional British in-frame kitchens: design, supply and installation by Form & Frame. Painted Shaker cabinetry, technical drawings and client sign-off. Quotation only.", "/in-frame-kitchens");
 
@@ -14,7 +15,7 @@ const stages = [
 ];
 
 export default function InFrameKitchensPage() {
-  return <ServicePage eyebrow="Traditional British cabinetry" title="In-frame kitchens, designed around the room" introduction="Design, supply and installation of traditional in-frame kitchens around Luton and selected surrounding areas. Painted cabinetry, inset doors and visible face-frame construction create a considered kitchen with enduring proportions." parent={{ label: "Kitchen installation", href: "/kitchen-installation" }} imageKey="in-frame-kitchens">
+  return <ServicePage enquiryUrl={enquiryHref({ service: "in-frame-kitchens", installation: "design-supply-installation" })} eyebrow="Traditional British cabinetry" title="In-frame kitchens, designed around the room" introduction="Design, supply and installation of traditional in-frame kitchens around Luton and selected surrounding areas. Painted cabinetry, inset doors and visible face-frame construction create a considered kitchen with enduring proportions." parent={{ label: "Kitchen installation", href: "/kitchen-installation" }} imageKey="in-frame-kitchens">
     <ImageTextSection imageKey="in-frame-kitchens" title="Painted Shaker cabinetry, framed with care" eyebrow="The in-frame character">
       <p className="service-prose">Doors sit within a visible face frame, giving the cabinetry its distinctive in-frame character. Traditional British Shaker styling, painted finishes and plain or beaded frame options form the starting point for the design.</p>
       <p className="service-prose service-prose-spaced">We consider the proportions of each run, the relationship between doors and drawers, appliance integration and the finishing details as part of the complete room.</p>
@@ -33,7 +34,7 @@ export default function InFrameKitchensPage() {
         { title: "Careful setting out", copy: "Cabinet levels, face-frame alignment and the relationship between adjoining units are considered together before fixing." },
         { title: "Consistent final adjustment", copy: "Inset doors, drawers and finishing pieces are fitted and adjusted to the agreed design and the manufacturer's requirements." },
       ]} />
-      <Link className="text-link" href="/kitchen-installation">Our kitchen installation service <span aria-hidden="true">↗</span></Link>
+      <Link className="text-link" href={enquiryHref({ service: "kitchen-installation", installation: "in-frame-installation", supplier: "other" })}>Enquire about installation only <span aria-hidden="true">↗</span></Link>
     </ServiceSection>
     <ServiceSection title="Based in Luton, with selected projects further afield">
       <p className="service-prose">For in-frame kitchens, we can consider a wider service radius from Luton, including Harpenden, St Albans, Hemel Hempstead, Hitchin, Welwyn Garden City and Milton Keynes where the project scope is commercially sensible. Share your postcode at the enquiry stage so we can confirm suitability.</p>
@@ -44,6 +45,6 @@ export default function InFrameKitchensPage() {
       { question: "How much will my in-frame kitchen cost?", answer: "Each kitchen is quotation only. The layout, cabinetry specification, finish, worktops and installation scope determine the quotation; there are no published standard prices." },
       { question: "Can you match existing furniture?", answer: "Where practical, we can explore matching proportions, painted colours, timber or veneer character and other details. Feasibility depends on the existing furniture and the agreed manufacturing specification." },
     ]} />
-    <ServiceQuote title="Discuss your in-frame kitchen" copy="Share your postcode, room photographs, approximate timing and any plans or style references. Tell us whether you need the full design, supply and installation service or installation-only." action="Discuss my in-frame project" />
+    <ServiceQuote enquiryUrl={enquiryHref({ service: "in-frame-kitchens", installation: "design-supply-installation" })} title="Discuss your in-frame kitchen" copy="Share your postcode, room photographs, approximate timing and any plans or style references. Tell us whether you need the full design, supply and installation service or installation-only." action="Discuss my in-frame project" />
   </ServicePage>;
 }

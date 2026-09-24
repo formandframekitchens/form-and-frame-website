@@ -8,7 +8,7 @@ import { KitchenCarousel } from "./kitchen-carousel";
 function Eyebrow({ children }: { children: ReactNode }) {
   return <p className="eyebrow">{children}</p>;
 }
-function Action({ children, href = "#quote", secondary = false }: { children: ReactNode; href?: string; secondary?: boolean }) {
+function Action({ children, href = "/contact#enquiry-form", secondary = false }: { children: ReactNode; href?: string; secondary?: boolean }) {
   return <Link className={`button${secondary ? " button-outline" : ""}`} href={href}>{children}<span aria-hidden="true">↗</span></Link>;
 }
 
@@ -28,7 +28,7 @@ export function Hero() {
               <strong>From plan to finished kitchen.</strong>
               <span className="hero-process">Review <i>→</i> Prepare <i>→</i> Install <i>→</i> Finish</span>
             </div>
-            <div className="hero-actions"><Action>Get a Quote</Action><Action href={planContactHref}>Send Your Plan</Action></div>
+            <div className="hero-actions"><Action>Get a Quote</Action><Action>Send Your Plan</Action></div>
           </div>
         </div>
       </div>
@@ -110,7 +110,7 @@ export function SecondaryServices() {
     <section className="supporting-section"><div className="container">
       <h2>Other Services</h2>
       <div className="service-grid">{homepageServices.map(service => (
-        <article id={service.id} key={service.id}><h3>{service.title}</h3><p>{service.copy}</p><Link className="text-link" href={service.id === "internal-doors" ? "/internal-door-installation" : planContactHref} aria-label={service.id === "internal-doors" ? "Explore internal door installation" : `Enquire about ${service.title.toLowerCase()}`}>{service.id === "internal-doors" ? "Explore service" : "Enquire"} <span aria-hidden="true">↗</span></Link></article>
+        <article id={service.id} key={service.id}><h3>{service.title}</h3><p>{service.copy}</p><Link className="text-link" href={service.href} aria-label={`Explore ${service.title.toLowerCase()}`}>Explore service <span aria-hidden="true">↗</span></Link></article>
       ))}</div>
       <div className="service-area" id="areas"><p>Based in Luton and working across selected areas of Bedfordshire and nearby Hertfordshire.</p><Link className="text-link" href="/kitchen-installation#service-areas">Areas we cover <span aria-hidden="true">↗</span></Link></div>
     </div></section>
@@ -136,7 +136,7 @@ export function FinalCTA() {
     <section className="section final-cta" id="quote"><div className="container">
       <h2>Have Your Kitchen Plan Ready?</h2>
       <p>Send your plan, postcode and a few project details. We can start by reviewing the installation remotely.</p>
-      <div className="actions"><Action href={planContactHref}>Send my kitchen plan</Action><Action href={planContactHref} secondary>Get an initial quote</Action></div>
+      <div className="actions"><Action>Send my kitchen plan</Action><Action secondary>Get an initial quote</Action></div>
       <div className="quote-contact" id="quote-contact">
         {!WHATSAPP_NUMBER && <p>Our enquiry contact details are being set up. Plan sending and WhatsApp enquiries will be available here soon.</p>}
       </div>
