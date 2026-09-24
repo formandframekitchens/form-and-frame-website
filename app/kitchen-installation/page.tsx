@@ -21,7 +21,6 @@ export default function KitchenInstallationPage() {
         <Link className="text-link" href={enquiryHref({ service: "kitchen-installation", supplier: "not-chosen", installation: "advice" })}>Still choosing my kitchen <span aria-hidden="true">↗</span></Link>
       </div>
       <IndependentNotice />
-      <p className="kitchen-image-note">Kitchen images are AI-generated design illustrations, rather than photographs of particular supplier ranges or completed projects.</p>
     </ServiceSection>
     <ImageTextSection imageKey="kitchen-installation" title="From a kitchen plan to a finished room" eyebrow="More than cabinet assembly">
       <p className="service-prose">A successful fit begins before the first cabinet is fixed. We review the plan, room photographs, service positions, appliances and worktop specification so that preparation, cabinetry and finishing can be sequenced sensibly.</p>

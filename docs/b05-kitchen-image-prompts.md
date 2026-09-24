@@ -1,6 +1,6 @@
 # B05 kitchen selection imagery
 
-Generated with the built-in image generation tool on 24 September 2026. Seven original, coordinated kitchen concepts. These are illustrative designs, not actual supplier models or completed Form & Frame installations. Images retain this distinction in alt text and captions. Original generated files are retained; website copies are 1280px WebP, quality 86.
+Generated with the built-in image generation tool on 24 September 2026. Seven original, coordinated kitchen concepts. These are illustrative designs, not actual supplier models or completed Form & Frame installations. Generation details are recorded here for maintenance. Customer-facing images use plain subject descriptions without generation captions. Original generated files are retained; website copies are 1280px WebP, quality 86.
 
 ## 01-in-frame
 

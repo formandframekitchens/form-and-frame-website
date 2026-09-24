@@ -37,7 +37,6 @@ const makeKitchenSet = (key: string, label: string): ServiceImageSet => {
   if (choice) images.hero = {
     src: choice.image,
     alt: choice.alt,
-    caption: "AI-generated kitchen concept. Illustrative design, not a photograph of a supplier range or completed project.",
   };
   return images;
 };
