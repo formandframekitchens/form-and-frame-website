@@ -51,7 +51,7 @@ export function ServicePage({ eyebrow, title, introduction, children, parent, im
             <h1>{title}</h1>
             <p className="service-lead">{introduction}</p>
             <div className="service-contact-actions">
-              <Link className="button" href="/contact">Request a quote <span aria-hidden="true">↗</span></Link>
+              <Link className="button" href="/contact#enquiry-form">Request a quote <span aria-hidden="true">↗</span></Link>
               <a className="button button-outline" href={WHATSAPP_HREF}>WhatsApp <span aria-hidden="true">↗</span></a>
             </div>
           </div>
@@ -144,7 +144,7 @@ export function ServiceFAQs({ items }: { items: ServiceFAQ[] }) {
 export function ServiceQuote({ title = "Have your kitchen plan ready?", copy = "Send your kitchen plan, postcode, room photographs and approximate installation date. We can review the scope remotely before arranging a home visit.", action = "Start my enquiry" }: { title?: string; copy?: string; action?: string }) {
   return <section className="section final-cta" id="service-quote"><div className="container">
     <h2>{title}</h2><p>{copy}</p>
-    <div className="actions"><Link className="button" href="/contact">{action} <span aria-hidden="true">↗</span></Link><a className="button button-outline" href={WHATSAPP_HREF}>WhatsApp <span aria-hidden="true">↗</span></a></div>
+    <div className="actions"><Link className="button" href="/contact#enquiry-form">{action} <span aria-hidden="true">↗</span></Link><a className="button button-outline" href={WHATSAPP_HREF}>WhatsApp <span aria-hidden="true">↗</span></a></div>
     <p className="service-contact-note">Call <a href={PHONE_HREF}>{BUSINESS_PHONE_DISPLAY}</a> · Email <a href={EMAIL_HREF}>{BUSINESS_EMAIL}</a></p>
   </div></section>;
 }
