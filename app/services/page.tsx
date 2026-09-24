@@ -14,33 +14,33 @@ const services = [
     number: "01",
     title: "Bespoke Joinery & Fitted Furniture",
     href: "/bespoke-joinery",
-    image: "/images/services-hub/01-bespoke-joinery.webp",
-    alt: "Bespoke fitted joinery and built-in furniture by Form & Frame",
-    copy: "Designed fitted furniture and bespoke joinery including wardrobes, alcove units, media walls, home offices, utility and boot-room furniture. Form & Frame coordinates the design, technical details and installation, using specialist manufacturing partners where appropriate.",
+    image: "/images/services-hub/bespoke-joinery.svg",
+    alt: "Illustration of fitted wardrobes and shelving",
+    copy: "Wardrobes, alcoves, media walls and offices, designed and fitted for your room.",
   },
   {
     number: "02",
     title: "Kitchen Installation",
     href: "/kitchen-installation",
-    image: "/images/services-hub/02-kitchen-installation.webp",
+    image: "/images/homepage/modern-white-handleless-kitchen-installation.webp",
     alt: "Professional fitted kitchen installation by Form & Frame",
-    copy: "Professional installation of customer-supplied kitchens from major manufacturers, covering cabinetry, panels, fillers, worktops, appliances, finishing and practical project coordination.",
+    copy: "Your kitchen, professionally fitted. Choose your installation and supplier.",
   },
   {
     number: "03",
     title: "Internal Door Installation",
     href: "/internal-door-installation",
-    image: "/images/services-hub/03-internal-door-installation.webp",
-    alt: "Internal door installation and fitting by Form & Frame",
-    copy: "New internal doors fitted into existing frames, including accurate trimming and scribing, hinges, latches, mortice locks, handles, adjustments and multiple-door projects.",
+    image: "/images/services-hub/internal-door.svg",
+    alt: "Illustration of a panelled internal door and frame",
+    copy: "Doors fitted into existing frames, with hinges, handles and final adjustments.",
   },
   {
     number: "04",
     title: "Joinery & Furniture Installation",
     href: "/joinery-installation",
-    image: "/images/services-hub/04-joinery-installation.webp",
-    alt: "Factory-produced joinery and fitted furniture installation by Form & Frame",
-    copy: "Installation-only for factory-produced or client-supplied cabinetry and fitted furniture made by joinery companies, manufacturers, designers, builders or other suppliers.",
+    image: "/images/homepage/fitted-kitchen-utility-storage-installation.webp",
+    alt: "Fitted cabinetry and storage installation detail",
+    copy: "Fitting for cabinetry and furniture made by your chosen supplier.",
   },
 ];
 
@@ -63,23 +63,23 @@ export default function ServicesPage() {
         <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/">Home</Link><span aria-hidden="true">/</span><span>Services</span></nav>
         <p className="eyebrow">Form & Frame services</p>
         <h1>Choose the service you need</h1>
-        <p className="services-hub-lead">Kitchen installation, bespoke fitted joinery, internal doors and professional installation of factory-produced joinery across Luton and selected areas of Bedfordshire and Hertfordshire.</p>
+        <p className="services-hub-lead">From a new kitchen to fitted furniture. Find the right help for your home in Luton, Bedfordshire and Hertfordshire.</p>
       </div></header>
 
-      <section className="services-hub-grid-section"><div className="container">
-        <div className="services-hub-grid">
-          {services.map(service => <Link href={service.href} className="services-hub-card" key={service.number}>
-            <ServiceCardImage src={service.image} alt={service.alt} number={service.number} />
-            <div className="services-card-content">
-              <span className="services-card-number">{service.number}</span>
-              <div>
+      <section className="services-hub-list-section" aria-label="Our four services"><div className="container">
+        <ol className="services-hub-list">
+          {services.map(service => <li key={service.number}>
+            <Link href={service.href} className="services-hub-row">
+              <span className="services-card-number" aria-hidden="true">{service.number}</span>
+              <ServiceCardImage src={service.image} alt={service.alt} number={service.number} />
+              <div className="services-card-content">
                 <h2>{service.title}</h2>
                 <p>{service.copy}</p>
-                <span className="services-card-action">Explore service <span aria-hidden="true">↗</span></span>
               </div>
-            </div>
-          </Link>)}
-        </div>
+              <span className="services-card-action">Explore service <span aria-hidden="true">↗</span></span>
+            </Link>
+          </li>)}
+        </ol>
       </div></section>
 
       <section className="services-hub-trust"><div className="container">

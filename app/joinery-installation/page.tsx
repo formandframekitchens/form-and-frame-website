@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { DetailGrid, ServiceFAQs, ServicePage, ServiceQuote, ServiceSection } from "../components/service-page";
 import { serviceMetadata } from "../lib/service-metadata";
+import { enquiryHref } from "../lib/enquiry";
 
 export const metadata = serviceMetadata(
   "Joinery & Furniture Installation Luton",
@@ -19,6 +20,7 @@ const scope = [
 
 export default function JoineryInstallationPage() {
   return <ServicePage
+    enquiryUrl={enquiryHref({ service: "joinery-installation" })}
     eyebrow="Installation-only service"
     title="Joinery & furniture installation"
     introduction="Professional installation of factory-produced or client-supplied cabinetry and fitted furniture for joinery companies, manufacturers, designers, builders and homeowners."
@@ -53,7 +55,7 @@ export default function JoineryInstallationPage() {
       { question: "Can you work directly for joinery companies or manufacturers?", answer: "Yes. Form & Frame can provide installation support for manufacturers, joinery companies, designers and builders where the project scope and location are suitable." },
     ]} />
 
-    <ServiceQuote title="Have a joinery package ready to install?" copy="Send the drawings, location, photographs, delivery information and expected installation dates so we can review the scope." action="Send an enquiry" />
+    <ServiceQuote enquiryUrl={enquiryHref({ service: "joinery-installation" })} title="Have a joinery package ready to install?" copy="Send the drawings, location, photographs, delivery information and expected installation dates so we can review the scope." action="Send an enquiry" />
     <div className="container service-back-link"><Link className="text-link" href="/services">Back to all services <span aria-hidden="true">↗</span></Link></div>
   </ServicePage>;
 }

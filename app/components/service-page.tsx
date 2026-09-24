@@ -6,6 +6,7 @@ import { processSteps, serviceAreas } from "../lib/home-data";
 import { experienceContent } from "../lib/service-content";
 import { getServiceImages, type ServiceImage } from "../lib/service-images";
 import { kitchenFAQs, kitchenScope, supplierPages, type ServiceDetail, type ServiceFAQ, type SupplierPageData } from "../lib/supplier-pages";
+import { enquiryHref, supplierOptions } from "../lib/enquiry";
 
 const supplierAccent: Record<string, string> = {
   howdens: "#c8102e",
@@ -26,7 +27,7 @@ function Visual({ image, className = "" }: { image: ServiceImage; className?: st
   </figure>;
 }
 
-export function ServicePage({ eyebrow, title, introduction, children, parent, imageKey = "kitchen-installation", brandName, brandAccent, beforeTrust, compactHub = false }: {
+export function ServicePage({ eyebrow, title, introduction, children, parent, imageKey = "kitchen-installation", brandName, brandAccent, beforeTrust, compactHub = false, hideHeroActions = false, enquiryUrl = "/contact#enquiry-form" }: {
   eyebrow: string;
   title: string;
   introduction: string;
@@ -37,11 +38,13 @@ export function ServicePage({ eyebrow, title, introduction, children, parent, im
   brandAccent?: string;
   beforeTrust?: ReactNode;
   compactHub?: boolean;
+  hideHeroActions?: boolean;
+  enquiryUrl?: string;
 }) {
   const images = getServiceImages(imageKey);
   return <>
     <Header />
-    <main id="main-content" className="service-page" style={brandAccent ? { "--supplier-accent": brandAccent } as React.CSSProperties : undefined}>
+    <main id="main-content" className={`service-page${hideHeroActions ? " kitchen-choice-page" : ""}`} style={brandAccent ? { "--supplier-accent": brandAccent } as React.CSSProperties : undefined}>
       <header className="service-hero"><div className="container">
         <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/">Home</Link>{parent && <><span aria-hidden="true">/</span><Link href={parent.href}>{parent.label}</Link></>}</nav>
         <div className={`service-hero-grid${compactHub ? " service-hero-grid-compact" : ""}`}>
@@ -50,10 +53,10 @@ export function ServicePage({ eyebrow, title, introduction, children, parent, im
             <p className="eyebrow">{eyebrow}</p>
             <h1>{title}</h1>
             <p className="service-lead">{introduction}</p>
-            <div className="service-contact-actions">
-              <Link className="button" href="/contact#enquiry-form">Request a quote <span aria-hidden="true">↗</span></Link>
+            {!hideHeroActions && <div className="service-contact-actions">
+              <Link className="button" href={enquiryUrl}>Request a quote <span aria-hidden="true">↗</span></Link>
               <a className="button button-outline" href={WHATSAPP_HREF}>WhatsApp <span aria-hidden="true">↗</span></a>
-            </div>
+            </div>}
           </div>
           {!compactHub && <Visual image={images.hero} className="service-hero-visual" />}
         </div>
@@ -141,10 +144,10 @@ export function ServiceFAQs({ items }: { items: ServiceFAQ[] }) {
   </ServiceSection>;
 }
 
-export function ServiceQuote({ title = "Have your kitchen plan ready?", copy = "Send your kitchen plan, postcode, room photographs and approximate installation date. We can review the scope remotely before arranging a home visit.", action = "Start my enquiry" }: { title?: string; copy?: string; action?: string }) {
+export function ServiceQuote({ title = "Have your kitchen plan ready?", copy = "Send your kitchen plan, postcode, room photographs and approximate installation date. We can review the scope remotely before arranging a home visit.", action = "Start my enquiry", enquiryUrl = "/contact#enquiry-form" }: { title?: string; copy?: string; action?: string; enquiryUrl?: string }) {
   return <section className="section final-cta" id="service-quote"><div className="container">
     <h2>{title}</h2><p>{copy}</p>
-    <div className="actions"><Link className="button" href="/contact#enquiry-form">{action} <span aria-hidden="true">↗</span></Link><a className="button button-outline" href={WHATSAPP_HREF}>WhatsApp <span aria-hidden="true">↗</span></a></div>
+    <div className="actions"><Link className="button" href={enquiryUrl}>{action} <span aria-hidden="true">↗</span></Link><a className="button button-outline" href={WHATSAPP_HREF}>WhatsApp <span aria-hidden="true">↗</span></a></div>
     <p className="service-contact-note">Call <a href={PHONE_HREF}>{BUSINESS_PHONE_DISPLAY}</a> · Email <a href={EMAIL_HREF}>{BUSINESS_EMAIL}</a></p>
   </div></section>;
 }
@@ -157,7 +160,8 @@ export function LocalServiceArea() {
 }
 
 export function SupplierPage({ supplier }: { supplier: SupplierPageData }) {
-  return <ServicePage eyebrow="Independent kitchen fitter · Luton & surrounding areas" title={`${supplier.name} kitchen installation`} introduction={supplier.introduction} parent={{ label: "Kitchen installation", href: "/kitchen-installation" }} imageKey={supplier.slug} brandName={supplier.name} brandAccent={supplierAccent[supplier.slug]}>
+  const enquiryUrl = enquiryHref({ service: "kitchen-installation", supplier: supplierOptions.find(option => option.value === supplier.slug)?.value, installation: "own-kitchen" });
+  return <ServicePage enquiryUrl={enquiryUrl} eyebrow="Independent kitchen fitter · Luton & surrounding areas" title={`${supplier.name} kitchen installation`} introduction={supplier.introduction} parent={{ label: "Kitchen installation", href: "/kitchen-installation" }} imageKey={supplier.slug} brandName={supplier.name} brandAccent={supplierAccent[supplier.slug]}>
     <div className="container"><IndependentNotice name={supplier.name} /></div>
     <ImageTextSection imageKey={supplier.slug} title={`Planning a ${supplier.name} kitchen fit`} eyebrow="Before installation begins">
       <p className="service-prose">Send the kitchen plan, order or component information, appliance details, worktop specification and photographs of the room. We use the actual project information to establish the fitting sequence, identify preparation requirements and confirm what should be included in the quotation.</p>
@@ -170,6 +174,6 @@ export function SupplierPage({ supplier }: { supplier: SupplierPageData }) {
     <ServiceGallery imageKey={supplier.slug} title={`${supplier.name} kitchen gallery`} />
     <ServiceFAQs items={[supplier.faq, ...kitchenFAQs, { question: `Are you an approved ${supplier.name} installer?`, answer: `No. Form & Frame provides an independent installation service and is not affiliated with, endorsed by or an approved installer for ${supplier.name}. Your kitchen purchase remains with your supplier.` }, { question: "What should I send with my enquiry?", answer: "Send your kitchen plan, postcode, room photographs, preferred installation timing and any appliance or worktop information already available. The more complete the information, the more useful the first scope review can be." }]} />
     <ServiceSection title="Explore installation by supplier" muted><SupplierNavigation current={supplier.slug} /></ServiceSection>
-    <ServiceQuote />
+    <ServiceQuote enquiryUrl={enquiryUrl} />
   </ServicePage>;
 }

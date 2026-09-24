@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ImageTextSection, IndependentNotice, InstallationProcess, InstallationScope, LocalServiceArea, ServiceFAQs, ServiceGallery, ServicePage, ServiceQuote, ServiceSection, SupplierNavigation, WhyChooseUs } from "../components/service-page";
-import { installationContent } from "../lib/service-content";
+import { KitchenChoiceFlow } from "../components/kitchen-choice-flow";
+import { enquiryHref } from "../lib/enquiry";
 import { kitchenFAQs } from "../lib/supplier-pages";
 import { serviceMetadata } from "../lib/service-metadata";
 
@@ -12,15 +13,16 @@ export default function KitchenInstallationPage() {
     title="Kitchen installation"
     introduction="Independent kitchen installation for customer-supplied kitchens from major manufacturers, with practical coordination from plan review through fitting and final checks."
     imageKey="kitchen-installation"
+    parent={{ label: "Services", href: "/services" }}
     compactHub
-    beforeTrust={<div id="suppliers" className="brand-selector-block">
-      <p className="eyebrow">Choose your kitchen brand</p>
-      <h2>Which kitchen are you installing?</h2>
-      <p className="brand-selector-intro">Choose the supplier to see installation details, or send us another manufacturer’s plan for review.</p>
+    hideHeroActions
+    beforeTrust={<KitchenChoiceFlow />}
+  >
+    <ServiceSection title="Explore installation by supplier" eyebrow="Your kitchen, independently fitted" id="suppliers">
+      <p className="service-prose">Read about fitting your chosen kitchen below. Already know what you need? <Link href="#choose-installation">Choose your service and start an enquiry.</Link></p>
       <SupplierNavigation />
       <IndependentNotice />
-    </div>}
-  >
+    </ServiceSection>
     <ImageTextSection imageKey="kitchen-installation" title="From a kitchen plan to a finished room" eyebrow="More than cabinet assembly">
       <p className="service-prose">A successful fit begins before the first cabinet is fixed. We review the plan, room photographs, service positions, appliances and worktop specification so that preparation, cabinetry and finishing can be sequenced sensibly.</p>
       <p className="service-prose service-prose-spaced">If you already have a supplier plan, send it with your postcode and preferred installation period. We can establish the likely scope remotely before arranging the site visit used to confirm final conditions and quotation.</p>
@@ -38,6 +40,6 @@ export default function KitchenInstallationPage() {
       { question: "What information should I send first?", answer: "Send the supplier plan, postcode, a few photographs of the existing room, your expected installation date, appliance details and worktop information if known. This lets us review the likely fitting scope before a site visit." },
       { question: "Can you work outside Luton?", answer: "Yes. Luton is the core base, with projects considered across Dunstable, Harpenden, St Albans, Hemel Hempstead, Hitchin, Welwyn Garden City, Berkhamsted, Leighton Buzzard, Milton Keynes, Bedford and surrounding Bedfordshire and Hertfordshire." }
     ]} />
-    <ServiceQuote />
+    <ServiceQuote enquiryUrl={enquiryHref({ service: "kitchen-installation" })} />
   </ServicePage>;
 }

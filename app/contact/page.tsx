@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { EnquiryForm } from "../components/enquiry-form";
 import { Footer, Header } from "../components/site-shell";
 import { BUSINESS_EMAIL, BUSINESS_PHONE_DISPLAY, EMAIL_HREF, PHONE_HREF, WHATSAPP_HREF } from "../lib/contact";
@@ -26,7 +27,7 @@ export default function ContactPage() {
       <section className="service-section service-section-muted" id="enquiry-form"><div className="container">
         <p className="eyebrow">Initial enquiry</p>
         <h2>Send the essentials first</h2>
-        <div className="service-section-body"><EnquiryForm /></div>
+        <div className="service-section-body"><Suspense fallback={<p className="enquiry-loading">Loading your enquiry form… You can also <a href={EMAIL_HREF}>email {BUSINESS_EMAIL}</a>.</p>}><EnquiryForm /></Suspense></div>
       </div></section>
     </main>
     <Footer />

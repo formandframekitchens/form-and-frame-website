@@ -12,13 +12,12 @@ export function ServiceCardImage({ src, alt, number }: { src: string; alt: strin
         src={src}
         alt={alt}
         fill
-        sizes="(max-width: 700px) 92vw, (max-width: 1100px) 46vw, 600px"
+        sizes="(max-width: 600px) 56px, (max-width: 900px) 80px, 112px"
         onError={() => setFailed(true)}
       />
     ) : (
       <div className="services-card-placeholder" role="img" aria-label={alt}>
         <span>{number}</span>
-        <small>Service imagery being prepared</small>
       </div>
     )}
   </div>;

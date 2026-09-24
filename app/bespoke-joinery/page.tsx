@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { DetailGrid, ServiceFAQs, ServicePage, ServiceQuote, ServiceSection } from "../components/service-page";
 import { serviceMetadata } from "../lib/service-metadata";
+import { enquiryHref } from "../lib/enquiry";
 
 export const metadata = serviceMetadata(
   "Bespoke Joinery & Fitted Furniture Luton",
@@ -24,6 +25,7 @@ const process = [
 
 export default function BespokeJoineryPage() {
   return <ServicePage
+    enquiryUrl={enquiryHref({ service: "bespoke-joinery" })}
     eyebrow="Designed fitted furniture"
     title="Bespoke joinery & fitted furniture"
     introduction="Fitted furniture designed around the room, with Form & Frame coordinating survey, technical development, specialist manufacture where appropriate, installation and final quality control."
@@ -52,7 +54,7 @@ export default function BespokeJoineryPage() {
       { question: "Do you offer wardrobes and media walls?", answer: "Yes. Wardrobes, alcove units, media walls, home offices, utility furniture and selected fitted storage are within the bespoke joinery service." },
     ]} />
 
-    <ServiceQuote title="Tell us about your fitted-joinery project" copy="Send your postcode, room photographs, approximate dimensions, style references and any existing drawings. We can review the project before arranging the next step." action="Send an enquiry" />
+    <ServiceQuote enquiryUrl={enquiryHref({ service: "bespoke-joinery" })} title="Tell us about your fitted-joinery project" copy="Send your postcode, room photographs, approximate dimensions, style references and any existing drawings. We can review the project before arranging the next step." action="Send an enquiry" />
     <div className="container service-back-link"><Link className="text-link" href="/services">Back to all services <span aria-hidden="true">↗</span></Link></div>
   </ServicePage>;
 }
