@@ -5,6 +5,7 @@
   --ivory: #f4efe6;
   --charcoal: #20201d;
   --brass: #b79a63;
+  --brass-text: #7d653b;
   --stone: #b8aa98;
   --oak: #5a4030;
   --line: color-mix(in srgb, var(--stone) 45%, transparent);
@@ -749,3 +750,205 @@ summary::-webkit-details-marker { display: none; }
 .joinery-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
 @media (max-width: 1000px) { .joinery-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .joinery-gallery { grid-template-columns: 1fr; } }
+
+
+/* B06 audit implementation: enquiry, privacy and accessibility */
+.project-intro {
+  max-width: 780px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.service-copy-only {
+  max-width: 900px;
+}
+.service-copy-only .service-split-copy {
+  max-width: 900px;
+}
+.form-status,
+.form-error-summary {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 22px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--brass-text);
+  background: #fffdf9;
+}
+.form-status:focus {
+  outline: 2px solid var(--green);
+  outline-offset: 4px;
+}
+.form-status-success {
+  border-left-color: var(--green);
+}
+.form-status-error,
+.form-error-summary {
+  border-left-color: #8a342f;
+}
+.form-status span,
+.form-error-summary span,
+.form-status small {
+  font-size: 14px;
+}
+.field-optional {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.field-error {
+  color: #762b27;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.file-upload-block {
+  display: grid;
+  gap: 16px;
+  margin-top: 24px;
+  padding: 22px;
+  border: 1px solid var(--stone);
+  background: #fffdf9;
+}
+.file-upload-block p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+.file-picker {
+  position: relative;
+  display: inline-flex !important;
+  width: fit-content;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 18px;
+  border: 1px solid var(--green);
+  background: transparent;
+  color: var(--green);
+  cursor: pointer;
+}
+.file-picker input {
+  position: absolute;
+  width: 1px !important;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+.file-list {
+  display: grid;
+  gap: 10px;
+}
+.file-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+}
+.file-list li > span {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+.file-list strong {
+  overflow-wrap: anywhere;
+  font-size: 14px;
+}
+.file-list small {
+  font-size: 12px;
+}
+.file-list button {
+  min-width: 72px;
+  min-height: 44px;
+  border: 1px solid var(--stone);
+  background: transparent;
+  cursor: pointer;
+}
+.enquiry-form button:disabled {
+  opacity: .65;
+  cursor: not-allowed;
+}
+.consent a,
+.privacy-copy a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.privacy-copy {
+  max-width: 900px !important;
+}
+.privacy-copy h2 {
+  margin-top: 42px;
+  font-size: clamp(28px, 3vw, 38px);
+}
+.privacy-copy h2:first-child {
+  margin-top: 0;
+}
+.privacy-copy h2 + p {
+  margin-top: 16px;
+}
+.privacy-note {
+  margin-top: 36px;
+  padding-left: 18px;
+  border-left: 3px solid var(--brass-text);
+}
+.kitchen-carousel-dots {
+  gap: 2px;
+}
+.kitchen-carousel-dots button {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  background: transparent;
+}
+.kitchen-carousel-dots button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgb(244 239 230 / 78%);
+  border-radius: 50%;
+  background: rgb(23 33 27 / 42%);
+  transform: translate(-50%, -50%);
+}
+.kitchen-carousel-dots button[aria-current="true"] {
+  background: transparent;
+}
+.kitchen-carousel-dots button[aria-current="true"]::before {
+  background: var(--brass);
+  border-color: var(--brass);
+}
+.kitchen-carousel-pause {
+  position: absolute;
+  right: 18px;
+  bottom: 103px;
+  z-index: 4;
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid rgb(244 239 230 / 45%);
+  background: rgb(23 33 27 / 72%);
+  color: var(--ivory);
+  font-size: 12px;
+  cursor: pointer;
+}
+.kitchen-carousel-pause:hover,
+.kitchen-carousel-pause:focus-visible {
+  background: var(--ivory);
+  color: var(--green);
+}
+@media (max-width: 600px) {
+  .form-grid {
+    gap: 18px;
+  }
+  .file-upload-block {
+    padding: 18px;
+  }
+  .kitchen-carousel-pause {
+    right: 10px;
+    bottom: 171px;
+  }
+}
