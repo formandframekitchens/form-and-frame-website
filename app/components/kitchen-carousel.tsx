@@ -8,15 +8,25 @@ const AUTOPLAY_MS = 5200;
 
 export function KitchenCarousel() {
   const [index, setIndex] = useState(0);
-  const [paused, setPaused] = useState(false);
+  const [interactionPaused, setInteractionPaused] = useState(false);
+  const [userPaused, setUserPaused] = useState(false);
+  const [reducedMotion, setReducedMotion] = useState(false);
 
   useEffect(() => {
-    if (paused || homepageKitchenSlides.length < 2) return;
+    const media = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const update = () => setReducedMotion(media.matches);
+    update();
+    media.addEventListener("change", update);
+    return () => media.removeEventListener("change", update);
+  }, []);
+
+  useEffect(() => {
+    if (interactionPaused || userPaused || reducedMotion || homepageKitchenSlides.length < 2) return;
     const timer = window.setInterval(() => {
       setIndex(current => (current + 1) % homepageKitchenSlides.length);
     }, AUTOPLAY_MS);
     return () => window.clearInterval(timer);
-  }, [paused]);
+  }, [interactionPaused, userPaused, reducedMotion]);
 
   function goTo(next: number) {
     setIndex((next + homepageKitchenSlides.length) % homepageKitchenSlides.length);
@@ -28,10 +38,10 @@ export function KitchenCarousel() {
       role="region"
       aria-roledescription="carousel"
       aria-label="Form & Frame kitchen installation photography"
-      onMouseEnter={() => setPaused(true)}
-      onMouseLeave={() => setPaused(false)}
-      onFocusCapture={() => setPaused(true)}
-      onBlurCapture={() => setPaused(false)}
+      onMouseEnter={() => setInteractionPaused(true)}
+      onMouseLeave={() => setInteractionPaused(false)}
+      onFocusCapture={() => setInteractionPaused(true)}
+      onBlurCapture={() => setInteractionPaused(false)}
     >
       <div className="kitchen-carousel-track">
         {homepageKitchenSlides.map((slide, slideIndex) => (
@@ -52,22 +62,17 @@ export function KitchenCarousel() {
         ))}
       </div>
 
-      <button
-        className="kitchen-carousel-arrow kitchen-carousel-prev"
+      <button className="kitchen-carousel-arrow kitchen-carousel-prev" type="button" aria-label="Previous kitchen image" onClick={() => goTo(index - 1)}>←</button>
+      <button className="kitchen-carousel-arrow kitchen-carousel-next" type="button" aria-label="Next kitchen image" onClick={() => goTo(index + 1)}>→</button>
+
+      {!reducedMotion && <button
+        className="kitchen-carousel-pause"
         type="button"
-        aria-label="Previous kitchen image"
-        onClick={() => goTo(index - 1)}
+        aria-pressed={userPaused}
+        onClick={() => setUserPaused(value => !value)}
       >
-        ←
-      </button>
-      <button
-        className="kitchen-carousel-arrow kitchen-carousel-next"
-        type="button"
-        aria-label="Next kitchen image"
-        onClick={() => goTo(index + 1)}
-      >
-        →
-      </button>
+        {userPaused ? "Play slideshow" : "Pause slideshow"}
+      </button>}
 
       <div className="kitchen-carousel-dots" aria-label="Choose kitchen image">
         {homepageKitchenSlides.map((slide, dotIndex) => (
