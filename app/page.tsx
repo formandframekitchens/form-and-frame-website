@@ -28,6 +28,17 @@ export const metadata: Metadata = {
   },
 };
 
+const professionalService = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  name: "Form & Frame",
+  url: "https://formandframekitchens.co.uk/",
+  telephone: "+447933026532",
+  email: "sales@formandframekitchens.co.uk",
+  areaServed: ["Luton", "Bedfordshire", "Hertfordshire"],
+  serviceType: ["Kitchen installation", "Bespoke joinery", "Internal door installation", "Joinery installation"],
+};
+
 export default function Home() {
-  return <><Header /><main id="main-content"><div className="first-screen"><Hero /><TrustStrip /></div><KitchenInstallation /><TechnicalExpertise /><Process /><ProjectsPreview /><SecondaryServices /><FAQ /><FinalCTA /></main><Footer /></>;
+  return <><Header /><main id="main-content"><div className="first-screen"><Hero /><TrustStrip /></div><KitchenInstallation /><TechnicalExpertise /><Process /><ProjectsPreview /><SecondaryServices /><FAQ /><FinalCTA /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(professionalService) }} /></main><Footer /></>;
 }
