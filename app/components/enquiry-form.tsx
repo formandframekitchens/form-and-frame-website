@@ -222,7 +222,15 @@ function EnquiryFields({ initialSelection }: { initialSelection: EnquirySelectio
           <input name="doorCount" inputMode="numeric" placeholder="e.g. 5" />
         </label>
         <label>Door type
-          <input name="doorType" placeholder="e.g. primed solid-core internal doors" />
+          <select name="doorType" defaultValue="">
+            <option value="">Not sure yet</option>
+            <option>Hinged internal doors</option>
+            <option>Double or glazed doors</option>
+            <option>Sliding or pocket doors</option>
+            <option>Folding or bifold doors</option>
+            <option>Made-to-order / bespoke doors</option>
+            <option>Other</option>
+          </select>
         </label>
       </>}
 
