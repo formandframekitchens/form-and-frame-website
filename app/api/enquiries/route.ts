@@ -73,7 +73,7 @@ export async function POST(request: Request) {
   if (files.length > MAX_FILES) errors.files = `Please attach no more than ${MAX_FILES} files.`;
 
   let totalBytes = 0;
-  const checkedFiles: { file: File; bytes: Uint8Array }[] = [];
+  const checkedFiles: File[] = [];
   for (const file of files) {
     totalBytes += file.size;
     if (file.size > MAX_FILE_BYTES) {
@@ -88,7 +88,7 @@ export async function POST(request: Request) {
       errors.files = "One attachment did not match its declared file type.";
       break;
     }
-    checkedFiles.push({ file, bytes: new Uint8Array(await file.arrayBuffer()) });
+    checkedFiles.push(file);
   }
   if (totalBytes > MAX_TOTAL_BYTES) errors.files = "Attachments must total 25 MB or less.";
 
@@ -113,8 +113,8 @@ export async function POST(request: Request) {
   }
   outbound.set("reference", enquiryReference);
   outbound.set("receivedAt", new Date().toISOString());
-  for (const { file, bytes } of checkedFiles) {
-    outbound.append("files", new File([bytes], safeFilename(file.name), { type: file.type }));
+  for (const file of checkedFiles) {
+    outbound.append("files", file, safeFilename(file.name));
   }
 
   try {
