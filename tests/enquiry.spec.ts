@@ -178,3 +178,63 @@ test("prepared email includes readable choices and omits stale kitchen details",
   expect(changed.body).not.toContain("Kitchen supplier:");
   expect(changed.body).not.toContain("Kitchen requirement:");
 });
+
+
+test("enquiry API rejects incomplete submissions before delivery", async ({ request }) => {
+  const response = await request.post("/api/enquiries", {
+    multipart: {
+      service: "kitchen-installation",
+      privacyAccepted: "yes",
+    },
+  });
+  expect(response.status()).toBe(400);
+  const body = await response.json();
+  expect(body.ok).toBe(false);
+  expect(body.fields.name).toBeTruthy();
+  expect(body.fields.contact).toBeTruthy();
+  expect(body.fields.location).toBeTruthy();
+  expect(body.fields.message).toBeTruthy();
+});
+
+test("valid enquiry does not claim acceptance when provider is unconfigured", async ({ request }) => {
+  const response = await request.post("/api/enquiries", {
+    multipart: {
+      name: "Preview test",
+      email: "preview@example.com",
+      location: "LU1",
+      service: "kitchen-installation",
+      preferredContact: "email",
+      message: "Controlled preview validation test.",
+      privacyAccepted: "yes",
+      submissionId: "preview-test-id",
+    },
+  });
+  expect(response.status()).toBe(503);
+  const body = await response.json();
+  expect(body.ok).toBe(false);
+  expect(body.code).toBe("provider_not_configured");
+  expect(body.reference).toBeUndefined();
+});
+
+test("enquiry API rejects a file whose bytes do not match its declared type", async ({ request }) => {
+  const response = await request.post("/api/enquiries", {
+    multipart: {
+      name: "Preview test",
+      phone: "07123456789",
+      location: "LU1",
+      service: "internal-door-installation",
+      preferredContact: "phone",
+      message: "Controlled attachment validation test.",
+      privacyAccepted: "yes",
+      files: {
+        name: "not-really-a.pdf",
+        mimeType: "application/pdf",
+        buffer: Buffer.from("this is not a pdf"),
+      },
+    },
+  });
+  expect(response.status()).toBe(400);
+  const body = await response.json();
+  expect(body.ok).toBe(false);
+  expect(body.fields.files).toMatch(/file type/i);
+});
