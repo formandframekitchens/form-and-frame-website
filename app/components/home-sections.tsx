@@ -28,7 +28,7 @@ export function Hero() {
               <strong>From plan to finished kitchen.</strong>
               <span className="hero-process">Review <i>→</i> Prepare <i>→</i> Install <i>→</i> Finish</span>
             </div>
-            <div className="hero-actions"><Action>Get a Quote</Action><Action>Send Your Plan</Action></div>
+            <div className="hero-actions"><Action href="/contact?service=kitchen-installation#enquiry-form">Get an installation quote</Action><Action href="/#projects" secondary>View our work</Action></div>
           </div>
         </div>
       </div>
@@ -95,11 +95,13 @@ export function Process() {
 export function ProjectsPreview() {
   return (
     <section className="section projects-section" id="projects"><div className="container">
-      <h2>Selected Work</h2>
+      <p className="eyebrow">Genuine installation photography</p>
+      <h2>Details from a completed kitchen</h2>
+      <p className="project-intro">These photographs show one completed kitchen currently approved for the website. Additional project stories will be added only when their project details and image permissions have been confirmed.</p>
       <div className="project-grid">
-        <Photo name="finished" caption="Finished Kitchen" />
-        <Photo name="craftsmanship" caption="Craftsmanship Detail" />
-        <Photo name="complex" caption="Complex Installation" />
+        <Photo name="finished" caption="Completed handleless kitchen" />
+        <Photo name="craftsmanship" caption="Integrated appliance fitting detail" />
+        <Photo name="complex" caption="Fitted utility and tall-unit detail" />
       </div>
     </div></section>
   );
@@ -136,7 +138,7 @@ export function FinalCTA() {
     <section className="section final-cta" id="quote"><div className="container">
       <h2>Have Your Kitchen Plan Ready?</h2>
       <p>Send your plan, postcode and a few project details. We can start by reviewing the installation remotely.</p>
-      <div className="actions"><Action>Send my kitchen plan</Action><Action secondary>Get an initial quote</Action></div>
+      <div className="actions"><Action href="/contact?service=kitchen-installation#enquiry-form">Send my kitchen plan</Action><a className="button button-outline" href="https://wa.me/447933026532?text=Hello%2C%20I%27d%20like%20to%20discuss%20a%20kitchen%20installation%20with%20Form%20%26%20Frame.">WhatsApp instead <span aria-hidden="true">↗</span></a></div>
       <div className="quote-contact" id="quote-contact">
         {!WHATSAPP_NUMBER && <p>Our enquiry contact details are being set up. Plan sending and WhatsApp enquiries will be available here soon.</p>}
       </div>

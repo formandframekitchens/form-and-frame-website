@@ -55,7 +55,7 @@ export default function JoineryInstallationPage() {
       { question: "Can you work directly for joinery companies or manufacturers?", answer: "Yes. Form & Frame can provide installation support for manufacturers, joinery companies, designers and builders where the project scope and location are suitable." },
     ]} />
 
-    <ServiceQuote enquiryUrl={enquiryHref({ service: "joinery-installation" })} title="Have a joinery package ready to install?" copy="Send the drawings, location, photographs, delivery information and expected installation dates so we can review the scope." action="Send an enquiry" />
+    <ServiceQuote enquiryUrl={enquiryHref({ service: "joinery-installation" })} whatsappMessage="Hello, I’d like to enquire about joinery or fitted-furniture installation with Form & Frame." title="Have a joinery package ready to install?" copy="Send the drawings, location, photographs, delivery information and expected installation dates so we can review the scope." action="Send an enquiry" />
     <div className="container service-back-link"><Link className="text-link" href="/services">Back to all services <span aria-hidden="true">↗</span></Link></div>
   </ServicePage>;
 }

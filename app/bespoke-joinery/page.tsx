@@ -16,7 +16,7 @@ const process = [
   { title: "Survey & brief", copy: "We review the room, measurements, intended use, finish preferences and practical constraints." },
   { title: "Design & technical coordination", copy: "Layouts, proportions and technical details are developed so the project can be manufactured and installed accurately." },
   { title: "Specialist manufacture", copy: "Where appropriate, cabinetry is produced through selected specialist manufacturing partners to the agreed design and specification." },
-  { title: "Installation & QC", copy: "Form & Frame coordinates installation, adjustment, finishing details and final quality checks on site." },
+  { title: "Installation & final checks", copy: "Form & Frame coordinates installation, adjustment, finishing details and final quality checks on site." },
 ];
 
 export default function BespokeJoineryPage() {
@@ -47,7 +47,7 @@ export default function BespokeJoineryPage() {
       { question: "Do you offer wardrobes and media walls?", answer: "Yes. Wardrobes, alcove units, media walls, home offices, utility furniture and selected fitted storage are within the bespoke joinery service." },
     ]} />
 
-    <ServiceQuote enquiryUrl={enquiryHref({ service: "bespoke-joinery" })} title="Tell us about your fitted-joinery project" copy="Send your postcode, room photographs, approximate dimensions, style references and any existing drawings. We can review the project before arranging the next step." action="Send an enquiry" />
+    <ServiceQuote enquiryUrl={enquiryHref({ service: "bespoke-joinery" })} whatsappMessage="Hello, I’d like to discuss bespoke joinery or fitted furniture with Form & Frame." title="Tell us about your fitted-joinery project" copy="Send your postcode, room photographs, approximate dimensions, style references and any existing drawings. We can review the project before arranging the next step." action="Send an enquiry" />
     <div className="container service-back-link"><Link className="text-link" href="/services">Back to all services <span aria-hidden="true">↗</span></Link></div>
     </main>
     <Footer />

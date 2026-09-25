@@ -4,7 +4,7 @@ import { ServiceCardImage } from "../components/service-card-image";
 import { serviceMetadata } from "../lib/service-metadata";
 
 export const metadata = serviceMetadata(
-  "Joinery & Kitchen Installation Services | Form & Frame",
+  "Joinery & Kitchen Installation Services",
   "Explore kitchen installation, bespoke joinery, internal door fitting and joinery installation services from Form & Frame across Luton, Bedfordshire and Hertfordshire.",
   "/services"
 );
