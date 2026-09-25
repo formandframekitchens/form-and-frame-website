@@ -22,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       "/bespoke-kitchens",
       "/internal-door-installation",
       "/contact",
+      "/privacy",
     ].map(path => ({
       url: `${siteUrl}${path}`,
       changeFrequency: "monthly" as const,
