@@ -34,7 +34,7 @@ export function Footer() {
     <footer className="site-footer">
       <div className="container footer-main">
         <div><Wordmark /><p>Independent kitchen installation and joinery services.<br />Luton, Bedfordshire.</p><p><a href={PHONE_HREF}>{BUSINESS_PHONE_DISPLAY}</a><br /><a href={EMAIL_HREF}>{BUSINESS_EMAIL}</a></p></div>
-        <nav aria-label="Footer navigation">{[...navigation, { label: "In-Frame Kitchens", href: "/in-frame-kitchens" }, { label: "Internal Doors", href: "/internal-door-installation" }].map(item => <Link key={item.href} href={item.href}>{item.label}</Link>)}</nav>
+        <nav aria-label="Footer navigation">{[...navigation, { label: "In-Frame Kitchens", href: "/in-frame-kitchens" }, { label: "Internal Doors", href: "/internal-door-installation" }, { label: "Privacy", href: "/privacy" }].map(item => <Link key={item.href} href={item.href}>{item.label}</Link>)}</nav>
       </div>
       <div className="container footer-bottom"><span>FORM &amp; FRAME</span><span>Considered installation. From plan to finish.</span></div>
     </footer>
