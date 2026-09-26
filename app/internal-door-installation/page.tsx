@@ -14,26 +14,34 @@ const doorProjects = [
   {
     src: "/images/internal-doors/bespoke-dark-timber-panelled-internal-door.jpg",
     alt: "Dark stained panelled internal door with bronze hardware",
-    caption: "Panelled timber door with detailed frame and bronze hardware",
+    eyebrow: "Panelled timber door",
+    title: "A detailed finish around the opening",
+    copy: "A darker timber door can become a strong architectural feature. The installation still depends on accurate fitting to the opening, consistent margins, careful hinge positioning and final hardware adjustment.",
     position: "50% 48%",
-  },
-  {
-    src: "/images/internal-doors/sliding-pocket-door-and-folding-door-installation.jpg",
-    alt: "Sliding pocket door opening with matching dark timber finish",
-    caption: "Sliding and folding door work with coordinated timber finish",
-    position: "58% 50%",
   },
   {
     src: "/images/internal-doors/glazed-black-oak-double-internal-doors.jpg",
     alt: "Glazed black oak double internal doors with brass inlay",
-    caption: "Glazed double-door installation with brass detailing",
+    eyebrow: "Glazed double doors",
+    title: "Paired doors need to read as one set",
+    copy: "With double doors, the relationship between both leaves matters as much as each individual fit. Meeting lines, floor clearance, hardware positions and the visual gaps are checked together before final adjustment.",
     position: "50% 54%",
   },
   {
-    src: "/images/internal-doors/dark-glazed-double-doors-brass-detail.jpg",
-    alt: "Dark glazed double internal doors with brass detailing",
-    caption: "Dark glazed double doors used as a room-dividing feature",
+    src: "/images/internal-doors/black-oak-brass-inlay-internal-door-set.jpg",
+    alt: "Black oak internal door and glazed double-door set with brass inlay",
+    eyebrow: "Coordinated door set",
+    title: "Matching doors and ironmongery across a scheme",
+    copy: "Where several openings form part of the same interior, finishes, glazing, handles and other ironmongery can be coordinated so the individual doors feel consistent as a complete scheme.",
     position: "50% 50%",
+  },
+  {
+    src: "/images/internal-doors/sliding-pocket-door-and-folding-door-installation.jpg",
+    alt: "Sliding pocket door opening with matching dark timber finish",
+    eyebrow: "Sliding & pocket doors",
+    title: "When a swinging door is not the right solution",
+    copy: "Sliding and pocket-door systems can be considered where the opening and wall construction are suitable. Track or pocket requirements, door weight, access, alignment and final adjustment are reviewed before installation is confirmed.",
+    position: "58% 50%",
   },
 ];
 
@@ -50,33 +58,27 @@ export default function InternalDoorInstallationPage() {
     parent={{ label: "Services", href: "/services" }}
     imageKey="internal-door-installation"
   >
-    <ServiceSection title="Door installation for straightforward and detailed openings" eyebrow="Measure. Fit. Adjust.">
-      <p className="service-prose">A good result starts with the opening. We check the frame, dimensions, floor clearances, door construction, hardware and the amount of trimming or adjustment permitted before the fitting work is agreed.</p>
-      <DetailGrid items={[
-        { title: "Hinged doors in existing frames", copy: "New internal doors fitted into suitable existing frames, including accurate trimming, scribing, hinge preparation and final adjustment." },
-        { title: "Double & glazed door sets", copy: "Paired and glazed doors can be installed where the opening, frame and hardware are suitable, with attention to even gaps, alignment and meeting stiles." },
-        { title: "Sliding & pocket doors", copy: "Sliding and pocket-door systems can be considered for suitable openings. Track, pocket, lining and access requirements are reviewed before installation is confirmed." },
-        { title: "Hardware & finishing details", copy: "Hinges, latches, mortice locks, handles, stops, linings and architrave can be included where specified and agreed." },
-      ]} />
-    </ServiceSection>
-
-    <section className="service-section service-section-muted">
-      <div className="container door-feature">
-        <div className="door-feature-image">
-          <Image
-            src="/images/internal-doors/sliding-pocket-door-and-folding-door-installation.jpg"
-            alt="Sliding pocket door opening with matching dark timber finish"
-            fill
-            sizes="(max-width: 900px) 100vw, 48vw"
-          />
-        </div>
-        <div className="door-feature-copy">
-          <p className="eyebrow">Sliding & pocket doors</p>
-          <h2>When a swinging door is not the right solution</h2>
-          <p>Sliding and pocket doors can free up wall and floor space and can also create a cleaner transition between rooms. The exact system depends on the wall construction, opening size, track or pocket detail, door weight and the access available for installation.</p>
-          <p>Send photographs, approximate opening dimensions and any manufacturer drawings you already have. We can review whether the proposed system is suitable before finalising the work.</p>
-        </div>
-      </div>
+    <section className="door-project-story-list" aria-label="Finished internal door installation examples">
+      {doorProjects.map((project, index) => (
+        <section className={`service-section${index % 2 === 1 ? " service-section-muted" : ""}`} key={project.src}>
+          <div className={`container door-feature${index % 2 === 1 ? " door-feature-reverse" : ""}`}>
+            <div className="door-feature-image">
+              <Image
+                src={project.src}
+                alt={project.alt}
+                fill
+                sizes="(max-width: 700px) 92vw, (max-width: 1100px) 44vw, 560px"
+                style={{ objectPosition: project.position }}
+              />
+            </div>
+            <div className="door-feature-copy">
+              <p className="eyebrow">{project.eyebrow}</p>
+              <h2>{project.title}</h2>
+              <p>{project.copy}</p>
+            </div>
+          </div>
+        </section>
+      ))}
     </section>
 
     <section className="service-section">
@@ -86,34 +88,26 @@ export default function InternalDoorInstallationPage() {
             src="/images/internal-doors/bespoke-dark-timber-panelled-internal-door.jpg"
             alt="Dark stained panelled internal door with bronze hardware"
             fill
-            sizes="(max-width: 900px) 100vw, 48vw"
+            sizes="(max-width: 700px) 92vw, (max-width: 1100px) 44vw, 560px"
+            style={{ objectPosition: "50% 46%" }}
           />
         </div>
         <div className="door-feature-copy">
           <p className="eyebrow">Made-to-order doors</p>
           <h2>Doors can also be produced to the required design</h2>
-          <p>If a standard off-the-shelf door does not suit the room, Form & Frame can coordinate made-to-order door production through specialist manufacturers. The design, dimensions, material, finish, glazing and hardware requirements are agreed before production.</p>
-          <p>Form & Frame can remain the practical point of contact for measuring, specification, manufacturer coordination and installation where these items are included in the quotation. We do not describe third-party manufactured doors as being made in our own workshop.</p>
+          <p>Alongside installation, Form & Frame can help coordinate doors produced by specialist manufacturers where a project requires a particular design, size, finish, glazing arrangement or specification.</p>
+          <p>The design and manufacturing requirements are agreed before production, subject to the manufacturer’s technical limitations. Form & Frame can coordinate measuring, specification and final fitting where those responsibilities are included in the quotation. We do not describe third-party manufactured doors as being made in our own workshop.</p>
         </div>
       </div>
     </section>
 
-    <ServiceSection title="Finished door installations" eyebrow="Genuine project photography" muted>
-      <p className="service-prose">A selection of completed door work supplied from Form & Frame project photography. The images show different door styles and installation details; they are not stock or manufacturer catalogue images.</p>
-      <div className="door-project-gallery">
-        {doorProjects.map(project => <figure className="door-project-card" key={project.src}>
-          <div className="door-project-image">
-            <Image
-              src={project.src}
-              alt={project.alt}
-              fill
-              sizes="(max-width: 600px) 100vw, (max-width: 1000px) 50vw, 25vw"
-              style={{ objectPosition: project.position }}
-            />
-          </div>
-          <figcaption>{project.caption}</figcaption>
-        </figure>)}
-      </div>
+    <ServiceSection title="What the installation can include" eyebrow="Practical fitting details" muted>
+      <DetailGrid items={[
+        { title: "Customer-supplied doors", copy: "New internal doors fitted into suitable existing frames, including trimming and scribing within the door manufacturer’s permitted allowances." },
+        { title: "Hinges, handles & locks", copy: "Hinges, latches, handles, mortice locks and other agreed ironmongery can be fitted and adjusted as part of the installation." },
+        { title: "Frames, linings & architraves", copy: "Existing frame condition is checked first. Adjustments, linings, stops, architraves or separately scoped repairs can be included where agreed." },
+        { title: "Multiple-door projects", copy: "Several openings can be planned as one installation so door types, hardware, clearances and final adjustment are coordinated across the property." },
+      ]} />
     </ServiceSection>
 
     <ServiceSection title="What to send for an initial quote">
