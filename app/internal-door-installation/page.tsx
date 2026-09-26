@@ -17,7 +17,6 @@ const doorProjects = [
     eyebrow: "Panelled timber door",
     title: "A detailed finish around the opening",
     copy: "A darker timber door can become a strong architectural feature. The installation still depends on accurate fitting to the opening, consistent margins, careful hinge positioning and final hardware adjustment.",
-    position: "50% 48%",
   },
   {
     src: "/images/internal-doors/glazed-black-oak-double-internal-doors.jpg",
@@ -25,7 +24,6 @@ const doorProjects = [
     eyebrow: "Glazed double doors",
     title: "Paired doors need to read as one set",
     copy: "With double doors, the relationship between both leaves matters as much as each individual fit. Meeting lines, floor clearance, hardware positions and the visual gaps are checked together before final adjustment.",
-    position: "50% 54%",
   },
   {
     src: "/images/internal-doors/black-oak-brass-inlay-internal-door-set.jpg",
@@ -33,7 +31,6 @@ const doorProjects = [
     eyebrow: "Coordinated door set",
     title: "Matching doors and ironmongery across a scheme",
     copy: "Where several openings form part of the same interior, finishes, glazing, handles and other ironmongery can be coordinated so the individual doors feel consistent as a complete scheme.",
-    position: "50% 50%",
   },
   {
     src: "/images/internal-doors/sliding-pocket-door-and-folding-door-installation.jpg",
@@ -41,7 +38,6 @@ const doorProjects = [
     eyebrow: "Sliding & pocket doors",
     title: "When a swinging door is not the right solution",
     copy: "Sliding and pocket-door systems can be considered where the opening and wall construction are suitable. Track or pocket requirements, door weight, access, alignment and final adjustment are reviewed before installation is confirmed.",
-    position: "58% 50%",
   },
 ];
 
@@ -68,7 +64,6 @@ export default function InternalDoorInstallationPage() {
                 alt={project.alt}
                 fill
                 sizes="(max-width: 700px) 92vw, (max-width: 1100px) 44vw, 560px"
-                style={{ objectPosition: project.position }}
               />
             </div>
             <div className="door-feature-copy">
@@ -89,7 +84,6 @@ export default function InternalDoorInstallationPage() {
             alt="Dark stained panelled internal door with bronze hardware"
             fill
             sizes="(max-width: 700px) 92vw, (max-width: 1100px) 44vw, 560px"
-            style={{ objectPosition: "50% 46%" }}
           />
         </div>
         <div className="door-feature-copy">
