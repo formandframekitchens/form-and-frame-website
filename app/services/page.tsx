@@ -32,7 +32,7 @@ const services = [
     href: "/internal-door-installation",
     image: "/images/services-hub/03-internal-door-ai.webp",
     alt: "An oak internal door fitted into its matching frame",
-    copy: "Doors fitted into existing frames, with hinges, handles and final adjustments.",
+    copy: "Hinged, glazed and sliding internal doors, including made-to-order options where required.",
   },
   {
     number: "04",
