@@ -957,7 +957,7 @@ summary::-webkit-details-marker { display: none; }
 /* B07: genuine internal-door photography */
 .door-feature {
   display: grid;
-  grid-template-columns: minmax(300px, .82fr) minmax(0, 1.18fr);
+  grid-template-columns: minmax(0, 1.38fr) minmax(280px, 1fr);
   gap: clamp(40px, 6vw, 84px);
   align-items: center;
 }
@@ -973,7 +973,8 @@ summary::-webkit-details-marker { display: none; }
 }
 .door-feature-image img,
 .door-project-image img {
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
 }
 .door-feature-copy {
   max-width: 720px;
@@ -1002,7 +1003,7 @@ summary::-webkit-details-marker { display: none; }
 }
 @media (max-width: 1000px) {
   .door-feature {
-    grid-template-columns: minmax(250px, .8fr) minmax(0, 1.2fr);
+    grid-template-columns: minmax(0, 1.2fr) minmax(250px, .9fr);
     gap: 36px;
   }
   .door-project-gallery {
@@ -1034,23 +1035,23 @@ summary::-webkit-details-marker { display: none; }
 
 /* B07 final door-page composition */
 .service-page:has(.door-project-story-list) .service-hero-visual .service-visual-frame {
-  aspect-ratio: 4 / 3;
-  min-height: 420px;
+  aspect-ratio: 4 / 5;
+  min-height: 0;
 }
 .service-page:has(.door-project-story-list) .service-hero-visual img {
-  object-fit: cover;
-  object-position: 50% 48%;
-  transform: scale(1.12);
+  object-fit: contain;
+  object-position: center;
+  transform: none;
 }
 .door-project-story-list .door-feature-image {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 4 / 5;
 }
 @media (max-width: 700px) {
   .service-page:has(.door-project-story-list) .service-hero-visual .service-visual-frame {
-    min-height: 300px;
-    aspect-ratio: 4 / 3;
+    min-height: 0;
+    aspect-ratio: 4 / 5;
   }
   .service-page:has(.door-project-story-list) .service-hero-visual img {
-    transform: scale(1.08);
+    transform: none;
   }
 }
