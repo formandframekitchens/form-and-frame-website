@@ -232,6 +232,14 @@ function EnquiryFields({ initialSelection }: { initialSelection: EnquirySelectio
             <option>Other</option>
           </select>
         </label>
+        <label>Door supply
+          <select name="doorSupply" defaultValue="">
+            <option value="">Not sure yet</option>
+            <option>I already have the doors</option>
+            <option>I am choosing / ordering the doors</option>
+            <option>I need made-to-order doors coordinated</option>
+          </select>
+        </label>
       </>}
 
       <label>Timing / project stage
