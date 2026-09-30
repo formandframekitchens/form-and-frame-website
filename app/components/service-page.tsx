@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { Header, Footer } from "./site-shell";
+import { Breadcrumbs, type BreadcrumbItem } from "./breadcrumbs";
 import { BUSINESS_EMAIL, BUSINESS_PHONE_DISPLAY, EMAIL_HREF, PHONE_HREF, whatsappHref } from "../lib/contact";
 import { processSteps, serviceAreas } from "../lib/home-data";
 import { experienceContent } from "../lib/service-content";
@@ -35,12 +36,13 @@ function Visual({ image, className = "" }: { image: ServiceImage; className?: st
   </figure>;
 }
 
-export function ServicePage({ eyebrow, title, introduction, children, parent, imageKey = "kitchen-installation", brandName, brandAccent, beforeTrust, compactHub = false, hideHeroActions = false, enquiryUrl = "/contact#enquiry-form", whatsappMessage = "Hello, I'd like to discuss a project with Form & Frame." }: {
+export function ServicePage({ eyebrow, title, introduction, children, parent, breadcrumbs, imageKey = "kitchen-installation", brandName, brandAccent, beforeTrust, compactHub = false, hideHeroActions = false, enquiryUrl = "/contact#enquiry-form", whatsappMessage = "Hello, I'd like to discuss a project with Form & Frame." }: {
   eyebrow: string;
   title: string;
   introduction: string;
   children: ReactNode;
   parent?: { label: string; href: string };
+  breadcrumbs?: BreadcrumbItem[];
   imageKey?: string;
   brandName?: string;
   brandAccent?: string;
@@ -51,11 +53,12 @@ export function ServicePage({ eyebrow, title, introduction, children, parent, im
   whatsappMessage?: string;
 }) {
   const images = getServiceImages(imageKey);
+  const breadcrumbItems = breadcrumbs ?? (parent ? [{ label: "Home", href: "/" }, parent] : [{ label: "Home", href: "/" }]);
   return <>
     <Header />
     <main id="main-content" className={`service-page${hideHeroActions ? " kitchen-choice-page" : ""}`} style={brandAccent ? { "--supplier-accent": brandAccent } as React.CSSProperties : undefined}>
       <header className="service-hero"><div className="container">
-        <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/">Home</Link>{parent && <><span aria-hidden="true">/</span><Link href={parent.href}>{parent.label}</Link></>}</nav>
+        <Breadcrumbs items={breadcrumbItems} />
         <div className={`service-hero-grid${compactHub ? " service-hero-grid-compact" : ""}`}>
           <div className="service-hero-copy">
             {brandName && <div className="supplier-identity"><span className="supplier-identity-mark" aria-hidden="true" /><strong className="supplier-identity-name">{brandName}</strong><small>Independent installation</small></div>}
@@ -171,7 +174,7 @@ export function LocalServiceArea() {
 
 export function SupplierPage({ supplier }: { supplier: SupplierPageData }) {
   const enquiryUrl = enquiryHref({ service: "kitchen-installation", supplier: supplierOptions.find(option => option.value === supplier.slug)?.value, installation: "own-kitchen" });
-  return <ServicePage enquiryUrl={enquiryUrl} whatsappMessage={`Hello, I'd like to enquire about ${supplier.name} kitchen installation with Form & Frame.`} eyebrow="Independent kitchen fitter · Luton & surrounding areas" title={`${supplier.name} kitchen installation`} introduction={supplier.introduction} parent={{ label: "Kitchen installation", href: "/kitchen-installation" }} imageKey={supplier.slug} brandName={supplier.name} brandAccent={supplierAccent[supplier.slug]}>
+  return <ServicePage enquiryUrl={enquiryUrl} whatsappMessage={`Hello, I'd like to enquire about ${supplier.name} kitchen installation with Form & Frame.`} eyebrow="Independent kitchen fitter · Luton & surrounding areas" title={`${supplier.name} kitchen installation`} introduction={supplier.introduction} parent={{ label: "Kitchen installation", href: "/kitchen-installation" }} breadcrumbs={[{ label: "Services", href: "/services" }, { label: "Kitchen installation", href: "/kitchen-installation" }]} imageKey={supplier.slug} brandName={supplier.name} brandAccent={supplierAccent[supplier.slug]}>
     <div className="container"><IndependentNotice name={supplier.name} /></div>
     <ImageTextSection imageKey={supplier.slug} title={`Planning a ${supplier.name} kitchen fit`} eyebrow="Before installation begins">
       <p className="service-prose">Send the kitchen plan, order or component information, appliance details, worktop specification and photographs of the room. We use the actual project information to establish the fitting sequence, identify preparation requirements and confirm what should be included in the quotation.</p>
