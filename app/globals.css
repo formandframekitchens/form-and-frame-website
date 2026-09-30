@@ -1055,3 +1055,22 @@ summary::-webkit-details-marker { display: none; }
     transform: none;
   }
 }
+
+
+/* B08: consistent service hierarchy breadcrumbs */
+.breadcrumb-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+.service-selection-compact .breadcrumbs {
+  margin-bottom: 20px;
+}
+@media (max-width: 600px) {
+  .breadcrumbs {
+    margin-bottom: 28px;
+  }
+  .service-selection-compact .breadcrumbs {
+    margin-bottom: 16px;
+  }
+}
