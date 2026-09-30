@@ -12,6 +12,7 @@ This register records what can and cannot currently be treated as public evidenc
 | Arnas biography | Not approved | — | — | Required before publishing About claims. |
 | Project case studies 2–3 | Not available as verified packages | — | — | Need facts, role, location wording, images and rights. |
 | Customer testimonials | Not available as approved attributable sources | — | — | Do not publish decorative ratings or invented quotes. |
+| Internal door finished-project photography | Internal Door Installation page | Owner-supplied images from Google Drive → Website Photography → Internal Doors → Finished Doors | **Yes — owner explicitly requested website use in B07** | Treat as installation evidence. Do not imply Form & Frame manufactured doors unless separately confirmed. Includes hinged, glazed and sliding/pocket-door examples. |
 
 ## Rules
 

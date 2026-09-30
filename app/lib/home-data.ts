@@ -21,7 +21,7 @@ export const processSteps = [
 ];
 
 export const secondaryServices = [
-  { id: "internal-doors", title: "Internal Door Installation", copy: "New internal doors fitted into existing frames, including accurate trimming and scribing, hinges, latches, locks and adjustments to existing openings where required." },
+  { id: "internal-doors", title: "Internal Door Installation", copy: "Hinged, glazed and sliding internal doors fitted and adjusted carefully, with made-to-order doors coordinated through specialist manufacturers where required." },
   { id: "bespoke-joinery", title: "Bespoke Joinery & Fitted Furniture", copy: "Wardrobes, alcove units, media walls, home offices and selected fitted furniture. Design and technical coordination by Form & Frame, with specialist manufacturing partners used where appropriate." },
   { id: "joinery-installation", title: "Joinery & Furniture Installation", copy: "Professional installation of cabinetry and fitted furniture manufactured or supplied by other joinery companies, builders, designers or clients." },
 ];
@@ -55,7 +55,7 @@ export const faqs = [
 ];
 
 export const homepageServices = [
-  { id: "internal-doors", title: "Internal Door Installation", href: "/internal-door-installation", copy: "Internal doors fitted to existing frames, with accurate trimming, hinges, latches and adjustments." },
+  { id: "internal-doors", title: "Internal Door Installation", href: "/internal-door-installation", copy: "Hinged, glazed and sliding internal doors, including carefully fitted hardware and made-to-order options." },
   { id: "bespoke-joinery", title: "Bespoke Joinery", href: "/bespoke-joinery", copy: "Wardrobes, alcove units and fitted furniture, with specialist manufacturing partners where appropriate." },
   { id: "joinery-installation", title: "Joinery Installation", href: "/joinery-installation", copy: "Professional installation of cabinetry and fitted furniture supplied by joinery companies, builders and clients." },
 ];

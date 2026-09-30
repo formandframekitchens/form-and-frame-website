@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { Header, Footer } from "./site-shell";
@@ -22,7 +23,13 @@ function Visual({ image, className = "" }: { image: ServiceImage; className?: st
   if (!image.src) return null;
   return <figure className={`service-visual ${className}`}>
     <div className="service-visual-frame">
-      <img src={image.src} alt={image.alt} />
+      <Image
+        src={image.src}
+        alt={image.alt}
+        fill
+        sizes={className.includes("service-hero-visual") ? "(max-width: 900px) 92vw, 48vw" : "(max-width: 900px) 92vw, 50vw"}
+        priority={className.includes("service-hero-visual")}
+      />
     </div>
     {(image.caption || image.note) && <figcaption>{image.caption}{image.note && <span>{image.note}</span>}</figcaption>}
   </figure>;
