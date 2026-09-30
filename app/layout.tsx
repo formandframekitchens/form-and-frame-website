@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./homepage-responsive-fixes.css";
 
 import { siteUrl } from "./lib/site";
 
