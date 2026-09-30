@@ -23,7 +23,7 @@ export default function BespokeJoineryPage() {
   return <div>
     <Header />
     <main id="main-content" className="service-page services-hub">
-      <ServiceSelection id="choose-joinery" title="Choose your bespoke joinery" label="Bespoke joinery and fitted furniture types" choices={joineryCategories.map(category => ({ ...category, href: '/bespoke-joinery/' + category.slug }))} action="Explore joinery" className="joinery-selection" />
+      <ServiceSelection id="choose-joinery" title="Choose your bespoke joinery" label="Bespoke joinery and fitted furniture types" choices={joineryCategories.map(category => ({ ...category, href: '/bespoke-joinery/' + category.slug }))} action="Explore joinery" className="joinery-selection" breadcrumbs={[{ label: "Services", href: "/services" }]} />
       <ServiceSection title="Furniture designed for the space" eyebrow="Bespoke joinery & fitted furniture" id="joinery-details">
         <p className="service-prose">Fitted furniture designed around the room, with Form & Frame coordinating survey, technical development, specialist manufacture where appropriate, installation and final quality control. Choose the furniture you need above, or send us an enquiry if your project brings several types together.</p>
         <Link className="text-link" href={enquiryHref({ service: "bespoke-joinery" })}>Request a quote <span aria-hidden="true">↗</span></Link>

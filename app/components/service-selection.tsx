@@ -1,16 +1,18 @@
 import Link from "next/link";
 import { ServiceCardImage } from "./service-card-image";
+import { Breadcrumbs, type BreadcrumbItem } from "./breadcrumbs";
 import { siteUrl } from "../lib/site";
 
 type SelectionChoice = { title: string; copy: string; href: string; image: string; alt: string };
 
-export function ServiceSelection({ id, title, label, choices, action, className = "" }: {
+export function ServiceSelection({ id, title, label, choices, action, className = "", breadcrumbs = [] }: {
   id: string;
   title: string;
   label: string;
   choices: readonly SelectionChoice[];
   action: string;
   className?: string;
+  breadcrumbs?: BreadcrumbItem[];
 }) {
   const itemList = {
     "@context": "https://schema.org", "@type": "ItemList",
@@ -20,7 +22,10 @@ export function ServiceSelection({ id, title, label, choices, action, className 
   };
 
   return <div className={`services-hub-selection service-selection-compact ${className}`} id={id}>
-    <header className="services-hub-hero"><div className="container"><h1>{title}</h1></div></header>
+    <header className="services-hub-hero"><div className="container">
+      <Breadcrumbs items={breadcrumbs} />
+      <h1>{title}</h1>
+    </div></header>
     <section className="services-hub-list-section" aria-label={label}><div className="container">
       <ol className="services-hub-list">
         {choices.map((choice, index) => {

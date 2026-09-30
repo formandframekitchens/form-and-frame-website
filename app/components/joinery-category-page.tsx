@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Footer, Header } from "./site-shell";
+import { Breadcrumbs } from "./breadcrumbs";
 import { ServiceQuote, ServiceSection } from "./service-page";
 import { enquiryHref } from "../lib/enquiry";
 import type { JoineryCategory } from "../lib/joinery-categories";
@@ -11,7 +12,7 @@ export function JoineryCategoryPage({ category }: { category: JoineryCategory })
     <Header />
     <main id="main-content" className="service-page joinery-category-page">
       <header className="service-hero"><div className="container">
-        <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/services">Services</Link><span aria-hidden="true">/</span><Link href="/bespoke-joinery">Bespoke joinery</Link></nav>
+        <Breadcrumbs items={[{ label: "Services", href: "/services" }, { label: "Bespoke joinery", href: "/bespoke-joinery" }]} />
         <div className="service-hero-grid">
           <div className="service-hero-copy">
             <p className="eyebrow">Made for your space</p>
