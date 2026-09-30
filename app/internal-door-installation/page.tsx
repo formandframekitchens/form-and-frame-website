@@ -12,29 +12,29 @@ export const metadata = serviceMetadata(
 
 const doorProjects = [
   {
-    src: "/images/internal-doors/bespoke-dark-timber-panelled-internal-door.jpg",
-    alt: "Dark stained panelled internal door with bronze hardware",
+    src: "/images/internal-doors/made-to-order-panelled-internal-door.webp",
+    alt: "Dark timber panelled internal door with brass hardware in a finished interior",
     eyebrow: "Panelled timber door",
     title: "A detailed finish around the opening",
     copy: "A darker timber door can become a strong architectural feature. The installation still depends on accurate fitting to the opening, consistent margins, careful hinge positioning and final hardware adjustment.",
   },
   {
-    src: "/images/internal-doors/glazed-black-oak-double-internal-doors.jpg",
-    alt: "Glazed black oak double internal doors with brass inlay",
+    src: "/images/internal-doors/black-glazed-double-internal-door-installation.webp",
+    alt: "Black glazed double internal doors with brass detailing in a bright interior",
     eyebrow: "Glazed double doors",
     title: "Paired doors need to read as one set",
     copy: "With double doors, the relationship between both leaves matters as much as each individual fit. Meeting lines, floor clearance, hardware positions and the visual gaps are checked together before final adjustment.",
   },
   {
-    src: "/images/internal-doors/black-oak-brass-inlay-internal-door-set.jpg",
-    alt: "Black oak internal door and glazed double-door set with brass inlay",
+    src: "/images/internal-doors/matching-internal-doors-and-sliding-opening.webp",
+    alt: "Coordinated internal doors and sliding opening in matching timber finish",
     eyebrow: "Coordinated door set",
     title: "Matching doors and ironmongery across a scheme",
     copy: "Where several openings form part of the same interior, finishes, glazing, handles and other ironmongery can be coordinated so the individual doors feel consistent as a complete scheme.",
   },
   {
-    src: "/images/internal-doors/sliding-pocket-door-and-folding-door-installation.jpg",
-    alt: "Sliding pocket door opening with matching dark timber finish",
+    src: "/images/internal-doors/dark-glass-sliding-door-installation.webp",
+    alt: "Dark glazed sliding door installation with brass detailing",
     eyebrow: "Sliding & pocket doors",
     title: "When a swinging door is not the right solution",
     copy: "Sliding and pocket-door systems can be considered where the opening and wall construction are suitable. Track or pocket requirements, door weight, access, alignment and final adjustment are reviewed before installation is confirmed.",
@@ -80,7 +80,7 @@ export default function InternalDoorInstallationPage() {
       <div className="container door-feature door-feature-reverse">
         <div className="door-feature-image">
           <Image
-            src="/images/internal-doors/bespoke-dark-timber-panelled-internal-door.jpg"
+            src="/images/internal-doors/made-to-order-panelled-internal-door.webp"
             alt="Dark stained panelled internal door with bronze hardware"
             fill
             sizes="(max-width: 700px) 92vw, (max-width: 1100px) 44vw, 560px"

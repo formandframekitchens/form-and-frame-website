@@ -973,7 +973,7 @@ summary::-webkit-details-marker { display: none; }
 }
 .door-feature-image img,
 .door-project-image img {
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
 }
 .door-feature-copy {
@@ -1039,7 +1039,7 @@ summary::-webkit-details-marker { display: none; }
   min-height: 0;
 }
 .service-page:has(.door-project-story-list) .service-hero-visual img {
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   transform: none;
 }
