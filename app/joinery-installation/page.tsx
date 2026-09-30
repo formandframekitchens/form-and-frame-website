@@ -25,6 +25,7 @@ export default function JoineryInstallationPage() {
     title="Joinery & furniture installation"
     introduction="Professional installation of factory-produced or client-supplied cabinetry and fitted furniture for joinery companies, manufacturers, designers, builders and homeowners."
     parent={{ label: "Services", href: "/services" }}
+    breadcrumbs={[{ label: "Services", href: "/services" }]}
     compactHub
   >
     <ServiceSection title="Installation for supplied joinery" eyebrow="Third-party manufactured cabinetry">
