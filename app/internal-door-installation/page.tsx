@@ -52,6 +52,7 @@ export default function InternalDoorInstallationPage() {
     title="Internal door installation"
     introduction="Careful installation of hinged, glazed, double and sliding internal doors, from straightforward replacements in existing frames to more detailed door sets and made-to-order designs."
     parent={{ label: "Services", href: "/services" }}
+    breadcrumbs={[{ label: "Services", href: "/services" }]}
     imageKey="internal-door-installation"
   >
     <section className="door-project-story-list" aria-label="Finished internal door installation examples">
