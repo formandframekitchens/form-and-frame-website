@@ -8,12 +8,10 @@ const ONE_PIXEL_PNG = Buffer.from(
   "base64"
 );
 
-async function submit(fields: Record<string, string>, attach = false) {
+async function submit(fields: Record<string, string>, file?: { name: string; type: string; bytes: Uint8Array }) {
   const form = new FormData();
   for (const [key, value] of Object.entries(fields)) form.set(key, value);
-  if (attach) {
-    form.append("files", new File([ONE_PIXEL_PNG], "b10-test-kitchen.png", { type: "image/png" }));
-  }
+  if (file) form.append("files", new File([file.bytes], file.name, { type: file.type }));
 
   const request = new Request("https://preview.internal/api/enquiries", {
     method: "POST",
@@ -32,43 +30,87 @@ export async function GET() {
   }
 
   const suffix = Date.now().toString().slice(-8);
-  const common = {
-    name: "B10 Controlled Test",
-    email: "sales@formandframekitchens.co.uk",
-    phone: "07933 026532",
-    preferredContact: "email",
+  const base = {
+    name: "B10 Edge Test",
     location: "LU1 1AA",
-    stage: "Ready for installation",
+    stage: "Planning / researching",
     privacyAccepted: "yes",
   };
 
-  const kitchen = await submit({
-    ...common,
-    service: "kitchen-installation",
-    installation: "own-kitchen",
-    supplier: "howdens",
-    kitchenStatus: "Kitchen ordered",
-    message: "B10 controlled kitchen enquiry. This tests every kitchen field and a real PNG attachment.",
-    submissionId: `b10-kitchen-${suffix}`,
-  }, true);
+  const emailOnly = await submit({
+    ...base,
+    email: "sales+b10-customer@formandframekitchens.co.uk",
+    preferredContact: "email",
+    service: "in-frame-kitchens",
+    installation: "design-supply-installation",
+    kitchenStatus: "Still planning",
+    message: "B10 email-only test for a Form & Frame supplied in-frame kitchen.",
+    submissionId: `b10-emailonly-${suffix}`,
+  });
 
-  const doors = await submit({
-    ...common,
+  const phoneOnly = await submit({
+    ...base,
+    phone: "07933 026532",
+    preferredContact: "phone",
     service: "internal-door-installation",
-    doorCount: "6",
-    doorType: "Sliding or pocket doors",
-    doorSupply: "I need made-to-order doors coordinated",
-    message: "B10 controlled internal-door enquiry. This tests door-specific conditional fields.",
-    submissionId: `b10-doors-${suffix}`,
+    doorCount: "3",
+    doorType: "Hinged internal doors",
+    doorSupply: "I already have the doors",
+    message: "B10 phone-only test. No acknowledgement email should be sent.",
+    submissionId: `b10-phoneonly-${suffix}`,
   });
 
-  const joinery = await submit({
-    ...common,
-    service: "bespoke-joinery",
-    joinery: "wardrobes",
-    message: "B10 controlled bespoke-joinery enquiry. This tests the fitted-furniture conditional field.",
-    submissionId: `b10-joinery-${suffix}`,
+  const missingRequired = await submit({
+    service: "kitchen-installation",
+    preferredContact: "either",
+    privacyAccepted: "yes",
   });
 
-  return NextResponse.json({ ok: true, kitchen, doors, joinery });
+  const invalidFile = await submit({
+    ...base,
+    phone: "07933 026532",
+    preferredContact: "phone",
+    service: "joinery-installation",
+    message: "B10 invalid attachment signature test.",
+    submissionId: `b10-invalidfile-${suffix}`,
+  }, {
+    name: "not-really-a.pdf",
+    type: "application/pdf",
+    bytes: new TextEncoder().encode("this is not a pdf"),
+  });
+
+  const oversizedFile = await submit({
+    ...base,
+    phone: "07933 026532",
+    preferredContact: "phone",
+    service: "other",
+    message: "B10 oversized attachment test.",
+    submissionId: `b10-oversize-${suffix}`,
+  }, {
+    name: "too-large.png",
+    type: "image/png",
+    bytes: new Uint8Array(3 * 1024 * 1024 + 1),
+  });
+
+  const duplicateFields = {
+    ...base,
+    phone: "07933 026532",
+    preferredContact: "phone",
+    service: "joinery-installation",
+    message: "B10 duplicate idempotency test.",
+    submissionId: `b10-duplicate-${suffix}`,
+  };
+  const duplicateFirst = await submit(duplicateFields);
+  const duplicateSecond = await submit(duplicateFields);
+
+  return NextResponse.json({
+    ok: true,
+    emailOnly,
+    phoneOnly,
+    missingRequired,
+    invalidFile,
+    oversizedFile,
+    duplicateFirst,
+    duplicateSecond,
+  });
 }
