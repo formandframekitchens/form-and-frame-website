@@ -36,7 +36,7 @@ The Gallery landing page should begin with:
 | 08 | Champagne-Toned Display Cabinetry | London | Finished professional photography; neutralised source naming | Ready |
 | 09 | Light-Veneered Display Joinery with Integrated Lighting | London | Finished professional photography; neutralised source naming | Ready |
 | 10 | Dark Timber Wine Display Joinery | London | Finished photography available in residential collection | Ready after final image selection |
-| 11 | Modern Alcove Cabinetry | London | Finished photography | Ready |
+| 11 | Modern Alcove Cabinetry | London | Source reviewed; room visibly unfinished | Hold — not suitable for A2 finished-only gallery |
 | 12 | Soho Bespoke Bookcase | Soho, London | Source location explicit | A2.2 polished assets imported |
 | 13 | Soho Walk-In Wardrobe | Soho, London | Source location explicit | A2.3 polished assets imported |
 | 14 | Soho Shoe-Storage Cabinet | Soho, London | Source location explicit | A2.4 polished assets imported |
