@@ -140,7 +140,7 @@ export function customerAcknowledgementEmail(form: FormData, reference: string) 
         <div style="margin-top:5px;font-size:16px;font-weight:600;">${esc(reference)}</div>
       </div>
       <p style="margin:26px 0 0;font-size:16px;line-height:1.65;">Kind regards,<br><strong>Arnas Vazinskas</strong><br>Form &amp; Frame<br><a href="tel:+447933026532" style="color:#20201d;">${BUSINESS_PHONE_DISPLAY}</a><br><a href="mailto:${BUSINESS_EMAIL}" style="color:#20201d;">${BUSINESS_EMAIL}</a></p>
-      <div style="margin-top:34px;padding-top:28px;border-top:1px solid #e4ded4;text-align:left;">
+      <div style="margin-top:34px;padding:20px 22px;background:#17211b;text-align:left;">
         <img src="cid:form-frame-logo" alt="Form & Frame Kitchens" width="240" style="display:block;width:240px;max-width:100%;height:auto;">
       </div>
     </div>
