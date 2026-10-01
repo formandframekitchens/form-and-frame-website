@@ -121,7 +121,7 @@ export async function POST(request: Request) {
   if (installation && !installationOptions.some(option => option.value === installation && option.service === service)) errors.installation = "Please choose a valid kitchen requirement.";
   if (joinery && (service !== "bespoke-joinery" || !joineryOptions.some(option => option.value === joinery))) errors.joinery = "Please choose a valid furniture or joinery type.";
   const doorCount = text(form, "doorCount", 20);
-  if (doorCount && service === "internal-door-installation" && !/^\\d{1,3}$/.test(doorCount)) errors.doorCount = "Please enter the approximate number of doors as a number.";
+  if (doorCount && service === "internal-door-installation" && !/^\d{1,3}$/.test(doorCount)) errors.doorCount = "Please enter the approximate number of doors as a number.";
   if (!KITCHEN_STATUS.has(kitchenStatus)) errors.kitchenStatus = "Please choose a valid kitchen status.";
   if (!STAGES.has(stage)) errors.stage = "Please choose a valid project stage.";
   if (!DOOR_TYPES.has(doorType)) errors.doorType = "Please choose a valid door type.";
