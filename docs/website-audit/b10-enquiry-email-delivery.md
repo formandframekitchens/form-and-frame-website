@@ -62,9 +62,43 @@ This leaves payload headroom for multipart form data while preserving direct att
 - DKIM, SPF MX, SPF TXT and return-path CNAME verified.
 - Preview environment configured with `RESEND_API_KEY`.
 
+## End-to-end verification — 1 October 2026
+
+Controlled preview submissions were executed against the deployed B10 server route.
+
+Verified business notifications:
+- `FF-20261001-B10KITCH` — kitchen installation; delivered to the business inbox with all kitchen fields and one PNG attachment.
+- `FF-20261001-B10DOORS` — internal door installation; delivered with door count, door type and door-supply fields.
+- `FF-20261001-B10JOINE` — bespoke joinery; delivered with the selected joinery type.
+
+Verified customer acknowledgement:
+- acknowledgement messages were delivered when an email address was supplied;
+- acknowledgement contained the enquiry reference, Arnas Vazinskas, business telephone number and inline Form & Frame Kitchens logo;
+- the inline logo arrived in Gmail as `form-frame-kitchens.png`;
+- phone-only enquiry correctly produced no acknowledgement.
+
+Verified edge cases:
+- email-only enquiry: accepted, business notification delivered, Reply-To matched the submitted email address;
+- phone-only enquiry: accepted without an acknowledgement email;
+- missing required details: HTTP 400 with field-specific errors;
+- file with false PDF MIME declaration/signature: HTTP 400;
+- attachment over 3 MB: HTTP 400;
+- duplicate retry with identical submission ID: both API calls returned the same reference and Resend recorded only one business notification.
+
+Provider evidence:
+- Resend domain status: verified;
+- sending enabled in eu-west-1;
+- DKIM/SPF/return-path records verified;
+- Resend reported all controlled delivery emails as delivered;
+- Gmail confirmed business notifications, acknowledgement messages and the test attachment were received.
+
+The temporary preview-only test route was removed after verification.
+
 ## Verification gate
 
-Do not merge B10 until:
+Before merge, the final clean B10 commit must build successfully on Vercel. The production sending credential should also be rotated if the setup credential has been exposed outside the intended administrator context.
+
+Original checklist:
 - Resend domain status is verified;
 - a sending-only API key is configured in the B10 Vercel preview;
 - kitchen, door and bespoke-joinery form variants have been submitted;
