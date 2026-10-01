@@ -31,15 +31,15 @@ export default function PrivacyPage() {
         <p>Plans and photographs can contain information about your home or project. They are treated as project information and should only be uploaded when relevant to the enquiry. The online form must not report an attachment as received unless the configured enquiry service has accepted it.</p>
 
         <h2>Who receives the information</h2>
-        <p>Form & Frame is the intended business recipient of website enquiries. Technical service providers may process information where they are used to host the website or securely deliver and store enquiries. The exact enquiry-delivery and storage provider will be documented here before that provider is enabled for production use.</p>
+        <p>Form & Frame is the intended business recipient of website enquiries. The website is hosted on Vercel. Transactional enquiry emails and optional attachments are processed through Resend for delivery to the Form & Frame business inbox, which is hosted with Google Workspace. These providers process the information only as needed to provide their respective hosting, email delivery and mailbox services.</p>
 
         <h2>How long information is kept</h2>
-        <p>Enquiry and project information should be retained only for as long as it is needed for the enquiry, any resulting work, and applicable administrative or legal requirements. The business retention period is being confirmed before the direct-submission system is treated as fully verified.</p>
+        <p>Enquiry and project information is kept only for as long as it is reasonably needed to respond to the enquiry, manage any resulting work, maintain necessary business records, and meet applicable administrative or legal requirements. Email-delivery providers may retain delivery records in accordance with their service and security policies.</p>
 
         <h2>Your choices and questions</h2>
         <p>You can choose whether to attach plans or photographs. You can also contact Form & Frame directly instead of using the website form. If you want to ask about personal information connected with an enquiry, contact <a href={EMAIL_HREF}>{BUSINESS_EMAIL}</a> or call <a href={PHONE_HREF}>{BUSINESS_PHONE_DISPLAY}</a>.</p>
 
-        <p className="privacy-note">This notice will be updated if the production enquiry provider, storage arrangements or retention policy changes.</p>
+        <p className="privacy-note">This notice will be updated if the enquiry-delivery, mailbox, storage or retention arrangements materially change.</p>
       </div></section>
     </main>
     <Footer />

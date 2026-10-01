@@ -1,5 +1,6 @@
 import { expect, test } from "@playwright/test";
 import { enquiryEmail } from "../app/lib/enquiry";
+import { customerAcknowledgementEmail, enquiryDetails, internalEnquiryEmail } from "../app/lib/enquiry-email";
 
 const servicePaths = ["bespoke-joinery", "kitchen-installation", "internal-door-installation", "joinery-installation"];
 const suppliers = ["howdens", "wren", "ikea", "magnet", "wickes", "benchmarx", "b-and-q"];
@@ -237,4 +238,74 @@ test("enquiry API rejects a file whose bytes do not match its declared type", as
   const body = await response.json();
   expect(body.ok).toBe(false);
   expect(body.fields.files).toMatch(/file type/i);
+});
+
+
+test("transactional enquiry emails include every completed conditional field", () => {
+  const data = new FormData();
+  data.set("name", "B10 Test Customer");
+  data.set("email", "b10-test@example.com");
+  data.set("phone", "07123456789");
+  data.set("preferredContact", "email");
+  data.set("location", "LU1 1AA");
+  data.set("service", "kitchen-installation");
+  data.set("installation", "own-kitchen");
+  data.set("supplier", "howdens");
+  data.set("kitchenStatus", "Kitchen ordered");
+  data.set("stage", "Ready for installation");
+  data.set("message", "Please review the attached plan and project details.");
+
+  const details = enquiryDetails(data, "FF-20261001-TEST1234", [
+    { filename: "kitchen-plan.pdf", size: 1024 * 1024, type: "application/pdf" },
+  ]);
+  const asObject = Object.fromEntries(details);
+
+  expect(asObject["Name"]).toBe("B10 Test Customer");
+  expect(asObject["Email"]).toBe("b10-test@example.com");
+  expect(asObject["Phone"]).toBe("07123456789");
+  expect(asObject["Preferred contact"]).toBe("Email");
+  expect(asObject["Postcode / town"]).toBe("LU1 1AA");
+  expect(asObject["Service"]).toBe("Kitchen installation");
+  expect(asObject["Kitchen requirement"]).toBe("I have my own kitchen");
+  expect(asObject["Kitchen supplier"]).toBe("Howdens");
+  expect(asObject["Kitchen status"]).toBe("Kitchen ordered");
+  expect(asObject["Timing / project stage"]).toBe("Ready for installation");
+  expect(asObject["Project details"]).toContain("attached plan");
+  expect(asObject["Attachments"]).toContain("kitchen-plan.pdf");
+
+  const internal = internalEnquiryEmail(data, "FF-20261001-TEST1234", [
+    { filename: "kitchen-plan.pdf", size: 1024 * 1024, type: "application/pdf" },
+  ]);
+  expect(internal.subject).toContain("FF-20261001-TEST1234");
+  expect(internal.html).toContain("Kitchen ordered");
+  expect(internal.text).toContain("Howdens");
+
+  const acknowledgement = customerAcknowledgementEmail(data, "FF-20261001-TEST1234");
+  expect(acknowledgement.subject).toContain("FF-20261001-TEST1234");
+  expect(acknowledgement.html).toContain("Arnas Vazinskas");
+  expect(acknowledgement.html).toContain("07933 026532");
+  expect(acknowledgement.html).toContain("cid:form-frame-logo");
+});
+
+test("door and bespoke joinery conditional fields are represented in notification data", () => {
+  const door = new FormData();
+  door.set("name", "Door Customer");
+  door.set("service", "internal-door-installation");
+  door.set("doorCount", "6");
+  door.set("doorType", "Sliding or pocket doors");
+  door.set("doorSupply", "I need made-to-order doors coordinated");
+  door.set("message", "Door project.");
+  const doorRows = Object.fromEntries(enquiryDetails(door, "FF-DOOR"));
+  expect(doorRows["Approximate number of doors"]).toBe("6");
+  expect(doorRows["Door type"]).toBe("Sliding or pocket doors");
+  expect(doorRows["Door supply"]).toBe("I need made-to-order doors coordinated");
+
+  const joinery = new FormData();
+  joinery.set("name", "Joinery Customer");
+  joinery.set("service", "bespoke-joinery");
+  joinery.set("joinery", "wardrobes");
+  joinery.set("message", "Wardrobe project.");
+  const joineryRows = Object.fromEntries(enquiryDetails(joinery, "FF-JOINERY"));
+  expect(joineryRows["Furniture / joinery type"]).toBe("Bespoke wardrobes");
+  expect(joineryRows["Kitchen supplier"]).toBeUndefined();
 });
