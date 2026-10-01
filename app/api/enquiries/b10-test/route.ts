@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { POST as submitEnquiry } from "../route";
 
 export const runtime = "nodejs";
 
@@ -7,29 +8,29 @@ const ONE_PIXEL_PNG = Buffer.from(
   "base64"
 );
 
-async function submit(origin: string, fields: Record<string, string>, attach = false) {
+async function submit(fields: Record<string, string>, attach = false) {
   const form = new FormData();
   for (const [key, value] of Object.entries(fields)) form.set(key, value);
   if (attach) {
     form.append("files", new File([ONE_PIXEL_PNG], "b10-test-kitchen.png", { type: "image/png" }));
   }
-  const response = await fetch(new URL("/api/enquiries", origin), {
+
+  const request = new Request("https://preview.internal/api/enquiries", {
     method: "POST",
     body: form,
-    cache: "no-store",
   });
+  const response = await submitEnquiry(request);
   return {
     status: response.status,
     body: await response.json().catch(() => ({})),
   };
 }
 
-export async function GET(request: Request) {
+export async function GET() {
   if (process.env.VERCEL_ENV !== "preview") {
     return new NextResponse("Not found", { status: 404 });
   }
 
-  const origin = new URL(request.url).origin;
   const suffix = Date.now().toString().slice(-8);
   const common = {
     name: "B10 Controlled Test",
@@ -41,7 +42,7 @@ export async function GET(request: Request) {
     privacyAccepted: "yes",
   };
 
-  const kitchen = await submit(origin, {
+  const kitchen = await submit({
     ...common,
     service: "kitchen-installation",
     installation: "own-kitchen",
@@ -51,7 +52,7 @@ export async function GET(request: Request) {
     submissionId: `b10-kitchen-${suffix}`,
   }, true);
 
-  const doors = await submit(origin, {
+  const doors = await submit({
     ...common,
     service: "internal-door-installation",
     doorCount: "6",
@@ -61,7 +62,7 @@ export async function GET(request: Request) {
     submissionId: `b10-doors-${suffix}`,
   });
 
-  const joinery = await submit(origin, {
+  const joinery = await submit({
     ...common,
     service: "bespoke-joinery",
     joinery: "wardrobes",
