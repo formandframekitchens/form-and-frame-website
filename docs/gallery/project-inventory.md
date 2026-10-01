@@ -141,6 +141,25 @@ Example:
 11. Verify the committed files remotely before starting the next project.
 
 
+
+## Execution safety rule — stop on repeated failure
+
+For this Gallery project, do **not** continue retrying the same failing operation in a loop.
+
+Operational rule:
+
+1. A task segment must have a clearly defined output and verification point.
+2. If a tool/action fails once, inspect the error and retry only once with a corrected approach.
+3. If the corrected retry fails, **stop that segment immediately**.
+4. Before any further action, inspect the remote state to establish exactly what succeeded and what did not.
+5. Do not count temporary/unreferenced objects (for example an unattached Git blob) as completed work. A segment counts as complete only when the intended files are committed to the B11 branch and verified remotely.
+6. After two failed attempts on the same transfer method, switch method rather than repeating it.
+7. If the alternative method is not available or would risk corrupting/duplicating work, stop and report the blocker before continuing.
+8. Work on **one project at a time** for image import/processing. Finish → commit → verify → report, then start the next project.
+9. Never spend extended time silently retrying a failing transfer or conversion process.
+10. Production `master` remains untouched until the completed Gallery preview is explicitly approved.
+
+
 ## Next implementation task
 
 Image Batch A2:
