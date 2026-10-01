@@ -36,31 +36,23 @@
 
 ## Enquiry provider configuration
 
-B06 deliberately does **not** invent a provider or claim receipt verification.
+**B10 supersedes the original B06 placeholder provider design.**
 
-Required production environment names:
+Transactional enquiry delivery now uses Resend directly from the website API.
 
-- `ENQUIRY_PROVIDER_URL`
-- `ENQUIRY_PROVIDER_TOKEN`
+Production environment:
+- `RESEND_API_KEY` — sending-only credential restricted to the verified Form & Frame domain.
+- `ENQUIRY_FROM_EMAIL` — optional override; defaults to the Form & Frame sales address.
+- `ENQUIRY_TO_EMAIL` — optional override; defaults to the Form & Frame sales inbox.
 
-The approved provider must:
-1. durably persist an accepted enquiry before returning HTTP success;
-2. associate uploaded files with the enquiry and keep them private;
-3. record the `reference` passed by the website;
-4. honour the `Idempotency-Key` header or provide equivalent duplicate protection;
-5. notify the approved business inbox;
-6. make notification failure observable/retryable without losing the stored enquiry;
-7. support the approved retention/deletion policy;
-8. optionally send an acknowledgement when an email address is supplied, if the owner approves that behaviour.
-
-Until a provider and controlled test destination are configured, **FF-01 and FF-02 cannot be Verified**.
+The domain `formandframekitchens.co.uk` is verified in Resend with DKIM, SPF and return-path records. Controlled preview testing on 1 October 2026 confirmed business notification delivery, conditional-field coverage, attachment delivery, customer acknowledgement, Reply-To behaviour, phone-only handling, validation failures and duplicate suppression. See `docs/website-audit/b10-enquiry-email-delivery.md` for the verification record.
 
 ## FF-01–FF-24 tracker
 
 | ID | Status | Files / URLs changed | Current evidence | Remaining dependency |
 |---|---|---|---|---|
-| FF-01 | Implemented, verification pending | `app/api/enquiries/route.ts`, `app/components/enquiry-form.tsx`, `/contact` | Server validation/provider boundary implemented; success requires provider 2xx | Approved durable provider, Vercel env vars, controlled receipt/notification/failure tests |
-| FF-02 | Implemented, verification pending | Same API/form | PDF/JPEG/PNG count/size/signature validation and UI removal implemented | Provider-backed private storage/access, controlled valid/invalid/partial-failure tests |
+| FF-01 | Verified | `app/api/enquiries/route.ts`, `app/components/enquiry-form.tsx`, `/contact` | Controlled B10 submissions delivered to the business inbox; acknowledgement, Reply-To and duplicate suppression verified | Production merge still requires owner approval |
+| FF-02 | Verified | Same API/form | Valid PNG attachment delivered and read from Gmail; false-signature and oversized attachment tests rejected with HTTP 400 | Current limits: 5 files, 3 MB each, 4 MB total |
 | FF-03 | Implemented, verification pending | `service-page.tsx`, `service-images.ts` | Missing hero/detail/gallery imagery is omitted; placeholder copy removed | Rendered route review |
 | FF-04 | Implemented, verification pending | `/privacy`, form, footer, sitemap | Notice and links implemented | Confirm legal/trading identity, actual provider, retention/access policy |
 | FF-05 | Implemented, verification pending | Shared service wording and pages | Unsupported generic trust wording reduced | Owner service-responsibility/policy approval |
@@ -88,12 +80,14 @@ Until a provider and controlled test destination are configured, **FF-01 and FF-
 
 Do not interpret implementation as verification.
 
-At the time this report was written:
-- direct provider delivery has not been configured or tested;
-- no fake production enquiry has been sent;
-- browser screenshots/Lighthouse/manual keyboard evidence for the final B06 remote commit remain to be captured;
-- the Vercel deployment result and exact final remote SHA are recorded in the PR/final handoff after deployment;
-- production `master` remains untouched.
+Current B10 enquiry verification:
+- Resend domain authentication is verified;
+- controlled preview enquiries have been delivered to the business inbox;
+- customer acknowledgement delivery and inline logo were confirmed;
+- one attachment was delivered and read successfully from Gmail;
+- email-only, phone-only, invalid-field, invalid-file, oversized-file and duplicate-submission cases were checked;
+- browser screenshots/Lighthouse/manual keyboard evidence outside the enquiry journey remain separate audit work;
+- production `master` remains unchanged until B10 is explicitly approved for merge.
 
 ## Content provenance
 
