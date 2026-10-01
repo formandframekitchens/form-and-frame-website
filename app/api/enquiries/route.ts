@@ -3,6 +3,7 @@ import { BUSINESS_EMAIL } from "../../lib/contact";
 import { EMAIL_LOGO_BASE64 } from "../../lib/email-logo";
 import { customerAcknowledgementEmail, internalEnquiryEmail } from "../../lib/enquiry-email";
 import { installationOptions, serviceOptions, supplierOptions } from "../../lib/enquiry";
+import { joineryOptions } from "../../lib/joinery-types";
 
 export const runtime = "nodejs";
 
@@ -98,6 +99,7 @@ export async function POST(request: Request) {
   const service = text(form, "service", 80);
   const supplier = text(form, "supplier", 80);
   const installation = text(form, "installation", 80);
+  const joinery = text(form, "joinery", 80);
   const preferredContact = text(form, "preferredContact", 20);
   const privacyAccepted = text(form, "privacyAccepted", 20);
   const kitchenStatus = text(form, "kitchenStatus", 80);
@@ -117,11 +119,14 @@ export async function POST(request: Request) {
   if (!serviceOptions.some(option => option.value === service)) errors.service = "Please choose a valid service.";
   if (supplier && !supplierOptions.some(option => option.value === supplier)) errors.supplier = "Please choose a valid kitchen supplier.";
   if (installation && !installationOptions.some(option => option.value === installation && option.service === service)) errors.installation = "Please choose a valid kitchen requirement.";
+  if (joinery && (service !== "bespoke-joinery" || !joineryOptions.some(option => option.value === joinery))) errors.joinery = "Please choose a valid furniture or joinery type.";
+  const doorCount = text(form, "doorCount", 20);
+  if (doorCount && service === "internal-door-installation" && !/^\\d{1,3}$/.test(doorCount)) errors.doorCount = "Please enter the approximate number of doors as a number.";
   if (!KITCHEN_STATUS.has(kitchenStatus)) errors.kitchenStatus = "Please choose a valid kitchen status.";
   if (!STAGES.has(stage)) errors.stage = "Please choose a valid project stage.";
   if (!DOOR_TYPES.has(doorType)) errors.doorType = "Please choose a valid door type.";
   if (!DOOR_SUPPLY.has(doorSupply)) errors.doorSupply = "Please choose a valid door supply option.";
-  if (!privacyAccepted) errors.privacyAccepted = "Please confirm that we may use these details to respond to your enquiry.";
+  if (privacyAccepted !== "yes") errors.privacyAccepted = "Please confirm that we may use these details to respond to your enquiry.";
 
   const files = form.getAll("files").filter((value): value is File => value instanceof File && value.size > 0);
   if (files.length > MAX_FILES) errors.files = `Please attach no more than ${MAX_FILES} files.`;
