@@ -56,6 +56,12 @@ Because Vercel Functions enforce a request-body limit for server-routed uploads,
 
 This leaves payload headroom for multipart form data while preserving direct attachment delivery.
 
+## Current infrastructure status
+
+- Resend sending domain verified on 1 October 2026.
+- DKIM, SPF MX, SPF TXT and return-path CNAME verified.
+- Preview environment configured with `RESEND_API_KEY`.
+
 ## Verification gate
 
 Do not merge B10 until:
