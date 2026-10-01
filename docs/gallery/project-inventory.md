@@ -109,7 +109,7 @@ Every photograph must be polished for the web **before** it is committed to the 
 - Apply modest sharpening only after resize when needed.
 - Do not over-process colour, contrast or saturation; the photographs must remain credible representations of the finished work.
 - Crop position must be reviewed manually so important joinery, edges, doors, metalwork, grain, lighting and proportions are not cut away.
-- Portrait originals may be cropped/reframed into the 4:3 web composition only where the finished piece remains properly represented. If a safe crop is impossible, exclude that image rather than forcing a poor composition.
+- Portrait or unusually framed originals may be cropped/reframed into the 4:3 web composition where the finished piece remains properly represented. If a safe crop would cut into or distort the joinery, use AI outpainting to extend the surrounding room/background naturally to the required 4:3 frame. Never stretch, reshape or invent the joinery itself. The finished furniture must remain geometrically faithful to the source photograph.
 - Duplicate and near-duplicate angles should not be imported.
 - Prefer 3–5 strong photographs per case study for the first Gallery build rather than uploading every available frame.
 
@@ -131,13 +131,14 @@ Example:
 1. Select finished photographs.
 2. Remove duplicates and weak angles.
 3. Review crop manually.
-4. Convert to 4:3.
-5. Resize to 1800 × 1350 px.
-6. Convert/compress to WebP.
-7. Check final file size and image quality.
-8. Apply SEO filename.
-9. Upload to the project-specific Gallery folder.
-10. Verify the committed files remotely before starting the next project.
+4. If a safe 4:3 crop would cut into the joinery, AI-outpaint the surrounding scene while preserving the joinery exactly.
+5. Convert to 4:3.
+6. Resize to 1800 × 1350 px.
+7. Convert/compress to WebP.
+8. Check final file size and image quality.
+9. Apply SEO filename.
+10. Upload to the project-specific Gallery folder.
+11. Verify the committed files remotely before starting the next project.
 
 
 ## Next implementation task
