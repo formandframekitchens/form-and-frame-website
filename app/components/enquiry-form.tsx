@@ -8,8 +8,8 @@ import { joineryOptions, type JoineryId } from "../lib/joinery-types";
 import { installationOptions, isKitchenService, readEnquirySelection, serviceOptions, supplierOptions, type EnquirySelection, type InstallationId, type ServiceId, type SupplierId } from "../lib/enquiry";
 
 const MAX_FILES = 5;
-const MAX_FILE_BYTES = 10 * 1024 * 1024;
-const MAX_TOTAL_BYTES = 25 * 1024 * 1024;
+const MAX_FILE_BYTES = 3 * 1024 * 1024;
+const MAX_TOTAL_BYTES = 4 * 1024 * 1024;
 const ACCEPTED_TYPES = new Set(["application/pdf", "image/jpeg", "image/png"]);
 
 export function EnquiryForm() {
@@ -42,9 +42,9 @@ function EnquiryFields({ initialSelection }: { initialSelection: EnquirySelectio
     for (const file of nextFiles) {
       total += file.size;
       if (!ACCEPTED_TYPES.has(file.type)) return "Use PDF, JPEG or PNG files. HEIC/HEIF is not supported yet.";
-      if (file.size > MAX_FILE_BYTES) return "Each file must be 10 MB or smaller.";
+      if (file.size > MAX_FILE_BYTES) return "Each file must be 3 MB or smaller.";
     }
-    if (total > MAX_TOTAL_BYTES) return "Attachments must total 25 MB or less.";
+    if (total > MAX_TOTAL_BYTES) return "Attachments must total 4 MB or less.";
     return "";
   }
 
@@ -268,7 +268,7 @@ function EnquiryFields({ initialSelection }: { initialSelection: EnquirySelectio
     <div className="file-upload-block">
       <div>
         <strong>Plans & photographs <span className="field-optional">optional</span></strong>
-        <p>PDF, JPEG or PNG. Up to 5 files, 10 MB each and 25 MB total. If your phone uses HEIC/HEIF, please export or share the image as JPEG before uploading.</p>
+        <p>PDF, JPEG or PNG. Up to 5 files, 3 MB each and 4 MB total. If your phone uses HEIC/HEIF, please export or share the image as JPEG before uploading.</p>
       </div>
       <label className="file-picker">
         <span>Choose files</span>
