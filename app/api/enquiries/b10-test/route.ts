@@ -8,10 +8,10 @@ const ONE_PIXEL_PNG = Buffer.from(
   "base64"
 );
 
-async function submit(fields: Record<string, string>, file?: { name: string; type: string; bytes: Uint8Array }) {
+async function submit(fields: Record<string, string>, file?: { name: string; type: string; content: string }) {
   const form = new FormData();
   for (const [key, value] of Object.entries(fields)) form.set(key, value);
-  if (file) form.append("files", new File([file.bytes], file.name, { type: file.type }));
+  if (file) form.append("files", new File([file.content], file.name, { type: file.type }));
 
   const request = new Request("https://preview.internal/api/enquiries", {
     method: "POST",
@@ -76,7 +76,7 @@ export async function GET() {
   }, {
     name: "not-really-a.pdf",
     type: "application/pdf",
-    bytes: new TextEncoder().encode("this is not a pdf"),
+    content: "this is not a pdf",
   });
 
   const oversizedFile = await submit({
@@ -89,7 +89,7 @@ export async function GET() {
   }, {
     name: "too-large.png",
     type: "image/png",
-    bytes: new Uint8Array(3 * 1024 * 1024 + 1),
+    content: "x".repeat(3 * 1024 * 1024 + 1),
   });
 
   const duplicateFields = {
