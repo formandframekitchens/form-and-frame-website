@@ -63,7 +63,7 @@ The Gallery landing page should begin with:
 | 35 | Belgravia Home Office & Children's Joinery | Belgravia, London | Professional web photography/source filenames | Ready |
 | 37 | Virginia Water Wine Room | Virginia Water, Surrey | Source location explicit | Ready |
 | 38 | Rise-and-Fall Media Cabinet | London | Finished photography; source designer naming excluded | Ready |
-| 39 | Built-In Window Seat with Drawer Storage | London | Finished photography; source designer naming excluded | Ready |
+| 39 | Built-In Window Seat with Drawer Storage | London | Finished photography; source designer naming excluded | A2.1 polished assets imported |
 | 40 | Contemporary Residential Joinery Collection | London | Large finished-photo set | Needs item grouping before import |
 | 41 | Multi-Room Residential Joinery Collection | London | Large finished-photo set | Needs item grouping before import |
 
