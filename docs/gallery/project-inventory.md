@@ -61,7 +61,6 @@ The Gallery landing page should begin with:
 | 33 | Belgravia Walk-In Wardrobe | Belgravia, London | Professional web photography | Ready |
 | 34 | Belgravia Bathroom Joinery & Antique-Mirror Details | Belgravia, London | Professional web photography/source filenames | Ready |
 | 35 | Belgravia Home Office & Children's Joinery | Belgravia, London | Professional web photography/source filenames | Ready |
-| 36 | Luxury Salon Joinery | Central London | Professional finished photography; public title intentionally excludes client/designer naming | Ready |
 | 37 | Virginia Water Wine Room | Virginia Water, Surrey | Source location explicit | Ready |
 | 38 | Rise-and-Fall Media Cabinet | London | Finished photography; source designer naming excluded | Ready |
 | 39 | Built-In Window Seat with Drawer Storage | London | Finished photography; source designer naming excluded | Ready |
@@ -70,6 +69,7 @@ The Gallery landing page should begin with:
 
 ## Excluded source groups
 
+- Luxury salon project photography — excluded by owner request; do not import or publish.
 - All folders explicitly labelled visualisations/renders.
 - Sample-board/sample-development photography.
 - Wine-rack folders containing only work-in-progress imagery.
