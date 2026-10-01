@@ -39,7 +39,7 @@ The Gallery landing page should begin with:
 | 11 | Modern Alcove Cabinetry | London | Finished photography | Ready |
 | 12 | Soho Bespoke Bookcase | Soho, London | Source location explicit | A2.2 polished assets imported |
 | 13 | Soho Walk-In Wardrobe | Soho, London | Source location explicit | A2.3 polished assets imported |
-| 14 | Soho Shoe-Storage Cabinet | Soho, London | Source location explicit | Ready |
+| 14 | Soho Shoe-Storage Cabinet | Soho, London | Source location explicit | A2.4 polished assets imported |
 | 15 | Grey & Black Bespoke Media Wall | London | Finished photography | Ready |
 | 16 | Golden Textured-Front Cabinet | London | Source identifies golden leather/textured fronts | Ready |
 | 17 | Textured-Front Bespoke Cabinet | London | Source identifies crocodile-effect/textured fronts | Ready |
