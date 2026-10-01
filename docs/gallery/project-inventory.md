@@ -92,6 +92,54 @@ The first 24 finished photographs are already stored under SEO-friendly paths fo
 
 The two previously designer-derived asset folder names have been replaced with neutral public names. No designer names remain in those asset paths.
 
+
+## Gallery image production standard
+
+Every photograph must be polished for the web **before** it is committed to the website repository.
+
+### Standard output
+
+- Finished photography only.
+- Public Gallery ratio: **4:3 landscape**.
+- Standard dimensions: **1800 × 1350 px**.
+- Standard format: **WebP**.
+- Target file size: generally **150–450 KB per image**; keep below **500 KB** unless preserving critical fine detail requires slightly more.
+- Strip unnecessary EXIF / camera metadata.
+- Use consistent colour profile suitable for browsers (sRGB).
+- Apply modest sharpening only after resize when needed.
+- Do not over-process colour, contrast or saturation; the photographs must remain credible representations of the finished work.
+- Crop position must be reviewed manually so important joinery, edges, doors, metalwork, grain, lighting and proportions are not cut away.
+- Portrait originals may be cropped/reframed into the 4:3 web composition only where the finished piece remains properly represented. If a safe crop is impossible, exclude that image rather than forcing a poor composition.
+- Duplicate and near-duplicate angles should not be imported.
+- Prefer 3–5 strong photographs per case study for the first Gallery build rather than uploading every available frame.
+
+### SEO asset naming
+
+Before upload, every image filename must:
+- use lowercase;
+- use hyphens instead of spaces;
+- describe the visible joinery and useful detail;
+- avoid client names, designer names and previous company names;
+- avoid camera filenames such as IMG_1234 / DSC_1234;
+- avoid keyword stuffing.
+
+Example:
+`natural-walnut-bespoke-bookcase-led-shelving-01.webp`
+
+### Quality-control sequence for each project
+
+1. Select finished photographs.
+2. Remove duplicates and weak angles.
+3. Review crop manually.
+4. Convert to 4:3.
+5. Resize to 1800 × 1350 px.
+6. Convert/compress to WebP.
+7. Check final file size and image quality.
+8. Apply SEO filename.
+9. Upload to the project-specific Gallery folder.
+10. Verify the committed files remotely before starting the next project.
+
+
 ## Next implementation task
 
 Image Batch A2:
