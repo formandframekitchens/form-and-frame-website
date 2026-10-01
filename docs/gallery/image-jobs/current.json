@@ -1,0 +1,25 @@
+{
+  "project": "Grey & Black Bespoke Media Wall",
+  "images": [
+    {
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-6a10-8210-85b0-0a39da992f4d/raw?se=2026-10-01T19%3A49%3A03Z&sp=r&sv=2026-02-06&sr=b&scid=ce457ea6-0b8c-59f9-a947-128db556531b&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-01T19%3A41%3A14Z&ske=2026-10-02T19%3A41%3A14Z&sks=b&skv=2026-02-06&sig=qMK8Z43GulcFv8ssWFiFZkfF8tlYH4oFHUTsNQ//h4M%3D",
+      "output": "public/images/gallery/grey-black-bespoke-media-wall/grey-bespoke-media-wall-front-view-01.webp",
+      "crop": "5952x4464+373+1"
+    },
+    {
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-0634-8210-9a1b-245350a2f397/raw?se=2026-10-01T19%3A49%3A05Z&sp=r&sv=2026-02-06&sr=b&scid=9cdf6e6f-ae53-5e1c-bfbe-b0f8e3492475&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-01T18%3A36%3A55Z&ske=2026-10-02T18%3A36%3A55Z&sks=b&skv=2026-02-06&sig=81auCNz62p8HbNEE/a%2B7C2A7nRSxmkq8MmrQvCz/FuM%3D",
+      "output": "public/images/gallery/grey-black-bespoke-media-wall/grey-bespoke-media-wall-angled-view-02.webp",
+      "crop": "4608x3456+289+1"
+    },
+    {
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-89d4-8210-abb6-846fefd07e9d/raw?se=2026-10-01T19%3A49%3A07Z&sp=r&sv=2026-02-06&sr=b&scid=561d5582-fb2b-53fa-97c6-1c4265cf8d33&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-01T19%3A08%3A20Z&ske=2026-10-02T19%3A08%3A20Z&sks=b&skv=2026-02-06&sig=1JDQXk0YVN6Q2EyQaUTWwqZ05%2Bp5ypGbz5bwe2APcoE%3D",
+      "output": "public/images/gallery/grey-black-bespoke-media-wall/black-bespoke-media-wall-front-view-03.webp",
+      "crop": "4768x3576+300+1"
+    },
+    {
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-590c-8210-b4f9-877cb0ec8767/raw?se=2026-10-01T19%3A49%3A17Z&sp=r&sv=2026-02-06&sr=b&scid=b21bbd05-64b0-568e-84cb-51d17ff4ed14&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-01T17%3A02%3A56Z&ske=2026-10-02T17%3A02%3A56Z&sks=b&skv=2026-02-06&sig=v2A5uDxCWbZvsK5/WMwucO4ucdy1n5hHV4uL1B6Bv04%3D",
+      "output": "public/images/gallery/grey-black-bespoke-media-wall/black-bespoke-media-wall-angled-view-04.webp",
+      "crop": "4672x3504+292+0"
+    }
+  ]
+}
