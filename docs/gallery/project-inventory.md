@@ -41,7 +41,7 @@ The Gallery landing page should begin with:
 | 13 | Soho Walk-In Wardrobe | Soho, London | Source location explicit | A2.3 polished assets imported |
 | 14 | Soho Shoe-Storage Cabinet | Soho, London | Source location explicit | A2.4 polished assets imported |
 | 15 | Grey & Black Bespoke Media Wall | London | Finished photography | Ready |
-| 16 | Golden Textured-Front Cabinet | London | Source identifies golden leather/textured fronts | Ready |
+| 16 | Golden Textured-Front Cabinet | London | Source identifies golden leather/textured fronts | A2.5 polished assets imported |
 | 17 | Textured-Front Bespoke Cabinet | London | Source identifies crocodile-effect/textured fronts | Ready |
 | 18 | Grey Bespoke Sideboard | London | Finished photography | Ready |
 | 19 | Black Bespoke Media Unit | London | Finished web-optimised photography | Ready |
