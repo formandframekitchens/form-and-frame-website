@@ -597,6 +597,78 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
+    slug: "sc-bespoke-tv-unit",
+    title: "S&C Bespoke TV Unit",
+    category: "Bespoke Joinery",
+    summary: "A full-wall dark media installation combining an integrated television, large upholstered-look feature panels, open display shelving and long low-level concealed storage.",
+    seoDescription: "S&C bespoke TV unit case study by Form & Frame, combining a full-wall dark media installation, integrated television, textured feature panels, display shelving and concealed storage.",
+    keywords: [
+      "S&C bespoke TV unit",
+      "dark bespoke media wall",
+      "full wall TV unit",
+      "integrated television cabinetry",
+      "textured media wall",
+      "bespoke display shelving",
+      "made to measure TV unit",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Full-wall dark media composition",
+      "Integrated television within large textured panels",
+      "Open display shelving at the outer sections",
+      "Long low-level concealed storage",
+    ],
+    caseStudy: [
+      {
+        heading: "A media wall designed as part of the room",
+        body: [
+          "This project uses the television wall as a complete fitted composition rather than treating the screen as a separate object. The dark full-width installation combines the television, large textured panels, open display areas and low storage into one continuous elevation.",
+          "Against the pale seating and bright ceiling, the dark joinery gives the room a strong focal wall while keeping the television visually integrated with the surrounding furniture.",
+        ],
+      },
+      {
+        heading: "The demanding part: maintaining a large panel grid",
+        body: [
+          "The main feature is a repeated grid of large dark panels surrounding the television. Because the divisions continue across a wide area, consistent horizontal and vertical alignment is especially important. Small variations would become visible immediately across the completed wall.",
+          "The television opening also has to sit accurately within this grid so the screen feels deliberately positioned rather than inserted after the surrounding furniture was set out.",
+        ],
+      },
+      {
+        heading: "Display space without breaking the composition",
+        body: [
+          "Open shelving is concentrated toward the outer sections of the installation. These recesses provide space for books and decorative objects while preserving the darker, more continuous treatment around the central television zone.",
+          "The combination of closed panelled areas and open shelves gives the wall useful storage and display capacity without making every section visually busy.",
+        ],
+      },
+      {
+        heading: "Low storage and room-scale proportion",
+        body: [
+          "A long low-level cabinet runs beneath the media wall, giving the composition a strong horizontal base and providing concealed storage. Its alignment with the upper sections helps the full installation read as one piece rather than separate upper and lower elements.",
+          "The wider photographs show the importance of room-scale proportion. The furniture occupies a substantial wall but remains balanced against the large seating group, patterned rug and other strong features within the interior.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed TV unit combines media, display and storage functions within a dark, highly structured wall treatment. Repeated panel lines, integrated shelving and the long lower cabinet give the installation a deliberate architectural character.",
+          "For similar bespoke TV units and full-wall media installations, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-room-view-01.webp",
+      alt: "S&C dark full-wall bespoke TV unit in a living room",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-room-view-01.webp", alt: "Main room view of S&C dark bespoke TV unit", fit: "contain" },
+      { src: "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-wide-view-02.webp", alt: "Wide living-room view of full-wall bespoke media furniture", fit: "contain" },
+      { src: "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-screen-view-03.webp", alt: "S&C media wall with integrated television in use", fit: "contain" },
+      { src: "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-side-view-04.webp", alt: "Side perspective of dark media wall and low storage", fit: "contain" },
+      { src: "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-detail-05.webp", alt: "Close view of textured media panels and display shelving", fit: "contain" },
+    ],
+  },
+  {
     slug: "soho-bespoke-bookcase",
     title: "Soho Bespoke Bookcase",
     category: "Bespoke Joinery",
