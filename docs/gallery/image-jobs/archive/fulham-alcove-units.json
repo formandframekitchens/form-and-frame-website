@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G32 — Fulham Alcove Units",
+  "slug": "fulham-alcove-units",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "13AjMOzBgw74Ng6wiL-4s-7XkEhQVLe6S",
+      "source_label": "MH0016.jpg",
+      "role": "alcove units room view",
+      "output_stem": "fulham-alcove-units-room-view-01"
+    },
+    {
+      "drive_file_id": "1uUUVBWDsXWByurP4CLRWUfeNcHCUEWuZ",
+      "source_label": "MH0017.jpg",
+      "role": "alcove cabinetry front view",
+      "output_stem": "fulham-alcove-units-front-view-02"
+    },
+    {
+      "drive_file_id": "1vRtYg01352ShHbAczc-lZH2pkTcj5jla",
+      "source_label": "MH0018.jpg",
+      "role": "alcove joinery detail",
+      "output_stem": "fulham-alcove-units-detail-03"
+    }
+  ]
+}

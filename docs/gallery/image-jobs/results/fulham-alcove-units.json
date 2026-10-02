@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "project": "G32 \u2014 Fulham Alcove Units",
+  "slug": "fulham-alcove-units",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "13AjMOzBgw74Ng6wiL-4s-7XkEhQVLe6S",
+      "source_label": "MH0016.jpg",
+      "role": "alcove units room view",
+      "original": {
+        "width": 4769,
+        "height": 7173
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-alcove-units/fulham-alcove-units-room-view-01.webp",
+        "bytes": 123450,
+        "quality": 84,
+        "width": 1330,
+        "height": 2000,
+        "sha256": "d15508055c06d4a054ab07f3bf57fad7c9581e7280cf81dbecac4b9d8e219d64",
+        "git_blob_sha": "3df4ef25026fe45fb6fc4e4594b7ba071a49418f"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-alcove-units/fulham-alcove-units-room-view-01.avif",
+        "bytes": 75983,
+        "quality": 58,
+        "width": 1330,
+        "height": 2000,
+        "sha256": "4f58b5f1c1f81519aa08b5f9c77241640613cca6f9e2fd62768f0db74dda8f3d",
+        "git_blob_sha": "4b68397b75f33ddfc52a2f1e12f0a785d78ca68e"
+      }
+    },
+    {
+      "drive_file_id": "1uUUVBWDsXWByurP4CLRWUfeNcHCUEWuZ",
+      "source_label": "MH0017.jpg",
+      "role": "alcove cabinetry front view",
+      "original": {
+        "width": 4921,
+        "height": 7369
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-alcove-units/fulham-alcove-units-front-view-02.webp",
+        "bytes": 117954,
+        "quality": 84,
+        "width": 1336,
+        "height": 2000,
+        "sha256": "30526dd224599b5dff752a40a81fb64bda29be0e32e6e4355c11b6a3adb959e0",
+        "git_blob_sha": "95035736a29831634a433c75de967a5b76bbe377"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-alcove-units/fulham-alcove-units-front-view-02.avif",
+        "bytes": 70498,
+        "quality": 58,
+        "width": 1336,
+        "height": 2000,
+        "sha256": "f5091946f33dd421837d6d9500d7f7c1ab3ebf36cd0703e37088b549fadddfa7",
+        "git_blob_sha": "9369e6b1df879a8e734a0a330f7306a7b1992364"
+      }
+    },
+    {
+      "drive_file_id": "1vRtYg01352ShHbAczc-lZH2pkTcj5jla",
+      "source_label": "MH0018.jpg",
+      "role": "alcove joinery detail",
+      "original": {
+        "width": 4760,
+        "height": 6906
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-alcove-units/fulham-alcove-units-detail-03.webp",
+        "bytes": 107640,
+        "quality": 84,
+        "width": 1379,
+        "height": 2000,
+        "sha256": "a676b48d1e68578ed1ce85a8ec4b6b1a9bd07dc26d6050ab77abd3ef18fd67a8",
+        "git_blob_sha": "6e5c4ea2b1b1c926dd0319b778c19eaee92c184f"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-alcove-units/fulham-alcove-units-detail-03.avif",
+        "bytes": 66684,
+        "quality": 58,
+        "width": 1379,
+        "height": 2000,
+        "sha256": "c119e8f1389a31205208e25c6eb90273a00a9e4085015cc6c95afa22d704cab0",
+        "git_blob_sha": "85c8290fbedb75fe1fe1b67ad0e87ace98d4f677"
+      }
+    }
+  ]
+}

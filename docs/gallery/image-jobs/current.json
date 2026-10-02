@@ -1,35 +1,5 @@
 {
   "schema_version": 1,
-  "enabled": true,
-  "project": "G32 — Fulham Alcove Units",
-  "slug": "fulham-alcove-units",
-  "max_long_edge": 2000,
-  "min_long_edge": 1200,
-  "webp_quality": 84,
-  "avif_quality": 58,
-  "webp_target_bytes": 500000,
-  "avif_target_bytes": 400000,
-  "images": [
-    {
-      "drive_file_id": "13AjMOzBgw74Ng6wiL-4s-7XkEhQVLe6S",
-      "source_label": "MH0016.jpg",
-      "role": "alcove units room view",
-      "output_stem": "fulham-alcove-units-room-view-01",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-af04-8210-a8f4-7ed03cabc5fe/raw?se=2026-10-02T14%3A18%3A29Z&sp=r&sv=2026-02-06&sr=b&scid=2d792ba6-21b8-5855-b511-50bf2b920a3f&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T08%3A42%3A19Z&ske=2026-10-03T08%3A42%3A19Z&sks=b&skv=2026-02-06&sig=MxrwV2BLlBQKJxYUIJ3xsAJTy3xMqoLOg3n7xq4NWx4%3D"
-    },
-    {
-      "drive_file_id": "1uUUVBWDsXWByurP4CLRWUfeNcHCUEWuZ",
-      "source_label": "MH0017.jpg",
-      "role": "alcove cabinetry front view",
-      "output_stem": "fulham-alcove-units-front-view-02",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-873c-8210-b3ce-cdaafbe1781a/raw?se=2026-10-02T14%3A18%3A33Z&sp=r&sv=2026-02-06&sr=b&scid=cda368ae-6598-5751-a42e-abdc19118d72&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A37%3A20Z&ske=2026-10-03T06%3A37%3A20Z&sks=b&skv=2026-02-06&sig=9/wUMEUHyDzHBBzNsvxPU1gwJydgbFzudm%2BaiZFN6oU%3D"
-    },
-    {
-      "drive_file_id": "1vRtYg01352ShHbAczc-lZH2pkTcj5jla",
-      "source_label": "MH0018.jpg",
-      "role": "alcove joinery detail",
-      "output_stem": "fulham-alcove-units-detail-03",
-      "source_url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-30c0-8243-8508-8fafff13f9f8/raw?se=2026-10-02T14%3A19%3A18Z&sp=r&sv=2026-02-06&sr=b&scid=fc634d23-e4ba-5738-b62b-aaec4376722d&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T07%3A16%3A18Z&ske=2026-10-03T07%3A16%3A18Z&sks=b&skv=2026-02-06&sig=YtWtDWOYje5BR/X0WWx6ZhidLxuvd9KLWbjn18Hji3E%3D"
-    }
-  ]
+  "enabled": false,
+  "last_completed_slug": "fulham-alcove-units"
 }
