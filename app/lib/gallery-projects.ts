@@ -1652,6 +1652,78 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-detail-04.webp", alt: "Illuminated display niche detail in Putney TV unit", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G27",
+    slug: "manchester-walk-in-wardrobe",
+    title: "Manchester Walk-In Wardrobe",
+    category: "Bespoke Joinery",
+    location: "Manchester",
+    summary: "A light figured-timber walk-in wardrobe with mirrored and glazed fronts, a central storage island and an integrated dressing area.",
+    seoDescription: "Manchester walk-in wardrobe case study by Form & Frame, featuring light figured-timber cabinetry, mirrored and glazed doors, a central storage island and integrated dressing furniture.",
+    keywords: [
+      "Manchester walk-in wardrobe",
+      "bespoke dressing room Manchester",
+      "fitted wardrobes Manchester",
+      "mirrored wardrobe doors",
+      "wardrobe island",
+      "bespoke dressing room",
+      "made to measure wardrobes",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Full walk-in wardrobe composition",
+      "Mirrored and glazed cabinet fronts",
+      "Central storage island",
+      "Integrated dressing area",
+    ],
+    caseStudy: [
+      {
+        heading: "A complete dressing-room composition",
+        body: [
+          "This Manchester project uses fitted wardrobes on opposing walls with a central storage island and dressing area, creating a complete walk-in wardrobe rather than a single run of cabinetry.",
+          "The light figured finish keeps the large amount of furniture visually calm while mirrored and glazed fronts introduce reflection and depth.",
+        ],
+      },
+      {
+        heading: "The demanding part: symmetry across the room",
+        body: [
+          "Opposing wardrobe runs make alignment highly visible. Door heights, mirrored panels, vertical divisions and handle positions need to relate accurately across both sides of the room.",
+          "The central island reinforces that symmetry, so its position and proportion also need to sit naturally within the circulation space.",
+        ],
+      },
+      {
+        heading: "Mirrored and glazed fronts",
+        body: [
+          "The doors combine reflective and translucent panels within framed fronts, allowing the wardrobe to feel lighter than a continuous wall of solid doors.",
+          "The mirror panels also reflect the opposite cabinetry, making consistency in spacing and alignment an important part of the finished appearance.",
+        ],
+      },
+      {
+        heading: "Island and dressing area",
+        body: [
+          "The central island provides additional drawer storage and a practical surface within the dressing room, while the adjacent dressing table creates a dedicated preparation area.",
+          "These elements are coordinated with the wardrobe finish so the room reads as one designed furniture scheme.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed room combines fitted wardrobes, mirrors, display sections, island storage and dressing furniture within a balanced light-toned interior.",
+          "For similar walk-in wardrobes and dressing rooms, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-overall-view-01.webp",
+      alt: "Light bespoke walk-in wardrobe with central island in Manchester",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-overall-view-01.webp", alt: "Overall view of Manchester walk-in wardrobe with central island", fit: "contain" },
+      { src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-front-view-02.webp", alt: "Symmetrical view between opposing wardrobe runs", fit: "contain" },
+      { src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-dressing-detail-03.webp", alt: "Wardrobe and integrated dressing area detail", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {

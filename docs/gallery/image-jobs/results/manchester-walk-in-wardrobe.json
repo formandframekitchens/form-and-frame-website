@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "project": "G27 \u2014 Manchester Walk-In Wardrobe",
+  "slug": "manchester-walk-in-wardrobe",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1v7cOqfPq0YIeYYT8qdF1ZiCG5MpzUbPy",
+      "source_label": "Garsdale Lane 28.JPG",
+      "role": "overall wardrobe room view",
+      "original": {
+        "width": 1200,
+        "height": 900
+      },
+      "webp": {
+        "path": "public/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-overall-view-01.webp",
+        "bytes": 112538,
+        "quality": 84,
+        "width": 1200,
+        "height": 900,
+        "sha256": "4ec67f32915ee5bf4cd5bd4e0525ef7f4b5f1d597b2c12680ab696aba50a7d19",
+        "git_blob_sha": "48467192a5528f03f8f62f519634897ab0aa7a96"
+      },
+      "avif": {
+        "path": "public/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-overall-view-01.avif",
+        "bytes": 75564,
+        "quality": 58,
+        "width": 1200,
+        "height": 900,
+        "sha256": "71224d16eb6b4644019c187340b0dc2f835cbe3840eaafd0962892d39eeb021d",
+        "git_blob_sha": "3a04c4459f78a2a51b05a0ce5b72896210b82cb2"
+      }
+    },
+    {
+      "drive_file_id": "1nV_MsUDY-YMlIapPUUZpb6hLZCgLjCJW",
+      "source_label": "Garsdale Lane 27.JPG",
+      "role": "symmetrical wardrobe view",
+      "original": {
+        "width": 1200,
+        "height": 900
+      },
+      "webp": {
+        "path": "public/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-front-view-02.webp",
+        "bytes": 99048,
+        "quality": 84,
+        "width": 1200,
+        "height": 900,
+        "sha256": "396a79ac7c63e4838294f5c085dcd947ec4d58bbc55ecbeae646ad47de9511dc",
+        "git_blob_sha": "973ce867a1d2e66484f26fbd3bd0861feb112d08"
+      },
+      "avif": {
+        "path": "public/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-front-view-02.avif",
+        "bytes": 68254,
+        "quality": 58,
+        "width": 1200,
+        "height": 900,
+        "sha256": "22e96951e0526dc4dd41074a18d154c096f996a15d2e4dbfd7ffabde9063dd59",
+        "git_blob_sha": "e47f6a69bcaf33715b9cdf72d4670eb68c250faa"
+      }
+    },
+    {
+      "drive_file_id": "13OnECAcDEu3jvAOpyXpihLkvgDscTIKo",
+      "source_label": "Garsdale Lane 29.JPG",
+      "role": "wardrobe and dressing area detail",
+      "original": {
+        "width": 1200,
+        "height": 900
+      },
+      "webp": {
+        "path": "public/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-dressing-detail-03.webp",
+        "bytes": 77566,
+        "quality": 84,
+        "width": 1200,
+        "height": 900,
+        "sha256": "d0e96e6e97807e082ed72bd372414631d43f559c41361456d4b2e9ba63867069",
+        "git_blob_sha": "3d02216e720cb5112220dbc98b6eb4e187d60667"
+      },
+      "avif": {
+        "path": "public/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-dressing-detail-03.avif",
+        "bytes": 50294,
+        "quality": 58,
+        "width": 1200,
+        "height": 900,
+        "sha256": "208f150e6a89f9fbe80e1e445f47ed0eb751bc585df68dea9ac296e07b9b085c",
+        "git_blob_sha": "7d8f17dbdead6834755d5aac9d94c7cd2092245d"
+      }
+    }
+  ]
+}
