@@ -1,49 +1,5 @@
 {
   "schema_version": 1,
-  "enabled": true,
-  "project": "G18 — Dubai Bespoke TV Unit",
-  "slug": "dubai-bespoke-tv-unit",
-  "max_long_edge": 2000,
-  "min_long_edge": 1200,
-  "webp_quality": 84,
-  "avif_quality": 58,
-  "webp_target_bytes": 500000,
-  "avif_target_bytes": 400000,
-  "images": [
-    {
-      "drive_file_id": "1ypGs7JX1XOcGCyrjiCnnhA0KzLMGKste",
-      "source_label": "01.jpg",
-      "role": "front view",
-      "output_stem": "dubai-bespoke-tv-unit-front-view-01",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-5e90-8210-af38-621e3800b4d4/raw?se=2026-10-02T10%3A21%3A28Z&sp=r&sv=2026-02-06&sr=b&scid=a9493b06-678e-560b-b828-c37abdfe2167&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T07%3A36%3A03Z&ske=2026-10-03T07%3A36%3A03Z&sks=b&skv=2026-02-06&sig=MIXs8YJ6hylUokUZPJDiuh9IEcO%2BY3OEO3/%2B4XFCM4I%3D"
-    },
-    {
-      "drive_file_id": "1VBAVxtUbnIC_AXZJN2-Ts7d71eecLcPU",
-      "source_label": "03.jpg",
-      "role": "angled view",
-      "output_stem": "dubai-bespoke-tv-unit-angled-view-02",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-7fac-8210-8cf5-43b8afd9ab2e/raw?se=2026-10-02T10%3A21%3A40Z&sp=r&sv=2026-02-06&sr=b&scid=39871629-d896-586e-b3cf-fa3fa5894404&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T05%3A37%3A22Z&ske=2026-10-03T05%3A37%3A22Z&sks=b&skv=2026-02-06&sig=bcAGHPzXuo8F4RXVh7LVdxKEhZ76P5kug76Niwas57M%3D"
-    },
-    {
-      "drive_file_id": "1AyUyiSZNwR-wx1Zi7VY5taELG8gM_BLA",
-      "source_label": "05.jpg",
-      "role": "finish detail",
-      "output_stem": "dubai-bespoke-tv-unit-finish-detail-03",
-      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-8e44-81f4-94e5-de4ff0b26492/raw?se=2026-10-02T10%3A22%3A03Z&sp=r&sv=2026-02-06&sr=b&scid=e3b14348-a74e-5b0d-b039-eec536cb8253&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T08%3A42%3A15Z&ske=2026-10-03T08%3A42%3A15Z&sks=b&skv=2026-02-06&sig=7%2BU8aX56PW8pD%2B03chZezSkh8/Puf/CHNm1go8kloLk%3D"
-    },
-    {
-      "drive_file_id": "18sumjMdAcWGdqAwlMuzG2gdMvLyxfBvk",
-      "source_label": "08.jpg",
-      "role": "open storage detail",
-      "output_stem": "dubai-bespoke-tv-unit-open-storage-04",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-9ee0-8210-adbb-3b0567cba945/raw?se=2026-10-02T10%3A22%3A06Z&sp=r&sv=2026-02-06&sr=b&scid=e8c27be5-a81f-5eeb-bd69-454994e4a650&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T05%3A19%3A16Z&ske=2026-10-03T05%3A19%3A16Z&sks=b&skv=2026-02-06&sig=Q06PPUXXM%2B%2BkHpMQCkw5QLIV6hNlW%2BOHMEj5WCV4aZM%3D"
-    },
-    {
-      "drive_file_id": "1N0M4aUy0BwbmYQC5nbJZTkFi1qhA0Q-O",
-      "source_label": "10.jpg",
-      "role": "tall cabinet detail",
-      "output_stem": "dubai-bespoke-tv-unit-tall-cabinet-detail-05",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-cd90-8210-a5b1-2e8b5b953d74/raw?se=2026-10-02T10%3A22%3A08Z&sp=r&sv=2026-02-06&sr=b&scid=ef2d64a0-7376-589b-b6ae-b0fbd8156e1a&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A52%3A14Z&ske=2026-10-03T06%3A52%3A14Z&sks=b&skv=2026-02-06&sig=/F%2Bm70Pprs/m2ABjohvtZONm7en0xaxNQyWiliR5Eho%3D"
-    }
-  ]
+  "enabled": false,
+  "last_completed_slug": "dubai-bespoke-tv-unit"
 }

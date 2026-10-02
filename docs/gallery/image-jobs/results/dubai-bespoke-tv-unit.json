@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "project": "G18 \u2014 Dubai Bespoke TV Unit",
+  "slug": "dubai-bespoke-tv-unit",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1ypGs7JX1XOcGCyrjiCnnhA0KzLMGKste",
+      "source_label": "01.jpg",
+      "role": "front view",
+      "original": {
+        "width": 6698,
+        "height": 4466
+      },
+      "webp": {
+        "path": "public/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-front-view-01.webp",
+        "bytes": 65452,
+        "quality": 84,
+        "width": 2000,
+        "height": 1334,
+        "sha256": "35d72b8239296b06e129291fc60e5f3cf35736ae1141c84b40e0f66c20f5bdcd",
+        "git_blob_sha": "9a8a1a41c57ef2f13eea4af9120143bc4a48257c"
+      },
+      "avif": {
+        "path": "public/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-front-view-01.avif",
+        "bytes": 44139,
+        "quality": 58,
+        "width": 2000,
+        "height": 1334,
+        "sha256": "bb4982f0482168e2c3c61e640b9b2065ea25f57326954fbb76384d26929f8951",
+        "git_blob_sha": "549e42ed17a77ed3c98d3a14e750aacf9dd05837"
+      }
+    },
+    {
+      "drive_file_id": "1VBAVxtUbnIC_AXZJN2-Ts7d71eecLcPU",
+      "source_label": "03.jpg",
+      "role": "angled view",
+      "original": {
+        "width": 5187,
+        "height": 3458
+      },
+      "webp": {
+        "path": "public/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-angled-view-02.webp",
+        "bytes": 86796,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "bf7d0e51e083f79db68a4d1dedf01c734352bf070398b52de485cb2b944bedd2",
+        "git_blob_sha": "04e0b3a7bb9e147fc0195e00ebdc6bb4eb7aeeb6"
+      },
+      "avif": {
+        "path": "public/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-angled-view-02.avif",
+        "bytes": 53238,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "82c210324b7a14e4c9bcc775573a6aa81f80293895ecad4f5583dbdece7bbfdf",
+        "git_blob_sha": "18d3c817b130bab25a3e473db01ff8b3783f3d36"
+      }
+    },
+    {
+      "drive_file_id": "1AyUyiSZNwR-wx1Zi7VY5taELG8gM_BLA",
+      "source_label": "05.jpg",
+      "role": "finish detail",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-finish-detail-03.webp",
+        "bytes": 98434,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "f89c43fd53516b5a2702fc095b5fbd3d1e1cbae82ee1bece2c9ed768930de8ca",
+        "git_blob_sha": "58784648dd1bd09a4b216bb4755d34562ad082eb"
+      },
+      "avif": {
+        "path": "public/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-finish-detail-03.avif",
+        "bytes": 48805,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "3789a8385786f7a2cd1c147e608bc5e987a65360794f79d907e5e93c10c702be",
+        "git_blob_sha": "721efa377318bf00232f4831f16382a1ddda5a26"
+      }
+    },
+    {
+      "drive_file_id": "18sumjMdAcWGdqAwlMuzG2gdMvLyxfBvk",
+      "source_label": "08.jpg",
+      "role": "open storage detail",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-open-storage-04.webp",
+        "bytes": 96764,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "f9b3dda463cb6c9eaadc7d879e57df2ada0964128c88220d8744f076f7056f34",
+        "git_blob_sha": "c6e9805ba848ee3e4ee5dabe0b65f0cd1633ceb8"
+      },
+      "avif": {
+        "path": "public/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-open-storage-04.avif",
+        "bytes": 50141,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "0faac9cca32f6c70d870468c9324cef0c4d102738dfd989021da01eb53e93351",
+        "git_blob_sha": "8c5049b16c6fadd25673a8034e8351ea0ddc5764"
+      }
+    },
+    {
+      "drive_file_id": "1N0M4aUy0BwbmYQC5nbJZTkFi1qhA0Q-O",
+      "source_label": "10.jpg",
+      "role": "tall cabinet detail",
+      "original": {
+        "width": 3587,
+        "height": 5380
+      },
+      "webp": {
+        "path": "public/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-tall-cabinet-detail-05.webp",
+        "bytes": 116282,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "79e5f5c313f86a5abaf8d0c900b0701113810e680b55a55ecf679f383abad251",
+        "git_blob_sha": "a645a81802fb0c96cd3a20baec62b94d1d25f334"
+      },
+      "avif": {
+        "path": "public/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-tall-cabinet-detail-05.avif",
+        "bytes": 66842,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "c60b1eb614f3ecadc398d49457d6ec7c3ca222af14d396656deea568cd332b38",
+        "git_blob_sha": "6499c1bdf7f8a48a114c3777c88055ba02a54230"
+      }
+    }
+  ]
+}
