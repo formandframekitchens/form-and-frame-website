@@ -1,5 +1,56 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "cream-bespoke-tv-unit"
+  "enabled": true,
+  "project": "G19 — Putney Heath Bespoke Cabinets — clean originals",
+  "slug": "putney-heath-bespoke-cabinets",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1QZJZ-b44k8y7pYideUZmox6wzM6fEXuu",
+      "source_label": "1-47.jpg",
+      "role": "pair view",
+      "output_stem": "putney-heath-bespoke-cabinets-pair-view-01",
+      "source_url": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-6b5c-820a-8efc-9c714ac47a91/raw?se=2026-10-02T12%3A12%3A36Z&sp=r&sv=2026-02-06&sr=b&scid=2144b7e2-d920-53ec-a28b-ac28abf85410&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T07%3A16%3A18Z&ske=2026-10-03T07%3A16%3A18Z&sks=b&skv=2026-02-06&sig=alIeXR6SOFxEgeDoa/ue6MbfXsrx6fMTSL2h2%2B4GjDk%3D"
+    },
+    {
+      "drive_file_id": "1DU_LjLA__9sLpmei5nkkbifMhC2Uwefb",
+      "source_label": "1-5.jpg",
+      "role": "room context",
+      "output_stem": "putney-heath-bespoke-cabinets-room-view-02",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-35f4-8210-b805-c9c7d5d8712f/raw?se=2026-10-02T12%3A12%3A42Z&sp=r&sv=2026-02-06&sr=b&scid=b321142f-775d-5f21-95fe-b69250f93b98&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T07%3A16%3A17Z&ske=2026-10-03T07%3A16%3A17Z&sks=b&skv=2026-02-06&sig=bEOZK81w%2BIfJ%2ByO/An1v22UsCjglZ%2B%2BVMjgUsvvsJds%3D"
+    },
+    {
+      "drive_file_id": "1qpTp06DSZmL8xrbtlY68dLocTH8q-NOY",
+      "source_label": "1-26.jpg",
+      "role": "open storage cabinet",
+      "output_stem": "putney-heath-bespoke-cabinets-open-storage-03",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-f45c-8210-9b0a-8f6c522c5b76/raw?se=2026-10-02T12%3A12%3A44Z&sp=r&sv=2026-02-06&sr=b&scid=a9d34a8a-4e9b-5e47-8571-96ba9a5fafb9&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T05%3A37%3A23Z&ske=2026-10-03T05%3A37%3A23Z&sks=b&skv=2026-02-06&sig=HzlcOFlryeAid/YnKE3xXRkom2YsDUdOO8xKVwpF8aw%3D"
+    },
+    {
+      "drive_file_id": "1Vb2NC6N70jNtEhBX0OvZyYny3Dmrz5r7",
+      "source_label": "1-23.jpg",
+      "role": "TV cabinet interior",
+      "output_stem": "putney-heath-bespoke-cabinets-tv-storage-04",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-1f10-81f4-a4b5-18ba1e12131b/raw?se=2026-10-02T12%3A12%3A46Z&sp=r&sv=2026-02-06&sr=b&scid=3c4e4a4c-7e86-5bea-a128-8d88fed843c9&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T04%3A24%3A54Z&ske=2026-10-03T04%3A24%3A54Z&sks=b&skv=2026-02-06&sig=9rPIdLmPqNyk0YEQElFU6aOVAU8mFQqEnQRbg4lDk5s%3D"
+    },
+    {
+      "drive_file_id": "198mUC9Dbv0qsHbUbCtTTKMrmi29n09S4",
+      "source_label": "1-52.jpg",
+      "role": "brass and frame detail",
+      "output_stem": "putney-heath-bespoke-cabinets-detail-05",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-06e4-81f4-ae84-b1ad3fdbdf23/raw?se=2026-10-02T12%3A12%3A49Z&sp=r&sv=2026-02-06&sr=b&scid=78846f24-9e9f-50f0-871f-4224aa3bb80e&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T08%3A09%3A28Z&ske=2026-10-03T08%3A09%3A28Z&sks=b&skv=2026-02-06&sig=kN%2BqRUnLvL8zqeg%2BPX2hySJ48bYZkDBK6AZVEBF8Dwg%3D"
+    },
+    {
+      "drive_file_id": "1FbvIrdttrht09yrJvtfLIAorI4uDAmwM",
+      "source_label": "1-54.jpg",
+      "role": "front and handle detail",
+      "output_stem": "putney-heath-bespoke-cabinets-front-detail-06",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-aef0-8210-b885-5984df0f6785/raw?se=2026-10-02T12%3A13%3A10Z&sp=r&sv=2026-02-06&sr=b&scid=2c081d2a-1b78-51a4-8ba2-d9da8713dc56&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T07%3A16%3A17Z&ske=2026-10-03T07%3A16%3A17Z&sks=b&skv=2026-02-06&sig=vvAM6ybt8w08zlEPWHNbeI6paBzq4CYI8qTtGcO%2BGhA%3D"
+    }
+  ]
 }
