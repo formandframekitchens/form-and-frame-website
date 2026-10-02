@@ -57,7 +57,7 @@ When the fuse fires:
 | G24 | Earls Court Bespoke TV Unit | MERGED INTO G13 | Same TV-unit photography as G13 Cream Bespoke TV Unit; duplicate retired and never reused |
 | G25 | Earls Court Floating Shelf & Mirror Wall | LIVE | Split from Arno 03 / 1 unique clean image; duplicate/logo preflight passed; Drive ingest passed |
 | G26 | Putney Bespoke TV Unit | LIVE | Arno 01 / 4 unique clean images; duplicate source photo excluded; logo preflight passed; Drive ingest passed |
-| G27 | Manchester Walk-In Wardrobe | QUEUED | Professional pictures / Manchester |
+| G27 | Manchester Walk-In Wardrobe | PREVIEW READY | Manchester HIGH RES / 3 clean originals; logo folders excluded; duplicate preflight passed; Drive ingest passed |
 | G28 | Manchester Make-Up Island & Dressing Table | QUEUED | Professional pictures / Manchester |
 | G29 | Virginia Water Wine Room | QUEUED | Professional pictures / Wentworth |
 | G30 | Maria's House Wine Cellar | QUEUED | Professional pictures / Maria's House |
@@ -92,9 +92,12 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 ## Resume pointer
 - Last live gallery: G26 — Putney Bespoke TV Unit
-- G26 production: VERIFIED READY and live with 4 images
-- Next gallery: G27 — Manchester Walk-In Wardrobe
-- G27 source restriction: use Manchester project WEB Foto/HIGH RES only
-- G27 folders marked "with logo": permanently excluded from website gallery sourcing
-- G27 duplicate preflight: must remain distinct from existing Soho/Highgate wardrobe projects
+- Current gallery: G27 — Manchester Walk-In Wardrobe
+- G27 project duplicate preflight: PASSED; distinct Manchester dressing-room project
+- G27 logo/watermark preflight: PASSED using HIGH RES originals
+- Manchester WEB Foto / folders marked "with logo": EXCLUDED from website sourcing
+- G27 Drive ingest: PASSED
+- G27 output: 3 WebP + 3 AVIF; Git blob SHA verification passed
+- G27 case study: ADDED
+- Next checkpoint: preview, merge, production verification
 - Safety fuse status: ARMED
