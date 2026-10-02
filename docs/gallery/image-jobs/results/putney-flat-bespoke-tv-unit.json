@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "project": "G23 \u2014 Putney Flat Bespoke TV Unit",
+  "slug": "putney-flat-bespoke-tv-unit",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1GoBbQleDTT_BKyblaKnPtY55oI4AFm5q",
+      "source_label": "05.jpg",
+      "role": "room context",
+      "original": {
+        "width": 5532,
+        "height": 3576
+      },
+      "webp": {
+        "path": "public/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-room-view-01.webp",
+        "bytes": 300862,
+        "quality": 84,
+        "width": 2000,
+        "height": 1293,
+        "sha256": "5b7ebb9afb49c8057f450b1c8fb15884a8d9a0dced2645fbaadcbf85154c1c0b",
+        "git_blob_sha": "f4a10b2c17ce3c4ecd9607e2083759a259a44729"
+      },
+      "avif": {
+        "path": "public/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-room-view-01.avif",
+        "bytes": 196735,
+        "quality": 58,
+        "width": 2000,
+        "height": 1293,
+        "sha256": "ca3018d1ccb37d617572ec83571c103dca592c33a71190d6b0119300d90cccf1",
+        "git_blob_sha": "7e78d3c554c53f71aed26d6eb24c7fa1d1079660"
+      }
+    },
+    {
+      "drive_file_id": "1xfzPt6aGXZROsQZyqh9pfC3UH5tdQ2BG",
+      "source_label": "06.jpg",
+      "role": "front media wall view",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-front-view-02.webp",
+        "bytes": 290862,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "b2ee50d38f30dd48e00435b4508fe374d5b809598c1e5168aa2306947af37a08",
+        "git_blob_sha": "c3049394f14a731a2ee72672934b9c85e4a87afe"
+      },
+      "avif": {
+        "path": "public/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-front-view-02.avif",
+        "bytes": 185953,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "4747b22389490f275d67e88f62c06241f0ecb30897966387bf86084ad4976a1c",
+        "git_blob_sha": "9214a9f7b9ce6e326858f6a473b9129170ddd425"
+      }
+    },
+    {
+      "drive_file_id": "1FDlDJBX9Kh4OPnYqIlYjAHCHBnqN2DPB",
+      "source_label": "07.jpg",
+      "role": "illuminated display detail",
+      "original": {
+        "width": 6318,
+        "height": 4212
+      },
+      "webp": {
+        "path": "public/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-display-detail-03.webp",
+        "bytes": 246898,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "a68b9d892f5d8dc12f91522c2509ae85ca063dd2b01e9fb55c79e8bbc1c71b3f",
+        "git_blob_sha": "b93f61a24ab5fee006c7d0cc73992f3ad3456034"
+      },
+      "avif": {
+        "path": "public/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-display-detail-03.avif",
+        "bytes": 155145,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "d4bb4ab41cf1927bc975ef89c84ec84257e2f5a78a26f9bdff6f5d167529f406",
+        "git_blob_sha": "bbf234140d1a8c6a82b9d8db465d30a53ae8e303"
+      }
+    }
+  ]
+}

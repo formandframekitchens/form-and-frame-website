@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G23 — Putney Flat Bespoke TV Unit",
+  "slug": "putney-flat-bespoke-tv-unit",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1GoBbQleDTT_BKyblaKnPtY55oI4AFm5q",
+      "source_label": "05.jpg",
+      "role": "room context",
+      "output_stem": "putney-flat-bespoke-tv-unit-room-view-01"
+    },
+    {
+      "drive_file_id": "1xfzPt6aGXZROsQZyqh9pfC3UH5tdQ2BG",
+      "source_label": "06.jpg",
+      "role": "front media wall view",
+      "output_stem": "putney-flat-bespoke-tv-unit-front-view-02"
+    },
+    {
+      "drive_file_id": "1FDlDJBX9Kh4OPnYqIlYjAHCHBnqN2DPB",
+      "source_label": "07.jpg",
+      "role": "illuminated display detail",
+      "output_stem": "putney-flat-bespoke-tv-unit-display-detail-03"
+    }
+  ]
+}
