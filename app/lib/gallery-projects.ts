@@ -1448,6 +1448,77 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/northwood-home-office/northwood-home-office-front-view-03.webp", alt: "Front workspace view with overhead storage and integrated lighting", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G23",
+    slug: "putney-flat-bespoke-tv-unit",
+    title: "Putney Flat Bespoke TV Unit",
+    category: "Bespoke Joinery",
+    location: "Putney, London",
+    summary: "A full-height dark timber media wall with an integrated television, illuminated display niches and concealed lower storage.",
+    seoDescription: "Putney bespoke TV unit case study by Form & Frame, featuring dark timber full-height cabinetry, integrated television, illuminated display niches and concealed storage.",
+    keywords: [
+      "Putney bespoke TV unit",
+      "bespoke media wall Putney",
+      "dark timber TV unit",
+      "integrated TV cabinetry",
+      "illuminated display niches",
+      "fitted media furniture",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Full-height dark timber media wall",
+      "Integrated television",
+      "Illuminated display niches",
+      "Concealed lower storage",
+    ],
+    caseStudy: [
+      {
+        heading: "A full-height media wall",
+        body: [
+          "This Putney project uses dark timber cabinetry across the full wall, combining the television, display shelving and concealed storage within one fitted composition.",
+          "The central television is framed by vertical and horizontal cabinet lines, while illuminated niches break up the darker finish and provide dedicated display areas.",
+        ],
+      },
+      {
+        heading: "The demanding part: maintaining the grid",
+        body: [
+          "A wall-scale media unit creates many visible reference lines. Door joints, shelf edges and the television opening all need to remain aligned so the elevation reads as one controlled piece of furniture.",
+          "The darker finish makes the illuminated sections especially prominent, which increases the importance of consistent spacing around each niche.",
+        ],
+      },
+      {
+        heading: "Integrated lighting and display",
+        body: [
+          "Warm lighting is built into the side display compartments, giving decorative objects a clear focal point and adding depth to the media wall.",
+          "The close-up photograph shows how the light is contained within the shelf recess, keeping the technical element visually discreet.",
+        ],
+      },
+      {
+        heading: "Storage without visual clutter",
+        body: [
+          "The lower cabinetry provides concealed storage beneath the television and display sections. This allows the room to retain a clean appearance while keeping everyday items out of view.",
+          "The overall arrangement balances open display areas with closed storage rather than filling the wall entirely with one type of cabinetry.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed unit combines media, display and storage functions in a dark architectural composition that remains integrated with the wider living and dining area.",
+          "For similar bespoke TV units and media walls, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-room-view-01.webp",
+      alt: "Dark timber bespoke TV unit in a Putney flat",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-room-view-01.webp", alt: "Room view of Putney bespoke TV unit", fit: "contain" },
+      { src: "/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-front-view-02.webp", alt: "Front view of dark timber media wall with integrated television", fit: "contain" },
+      { src: "/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-display-detail-03.webp", alt: "Illuminated display niche detail in Putney media wall", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
