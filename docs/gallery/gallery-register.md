@@ -46,7 +46,7 @@ When the fuse fires:
 | G15 | S&C Bespoke TV Unit | LIVE | Gallery 6 / first fresh Drive ingest trial passed; 5-image WebP + AVIF set |
 | G16 | S&C Bespoke Bookcase | LIVE | Gallery 7 / 6-image Drive ingest passed; WebP + AVIF set |
 | G17 | Grey Bespoke Sideboard | LIVE / LOWER | Gallery 10 / four-image set; Drive ingest passed |
-| G18 | Dubai Bespoke TV Unit | PREVIEW READY | Arno 08 / coherent light-grey 5-image set; separate dark unit excluded |
+| G18 | Dubai Bespoke TV Unit | LIVE | Arno 08 / coherent light-grey 5-image set; separate dark unit excluded |
 | G19 | Putney Heath Bespoke Cabinets | QUEUED | Arno 07 |
 | G20 | Highgate Fitted Wardrobes | QUEUED | Arno 06 |
 | G21 | Northwood Bespoke TV Unit | QUEUED | Split from Arno 05 |
@@ -89,15 +89,11 @@ Current confirmed minimum: 47 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Last live gallery: G17 — Grey Bespoke Sideboard
-- Current gallery: G18 — Dubai Bespoke TV Unit
-- Active branch: g18-dubai-bespoke-tv-unit
-- G18 workflow: PASSED
-- G18 source validation: PASSED for coherent 5-image light-grey TV-unit set
-- Separate dark TV-unit design from the same Drive folder was intentionally excluded to preserve project identity
-- G18 output: 5 WebP + 5 AVIF assets generated without cropping
-- G18 Git blob SHA verification: PASSED
-- G18 sanitized Drive-ID archive: VERIFIED
-- G18 case-study code: ADDED
-- Next checkpoint: Vercel preview + production verification
+- Last live gallery: G18 — Dubai Bespoke TV Unit
+- G18 production deployment: VERIFIED READY
+- G18 live route: VERIFIED with all 5 images
+- Separate dark Dubai TV-unit design remains excluded from G18
+- Permanent gallery ingest workflow: STABLE
+- Next gallery: G19 — Putney Heath Bespoke Cabinets
+- Continue sequentially through G21 only while every checkpoint passes
 - Safety fuse status: ARMED
