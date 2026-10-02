@@ -10,7 +10,7 @@ Rules:
 - Every new gallery follows: source review -> image selection -> optimisation -> SEO/case study -> preview -> approval -> live.
 - Do not reuse a G-number.
 - Process only one G-number at a time. Complete and verify its checkpoint before starting the next.
-- New active gallery projects are prepended to `galleryProjects` so the newest work appears at the top until a manual display order is supplied.
+- Current review order is ascending by stable G-number, with G01 at the top. A later manual display order may change presentation without changing G-numbers.
 - G-numbers never change when display order changes.
 
 ## Safety fuse
@@ -34,7 +34,7 @@ When the fuse fires:
 | G01 | Handleless Kitchen Installation | LIVE | Existing kitchen case study |
 | G02 | Soho Bespoke Bookcase | LIVE | Soho 13 |
 | G03 | Soho Walk-In Wardrobe | LIVE | Soho 13 |
-| G04 | Grey & Black Bespoke Media Wall | LIVE | Existing strong media-wall set |
+| G04 | Grey & Black Bespoke Media Wall | LIVE | Canonical media-wall gallery; absorbs the G18 image set |
 | G05 | Golden Textured-Front Cabinet | MERGED INTO G19 | Same source job/files as G19 Putney Heath Bespoke Cabinets; duplicate retired and never reused |
 | G06 | Built-In Window Seat with Drawer Storage | LIVE | Existing / Eric source duplicate |
 | G07 | Soho Shoe-Storage Cabinet | LIVE / LOW | Keep at bottom of gallery |
@@ -48,8 +48,8 @@ When the fuse fires:
 | G15 | S&C Bespoke TV Unit | LIVE | Gallery 6 / first fresh Drive ingest trial passed; 5-image WebP + AVIF set |
 | G16 | S&C Bespoke Bookcase | LIVE | Gallery 7 / 6-image Drive ingest passed; WebP + AVIF set |
 | G17 | Grey Bespoke Sideboard | LIVE / LOWER | Gallery 10 / four-image set; Drive ingest passed |
-| G18 | Dubai Bespoke TV Unit | LIVE | Arno 08 / coherent light-grey 5-image set; separate dark unit excluded |
-| G19 | Putney Heath Bespoke Cabinets | LIVE | Arno 07 / 6-image paired-cabinet set; absorbs duplicate G05 source job |
+| G18 | Dubai Bespoke TV Unit | MERGED INTO G04 | Same job as G04; five useful images merged into canonical G04; G18 retired and never reused |
+| G19 | Putney Heath Bespoke Cabinets | LIVE | Arno 07 / clean 6-image WebP + AVIF set; branded-logo source copies replaced; absorbs duplicate G05 source job |
 | G20 | Highgate Fitted Wardrobes | LIVE | Arno 06 / 3-image fitted-wardrobe set; Drive ingest passed |
 | G21 | Northwood Bespoke TV Unit | LIVE | Split from Arno 05 / 2-image TV-unit set; office images reserved for G22 |
 | G22 | Northwood Home Office | QUEUED | Split from Arno 05 |
@@ -87,19 +87,17 @@ When the fuse fires:
 - Visualisations / Samples / product-render collections: not counted as completed-project case studies.
 - Bed projects: keep at the bottom / HOLD unless a strong finished set is found.
 
-Current confirmed minimum: 46 distinct case-study slots, plus retired duplicate references G05 and G10.
+Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate references G05, G10 and G18.
 
 
 ## Resume pointer
-- Cleanup branch: gallery-cleanup-g13-g05-numbering
-- G13 Cream TV Unit: clean 5-image WebP/AVIF set VERIFIED in preview; branded JPG assets removed
-- G05 Golden Textured-Front Cabinet: CONFIRMED duplicate of G19 source job; retired into G19
-- G05 duplicate asset folder: REMOVED
-- G05 old route: permanent redirect to G19 Putney Heath Bespoke Cabinets
-- G19 Putney Heath Bespoke Cabinets: retained as the complete 6-image case study
-- Stable G-number field: ADDED to every active project
-- G-number badge: VERIFIED on gallery index and project pages
-- Temporary gallery order: newest active G-number first (new projects appear at top)
-- G-numbers remain stable when final display order is later supplied
-- G21 production: VERIFIED READY and live route verified with 2 images
+- Active cleanup branch: gallery-cleanup-g04-g18-g19-order
+- G19 Putney Heath Bespoke Cabinets: clean 6-image WebP + AVIF rebuild PASSED with Git blob SHA verification
+- G18 Dubai Bespoke TV Unit: RETIRED INTO G04 as same job
+- G04 Grey & Black Bespoke Media Wall: canonical gallery now contains original G04 set plus five useful G18 views
+- Retired G18 route redirects permanently to G04
+- Gallery review order: ascending stable G-number with G01 at the top
+- Retired IDs remain skipped and are never reused: G05, G10, G18
+- G-number badges remain visible on gallery cards and project pages
+- Next checkpoint: Vercel preview verification, then merge to master and production verification
 - Safety fuse status: ARMED

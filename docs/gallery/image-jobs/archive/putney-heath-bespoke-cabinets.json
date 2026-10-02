@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "enabled": true,
-  "project": "G19 — Putney Heath Bespoke Cabinets",
+  "project": "G19 — Putney Heath Bespoke Cabinets — clean originals",
   "slug": "putney-heath-bespoke-cabinets",
   "max_long_edge": 2000,
   "min_long_edge": 1200,
@@ -11,38 +11,38 @@
   "avif_target_bytes": 400000,
   "images": [
     {
-      "drive_file_id": "1hJcssnLMthPu2tOAGyRW6R8HzNQJwW7E",
-      "source_label": "bespoke wardrobes london.jpg",
+      "drive_file_id": "1QZJZ-b44k8y7pYideUZmox6wzM6fEXuu",
+      "source_label": "1-47.jpg",
       "role": "pair view",
       "output_stem": "putney-heath-bespoke-cabinets-pair-view-01"
     },
     {
-      "drive_file_id": "1xwZFO7-2nGuIt38aTsq0DQLzsfRDQmCu",
-      "source_label": "london interior design.jpg",
+      "drive_file_id": "1DU_LjLA__9sLpmei5nkkbifMhC2Uwefb",
+      "source_label": "1-5.jpg",
       "role": "room context",
       "output_stem": "putney-heath-bespoke-cabinets-room-view-02"
     },
     {
-      "drive_file_id": "1bmwcjJrlhiCOzLxnYuWsgcIJ1JmZOcIY",
-      "source_label": "bespoke wardrobes london.png",
+      "drive_file_id": "1qpTp06DSZmL8xrbtlY68dLocTH8q-NOY",
+      "source_label": "1-26.jpg",
       "role": "open storage cabinet",
       "output_stem": "putney-heath-bespoke-cabinets-open-storage-03"
     },
     {
-      "drive_file_id": "1N2hYyjzTANzjwDo2WDwXNvxFpruoSUO4",
-      "source_label": "luxury furniture.jpg",
+      "drive_file_id": "1Vb2NC6N70jNtEhBX0OvZyYny3Dmrz5r7",
+      "source_label": "1-23.jpg",
       "role": "TV cabinet interior",
       "output_stem": "putney-heath-bespoke-cabinets-tv-storage-04"
     },
     {
-      "drive_file_id": "1FA0R81tWELFwUJ0jf6SoZDEB6FqBzV_w",
-      "source_label": "fitted furniture.png",
+      "drive_file_id": "198mUC9Dbv0qsHbUbCtTTKMrmi29n09S4",
+      "source_label": "1-52.jpg",
       "role": "brass and frame detail",
       "output_stem": "putney-heath-bespoke-cabinets-detail-05"
     },
     {
-      "drive_file_id": "1SIKQJNILxjTomfAFPZy6Z_sYZiai1CZU",
-      "source_label": "furniture makers.jpg",
+      "drive_file_id": "1FbvIrdttrht09yrJvtfLIAorI4uDAmwM",
+      "source_label": "1-54.jpg",
       "role": "front and handle detail",
       "output_stem": "putney-heath-bespoke-cabinets-front-detail-06"
     }
