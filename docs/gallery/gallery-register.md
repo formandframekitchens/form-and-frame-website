@@ -43,7 +43,7 @@ When the fuse fires:
 | G10 | Duplicate Dark Oak Bookcase Set | MERGED INTO G02 | Same Soho Bespoke Bookcase job; selected images merged into G02; G10 retired and never reused |
 | G11 | Westminster Polished Brass Panelled Doors | LIVE | Westminster source / selected 4-image set |
 | G12 | Alexander James Bespoke Bookcase | LIVE | Alexander James source |
-| G13 | Cream Bespoke TV Unit | CLEANUP IN PROGRESS | Gallery 1 / branded-logo images being replaced with clean original photography |
+| G13 | Cream Bespoke TV Unit | LIVE | Gallery 1 / clean original photography; branded-logo JPG set retired |
 | G14 | Crocodile-Front Bespoke Cabinet | LIVE | Gallery 4 / Drive ingest verified; 5-image WebP + AVIF set |
 | G15 | S&C Bespoke TV Unit | LIVE | Gallery 6 / first fresh Drive ingest trial passed; 5-image WebP + AVIF set |
 | G16 | S&C Bespoke Bookcase | LIVE | Gallery 7 / 6-image Drive ingest passed; WebP + AVIF set |
@@ -51,7 +51,7 @@ When the fuse fires:
 | G18 | Dubai Bespoke TV Unit | LIVE | Arno 08 / coherent light-grey 5-image set; separate dark unit excluded |
 | G19 | Putney Heath Bespoke Cabinets | LIVE | Arno 07 / 6-image paired-cabinet set; absorbs duplicate G05 source job |
 | G20 | Highgate Fitted Wardrobes | LIVE | Arno 06 / 3-image fitted-wardrobe set; Drive ingest passed |
-| G21 | Northwood Bespoke TV Unit | MERGED / PRODUCTION BUILDING | Split from Arno 05 / 2-image TV-unit set; office images reserved for G22 |
+| G21 | Northwood Bespoke TV Unit | LIVE | Split from Arno 05 / 2-image TV-unit set; office images reserved for G22 |
 | G22 | Northwood Home Office | QUEUED | Split from Arno 05 |
 | G23 | Putney Flat Bespoke TV Unit | QUEUED | Arno 04 |
 | G24 | Earls Court Bespoke TV Unit | QUEUED | Split from Arno 03 |
@@ -91,12 +91,15 @@ Current confirmed minimum: 46 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Gallery cleanup branch: gallery-cleanup-g13-g05-numbering
-- G05 duplicate review: CONFIRMED same source job/files as G19; G05 retired into G19
-- G13 Cream TV Unit: clean original high-resolution photography selected to replace branded-logo images
-- Stable G-number field: ADDED to all active gallery projects
-- G-number badge: ADDED to gallery cards and project detail pages
-- Temporary display order: newest active G-number first; final manual order to be supplied by user
-- Permanent redirect: /gallery/golden-textured-front-cabinet -> /gallery/putney-heath-bespoke-cabinets
-- New-gallery rule: prepend at top; never reuse retired G-numbers
+- Cleanup branch: gallery-cleanup-g13-g05-numbering
+- G13 Cream TV Unit: clean 5-image WebP/AVIF set VERIFIED in preview; branded JPG assets removed
+- G05 Golden Textured-Front Cabinet: CONFIRMED duplicate of G19 source job; retired into G19
+- G05 duplicate asset folder: REMOVED
+- G05 old route: permanent redirect to G19 Putney Heath Bespoke Cabinets
+- G19 Putney Heath Bespoke Cabinets: retained as the complete 6-image case study
+- Stable G-number field: ADDED to every active project
+- G-number badge: VERIFIED on gallery index and project pages
+- Temporary gallery order: newest active G-number first (new projects appear at top)
+- G-numbers remain stable when final display order is later supplied
+- G21 production: VERIFIED READY and live route verified with 2 images
 - Safety fuse status: ARMED
