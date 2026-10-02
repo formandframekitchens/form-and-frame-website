@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G20 — Highgate Fitted Wardrobes",
+  "slug": "highgate-fitted-wardrobes",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1tYO7eoBZhwuRKv3UqCPWy6Zo32UL-g3o",
+      "source_label": "16.jpg",
+      "role": "closed room view",
+      "output_stem": "highgate-fitted-wardrobes-closed-view-01"
+    },
+    {
+      "drive_file_id": "1OnWnt1Shrku1UneFd4h_fx0OBaXf70AT",
+      "source_label": "18.jpg",
+      "role": "open wardrobe view",
+      "output_stem": "highgate-fitted-wardrobes-open-view-02"
+    },
+    {
+      "drive_file_id": "1fDaS3bz49UAPwGwgmwoj354xofQBP59v",
+      "source_label": "17.jpg",
+      "role": "internal storage detail",
+      "output_stem": "highgate-fitted-wardrobes-storage-detail-03"
+    }
+  ]
+}
