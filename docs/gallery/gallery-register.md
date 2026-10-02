@@ -91,10 +91,14 @@ Current confirmed minimum: 47 distinct case-study slots, plus retired duplicate 
 ## Resume pointer
 - Last live gallery: G13 — Cream Bespoke TV Unit
 - Sequence halted at: G14 — Crocodile-Front Bespoke Cabinet
-- G14 branch created: g14-crocodile-front-bespoke-cabinet
-- Failed checkpoint: selected-image asset transfer into G14 branch
-- Fuse reason: the Google Drive -> GitHub image-transfer path produced a second transport failure during G14 (h2 protocol/body-read error) after an earlier connector failure in the same G14 source-transfer path.
-- Important: do NOT start G15 until G14 transfer is diagnosed and completed or deliberately reset.
-- Selected G14 views before stop: room view, wider room context, open cabinet, crocodile-texture close-up, handle/front detail.
-- Damaged/truncated source image was already excluded and must not be retried.
+- G14 branch: g14-crocodile-front-bespoke-cabinet
+- Repair attempt: switched from bulk asset transfer to one-image-at-a-time transfer.
+- Verified progress before stop: 2 of 5 selected images committed successfully:
+  1. room view
+  2. wider room context
+- Failed checkpoint: transfer of the third selected image (open cabinet / storage view).
+- Fuse reason: h2 protocol/body-read transport error returned again during the repaired one-at-a-time Drive -> GitHub transfer path.
+- Remaining selected images not committed: open cabinet, crocodile-texture close-up, brass handle/front detail.
+- Damaged/truncated source image remains excluded and must not be retried.
+- Important: do NOT start G15 until G14 asset transfer is repaired with a different transfer mechanism.
 - Safety fuse status: TRIPPED — sequence intentionally stopped.
