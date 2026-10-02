@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G15 — S&C Bespoke TV Unit",
+  "slug": "sc-bespoke-tv-unit",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1WRJyjW9yzxrNX2Fa2F_6kNLQdZuItzKY",
+      "source_label": "tv unit.jpg",
+      "role": "main room view",
+      "output_stem": "sc-bespoke-tv-unit-room-view-01"
+    },
+    {
+      "drive_file_id": "16wru_t-_nNlcG5F6_oSjHViQyGdezuWn",
+      "source_label": "entertainment unit.jpg",
+      "role": "wide room view",
+      "output_stem": "sc-bespoke-tv-unit-wide-view-02"
+    },
+    {
+      "drive_file_id": "12s7MDvs0pvVP4yNT3QR9i_orr7F9DKkS",
+      "source_label": "cinema room.jpg",
+      "role": "TV screen room view",
+      "output_stem": "sc-bespoke-tv-unit-screen-view-03"
+    },
+    {
+      "drive_file_id": "1IWMIWAF9aZfDGwFhDbvPWVX2s19PNrWQ",
+      "source_label": "luxury furniture uk.jpg",
+      "role": "side perspective",
+      "output_stem": "sc-bespoke-tv-unit-side-view-04"
+    },
+    {
+      "drive_file_id": "1vHNLYqbRhQ4Q2jUPX4tD4iQzMOCYcEOP",
+      "source_label": "furniture london.jpg",
+      "role": "cabinetry detail",
+      "output_stem": "sc-bespoke-tv-unit-detail-05"
+    }
+  ]
+}

@@ -43,7 +43,7 @@ When the fuse fires:
 | G12 | Alexander James Bespoke Bookcase | LIVE | Alexander James source |
 | G13 | Cream Bespoke TV Unit | LIVE | Gallery 1 |
 | G14 | Crocodile-Front Bespoke Cabinet | LIVE | Gallery 4 / Drive ingest verified; 5-image WebP + AVIF set |
-| G15 | S&C Bespoke TV Unit | QUEUED | Gallery 6 |
+| G15 | S&C Bespoke TV Unit | PREVIEW READY | Gallery 6 / new Drive ingest trial passed; 5-image WebP + AVIF set |
 | G16 | S&C Bespoke Bookcase | QUEUED | Gallery 7 |
 | G17 | Grey Bespoke Sideboard | QUEUED / LOWER | Gallery 10 / four-image set |
 | G18 | Dubai Bespoke TV Unit | QUEUED | Arno 08 |
@@ -90,10 +90,14 @@ Current confirmed minimum: 47 distinct case-study slots, plus retired duplicate 
 
 ## Resume pointer
 - Last live gallery: G14 — Crocodile-Front Bespoke Cabinet
-- G14 production deployment: VERIFIED READY
-- G14 live route: VERIFIED HTTP 200
-- Permanent gallery ingest workflow: ACTIVE on master
-- Workflow stages verified: Drive handoff -> image validation -> WebP + AVIF optimisation -> gallery folder -> Git blob SHA verification -> Vercel preview
-- Next gallery: G15 — S&C Bespoke TV Unit
-- G15 purpose: first fresh trial of the new workflow from production master
+- Current gallery: G15 — S&C Bespoke TV Unit
+- Active branch: g15-sc-bespoke-tv-unit
+- G15 new-workflow trial: PASSED first run
+- G15 source validation: PASSED for all 5 selected TV-unit images
+- G15 output: 5 WebP + 5 AVIF assets generated without cropping
+- G15 Git blob SHA verification: PASSED for all generated assets
+- G15 sanitized Drive-ID archive: VERIFIED; temporary source URLs removed
+- G15 case-study code: ADDED
+- Separate bespoke bookcase source remains reserved for G16
+- Next checkpoint: Vercel preview + route verification
 - Safety fuse status: ARMED

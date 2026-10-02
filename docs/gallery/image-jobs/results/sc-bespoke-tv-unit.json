@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "project": "G15 \u2014 S&C Bespoke TV Unit",
+  "slug": "sc-bespoke-tv-unit",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1WRJyjW9yzxrNX2Fa2F_6kNLQdZuItzKY",
+      "source_label": "tv unit.jpg",
+      "role": "main room view",
+      "original": {
+        "width": 5439,
+        "height": 3625
+      },
+      "webp": {
+        "path": "public/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-room-view-01.webp",
+        "bytes": 371070,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "ce7692c611aa5189b02cd260428c36fef9355d712137dc11a7817f8f7f49d775",
+        "git_blob_sha": "6bf6a955f9aec9f9b174df7427a715f4ef70a58b"
+      },
+      "avif": {
+        "path": "public/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-room-view-01.avif",
+        "bytes": 231332,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "6db4076469a8afcc46d0150462b881968d16fb2fbefeb3f0759a34c4cb0786ee",
+        "git_blob_sha": "635a1eb6b9938e0bf1a302c6b576741b1b4959a2"
+      }
+    },
+    {
+      "drive_file_id": "16wru_t-_nNlcG5F6_oSjHViQyGdezuWn",
+      "source_label": "entertainment unit.jpg",
+      "role": "wide room view",
+      "original": {
+        "width": 5500,
+        "height": 3666
+      },
+      "webp": {
+        "path": "public/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-wide-view-02.webp",
+        "bytes": 385848,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "f46f785287077b7afb4675f31b081f3aac14a2d87b76a2094408f82e557173db",
+        "git_blob_sha": "9621d3d05da135fc1b1271f592ba2b86b8aa17d5"
+      },
+      "avif": {
+        "path": "public/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-wide-view-02.avif",
+        "bytes": 242029,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "bc2078cadd101ce0994471bea4cd821cbe3d139c7bcfba0224fc25209fc477a5",
+        "git_blob_sha": "64b888369fa4d7d856649a33933f70af60678924"
+      }
+    },
+    {
+      "drive_file_id": "12s7MDvs0pvVP4yNT3QR9i_orr7F9DKkS",
+      "source_label": "cinema room.jpg",
+      "role": "TV screen room view",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-screen-view-03.webp",
+        "bytes": 390316,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "02049dc5ad18dbf061f91f7735d483791a243bfd460d4c1fc237bf92780d8e4e",
+        "git_blob_sha": "512618fa2cea20e58087954fbdf19fde40004d89"
+      },
+      "avif": {
+        "path": "public/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-screen-view-03.avif",
+        "bytes": 247235,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "9fcb4cdd0dac0f5c6a5cbf0dc1b39fb3c1a226be3c96a7c4ba9c3e1d2e2b5970",
+        "git_blob_sha": "1770415280b998c584625136dd1d77653cd92192"
+      }
+    },
+    {
+      "drive_file_id": "1IWMIWAF9aZfDGwFhDbvPWVX2s19PNrWQ",
+      "source_label": "luxury furniture uk.jpg",
+      "role": "side perspective",
+      "original": {
+        "width": 3450,
+        "height": 5175
+      },
+      "webp": {
+        "path": "public/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-side-view-04.webp",
+        "bytes": 379262,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "294885c80a366c20bbe151a6203b965eae7edefd54dfdd73c55d506c598a0c57",
+        "git_blob_sha": "85bb2fb7406ddf8a1773bd6972231789ea9e9aa7"
+      },
+      "avif": {
+        "path": "public/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-side-view-04.avif",
+        "bytes": 250577,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "3f6695fe192cb1047fde70be208a7d63bd9ac384aacf2944bfb6a502cbee70d4",
+        "git_blob_sha": "de1cba3365b9c634e818255a2a47a28fca3d7aba"
+      }
+    },
+    {
+      "drive_file_id": "1vHNLYqbRhQ4Q2jUPX4tD4iQzMOCYcEOP",
+      "source_label": "furniture london.jpg",
+      "role": "cabinetry detail",
+      "original": {
+        "width": 2413,
+        "height": 1608
+      },
+      "webp": {
+        "path": "public/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-detail-05.webp",
+        "bytes": 169592,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "0dab9b3b6138b5f8bddd8a8e284e34af6a9e86ee9e79186f36ef89bd9164e398",
+        "git_blob_sha": "7e6d692e54006a69f1563f7822e2f63c658abc64"
+      },
+      "avif": {
+        "path": "public/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-detail-05.avif",
+        "bytes": 95120,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "0bda24e5ae5c4ef8ed39370d7ce3c18159470504d94aeb658b184847e943b2b1",
+        "git_blob_sha": "0364d597dbced2e58bbc15436edcfb30099b0550"
+      }
+    }
+  ]
+}
