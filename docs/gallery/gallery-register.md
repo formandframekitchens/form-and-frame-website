@@ -9,6 +9,23 @@ Rules:
 - Weaker projects remain at the bottom or on HOLD.
 - Every new gallery follows: source review -> image selection -> optimisation -> SEO/case study -> preview -> approval -> live.
 - Do not reuse a G-number.
+- Process only one G-number at a time. Complete and verify its checkpoint before starting the next.
+
+## Safety fuse
+STOP THE ENTIRE GALLERY SEQUENCE IMMEDIATELY if any of these occurs:
+- the same tool/action fails twice or enters a repeated error loop;
+- project identity is uncertain or may duplicate an existing gallery;
+- image source or which furniture item an image belongs to is unclear;
+- branch, commit, pull request or production state cannot be verified;
+- Vercel preview does not reach READY or the expected project route cannot be verified;
+- asset transfer is incomplete or final image files cannot be verified in the branch;
+- the case study would require invented facts.
+
+When the fuse fires:
+1. Do not retry the failing step repeatedly.
+2. Do not start the next G-number.
+3. Record the G-number, failed checkpoint and reason in the Resume pointer / Fuse stop note.
+4. Return control to the user so the next prompt can diagnose and repair the workflow.
 
 | No. | Project | Status | Priority / source note |
 |---|---|---|---|
@@ -22,10 +39,10 @@ Rules:
 | G08 | Black Oak Media Wall with Brass Inlay | LIVE | Chelsea / black TV source |
 | G09 | Natural Walnut Bespoke Bookcase | LIVE | Nuotraukos puslapiui / strong professional set |
 | G10 | Duplicate Dark Oak Bookcase Set | MERGED INTO G02 | Same Soho Bespoke Bookcase job; selected images merged into G02; G10 retired and never reused |
-| G11 | Westminster Polished Brass Panelled Doors | PREVIEW | Westminster source / selected 4-image set |
+| G11 | Westminster Polished Brass Panelled Doors | LIVE | Westminster source / selected 4-image set |
 | G12 | Alexander James Bespoke Bookcase | LIVE | Alexander James source |
-| G13 | Cream Bespoke TV Unit | PREVIEW | Gallery 1 |
-| G14 | Crocodile-Front Bespoke Cabinet | QUEUED | Gallery 4 / strong chosen set |
+| G13 | Cream Bespoke TV Unit | LIVE | Gallery 1 |
+| G14 | Crocodile-Front Bespoke Cabinet | PREVIEW | Gallery 4 / strong chosen set |
 | G15 | S&C Bespoke TV Unit | QUEUED | Gallery 6 |
 | G16 | S&C Bespoke Bookcase | QUEUED | Gallery 7 |
 | G17 | Grey Bespoke Sideboard | QUEUED / LOWER | Gallery 10 / four-image set |
@@ -72,8 +89,8 @@ Current confirmed minimum: 47 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Last live gallery: G12 — Alexander James Bespoke Bookcase
-- Current preview: G13 — Cream Bespoke TV Unit
-- Preview branch: g13-cream-bespoke-tv-unit
-- Next queued after approval: G14 — Crocodile-Front Bespoke Cabinet
+- Last live gallery: G13 — Cream Bespoke TV Unit
+- Current preview: G14 — Crocodile-Front Bespoke Cabinet
+- Next queued after G14: G15 — S&C Bespoke TV Unit
 - Continue strictly in ascending G-number order unless the user explicitly changes priority.
+- Safety fuse status: ARMED — no active stop.
