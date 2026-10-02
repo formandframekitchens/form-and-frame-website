@@ -44,7 +44,7 @@ When the fuse fires:
 | G13 | Cream Bespoke TV Unit | LIVE | Gallery 1 |
 | G14 | Crocodile-Front Bespoke Cabinet | LIVE | Gallery 4 / Drive ingest verified; 5-image WebP + AVIF set |
 | G15 | S&C Bespoke TV Unit | LIVE | Gallery 6 / first fresh Drive ingest trial passed; 5-image WebP + AVIF set |
-| G16 | S&C Bespoke Bookcase | PREVIEW READY | Gallery 7 / 6-image Drive ingest passed; WebP + AVIF set |
+| G16 | S&C Bespoke Bookcase | LIVE | Gallery 7 / 6-image Drive ingest passed; WebP + AVIF set |
 | G17 | Grey Bespoke Sideboard | QUEUED / LOWER | Gallery 10 / four-image set |
 | G18 | Dubai Bespoke TV Unit | QUEUED | Arno 08 |
 | G19 | Putney Heath Bespoke Cabinets | QUEUED | Arno 07 |
@@ -89,14 +89,10 @@ Current confirmed minimum: 47 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Last live gallery: G15 — S&C Bespoke TV Unit
-- Current gallery: G16 — S&C Bespoke Bookcase
-- Active branch: g16-sc-bespoke-bookcase
-- G16 workflow: PASSED
-- G16 source validation: PASSED for all 6 selected bookcase images
-- G16 output: 6 WebP + 6 AVIF assets generated without cropping
-- G16 Git blob SHA verification: PASSED for all generated assets
-- G16 sanitized Drive-ID archive: VERIFIED
-- G16 case-study code: ADDED
-- Next checkpoint: Vercel preview + route verification
+- Last live gallery: G16 — S&C Bespoke Bookcase
+- G16 production deployment: VERIFIED READY
+- G16 live route: VERIFIED with all 6 images
+- Permanent gallery ingest workflow: STABLE
+- Next gallery: G17 — Grey Bespoke Sideboard
+- Continue sequentially through G21 only while every checkpoint passes
 - Safety fuse status: ARMED
