@@ -42,7 +42,7 @@ When the fuse fires:
 | G09 | Natural Walnut Bespoke Bookcase | LIVE | Nuotraukos puslapiui / strong professional set |
 | G10 | Duplicate Dark Oak Bookcase Set | MERGED INTO G02 | Same Soho Bespoke Bookcase job; selected images merged into G02; G10 retired and never reused |
 | G11 | Westminster Polished Brass Panelled Doors | LIVE | Westminster source / selected 4-image set |
-| G12 | Alexander James Bespoke Bookcase | LIVE | Alexander James source |
+| G12 | Bookcase in Esher | LIVE | Existing Esher bookcase set; personal/designer name removed |
 | G13 | Cream Bespoke TV Unit | LIVE | Gallery 1 / clean original photography; branded-logo JPG set retired |
 | G14 | Crocodile-Front Bespoke Cabinet | LIVE | Gallery 4 / Drive ingest verified; 5-image WebP + AVIF set |
 | G15 | S&C Bespoke TV Unit | LIVE | Gallery 6 / first fresh Drive ingest trial passed; 5-image WebP + AVIF set |
@@ -60,11 +60,11 @@ When the fuse fires:
 | G27 | Manchester Walk-In Wardrobe | LIVE | Manchester HIGH RES / 3 clean originals; logo folders excluded; duplicate preflight passed; Drive ingest passed |
 | G28 | Manchester Make-Up Island & Dressing Table | LIVE | Manchester HIGH RES / 3 clean originals matched from labelled web set; logo folders excluded; Drive ingest passed |
 | G29 | Virginia Water Wine Room | LIVE | Wentworth / 6 clean images; duplicate/logo preflight passed; Drive ingest passed after push-race retry |
-| G30 | Maria's House Wine Cellar | PROCESSING / FUSE STOP | Clean HIGH RES MH0031–MH0035; all workflow steps individually succeeded, but Actions overall state remained in_progress on second check |
-| G31 | Maria's House Home Office | QUEUED | Professional pictures / Maria's House |
-| G32 | Maria's House Alcove Units | QUEUED | Professional pictures / Maria's House |
-| G33 | Maria's House Juice Bar Joinery | QUEUED | Professional pictures / Maria's House |
-| G34 | Maria's House Antique Mirror Feature | QUEUED | Professional pictures / Maria's House |
+| G30 | Fulham Wine Cellar | PREVIEW READY | Clean HIGH RES MH0031–MH0035; duplicate/logo preflight passed; Drive ingest passed |
+| G31 | Fulham Home Office | QUEUED | Professional pictures / Fulham project |
+| G32 | Fulham Alcove Units | QUEUED | Professional pictures / Fulham project |
+| G33 | Fulham Juice Bar Joinery | QUEUED | Professional pictures / Fulham project |
+| G34 | Fulham Antique Mirror Feature | QUEUED | Professional pictures / Fulham project |
 | G35 | Belgravia Kids Room / Home Office Furniture | QUEUED | Professional pictures / Belgravia |
 | G36 | Belgravia Bathroom Furniture & Antique Mirror | QUEUED | Professional pictures / Belgravia |
 | G37 | Belgravia Walk-In Wardrobe | QUEUED | Professional pictures / Belgravia |
@@ -91,14 +91,11 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Last confirmed live gallery: G29 — Virginia Water Wine Room
-- G30 — Maria's House Wine Cellar: ingest branch g30-marias-house-wine-cellar
-- G30 source split: clean HIGH RES MH0031–MH0035
-- G30 duplicate/logo preflight: PASSED
-- G30 workflow steps: validation PASSED, optimisation PASSED, asset commit PASSED, Git blob SHA verification PASSED, push PASSED
-- GitHub Actions overall run state remained in_progress on both allowed checks
-- Safety fuse: TRIPPED — no third Actions poll performed
-- G31 and G32: NOT STARTED
-- G31 resolved clean source set: MH0025–MH0028
-- G32 resolved clean source subset: MH0016–MH0018 only; ambiguous/unrelated Maria images excluded
-- Resume exactly at: one fresh G30 Actions-state check; if completed success, add G30 case study/register checkpoint, preview, merge, production verify, then continue G31 and G32
+- Last live gallery: G29 — Virginia Water Wine Room
+- G30 public-facing name: Fulham Wine Cellar
+- G30 Drive ingest: PASSED; 5 WebP + 5 AVIF; Git blob SHA verification passed
+- G30 case study: ADDED
+- G12 renamed publicly to Bookcase in Esher; old slug redirects permanently
+- G31–G34 public-facing names converted to Fulham location-based labels
+- Next checkpoint: G30 clean-branch preview, merge, production verification
+- Safety fuse status: ARMED

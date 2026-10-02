@@ -725,13 +725,14 @@ export const galleryProjects: GalleryProject[] = [
   },
 {
     galleryId: "G12",
-    slug: "alexander-james-bespoke-bookcase",
-    title: "Alexander James Bespoke Bookcase",
+    slug: "bookcase-in-esher",
+    title: "Bookcase in Esher",
     category: "Bespoke Joinery",
+    location: "Esher, Surrey",
     summary: "A full-height bespoke display bookcase with varied open shelving, integrated lower storage and a carefully balanced fitted composition.",
-    seoDescription: "Alexander James bespoke bookcase case study by Form & Frame, featuring full-height fitted shelving, display compartments and integrated lower storage.",
+    seoDescription: "Esher bespoke bookcase case study by Form & Frame, featuring full-height fitted shelving, display compartments and integrated lower storage.",
     keywords: [
-      "Alexander James bespoke bookcase",
+      "bespoke bookcase Esher",
       "bespoke fitted bookcase",
       "full height bookcase",
       "display shelving",
@@ -785,11 +786,11 @@ export const galleryProjects: GalleryProject[] = [
     ],
     cover: {
       src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-room-view-01.jpg",
-      alt: "Alexander James bespoke full-height fitted bookcase",
+      alt: "Full-height bespoke fitted bookcase in Esher",
       fit: "contain",
     },
     images: [
-      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-room-view-01.jpg", alt: "Room view of Alexander James bespoke fitted bookcase", fit: "contain" },
+      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-room-view-01.jpg", alt: "Room view of bespoke fitted bookcase in Esher", fit: "contain" },
       { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-front-view-02.jpg", alt: "Front view of full-height bespoke display bookcase", fit: "contain" },
       { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-angled-view-03.jpg", alt: "Angled view of fitted bookcase and open shelving", fit: "contain" },
       { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-shelving-detail-04.jpg", alt: "Open shelving detail in bespoke bookcase", fit: "contain" },
@@ -1811,6 +1812,71 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/virginia-water-wine-room/virginia-water-wine-room-bottle-detail-04.webp", alt: "Vertical bottle storage detail", fit: "contain" },
       { src: "/images/gallery/virginia-water-wine-room/virginia-water-wine-room-rack-detail-05.webp", alt: "Close wine rack detail", fit: "contain" },
       { src: "/images/gallery/virginia-water-wine-room/virginia-water-wine-room-context-view-06.webp", alt: "Room context for Virginia Water wine room", fit: "contain" },
+    ],
+  },
+  {
+    galleryId: "G30",
+    slug: "fulham-wine-cellar",
+    title: "Fulham Wine Cellar",
+    category: "Bespoke Joinery",
+    location: "Fulham, London",
+    summary: "A dark bespoke wine cellar with illuminated bottle storage, diamond wine racks and a central display niche.",
+    seoDescription: "Fulham bespoke wine cellar case study by Form & Frame, featuring dark fitted bottle storage, illuminated wine racks and a central display niche.",
+    keywords: [
+      "Fulham wine cellar",
+      "bespoke wine room Fulham",
+      "wine storage London",
+      "fitted wine racks",
+      "luxury wine cellar",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Full-height bottle storage",
+      "Diamond wine-rack sections",
+      "Integrated lighting",
+      "Central display niche",
+    ],
+    caseStudy: [
+      {
+        heading: "A dedicated fitted wine cellar",
+        body: [
+          "This Fulham project uses dark fitted cabinetry to create a dedicated wine-storage room with bottle racks arranged around a central display section.",
+          "The vertical proportions and repeated bottle positions give the installation a strong architectural character while keeping the collection organised and visible.",
+        ],
+      },
+      {
+        heading: "The demanding part: repeated geometry",
+        body: [
+          "Wine storage relies on consistent spacing across a large number of repeated compartments. Small variations in the diamond racks or vertical bottle divisions would become increasingly visible across the full elevation.",
+          "The central niche also needs to remain accurately aligned with the surrounding storage so the wall reads as one complete composition.",
+        ],
+      },
+      {
+        heading: "Lighting and display",
+        body: [
+          "Integrated lighting highlights the bottle storage and creates contrast against the dark cabinetry.",
+          "The illuminated central niche provides a visual break within the repeated wine-rack pattern and adds depth to the room.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed wine cellar combines high-capacity bottle storage, display and integrated lighting within a compact fitted room.",
+          "For similar wine rooms and specialist storage furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-doorway-view-01.webp",
+      alt: "Bespoke wine cellar in Fulham",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-doorway-view-01.webp", alt: "Doorway view of Fulham wine cellar", fit: "contain" },
+      { src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-front-view-02.webp", alt: "Front view of fitted wine storage in Fulham", fit: "contain" },
+      { src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-angled-view-03.webp", alt: "Angled view of illuminated wine racks", fit: "contain" },
+      { src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-storage-detail-04.webp", alt: "Bottle storage detail in Fulham wine cellar", fit: "contain" },
+      { src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-rack-detail-05.webp", alt: "Diamond wine-rack detail", fit: "contain" },
     ],
   },
 ];

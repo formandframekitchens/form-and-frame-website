@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "project": "G30 \u2014 Maria's House Wine Cellar",
+  "slug": "marias-house-wine-cellar",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1HU_rMjG6ZpQFMl5FM2dcSN1C7FGwhoYL",
+      "source_label": "MH0031.jpg",
+      "role": "wine cellar doorway view",
+      "original": {
+        "width": 4737,
+        "height": 7058
+      },
+      "webp": {
+        "path": "public/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-doorway-view-01.webp",
+        "bytes": 98254,
+        "quality": 84,
+        "width": 1342,
+        "height": 2000,
+        "sha256": "a3a1b5aa582c91ee4c4193a4c36c1d82c56c881523bf431a177761f698bdf2fb",
+        "git_blob_sha": "b918b46c8db3a652b6ae3f88e997ab3c9fe8ecda"
+      },
+      "avif": {
+        "path": "public/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-doorway-view-01.avif",
+        "bytes": 69188,
+        "quality": 58,
+        "width": 1342,
+        "height": 2000,
+        "sha256": "e7db9f6f2465f218fc1d6bc7f34296a533726620f15d9221ddd54d58230c63f4",
+        "git_blob_sha": "d34e91e2de059c29af02448ca2ad3fc0d501a99c"
+      }
+    },
+    {
+      "drive_file_id": "1tqm646jo0hBOs9KIHJHEb4cA70wHWakq",
+      "source_label": "MH0032.jpg",
+      "role": "wine cellar front view",
+      "original": {
+        "width": 4912,
+        "height": 7360
+      },
+      "webp": {
+        "path": "public/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-front-view-02.webp",
+        "bytes": 153300,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "d716bd035b1c6a2239ab65a07620a553093a360bae1d14e11c6c21b536f1a756",
+        "git_blob_sha": "f4ea4ea86d643d1f940acce2903b861a56b97309"
+      },
+      "avif": {
+        "path": "public/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-front-view-02.avif",
+        "bytes": 105647,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "bccb1bce36531dbd21ea8a5431ac84f8016dfd05a117c92c5bb2ee3924ddada1",
+        "git_blob_sha": "764ded6a8816b7d507ddf62531841e1681e76f2d"
+      }
+    },
+    {
+      "drive_file_id": "1UYQHXhBCQNNWu75mzZyW8RCiOvK--Gxf",
+      "source_label": "MH0033.jpg",
+      "role": "wine cellar angled view",
+      "original": {
+        "width": 4850,
+        "height": 7237
+      },
+      "webp": {
+        "path": "public/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-angled-view-03.webp",
+        "bytes": 171420,
+        "quality": 84,
+        "width": 1340,
+        "height": 2000,
+        "sha256": "b9ea561a40f017bde564085a7ef4c855b4bdcf530593cc3b409e6d14093758e9",
+        "git_blob_sha": "46f4f01357a1743248e8c10b306b0c29d5fd961f"
+      },
+      "avif": {
+        "path": "public/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-angled-view-03.avif",
+        "bytes": 112953,
+        "quality": 58,
+        "width": 1340,
+        "height": 2000,
+        "sha256": "79cc57570639c640e3318af16b3d08411b8109eeec2bf6dfc0c2c60dc2d1fb21",
+        "git_blob_sha": "4d4238446bbe5c9211994b171cb13e3eb2558138"
+      }
+    },
+    {
+      "drive_file_id": "1kVW8kYoaALpL7HtQ1VVHNUvVR2Pn67b-",
+      "source_label": "MH0034.jpg",
+      "role": "wine bottle storage detail",
+      "original": {
+        "width": 4314,
+        "height": 6952
+      },
+      "webp": {
+        "path": "public/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-storage-detail-04.webp",
+        "bytes": 149894,
+        "quality": 84,
+        "width": 1241,
+        "height": 2000,
+        "sha256": "aa08ec2707a60f66a5e53d7e3f021a78db943a771cd71f876b2ec489c31b4d4e",
+        "git_blob_sha": "99b0c30d46242f693a01f1f5fc3e047a43450c00"
+      },
+      "avif": {
+        "path": "public/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-storage-detail-04.avif",
+        "bytes": 93493,
+        "quality": 58,
+        "width": 1241,
+        "height": 2000,
+        "sha256": "15df2c0c3fd1eef89a50091b44ffff2d89ea43e30b12e15f357618fde9170e1f",
+        "git_blob_sha": "c4b513d5815a9d912f2607c66fc517895073272f"
+      }
+    },
+    {
+      "drive_file_id": "1l0e9FrAwR_vt9zuMxWTeNmcUWN4XrXZ1",
+      "source_label": "MH0035.jpg",
+      "role": "wine rack close detail",
+      "original": {
+        "width": 4368,
+        "height": 6512
+      },
+      "webp": {
+        "path": "public/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-rack-detail-05.webp",
+        "bytes": 190070,
+        "quality": 84,
+        "width": 1342,
+        "height": 2000,
+        "sha256": "acb2bfbf80fdccdae9301341a54cb23159f31690956c3bf4ddbd4479a55e2e01",
+        "git_blob_sha": "6306358d3311b742b79be5c98c077eaae13bdb46"
+      },
+      "avif": {
+        "path": "public/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-rack-detail-05.avif",
+        "bytes": 116450,
+        "quality": 58,
+        "width": 1342,
+        "height": 2000,
+        "sha256": "8b538b7cd3de759bb401c57643ac1749d6991b97fdbd897ca0a81b105ca034c4",
+        "git_blob_sha": "341234f9dd39dfc11b09b8fc94e1f6066d6f436c"
+      }
+    }
+  ]
+}

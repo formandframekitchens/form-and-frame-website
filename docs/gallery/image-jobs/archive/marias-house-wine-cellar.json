@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G30 — Maria's House Wine Cellar",
+  "slug": "marias-house-wine-cellar",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1HU_rMjG6ZpQFMl5FM2dcSN1C7FGwhoYL",
+      "source_label": "MH0031.jpg",
+      "role": "wine cellar doorway view",
+      "output_stem": "marias-house-wine-cellar-doorway-view-01"
+    },
+    {
+      "drive_file_id": "1tqm646jo0hBOs9KIHJHEb4cA70wHWakq",
+      "source_label": "MH0032.jpg",
+      "role": "wine cellar front view",
+      "output_stem": "marias-house-wine-cellar-front-view-02"
+    },
+    {
+      "drive_file_id": "1UYQHXhBCQNNWu75mzZyW8RCiOvK--Gxf",
+      "source_label": "MH0033.jpg",
+      "role": "wine cellar angled view",
+      "output_stem": "marias-house-wine-cellar-angled-view-03"
+    },
+    {
+      "drive_file_id": "1kVW8kYoaALpL7HtQ1VVHNUvVR2Pn67b-",
+      "source_label": "MH0034.jpg",
+      "role": "wine bottle storage detail",
+      "output_stem": "marias-house-wine-cellar-storage-detail-04"
+    },
+    {
+      "drive_file_id": "1l0e9FrAwR_vt9zuMxWTeNmcUWN4XrXZ1",
+      "source_label": "MH0035.jpg",
+      "role": "wine rack close detail",
+      "output_stem": "marias-house-wine-cellar-rack-detail-05"
+    }
+  ]
+}
