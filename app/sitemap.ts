@@ -3,6 +3,7 @@ import type { MetadataRoute } from "next";
 import { siteUrl } from "./lib/site";
 import { supplierPages } from "./lib/supplier-pages";
 import { joineryCategories } from "./lib/joinery-categories";
+import { galleryProjects } from "./lib/gallery-projects";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
@@ -13,6 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...[
       "/services",
+      "/gallery",
+      ...galleryProjects.map(({ slug }) => `/gallery/${slug}`),
       "/bespoke-joinery",
       ...joineryCategories.map(({ slug }) => `/bespoke-joinery/${slug}`),
       "/joinery-installation",
@@ -26,7 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ].map(path => ({
       url: `${siteUrl}${path}`,
       changeFrequency: "monthly" as const,
-      priority: path === "/services" ? 0.9 : path === "/kitchen-installation" ? 0.9 : path === "/contact" ? 0.6 : 0.7,
+      priority: path === "/services" ? 0.9 : path === "/kitchen-installation" ? 0.9 : path === "/gallery" ? 0.85 : path.startsWith("/gallery/") ? 0.75 : path === "/contact" ? 0.6 : 0.7,
     })),
   ];
 }
