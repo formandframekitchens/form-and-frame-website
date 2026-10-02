@@ -1,5 +1,63 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "fulham-alcove-units"
+  "enabled": true,
+  "project": "G33 — Fulham Juice Bar Joinery",
+  "slug": "fulham-juice-bar-joinery",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1FWzL9YnnbqptpXWZlj7dIHp0oSs1aubm",
+      "source_label": "MH0001.jpg",
+      "role": "juice bar overall view",
+      "output_stem": "fulham-juice-bar-overall-view-01",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-861c-8210-b528-8ae75a8f8f53/raw?se=2026-10-02T14%3A55%3A30Z&sp=r&sv=2026-02-06&sr=b&scid=4b31c99d-b913-5c9e-9c1e-371bac442748&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A52%3A24Z&ske=2026-10-03T06%3A52%3A24Z&sks=b&skv=2026-02-06&sig=J1rAhBAvviQFDdc83CA6Gjhb%2BIILZAx1utLZJjL1968%3D"
+    },
+    {
+      "drive_file_id": "1n5aWmCkULQ_f6se2GLDsPryemTT-W4ig",
+      "source_label": "MH0003.jpg",
+      "role": "juice bar room context",
+      "output_stem": "fulham-juice-bar-room-context-02",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-0904-81f4-83ad-a5406adfeb8f/raw?se=2026-10-02T14%3A55%3A48Z&sp=r&sv=2026-02-06&sr=b&scid=eaa39875-1035-5eea-a02b-86f6b7cf7a9a&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T08%3A09%3A26Z&ske=2026-10-03T08%3A09%3A26Z&sks=b&skv=2026-02-06&sig=cb2YnX6Ry8mKppXFTEtHHOUr6/CinvMF3WCEOm44%2BOk%3D"
+    },
+    {
+      "drive_file_id": "1O-QlnmPa3AVwGk-WByrXWfcd7SLg0UpZ",
+      "source_label": "MH0006.jpg",
+      "role": "juice bar wide front view",
+      "output_stem": "fulham-juice-bar-front-view-03",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-ff04-8210-94cc-0ca94b3aed11/raw?se=2026-10-02T14%3A55%3A53Z&sp=r&sv=2026-02-06&sr=b&scid=8cfc3291-8703-53e0-b5d0-edadcceaa006&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T02%3A23%3A34Z&ske=2026-10-03T02%3A23%3A34Z&sks=b&skv=2026-02-06&sig=oseKykkZc7vqOtpd/BeE/4PwrZl%2B5tFsFVTpnmEW7Jo%3D"
+    },
+    {
+      "drive_file_id": "1_bdtfT-9x7loqAUIeWpC-ZXJ4clBVyag",
+      "source_label": "MH0014.jpg",
+      "role": "countertop and joinery detail",
+      "output_stem": "fulham-juice-bar-counter-detail-04",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-4b70-81f4-9190-e0fe5cea603e/raw?se=2026-10-02T14%3A56%3A30Z&sp=r&sv=2026-02-06&sr=b&scid=8caa406d-4071-5660-94dc-623a95427aab&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A52%3A15Z&ske=2026-10-03T06%3A52%3A15Z&sks=b&skv=2026-02-06&sig=WEug6GjDYGoJYBBzPzvBAqaNr1Qh4GjrV1WhEbJBV78%3D"
+    },
+    {
+      "drive_file_id": "1usLlZLmWUCENg1vcs2K7qEq2GWHUXV-Z",
+      "source_label": "MH0015.jpg",
+      "role": "bar stool and island view",
+      "output_stem": "fulham-juice-bar-island-view-05",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-919c-8210-8312-190746cf8d85/raw?se=2026-10-02T14%3A56%3A33Z&sp=r&sv=2026-02-06&sr=b&scid=351c1c61-f84d-5ad1-a586-bedc42d348f7&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T08%3A42%3A21Z&ske=2026-10-03T08%3A42%3A21Z&sks=b&skv=2026-02-06&sig=JztNgNV%2BW2asg4ERHhPGQRx680LZpEtkPRHnwRIff7Y%3D"
+    },
+    {
+      "drive_file_id": "1kywCxLLrvVWnmXF3Ml_gXoitpxgU7Rr9",
+      "source_label": "MH0019.jpg",
+      "role": "side cabinetry closed view",
+      "output_stem": "fulham-juice-bar-side-cabinet-06",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-79f4-81f4-99d3-8a623ccde0dc/raw?se=2026-10-02T14%3A57%3A11Z&sp=r&sv=2026-02-06&sr=b&scid=cde8c5d6-f4b7-5027-9a43-92c81a42ee9f&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T04%3A46%3A11Z&ske=2026-10-03T04%3A46%3A11Z&sks=b&skv=2026-02-06&sig=XDN7zScqb7qVmQ4lwCPbQa/bjVPjBmXEgbXKtXbyo%2Bc%3D"
+    },
+    {
+      "drive_file_id": "12P2IkoCOvbqT-Rc_1ODxwGcE4Pme3Jyy",
+      "source_label": "MH0020.jpg",
+      "role": "side cabinetry open service view",
+      "output_stem": "fulham-juice-bar-service-detail-07",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-31e8-8210-b094-a02d5eace29b/raw?se=2026-10-02T14%3A57%3A15Z&sp=r&sv=2026-02-06&sr=b&scid=d67aabcc-a849-500c-8acb-571e2eafbbf0&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A52%3A23Z&ske=2026-10-03T06%3A52%3A23Z&sks=b&skv=2026-02-06&sig=LMKlcb2hEklOedKWKlSe2shqRqz65uJrICq2b4JWn94%3D"
+    }
+  ]
 }
