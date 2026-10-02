@@ -1,35 +1,5 @@
 {
   "schema_version": 1,
-  "enabled": true,
-  "project": "G22 — Northwood Home Office",
-  "slug": "northwood-home-office",
-  "max_long_edge": 2000,
-  "min_long_edge": 1200,
-  "webp_quality": 84,
-  "avif_quality": 58,
-  "webp_target_bytes": 500000,
-  "avif_target_bytes": 400000,
-  "images": [
-    {
-      "drive_file_id": "1w27sbXFwBG6Mbecmw-Z6u0liCkOB-Lb8",
-      "source_label": "40.jpg",
-      "role": "overall office view",
-      "output_stem": "northwood-home-office-overall-view-01",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-a31c-8210-ac96-860a5b51fc41/raw?se=2026-10-02T12%3A33%3A03Z&sp=r&sv=2026-02-06&sr=b&scid=1c0f245f-4e50-54d1-a612-52020c8d722c&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A52%3A24Z&ske=2026-10-03T06%3A52%3A24Z&sks=b&skv=2026-02-06&sig=q3j98S2BiQ9veOvIoybzRkTGwFFX19jUEXv28QPx8ec%3D"
-    },
-    {
-      "drive_file_id": "1GXdoEIQKKwmuSiNIjSmOqdIW6lmhBYDt",
-      "source_label": "41.jpg",
-      "role": "low cabinetry detail",
-      "output_stem": "northwood-home-office-storage-detail-02",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-30b4-8210-ba77-d10b47b6e00f/raw?se=2026-10-02T12%3A33%3A35Z&sp=r&sv=2026-02-06&sr=b&scid=fd8fe122-ca70-5a57-83a6-926ab7101388&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T05%3A19%3A14Z&ske=2026-10-03T05%3A19%3A14Z&sks=b&skv=2026-02-06&sig=aFOD6sNOI4Cxqc2jY5HN2L1KPeXvAhwvpQdfof/6NcI%3D"
-    },
-    {
-      "drive_file_id": "1q9G8vCS1JgH9rStU0duAuL0ywdYyqorW",
-      "source_label": "42.jpg",
-      "role": "front workspace view",
-      "output_stem": "northwood-home-office-front-view-03",
-      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-e9f8-81f4-b921-f8e62f93ecb8/raw?se=2026-10-02T12%3A33%3A38Z&sp=r&sv=2026-02-06&sr=b&scid=9c640ca1-5b42-55de-b614-1c94fa4bf6b5&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T05%3A01%3A08Z&ske=2026-10-03T05%3A01%3A08Z&sks=b&skv=2026-02-06&sig=Rv1feNlRc7KT0CgwOuRdOlGVfHxVX70tLgJeCf621aU%3D"
-    }
-  ]
+  "enabled": false,
+  "last_completed_slug": "northwood-home-office"
 }
