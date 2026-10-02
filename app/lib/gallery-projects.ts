@@ -205,6 +205,93 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
+    slug: "natural-walnut-bespoke-bookcase",
+    title: "Natural Walnut Bespoke Bookcase",
+    category: "Bespoke Joinery",
+    summary: "A full-height natural walnut bookcase with open shelving, an illuminated geometric mirror feature and carefully integrated display lighting.",
+    seoDescription: "Natural walnut bespoke bookcase case study by Form & Frame, combining full-height fitted shelving, geometric mirrored panels and integrated LED display lighting.",
+    keywords: [
+      "natural walnut bespoke bookcase",
+      "walnut fitted bookcase",
+      "bespoke bookcase",
+      "made to measure bookcase",
+      "fitted shelving",
+      "mirrored bookcase feature",
+      "integrated bookcase lighting",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Full-height natural walnut shelving",
+      "Illuminated geometric mirrored centre feature",
+      "Integrated vertical display lighting",
+      "Made-to-measure fitted composition",
+    ],
+    caseStudy: [
+      {
+        heading: "A bookcase designed as a feature wall",
+        body: [
+          "This project combines practical book storage with a strong decorative centrepiece. Full-height walnut shelving frames an illuminated geometric mirror composition, turning the fitted bookcase into a focal point within the living room rather than treating it as background storage.",
+          "The warm timber and reflective centre section create deliberate contrast. The shelving provides the visual weight and storage, while the mirrored geometry introduces light, depth and a more sculptural character to the elevation.",
+        ],
+      },
+      {
+        heading: "The demanding part: controlling the geometric centre",
+        body: [
+          "The central feature is built from repeated diagonal mirrored and panelled elements. Because those lines cross one another and repeat vertically, any variation in angle, spacing or junction position would become very noticeable.",
+          "Accurate setting out is therefore important before the surrounding shelving is finally aligned. The centre feature and the two bookcase sections have to read as one composition, even though they use very different shapes and surface treatments.",
+        ],
+      },
+      {
+        heading: "Natural walnut shelving and proportion",
+        body: [
+          "The darker walnut shelving gives the installation a calm frame around the brighter centre. Open shelves of different heights allow books and smaller display pieces to sit naturally without competing with the geometric feature.",
+          "Full-height fitted shelving also needs to respond carefully to the existing room. The finished furniture meets the surrounding walls, skirting and ceiling line while keeping the visible verticals and shelf edges controlled.",
+        ],
+      },
+      {
+        heading: "Integrated lighting and reflective surfaces",
+        body: [
+          "Vertical lighting is incorporated behind and beside the central feature, illuminating the angled panels and mirrored surfaces. This makes the geometry readable in the evening and gives the centre section additional depth.",
+          "Lighting close to mirrored surfaces exposes details very clearly. Straight light lines, neat junctions and consistent spacing become part of the finished joinery quality rather than hidden technical elements.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed bookcase balances storage with a highly individual visual feature. The walnut cabinetry provides warmth and practicality, while the illuminated mirrored centre gives the room a distinctive focal point without requiring a separate decorative installation.",
+          "For similar bespoke bookcases, display walls and fitted shelving, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment around the proportions of the room.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-room-view-01.webp",
+      alt: "Natural walnut bespoke bookcase with illuminated geometric mirrored centre",
+      fit: "contain",
+    },
+    images: [
+      {
+        src: "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-room-view-01.webp",
+        alt: "Room view of natural walnut fitted bookcase with illuminated geometric mirror feature",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-angled-view-02.webp",
+        alt: "Angled view of walnut shelving and illuminated geometric centre feature",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-geometric-mirror-detail-03.webp",
+        alt: "Geometric mirrored panel and integrated lighting detail in bespoke bookcase",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-full-view-04.webp",
+        alt: "Full view of natural walnut shelving with geometric illuminated mirror feature",
+        fit: "contain",
+      },
+    ],
+  },
+  {
     slug: "soho-bespoke-bookcase",
     title: "Soho Bespoke Bookcase",
     category: "Bespoke Joinery",
