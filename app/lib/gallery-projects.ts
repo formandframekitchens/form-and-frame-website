@@ -108,6 +108,103 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
+    slug: "black-oak-media-wall-brass-inlay",
+    title: "Black Oak Media Wall with Brass Inlay",
+    category: "Bespoke Joinery",
+    location: "London",
+    summary: "A full-height dark oak-grain media wall with an integrated TV recess, asymmetrical open shelving, concealed lower storage and fine brass-toned inlay detailing.",
+    seoDescription: "London bespoke media wall case study by Form & Frame, featuring dark oak-grain cabinetry, an integrated TV recess, open shelving and precision brass-toned inlay detailing.",
+    keywords: [
+      "bespoke media wall London",
+      "black oak TV unit",
+      "fitted TV wall London",
+      "brass inlay cabinetry",
+      "bespoke entertainment unit",
+      "dark oak media wall",
+      "made to measure TV unit",
+      "bespoke joinery London",
+    ],
+    highlights: [
+      "Full-height dark oak-grain media wall",
+      "Integrated TV recess and open shelving",
+      "Fine brass-toned inlay to lower fronts",
+      "Ventilation detail integrated into the fitted elevation",
+    ],
+    caseStudy: [
+      {
+        heading: "A full-height media wall built into the room",
+        body: [
+          "This London project treats the media unit as part of the architecture rather than as a freestanding piece of furniture. The dark oak-grain cabinetry occupies the full wall, bringing the television, display shelving and lower storage together as one continuous fitted composition.",
+          "The open shelving is deliberately asymmetrical, which gives the wall visual movement while the large central television recess provides a clear focal point. Against the bright interior and large windows, the dark joinery creates a strong contrast without relying on decorative excess.",
+        ],
+      },
+      {
+        heading: "The demanding part: alignment across a large elevation",
+        body: [
+          "A full-height media wall contains many long reference lines. Shelf edges, vertical divisions, the television opening and the lower cabinet fronts all sit close enough to one another that small inaccuracies can become easy to see.",
+          "The irregular shelf grid makes careful setting out particularly important. Although the compartments vary in size, their junctions still need to look intentional and controlled. The installation also has to meet the real floor, walls and ceiling while keeping the visible furniture geometry calm and consistent.",
+        ],
+      },
+      {
+        heading: "Dark oak grain and brass-toned detailing",
+        body: [
+          "The close-up photographs show a pronounced dark timber grain across the cabinetry, paired with narrow brass-toned lines around the lower fronts. The warm metallic detail breaks up the black finish and gives the lower section a finer furniture-like character.",
+          "Thin inlay lines are unforgiving because they create very clear visual references between adjacent doors. Consistent reveals, level fronts and careful final adjustment are therefore essential if the metallic detailing is to remain continuous across the completed unit.",
+        ],
+      },
+      {
+        heading: "Integrating the television, storage and room services",
+        body: [
+          "The television is recessed within the fitted elevation rather than simply mounted in front of it, allowing the surrounding shelving and cabinetry to frame the screen cleanly. The lower section provides enclosed storage while the upper shelves remain open for display.",
+          "A ventilation grille is visibly incorporated into the upper part of the fitted wall. Details such as ventilation, power, cabling and equipment access need to be considered early on in this type of media furniture so the technical requirements do not compromise the finished composition.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed media wall combines a substantial amount of fitted furniture with a controlled, architectural appearance. The dark finish gives the piece presence, while the open shelves and fine metallic lines prevent the full-height cabinetry from reading as one heavy block.",
+          "For similar bespoke media walls and fitted TV units, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment around the proportions and requirements of the room.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/black-oak-media-wall-brass-inlay/black-oak-media-wall-front-view-01.webp",
+      alt: "Black oak-grain bespoke media wall with integrated television and brass-toned inlay",
+    },
+    images: [
+      {
+        src: "/images/gallery/black-oak-media-wall-brass-inlay/black-oak-media-wall-front-view-01.webp",
+        alt: "Front view of full-height black oak-grain media wall with integrated television",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/black-oak-media-wall-brass-inlay/black-oak-media-wall-room-view-02.webp",
+        alt: "Black oak bespoke media wall shown within a bright London interior",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/black-oak-media-wall-brass-inlay/black-oak-media-wall-room-view-03.webp",
+        alt: "Room view of dark fitted TV wall with open shelving and lower storage",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/black-oak-media-wall-brass-inlay/black-oak-media-wall-angled-detail-04.webp",
+        alt: "Angled detail of dark oak-grain shelving and fitted media cabinetry",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/black-oak-media-wall-brass-inlay/black-oak-media-wall-tv-cabinet-detail-05.webp",
+        alt: "Integrated television recess and shelving detail in black oak media wall",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/black-oak-media-wall-brass-inlay/black-oak-media-wall-brass-inlay-detail-06.webp",
+        alt: "Close-up of black oak grain and brass-toned inlay on media cabinet fronts",
+        fit: "contain",
+      },
+    ],
+  },
+  {
     slug: "soho-bespoke-bookcase",
     title: "Soho Bespoke Bookcase",
     category: "Bespoke Joinery",
@@ -227,68 +324,6 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-illuminated-storage-01.webp", alt: "Illuminated Soho walk-in wardrobe storage" },
       { src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-aisle-view-02.webp", alt: "Aisle view through Soho walk-in wardrobe" },
       { src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-drawer-mirror-detail-03.webp", alt: "Drawer and mirror detail in Soho walk-in wardrobe" },
-    ],
-  },
-  {
-    slug: "soho-shoe-storage-cabinet",
-    title: "Soho Shoe-Storage Cabinet",
-    category: "Bespoke Joinery",
-    location: "Soho, London",
-    summary: "A purpose-built shoe-storage cabinet with open shelving, integrated lighting and coordinated dark cabinetry.",
-    seoDescription: "Bespoke Soho shoe-storage cabinet by Form & Frame with open shelving, integrated LED lighting and dark fitted cabinetry.",
-    keywords: [
-      "bespoke shoe storage Soho",
-      "shoe cabinet London",
-      "fitted shoe storage",
-      "bespoke shelving London",
-      "integrated cabinet lighting",
-      "luxury storage joinery",
-    ],
-    highlights: [
-      "Purpose-built shoe storage",
-      "Open display shelving",
-      "Integrated shelf lighting",
-      "Dark coordinated cabinetry",
-    ],
-    caseStudy: [
-      {
-        heading: "Purpose-built storage",
-        body: [
-          "This fitted cabinet was arranged specifically around shoe storage, using repeated open shelves to make the collection visible and easy to access. The dark cabinetry gives the installation a more architectural character than a conventional freestanding shoe rack.",
-          "Because the storage is open, the internal shelf layout becomes part of the room. Consistent spacing and alignment are therefore as important visually as the storage capacity itself.",
-        ],
-      },
-      {
-        heading: "The challenge of repeated shelving",
-        body: [
-          "A large number of closely spaced shelves creates a strong visual grid. Any change in level or inconsistent opening width can be noticeable, so the setting out needs to remain disciplined from one side of the cabinet to the other.",
-          "The shelving also has to retain a useful depth and clear opening while working within the available room proportions. The completed project shows how specialist storage can be made to feel integrated rather than purely functional.",
-        ],
-      },
-      {
-        heading: "Integrated light as part of the joinery",
-        body: [
-          "Lighting is built into the storage so that each section remains legible and the shelves gain depth. The illuminated centre and shelf details show how lighting can turn practical storage into a display feature.",
-          "Consistent light positioning is particularly important in repeated shelving because variation becomes easy to compare across adjacent openings.",
-        ],
-      },
-      {
-        heading: "A consistent Soho joinery language",
-        body: [
-          "The dark finish and integrated lighting connect this cabinet visually with the other Soho joinery projects in the gallery. The result is a storage element that feels considered as part of the interior rather than added after the room was designed.",
-          "Form & Frame can apply the same approach to made-to-measure shoe storage, display cabinetry and other fitted storage where standard furniture does not use the available space effectively.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-overall-view-01.webp",
-      alt: "Soho bespoke shoe-storage cabinet overall view",
-    },
-    images: [
-      { src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-overall-view-01.webp", alt: "Soho bespoke shoe-storage cabinet overall view" },
-      { src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-angled-view-02.webp", alt: "Angled view of Soho shoe-storage cabinetry" },
-      { src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-led-shelf-detail-03.webp", alt: "LED shelf detail in Soho shoe-storage cabinet" },
-      { src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-illuminated-centre-detail-04.webp", alt: "Illuminated centre shelving detail in Soho shoe-storage cabinet" },
     ],
   },
   {
@@ -474,6 +509,68 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/painted-built-in-window-seat-storage/painted-built-in-window-seat-storage-01.webp", alt: "Painted built-in window seat with drawer storage" },
       { src: "/images/gallery/painted-built-in-window-seat-storage/built-in-window-seat-drawer-storage-open-02.webp", alt: "Built-in window seat drawer storage open" },
       { src: "/images/gallery/painted-built-in-window-seat-storage/made-to-measure-window-seat-storage-detail-03.webp", alt: "Made-to-measure window seat storage detail" },
+    ],
+  },
+  {
+    slug: "soho-shoe-storage-cabinet",
+    title: "Soho Shoe-Storage Cabinet",
+    category: "Bespoke Joinery",
+    location: "Soho, London",
+    summary: "A purpose-built shoe-storage cabinet with open shelving, integrated lighting and coordinated dark cabinetry.",
+    seoDescription: "Bespoke Soho shoe-storage cabinet by Form & Frame with open shelving, integrated LED lighting and dark fitted cabinetry.",
+    keywords: [
+      "bespoke shoe storage Soho",
+      "shoe cabinet London",
+      "fitted shoe storage",
+      "bespoke shelving London",
+      "integrated cabinet lighting",
+      "luxury storage joinery",
+    ],
+    highlights: [
+      "Purpose-built shoe storage",
+      "Open display shelving",
+      "Integrated shelf lighting",
+      "Dark coordinated cabinetry",
+    ],
+    caseStudy: [
+      {
+        heading: "Purpose-built storage",
+        body: [
+          "This fitted cabinet was arranged specifically around shoe storage, using repeated open shelves to make the collection visible and easy to access. The dark cabinetry gives the installation a more architectural character than a conventional freestanding shoe rack.",
+          "Because the storage is open, the internal shelf layout becomes part of the room. Consistent spacing and alignment are therefore as important visually as the storage capacity itself.",
+        ],
+      },
+      {
+        heading: "The challenge of repeated shelving",
+        body: [
+          "A large number of closely spaced shelves creates a strong visual grid. Any change in level or inconsistent opening width can be noticeable, so the setting out needs to remain disciplined from one side of the cabinet to the other.",
+          "The shelving also has to retain a useful depth and clear opening while working within the available room proportions. The completed project shows how specialist storage can be made to feel integrated rather than purely functional.",
+        ],
+      },
+      {
+        heading: "Integrated light as part of the joinery",
+        body: [
+          "Lighting is built into the storage so that each section remains legible and the shelves gain depth. The illuminated centre and shelf details show how lighting can turn practical storage into a display feature.",
+          "Consistent light positioning is particularly important in repeated shelving because variation becomes easy to compare across adjacent openings.",
+        ],
+      },
+      {
+        heading: "A consistent Soho joinery language",
+        body: [
+          "The dark finish and integrated lighting connect this cabinet visually with the other Soho joinery projects in the gallery. The result is a storage element that feels considered as part of the interior rather than added after the room was designed.",
+          "Form & Frame can apply the same approach to made-to-measure shoe storage, display cabinetry and other fitted storage where standard furniture does not use the available space effectively.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-overall-view-01.webp",
+      alt: "Soho bespoke shoe-storage cabinet overall view",
+    },
+    images: [
+      { src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-overall-view-01.webp", alt: "Soho bespoke shoe-storage cabinet overall view" },
+      { src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-angled-view-02.webp", alt: "Angled view of Soho shoe-storage cabinetry" },
+      { src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-led-shelf-detail-03.webp", alt: "LED shelf detail in Soho shoe-storage cabinet" },
+      { src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-illuminated-centre-detail-04.webp", alt: "Illuminated centre shelving detail in Soho shoe-storage cabinet" },
     ],
   },
 ];
