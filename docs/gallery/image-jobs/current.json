@@ -1,5 +1,49 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "northwood-bespoke-tv-unit"
+  "enabled": true,
+  "project": "G13 — Cream Bespoke TV Unit — clean originals",
+  "slug": "cream-bespoke-tv-unit",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "19NsLnVhmOF1-2cxlAGrdvSzOaAS5a_TZ",
+      "source_label": "DSC_7379.jpg",
+      "role": "main room view",
+      "output_stem": "cream-bespoke-tv-unit-room-view-01",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-ecb8-8210-9fff-5e79d13b256a/raw?se=2026-10-02T11%3A41%3A16Z&sp=r&sv=2026-02-06&sr=b&scid=fe19c43d-05a9-5911-9194-38763101f8f8&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T08%3A09%3A26Z&ske=2026-10-03T08%3A09%3A26Z&sks=b&skv=2026-02-06&sig=yicoC/Z68rqymhkr2hJ%2BP%2B5SrVd2YWZIZYQ1EtvNvaM%3D"
+    },
+    {
+      "drive_file_id": "1_YuDCLslvRAY3nIWHWkgLBuRHEgHvGEj",
+      "source_label": "DSC_7403.jpg",
+      "role": "front view",
+      "output_stem": "cream-bespoke-tv-unit-front-view-02",
+      "source_url": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-1030-820a-8c62-24c155373d61/raw?se=2026-10-02T11%3A41%3A20Z&sp=r&sv=2026-02-06&sr=b&scid=aa4ae122-1e01-556b-9ce8-de2507bd6ffc&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T02%3A37%3A41Z&ske=2026-10-03T02%3A37%3A41Z&sks=b&skv=2026-02-06&sig=ooZUwtFg32cYd1s5EqyUtvE/WNMOrfTLV6b3U/cJUjM%3D"
+    },
+    {
+      "drive_file_id": "1WJ5Zgb8LoroqOI0xFsDFuxT-s-Bp08Ji",
+      "source_label": "DSC_7378.jpg",
+      "role": "angled view",
+      "output_stem": "cream-bespoke-tv-unit-angled-view-03",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-b9e0-8210-81f4-5b6fc25d8869/raw?se=2026-10-02T11%3A41%3A34Z&sp=r&sv=2026-02-06&sr=b&scid=b4c9909a-1e6f-5175-960a-eee06411e8ed&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T01%3A22%3A31Z&ske=2026-10-03T01%3A22%3A31Z&sks=b&skv=2026-02-06&sig=6FyOfytY6dhsCUJBJnc6q6Szmfb%2BkhtuqoB2kp3Cds8%3D"
+    },
+    {
+      "drive_file_id": "1EkdH3ICAjr2xVHXINfYd0xwutv3k-YaJ",
+      "source_label": "DSC_7369.jpg",
+      "role": "display niche detail",
+      "output_stem": "cream-bespoke-tv-unit-display-detail-04",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-6fc0-81f4-b3b3-e5bac9078c6d/raw?se=2026-10-02T11%3A41%3A39Z&sp=r&sv=2026-02-06&sr=b&scid=d77d25eb-17cc-5ebc-b19f-cc417e360ac0&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T07%3A16%3A18Z&ske=2026-10-03T07%3A16%3A18Z&sks=b&skv=2026-02-06&sig=7xR/GAe2fYmWJZM1PD06hoJz9a6K6JlAEGMWAKSvhsA%3D"
+    },
+    {
+      "drive_file_id": "1_1Y1hZTr4gZcaixI-uoDIHcXifKv_oUk",
+      "source_label": "DSC_7394.jpg",
+      "role": "side room view",
+      "output_stem": "cream-bespoke-tv-unit-side-view-05",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-c398-8210-b953-28c4e6879ca7/raw?se=2026-10-02T11%3A41%3A42Z&sp=r&sv=2026-02-06&sr=b&scid=899a7de1-ec31-524b-ab67-d73f88bc6eb8&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T08%3A42%3A14Z&ske=2026-10-03T08%3A42%3A14Z&sks=b&skv=2026-02-06&sig=hPnK8GcoewmesK/TQfS8xRsZVrfaMGCYOJt2AphbV2M%3D"
+    }
+  ]
 }
