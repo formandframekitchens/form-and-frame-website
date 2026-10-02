@@ -292,108 +292,6 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
-    slug: "dark-oak-illuminated-display-bookcase",
-    title: "Dark Oak Illuminated Display Bookcase",
-    category: "Bespoke Joinery",
-    summary: "A full-height dark oak display bookcase with integrated shelf lighting, asymmetrical open shelving and concealed lower storage.",
-    seoDescription: "Dark oak bespoke display bookcase case study by Form & Frame, featuring full-height fitted shelving, integrated display lighting and concealed lower cabinetry.",
-    keywords: [
-      "dark oak bespoke bookcase",
-      "illuminated display bookcase",
-      "fitted display shelving",
-      "bespoke bookcase",
-      "dark oak fitted furniture",
-      "integrated shelf lighting",
-      "made to measure shelving",
-      "bespoke joinery",
-    ],
-    highlights: [
-      "Full-height dark oak display shelving",
-      "Integrated lighting to open compartments",
-      "Asymmetrical shelf composition",
-      "Concealed lower cabinet storage",
-    ],
-    caseStudy: [
-      {
-        heading: "A full-height display wall",
-        body: [
-          "This project uses a full-height dark oak bookcase to create a strong fitted feature within the living space. Open shelving provides display space across the entire elevation, while the lower section introduces closed storage without interrupting the vertical composition.",
-          "The cabinetry is deliberately dark and architectural. Against the lighter room finishes, it creates contrast while allowing books, objects and artwork to stand out within the illuminated compartments.",
-        ],
-      },
-      {
-        heading: "The demanding part: an irregular shelf grid",
-        body: [
-          "Unlike a simple repeated bookshelf, this installation uses compartments of different widths and heights. The arrangement looks informal, but the success of the finished piece still depends on very accurate setting out so the shelf lines and vertical divisions feel intentional rather than random.",
-          "A large fitted elevation also amplifies small errors. The outer edges, shelf junctions and lower cabinet fronts need to remain visually controlled across the full width and height of the installation.",
-        ],
-      },
-      {
-        heading: "Integrated display lighting",
-        body: [
-          "Lighting is built into selected shelf positions to create pools of light across the darker oak surfaces. This makes the display usable in the evening and gives the shelving more depth.",
-          "Integrated lighting requires careful coordination because the fittings, wiring routes and switching need to remain unobtrusive. The close-up photographs show how the lighting is positioned as part of the joinery rather than added visibly afterwards.",
-        ],
-      },
-      {
-        heading: "Balancing open display and concealed storage",
-        body: [
-          "The upper shelving is intentionally open, allowing decorative pieces, books and framed objects to form part of the room. The lower cabinets provide a quieter storage zone for items that do not need to remain on display.",
-          "This combination keeps the fitted wall visually light enough for a living space while still providing practical storage. The dark oak finish links the open and closed elements into one consistent piece of furniture.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed bookcase works as both storage and an architectural backdrop to the room. Its dark oak grain, integrated lighting and varied shelf proportions create a more individual result than a standard repeated shelving system.",
-          "For similar fitted bookcases and display walls, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment around the room and the intended use of the furniture.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/dark-oak-illuminated-display-bookcase/dark-oak-display-bookcase-room-view-01.jpg",
-      alt: "Dark oak illuminated fitted display bookcase in a living room",
-      fit: "contain",
-    },
-    images: [
-      {
-        src: "/images/gallery/dark-oak-illuminated-display-bookcase/dark-oak-display-bookcase-room-view-01.jpg",
-        alt: "Full room view of dark oak illuminated display bookcase",
-        fit: "contain",
-      },
-      {
-        src: "/images/gallery/dark-oak-illuminated-display-bookcase/dark-oak-display-bookcase-living-room-02.jpg",
-        alt: "Living room view of full-height dark oak display shelving",
-        fit: "contain",
-      },
-      {
-        src: "/images/gallery/dark-oak-illuminated-display-bookcase/dark-oak-display-bookcase-side-view-03.jpg",
-        alt: "Side view of dark oak fitted bookcase and lower cabinetry",
-        fit: "contain",
-      },
-      {
-        src: "/images/gallery/dark-oak-illuminated-display-bookcase/dark-oak-display-bookcase-shelf-detail-04.jpg",
-        alt: "Dark oak shelf and display lighting detail",
-        fit: "contain",
-      },
-      {
-        src: "/images/gallery/dark-oak-illuminated-display-bookcase/dark-oak-display-bookcase-portrait-view-05.jpg",
-        alt: "Portrait view of illuminated dark oak bookcase",
-        fit: "contain",
-      },
-      {
-        src: "/images/gallery/dark-oak-illuminated-display-bookcase/dark-oak-display-bookcase-door-detail-06.jpg",
-        alt: "Close-up of dark oak lower cabinet front and reveal detail",
-        fit: "contain",
-      },
-      {
-        src: "/images/gallery/dark-oak-illuminated-display-bookcase/dark-oak-display-bookcase-lighting-detail-07.jpg",
-        alt: "Integrated lighting control detail within dark oak shelving",
-        fit: "contain",
-      },
-    ],
-  },
-  {
     slug: "soho-bespoke-bookcase",
     title: "Soho Bespoke Bookcase",
     category: "Bespoke Joinery",
@@ -445,13 +343,36 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-room-view-01.webp",
-      alt: "Soho bespoke bookcase room view",
+      src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-frontal-room-view-04.jpg",
+      alt: "Full frontal room view of Soho bespoke dark oak bookcase",
+      fit: "contain",
     },
     images: [
-      { src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-room-view-01.webp", alt: "Soho bespoke bookcase room view" },
-      { src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-full-height-02.webp", alt: "Full-height Soho bespoke bookcase" },
-      { src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-lighting-detail-03.webp", alt: "Integrated lighting detail in Soho bespoke bookcase" },
+      {
+        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-frontal-room-view-04.jpg",
+        alt: "Full frontal room view of Soho bespoke dark oak bookcase",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-room-view-01.webp",
+        alt: "Angled illuminated view of Soho bespoke bookcase",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-full-height-02.webp",
+        alt: "Full-height side view of Soho bespoke bookcase",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-display-view-05.jpg",
+        alt: "Dark oak display shelving and integrated lighting in Soho bookcase",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-door-detail-06.jpg",
+        alt: "Close-up of dark oak lower cabinet door and grain detail",
+        fit: "contain",
+      },
     ],
   },
   {
