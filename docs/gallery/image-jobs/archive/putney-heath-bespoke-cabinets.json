@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G19 — Putney Heath Bespoke Cabinets",
+  "slug": "putney-heath-bespoke-cabinets",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1hJcssnLMthPu2tOAGyRW6R8HzNQJwW7E",
+      "source_label": "bespoke wardrobes london.jpg",
+      "role": "pair view",
+      "output_stem": "putney-heath-bespoke-cabinets-pair-view-01"
+    },
+    {
+      "drive_file_id": "1xwZFO7-2nGuIt38aTsq0DQLzsfRDQmCu",
+      "source_label": "london interior design.jpg",
+      "role": "room context",
+      "output_stem": "putney-heath-bespoke-cabinets-room-view-02"
+    },
+    {
+      "drive_file_id": "1bmwcjJrlhiCOzLxnYuWsgcIJ1JmZOcIY",
+      "source_label": "bespoke wardrobes london.png",
+      "role": "open storage cabinet",
+      "output_stem": "putney-heath-bespoke-cabinets-open-storage-03"
+    },
+    {
+      "drive_file_id": "1N2hYyjzTANzjwDo2WDwXNvxFpruoSUO4",
+      "source_label": "luxury furniture.jpg",
+      "role": "TV cabinet interior",
+      "output_stem": "putney-heath-bespoke-cabinets-tv-storage-04"
+    },
+    {
+      "drive_file_id": "1FA0R81tWELFwUJ0jf6SoZDEB6FqBzV_w",
+      "source_label": "fitted furniture.png",
+      "role": "brass and frame detail",
+      "output_stem": "putney-heath-bespoke-cabinets-detail-05"
+    },
+    {
+      "drive_file_id": "1SIKQJNILxjTomfAFPZy6Z_sYZiai1CZU",
+      "source_label": "furniture makers.jpg",
+      "role": "front and handle detail",
+      "output_stem": "putney-heath-bespoke-cabinets-front-detail-06"
+    }
+  ]
+}

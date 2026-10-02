@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "project": "G19 \u2014 Putney Heath Bespoke Cabinets",
+  "slug": "putney-heath-bespoke-cabinets",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1hJcssnLMthPu2tOAGyRW6R8HzNQJwW7E",
+      "source_label": "bespoke wardrobes london.jpg",
+      "role": "pair view",
+      "original": {
+        "width": 1440,
+        "height": 953
+      },
+      "webp": {
+        "path": "public/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-pair-view-01.webp",
+        "bytes": 120062,
+        "quality": 84,
+        "width": 1440,
+        "height": 953,
+        "sha256": "51204944593e354aab7300ca9284beb3600be419de17c3b9c5389a2982aa837d",
+        "git_blob_sha": "ebc6906ff809b3cb309710a35e146ea7cf468914"
+      },
+      "avif": {
+        "path": "public/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-pair-view-01.avif",
+        "bytes": 77588,
+        "quality": 58,
+        "width": 1440,
+        "height": 953,
+        "sha256": "3f8711faee62781f6d19c2d0022613ab6fc2a6aeb36b88f72ff3efe978773be7",
+        "git_blob_sha": "0b39ef11d3a2feb48ff4db7c1f91938a68b2b813"
+      }
+    },
+    {
+      "drive_file_id": "1xwZFO7-2nGuIt38aTsq0DQLzsfRDQmCu",
+      "source_label": "london interior design.jpg",
+      "role": "room context",
+      "original": {
+        "width": 1440,
+        "height": 953
+      },
+      "webp": {
+        "path": "public/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-room-view-02.webp",
+        "bytes": 119742,
+        "quality": 84,
+        "width": 1440,
+        "height": 953,
+        "sha256": "2af11bc09c489eb41d87396970ff1e522c9bf0841f192788c043844041866075",
+        "git_blob_sha": "79801c5e683f6eaea27007806144ad976c7f9148"
+      },
+      "avif": {
+        "path": "public/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-room-view-02.avif",
+        "bytes": 79226,
+        "quality": 58,
+        "width": 1440,
+        "height": 953,
+        "sha256": "25bffa47cf9f7e206e107214c11f5073b8a89696b1d65430af7fed6b29685aed",
+        "git_blob_sha": "8fec61bcb3a2bb7572ce430d8f1dbf28ac6296d2"
+      }
+    },
+    {
+      "drive_file_id": "1bmwcjJrlhiCOzLxnYuWsgcIJ1JmZOcIY",
+      "source_label": "bespoke wardrobes london.png",
+      "role": "open storage cabinet",
+      "original": {
+        "width": 1440,
+        "height": 953
+      },
+      "webp": {
+        "path": "public/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-open-storage-03.webp",
+        "bytes": 126766,
+        "quality": 84,
+        "width": 1440,
+        "height": 953,
+        "sha256": "54c5e598c92a5a561357bf426d1390a61368f582a3d09e210699ae682973df38",
+        "git_blob_sha": "176c846b0ef556ef1986c1ec14e6f2e8de383b7b"
+      },
+      "avif": {
+        "path": "public/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-open-storage-03.avif",
+        "bytes": 98872,
+        "quality": 58,
+        "width": 1440,
+        "height": 953,
+        "sha256": "1bf14b85b0495f10337c6eb0131082125f672711182a7ed0e81629c7a178d8af",
+        "git_blob_sha": "12322ef87807b5924f576b1ab0d8cd281e4e7a1e"
+      }
+    },
+    {
+      "drive_file_id": "1N2hYyjzTANzjwDo2WDwXNvxFpruoSUO4",
+      "source_label": "luxury furniture.jpg",
+      "role": "TV cabinet interior",
+      "original": {
+        "width": 1440,
+        "height": 953
+      },
+      "webp": {
+        "path": "public/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-tv-storage-04.webp",
+        "bytes": 140966,
+        "quality": 84,
+        "width": 1440,
+        "height": 953,
+        "sha256": "5122e2125274d716c12feb7d3096c7ac4d59bfc06d38fa12fa838db3879fab12",
+        "git_blob_sha": "82a26bf4521c876a7d99c4f10c4208bbcbbe3535"
+      },
+      "avif": {
+        "path": "public/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-tv-storage-04.avif",
+        "bytes": 83103,
+        "quality": 58,
+        "width": 1440,
+        "height": 953,
+        "sha256": "e6276562c6bfbdfb4fd8e7f97fce956b54a0ff34910a04fa030311380e02128a",
+        "git_blob_sha": "1afb07106ff6d408f1d670b1622890d98fede79e"
+      }
+    },
+    {
+      "drive_file_id": "1FA0R81tWELFwUJ0jf6SoZDEB6FqBzV_w",
+      "source_label": "fitted furniture.png",
+      "role": "brass and frame detail",
+      "original": {
+        "width": 1440,
+        "height": 953
+      },
+      "webp": {
+        "path": "public/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-detail-05.webp",
+        "bytes": 259734,
+        "quality": 84,
+        "width": 1440,
+        "height": 953,
+        "sha256": "8b59d58484a5cc59d6c0ac557beaa12b5c35a75b34692dae476a78ea856934fa",
+        "git_blob_sha": "bfd4a7071b617dfe955f479de7805130e570a821"
+      },
+      "avif": {
+        "path": "public/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-detail-05.avif",
+        "bytes": 190814,
+        "quality": 58,
+        "width": 1440,
+        "height": 953,
+        "sha256": "b060ef82ed2eb969dd35ba8fa373fa36941ac31aa019b5d4999ad45c4d09265e",
+        "git_blob_sha": "e7e84945f91a22950a520d9fd091caa2cba25429"
+      }
+    },
+    {
+      "drive_file_id": "1SIKQJNILxjTomfAFPZy6Z_sYZiai1CZU",
+      "source_label": "furniture makers.jpg",
+      "role": "front and handle detail",
+      "original": {
+        "width": 1440,
+        "height": 1529
+      },
+      "webp": {
+        "path": "public/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-front-detail-06.webp",
+        "bytes": 482092,
+        "quality": 68,
+        "width": 1296,
+        "height": 1376,
+        "sha256": "af4b1bf214ec544d5f3666e1f69d05216cac777923b341c6bef2a6cccd151fde",
+        "git_blob_sha": "d69b42fb7671a1510d9d2269678d3c8a9a30964e"
+      },
+      "avif": {
+        "path": "public/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-front-detail-06.avif",
+        "bytes": 398943,
+        "quality": 46,
+        "width": 1440,
+        "height": 1529,
+        "sha256": "5d926c0125a5080df74fa9038d5ee2298a0428cb2f403e73da764d50a13da5ef",
+        "git_blob_sha": "3cd039a8fd5d922199838f3e17ab20a3c26c9e1e"
+      }
+    }
+  ]
+}
