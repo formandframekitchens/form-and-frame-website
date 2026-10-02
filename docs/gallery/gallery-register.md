@@ -42,7 +42,7 @@ When the fuse fires:
 | G11 | Westminster Polished Brass Panelled Doors | LIVE | Westminster source / selected 4-image set |
 | G12 | Alexander James Bespoke Bookcase | LIVE | Alexander James source |
 | G13 | Cream Bespoke TV Unit | LIVE | Gallery 1 |
-| G14 | Crocodile-Front Bespoke Cabinet | PREVIEW | Gallery 4 / strong chosen set |
+| G14 | Crocodile-Front Bespoke Cabinet | FUSE STOP | Gallery 4 / strong chosen set |
 | G15 | S&C Bespoke TV Unit | QUEUED | Gallery 6 |
 | G16 | S&C Bespoke Bookcase | QUEUED | Gallery 7 |
 | G17 | Grey Bespoke Sideboard | QUEUED / LOWER | Gallery 10 / four-image set |
@@ -90,7 +90,11 @@ Current confirmed minimum: 47 distinct case-study slots, plus retired duplicate 
 
 ## Resume pointer
 - Last live gallery: G13 — Cream Bespoke TV Unit
-- Current preview: G14 — Crocodile-Front Bespoke Cabinet
-- Next queued after G14: G15 — S&C Bespoke TV Unit
-- Continue strictly in ascending G-number order unless the user explicitly changes priority.
-- Safety fuse status: ARMED — no active stop.
+- Sequence halted at: G14 — Crocodile-Front Bespoke Cabinet
+- G14 branch created: g14-crocodile-front-bespoke-cabinet
+- Failed checkpoint: selected-image asset transfer into G14 branch
+- Fuse reason: the Google Drive -> GitHub image-transfer path produced a second transport failure during G14 (h2 protocol/body-read error) after an earlier connector failure in the same G14 source-transfer path.
+- Important: do NOT start G15 until G14 transfer is diagnosed and completed or deliberately reset.
+- Selected G14 views before stop: room view, wider room context, open cabinet, crocodile-texture close-up, handle/front detail.
+- Damaged/truncated source image was already excluded and must not be retried.
+- Safety fuse status: TRIPPED — sequence intentionally stopped.
