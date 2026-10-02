@@ -1,42 +1,5 @@
 {
   "schema_version": 1,
-  "enabled": true,
-  "project": "G26 — Putney Bespoke TV Unit",
-  "slug": "putney-bespoke-tv-unit",
-  "max_long_edge": 2000,
-  "min_long_edge": 1200,
-  "webp_quality": 84,
-  "avif_quality": 58,
-  "webp_target_bytes": 500000,
-  "avif_target_bytes": 400000,
-  "images": [
-    {
-      "drive_file_id": "1MeoKk3X5vOXNML9O8Q2NjYCNuVtgc-Ee",
-      "source_label": "08.jpg",
-      "role": "overall room view",
-      "output_stem": "putney-bespoke-tv-unit-room-view-01",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-89fc-8210-9dba-6a3079e0d143/raw?se=2026-10-02T12%3A49%3A02Z&sp=r&sv=2026-02-06&sr=b&scid=4598fc45-da9e-5724-b56d-bfb8c974c11e&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T02%3A28%3A10Z&ske=2026-10-03T02%3A28%3A10Z&sks=b&skv=2026-02-06&sig=cI4oVxLG35ao6YmOsQkm2Q61jWWl%2BNtU3Ag/f2/1HIw%3D"
-    },
-    {
-      "drive_file_id": "14ZwqmMD-0Dpq_5lALnm82C2CNgDJjIwf",
-      "source_label": "09.jpg",
-      "role": "front view",
-      "output_stem": "putney-bespoke-tv-unit-front-view-02",
-      "source_url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-e148-8246-8d2c-0279b4598309/raw?se=2026-10-02T12%3A49%3A05Z&sp=r&sv=2026-02-06&sr=b&scid=8c2dd4cd-8c45-56a9-9d42-a5ed69badeca&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T08%3A08%3A25Z&ske=2026-10-03T08%3A08%3A25Z&sks=b&skv=2026-02-06&sig=7c7TSOS824XzaxoIFuEQC9ZaqZtbv10dED0yT9xLvHU%3D"
-    },
-    {
-      "drive_file_id": "1qJi_yqZZ40IYIljH-euLv68YFo-9Bfk-",
-      "source_label": "10.jpg",
-      "role": "open storage and TV view",
-      "output_stem": "putney-bespoke-tv-unit-open-storage-03",
-      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-26e8-81f4-b4a9-10c27dc59dcb/raw?se=2026-10-02T12%3A49%3A26Z&sp=r&sv=2026-02-06&sr=b&scid=1a299554-caf9-5244-9843-2aaf33583945&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T07%3A15%3A18Z&ske=2026-10-03T07%3A15%3A18Z&sks=b&skv=2026-02-06&sig=ZvSLLxdTU6RXFpLHBq60/8D1EqyFymrExvS/vMi3ujk%3D"
-    },
-    {
-      "drive_file_id": "1fWB9peT58sdZeeJssx0g2UAUFsA8oD7R",
-      "source_label": "12.jpg",
-      "role": "display niche detail",
-      "output_stem": "putney-bespoke-tv-unit-detail-04",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-e9a4-8210-9b0d-e05d6880d2ad/raw?se=2026-10-02T12%3A49%3A29Z&sp=r&sv=2026-02-06&sr=b&scid=c8fe3257-9367-55ea-b5c7-3d055b092eb8&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T02%3A37%3A38Z&ske=2026-10-03T02%3A37%3A38Z&sks=b&skv=2026-02-06&sig=r4shjIvNHQ0wD%2Brr7kZaUz8ftNZ4RKEMXzn3IdNV1LM%3D"
-    }
-  ]
+  "enabled": false,
+  "last_completed_slug": "putney-bespoke-tv-unit"
 }
