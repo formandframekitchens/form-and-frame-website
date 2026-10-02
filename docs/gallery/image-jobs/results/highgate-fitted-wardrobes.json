@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "project": "G20 \u2014 Highgate Fitted Wardrobes",
+  "slug": "highgate-fitted-wardrobes",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1tYO7eoBZhwuRKv3UqCPWy6Zo32UL-g3o",
+      "source_label": "16.jpg",
+      "role": "closed room view",
+      "original": {
+        "width": 5488,
+        "height": 3632
+      },
+      "webp": {
+        "path": "public/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-closed-view-01.webp",
+        "bytes": 209486,
+        "quality": 84,
+        "width": 2000,
+        "height": 1324,
+        "sha256": "42c926f162820d3827063b3c6786746a9471ea8dfd73c1b2ac158bdd818e5baf",
+        "git_blob_sha": "7828c01a33baa3b8a2405b13c514a09ec3508285"
+      },
+      "avif": {
+        "path": "public/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-closed-view-01.avif",
+        "bytes": 135405,
+        "quality": 58,
+        "width": 2000,
+        "height": 1324,
+        "sha256": "ee2480609fc4e8767e87520f13d4bd7923d2324bca420288087203b2eb4cd045",
+        "git_blob_sha": "02cc96541b8e46cc5c8505486339038f317499ca"
+      }
+    },
+    {
+      "drive_file_id": "1OnWnt1Shrku1UneFd4h_fx0OBaXf70AT",
+      "source_label": "18.jpg",
+      "role": "open wardrobe view",
+      "original": {
+        "width": 5488,
+        "height": 3632
+      },
+      "webp": {
+        "path": "public/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-open-view-02.webp",
+        "bytes": 222344,
+        "quality": 84,
+        "width": 2000,
+        "height": 1324,
+        "sha256": "14035e050a4711779c77dad71eaa79972f199bc768c8f51f8d97641bd0117070",
+        "git_blob_sha": "0c2fd74ab2f00a71a0e057f669ba580f6f30e45b"
+      },
+      "avif": {
+        "path": "public/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-open-view-02.avif",
+        "bytes": 149523,
+        "quality": 58,
+        "width": 2000,
+        "height": 1324,
+        "sha256": "bc9209137003cb3cca8fadb5571bd5da73f55559e53b154616bb76b20bf6c28b",
+        "git_blob_sha": "1568ddbae443e304ff36a4c611c385135404387d"
+      }
+    },
+    {
+      "drive_file_id": "1fDaS3bz49UAPwGwgmwoj354xofQBP59v",
+      "source_label": "17.jpg",
+      "role": "internal storage detail",
+      "original": {
+        "width": 5488,
+        "height": 3632
+      },
+      "webp": {
+        "path": "public/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-storage-detail-03.webp",
+        "bytes": 257976,
+        "quality": 84,
+        "width": 2000,
+        "height": 1324,
+        "sha256": "1907b3d1458500ed358dc637f25e0939881a898a3dc0bfb72c35263368d61d87",
+        "git_blob_sha": "dfe7a175074605d0cb75edaf50f653ddabcb999c"
+      },
+      "avif": {
+        "path": "public/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-storage-detail-03.avif",
+        "bytes": 178811,
+        "quality": 58,
+        "width": 2000,
+        "height": 1324,
+        "sha256": "2f394bf82488ee558904b25e93e5f5e28c86e9bdd4bdd507cfe560d3bc103b8c",
+        "git_blob_sha": "c1b4f01dcc8b3e0936f695ea03bd6d803d40a610"
+      }
+    }
+  ]
+}

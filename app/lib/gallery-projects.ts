@@ -959,6 +959,76 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
+    slug: "highgate-fitted-wardrobes",
+    title: "Highgate Fitted Wardrobes",
+    category: "Bespoke Joinery",
+    location: "Highgate, London",
+    summary: "A pair of full-height fitted wardrobes arranged around a bedroom fireplace, with restrained grey fronts and practical hanging, shelving and drawer storage.",
+    seoDescription: "Highgate fitted wardrobe case study by Form & Frame, featuring full-height grey wardrobes arranged around a bedroom fireplace with hanging, shelving and drawer storage.",
+    keywords: [
+      "Highgate fitted wardrobes",
+      "fitted wardrobes London",
+      "bespoke bedroom wardrobes",
+      "grey fitted wardrobes",
+      "alcove wardrobes",
+      "made to measure wardrobes",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Full-height fitted wardrobes around a fireplace",
+      "Restrained grey painted fronts",
+      "Internal hanging, shelving and drawer storage",
+      "Bedroom-scale fitted composition",
+    ],
+    caseStudy: [
+      {
+        heading: "Wardrobes integrated around the fireplace",
+        body: [
+          "This Highgate bedroom uses fitted wardrobes on both sides of the fireplace, turning the wall into a balanced storage composition while keeping the chimney breast and fireplace visually clear.",
+          "The simple full-height fronts keep the wardrobes quiet within the room and allow the existing architectural features to remain prominent.",
+        ],
+      },
+      {
+        heading: "The demanding part: balancing two alcoves",
+        body: [
+          "Working on opposite sides of a fireplace makes symmetry and proportion especially visible. The wardrobes need to align in height, projection and door spacing while responding to the actual dimensions of each alcove.",
+          "The closed elevation therefore depends on careful setting out rather than decorative detail.",
+        ],
+      },
+      {
+        heading: "Practical internal storage",
+        body: [
+          "The open photographs show a combination of hanging space, upper shelving and lower drawers. This gives the wardrobe practical everyday storage while keeping the external appearance restrained.",
+          "The internal arrangement uses the full available height so the fitted furniture makes effective use of the bedroom alcoves.",
+        ],
+      },
+      {
+        heading: "A calm bedroom finish",
+        body: [
+          "The grey finish relates closely to the wall colour and fireplace surround, helping the wardrobes feel integrated rather than added as separate pieces.",
+          "Because the front design is intentionally simple, door alignment, margins and the relationship with the cornice become important parts of the finished result.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed wardrobes provide substantial concealed storage while preserving a calm, balanced bedroom elevation around the fireplace.",
+          "For similar fitted wardrobes and made-to-measure bedroom storage, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-closed-view-01.webp",
+      alt: "Grey fitted wardrobes arranged around a bedroom fireplace in Highgate",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-closed-view-01.webp", alt: "Closed view of Highgate fitted wardrobes around the fireplace", fit: "contain" },
+      { src: "/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-open-view-02.webp", alt: "Open fitted wardrobe showing hanging and drawer storage", fit: "contain" },
+      { src: "/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-storage-detail-03.webp", alt: "Highgate wardrobe internal storage detail", fit: "contain" },
+    ],
+  },
+  {
     slug: "soho-bespoke-bookcase",
     title: "Soho Bespoke Bookcase",
     category: "Bespoke Joinery",
