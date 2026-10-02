@@ -1,5 +1,35 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "northwood-home-office"
+  "enabled": true,
+  "project": "G23 — Putney Flat Bespoke TV Unit",
+  "slug": "putney-flat-bespoke-tv-unit",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1GoBbQleDTT_BKyblaKnPtY55oI4AFm5q",
+      "source_label": "05.jpg",
+      "role": "room context",
+      "output_stem": "putney-flat-bespoke-tv-unit-room-view-01",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-7f7c-8210-bc74-9dcba2b62e2d/raw?se=2026-10-02T12%3A36%3A55Z&sp=r&sv=2026-02-06&sr=b&scid=0696f237-4175-599f-9cf2-f0492562a6f6&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T08%3A09%3A27Z&ske=2026-10-03T08%3A09%3A27Z&sks=b&skv=2026-02-06&sig=Xz3Qr55YRlmQD8a6Q10had/Dm3Q3B/90BWj7OoUH%2BWs%3D"
+    },
+    {
+      "drive_file_id": "1xfzPt6aGXZROsQZyqh9pfC3UH5tdQ2BG",
+      "source_label": "06.jpg",
+      "role": "front media wall view",
+      "output_stem": "putney-flat-bespoke-tv-unit-front-view-02",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-fd68-8210-a2c3-9deab92af433/raw?se=2026-10-02T12%3A36%3A57Z&sp=r&sv=2026-02-06&sr=b&scid=bec9f1f2-8843-5fd8-bf8a-a739286baa92&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T05%3A52%3A34Z&ske=2026-10-03T05%3A52%3A34Z&sks=b&skv=2026-02-06&sig=dCw7UAVW/6cyXuupDR2Ha6GbEQW5RzCGcq60pZnvQgI%3D"
+    },
+    {
+      "drive_file_id": "1FDlDJBX9Kh4OPnYqIlYjAHCHBnqN2DPB",
+      "source_label": "07.jpg",
+      "role": "illuminated display detail",
+      "output_stem": "putney-flat-bespoke-tv-unit-display-detail-03",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-bdfc-8210-ab70-f87c1259d90e/raw?se=2026-10-02T12%3A36%3A59Z&sp=r&sv=2026-02-06&sr=b&scid=6e52204f-9b31-5647-90a9-a07d4930dc4d&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A52%3A24Z&ske=2026-10-03T06%3A52%3A24Z&sks=b&skv=2026-02-06&sig=YD16A%2BRgultFBb/PDueP94dt6w6Y7TsDAS7KXBXLTdY%3D"
+    }
+  ]
 }
