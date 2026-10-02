@@ -343,13 +343,36 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-room-view-01.webp",
-      alt: "Soho bespoke bookcase room view",
+      src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-frontal-room-view-04.jpg",
+      alt: "Full frontal room view of Soho bespoke dark oak bookcase",
+      fit: "contain",
     },
     images: [
-      { src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-room-view-01.webp", alt: "Soho bespoke bookcase room view" },
-      { src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-full-height-02.webp", alt: "Full-height Soho bespoke bookcase" },
-      { src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-lighting-detail-03.webp", alt: "Integrated lighting detail in Soho bespoke bookcase" },
+      {
+        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-frontal-room-view-04.jpg",
+        alt: "Full frontal room view of Soho bespoke dark oak bookcase",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-room-view-01.webp",
+        alt: "Angled illuminated view of Soho bespoke bookcase",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-full-height-02.webp",
+        alt: "Full-height side view of Soho bespoke bookcase",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-display-view-05.jpg",
+        alt: "Dark oak display shelving and integrated lighting in Soho bookcase",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-door-detail-06.jpg",
+        alt: "Close-up of dark oak lower cabinet door and grain detail",
+        fit: "contain",
+      },
     ],
   },
   {
