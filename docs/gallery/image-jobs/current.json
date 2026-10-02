@@ -1,5 +1,42 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "sc-bespoke-bookcase"
+  "enabled": true,
+  "project": "G17 — Grey Bespoke Sideboard",
+  "slug": "grey-bespoke-sideboard",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1v9YjqpbTjfuAGYvVP3uwFTnpNgQSElMH",
+      "source_label": "front view",
+      "role": "front view",
+      "output_stem": "grey-bespoke-sideboard-front-view-01",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-ae24-8210-aede-ba84d680b665/raw?se=2026-10-02T10%3A16%3A26Z&sp=r&sv=2026-02-06&sr=b&scid=e64473ec-a9a0-568f-aba8-d6112589d504&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A21%3A25Z&ske=2026-10-03T06%3A21%3A25Z&sks=b&skv=2026-02-06&sig=8KHUd/qPDxU62TrDf5mb92x2WL%2BvdIjg/1ItykYQkGM%3D"
+    },
+    {
+      "drive_file_id": "17D9fj-SJACvDN9TJbiEeNx6yWmZ3F7y8",
+      "source_label": "angled view",
+      "role": "angled view",
+      "output_stem": "grey-bespoke-sideboard-angled-view-02",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-5eac-8210-8748-7ec8a35e4d94/raw?se=2026-10-02T10%3A16%3A27Z&sp=r&sv=2026-02-06&sr=b&scid=f21c8042-73ee-57d5-9982-98de427fd89f&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T08%3A09%3A28Z&ske=2026-10-03T08%3A09%3A28Z&sks=b&skv=2026-02-06&sig=b4OshV6iYqP5DhJgqQOiruUduEYTcJExqEd%2Bi8jqYe8%3D"
+    },
+    {
+      "drive_file_id": "1CjaDXtSRdLjwH7oWPNfz3AcFqeQjrk6q",
+      "source_label": "open storage view",
+      "role": "open storage",
+      "output_stem": "grey-bespoke-sideboard-open-storage-03",
+      "source_url": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-9538-820a-8965-6669162cc102/raw?se=2026-10-02T10%3A16%3A29Z&sp=r&sv=2026-02-06&sr=b&scid=dbcc1252-24c1-5b29-8905-a9d9435a3f73&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T04%3A24%3A55Z&ske=2026-10-03T04%3A24%3A55Z&sks=b&skv=2026-02-06&sig=rHN6j4Os2uW743K2Wtxs5KlxDwWzIY3cONnHWNm0ji4%3D"
+    },
+    {
+      "drive_file_id": "19e_uLiPZ2UqWTGMdTPzrQkp_Fsr0_IUZ",
+      "source_label": "interior detail",
+      "role": "interior detail",
+      "output_stem": "grey-bespoke-sideboard-interior-detail-04",
+      "source_url": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-d374-820a-b032-07be010bd4d6/raw?se=2026-10-02T10%3A16%3A31Z&sp=r&sv=2026-02-06&sr=b&scid=391d6d69-57e6-5678-971a-942cebb12e1f&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T05%3A19%3A15Z&ske=2026-10-03T05%3A19%3A15Z&sks=b&skv=2026-02-06&sig=dpHxEPej5dRTrIMbK4NYqC6wL4ukBjO2aSivj//kGa4%3D"
+    }
+  ]
 }
