@@ -43,7 +43,7 @@ When the fuse fires:
 | G12 | Alexander James Bespoke Bookcase | LIVE | Alexander James source |
 | G13 | Cream Bespoke TV Unit | LIVE | Gallery 1 |
 | G14 | Crocodile-Front Bespoke Cabinet | LIVE | Gallery 4 / Drive ingest verified; 5-image WebP + AVIF set |
-| G15 | S&C Bespoke TV Unit | PREVIEW READY | Gallery 6 / new Drive ingest trial passed; 5-image WebP + AVIF set |
+| G15 | S&C Bespoke TV Unit | LIVE | Gallery 6 / first fresh Drive ingest trial passed; 5-image WebP + AVIF set |
 | G16 | S&C Bespoke Bookcase | QUEUED | Gallery 7 |
 | G17 | Grey Bespoke Sideboard | QUEUED / LOWER | Gallery 10 / four-image set |
 | G18 | Dubai Bespoke TV Unit | QUEUED | Arno 08 |
@@ -89,15 +89,14 @@ Current confirmed minimum: 47 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Last live gallery: G14 — Crocodile-Front Bespoke Cabinet
-- Current gallery: G15 — S&C Bespoke TV Unit
-- Active branch: g15-sc-bespoke-tv-unit
-- G15 new-workflow trial: PASSED first run
-- G15 source validation: PASSED for all 5 selected TV-unit images
-- G15 output: 5 WebP + 5 AVIF assets generated without cropping
-- G15 Git blob SHA verification: PASSED for all generated assets
-- G15 sanitized Drive-ID archive: VERIFIED; temporary source URLs removed
-- G15 case-study code: ADDED
-- Separate bespoke bookcase source remains reserved for G16
-- Next checkpoint: Vercel preview + route verification
+- Last live gallery: G15 — S&C Bespoke TV Unit
+- G14 — Crocodile-Front Bespoke Cabinet: LIVE
+- G15 production workflow trial: PASSED first run
+- G15 production deployment: VERIFIED READY
+- G15 live route: VERIFIED HTTP 200
+- Permanent gallery ingest workflow: PROVEN on both G14 repair and fresh G15 project
+- Standard sequence now: select Drive IDs -> safe Drive handoff -> validate -> WebP + AVIF optimise without crop -> atomic GitHub commit -> Git blob SHA verify -> case study -> Vercel preview -> PR -> production verification
+- Temporary transport URLs are removed automatically; sanitized Drive-ID manifest is retained for traceability
+- Next gallery: G16 — S&C Bespoke Bookcase
+- G16 source separation: bespoke bookcase image remains reserved and was not used in G15
 - Safety fuse status: ARMED
