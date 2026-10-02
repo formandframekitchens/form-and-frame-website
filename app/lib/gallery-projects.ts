@@ -1879,6 +1879,78 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-rack-detail-05.webp", alt: "Diamond wine-rack detail", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G31",
+    slug: "fulham-home-office",
+    title: "Fulham Home Office",
+    category: "Bespoke Joinery",
+    location: "Fulham, London",
+    summary: "A dark fitted home office with an integrated desk, full-height storage, open shelving and refined brass inlay details.",
+    seoDescription: "Fulham bespoke home office case study by Form & Frame, featuring dark fitted cabinetry, integrated desk, open shelving, full-height storage and brass inlay details.",
+    keywords: [
+      "Fulham home office",
+      "bespoke home office Fulham",
+      "fitted office furniture London",
+      "dark timber home office",
+      "brass inlay cabinetry",
+      "made to measure study",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Integrated fitted desk",
+      "Full-height storage",
+      "Open display shelving",
+      "Brass inlay detailing",
+    ],
+    caseStudy: [
+      {
+        heading: "A fitted office built around the room",
+        body: [
+          "This Fulham home office combines a fitted desk, full-height storage and open display shelving within one dark architectural composition.",
+          "The cabinetry uses the available wall area efficiently while keeping the working surface clear and visually connected to the surrounding storage.",
+        ],
+      },
+      {
+        heading: "The demanding part: integrating different functions",
+        body: [
+          "The desk, drawers, shelving and tall cupboards all operate differently, but their visible panel lines and proportions need to remain coordinated.",
+          "Because the finish is dark and the detailing is precise, small changes in alignment become particularly noticeable across the completed elevation.",
+        ],
+      },
+      {
+        heading: "Open shelving and concealed storage",
+        body: [
+          "Open display shelves create visual breaks within the fitted wall, while enclosed cupboards provide practical storage for items that do not need to remain on view.",
+          "This balance helps the room function as a working office without allowing storage requirements to dominate the interior.",
+        ],
+      },
+      {
+        heading: "Brass detailing",
+        body: [
+          "Fine brass inlay details introduce a controlled contrast against the darker cabinetry and help articulate selected edges and divisions.",
+          "The close-up views show how the metal detail is integrated as part of the furniture rather than applied as a separate decorative layer.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed office combines work surface, shelving and substantial storage in a fitted composition with a restrained material palette.",
+          "For similar fitted studies and home offices, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/fulham-home-office/fulham-home-office-overall-view-01.webp",
+      alt: "Dark fitted home office in Fulham",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/fulham-home-office/fulham-home-office-overall-view-01.webp", alt: "Overall view of Fulham fitted home office", fit: "contain" },
+      { src: "/images/gallery/fulham-home-office/fulham-home-office-desk-view-02.webp", alt: "Desk and cabinetry view in Fulham home office", fit: "contain" },
+      { src: "/images/gallery/fulham-home-office/fulham-home-office-storage-detail-03.webp", alt: "Full-height storage detail in Fulham home office", fit: "contain" },
+      { src: "/images/gallery/fulham-home-office/fulham-home-office-detail-04.webp", alt: "Shelving and brass inlay detail in Fulham home office", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
