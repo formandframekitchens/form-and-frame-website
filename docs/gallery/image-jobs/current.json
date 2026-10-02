@@ -1,5 +1,21 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "putney-flat-bespoke-tv-unit"
+  "enabled": true,
+  "project": "G25 — Earls Court Floating Shelf & Mirror Wall",
+  "slug": "earls-court-floating-shelf-mirror-wall",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1Ww4CfkWtel8pzGX_FV7VJ51wkzXxVukI",
+      "source_label": "DSC_7428.jpg",
+      "role": "mirror wall and floating shelf view",
+      "output_stem": "earls-court-floating-shelf-mirror-wall-view-01",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-b714-8210-886a-ca92a93e1c26/raw?se=2026-10-02T12%3A45%3A13Z&sp=r&sv=2026-02-06&sr=b&scid=a663bfce-fcc6-5d21-815b-4416846fed7b&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A37%3A20Z&ske=2026-10-03T06%3A37%3A20Z&sks=b&skv=2026-02-06&sig=AvwN3JtYlSWgU3IIB6LgzH%2BlDSMHBgfM2qCqOIkF9ww%3D"
+    }
+  ]
 }
