@@ -52,7 +52,7 @@ When the fuse fires:
 | G19 | Putney Heath Bespoke Cabinets | LIVE | Arno 07 / clean 6-image WebP + AVIF set; branded-logo source copies replaced; absorbs duplicate G05 source job |
 | G20 | Highgate Fitted Wardrobes | LIVE | Arno 06 / 3-image fitted-wardrobe set; Drive ingest passed |
 | G21 | Northwood Bespoke TV Unit | LIVE | Split from Arno 05 / 2-image TV-unit set; office images reserved for G22 |
-| G22 | Northwood Home Office | PREVIEW READY | Split from Arno 05 / 3 clean images; duplicate/logo preflight passed; Drive ingest passed |
+| G22 | Northwood Home Office | LIVE | Split from Arno 05 / 3 clean images; duplicate/logo preflight passed; Drive ingest passed |
 | G23 | Putney Flat Bespoke TV Unit | QUEUED | Arno 04 |
 | G24 | Earls Court Bespoke TV Unit | QUEUED | Split from Arno 03 |
 | G25 | Earls Court Floating Shelf & Mirror Wall | QUEUED | Split from Arno 03 |
@@ -91,14 +91,12 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Current gallery: G22 — Northwood Home Office
-- G22 duplicate preflight: PASSED; distinct from G21 TV unit
-- G22 logo/watermark preflight: PASSED on all 3 source images
-- G22 Drive ingest: PASSED
-- G22 output: 3 WebP + 3 AVIF assets
-- G22 Git blob SHA verification: PASSED
-- G22 case study: ADDED
-- Next checkpoint: Vercel preview, merge, production verification
-- G23 must not start until G22 completes
-- G24 duplicate discovery: same TV-unit photography as G13; do not publish G24
+- Last live gallery: G22 — Northwood Home Office
+- G22 duplicate/logo preflight: PASSED
+- G22 production: VERIFIED READY and live with 3 images
+- G23 Putney Flat Bespoke TV Unit: next
+- G24 Earls Court Bespoke TV Unit: confirmed duplicate of G13; retire into G13, do not publish
+- G25 Earls Court Floating Shelf & Mirror Wall: unique separate feature; one clean source image
+- G26 Putney Bespoke TV Unit: unique set; duplicate image 08/11 identified, use only one
+- Batch target: five new distinct galleries = G22, G23, G25, G26, G27
 - Safety fuse status: ARMED
