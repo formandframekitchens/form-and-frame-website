@@ -48,7 +48,7 @@ When the fuse fires:
 | G17 | Grey Bespoke Sideboard | LIVE / LOWER | Gallery 10 / four-image set; Drive ingest passed |
 | G18 | Dubai Bespoke TV Unit | LIVE | Arno 08 / coherent light-grey 5-image set; separate dark unit excluded |
 | G19 | Putney Heath Bespoke Cabinets | LIVE | Arno 07 / 6-image paired-cabinet set; Drive ingest passed |
-| G20 | Highgate Fitted Wardrobes | PREVIEW READY | Arno 06 / 3-image fitted-wardrobe set; Drive ingest passed |
+| G20 | Highgate Fitted Wardrobes | MERGED / PRODUCTION BUILDING | Arno 06 / 3-image fitted-wardrobe set; Drive ingest passed |
 | G21 | Northwood Bespoke TV Unit | QUEUED | Split from Arno 05 |
 | G22 | Northwood Home Office | QUEUED | Split from Arno 05 |
 | G23 | Putney Flat Bespoke TV Unit | QUEUED | Arno 04 |
@@ -89,15 +89,14 @@ Current confirmed minimum: 47 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Last live gallery: G19 — Putney Heath Bespoke Cabinets
-- Current gallery: G20 — Highgate Fitted Wardrobes
-- Active branch: g20-highgate-fitted-wardrobes
-- G20 workflow: PASSED
-- G20 source validation: PASSED for all 3 wardrobe images
-- G20 output: 3 WebP + 3 AVIF assets generated without cropping
+- Last confirmed live gallery: G19 — Putney Heath Bespoke Cabinets
+- G14–G19 integrity check: PASSED on master and production
+- G20 — Highgate Fitted Wardrobes: MERGED INTO MASTER
+- G20 Drive ingest: PASSED
+- G20 output: 3 WebP + 3 AVIF assets
 - G20 Git blob SHA verification: PASSED
-- G20 sanitized Drive-ID archive: VERIFIED
-- G20 case-study code: ADDED
-- Next checkpoint: Vercel preview + production verification
-- G21 must not start until G20 completes all checkpoints
-- Safety fuse status: ARMED
+- G20 preview route: VERIFIED with all 3 images
+- G20 production deployment: BUILDING on both allowed state checks
+- Safety fuse: TRIPPED — no third production poll performed
+- G21 — Northwood Bespoke TV Unit: NOT STARTED
+- Resume exactly at: one fresh G20 production-state check; if READY, verify live route, mark G20 LIVE, then start G21
