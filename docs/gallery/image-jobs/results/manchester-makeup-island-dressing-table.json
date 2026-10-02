@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "project": "G28 \u2014 Manchester Make-Up Island & Dressing Table",
+  "slug": "manchester-makeup-island-dressing-table",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1vSzUIhW7nu5C2Xa7FA2nRxpzcgwj743-",
+      "source_label": "Garsdale Lane 144.JPG",
+      "role": "make-up island overall view",
+      "original": {
+        "width": 1200,
+        "height": 900
+      },
+      "webp": {
+        "path": "public/images/gallery/manchester-makeup-island-dressing-table/manchester-makeup-island-overall-view-01.webp",
+        "bytes": 102506,
+        "quality": 84,
+        "width": 1200,
+        "height": 900,
+        "sha256": "17ae01aff80a66f99fa5d841079541a884b8ae755b669bdae70d355c82e47e79",
+        "git_blob_sha": "e1225adbf1f29dcbb2a3d4745799f5a74a4c3c24"
+      },
+      "avif": {
+        "path": "public/images/gallery/manchester-makeup-island-dressing-table/manchester-makeup-island-overall-view-01.avif",
+        "bytes": 65276,
+        "quality": 58,
+        "width": 1200,
+        "height": 900,
+        "sha256": "1f2a2e6fb6a88b4b57b15f1e13509a6a490b7dfd2c0e2b91f1ec5827006f3e32",
+        "git_blob_sha": "ec96fb4df05b97c5f09297c825903ac85aad45cf"
+      }
+    },
+    {
+      "drive_file_id": "1bk7HGDH5oQ77WBbFhUGnv_GEmMJYY2aS",
+      "source_label": "Garsdale Lane 149.JPG",
+      "role": "make-up island detail",
+      "original": {
+        "width": 1200,
+        "height": 900
+      },
+      "webp": {
+        "path": "public/images/gallery/manchester-makeup-island-dressing-table/manchester-makeup-island-detail-02.webp",
+        "bytes": 35882,
+        "quality": 84,
+        "width": 1200,
+        "height": 900,
+        "sha256": "b6184604d9dbc106823faba638dfe777b362f840c15842ff19b7d02a63ccb6e1",
+        "git_blob_sha": "3c084469f337f6368d65d35d26ff2c510d51ebed"
+      },
+      "avif": {
+        "path": "public/images/gallery/manchester-makeup-island-dressing-table/manchester-makeup-island-detail-02.avif",
+        "bytes": 19296,
+        "quality": 58,
+        "width": 1200,
+        "height": 900,
+        "sha256": "e11aa503a6ac7f73b1094ee35952d06b8d36f8e242b3e84884a1d87c1c3109c0",
+        "git_blob_sha": "e67a3756321f0cf37d31ad8945fa71d6c5a66808"
+      }
+    },
+    {
+      "drive_file_id": "1cR1w6bICOwZI1yATfEdXphQ7Mv7Ep8s4",
+      "source_label": "Garsdale Lane 139.JPG",
+      "role": "dressing table view",
+      "original": {
+        "width": 1200,
+        "height": 900
+      },
+      "webp": {
+        "path": "public/images/gallery/manchester-makeup-island-dressing-table/manchester-dressing-table-view-03.webp",
+        "bytes": 22090,
+        "quality": 84,
+        "width": 1200,
+        "height": 900,
+        "sha256": "8737fef7bb28001a56b87cb90a33391f5e2bb701509afa2d9bc2f9173732cd24",
+        "git_blob_sha": "7d0a9dcbf2c637155ca327010e1d26ec1ef0ae4c"
+      },
+      "avif": {
+        "path": "public/images/gallery/manchester-makeup-island-dressing-table/manchester-dressing-table-view-03.avif",
+        "bytes": 10710,
+        "quality": 58,
+        "width": 1200,
+        "height": 900,
+        "sha256": "f9046da3cecb9ddfb51efdfc6cba4e10c34b921c2c52ddd1be5eed076e4bf1c2",
+        "git_blob_sha": "2f39eba3e3b144185ca46d14b1abbecbaf67fb9b"
+      }
+    }
+  ]
+}

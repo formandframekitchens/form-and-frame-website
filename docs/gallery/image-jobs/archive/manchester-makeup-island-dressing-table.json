@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G28 — Manchester Make-Up Island & Dressing Table",
+  "slug": "manchester-makeup-island-dressing-table",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1vSzUIhW7nu5C2Xa7FA2nRxpzcgwj743-",
+      "source_label": "Garsdale Lane 144.JPG",
+      "role": "make-up island overall view",
+      "output_stem": "manchester-makeup-island-overall-view-01"
+    },
+    {
+      "drive_file_id": "1bk7HGDH5oQ77WBbFhUGnv_GEmMJYY2aS",
+      "source_label": "Garsdale Lane 149.JPG",
+      "role": "make-up island detail",
+      "output_stem": "manchester-makeup-island-detail-02"
+    },
+    {
+      "drive_file_id": "1cR1w6bICOwZI1yATfEdXphQ7Mv7Ep8s4",
+      "source_label": "Garsdale Lane 139.JPG",
+      "role": "dressing table view",
+      "output_stem": "manchester-dressing-table-view-03"
+    }
+  ]
+}

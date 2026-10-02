@@ -1724,6 +1724,69 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-dressing-detail-03.webp", alt: "Wardrobe and integrated dressing area detail", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G28",
+    slug: "manchester-makeup-island-dressing-table",
+    title: "Manchester Make-Up Island & Dressing Table",
+    category: "Bespoke Joinery",
+    location: "Manchester",
+    summary: "A coordinated dressing-room furniture set with a central make-up island and matching dressing table in a light figured timber finish.",
+    seoDescription: "Manchester bespoke dressing-room furniture case study by Form & Frame, featuring a central make-up island and coordinated dressing table in a light figured timber finish.",
+    keywords: [
+      "Manchester dressing table",
+      "make-up island Manchester",
+      "bespoke dressing room furniture",
+      "dressing room island",
+      "made to measure dressing table",
+      "bespoke joinery Manchester",
+    ],
+    highlights: [
+      "Central make-up island",
+      "Coordinated dressing table",
+      "Light figured timber finish",
+      "Integrated drawer storage",
+    ],
+    caseStudy: [
+      {
+        heading: "Furniture designed as part of the dressing room",
+        body: [
+          "This Manchester project combines a central make-up island with a separate dressing table, using the same light figured timber finish so the two pieces read as one coordinated furniture scheme.",
+          "The island adds storage and a practical central surface, while the dressing table creates a dedicated preparation area against the wall.",
+        ],
+      },
+      {
+        heading: "The demanding part: balancing freestanding-looking pieces",
+        body: [
+          "Both pieces are visually simple, so proportion and alignment carry much of the finished character. Drawer fronts, panel lines and edge details need to remain consistent across the separate items.",
+          "The central island also has to sit comfortably within the circulation space rather than interrupting movement through the dressing room.",
+        ],
+      },
+      {
+        heading: "Drawer storage and usable surfaces",
+        body: [
+          "The island incorporates drawer storage below a generous top surface, keeping smaller dressing-room items accessible while preserving a clean exterior.",
+          "The matching dressing table provides a second work surface and additional storage without introducing a competing material or style.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed furniture adds practical storage and dedicated preparation areas while maintaining the same material language as the wider Manchester dressing-room scheme.",
+          "For similar dressing islands, dressing tables and fitted bedroom furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/manchester-makeup-island-dressing-table/manchester-makeup-island-overall-view-01.webp",
+      alt: "Light figured timber make-up island in a Manchester dressing room",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/manchester-makeup-island-dressing-table/manchester-makeup-island-overall-view-01.webp", alt: "Overall view of Manchester make-up island", fit: "contain" },
+      { src: "/images/gallery/manchester-makeup-island-dressing-table/manchester-makeup-island-detail-02.webp", alt: "Make-up island drawer and surface detail", fit: "contain" },
+      { src: "/images/gallery/manchester-makeup-island-dressing-table/manchester-dressing-table-view-03.webp", alt: "Coordinated Manchester dressing table", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
