@@ -1,5 +1,42 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "marias-house-wine-cellar"
+  "enabled": true,
+  "project": "G31 — Fulham Home Office",
+  "slug": "fulham-home-office",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1j_QvUBXHagBymHMEKJmAfmxEh6uXi72a",
+      "source_label": "MH0025.jpg",
+      "role": "overall home office view",
+      "output_stem": "fulham-home-office-overall-view-01",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-dae8-8210-8542-eae40c01e256/raw?se=2026-10-02T14%3A10%3A16Z&sp=r&sv=2026-02-06&sr=b&scid=9d330e94-df61-560c-8fc9-adc1c3d9fdd7&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A21%3A22Z&ske=2026-10-03T06%3A21%3A22Z&sks=b&skv=2026-02-06&sig=2n0WFCpFOyQxNt0z6UE7i7CF/pZbsZK7X4%2BdzoZt9g8%3D"
+    },
+    {
+      "drive_file_id": "16HEtZkgIQpMIVc1oJVdw1UCWlmEYq8KA",
+      "source_label": "MH0026.jpg",
+      "role": "desk and cabinetry view",
+      "output_stem": "fulham-home-office-desk-view-02",
+      "source_url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-70ac-8243-9615-74e12c4cf679/raw?se=2026-10-02T14%3A10%3A20Z&sp=r&sv=2026-02-06&sr=b&scid=89d66ae8-512b-514e-891f-380236523c81&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A21%3A27Z&ske=2026-10-03T06%3A21%3A27Z&sks=b&skv=2026-02-06&sig=QLXIOMqOXO4Y9PpuCat0JeNWJni2xMumIeTG9pNFdBk%3D"
+    },
+    {
+      "drive_file_id": "1fsZuFiE6Zl3QpmaDK9MvofpOWFGuJ2af",
+      "source_label": "MH0027.jpg",
+      "role": "storage wall detail",
+      "output_stem": "fulham-home-office-storage-detail-03",
+      "source_url": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-4cd0-820a-9cc8-59fa2c5a9f7d/raw?se=2026-10-02T14%3A10%3A24Z&sp=r&sv=2026-02-06&sr=b&scid=99ba47c4-7f2e-5376-90f2-0b9fa8505711&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A21%3A28Z&ske=2026-10-03T06%3A21%3A28Z&sks=b&skv=2026-02-06&sig=nCEV9D6TkX/VVaLXIHoPbkQxWW9zQhOl/oF%2B7K6aseY%3D"
+    },
+    {
+      "drive_file_id": "1eFOcRUs__bD6kUVvg6A1FUU4eZwqifqX",
+      "source_label": "MH0028.jpg",
+      "role": "shelving and brass detail",
+      "output_stem": "fulham-home-office-detail-04",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-862c-8210-a453-349b149b3753/raw?se=2026-10-02T14%3A10%3A26Z&sp=r&sv=2026-02-06&sr=b&scid=47ac9445-69e0-540d-ab2f-901ae17ca734&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A37%3A20Z&ske=2026-10-03T06%3A37%3A20Z&sks=b&skv=2026-02-06&sig=cJ7NLLSMQsKH/EACZTZTc1GNWjb4wSzOGE7XqszVdjI%3D"
+    }
+  ]
 }
