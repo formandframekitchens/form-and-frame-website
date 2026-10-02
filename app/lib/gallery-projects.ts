@@ -292,6 +292,94 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
+    slug: "westminster-polished-brass-panelled-doors",
+    title: "Westminster Polished Brass Panelled Doors",
+    category: "Bespoke Joinery",
+    location: "Westminster, London",
+    summary: "Dark reflective wall panels and integrated doors detailed with polished brass lines, forming a precise architectural feature within a Westminster dining interior.",
+    seoDescription: "Westminster bespoke panelled doors case study by Form & Frame, featuring dark reflective panels, integrated doors and precision polished-brass detailing.",
+    keywords: [
+      "bespoke panelled doors Westminster",
+      "polished brass inlay doors",
+      "bespoke wall panels London",
+      "luxury panelled doors",
+      "brass detail joinery",
+      "bespoke doors London",
+      "architectural joinery Westminster",
+      "bespoke interior panels",
+    ],
+    highlights: [
+      "Dark reflective wall panels and integrated doors",
+      "Polished brass line detailing",
+      "Full-height architectural composition",
+      "Precise alignment across intersecting panel joints",
+    ],
+    caseStudy: [
+      {
+        heading: "Architectural joinery integrated into the dining room",
+        body: [
+          "This Westminster project uses full-height dark panels and doors as part of the room architecture rather than treating the doors as separate elements. The polished brass lines continue across the elevation, giving the installation a strong geometric identity within the dining space.",
+          "The dark reflective finish adds depth and contrast against the lighter walls, floor and dining furniture. The result depends on the panel system, door positions and metallic detailing reading as one continuous composition.",
+        ],
+      },
+      {
+        heading: "The demanding part: keeping the brass grid aligned",
+        body: [
+          "The polished brass lines create clear horizontal and vertical references across multiple panels and door faces. Any change in level or spacing would be immediately visible, especially where lines intersect at panel joints.",
+          "Accurate setting out is therefore central to the finished result. Door gaps, panel divisions and brass details all need to work together so that the geometry remains continuous whether the doors are viewed from close range or across the room.",
+        ],
+      },
+      {
+        heading: "Reflective surfaces expose every junction",
+        body: [
+          "High-gloss dark surfaces reflect the room around them, which makes irregular gaps and misalignment more noticeable than on a matt finish. The photographs show how the panel faces sit in a consistent plane while the brass lines remain crisp against the darker background.",
+          "This type of finish also requires careful handling during final fitting because the completed surfaces are highly visible and form part of the decorative character of the room.",
+        ],
+      },
+      {
+        heading: "Doors concealed within the panelled elevation",
+        body: [
+          "The doors are visually absorbed into the wider panel composition. Rather than interrupting the wall with conventional door detailing, the brass lines and dark surfaces continue the same architectural language across fixed and opening sections.",
+          "That approach requires the functional elements of the doors to be coordinated with the visible panel layout so that usability does not compromise the visual continuity of the finished wall.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed installation creates a restrained but distinctive backdrop to the dining room. The combination of dark reflective surfaces and polished brass gives the wall depth and definition while keeping the overall geometry disciplined.",
+          "For similar bespoke panelled doors, feature walls and architectural joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment around the room and the required door positions.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-room-view-01.jpg",
+      alt: "Westminster dining room with dark bespoke panelled doors and polished brass detailing",
+      fit: "contain",
+    },
+    images: [
+      {
+        src: "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-room-view-01.jpg",
+        alt: "Dining room view of Westminster bespoke panelled doors with polished brass lines",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-room-view-02.jpg",
+        alt: "Wide room view of dark reflective panels and integrated doors with brass detailing",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-mid-detail-03.jpg",
+        alt: "Mid-range view of polished brass grid detailing across dark bespoke panels",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-close-detail-04.jpg",
+        alt: "Close-up of polished brass line intersections on dark panelled doors",
+        fit: "contain",
+      },
+    ],
+  },
+  {
     slug: "soho-bespoke-bookcase",
     title: "Soho Bespoke Bookcase",
     category: "Bespoke Joinery",
