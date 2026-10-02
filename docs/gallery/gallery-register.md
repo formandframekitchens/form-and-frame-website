@@ -53,7 +53,7 @@ When the fuse fires:
 | G20 | Highgate Fitted Wardrobes | LIVE | Arno 06 / 3-image fitted-wardrobe set; Drive ingest passed |
 | G21 | Northwood Bespoke TV Unit | LIVE | Split from Arno 05 / 2-image TV-unit set; office images reserved for G22 |
 | G22 | Northwood Home Office | LIVE | Split from Arno 05 / 3 clean images; duplicate/logo preflight passed; Drive ingest passed |
-| G23 | Putney Flat Bespoke TV Unit | MERGED / PRODUCTION BUILDING | Arno 04 / 3 clean images; duplicate/logo preflight passed; Drive ingest passed |
+| G23 | Putney Flat Bespoke TV Unit | LIVE | Arno 04 / 3 clean images; duplicate/logo preflight passed; Drive ingest passed |
 | G24 | Earls Court Bespoke TV Unit | MERGED INTO G13 | Same TV-unit photography as G13 Cream Bespoke TV Unit; duplicate retired and never reused |
 | G25 | Earls Court Floating Shelf & Mirror Wall | QUEUED | Split from Arno 03 |
 | G26 | Putney Bespoke TV Unit | QUEUED | Arno 01 |
@@ -91,16 +91,11 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Last confirmed live gallery: G22 — Northwood Home Office
-- G23 — Putney Flat Bespoke TV Unit: MERGED INTO MASTER
-- G23 duplicate/logo preflight: PASSED
-- G23 Drive ingest: PASSED; 3 WebP + 3 AVIF; Git blob SHA verification passed
-- G23 preview: VERIFIED with all 3 images
-- G23 production deployment: BUILDING on both allowed checks
-- Safety fuse: TRIPPED — no third production poll performed
-- G24 Earls Court Bespoke TV Unit: CONFIRMED DUPLICATE OF G13; retired into G13 and must not be published
-- G25 Earls Court Floating Shelf & Mirror Wall: unique separate feature; one clean source image, no logo
-- G26 Putney Bespoke TV Unit: unique set; source images 08.jpg and 11.jpg are duplicates, use only one
-- G27 Manchester Walk-In Wardrobe: clean source must come from Manchester project WEB Foto/HIGH RES, never from folders marked "with logo"
-- Batch target after G23 live confirmation: continue G25, G26 and G27; together with G22 and G23 this delivers five new distinct galleries
-- Resume exactly at: one fresh G23 production-state check; if READY, verify live route, mark G23 LIVE, then continue
+- Last live gallery: G23 — Putney Flat Bespoke TV Unit
+- G23 production: VERIFIED READY and live with 3 images
+- G24: retired into G13 as confirmed duplicate
+- Next gallery: G25 — Earls Court Floating Shelf & Mirror Wall
+- G25 preflight: unique one-image feature; no logo/watermark
+- G26 preflight: unique Putney TV unit; 08.jpg and 11.jpg are duplicate source views, use only one
+- G27 clean source: Manchester project WEB Foto/HIGH RES only; never use folders marked "with logo"
+- Safety fuse status: ARMED
