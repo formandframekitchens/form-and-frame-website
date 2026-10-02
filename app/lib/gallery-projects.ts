@@ -380,6 +380,79 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
+    slug: "alexander-james-bespoke-bookcase",
+    title: "Alexander James Bespoke Bookcase",
+    category: "Bespoke Joinery",
+    summary: "A full-height bespoke display bookcase with varied open shelving, integrated lower storage and a carefully balanced fitted composition.",
+    seoDescription: "Alexander James bespoke bookcase case study by Form & Frame, featuring full-height fitted shelving, display compartments and integrated lower storage.",
+    keywords: [
+      "Alexander James bespoke bookcase",
+      "bespoke fitted bookcase",
+      "full height bookcase",
+      "display shelving",
+      "made to measure shelving",
+      "bespoke storage furniture",
+      "fitted joinery",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Full-height fitted display bookcase",
+      "Varied open shelving proportions",
+      "Integrated lower storage",
+      "Made-to-measure fitted composition",
+    ],
+    caseStudy: [
+      {
+        heading: "A fitted bookcase designed as part of the room",
+        body: [
+          "This project uses a full-height bespoke bookcase to create a permanent fitted feature rather than a freestanding piece of furniture. The shelving occupies the elevation as an architectural element, combining open display space with lower storage in one continuous composition.",
+          "The different shelf sizes give the piece a more individual rhythm than a repeated grid. That variation allows books, decorative objects and larger display pieces to sit naturally while still keeping the overall elevation controlled.",
+        ],
+      },
+      {
+        heading: "The demanding part: balancing varied shelf proportions",
+        body: [
+          "When shelving compartments change in width and height, the setting out has to remain deliberate. Each opening needs to feel related to the neighbouring sections so the finished piece reads as one coherent design rather than a collection of unrelated boxes.",
+          "Full-height cabinetry also makes vertical alignment particularly visible. The outer panels, internal divisions and lower storage fronts all need to remain visually consistent across the completed installation.",
+        ],
+      },
+      {
+        heading: "Display space and practical storage",
+        body: [
+          "The open sections provide the visual character of the bookcase, while the lower cabinets give the room useful concealed storage. Combining the two functions helps the installation remain practical without making the entire wall feel visually heavy.",
+          "The closed lower section also creates a strong base for the taller open shelving above, giving the fitted furniture a clear visual hierarchy.",
+        ],
+      },
+      {
+        heading: "Fitting a large piece accurately",
+        body: [
+          "Large fitted bookcases need to respond to the real room rather than assuming perfectly straight walls, floors and ceilings. Accurate survey and controlled installation help the outer lines meet the surrounding architecture cleanly while keeping the visible shelf grid true.",
+          "The photographs show how the furniture sits tightly within the room while preserving clear, even junctions around the main fitted elements.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed bookcase provides substantial display and storage capacity while retaining a composed, furniture-led appearance. Its varied shelving gives the piece visual interest, while the lower cabinetry keeps everyday storage discreet.",
+          "For similar fitted bookcases, display walls and made-to-measure shelving, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-room-view-01.jpg",
+      alt: "Alexander James bespoke full-height fitted bookcase",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-room-view-01.jpg", alt: "Room view of Alexander James bespoke fitted bookcase", fit: "contain" },
+      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-front-view-02.jpg", alt: "Front view of full-height bespoke display bookcase", fit: "contain" },
+      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-angled-view-03.jpg", alt: "Angled view of fitted bookcase and open shelving", fit: "contain" },
+      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-shelving-detail-04.jpg", alt: "Open shelving detail in bespoke bookcase", fit: "contain" },
+      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-detail-05.jpg", alt: "Bespoke bookcase joinery detail", fit: "contain" },
+      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-full-height-06.jpg", alt: "Full-height view of bespoke fitted bookcase", fit: "contain" },
+    ],
+  },
+  {
     slug: "soho-bespoke-bookcase",
     title: "Soho Bespoke Bookcase",
     category: "Bespoke Joinery",
