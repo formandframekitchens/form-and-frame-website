@@ -42,7 +42,7 @@ When the fuse fires:
 | G09 | Natural Walnut Bespoke Bookcase | LIVE | Nuotraukos puslapiui / strong professional set |
 | G10 | Duplicate Dark Oak Bookcase Set | MERGED INTO G02 | Same Soho Bespoke Bookcase job; selected images merged into G02; G10 retired and never reused |
 | G11 | Westminster Polished Brass Panelled Doors | LIVE | Westminster source / selected 4-image set |
-| G12 | Alexander James Bespoke Bookcase | LIVE | Alexander James source |
+| G12 | Bookcase in Esher | LIVE | Existing Esher bookcase set; personal/designer name removed |
 | G13 | Cream Bespoke TV Unit | LIVE | Gallery 1 / clean original photography; branded-logo JPG set retired |
 | G14 | Crocodile-Front Bespoke Cabinet | LIVE | Gallery 4 / Drive ingest verified; 5-image WebP + AVIF set |
 | G15 | S&C Bespoke TV Unit | LIVE | Gallery 6 / first fresh Drive ingest trial passed; 5-image WebP + AVIF set |
@@ -61,10 +61,10 @@ When the fuse fires:
 | G28 | Manchester Make-Up Island & Dressing Table | LIVE | Manchester HIGH RES / 3 clean originals matched from labelled web set; logo folders excluded; Drive ingest passed |
 | G29 | Virginia Water Wine Room | LIVE | Wentworth / 6 clean images; duplicate/logo preflight passed; Drive ingest passed after push-race retry |
 | G30 | Maria's House Wine Cellar | QUEUED | Professional pictures / Maria's House |
-| G31 | Maria's House Home Office | QUEUED | Professional pictures / Maria's House |
-| G32 | Maria's House Alcove Units | QUEUED | Professional pictures / Maria's House |
-| G33 | Maria's House Juice Bar Joinery | QUEUED | Professional pictures / Maria's House |
-| G34 | Maria's House Antique Mirror Feature | QUEUED | Professional pictures / Maria's House |
+| G31 | Fulham Home Office | QUEUED | Professional pictures / Fulham project |
+| G32 | Fulham Alcove Units | QUEUED | Professional pictures / Fulham project |
+| G33 | Fulham Juice Bar Joinery | QUEUED | Professional pictures / Fulham project |
+| G34 | Fulham Antique Mirror Feature | QUEUED | Professional pictures / Fulham project |
 | G35 | Belgravia Kids Room / Home Office Furniture | QUEUED | Professional pictures / Belgravia |
 | G36 | Belgravia Bathroom Furniture & Antique Mirror | QUEUED | Professional pictures / Belgravia |
 | G37 | Belgravia Walk-In Wardrobe | QUEUED | Professional pictures / Belgravia |
@@ -92,8 +92,10 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 ## Resume pointer
 - Last live gallery: G29 — Virginia Water Wine Room
-- G29 production: VERIFIED READY and live with 6 images
-- Next galleries: G30–G32 from Maria's House
-- Maria's House must be split by distinct furniture/project component; no cross-mixing
-- Duplicate/logo preflight remains mandatory before ingest
+- G30 public-facing name: Fulham Wine Cellar
+- G30 Drive ingest: PASSED; 5 WebP + 5 AVIF; Git blob SHA verification passed
+- G30 case study: ADDED
+- G12 renamed publicly to Bookcase in Esher; old slug redirects permanently
+- G31–G34 public-facing names converted from personal-name labels to Fulham location-based labels
+- Next checkpoint: G30 preview, merge, production verification
 - Safety fuse status: ARMED
