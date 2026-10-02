@@ -63,7 +63,7 @@ When the fuse fires:
 | G30 | Fulham Wine Cellar | LIVE | Clean HIGH RES MH0031–MH0035; duplicate/logo preflight passed; Drive ingest passed |
 | G31 | Fulham Home Office | LIVE | Clean HIGH RES MH0025–MH0028; duplicate/logo preflight passed; Drive ingest passed |
 | G32 | Fulham Alcove Units | LIVE | Clean HIGH RES MH0016–MH0018; duplicate/logo preflight passed; Drive ingest and SHA verification passed |
-| G33 | Fulham Juice Bar Joinery | QUEUED | Professional pictures / Fulham project |
+| G33 | Fulham Juice Bar Joinery | LIVE | Clean HIGH RES 7-image set; watermarked web copies and adjacent media-wall project excluded; Drive ingest and SHA verification passed |
 | G34 | Fulham Antique Mirror Feature | QUEUED | Professional pictures / Fulham project |
 | G35 | Belgravia Kids Room / Home Office Furniture | QUEUED | Professional pictures / Belgravia |
 | G36 | Belgravia Bathroom Furniture & Antique Mirror | QUEUED | Professional pictures / Belgravia |
@@ -91,11 +91,13 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Last live gallery: G32 — Fulham Alcove Units
+- Last live gallery: G33 — Fulham Juice Bar Joinery
+- G33 production: VERIFIED READY and live with 7 images
 - G30 Fulham Wine Cellar: LIVE
 - G31 Fulham Home Office: LIVE
 - G32 Fulham Alcove Units: LIVE
 - G12 public name: Bookcase in Esher
-- Next gallery: G33 — Fulham Juice Bar Joinery
+- Stop point for today: G33 complete
+- Next gallery when resuming: G34 — Fulham Antique Mirror Feature
 - Duplicate/logo preflight remains mandatory
 - Safety fuse status: ARMED
