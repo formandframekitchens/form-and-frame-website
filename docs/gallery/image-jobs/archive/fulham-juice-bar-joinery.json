@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G33 — Fulham Juice Bar Joinery",
+  "slug": "fulham-juice-bar-joinery",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1FWzL9YnnbqptpXWZlj7dIHp0oSs1aubm",
+      "source_label": "MH0001.jpg",
+      "role": "juice bar overall view",
+      "output_stem": "fulham-juice-bar-overall-view-01"
+    },
+    {
+      "drive_file_id": "1n5aWmCkULQ_f6se2GLDsPryemTT-W4ig",
+      "source_label": "MH0003.jpg",
+      "role": "juice bar room context",
+      "output_stem": "fulham-juice-bar-room-context-02"
+    },
+    {
+      "drive_file_id": "1O-QlnmPa3AVwGk-WByrXWfcd7SLg0UpZ",
+      "source_label": "MH0006.jpg",
+      "role": "juice bar wide front view",
+      "output_stem": "fulham-juice-bar-front-view-03"
+    },
+    {
+      "drive_file_id": "1_bdtfT-9x7loqAUIeWpC-ZXJ4clBVyag",
+      "source_label": "MH0014.jpg",
+      "role": "countertop and joinery detail",
+      "output_stem": "fulham-juice-bar-counter-detail-04"
+    },
+    {
+      "drive_file_id": "1usLlZLmWUCENg1vcs2K7qEq2GWHUXV-Z",
+      "source_label": "MH0015.jpg",
+      "role": "bar stool and island view",
+      "output_stem": "fulham-juice-bar-island-view-05"
+    },
+    {
+      "drive_file_id": "1kywCxLLrvVWnmXF3Ml_gXoitpxgU7Rr9",
+      "source_label": "MH0019.jpg",
+      "role": "side cabinetry closed view",
+      "output_stem": "fulham-juice-bar-side-cabinet-06"
+    },
+    {
+      "drive_file_id": "12P2IkoCOvbqT-Rc_1ODxwGcE4Pme3Jyy",
+      "source_label": "MH0020.jpg",
+      "role": "side cabinetry open service view",
+      "output_stem": "fulham-juice-bar-service-detail-07"
+    }
+  ]
+}
