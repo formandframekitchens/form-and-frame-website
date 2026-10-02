@@ -1377,6 +1377,77 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/northwood-bespoke-tv-unit/northwood-bespoke-tv-unit-angled-view-02.webp", alt: "Angled view of dark timber TV unit with illuminated display shelving", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G22",
+    slug: "northwood-home-office",
+    title: "Northwood Home Office",
+    category: "Bespoke Joinery",
+    location: "Northwood, London",
+    summary: "A dark timber fitted home office with a wraparound desk, overhead storage, integrated task lighting and coordinated low-level drawers and cupboards.",
+    seoDescription: "Northwood fitted home office case study by Form & Frame, featuring dark timber cabinetry, a wraparound desk, overhead storage, integrated lighting and concealed office storage.",
+    keywords: [
+      "Northwood home office",
+      "bespoke home office London",
+      "fitted office furniture",
+      "dark timber office cabinetry",
+      "wraparound desk",
+      "made to measure study",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Wraparound fitted desk",
+      "Dark timber cabinetry",
+      "Overhead cupboards with integrated lighting",
+      "Low-level drawers and concealed storage",
+    ],
+    caseStudy: [
+      {
+        heading: "A fitted workspace built around the room",
+        body: [
+          "This Northwood home office uses a wraparound desk to make practical use of the available wall space while keeping the centre of the room open.",
+          "Dark timber cabinetry continues around the workspace so the desk, drawers and overhead storage read as one coordinated fitted installation.",
+        ],
+      },
+      {
+        heading: "The demanding part: continuous working levels",
+        body: [
+          "A desk that turns across several walls depends on accurate setting out. The working surface, low cabinetry and upper units need to remain visually level as they move around corners and meet the existing room.",
+          "The photographs also show how the furniture responds to the window and adjacent walls without interrupting the usable desk area.",
+        ],
+      },
+      {
+        heading: "Storage above and below the desk",
+        body: [
+          "Upper cupboards provide enclosed storage above the main work zone, while drawers and low cabinets keep everyday office items accessible below the worktop.",
+          "This combination allows the room to hold a substantial amount of storage without filling the wall entirely with full-height cabinetry.",
+        ],
+      },
+      {
+        heading: "Integrated task lighting",
+        body: [
+          "Lighting is built beneath the overhead cabinetry to illuminate the working area directly. The warm light also separates the desk zone visually from the darker timber above.",
+          "Because the lighting sits close to the joinery, straight lines and clean junctions between the cabinets, worktop and illuminated panel are particularly visible.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed office combines a generous work surface with practical concealed storage in a compact fitted composition.",
+          "For similar home offices and fitted studies, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/northwood-home-office/northwood-home-office-overall-view-01.webp",
+      alt: "Dark timber fitted home office in Northwood",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/northwood-home-office/northwood-home-office-overall-view-01.webp", alt: "Overall view of Northwood fitted home office", fit: "contain" },
+      { src: "/images/gallery/northwood-home-office/northwood-home-office-storage-detail-02.webp", alt: "Low cabinetry and drawer storage in Northwood home office", fit: "contain" },
+      { src: "/images/gallery/northwood-home-office/northwood-home-office-front-view-03.webp", alt: "Front workspace view with overhead storage and integrated lighting", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
