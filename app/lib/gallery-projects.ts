@@ -1519,6 +1519,67 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-display-detail-03.webp", alt: "Illuminated display niche detail in Putney media wall", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G25",
+    slug: "earls-court-floating-shelf-mirror-wall",
+    title: "Earls Court Floating Shelf & Mirror Wall",
+    category: "Bespoke Joinery",
+    location: "Earls Court, London",
+    summary: "A dark floating display shelf set against a full-height mirrored wall, creating a compact decorative feature with a light architectural footprint.",
+    seoDescription: "Earls Court bespoke mirror-wall feature by Form & Frame, with a dark floating display shelf set against full-height mirrored panels.",
+    keywords: [
+      "Earls Court bespoke joinery",
+      "floating shelf London",
+      "mirror wall joinery",
+      "bespoke display shelf",
+      "made to measure wall feature",
+      "bespoke interior furniture",
+    ],
+    highlights: [
+      "Full-height mirrored wall",
+      "Dark floating display shelf",
+      "Compact decorative composition",
+      "Clean wall-mounted installation",
+    ],
+    caseStudy: [
+      {
+        heading: "A compact feature built into the wall",
+        body: [
+          "This Earls Court installation combines a dark floating display shelf with a full-height mirrored wall, creating a strong visual feature without adding bulky cabinetry.",
+          "The mirror expands the perceived depth of the space while the shelf provides a practical surface for decorative objects.",
+        ],
+      },
+      {
+        heading: "The demanding part: alignment against mirror",
+        body: [
+          "Mirror makes junctions and alignment particularly visible because every edge is reflected. The shelf therefore needs to sit level and cleanly against the mirrored surface.",
+          "The reflected geometry also makes the relationship between the shelf, wall panels and surrounding door opening more noticeable than it would be against a plain painted wall.",
+        ],
+      },
+      {
+        heading: "Keeping the composition visually light",
+        body: [
+          "The shelf is deliberately wall-mounted with no visible floor support, allowing the mirrored wall to remain continuous below it.",
+          "This keeps the feature visually light while still giving the hallway a defined focal point.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed feature uses a small amount of joinery to create a strong architectural effect through contrast between the dark shelf and reflective wall.",
+          "For similar floating furniture, display shelves and mirror-wall features, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/earls-court-floating-shelf-mirror-wall/earls-court-floating-shelf-mirror-wall-view-01.webp",
+      alt: "Dark floating shelf set against a full-height mirrored wall in Earls Court",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/earls-court-floating-shelf-mirror-wall/earls-court-floating-shelf-mirror-wall-view-01.webp", alt: "Floating display shelf and mirrored wall feature in Earls Court", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
