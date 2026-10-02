@@ -2,6 +2,7 @@ import { supplierPages } from "./supplier-pages";
 
 export const navigation = [
   { label: "Services", href: "/services" },
+  { label: "Gallery", href: "/gallery" },
   { label: "Kitchen Brands", href: "/kitchen-installation#suppliers" },
   { label: "How It Works", href: "/kitchen-installation#installation-process" },
   { label: "Areas", href: "/kitchen-installation#service-areas" },
