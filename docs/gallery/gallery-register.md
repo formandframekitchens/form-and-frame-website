@@ -57,7 +57,7 @@ When the fuse fires:
 | G24 | Earls Court Bespoke TV Unit | MERGED INTO G13 | Same TV-unit photography as G13 Cream Bespoke TV Unit; duplicate retired and never reused |
 | G25 | Earls Court Floating Shelf & Mirror Wall | LIVE | Split from Arno 03 / 1 unique clean image; duplicate/logo preflight passed; Drive ingest passed |
 | G26 | Putney Bespoke TV Unit | LIVE | Arno 01 / 4 unique clean images; duplicate source photo excluded; logo preflight passed; Drive ingest passed |
-| G27 | Manchester Walk-In Wardrobe | PREVIEW READY | Manchester HIGH RES / 3 clean originals; logo folders excluded; duplicate preflight passed; Drive ingest passed |
+| G27 | Manchester Walk-In Wardrobe | LIVE | Manchester HIGH RES / 3 clean originals; logo folders excluded; duplicate preflight passed; Drive ingest passed |
 | G28 | Manchester Make-Up Island & Dressing Table | QUEUED | Professional pictures / Manchester |
 | G29 | Virginia Water Wine Room | QUEUED | Professional pictures / Wentworth |
 | G30 | Maria's House Wine Cellar | QUEUED | Professional pictures / Maria's House |
@@ -91,13 +91,17 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Last live gallery: G26 — Putney Bespoke TV Unit
-- Current gallery: G27 — Manchester Walk-In Wardrobe
-- G27 project duplicate preflight: PASSED; distinct Manchester dressing-room project
-- G27 logo/watermark preflight: PASSED using HIGH RES originals
-- Manchester WEB Foto / folders marked "with logo": EXCLUDED from website sourcing
-- G27 Drive ingest: PASSED
-- G27 output: 3 WebP + 3 AVIF; Git blob SHA verification passed
-- G27 case study: ADDED
-- Next checkpoint: preview, merge, production verification
+- Batch G22–G27 complete with duplicate/logo safeguards
+- LIVE: G22 Northwood Home Office
+- LIVE: G23 Putney Flat Bespoke TV Unit
+- G24 Earls Court Bespoke TV Unit: RETIRED INTO G13 as confirmed duplicate
+- LIVE: G25 Earls Court Floating Shelf & Mirror Wall
+- LIVE: G26 Putney Bespoke TV Unit
+- LIVE: G27 Manchester Walk-In Wardrobe
+- G25 source: one unique clean image only; no padding with duplicate G13/G24 TV-unit photographs
+- G26 duplicate source image 11.jpg excluded because identical to 08.jpg
+- G27 Manchester logo-bearing WEB Foto / "with logo" sources excluded; HIGH RES clean originals used
+- Final live route integrity check for G22, G23, G25, G26, G27: PASSED
+- Gallery numbering/order remains ascending; retired G24 is not displayed
+- Next gallery: G28 — Manchester Make-Up Island & Dressing Table
 - Safety fuse status: ARMED
