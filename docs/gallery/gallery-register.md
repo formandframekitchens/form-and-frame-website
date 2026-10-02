@@ -60,7 +60,7 @@ When the fuse fires:
 | G27 | Manchester Walk-In Wardrobe | LIVE | Manchester HIGH RES / 3 clean originals; logo folders excluded; duplicate preflight passed; Drive ingest passed |
 | G28 | Manchester Make-Up Island & Dressing Table | LIVE | Manchester HIGH RES / 3 clean originals matched from labelled web set; logo folders excluded; Drive ingest passed |
 | G29 | Virginia Water Wine Room | LIVE | Wentworth / 6 clean images; duplicate/logo preflight passed; Drive ingest passed after push-race retry |
-| G30 | Maria's House Wine Cellar | QUEUED | Professional pictures / Maria's House |
+| G30 | Maria's House Wine Cellar | PROCESSING / FUSE STOP | Clean HIGH RES MH0031–MH0035; all workflow steps individually succeeded, but Actions overall state remained in_progress on second check |
 | G31 | Maria's House Home Office | QUEUED | Professional pictures / Maria's House |
 | G32 | Maria's House Alcove Units | QUEUED | Professional pictures / Maria's House |
 | G33 | Maria's House Juice Bar Joinery | QUEUED | Professional pictures / Maria's House |
@@ -91,9 +91,14 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Last live gallery: G29 — Virginia Water Wine Room
-- G29 production: VERIFIED READY and live with 6 images
-- Next galleries: G30–G32 from Maria's House
-- Maria's House must be split by distinct furniture/project component; no cross-mixing
-- Duplicate/logo preflight remains mandatory before ingest
-- Safety fuse status: ARMED
+- Last confirmed live gallery: G29 — Virginia Water Wine Room
+- G30 — Maria's House Wine Cellar: ingest branch g30-marias-house-wine-cellar
+- G30 source split: clean HIGH RES MH0031–MH0035
+- G30 duplicate/logo preflight: PASSED
+- G30 workflow steps: validation PASSED, optimisation PASSED, asset commit PASSED, Git blob SHA verification PASSED, push PASSED
+- GitHub Actions overall run state remained in_progress on both allowed checks
+- Safety fuse: TRIPPED — no third Actions poll performed
+- G31 and G32: NOT STARTED
+- G31 resolved clean source set: MH0025–MH0028
+- G32 resolved clean source subset: MH0016–MH0018 only; ambiguous/unrelated Maria images excluded
+- Resume exactly at: one fresh G30 Actions-state check; if completed success, add G30 case study/register checkpoint, preview, merge, production verify, then continue G31 and G32
