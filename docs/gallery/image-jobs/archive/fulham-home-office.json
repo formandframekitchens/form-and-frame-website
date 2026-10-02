@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G31 — Fulham Home Office",
+  "slug": "fulham-home-office",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1j_QvUBXHagBymHMEKJmAfmxEh6uXi72a",
+      "source_label": "MH0025.jpg",
+      "role": "overall home office view",
+      "output_stem": "fulham-home-office-overall-view-01"
+    },
+    {
+      "drive_file_id": "16HEtZkgIQpMIVc1oJVdw1UCWlmEYq8KA",
+      "source_label": "MH0026.jpg",
+      "role": "desk and cabinetry view",
+      "output_stem": "fulham-home-office-desk-view-02"
+    },
+    {
+      "drive_file_id": "1fsZuFiE6Zl3QpmaDK9MvofpOWFGuJ2af",
+      "source_label": "MH0027.jpg",
+      "role": "storage wall detail",
+      "output_stem": "fulham-home-office-storage-detail-03"
+    },
+    {
+      "drive_file_id": "1eFOcRUs__bD6kUVvg6A1FUU4eZwqifqX",
+      "source_label": "MH0028.jpg",
+      "role": "shelving and brass detail",
+      "output_stem": "fulham-home-office-detail-04"
+    }
+  ]
+}

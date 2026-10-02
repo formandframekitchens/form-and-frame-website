@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "project": "G31 \u2014 Fulham Home Office",
+  "slug": "fulham-home-office",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1j_QvUBXHagBymHMEKJmAfmxEh6uXi72a",
+      "source_label": "MH0025.jpg",
+      "role": "overall home office view",
+      "original": {
+        "width": 5792,
+        "height": 8041
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-home-office/fulham-home-office-overall-view-01.webp",
+        "bytes": 187750,
+        "quality": 84,
+        "width": 1441,
+        "height": 2000,
+        "sha256": "a15550638ff33bd7fb8e1d089d80821078b664152d0ddea322cc31664f4d16f1",
+        "git_blob_sha": "86944159d2ad5a16cc6fef08cb57d284855b93d8"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-home-office/fulham-home-office-overall-view-01.avif",
+        "bytes": 116743,
+        "quality": 58,
+        "width": 1441,
+        "height": 2000,
+        "sha256": "fc5e9f50babf2a17738434513145d0cee161a4c54112d7ec40958a19db5023f2",
+        "git_blob_sha": "be2ddf8c25c48cfd24067566db3d289447cee40f"
+      }
+    },
+    {
+      "drive_file_id": "16HEtZkgIQpMIVc1oJVdw1UCWlmEYq8KA",
+      "source_label": "MH0026.jpg",
+      "role": "desk and cabinetry view",
+      "original": {
+        "width": 7128,
+        "height": 4950
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-home-office/fulham-home-office-desk-view-02.webp",
+        "bytes": 164838,
+        "quality": 84,
+        "width": 2000,
+        "height": 1389,
+        "sha256": "ab9ec82008b04a36a05e4206a751fdd5577816ca3fed6ec9917ec3131730a0b7",
+        "git_blob_sha": "34fa742867e680e1ab6104f54712475fbef431a4"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-home-office/fulham-home-office-desk-view-02.avif",
+        "bytes": 102705,
+        "quality": 58,
+        "width": 2000,
+        "height": 1389,
+        "sha256": "c1d028b10b58c15763963a932934023d9ac10a3feb940e8f18b5bad29cc655ef",
+        "git_blob_sha": "a21012477787583f7111071e42bf12ccd1fc617d"
+      }
+    },
+    {
+      "drive_file_id": "1fsZuFiE6Zl3QpmaDK9MvofpOWFGuJ2af",
+      "source_label": "MH0027.jpg",
+      "role": "storage wall detail",
+      "original": {
+        "width": 4892,
+        "height": 7360
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-home-office/fulham-home-office-storage-detail-03.webp",
+        "bytes": 155804,
+        "quality": 84,
+        "width": 1329,
+        "height": 2000,
+        "sha256": "86e600083955025f8a8fdc2a030a203d4403e640544abac5e0e58d3015bdafe3",
+        "git_blob_sha": "277a831c3d4f6acaa27637039ee7ecaeabb77432"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-home-office/fulham-home-office-storage-detail-03.avif",
+        "bytes": 97935,
+        "quality": 58,
+        "width": 1329,
+        "height": 2000,
+        "sha256": "c34f15b8838b46114e0ef2af60ab0e00a6ad7ba9cda237e3fcbb54034ef25428",
+        "git_blob_sha": "b73d2cef3acb9431014583d6380c335985b80884"
+      }
+    },
+    {
+      "drive_file_id": "1eFOcRUs__bD6kUVvg6A1FUU4eZwqifqX",
+      "source_label": "MH0028.jpg",
+      "role": "shelving and brass detail",
+      "original": {
+        "width": 4912,
+        "height": 7360
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-home-office/fulham-home-office-detail-04.webp",
+        "bytes": 152638,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "497d3549fc495d4edc91284128e5e184a23242ea20bfd5f4c15d1dd5a34dcdf4",
+        "git_blob_sha": "0916076f32a304d98df1f3215272cf624a3ec74f"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-home-office/fulham-home-office-detail-04.avif",
+        "bytes": 100929,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "c2adbe053baa104bf5ffa7db958a8a37e226314f0265236de478151a73019977",
+        "git_blob_sha": "ef9a23999b06010f0d1997a8892b40dffd346cac"
+      }
+    }
+  ]
+}
