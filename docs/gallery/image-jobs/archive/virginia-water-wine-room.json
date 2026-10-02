@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G29 — Virginia Water Wine Room",
+  "slug": "virginia-water-wine-room",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "17vYb9MjC4gnp2Gf2kavRvlePusx_aGWu",
+      "source_label": "217.jpg",
+      "role": "full room and wine wall",
+      "output_stem": "virginia-water-wine-room-overall-view-01"
+    },
+    {
+      "drive_file_id": "1oGukQb-J1Tmi5ReD7pkwrCnJ8Nn1V-q1",
+      "source_label": "219.jpg",
+      "role": "wine wall front detail",
+      "output_stem": "virginia-water-wine-room-front-detail-02"
+    },
+    {
+      "drive_file_id": "1CPzbYluB3CB2Oh77xJyaqVPc97yRFB4C",
+      "source_label": "220.jpg",
+      "role": "wine storage bottle detail",
+      "output_stem": "virginia-water-wine-room-storage-detail-03"
+    },
+    {
+      "drive_file_id": "1nFMV1QydcAwHiDMLvytKN__7Bmpyjb99",
+      "source_label": "221.jpg",
+      "role": "vertical bottle storage detail",
+      "output_stem": "virginia-water-wine-room-bottle-detail-04"
+    },
+    {
+      "drive_file_id": "1eoZaLf2KNNgMt73jlFNYdW-pGn45HAxR",
+      "source_label": "222.jpg",
+      "role": "close bottle rack detail",
+      "output_stem": "virginia-water-wine-room-rack-detail-05"
+    },
+    {
+      "drive_file_id": "13yXZf4l_gDJ1l7fMahoOE6K0Erw6BA8J",
+      "source_label": "225.jpg",
+      "role": "room context view",
+      "output_stem": "virginia-water-wine-room-context-view-06"
+    }
+  ]
+}

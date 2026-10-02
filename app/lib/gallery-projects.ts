@@ -1787,6 +1787,32 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/manchester-makeup-island-dressing-table/manchester-dressing-table-view-03.webp", alt: "Coordinated Manchester dressing table", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G29",
+    slug: "virginia-water-wine-room",
+    title: "Virginia Water Wine Room",
+    category: "Bespoke Joinery",
+    location: "Virginia Water, Surrey",
+    summary: "A bespoke wine room with full-height bottle storage, mirrored central display shelving and integrated lighting.",
+    seoDescription: "Virginia Water bespoke wine room case study by Form & Frame, featuring full-height bottle storage, mirrored display shelving and integrated lighting.",
+    keywords: ["Virginia Water wine room","bespoke wine storage Surrey","wine wall joinery","bespoke bottle storage","luxury wine room","bespoke joinery"],
+    highlights: ["Full-height bottle storage","Mirrored central display shelving","Integrated lighting","Dedicated champagne storage"],
+    caseStudy: [
+      { heading: "A full-wall wine display", body: ["This Virginia Water project turns one wall of the room into a dedicated wine display with bottle storage arranged around a mirrored central section.", "The dark cabinetry gives the installation a strong architectural presence while the mirror and lighting introduce depth and reflection."] },
+      { heading: "The demanding part: repetition and alignment", body: ["Hundreds of bottle positions create a very regular visual grid, so shelf spacing and horizontal alignment need to stay consistent across the full elevation.", "The central display section also has to sit precisely within that grid so it reads as part of the same composition."] },
+      { heading: "Lighting and reflective surfaces", body: ["Integrated lighting highlights the bottle storage and central glass shelves, making the display readable without relying on general room lighting.", "The mirrored centre increases the sense of depth and reflects the surrounding room back through the joinery."] },
+      { heading: "The finished result", body: ["The completed wine room combines storage, display and decorative lighting within one fitted elevation.", "For similar wine rooms, bars and specialist display furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment."] },
+    ],
+    cover: { src: "/images/gallery/virginia-water-wine-room/virginia-water-wine-room-overall-view-01.webp", alt: "Bespoke wine wall in Virginia Water", fit: "contain" },
+    images: [
+      { src: "/images/gallery/virginia-water-wine-room/virginia-water-wine-room-overall-view-01.webp", alt: "Overall view of Virginia Water wine room", fit: "contain" },
+      { src: "/images/gallery/virginia-water-wine-room/virginia-water-wine-room-front-detail-02.webp", alt: "Front detail of wine wall and mirrored display", fit: "contain" },
+      { src: "/images/gallery/virginia-water-wine-room/virginia-water-wine-room-storage-detail-03.webp", alt: "Bottle storage detail in Virginia Water wine room", fit: "contain" },
+      { src: "/images/gallery/virginia-water-wine-room/virginia-water-wine-room-bottle-detail-04.webp", alt: "Vertical bottle storage detail", fit: "contain" },
+      { src: "/images/gallery/virginia-water-wine-room/virginia-water-wine-room-rack-detail-05.webp", alt: "Close wine rack detail", fit: "contain" },
+      { src: "/images/gallery/virginia-water-wine-room/virginia-water-wine-room-context-view-06.webp", alt: "Room context for Virginia Water wine room", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
