@@ -21,7 +21,7 @@ Rules:
 | G07 | Soho Shoe-Storage Cabinet | LIVE / LOW | Keep at bottom of gallery |
 | G08 | Black Oak Media Wall with Brass Inlay | LIVE | Chelsea / black TV source |
 | G09 | Natural Walnut Bespoke Bookcase | LIVE | Nuotraukos puslapiui / strong professional set |
-| G10 | Bespoke Bookcase Gallery 2 | PREVIEW | Nuotraukos puslapiui |
+| G10 | Dark Oak Illuminated Display Bookcase | PREVIEW | Nuotraukos puslapiui / formerly Bookcase Gallery 2 |
 | G11 | Bespoke Panels & Doors with Polished Brass | QUEUED | Westminster penthouse / strong detail set |
 | G12 | AX Bespoke Bookcase | QUEUED | Alexander James source |
 | G13 | Cream Bespoke TV Unit | QUEUED | Gallery 1 |
@@ -69,3 +69,11 @@ Rules:
 - Bed projects: keep at the bottom / HOLD unless a strong finished set is found.
 
 Current confirmed minimum: 48 case-study slots.
+
+
+## Resume pointer
+- Last live gallery: G09 — Natural Walnut Bespoke Bookcase
+- Current preview: G10 — Dark Oak Illuminated Display Bookcase
+- Preview branch: g10-bespoke-bookcase-gallery-2
+- Next queued after approval: G11 — Bespoke Panels & Doors with Polished Brass
+- Continue strictly in ascending G-number order unless the user explicitly changes priority.
