@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G21 — Northwood Bespoke TV Unit",
+  "slug": "northwood-bespoke-tv-unit",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1sDSVsjn1TEpAK4foP-BUQlCgG8TtaS1b",
+      "source_label": "38.jpg",
+      "role": "main room view",
+      "output_stem": "northwood-bespoke-tv-unit-room-view-01"
+    },
+    {
+      "drive_file_id": "14ItvFi6QVHaHE6DlU08ksnS5oCbwio1d",
+      "source_label": "39.jpg",
+      "role": "angled detail view",
+      "output_stem": "northwood-bespoke-tv-unit-angled-view-02"
+    }
+  ]
+}

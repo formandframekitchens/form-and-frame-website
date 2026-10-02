@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "project": "G21 \u2014 Northwood Bespoke TV Unit",
+  "slug": "northwood-bespoke-tv-unit",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1sDSVsjn1TEpAK4foP-BUQlCgG8TtaS1b",
+      "source_label": "38.jpg",
+      "role": "main room view",
+      "original": {
+        "width": 5300,
+        "height": 3660
+      },
+      "webp": {
+        "path": "public/images/gallery/northwood-bespoke-tv-unit/northwood-bespoke-tv-unit-room-view-01.webp",
+        "bytes": 167128,
+        "quality": 84,
+        "width": 2000,
+        "height": 1381,
+        "sha256": "397a39ef2cb3b3ab347ef2d3ab2b6e8f86e75486cb1aec6b7d896993b7e2ac92",
+        "git_blob_sha": "4949dd0598846a54afa1c77719b24cc2f81d938b"
+      },
+      "avif": {
+        "path": "public/images/gallery/northwood-bespoke-tv-unit/northwood-bespoke-tv-unit-room-view-01.avif",
+        "bytes": 92582,
+        "quality": 58,
+        "width": 2000,
+        "height": 1381,
+        "sha256": "9ee838fc4b12b73668e4f8332a353b1d9713dbadab93cded8c5278d77e785ef2",
+        "git_blob_sha": "d751ff0130bc548ac81b8486a05675a3190f6328"
+      }
+    },
+    {
+      "drive_file_id": "14ItvFi6QVHaHE6DlU08ksnS5oCbwio1d",
+      "source_label": "39.jpg",
+      "role": "angled detail view",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/northwood-bespoke-tv-unit/northwood-bespoke-tv-unit-angled-view-02.webp",
+        "bytes": 251178,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "47c421b5c942f4cab699eb900258baf4c5e1f1b9255f182294f480dbb27299cf",
+        "git_blob_sha": "8de7c6bb333d6b90a7c940ccb5aac409fc39b2cd"
+      },
+      "avif": {
+        "path": "public/images/gallery/northwood-bespoke-tv-unit/northwood-bespoke-tv-unit-angled-view-02.avif",
+        "bytes": 137259,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "700e16d136b4e8a6ffd93485fc63673d394c4d4bb2c2ab3af7b627601811ec7f",
+        "git_blob_sha": "703d44dab5d70f2f3df3cff816849f0a2e86a338"
+      }
+    }
+  ]
+}
