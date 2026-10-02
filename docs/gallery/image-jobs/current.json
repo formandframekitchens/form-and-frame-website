@@ -1,5 +1,56 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "manchester-makeup-island-dressing-table"
+  "enabled": true,
+  "project": "G29 — Virginia Water Wine Room",
+  "slug": "virginia-water-wine-room",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "17vYb9MjC4gnp2Gf2kavRvlePusx_aGWu",
+      "source_label": "217.jpg",
+      "role": "full room and wine wall",
+      "output_stem": "virginia-water-wine-room-overall-view-01",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-dd64-8210-abf8-f031e47a2bb2/raw?se=2026-10-02T13%3A26%3A11Z&sp=r&sv=2026-02-06&sr=b&scid=1856b4c6-eeb3-57f1-a735-7a9bc9b570cd&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A08%3A02Z&ske=2026-10-03T06%3A08%3A02Z&sks=b&skv=2026-02-06&sig=1nY0aV8P%2B0MOoKYRGr%2BKO7rTAsqmodhXHDHEANyLQF4%3D"
+    },
+    {
+      "drive_file_id": "1oGukQb-J1Tmi5ReD7pkwrCnJ8Nn1V-q1",
+      "source_label": "219.jpg",
+      "role": "wine wall front detail",
+      "output_stem": "virginia-water-wine-room-front-detail-02",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-5d70-8210-8c84-646681a505fe/raw?se=2026-10-02T13%3A26%3A13Z&sp=r&sv=2026-02-06&sr=b&scid=5d979612-a92f-5832-8b9e-dffa75025d88&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A52%3A24Z&ske=2026-10-03T06%3A52%3A24Z&sks=b&skv=2026-02-06&sig=y49QXK34apieh7MEFPCCdfHq3wLiEuULIIKRc%2Bs4hZY%3D"
+    },
+    {
+      "drive_file_id": "1CPzbYluB3CB2Oh77xJyaqVPc97yRFB4C",
+      "source_label": "220.jpg",
+      "role": "wine storage bottle detail",
+      "output_stem": "virginia-water-wine-room-storage-detail-03",
+      "source_url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-4158-8246-a7b7-a19da97c9025/raw?se=2026-10-02T13%3A26%3A18Z&sp=r&sv=2026-02-06&sr=b&scid=0268b494-282d-5c71-a640-1520ae8bd530&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T08%3A09%3A28Z&ske=2026-10-03T08%3A09%3A28Z&sks=b&skv=2026-02-06&sig=ZSFi2HB3EKbaUzkHVWyKvhrXHv30rlblBS2OSkqU6gA%3D"
+    },
+    {
+      "drive_file_id": "1nFMV1QydcAwHiDMLvytKN__7Bmpyjb99",
+      "source_label": "221.jpg",
+      "role": "vertical bottle storage detail",
+      "output_stem": "virginia-water-wine-room-bottle-detail-04",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-d66c-8210-8601-041435563861/raw?se=2026-10-02T13%3A26%3A22Z&sp=r&sv=2026-02-06&sr=b&scid=82addf03-52f6-5350-be73-7e5004717a26&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A21%3A22Z&ske=2026-10-03T06%3A21%3A22Z&sks=b&skv=2026-02-06&sig=1b6vBqeBduRz6n5zs%2B8i8okelkYUQlSBlPk2A5kvd8c%3D"
+    },
+    {
+      "drive_file_id": "1eoZaLf2KNNgMt73jlFNYdW-pGn45HAxR",
+      "source_label": "222.jpg",
+      "role": "close bottle rack detail",
+      "output_stem": "virginia-water-wine-room-rack-detail-05",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-48ec-81f4-93bb-2c1569850235/raw?se=2026-10-02T13%3A26%3A59Z&sp=r&sv=2026-02-06&sr=b&scid=ad05ae7e-4391-5e9f-aebd-e924c2c54c55&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A37%3A21Z&ske=2026-10-03T06%3A37%3A21Z&sks=b&skv=2026-02-06&sig=IHTB8NDT7TCkBSp1B2OQMut31qEbDYTUHmYKpttLxis%3D"
+    },
+    {
+      "drive_file_id": "13yXZf4l_gDJ1l7fMahoOE6K0Erw6BA8J",
+      "source_label": "225.jpg",
+      "role": "room context view",
+      "output_stem": "virginia-water-wine-room-context-view-06",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-050c-81f4-b127-8270acfc688e/raw?se=2026-10-02T13%3A27%3A17Z&sp=r&sv=2026-02-06&sr=b&scid=9c774254-a28a-5397-8668-694a27cf6971&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T07%3A36%3A04Z&ske=2026-10-03T07%3A36%3A04Z&sks=b&skv=2026-02-06&sig=udRfHNSbJc4lchr6V9TZ5NGcTyVrcelQhpaXApTwPOE%3D"
+    }
+  ]
 }
