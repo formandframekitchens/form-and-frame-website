@@ -60,7 +60,7 @@ When the fuse fires:
 | G27 | Manchester Walk-In Wardrobe | LIVE | Manchester HIGH RES / 3 clean originals; logo folders excluded; duplicate preflight passed; Drive ingest passed |
 | G28 | Manchester Make-Up Island & Dressing Table | LIVE | Manchester HIGH RES / 3 clean originals matched from labelled web set; logo folders excluded; Drive ingest passed |
 | G29 | Virginia Water Wine Room | LIVE | Wentworth / 6 clean images; duplicate/logo preflight passed; Drive ingest passed after push-race retry |
-| G30 | Fulham Wine Cellar | PREVIEW READY | Clean HIGH RES MH0031–MH0035; duplicate/logo preflight passed; Drive ingest passed |
+| G30 | Fulham Wine Cellar | LIVE | Clean HIGH RES MH0031–MH0035; duplicate/logo preflight passed; Drive ingest passed |
 | G31 | Fulham Home Office | QUEUED | Professional pictures / Fulham project |
 | G32 | Fulham Alcove Units | QUEUED | Professional pictures / Fulham project |
 | G33 | Fulham Juice Bar Joinery | QUEUED | Professional pictures / Fulham project |
@@ -91,11 +91,11 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Last live gallery: G29 — Virginia Water Wine Room
-- G30 public-facing name: Fulham Wine Cellar
-- G30 Drive ingest: PASSED; 5 WebP + 5 AVIF; Git blob SHA verification passed
-- G30 case study: ADDED
-- G12 renamed publicly to Bookcase in Esher; old slug redirects permanently
-- G31–G34 public-facing names converted to Fulham location-based labels
-- Next checkpoint: G30 clean-branch preview, merge, production verification
+- Last live gallery: G30 — Fulham Wine Cellar
+- G30 production: VERIFIED READY and live with 5 images
+- G12 public name: Bookcase in Esher
+- Next gallery: G31 — Fulham Home Office
+- G31 source set: clean HIGH RES MH0025–MH0028
+- G32 source set: clean HIGH RES MH0016–MH0018 only
+- Duplicate/logo preflight remains mandatory
 - Safety fuse status: ARMED
