@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "project": "G33 \u2014 Fulham Juice Bar Joinery",
+  "slug": "fulham-juice-bar-joinery",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1FWzL9YnnbqptpXWZlj7dIHp0oSs1aubm",
+      "source_label": "MH0001.jpg",
+      "role": "juice bar overall view",
+      "original": {
+        "width": 5792,
+        "height": 8688
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-overall-view-01.webp",
+        "bytes": 153240,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "7508386599c3f267d2e45d38d09fa7e4612c18689d48052c6d54cc4c11ed409f",
+        "git_blob_sha": "45f063f919014dba8c86c9477ba7f27dc7af73a8"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-overall-view-01.avif",
+        "bytes": 107896,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "70dead8238a7532b3053396da64fbb72f6ea7f5fcdc250cf892ed6d08603b64b",
+        "git_blob_sha": "8e54caaa7a4d51eec5b51cb83b5a5232861e18d8"
+      }
+    },
+    {
+      "drive_file_id": "1n5aWmCkULQ_f6se2GLDsPryemTT-W4ig",
+      "source_label": "MH0003.jpg",
+      "role": "juice bar room context",
+      "original": {
+        "width": 5616,
+        "height": 8208
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-room-context-02.webp",
+        "bytes": 273872,
+        "quality": 84,
+        "width": 1368,
+        "height": 2000,
+        "sha256": "e9ecbd8ffe76923e070a6cff4c6a8935c783ca0e64f62322eb5ba00a5238c874",
+        "git_blob_sha": "2c9e6f542fdf02908cdf5c6e4e83b5dd72189cf4"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-room-context-02.avif",
+        "bytes": 182261,
+        "quality": 58,
+        "width": 1368,
+        "height": 2000,
+        "sha256": "21f8cea7cd6e3d0c168ed8a628907ffad772cbe3ed24a5d7798d9451cf959180",
+        "git_blob_sha": "a9d46dace29a1a78f63aa44431adbb19ad8daadd"
+      }
+    },
+    {
+      "drive_file_id": "1O-QlnmPa3AVwGk-WByrXWfcd7SLg0UpZ",
+      "source_label": "MH0006.jpg",
+      "role": "juice bar wide front view",
+      "original": {
+        "width": 8688,
+        "height": 5792
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-front-view-03.webp",
+        "bytes": 201244,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "6c1aa82ea92810bfa3703826ace5f959cd285d20ab1b561e9ed27969a7d2e6cf",
+        "git_blob_sha": "5adb0e8c2f4f1b6b633cc3e4e071e44cff4d2ac2"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-front-view-03.avif",
+        "bytes": 136634,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "bfeef5ca5c12abfb6e6275684e86254f72e95698801137e2b32e217503f68c13",
+        "git_blob_sha": "c1b399d1bbb8a44cf65649e21d05044525db2a21"
+      }
+    },
+    {
+      "drive_file_id": "1_bdtfT-9x7loqAUIeWpC-ZXJ4clBVyag",
+      "source_label": "MH0014.jpg",
+      "role": "countertop and joinery detail",
+      "original": {
+        "width": 4912,
+        "height": 7360
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-counter-detail-04.webp",
+        "bytes": 132358,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "75f1ee64e414dfc2c90c6dad9daa56ef3ad4ace8c37b32dad44e7174772e7980",
+        "git_blob_sha": "287f9564f79416f18cc559b5dd61864b69c3c6ad"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-counter-detail-04.avif",
+        "bytes": 83286,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "0ac8f57d8499035d015806a046355b089310150c4e9edb471dfbbeeb53bceadb",
+        "git_blob_sha": "8f3370cfc9de81bdec29e594898a380c0fa827d8"
+      }
+    },
+    {
+      "drive_file_id": "1usLlZLmWUCENg1vcs2K7qEq2GWHUXV-Z",
+      "source_label": "MH0015.jpg",
+      "role": "bar stool and island view",
+      "original": {
+        "width": 4846,
+        "height": 6955
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-island-view-05.webp",
+        "bytes": 176876,
+        "quality": 84,
+        "width": 1394,
+        "height": 2000,
+        "sha256": "6063cfbc1a86c46b7286e6e119471e7c0678b2af6a5276363b4e270a6ff81f15",
+        "git_blob_sha": "7871f75d6e941990fc6527d7d677ff0050c00482"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-island-view-05.avif",
+        "bytes": 114849,
+        "quality": 58,
+        "width": 1394,
+        "height": 2000,
+        "sha256": "78f896d4980ecc181fa98044143caa124e2d7396fb9c695725ed464157a0988a",
+        "git_blob_sha": "a8075381a8a76166de83186593913dfa7aea2d86"
+      }
+    },
+    {
+      "drive_file_id": "1kywCxLLrvVWnmXF3Ml_gXoitpxgU7Rr9",
+      "source_label": "MH0019.jpg",
+      "role": "side cabinetry closed view",
+      "original": {
+        "width": 4736,
+        "height": 6784
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-side-cabinet-06.webp",
+        "bytes": 112222,
+        "quality": 84,
+        "width": 1396,
+        "height": 2000,
+        "sha256": "0479f0f16d6573f5c2088539e5b555e047a1f5e2404a62721ffdc38609dfc795",
+        "git_blob_sha": "75e53bf7198c6c3a88f039ac9b72f4da26ca210a"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-side-cabinet-06.avif",
+        "bytes": 51548,
+        "quality": 58,
+        "width": 1396,
+        "height": 2000,
+        "sha256": "abc3d6daab39b371aa98d92764dda05a251083d99d9837564bcc0b6448f0a09b",
+        "git_blob_sha": "53f51b264a5060eee6e6802b6ca17e343590d157"
+      }
+    },
+    {
+      "drive_file_id": "12P2IkoCOvbqT-Rc_1ODxwGcE4Pme3Jyy",
+      "source_label": "MH0020.jpg",
+      "role": "side cabinetry open service view",
+      "original": {
+        "width": 4736,
+        "height": 6784
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-service-detail-07.webp",
+        "bytes": 118894,
+        "quality": 84,
+        "width": 1396,
+        "height": 2000,
+        "sha256": "6597df203f6a095fa322047c763aec58961a7f72e1a6968f524d008dfec07aaa",
+        "git_blob_sha": "15eef75b3200a092c7e714cdda9bf691c7c3dbb9"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-service-detail-07.avif",
+        "bytes": 58390,
+        "quality": 58,
+        "width": 1396,
+        "height": 2000,
+        "sha256": "634eab0df952825b770ad7d6d5673ca840f2935dcde14d1b3c364b5a257613fd",
+        "git_blob_sha": "8e3d33350692dae10d4d7d22ce335d59951f9073"
+      }
+    }
+  ]
+}

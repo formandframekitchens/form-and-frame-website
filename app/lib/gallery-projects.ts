@@ -2022,6 +2022,73 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/fulham-alcove-units/fulham-alcove-units-detail-03.webp", alt: "Joinery and brass detail in Fulham alcove units", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G33",
+    slug: "fulham-juice-bar-joinery",
+    title: "Fulham Juice Bar Joinery",
+    category: "Bespoke Joinery",
+    location: "Fulham, London",
+    summary: "A bespoke residential juice bar with a central island, integrated storage, dark cabinetry and warm timber detailing.",
+    seoDescription: "Fulham bespoke juice bar case study by Form & Frame, featuring a central island, integrated storage, dark cabinetry and warm timber detailing.",
+    keywords: [
+      "Fulham juice bar",
+      "bespoke bar joinery Fulham",
+      "residential bar furniture London",
+      "bespoke kitchen bar",
+      "custom island joinery",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Central bar island",
+      "Integrated appliance and service storage",
+      "Dark fitted cabinetry",
+      "Warm timber detailing",
+    ],
+    caseStudy: [
+      {
+        heading: "A dedicated residential juice bar",
+        body: [
+          "This Fulham project creates a dedicated juice-bar area using fitted cabinetry and a central island within the wider living space.",
+          "Dark outer cabinetry is balanced with warmer timber surfaces and open areas so the installation feels integrated rather than visually heavy.",
+        ],
+      },
+      {
+        heading: "The demanding part: combining display and service functions",
+        body: [
+          "The joinery needs to accommodate storage, preparation surfaces and service access while maintaining a clean residential appearance.",
+          "The island and wall cabinetry therefore have to work together both visually and practically, with consistent lines across doors, panels and work surfaces.",
+        ],
+      },
+      {
+        heading: "Integrated storage",
+        body: [
+          "Closed cabinetry keeps appliances and service items concealed when not in use, while the open service views show how the joinery supports practical day-to-day use.",
+          "The result is a compact bar arrangement that functions efficiently without reading like a commercial installation.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed juice bar combines preparation space, storage and seating within a fitted furniture composition that complements the surrounding interior.",
+          "For similar residential bars, drinks cabinetry and specialist joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-overall-view-01.webp",
+      alt: "Bespoke juice bar joinery in Fulham",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-overall-view-01.webp", alt: "Overall view of Fulham juice bar joinery", fit: "contain" },
+      { src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-room-context-02.webp", alt: "Room context view of Fulham juice bar", fit: "contain" },
+      { src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-front-view-03.webp", alt: "Front view of Fulham juice bar cabinetry", fit: "contain" },
+      { src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-counter-detail-04.webp", alt: "Countertop and joinery detail", fit: "contain" },
+      { src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-island-view-05.webp", alt: "Juice bar island and seating view", fit: "contain" },
+      { src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-side-cabinet-06.webp", alt: "Closed side cabinetry in Fulham juice bar", fit: "contain" },
+      { src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-service-detail-07.webp", alt: "Open service storage detail in Fulham juice bar", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
