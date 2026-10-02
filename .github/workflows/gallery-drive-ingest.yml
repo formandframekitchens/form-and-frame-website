@@ -1,0 +1,92 @@
+name: Gallery Drive ingest
+
+on:
+  push:
+    paths:
+      - "docs/gallery/image-jobs/current.json"
+      - "scripts/gallery_drive_ingest.py"
+      - ".github/workflows/gallery-drive-ingest.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gallery-drive-ingest-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      GALLERY_JOB_MANIFEST: docs/gallery/image-jobs/current.json
+      GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON }}
+
+    steps:
+      - name: Check out the triggering branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deterministic image and Drive dependencies
+        run: |
+          python -m pip install --disable-pip-version-check \
+            Pillow==11.3.0 \
+            pillow-avif-plugin==1.5.2 \
+            google-auth==2.40.3 \
+            requests==2.32.4
+
+      - name: Validate, ingest and optimise gallery images
+        run: python scripts/gallery_drive_ingest.py
+
+      - name: Stage generated assets atomically
+        id: stage
+        shell: bash
+        run: |
+          set -euo pipefail
+          slug=$(jq -r '.slug' "$GALLERY_JOB_MANIFEST")
+          test -n "$slug"
+          git add "public/images/gallery/$slug" "docs/gallery/image-jobs/results/$slug.json"
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No generated asset changes to commit."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit generated gallery assets
+        if: steps.stage.outputs.changed == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          project=$(jq -r '.project' "$GALLERY_JOB_MANIFEST")
+          git config user.name "Form & Frame Gallery Ingest"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Gallery ingest: $project"
+
+      - name: Verify committed Git blob SHAs
+        if: steps.stage.outputs.changed == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          slug=$(jq -r '.slug' "$GALLERY_JOB_MANIFEST")
+          report="docs/gallery/image-jobs/results/$slug.json"
+          jq -r '.images[] | .webp.path, .avif.path' "$report" | while read -r path; do
+            expected=$(git hash-object "$path")
+            committed=$(git ls-tree HEAD "$path" | awk '{print $3}')
+            test -n "$committed"
+            test "$expected" = "$committed"
+            echo "SHA VERIFIED $path $committed"
+          done
+
+      - name: Push verified commit
+        if: steps.stage.outputs.changed == 'true'
+        run: git push origin "HEAD:${{ github.ref_name }}"
