@@ -55,7 +55,7 @@ When the fuse fires:
 | G22 | Northwood Home Office | LIVE | Split from Arno 05 / 3 clean images; duplicate/logo preflight passed; Drive ingest passed |
 | G23 | Putney Flat Bespoke TV Unit | LIVE | Arno 04 / 3 clean images; duplicate/logo preflight passed; Drive ingest passed |
 | G24 | Earls Court Bespoke TV Unit | MERGED INTO G13 | Same TV-unit photography as G13 Cream Bespoke TV Unit; duplicate retired and never reused |
-| G25 | Earls Court Floating Shelf & Mirror Wall | QUEUED | Split from Arno 03 |
+| G25 | Earls Court Floating Shelf & Mirror Wall | PREVIEW READY | Split from Arno 03 / 1 unique clean image; duplicate/logo preflight passed; Drive ingest passed |
 | G26 | Putney Bespoke TV Unit | QUEUED | Arno 01 |
 | G27 | Manchester Walk-In Wardrobe | QUEUED | Professional pictures / Manchester |
 | G28 | Manchester Make-Up Island & Dressing Table | QUEUED | Professional pictures / Manchester |
@@ -92,10 +92,12 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 ## Resume pointer
 - Last live gallery: G23 — Putney Flat Bespoke TV Unit
-- G23 production: VERIFIED READY and live with 3 images
-- G24: retired into G13 as confirmed duplicate
-- Next gallery: G25 — Earls Court Floating Shelf & Mirror Wall
-- G25 preflight: unique one-image feature; no logo/watermark
-- G26 preflight: unique Putney TV unit; 08.jpg and 11.jpg are duplicate source views, use only one
-- G27 clean source: Manchester project WEB Foto/HIGH RES only; never use folders marked "with logo"
+- Current gallery: G25 — Earls Court Floating Shelf & Mirror Wall
+- G25 duplicate preflight: PASSED; separate feature from retired G24/G13 TV-unit set
+- G25 logo/watermark preflight: PASSED
+- G25 Drive ingest: PASSED
+- G25 output: 1 WebP + 1 AVIF; Git blob SHA verification passed
+- G25 case study: ADDED
+- Next checkpoint: preview, merge, production verification
+- G26 must not start until G25 completes
 - Safety fuse status: ARMED
