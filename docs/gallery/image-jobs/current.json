@@ -1,5 +1,49 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "virginia-water-wine-room"
+  "enabled": true,
+  "project": "G30 — Maria's House Wine Cellar",
+  "slug": "marias-house-wine-cellar",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1HU_rMjG6ZpQFMl5FM2dcSN1C7FGwhoYL",
+      "source_label": "MH0031.jpg",
+      "role": "wine cellar doorway view",
+      "output_stem": "marias-house-wine-cellar-doorway-view-01",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-62f4-8210-b3d6-1239b7c0cc60/raw?se=2026-10-02T13%3A49%3A37Z&sp=r&sv=2026-02-06&sr=b&scid=7fa9d8f8-864c-5723-8b2d-cb6191c0cb83&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T07%3A16%3A19Z&ske=2026-10-03T07%3A16%3A19Z&sks=b&skv=2026-02-06&sig=CYlM9bL2/KlvzkDU45lS2T3P1tu15r6JGk5FLKygDoE%3D"
+    },
+    {
+      "drive_file_id": "1tqm646jo0hBOs9KIHJHEb4cA70wHWakq",
+      "source_label": "MH0032.jpg",
+      "role": "wine cellar front view",
+      "output_stem": "marias-house-wine-cellar-front-view-02",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-6500-81f4-b812-215fe3328aa4/raw?se=2026-10-02T13%3A49%3A40Z&sp=r&sv=2026-02-06&sr=b&scid=8ef33f63-2ef1-51a5-ba54-2013552a2927&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T07%3A36%3A05Z&ske=2026-10-03T07%3A36%3A05Z&sks=b&skv=2026-02-06&sig=F%2BXD5pbVnJu8%2Bvv%2B%2B/bKtceJQlCzV4hLkVEa8PZ4V8M%3D"
+    },
+    {
+      "drive_file_id": "1UYQHXhBCQNNWu75mzZyW8RCiOvK--Gxf",
+      "source_label": "MH0033.jpg",
+      "role": "wine cellar angled view",
+      "output_stem": "marias-house-wine-cellar-angled-view-03",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-2c40-81f4-a25b-38e27c058cd6/raw?se=2026-10-02T13%3A49%3A44Z&sp=r&sv=2026-02-06&sr=b&scid=7397b869-7287-58db-9756-ef1ddb26591f&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T07%3A36%3A04Z&ske=2026-10-03T07%3A36%3A04Z&sks=b&skv=2026-02-06&sig=zI2LuhNwMnFZBmAt6ZpxnXwjBpNauWOLVoBoJ0Pd5YU%3D"
+    },
+    {
+      "drive_file_id": "1kVW8kYoaALpL7HtQ1VVHNUvVR2Pn67b-",
+      "source_label": "MH0034.jpg",
+      "role": "wine bottle storage detail",
+      "output_stem": "marias-house-wine-cellar-storage-detail-04",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-9860-8210-ac53-71412707372b/raw?se=2026-10-02T13%3A50%3A11Z&sp=r&sv=2026-02-06&sr=b&scid=26172925-361a-5335-bdba-61f84dfdbc55&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T05%3A01%3A08Z&ske=2026-10-03T05%3A01%3A08Z&sks=b&skv=2026-02-06&sig=8%2BtTf2toH4OZGmfFxCuFygaKL1LTapV97n2wOpYctYk%3D"
+    },
+    {
+      "drive_file_id": "1l0e9FrAwR_vt9zuMxWTeNmcUWN4XrXZ1",
+      "source_label": "MH0035.jpg",
+      "role": "wine rack close detail",
+      "output_stem": "marias-house-wine-cellar-rack-detail-05",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-66e0-81f4-84d7-5c348dbaf58c/raw?se=2026-10-02T13%3A50%3A14Z&sp=r&sv=2026-02-06&sr=b&scid=d5aaf23e-2dd9-5584-9982-bbda1878e31c&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A52%3A24Z&ske=2026-10-03T06%3A52%3A24Z&sks=b&skv=2026-02-06&sig=xT/g8qQ8vIqlxaj71zyRoZTKEL%2B/JUaZ/oe42CMxxlY%3D"
+    }
+  ]
 }
