@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G22 — Northwood Home Office",
+  "slug": "northwood-home-office",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1w27sbXFwBG6Mbecmw-Z6u0liCkOB-Lb8",
+      "source_label": "40.jpg",
+      "role": "overall office view",
+      "output_stem": "northwood-home-office-overall-view-01"
+    },
+    {
+      "drive_file_id": "1GXdoEIQKKwmuSiNIjSmOqdIW6lmhBYDt",
+      "source_label": "41.jpg",
+      "role": "low cabinetry detail",
+      "output_stem": "northwood-home-office-storage-detail-02"
+    },
+    {
+      "drive_file_id": "1q9G8vCS1JgH9rStU0duAuL0ywdYyqorW",
+      "source_label": "42.jpg",
+      "role": "front workspace view",
+      "output_stem": "northwood-home-office-front-view-03"
+    }
+  ]
+}

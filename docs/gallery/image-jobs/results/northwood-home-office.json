@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "project": "G22 \u2014 Northwood Home Office",
+  "slug": "northwood-home-office",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1w27sbXFwBG6Mbecmw-Z6u0liCkOB-Lb8",
+      "source_label": "40.jpg",
+      "role": "overall office view",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/northwood-home-office/northwood-home-office-overall-view-01.webp",
+        "bytes": 210564,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "5dcdbfef97087d3b3822bbddf74feb93385b416b448dedb83d397ffdf7342843",
+        "git_blob_sha": "3c19dffb9b9ef0acd2c0cc13dcd45a23a764419e"
+      },
+      "avif": {
+        "path": "public/images/gallery/northwood-home-office/northwood-home-office-overall-view-01.avif",
+        "bytes": 116200,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "4f9d19f9b1d074746d3ff6c208746d61a4223c0f39512c28e430b37a4c1835a0",
+        "git_blob_sha": "70b7421e8cb98e0c66da0a4a6ea20ba2985cf627"
+      }
+    },
+    {
+      "drive_file_id": "1GXdoEIQKKwmuSiNIjSmOqdIW6lmhBYDt",
+      "source_label": "41.jpg",
+      "role": "low cabinetry detail",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/northwood-home-office/northwood-home-office-storage-detail-02.webp",
+        "bytes": 187918,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "74ba24bb0134d1d2d8e06459eb38fba21d99acbbdc92184d34ebc222ddb9f1f1",
+        "git_blob_sha": "d049ccb60ff7762463b5d4f553a59cc26cbf3bd1"
+      },
+      "avif": {
+        "path": "public/images/gallery/northwood-home-office/northwood-home-office-storage-detail-02.avif",
+        "bytes": 105212,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "bef9057f9525149593b3602e4c2f3b0c3339fbaff20141d224fd8973710ca8f5",
+        "git_blob_sha": "afaa9c6f4818f09419441c7bab87ac27d7af7a78"
+      }
+    },
+    {
+      "drive_file_id": "1q9G8vCS1JgH9rStU0duAuL0ywdYyqorW",
+      "source_label": "42.jpg",
+      "role": "front workspace view",
+      "original": {
+        "width": 5189,
+        "height": 3620
+      },
+      "webp": {
+        "path": "public/images/gallery/northwood-home-office/northwood-home-office-front-view-03.webp",
+        "bytes": 181510,
+        "quality": 84,
+        "width": 2000,
+        "height": 1395,
+        "sha256": "958055e756af95970bf70b7b8e65cd9b6b64492ba6c252d2125baf0fb3b8337f",
+        "git_blob_sha": "e931f441a6c12381ad17a7355de7e144afc40212"
+      },
+      "avif": {
+        "path": "public/images/gallery/northwood-home-office/northwood-home-office-front-view-03.avif",
+        "bytes": 108019,
+        "quality": 58,
+        "width": 2000,
+        "height": 1395,
+        "sha256": "be9f1da7f3860c10a24ff574be054d3e04b70cd81a2a9deba38a63cf2ae5b4ac",
+        "git_blob_sha": "a9e7857df3cd100c2c371cc87a0d7d6020b51537"
+      }
+    }
+  ]
+}
