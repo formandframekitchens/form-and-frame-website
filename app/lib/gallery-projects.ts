@@ -812,6 +812,79 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
+    slug: "dubai-bespoke-tv-unit",
+    title: "Dubai Bespoke TV Unit",
+    category: "Bespoke Joinery",
+    location: "Dubai",
+    summary: "A light grey wall-mounted media composition with an integrated television zone, asymmetrical storage, floating shelves and concealed cabinet interiors.",
+    seoDescription: "Dubai bespoke TV unit case study by Form & Frame, featuring light grey textured cabinetry, asymmetrical wall-mounted storage, floating shelves and concealed internal compartments.",
+    keywords: [
+      "Dubai bespoke TV unit",
+      "bespoke media wall Dubai",
+      "wall mounted TV unit",
+      "light grey media cabinetry",
+      "floating media furniture",
+      "bespoke TV storage",
+      "made to measure TV unit",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Light grey textured wall-mounted cabinetry",
+      "Asymmetrical TV composition",
+      "Floating shelves and concealed storage",
+      "Integrated tall cabinet and drop-down compartments",
+    ],
+    caseStudy: [
+      {
+        heading: "An asymmetrical media composition",
+        body: [
+          "This Dubai project uses a series of floating and wall-mounted elements rather than one solid full-wall cabinet. The television sits within an asymmetrical arrangement of horizontal storage, shelves and a taller vertical cabinet.",
+          "The composition is deliberately light in appearance, with open wall areas separating the individual cabinet forms.",
+        ],
+      },
+      {
+        heading: "The demanding part: aligning separate floating elements",
+        body: [
+          "When the furniture is divided into several independent pieces, alignment becomes especially important. Shelf levels, cabinet bottoms and the television zone need to relate visually even though they are not physically joined into one continuous carcass.",
+          "The stepped arrangement also means that small inconsistencies in height or projection would be easy to see across the finished elevation.",
+        ],
+      },
+      {
+        heading: "Concealed storage behind a minimal exterior",
+        body: [
+          "The detail photographs show drop-down storage and a taller enclosed cabinet behind the clean outer fronts. This gives the media unit useful concealed capacity without making the overall composition appear visually heavy.",
+          "The internal fittings allow doors to open cleanly while preserving the flush external geometry when closed.",
+        ],
+      },
+      {
+        heading: "Texture and edge detailing",
+        body: [
+          "Close views show the subtle grain and texture across the light grey finish, together with the junctions between the top, front and side surfaces.",
+          "Because the design is simple and handle-light, the accuracy of these edges and the relationship between adjoining faces becomes a major part of the finished appearance.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed media composition combines television, display and concealed storage functions within a light, floating arrangement. The asymmetry gives the piece visual character while the restrained finish keeps the overall result calm.",
+          "For similar bespoke TV units and wall-mounted media furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-front-view-01.webp",
+      alt: "Light grey bespoke TV unit in Dubai",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-front-view-01.webp", alt: "Front view of Dubai bespoke TV unit", fit: "contain" },
+      { src: "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-angled-view-02.webp", alt: "Angled view of light grey wall-mounted media furniture", fit: "contain" },
+      { src: "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-finish-detail-03.webp", alt: "Close finish detail on light grey bespoke media cabinetry", fit: "contain" },
+      { src: "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-open-storage-04.webp", alt: "Open drop-down storage in Dubai bespoke TV unit", fit: "contain" },
+      { src: "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-tall-cabinet-detail-05.webp", alt: "Tall cabinet storage detail in Dubai bespoke TV unit", fit: "contain" },
+    ],
+  },
+  {
     slug: "soho-bespoke-bookcase",
     title: "Soho Bespoke Bookcase",
     category: "Bespoke Joinery",

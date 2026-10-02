@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G18 — Dubai Bespoke TV Unit",
+  "slug": "dubai-bespoke-tv-unit",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1ypGs7JX1XOcGCyrjiCnnhA0KzLMGKste",
+      "source_label": "01.jpg",
+      "role": "front view",
+      "output_stem": "dubai-bespoke-tv-unit-front-view-01"
+    },
+    {
+      "drive_file_id": "1VBAVxtUbnIC_AXZJN2-Ts7d71eecLcPU",
+      "source_label": "03.jpg",
+      "role": "angled view",
+      "output_stem": "dubai-bespoke-tv-unit-angled-view-02"
+    },
+    {
+      "drive_file_id": "1AyUyiSZNwR-wx1Zi7VY5taELG8gM_BLA",
+      "source_label": "05.jpg",
+      "role": "finish detail",
+      "output_stem": "dubai-bespoke-tv-unit-finish-detail-03"
+    },
+    {
+      "drive_file_id": "18sumjMdAcWGdqAwlMuzG2gdMvLyxfBvk",
+      "source_label": "08.jpg",
+      "role": "open storage detail",
+      "output_stem": "dubai-bespoke-tv-unit-open-storage-04"
+    },
+    {
+      "drive_file_id": "1N0M4aUy0BwbmYQC5nbJZTkFi1qhA0Q-O",
+      "source_label": "10.jpg",
+      "role": "tall cabinet detail",
+      "output_stem": "dubai-bespoke-tv-unit-tall-cabinet-detail-05"
+    }
+  ]
+}
