@@ -1,7 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  async redirects() {
+    return [
+      {
+        source: "/gallery/golden-textured-front-cabinet",
+        destination: "/gallery/putney-heath-bespoke-cabinets",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
