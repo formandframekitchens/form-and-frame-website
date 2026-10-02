@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G25 — Earls Court Floating Shelf & Mirror Wall",
+  "slug": "earls-court-floating-shelf-mirror-wall",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1Ww4CfkWtel8pzGX_FV7VJ51wkzXxVukI",
+      "source_label": "DSC_7428.jpg",
+      "role": "mirror wall and floating shelf view",
+      "output_stem": "earls-court-floating-shelf-mirror-wall-view-01"
+    }
+  ]
+}

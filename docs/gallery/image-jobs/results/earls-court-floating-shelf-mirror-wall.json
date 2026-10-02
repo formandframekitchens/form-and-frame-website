@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "project": "G25 \u2014 Earls Court Floating Shelf & Mirror Wall",
+  "slug": "earls-court-floating-shelf-mirror-wall",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1Ww4CfkWtel8pzGX_FV7VJ51wkzXxVukI",
+      "source_label": "DSC_7428.jpg",
+      "role": "mirror wall and floating shelf view",
+      "original": {
+        "width": 6921,
+        "height": 4912
+      },
+      "webp": {
+        "path": "public/images/gallery/earls-court-floating-shelf-mirror-wall/earls-court-floating-shelf-mirror-wall-view-01.webp",
+        "bytes": 261170,
+        "quality": 84,
+        "width": 2000,
+        "height": 1419,
+        "sha256": "415c6ef544e004223aa0e6ede099b125ebc3892db163499437749d033286c552",
+        "git_blob_sha": "c19aceb404306918d3d82b60c8cfa6fe8aed28e9"
+      },
+      "avif": {
+        "path": "public/images/gallery/earls-court-floating-shelf-mirror-wall/earls-court-floating-shelf-mirror-wall-view-01.avif",
+        "bytes": 143010,
+        "quality": 58,
+        "width": 2000,
+        "height": 1419,
+        "sha256": "474f3b19ad8c372f0fab30079790dfebdae11c5af66154993bf9bd898e047e15",
+        "git_blob_sha": "741593f2a7704ac789ab351262876ac8afcbc376"
+      }
+    }
+  ]
+}
