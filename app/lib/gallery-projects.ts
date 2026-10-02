@@ -26,908 +26,426 @@ export type GalleryProject = {
 
 export const galleryProjects: GalleryProject[] = [
 {
-    galleryId: "G21",
-    slug: "northwood-bespoke-tv-unit",
-    title: "Northwood Bespoke TV Unit",
-    category: "Bespoke Joinery",
-    location: "Northwood, London",
-    summary: "A dark timber full-wall TV and display unit with integrated television, illuminated open niches, upper shelving and concealed low-level storage.",
-    seoDescription: "Northwood bespoke TV unit case study by Form & Frame, featuring dark timber cabinetry, integrated television, illuminated display niches, upper shelving and concealed low-level storage.",
+    galleryId: "G01",
+    slug: "handleless-kitchen-installation",
+    title: "Handleless Kitchen Installation",
+    category: "Kitchen Installation",
+    summary: "A completed white handleless kitchen installation with integrated appliances, fitted utility storage and carefully coordinated finishing details.",
+    seoDescription: "Completed handleless kitchen installation by Form & Frame, with integrated appliances, fitted utility storage, worktop details and precision cabinet alignment.",
     keywords: [
-      "Northwood bespoke TV unit",
-      "bespoke media wall Northwood",
-      "dark timber TV unit",
-      "integrated TV cabinetry",
-      "illuminated display shelving",
-      "made to measure media unit",
-      "bespoke joinery",
+      "handleless kitchen installation",
+      "kitchen fitter",
+      "integrated appliance fitting",
+      "white handleless kitchen",
+      "kitchen installation Luton",
+      "kitchen installation Bedfordshire",
     ],
     highlights: [
-      "Full-wall dark timber media composition",
-      "Integrated television",
-      "Illuminated open display niches",
-      "Upper shelving with low-level concealed storage",
+      "White handleless cabinetry",
+      "Integrated appliance installation",
+      "Fitted utility and tall-unit storage",
+      "Worktop, hob and finishing details",
     ],
     caseStudy: [
       {
-        heading: "A full-wall media and display composition",
+        heading: "The installation",
         body: [
-          "This Northwood installation combines the television with open display shelving and concealed storage across a large section of wall. The dark timber finish gives the furniture a strong presence while the open grid prevents the elevation from feeling too solid.",
-          "The television is integrated into the overall shelving composition rather than treated as a separate object.",
+          "This project shows a completed white handleless kitchen with a restrained, modern layout. The visual character depends on long uninterrupted lines, accurately aligned cabinet fronts and integrated appliances sitting cleanly within the surrounding cabinetry.",
+          "Handleless kitchens leave very little room for inconsistent gaps or uneven front alignment. The fitting therefore needs to be controlled across base units, tall housings, appliance fronts and adjacent panels so that the finished kitchen reads as one continuous composition rather than a collection of separate cabinets.",
         ],
       },
       {
-        heading: "The demanding part: keeping a large grid visually controlled",
+        heading: "Where precision matters",
         body: [
-          "The design uses repeated vertical divisions, horizontal shelves and illuminated display sections. Across a wall-scale installation, any inconsistency in spacing or alignment would be immediately visible.",
-          "The television opening also has to sit naturally within the wider grid so it feels part of the furniture rather than interrupting it.",
+          "The photographs show several areas where installation quality becomes especially visible: the relationship between appliance doors and neighbouring fronts, the alignment of tall units, the junction between worktops and cabinetry, and the consistency of horizontal handleless lines.",
+          "Integrated appliances also require careful adjustment so that doors open correctly while their furniture fronts remain aligned with the surrounding kitchen. Small discrepancies can become obvious in a minimalist design, so final adjustment and checking form an important part of this type of installation.",
         ],
       },
       {
-        heading: "Display lighting within the shelving",
+        heading: "Utility storage and practical coordination",
         body: [
-          "Warm integrated lighting highlights selected open niches and creates contrast against the darker timber finish. The lighting also helps separate display zones from the deeper shelving around the television.",
-          "Because the illuminated sections are viewed directly, the relationship between shelf edges, internal panels and lighting positions becomes part of the visual finish.",
-        ],
-      },
-      {
-        heading: "Open display above concealed storage",
-        body: [
-          "The upper part of the unit is predominantly open and display-led, while the lower cabinetry provides concealed storage behind darker fronts. This keeps everyday storage out of view without making the entire wall visually heavy.",
-          "The angled room view shows how the shelving continues across the wall and relates to the adjacent window and seating area.",
+          "The fitted utility storage continues the same visual language as the main kitchen. Keeping these secondary areas consistent is important because tall storage, appliance housings and utility cabinetry often introduce more junctions, fillers and changes in cabinet height than the main run.",
+          "The completed result demonstrates how careful installation can preserve a simple appearance even where the underlying layout includes appliances, storage and several technical interfaces.",
         ],
       },
       {
         heading: "The finished result",
         body: [
-          "The completed TV unit combines media, display and concealed storage functions within one dark timber composition. Warm lighting and open shelving break up the scale of the wall and give the installation more depth.",
-          "For similar bespoke TV units, media walls and integrated display furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+          "The final kitchen is clean, functional and deliberately understated. The emphasis is on accurate fitting rather than decorative complexity: straight lines, controlled gaps, integrated equipment and a consistent relationship between units, worktops and surrounding finishes.",
+          "Form & Frame provides independent kitchen installation for customer-supplied kitchens, with projects considered across Luton, Bedfordshire, Hertfordshire and selected surrounding areas.",
         ],
       },
     ],
     cover: {
-      src: "/images/gallery/northwood-bespoke-tv-unit/northwood-bespoke-tv-unit-room-view-01.webp",
-      alt: "Dark timber bespoke TV and display unit in Northwood",
+      src: "/images/homepage/modern-white-handleless-kitchen-installation.webp",
+      alt: "Completed white handleless kitchen installation",
       fit: "contain",
     },
     images: [
-      { src: "/images/gallery/northwood-bespoke-tv-unit/northwood-bespoke-tv-unit-room-view-01.webp", alt: "Main room view of Northwood bespoke TV unit", fit: "contain" },
-      { src: "/images/gallery/northwood-bespoke-tv-unit/northwood-bespoke-tv-unit-angled-view-02.webp", alt: "Angled view of dark timber TV unit with illuminated display shelving", fit: "contain" },
+      {
+        src: "/images/homepage/modern-white-handleless-kitchen-installation.webp",
+        alt: "Completed white handleless kitchen installation",
+        fit: "contain",
+      },
+      {
+        src: "/images/homepage/white-handleless-kitchen-fitting-integrated-appliances.webp",
+        alt: "White handleless kitchen with integrated appliances",
+        fit: "contain",
+      },
+      {
+        src: "/images/homepage/fitted-kitchen-utility-storage-installation.webp",
+        alt: "Fitted utility storage and integrated kitchen appliances",
+        fit: "contain",
+      },
+      {
+        src: "/images/homepage/integrated-dishwasher-kitchen-installation-detail.webp",
+        alt: "Integrated dishwasher installation detail",
+        fit: "contain",
+      },
+      {
+        src: "/images/homepage/kitchen-worktop-hob-appliance-installation-detail.webp",
+        alt: "Kitchen worktop and hob installation detail",
+        fit: "contain",
+      },
     ],
   },
 {
-    galleryId: "G20",
-    slug: "highgate-fitted-wardrobes",
-    title: "Highgate Fitted Wardrobes",
+    galleryId: "G02",
+    slug: "soho-bespoke-bookcase",
+    title: "Soho Bespoke Bookcase",
     category: "Bespoke Joinery",
-    location: "Highgate, London",
-    summary: "A pair of full-height fitted wardrobes arranged around a bedroom fireplace, with restrained grey fronts and practical hanging, shelving and drawer storage.",
-    seoDescription: "Highgate fitted wardrobe case study by Form & Frame, featuring full-height grey wardrobes arranged around a bedroom fireplace with hanging, shelving and drawer storage.",
+    location: "Soho, London",
+    summary: "Full-height fitted bookcase cabinetry with integrated display lighting and a dark, architectural finish.",
+    seoDescription: "Soho bespoke fitted bookcase case study by Form & Frame: full-height dark cabinetry, integrated display lighting and carefully aligned shelving in a London interior.",
     keywords: [
-      "Highgate fitted wardrobes",
-      "fitted wardrobes London",
-      "bespoke bedroom wardrobes",
-      "grey fitted wardrobes",
-      "alcove wardrobes",
-      "made to measure wardrobes",
-      "bespoke joinery",
+      "bespoke bookcase Soho",
+      "fitted bookcase London",
+      "bespoke joinery London",
+      "full height bookcase",
+      "integrated shelf lighting",
+      "made to measure shelving",
     ],
     highlights: [
-      "Full-height fitted wardrobes around a fireplace",
-      "Restrained grey painted fronts",
-      "Internal hanging, shelving and drawer storage",
-      "Bedroom-scale fitted composition",
+      "Full-height fitted bookcase",
+      "Integrated display lighting",
+      "Dark architectural finish",
+      "Repeated shelving and vertical alignment",
     ],
     caseStudy: [
       {
-        heading: "Wardrobes integrated around the fireplace",
+        heading: "A full-height fitted feature",
         body: [
-          "This Highgate bedroom uses fitted wardrobes on both sides of the fireplace, turning the wall into a balanced storage composition while keeping the chimney breast and fireplace visually clear.",
-          "The simple full-height fronts keep the wardrobes quiet within the room and allow the existing architectural features to remain prominent.",
+          "This Soho project uses a full-height bespoke bookcase as a strong architectural element within the room. Rather than treating the shelving as loose furniture, the cabinetry is visually integrated with the interior and extends vertically to create a continuous fitted composition.",
+          "The dark finish gives the bookcase a substantial presence, while the open shelving prevents the elevation from feeling too heavy. The balance between solid framing, open display areas and integrated light is central to the finished appearance.",
         ],
       },
       {
-        heading: "The demanding part: balancing two alcoves",
+        heading: "The demanding part: repetition and alignment",
         body: [
-          "Working on opposite sides of a fireplace makes symmetry and proportion especially visible. The wardrobes need to align in height, projection and door spacing while responding to the actual dimensions of each alcove.",
-          "The closed elevation therefore depends on careful setting out rather than decorative detail.",
+          "Large bookcases are unforgiving because repeated shelves and vertical divisions make small inaccuracies easy to see. Shelf lines, side panels and openings need to remain visually consistent over the full height and width of the installation.",
+          "The fitting also has to respond to the room rather than assuming the surrounding walls, floor and ceiling are perfectly square. Careful setting out and controlled final fitting allow the cabinetry to sit naturally within the space while keeping the visible grid calm and regular.",
         ],
       },
       {
-        heading: "Practical internal storage",
+        heading: "Integrated lighting",
         body: [
-          "The open photographs show a combination of hanging space, upper shelving and lower drawers. This gives the wardrobe practical everyday storage while keeping the external appearance restrained.",
-          "The internal arrangement uses the full available height so the fitted furniture makes effective use of the bedroom alcoves.",
+          "Lighting is incorporated into the shelving so that the display areas remain useful after dark and the depth of the cabinetry is emphasised. The lighting reads as part of the joinery rather than an added accessory, which helps preserve the clean architectural character of the bookcase.",
+          "Where lighting is integrated into bespoke cabinetry, the visual result depends on consistent positioning and neat coordination with shelf edges, internal surfaces and the wider room lighting.",
         ],
       },
       {
-        heading: "A calm bedroom finish",
+        heading: "Joinery quality in the finished room",
         body: [
-          "The grey finish relates closely to the wall colour and fireplace surround, helping the wardrobes feel integrated rather than added as separate pieces.",
-          "Because the front design is intentionally simple, door alignment, margins and the relationship with the cornice become important parts of the finished result.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed wardrobes provide substantial concealed storage while preserving a calm, balanced bedroom elevation around the fireplace.",
-          "For similar fitted wardrobes and made-to-measure bedroom storage, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+          "The completed bookcase demonstrates the value of proportion and repetition in bespoke fitted furniture. The design is relatively disciplined, so the quality is carried by accurate spacing, controlled junctions and the relationship between the cabinetry and the room around it.",
+          "For similar fitted bookcases, libraries and display cabinetry, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, and final installation.",
         ],
       },
     ],
     cover: {
-      src: "/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-closed-view-01.webp",
-      alt: "Grey fitted wardrobes arranged around a bedroom fireplace in Highgate",
+      src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-frontal-room-view-04.jpg",
+      alt: "Full frontal room view of Soho bespoke dark oak bookcase",
       fit: "contain",
     },
     images: [
-      { src: "/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-closed-view-01.webp", alt: "Closed view of Highgate fitted wardrobes around the fireplace", fit: "contain" },
-      { src: "/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-open-view-02.webp", alt: "Open fitted wardrobe showing hanging and drawer storage", fit: "contain" },
-      { src: "/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-storage-detail-03.webp", alt: "Highgate wardrobe internal storage detail", fit: "contain" },
+      {
+        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-frontal-room-view-04.jpg",
+        alt: "Full frontal room view of Soho bespoke dark oak bookcase",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-room-view-01.webp",
+        alt: "Angled illuminated view of Soho bespoke bookcase",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-full-height-02.webp",
+        alt: "Full-height side view of Soho bespoke bookcase",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-display-view-05.jpg",
+        alt: "Dark oak display shelving and integrated lighting in Soho bookcase",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-door-detail-06.jpg",
+        alt: "Close-up of dark oak lower cabinet door and grain detail",
+        fit: "contain",
+      },
     ],
   },
 {
-    galleryId: "G19",
-    slug: "putney-heath-bespoke-cabinets",
-    title: "Putney Heath Bespoke Cabinets",
+    galleryId: "G03",
+    slug: "soho-walk-in-wardrobe",
+    title: "Soho Walk-In Wardrobe",
     category: "Bespoke Joinery",
-    location: "Putney Heath, London",
-    summary: "A matching pair of tall dark bespoke cabinets framing a fireplace, with concealed storage, integrated television space and brass-toned detailing.",
-    seoDescription: "Putney Heath bespoke cabinet case study by Form & Frame, featuring a matching pair of dark tall cabinets with concealed storage, integrated television space and brass-toned detailing.",
+    location: "Soho, London",
+    summary: "An illuminated walk-in wardrobe with open storage, mirrored detailing, drawers and integrated LED lighting.",
+    seoDescription: "Soho walk-in wardrobe case study featuring bespoke open storage, drawers, mirrored detailing and integrated LED lighting by Form & Frame.",
     keywords: [
-      "Putney Heath bespoke cabinets",
-      "bespoke cabinets London",
-      "dark fitted cabinets",
-      "fireplace alcove cabinetry",
-      "bespoke TV cabinet",
-      "brass detail cabinetry",
-      "made to measure storage",
-      "bespoke joinery",
+      "walk in wardrobe Soho",
+      "bespoke wardrobe London",
+      "fitted wardrobe London",
+      "walk in dressing room",
+      "integrated wardrobe lighting",
+      "bespoke storage joinery",
     ],
     highlights: [
-      "Matching tall cabinets framing a fireplace",
-      "Dark textured exterior finish",
-      "Concealed shelving and integrated television storage",
-      "Brass-toned base and handle detailing",
+      "Open walk-in wardrobe layout",
+      "Integrated LED lighting",
+      "Drawer storage",
+      "Mirrored detailing",
     ],
     caseStudy: [
       {
-        heading: "A matching pair designed around the fireplace",
+        heading: "Storage designed as a room",
         body: [
-          "This Putney Heath project uses two tall bespoke cabinets to frame the fireplace and create a balanced fitted composition. Although the cabinets share the same exterior language, their internal functions are different.",
-          "The matching proportions and finish allow the pair to read as one coordinated design while keeping the central fireplace visually dominant.",
+          "This Soho walk-in wardrobe is more than a line of cupboards. The cabinetry defines the space itself, using open storage, drawer units, mirrored elements and integrated lighting to create a dedicated dressing environment.",
+          "Open wardrobes place the internal construction permanently on display. Shelf spacing, drawer alignment, lighting positions and the relationship between adjacent sections therefore contribute directly to the visual quality of the room.",
         ],
       },
       {
-        heading: "The demanding part: symmetry with different internal functions",
+        heading: "Working with a narrow circulation space",
         body: [
-          "A paired arrangement makes differences in height, width and alignment particularly visible. The outer frames, base details and front margins therefore need to remain consistent across both cabinets.",
-          "At the same time, each interior has to accommodate a different storage requirement without changing the closed appearance of the matching exteriors.",
+          "The aisle view shows how important proportion is in a walk-in wardrobe. Storage needs to provide useful capacity without reducing the circulation route to the point where the room feels cramped.",
+          "Full-height joinery on both sides creates many repeated lines. Keeping these lines visually controlled helps the wardrobe feel ordered and intentional, especially where drawers, shelves and mirrored surfaces meet.",
         ],
       },
       {
-        heading: "Concealed shelving and television storage",
+        heading: "Lighting and mirrored details",
         body: [
-          "One cabinet opens to reveal practical shelving and storage, while the other incorporates a television within the internal arrangement. Closing the doors returns both pieces to the same restrained furniture-led appearance.",
-          "This approach keeps technology and everyday storage concealed when not required while preserving a formal, symmetrical room composition.",
+          "Integrated LED lighting improves visibility inside the storage and also gives the cabinetry greater depth. The light highlights shelf edges and vertical divisions, which means alignment and finishing details become even more noticeable.",
+          "Mirrored detailing introduces another precise visual reference. Reflective surfaces tend to emphasise lines and junctions, so careful fitting around them is important to maintain a clean result.",
         ],
       },
       {
-        heading: "Material and metal detailing",
+        heading: "A coordinated bespoke interior",
         body: [
-          "Close photographs show the textured dark finish, framed fronts and brass-toned details used at the handles and lower supports. These lighter metal elements provide contrast without competing with the darker cabinetry.",
-          "The relationship between the frame, door margins and metal details is important because the strong vertical proportions make small inconsistencies easy to notice.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed pair combines concealed storage and media functions within a coordinated architectural arrangement around the fireplace. The cabinets remain visually consistent when closed while serving different practical roles internally.",
-          "For similar bespoke cabinet pairs, alcove furniture and concealed media storage, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+          "The finished wardrobe combines storage density with a controlled architectural appearance. Open shelves, drawers, lighting and mirrors all need to work together rather than competing for attention.",
+          "Projects of this type benefit from coordinated survey, design development, manufacturing control and installation so that the finished cabinetry is resolved as one complete interior.",
         ],
       },
     ],
     cover: {
-      src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-pair-view-01.webp",
-      alt: "Matching dark bespoke cabinets framing a fireplace in Putney Heath",
-      fit: "contain",
+      src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-illuminated-storage-01.webp",
+      alt: "Illuminated Soho walk-in wardrobe storage",
     },
     images: [
-      { src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-pair-view-01.webp", alt: "Pair of bespoke cabinets framing a fireplace in Putney Heath", fit: "contain" },
-      { src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-room-view-02.webp", alt: "Room context showing matching tall bespoke cabinets", fit: "contain" },
-      { src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-open-storage-03.webp", alt: "Open bespoke cabinet showing concealed shelving", fit: "contain" },
-      { src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-tv-storage-04.webp", alt: "Open bespoke cabinet with integrated television storage", fit: "contain" },
-      { src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-detail-05.webp", alt: "Dark cabinet frame and brass-toned detail", fit: "contain" },
-      { src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-front-detail-06.webp", alt: "Front and handle detail on Putney Heath bespoke cabinet", fit: "contain" },
+      { src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-illuminated-storage-01.webp", alt: "Illuminated Soho walk-in wardrobe storage" },
+      { src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-aisle-view-02.webp", alt: "Aisle view through Soho walk-in wardrobe" },
+      { src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-drawer-mirror-detail-03.webp", alt: "Drawer and mirror detail in Soho walk-in wardrobe" },
     ],
   },
 {
-    galleryId: "G18",
-    slug: "dubai-bespoke-tv-unit",
-    title: "Dubai Bespoke TV Unit",
+    galleryId: "G04",
+    slug: "grey-black-bespoke-media-wall",
+    title: "Grey & Black Bespoke Media Wall",
     category: "Bespoke Joinery",
-    location: "Dubai",
-    summary: "A light grey wall-mounted media composition with an integrated television zone, asymmetrical storage, floating shelves and concealed cabinet interiors.",
-    seoDescription: "Dubai bespoke TV unit case study by Form & Frame, featuring light grey textured cabinetry, asymmetrical wall-mounted storage, floating shelves and concealed internal compartments.",
+    summary: "A wall-mounted bespoke media composition shown across coordinated grey and black finish views, with floating storage, open shelves, concealed cabinetry and clean integrated proportions.",
+    seoDescription: "Bespoke media wall case study by Form & Frame, combining floating cabinetry, wall-mounted shelving, concealed storage and coordinated grey and black finish views.",
     keywords: [
-      "Dubai bespoke TV unit",
-      "bespoke media wall Dubai",
-      "wall mounted TV unit",
-      "light grey media cabinetry",
-      "floating media furniture",
-      "bespoke TV storage",
-      "made to measure TV unit",
-      "bespoke joinery",
+      "bespoke media wall",
+      "floating media cabinet",
+      "TV wall joinery",
+      "bespoke TV unit",
+      "wall mounted cabinetry",
+      "fitted media furniture",
     ],
     highlights: [
-      "Light grey textured wall-mounted cabinetry",
-      "Asymmetrical TV composition",
-      "Floating shelves and concealed storage",
-      "Integrated tall cabinet and drop-down compartments",
+      "Floating wall-mounted cabinetry",
+      "Coordinated grey and black finish views",
+      "Integrated open shelving",
+      "Clean horizontal proportions",
     ],
     caseStudy: [
       {
-        heading: "An asymmetrical media composition",
+        heading: "A floating media composition",
         body: [
-          "This Dubai project uses a series of floating and wall-mounted elements rather than one solid full-wall cabinet. The television sits within an asymmetrical arrangement of horizontal storage, shelves and a taller vertical cabinet.",
-          "The composition is deliberately light in appearance, with open wall areas separating the individual cabinet forms.",
+          "This bespoke media wall is built around a strong horizontal arrangement of floating cabinetry and open shelving. Keeping the units off the floor gives the composition a lighter appearance while still providing substantial storage.",
+          "The design is shown in coordinated grey and black finishes, demonstrating how the same underlying proportions can produce a different character depending on colour and contrast.",
         ],
       },
       {
-        heading: "The demanding part: aligning separate floating elements",
+        heading: "The demanding part: level, spacing and wall fixing",
         body: [
-          "When the furniture is divided into several independent pieces, alignment becomes especially important. Shelf levels, cabinet bottoms and the television zone need to relate visually even though they are not physically joined into one continuous carcass.",
-          "The stepped arrangement also means that small inconsistencies in height or projection would be easy to see across the finished elevation.",
+          "Floating furniture makes alignment especially visible because there is no plinth or floor contact to disguise variation. The cabinetry needs to read as level across the wall, and the gaps between separate elements need to remain controlled.",
+          "Wall-mounted units also rely on appropriate fixing and careful positioning. The finished elevation depends on the relationship between the lower cabinets, display shelves and the central media area staying visually balanced.",
         ],
       },
       {
-        heading: "Concealed storage behind a minimal exterior",
+        heading: "Controlling the visual weight",
         body: [
-          "The detail photographs show drop-down storage and a taller enclosed cabinet behind the clean outer fronts. This gives the media unit useful concealed capacity without making the overall composition appear visually heavy.",
-          "The internal fittings allow doors to open cleanly while preserving the flush external geometry when closed.",
+          "Media walls can easily become heavy if every part of the elevation is filled. Here, open wall space and separated shelves keep the arrangement lighter and allow the furniture to frame the media zone rather than dominate it.",
+          "The long horizontal cabinet line provides continuity, while the upper elements introduce variation without losing the overall geometry.",
         ],
       },
       {
-        heading: "Texture and edge detailing",
+        heading: "A flexible fitted-furniture approach",
         body: [
-          "Close views show the subtle grain and texture across the light grey finish, together with the junctions between the top, front and side surfaces.",
-          "Because the design is simple and handle-light, the accuracy of these edges and the relationship between adjoining faces becomes a major part of the finished appearance.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed media composition combines television, display and concealed storage functions within a light, floating arrangement. The asymmetry gives the piece visual character while the restrained finish keeps the overall result calm.",
-          "For similar bespoke TV units and wall-mounted media furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+          "The project shows how bespoke media furniture can be adjusted through finish, storage configuration and shelf arrangement while retaining a consistent architectural concept.",
+          "For similar TV units and media walls, Form & Frame can coordinate the fitted furniture around the room proportions and the required storage rather than forcing the project into standard cabinet sizes.",
         ],
       },
     ],
     cover: {
-      src: "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-front-view-01.webp",
-      alt: "Light grey bespoke TV unit in Dubai",
-      fit: "contain",
+      src: "/images/gallery/grey-black-bespoke-media-wall/grey-bespoke-media-wall-front-view-01.webp",
+      alt: "Grey bespoke media wall front view",
     },
     images: [
-      { src: "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-front-view-01.webp", alt: "Front view of Dubai bespoke TV unit", fit: "contain" },
+      { src: "/images/gallery/grey-black-bespoke-media-wall/grey-bespoke-media-wall-front-view-01.webp", alt: "Grey bespoke media wall front view" },
+      { src: "/images/gallery/grey-black-bespoke-media-wall/grey-bespoke-media-wall-angled-view-02.webp", alt: "Grey bespoke media wall angled view" },
+      { src: "/images/gallery/grey-black-bespoke-media-wall/black-bespoke-media-wall-front-view-03.webp", alt: "Black bespoke media wall front view" },
+      { src: "/images/gallery/grey-black-bespoke-media-wall/black-bespoke-media-wall-angled-view-04.webp", alt: "Black bespoke media wall angled view" },
+      { src: "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-front-view-01.webp", alt: "Light grey wall-mounted bespoke media unit front view", fit: "contain" },
       { src: "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-angled-view-02.webp", alt: "Angled view of light grey wall-mounted media furniture", fit: "contain" },
       { src: "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-finish-detail-03.webp", alt: "Close finish detail on light grey bespoke media cabinetry", fit: "contain" },
-      { src: "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-open-storage-04.webp", alt: "Open drop-down storage in Dubai bespoke TV unit", fit: "contain" },
-      { src: "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-tall-cabinet-detail-05.webp", alt: "Tall cabinet storage detail in Dubai bespoke TV unit", fit: "contain" },
+      { src: "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-open-storage-04.webp", alt: "Open concealed storage in bespoke media unit", fit: "contain" },
+      { src: "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-tall-cabinet-detail-05.webp", alt: "Tall cabinet storage detail within bespoke media composition", fit: "contain" },
     ],
   },
 {
-    galleryId: "G17",
-    slug: "grey-bespoke-sideboard",
-    title: "Grey Bespoke Sideboard",
+    galleryId: "G06",
+    slug: "built-in-window-seat-storage",
+    title: "Built-In Window Seat with Drawer Storage",
     category: "Bespoke Joinery",
-    summary: "A slim bespoke sideboard with a dark grey timber finish, square metal pulls, polished metal legs and a combination of drawers and concealed internal storage.",
-    seoDescription: "Grey bespoke sideboard case study by Form & Frame, featuring dark timber-finished cabinetry, square metal pulls, polished metal legs, drawers and concealed internal storage.",
+    location: "London",
+    summary: "Painted built-in window seating with concealed drawer storage, shaped to sit cleanly within the existing room.",
+    seoDescription: "London built-in window seat case study by Form & Frame, with painted made-to-measure joinery and integrated drawer storage.",
     keywords: [
-      "grey bespoke sideboard",
-      "bespoke console cabinet",
-      "dark timber sideboard",
-      "made to measure sideboard",
-      "bespoke storage furniture",
-      "metal leg sideboard",
-      "bespoke joinery",
+      "built in window seat London",
+      "window seat storage",
+      "bespoke drawer storage",
+      "made to measure window seat",
+      "painted fitted furniture",
+      "bespoke joinery London",
     ],
     highlights: [
-      "Dark grey timber-finished cabinetry",
-      "Square metal pull details",
-      "Polished metal support legs",
-      "Drawers with concealed internal storage",
+      "Made-to-measure window seating",
+      "Integrated drawer storage",
+      "Painted fitted finish",
+      "Shaped around the existing room",
     ],
     caseStudy: [
       {
-        heading: "A slim piece with a strong horizontal proportion",
+        heading: "Using an awkward area productively",
         body: [
-          "This sideboard is deliberately low and wide, giving it a strong horizontal character. The dark timber finish keeps the body visually restrained while the polished metal legs lift the cabinet away from the floor.",
-          "The front elevation is kept simple so the material, proportions and metal details carry most of the visual interest.",
+          "This project turns the space beneath a window into fitted seating with useful drawer storage. Window areas often have specific width, depth and surrounding-wall constraints, making made-to-measure joinery more effective than standard furniture.",
+          "The finished seat is designed to feel part of the room rather than a separate box placed against the wall. Its proportions follow the available opening and maintain a simple painted appearance.",
         ],
       },
       {
-        heading: "The demanding part: keeping the front composition clean",
+        heading: "The demanding part: fitting to the existing room",
         body: [
-          "A long, simple front makes alignment easy to judge. Drawer gaps, door margins and the centre division therefore need to remain consistent so the elevation reads as one controlled piece of furniture.",
-          "The square metal pulls become small focal points across the front, making their position and alignment particularly visible.",
+          "Built-in furniture has to meet real walls, floors and architectural edges, which are not always perfectly straight or square. The visible success of the piece depends on how accurately the outer lines are fitted to those existing conditions.",
+          "A window seat is also viewed at close range and used physically, so the top, drawer fronts and surrounding junctions need to feel deliberate and robust as well as visually neat.",
         ],
       },
       {
-        heading: "Storage behind a minimal exterior",
+        heading: "Drawer storage without visual clutter",
         body: [
-          "The open view shows that the cabinet combines shallow drawer storage with a larger internal compartment. This allows several storage functions to sit behind one clean exterior.",
-          "The mirrored or reflective internal surfaces add depth to the storage area and contrast with the darker exterior finish.",
+          "The drawers add practical capacity while allowing the front of the seat to remain calm and consistent. When closed, the storage reads as part of the overall joinery rather than as a separate chest of drawers.",
+          "The open-storage photograph demonstrates the usable volume concealed behind the fitted elevation, which is one of the main advantages of designing directly around the available space.",
         ],
       },
       {
-        heading: "Detail and material contrast",
+        heading: "A simple fitted result",
         body: [
-          "The close photograph shows the internal lining and the relationship between the darker cabinet material and the surrounding frame. These smaller construction details matter because the piece is relatively simple in form and therefore leaves little to distract from finish quality.",
-          "The metal legs and pulls provide a sharper, lighter contrast against the dark timber surfaces.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed sideboard is compact, restrained and furniture-led, combining useful storage with a clean linear profile and metal detailing.",
-          "For similar bespoke sideboards, consoles and made-to-measure storage furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+          "The final piece is deliberately understated. Its value comes from using the room efficiently, fitting the existing architecture carefully and combining seating with concealed storage in one element.",
+          "Form & Frame can apply the same approach to window seats, alcove furniture, under-window storage and other fitted pieces where the room geometry makes standard furniture inefficient.",
         ],
       },
     ],
     cover: {
-      src: "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-front-view-01.webp",
-      alt: "Grey bespoke sideboard with polished metal legs",
-      fit: "contain",
+      src: "/images/gallery/painted-built-in-window-seat-storage/painted-built-in-window-seat-storage-01.webp",
+      alt: "Painted built-in window seat with drawer storage",
     },
     images: [
-      { src: "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-front-view-01.webp", alt: "Front view of grey bespoke sideboard", fit: "contain" },
-      { src: "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-angled-view-02.webp", alt: "Angled view of grey bespoke sideboard and polished metal legs", fit: "contain" },
-      { src: "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-open-storage-03.webp", alt: "Open bespoke sideboard showing drawers and concealed storage", fit: "contain" },
-      { src: "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-interior-detail-04.webp", alt: "Interior material detail inside bespoke sideboard", fit: "contain" },
+      { src: "/images/gallery/painted-built-in-window-seat-storage/painted-built-in-window-seat-storage-01.webp", alt: "Painted built-in window seat with drawer storage" },
+      { src: "/images/gallery/painted-built-in-window-seat-storage/built-in-window-seat-drawer-storage-open-02.webp", alt: "Built-in window seat drawer storage open" },
+      { src: "/images/gallery/painted-built-in-window-seat-storage/made-to-measure-window-seat-storage-detail-03.webp", alt: "Made-to-measure window seat storage detail" },
     ],
   },
 {
-    galleryId: "G16",
-    slug: "sc-bespoke-bookcase",
-    title: "S&C Bespoke Bookcase",
+    galleryId: "G07",
+    slug: "soho-shoe-storage-cabinet",
+    title: "Soho Shoe-Storage Cabinet",
     category: "Bespoke Joinery",
-    summary: "A dark open bookcase used as both display furniture and a room-dividing feature, with a varied grid of shelves and carefully aligned vertical structure.",
-    seoDescription: "S&C bespoke bookcase case study by Form & Frame, featuring a dark open shelving structure used as display furniture and a room-dividing architectural element.",
+    location: "Soho, London",
+    summary: "A purpose-built shoe-storage cabinet with open shelving, integrated lighting and coordinated dark cabinetry.",
+    seoDescription: "Bespoke Soho shoe-storage cabinet by Form & Frame with open shelving, integrated LED lighting and dark fitted cabinetry.",
     keywords: [
-      "S&C bespoke bookcase",
-      "dark bespoke bookcase",
-      "open room divider shelving",
-      "bespoke display bookcase",
-      "made to measure shelving",
-      "architectural bookcase",
-      "luxury bespoke furniture",
-      "bespoke joinery",
+      "bespoke shoe storage Soho",
+      "shoe cabinet London",
+      "fitted shoe storage",
+      "bespoke shelving London",
+      "integrated cabinet lighting",
+      "luxury storage joinery",
     ],
     highlights: [
-      "Dark open shelving used as a room-dividing feature",
-      "Varied grid of vertical and horizontal openings",
-      "Display storage visible from multiple room angles",
-      "Large-scale structure integrated with the interior",
-    ],
-    caseStudy: [
-      {
-        heading: "A bookcase that also defines the room",
-        body: [
-          "This project uses an open bookcase as more than display storage. The dark shelving forms a visual division within the room while still allowing light, views and movement through the open grid.",
-          "Because the piece is visible from several directions, the structure has to work as furniture from both close range and across the wider interior.",
-        ],
-      },
-      {
-        heading: "The demanding part: repeated alignment across a large grid",
-        body: [
-          "The design relies on many repeated horizontal shelves and vertical divisions. That makes small setting-out errors easy to see, particularly where several openings line up across the full height and width of the installation.",
-          "The varied compartment sizes also need to remain visually deliberate so the composition feels balanced rather than random.",
-        ],
-      },
-      {
-        heading: "Open display without making the room feel enclosed",
-        body: [
-          "The open arrangement allows decorative objects, books and accessories to be displayed while keeping visual connections between the adjoining parts of the room.",
-          "Using open sections rather than a solid wall gives the furniture a lighter architectural role, even though the dark finish gives the piece a strong presence.",
-        ],
-      },
-      {
-        heading: "Detail, depth and multiple viewpoints",
-        body: [
-          "Closer photographs show the depth of the shelving and the relationship between the heavier outer frame and the smaller internal divisions. These details are especially important because the furniture is experienced from several angles rather than from one front elevation only.",
-          "The wider room views confirm how the shelving relates to seating, lighting and the surrounding architecture, which is essential when a fitted piece also acts as a spatial divider.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed bookcase provides substantial display capacity while creating a clear architectural division within the room. Its open grid keeps the interior connected, while the dark finish gives the structure enough visual weight to anchor the space.",
-          "For similar bespoke bookcases, display walls and room-dividing furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-room-view-01.webp",
-      alt: "S&C dark open bespoke bookcase used as a room divider",
-      fit: "contain",
-    },
-    images: [
-      { src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-room-view-01.webp", alt: "Main room view of S&C dark open bespoke bookcase", fit: "contain" },
-      { src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-wide-room-view-02.webp", alt: "Wide room view showing the bespoke bookcase dividing the interior", fit: "contain" },
-      { src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-angled-view-03.webp", alt: "Angled view of the dark open shelving structure", fit: "contain" },
-      { src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-detail-04.webp", alt: "Close detail of open shelving and display compartments", fit: "contain" },
-      { src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-structure-detail-05.webp", alt: "Structural detail showing the repeated shelving grid", fit: "contain" },
-      { src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-opposite-room-view-06.webp", alt: "Opposite room view of the open bespoke bookcase", fit: "contain" },
-    ],
-  },
-{
-    galleryId: "G15",
-    slug: "sc-bespoke-tv-unit",
-    title: "S&C Bespoke TV Unit",
-    category: "Bespoke Joinery",
-    summary: "A full-wall dark media installation combining an integrated television, large upholstered-look feature panels, open display shelving and long low-level concealed storage.",
-    seoDescription: "S&C bespoke TV unit case study by Form & Frame, combining a full-wall dark media installation, integrated television, textured feature panels, display shelving and concealed storage.",
-    keywords: [
-      "S&C bespoke TV unit",
-      "dark bespoke media wall",
-      "full wall TV unit",
-      "integrated television cabinetry",
-      "textured media wall",
-      "bespoke display shelving",
-      "made to measure TV unit",
-      "bespoke joinery",
-    ],
-    highlights: [
-      "Full-wall dark media composition",
-      "Integrated television within large textured panels",
-      "Open display shelving at the outer sections",
-      "Long low-level concealed storage",
-    ],
-    caseStudy: [
-      {
-        heading: "A media wall designed as part of the room",
-        body: [
-          "This project uses the television wall as a complete fitted composition rather than treating the screen as a separate object. The dark full-width installation combines the television, large textured panels, open display areas and low storage into one continuous elevation.",
-          "Against the pale seating and bright ceiling, the dark joinery gives the room a strong focal wall while keeping the television visually integrated with the surrounding furniture.",
-        ],
-      },
-      {
-        heading: "The demanding part: maintaining a large panel grid",
-        body: [
-          "The main feature is a repeated grid of large dark panels surrounding the television. Because the divisions continue across a wide area, consistent horizontal and vertical alignment is especially important. Small variations would become visible immediately across the completed wall.",
-          "The television opening also has to sit accurately within this grid so the screen feels deliberately positioned rather than inserted after the surrounding furniture was set out.",
-        ],
-      },
-      {
-        heading: "Display space without breaking the composition",
-        body: [
-          "Open shelving is concentrated toward the outer sections of the installation. These recesses provide space for books and decorative objects while preserving the darker, more continuous treatment around the central television zone.",
-          "The combination of closed panelled areas and open shelves gives the wall useful storage and display capacity without making every section visually busy.",
-        ],
-      },
-      {
-        heading: "Low storage and room-scale proportion",
-        body: [
-          "A long low-level cabinet runs beneath the media wall, giving the composition a strong horizontal base and providing concealed storage. Its alignment with the upper sections helps the full installation read as one piece rather than separate upper and lower elements.",
-          "The wider photographs show the importance of room-scale proportion. The furniture occupies a substantial wall but remains balanced against the large seating group, patterned rug and other strong features within the interior.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed TV unit combines media, display and storage functions within a dark, highly structured wall treatment. Repeated panel lines, integrated shelving and the long lower cabinet give the installation a deliberate architectural character.",
-          "For similar bespoke TV units and full-wall media installations, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-room-view-01.webp",
-      alt: "S&C dark full-wall bespoke TV unit in a living room",
-      fit: "contain",
-    },
-    images: [
-      { src: "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-room-view-01.webp", alt: "Main room view of S&C dark bespoke TV unit", fit: "contain" },
-      { src: "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-wide-view-02.webp", alt: "Wide living-room view of full-wall bespoke media furniture", fit: "contain" },
-      { src: "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-screen-view-03.webp", alt: "S&C media wall with integrated television in use", fit: "contain" },
-      { src: "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-side-view-04.webp", alt: "Side perspective of dark media wall and low storage", fit: "contain" },
-      { src: "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-detail-05.webp", alt: "Close view of textured media panels and display shelving", fit: "contain" },
-    ],
-  },
-{
-    galleryId: "G14",
-    slug: "crocodile-front-bespoke-cabinet",
-    title: "Crocodile-Front Bespoke Cabinet",
-    category: "Bespoke Joinery",
-    summary: "A tall dark bespoke cabinet with crocodile-pattern textured fronts, brass-toned detailing and concealed internal shelving.",
-    seoDescription: "Crocodile-front bespoke cabinet case study by Form & Frame, featuring dark textured doors, brass-toned handle and base details, and concealed internal shelving.",
-    keywords: [
-      "crocodile front bespoke cabinet",
-      "textured bespoke cabinet",
-      "dark bespoke furniture",
-      "bespoke storage cabinet",
-      "brass detail cabinet",
-      "luxury bespoke joinery",
-      "made to measure cabinet",
-      "bespoke furniture",
-    ],
-    highlights: [
-      "Crocodile-pattern textured full-height fronts",
-      "Brass-toned square pull and base detailing",
-      "Concealed internal shelving and storage",
-      "Tall furniture proportions set against a light classical interior",
-    ],
-    caseStudy: [
-      {
-        heading: "A strong furniture piece within a restrained interior",
-        body: [
-          "This cabinet was designed as a visually distinctive piece rather than a neutral background element. The dark textured fronts create a deliberate contrast with the pale wall panelling, fireplace and surrounding interior, while the tall proportions give the cabinet a clear architectural presence.",
-          "The room photography shows matching cabinetry positioned around the fireplace, allowing the dark vertical forms to frame the lighter centre of the room without relying on excessive decorative detail.",
-        ],
-      },
-      {
-        heading: "The demanding part: controlling the textured front",
-        body: [
-          "A strongly patterned surface makes alignment more visible. The door margins, centre joint and surrounding dark frame therefore need to remain disciplined so the texture reads as intentional rather than visually uneven.",
-          "The square brass-toned pull is positioned directly across the meeting line of the doors, creating a precise focal point against the darker surface. Small inconsistencies in this area would be immediately noticeable.",
-        ],
-      },
-      {
-        heading: "Concealed storage behind full-height doors",
-        body: [
-          "With the doors open, the cabinet reveals a dark internal arrangement of shelves and storage. Keeping this practical interior behind full-height fronts allows the closed cabinet to retain a clean, furniture-led appearance while still providing useful storage.",
-          "The open view also shows the depth and scale of the doors, which need to operate accurately without disturbing the visual alignment of the closed elevation.",
-        ],
-      },
-      {
-        heading: "Proportion, base detail and room context",
-        body: [
-          "The cabinet is lifted on a brass-toned base structure rather than reading as a solid block to the floor. This introduces a lighter visual break below the dark body and relates directly to the handle detail above.",
-          "The wider room views show why proportion matters: the cabinet has to hold its own beside the fireplace, mirrors, lighting and furniture while still leaving the surrounding architecture visually legible.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed cabinet combines a highly textured exterior with restrained geometry, concealed storage and carefully controlled metal detailing. The contrast between the dark fronts and the brighter room gives the piece its character without requiring an overcomplicated form.",
-          "For similar bespoke cabinets, feature storage pieces and made-to-measure furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-room-view-01.webp",
-      alt: "Dark crocodile-front bespoke cabinet beside a classical fireplace",
-      fit: "contain",
-    },
-    images: [
-      { src: "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-room-view-01.webp", alt: "Room view of dark crocodile-front bespoke cabinet", fit: "contain" },
-      { src: "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-room-context-02.webp", alt: "Wider room context showing matching dark bespoke cabinets", fit: "contain" },
-      { src: "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-open-storage-03.webp", alt: "Open bespoke cabinet showing concealed internal shelving", fit: "contain" },
-      { src: "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-texture-detail-04.webp", alt: "Close detail of crocodile-pattern textured cabinet front", fit: "contain" },
-      { src: "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-brass-handle-detail-05.webp", alt: "Brass-toned square handle detail on textured cabinet doors", fit: "contain" },
-    ],
-  },
-{
-    galleryId: "G13",
-    slug: "cream-bespoke-tv-unit",
-    title: "Cream Bespoke TV Unit",
-    category: "Bespoke Joinery",
-    summary: "A light cream fitted media unit with an integrated television zone, open display shelving and coordinated concealed storage.",
-    seoDescription: "Cream bespoke TV unit case study by Form & Frame, combining fitted media cabinetry, open shelving and integrated storage in a light contemporary finish.",
-    keywords: [
-      "cream bespoke TV unit",
-      "fitted media unit",
-      "bespoke TV wall",
-      "made to measure TV unit",
-      "living room fitted furniture",
-      "bespoke media cabinetry",
-      "fitted shelving",
-      "bespoke joinery",
-    ],
-    highlights: [
-      "Light cream fitted media cabinetry",
-      "Integrated television zone",
+      "Purpose-built shoe storage",
       "Open display shelving",
-      "Concealed lower storage",
+      "Integrated shelf lighting",
+      "Dark coordinated cabinetry",
     ],
     caseStudy: [
       {
-        heading: "A fitted media unit with a lighter visual character",
+        heading: "Purpose-built storage",
         body: [
-          "This project uses a light cream finish to create a fitted television unit that feels integrated with the room without becoming visually heavy. The composition combines the media zone, open display shelving and concealed storage as one coordinated piece of furniture.",
-          "The lighter finish helps the cabinetry sit comfortably against the surrounding interior while still giving the television wall a clear architectural structure.",
+          "This fitted cabinet was arranged specifically around shoe storage, using repeated open shelves to make the collection visible and easy to access. The dark cabinetry gives the installation a more architectural character than a conventional freestanding shoe rack.",
+          "Because the storage is open, the internal shelf layout becomes part of the room. Consistent spacing and alignment are therefore as important visually as the storage capacity itself.",
         ],
       },
       {
-        heading: "The demanding part: keeping the composition balanced",
+        heading: "The challenge of repeated shelving",
         body: [
-          "Media furniture has to accommodate several different functions within one elevation. The television opening, shelving and storage all need to relate to one another so that the finished wall feels balanced rather than fragmented.",
-          "Careful setting out is especially important where open shelves meet larger cabinet sections, because even small changes in line or spacing can become noticeable across the finished elevation.",
+          "A large number of closely spaced shelves creates a strong visual grid. Any change in level or inconsistent opening width can be noticeable, so the setting out needs to remain disciplined from one side of the cabinet to the other.",
+          "The shelving also has to retain a useful depth and clear opening while working within the available room proportions. The completed project shows how specialist storage can be made to feel integrated rather than purely functional.",
         ],
       },
       {
-        heading: "Open display and concealed storage",
+        heading: "Integrated light as part of the joinery",
         body: [
-          "The open shelving provides space for decorative objects and keeps the upper sections visually lighter. The closed storage below creates a practical zone for items that do not need to remain visible.",
-          "Combining open and closed elements allows the unit to work as everyday living-room furniture while still maintaining a clean presentation around the television.",
+          "Lighting is built into the storage so that each section remains legible and the shelves gain depth. The illuminated centre and shelf details show how lighting can turn practical storage into a display feature.",
+          "Consistent light positioning is particularly important in repeated shelving because variation becomes easy to compare across adjacent openings.",
         ],
       },
       {
-        heading: "Fitting around the existing room",
+        heading: "A consistent Soho joinery language",
         body: [
-          "Made-to-measure media cabinetry needs to respond to real wall dimensions, floor levels and surrounding finishes. The success of the installation depends on accurate junctions at the outer edges and controlled alignment between the main fitted elements.",
-          "The photographs show how the cabinetry is integrated into the room rather than simply placed in front of the wall, which is one of the main advantages of bespoke fitted furniture.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed unit combines media, display and storage functions in a calm light-toned composition. The overall effect is practical and architectural without overwhelming the room.",
-          "For similar bespoke TV units and fitted media walls, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+          "The dark finish and integrated lighting connect this cabinet visually with the other Soho joinery projects in the gallery. The result is a storage element that feels considered as part of the interior rather than added after the room was designed.",
+          "Form & Frame can apply the same approach to made-to-measure shoe storage, display cabinetry and other fitted storage where standard furniture does not use the available space effectively.",
         ],
       },
     ],
     cover: {
-      src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-room-view-01.webp",
-      alt: "Cream bespoke fitted TV unit in a living room",
-      fit: "contain",
+      src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-overall-view-01.webp",
+      alt: "Soho bespoke shoe-storage cabinet overall view",
     },
     images: [
-      { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-room-view-01.webp", alt: "Room view of cream bespoke fitted TV unit", fit: "contain" },
-      { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-front-view-02.webp", alt: "Front view of cream fitted media cabinetry", fit: "contain" },
-      { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-angled-view-03.webp", alt: "Angled view of cream bespoke TV unit and shelving", fit: "contain" },
-      { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-display-detail-04.webp", alt: "Illuminated display-niche detail in cream media unit", fit: "contain" },
-      { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-side-view-05.webp", alt: "Side room view of cream bespoke media furniture", fit: "contain" },
-    ],
-  },
-{
-    galleryId: "G12",
-    slug: "alexander-james-bespoke-bookcase",
-    title: "Alexander James Bespoke Bookcase",
-    category: "Bespoke Joinery",
-    summary: "A full-height bespoke display bookcase with varied open shelving, integrated lower storage and a carefully balanced fitted composition.",
-    seoDescription: "Alexander James bespoke bookcase case study by Form & Frame, featuring full-height fitted shelving, display compartments and integrated lower storage.",
-    keywords: [
-      "Alexander James bespoke bookcase",
-      "bespoke fitted bookcase",
-      "full height bookcase",
-      "display shelving",
-      "made to measure shelving",
-      "bespoke storage furniture",
-      "fitted joinery",
-      "bespoke joinery",
-    ],
-    highlights: [
-      "Full-height fitted display bookcase",
-      "Varied open shelving proportions",
-      "Integrated lower storage",
-      "Made-to-measure fitted composition",
-    ],
-    caseStudy: [
-      {
-        heading: "A fitted bookcase designed as part of the room",
-        body: [
-          "This project uses a full-height bespoke bookcase to create a permanent fitted feature rather than a freestanding piece of furniture. The shelving occupies the elevation as an architectural element, combining open display space with lower storage in one continuous composition.",
-          "The different shelf sizes give the piece a more individual rhythm than a repeated grid. That variation allows books, decorative objects and larger display pieces to sit naturally while still keeping the overall elevation controlled.",
-        ],
-      },
-      {
-        heading: "The demanding part: balancing varied shelf proportions",
-        body: [
-          "When shelving compartments change in width and height, the setting out has to remain deliberate. Each opening needs to feel related to the neighbouring sections so the finished piece reads as one coherent design rather than a collection of unrelated boxes.",
-          "Full-height cabinetry also makes vertical alignment particularly visible. The outer panels, internal divisions and lower storage fronts all need to remain visually consistent across the completed installation.",
-        ],
-      },
-      {
-        heading: "Display space and practical storage",
-        body: [
-          "The open sections provide the visual character of the bookcase, while the lower cabinets give the room useful concealed storage. Combining the two functions helps the installation remain practical without making the entire wall feel visually heavy.",
-          "The closed lower section also creates a strong base for the taller open shelving above, giving the fitted furniture a clear visual hierarchy.",
-        ],
-      },
-      {
-        heading: "Fitting a large piece accurately",
-        body: [
-          "Large fitted bookcases need to respond to the real room rather than assuming perfectly straight walls, floors and ceilings. Accurate survey and controlled installation help the outer lines meet the surrounding architecture cleanly while keeping the visible shelf grid true.",
-          "The photographs show how the furniture sits tightly within the room while preserving clear, even junctions around the main fitted elements.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed bookcase provides substantial display and storage capacity while retaining a composed, furniture-led appearance. Its varied shelving gives the piece visual interest, while the lower cabinetry keeps everyday storage discreet.",
-          "For similar fitted bookcases, display walls and made-to-measure shelving, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-room-view-01.jpg",
-      alt: "Alexander James bespoke full-height fitted bookcase",
-      fit: "contain",
-    },
-    images: [
-      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-room-view-01.jpg", alt: "Room view of Alexander James bespoke fitted bookcase", fit: "contain" },
-      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-front-view-02.jpg", alt: "Front view of full-height bespoke display bookcase", fit: "contain" },
-      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-angled-view-03.jpg", alt: "Angled view of fitted bookcase and open shelving", fit: "contain" },
-      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-shelving-detail-04.jpg", alt: "Open shelving detail in bespoke bookcase", fit: "contain" },
-      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-detail-05.jpg", alt: "Bespoke bookcase joinery detail", fit: "contain" },
-      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-full-height-06.jpg", alt: "Full-height view of bespoke fitted bookcase", fit: "contain" },
-    ],
-  },
-{
-    galleryId: "G11",
-    slug: "westminster-polished-brass-panelled-doors",
-    title: "Westminster Polished Brass Panelled Doors",
-    category: "Bespoke Joinery",
-    location: "Westminster, London",
-    summary: "Dark reflective wall panels and integrated doors detailed with polished brass lines, forming a precise architectural feature within a Westminster dining interior.",
-    seoDescription: "Westminster bespoke panelled doors case study by Form & Frame, featuring dark reflective panels, integrated doors and precision polished-brass detailing.",
-    keywords: [
-      "bespoke panelled doors Westminster",
-      "polished brass inlay doors",
-      "bespoke wall panels London",
-      "luxury panelled doors",
-      "brass detail joinery",
-      "bespoke doors London",
-      "architectural joinery Westminster",
-      "bespoke interior panels",
-    ],
-    highlights: [
-      "Dark reflective wall panels and integrated doors",
-      "Polished brass line detailing",
-      "Full-height architectural composition",
-      "Precise alignment across intersecting panel joints",
-    ],
-    caseStudy: [
-      {
-        heading: "Architectural joinery integrated into the dining room",
-        body: [
-          "This Westminster project uses full-height dark panels and doors as part of the room architecture rather than treating the doors as separate elements. The polished brass lines continue across the elevation, giving the installation a strong geometric identity within the dining space.",
-          "The dark reflective finish adds depth and contrast against the lighter walls, floor and dining furniture. The result depends on the panel system, door positions and metallic detailing reading as one continuous composition.",
-        ],
-      },
-      {
-        heading: "The demanding part: keeping the brass grid aligned",
-        body: [
-          "The polished brass lines create clear horizontal and vertical references across multiple panels and door faces. Any change in level or spacing would be immediately visible, especially where lines intersect at panel joints.",
-          "Accurate setting out is therefore central to the finished result. Door gaps, panel divisions and brass details all need to work together so that the geometry remains continuous whether the doors are viewed from close range or across the room.",
-        ],
-      },
-      {
-        heading: "Reflective surfaces expose every junction",
-        body: [
-          "High-gloss dark surfaces reflect the room around them, which makes irregular gaps and misalignment more noticeable than on a matt finish. The photographs show how the panel faces sit in a consistent plane while the brass lines remain crisp against the darker background.",
-          "This type of finish also requires careful handling during final fitting because the completed surfaces are highly visible and form part of the decorative character of the room.",
-        ],
-      },
-      {
-        heading: "Doors concealed within the panelled elevation",
-        body: [
-          "The doors are visually absorbed into the wider panel composition. Rather than interrupting the wall with conventional door detailing, the brass lines and dark surfaces continue the same architectural language across fixed and opening sections.",
-          "That approach requires the functional elements of the doors to be coordinated with the visible panel layout so that usability does not compromise the visual continuity of the finished wall.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed installation creates a restrained but distinctive backdrop to the dining room. The combination of dark reflective surfaces and polished brass gives the wall depth and definition while keeping the overall geometry disciplined.",
-          "For similar bespoke panelled doors, feature walls and architectural joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment around the room and the required door positions.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-room-view-01.jpg",
-      alt: "Westminster dining room with dark bespoke panelled doors and polished brass detailing",
-      fit: "contain",
-    },
-    images: [
-      {
-        src: "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-room-view-01.jpg",
-        alt: "Dining room view of Westminster bespoke panelled doors with polished brass lines",
-        fit: "contain",
-      },
-      {
-        src: "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-room-view-02.jpg",
-        alt: "Wide room view of dark reflective panels and integrated doors with brass detailing",
-        fit: "contain",
-      },
-      {
-        src: "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-mid-detail-03.jpg",
-        alt: "Mid-range view of polished brass grid detailing across dark bespoke panels",
-        fit: "contain",
-      },
-      {
-        src: "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-close-detail-04.jpg",
-        alt: "Close-up of polished brass line intersections on dark panelled doors",
-        fit: "contain",
-      },
-    ],
-  },
-{
-    galleryId: "G09",
-    slug: "natural-walnut-bespoke-bookcase",
-    title: "Natural Walnut Bespoke Bookcase",
-    category: "Bespoke Joinery",
-    summary: "A full-height natural walnut bookcase with open shelving, an illuminated geometric mirror feature and carefully integrated display lighting.",
-    seoDescription: "Natural walnut bespoke bookcase case study by Form & Frame, combining full-height fitted shelving, geometric mirrored panels and integrated LED display lighting.",
-    keywords: [
-      "natural walnut bespoke bookcase",
-      "walnut fitted bookcase",
-      "bespoke bookcase",
-      "made to measure bookcase",
-      "fitted shelving",
-      "mirrored bookcase feature",
-      "integrated bookcase lighting",
-      "bespoke joinery",
-    ],
-    highlights: [
-      "Full-height natural walnut shelving",
-      "Illuminated geometric mirrored centre feature",
-      "Integrated vertical display lighting",
-      "Made-to-measure fitted composition",
-    ],
-    caseStudy: [
-      {
-        heading: "A bookcase designed as a feature wall",
-        body: [
-          "This project combines practical book storage with a strong decorative centrepiece. Full-height walnut shelving frames an illuminated geometric mirror composition, turning the fitted bookcase into a focal point within the living room rather than treating it as background storage.",
-          "The warm timber and reflective centre section create deliberate contrast. The shelving provides the visual weight and storage, while the mirrored geometry introduces light, depth and a more sculptural character to the elevation.",
-        ],
-      },
-      {
-        heading: "The demanding part: controlling the geometric centre",
-        body: [
-          "The central feature is built from repeated diagonal mirrored and panelled elements. Because those lines cross one another and repeat vertically, any variation in angle, spacing or junction position would become very noticeable.",
-          "Accurate setting out is therefore important before the surrounding shelving is finally aligned. The centre feature and the two bookcase sections have to read as one composition, even though they use very different shapes and surface treatments.",
-        ],
-      },
-      {
-        heading: "Natural walnut shelving and proportion",
-        body: [
-          "The darker walnut shelving gives the installation a calm frame around the brighter centre. Open shelves of different heights allow books and smaller display pieces to sit naturally without competing with the geometric feature.",
-          "Full-height fitted shelving also needs to respond carefully to the existing room. The finished furniture meets the surrounding walls, skirting and ceiling line while keeping the visible verticals and shelf edges controlled.",
-        ],
-      },
-      {
-        heading: "Integrated lighting and reflective surfaces",
-        body: [
-          "Vertical lighting is incorporated behind and beside the central feature, illuminating the angled panels and mirrored surfaces. This makes the geometry readable in the evening and gives the centre section additional depth.",
-          "Lighting close to mirrored surfaces exposes details very clearly. Straight light lines, neat junctions and consistent spacing become part of the finished joinery quality rather than hidden technical elements.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed bookcase balances storage with a highly individual visual feature. The walnut cabinetry provides warmth and practicality, while the illuminated mirrored centre gives the room a distinctive focal point without requiring a separate decorative installation.",
-          "For similar bespoke bookcases, display walls and fitted shelving, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment around the proportions of the room.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-room-view-01.webp",
-      alt: "Natural walnut bespoke bookcase with illuminated geometric mirrored centre",
-      fit: "contain",
-    },
-    images: [
-      {
-        src: "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-room-view-01.webp",
-        alt: "Room view of natural walnut fitted bookcase with illuminated geometric mirror feature",
-        fit: "contain",
-      },
-      {
-        src: "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-angled-view-02.webp",
-        alt: "Angled view of walnut shelving and illuminated geometric centre feature",
-        fit: "contain",
-      },
-      {
-        src: "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-geometric-mirror-detail-03.webp",
-        alt: "Geometric mirrored panel and integrated lighting detail in bespoke bookcase",
-        fit: "contain",
-      },
-      {
-        src: "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-full-view-04.webp",
-        alt: "Full view of natural walnut shelving with geometric illuminated mirror feature",
-        fit: "contain",
-      },
+      { src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-overall-view-01.webp", alt: "Soho bespoke shoe-storage cabinet overall view" },
+      { src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-angled-view-02.webp", alt: "Angled view of Soho shoe-storage cabinetry" },
+      { src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-led-shelf-detail-03.webp", alt: "LED shelf detail in Soho shoe-storage cabinet" },
+      { src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-illuminated-centre-detail-04.webp", alt: "Illuminated centre shelving detail in Soho shoe-storage cabinet" },
     ],
   },
 {
@@ -1029,422 +547,834 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
 {
-    galleryId: "G07",
-    slug: "soho-shoe-storage-cabinet",
-    title: "Soho Shoe-Storage Cabinet",
+    galleryId: "G09",
+    slug: "natural-walnut-bespoke-bookcase",
+    title: "Natural Walnut Bespoke Bookcase",
     category: "Bespoke Joinery",
-    location: "Soho, London",
-    summary: "A purpose-built shoe-storage cabinet with open shelving, integrated lighting and coordinated dark cabinetry.",
-    seoDescription: "Bespoke Soho shoe-storage cabinet by Form & Frame with open shelving, integrated LED lighting and dark fitted cabinetry.",
+    summary: "A full-height natural walnut bookcase with open shelving, an illuminated geometric mirror feature and carefully integrated display lighting.",
+    seoDescription: "Natural walnut bespoke bookcase case study by Form & Frame, combining full-height fitted shelving, geometric mirrored panels and integrated LED display lighting.",
     keywords: [
-      "bespoke shoe storage Soho",
-      "shoe cabinet London",
-      "fitted shoe storage",
-      "bespoke shelving London",
-      "integrated cabinet lighting",
-      "luxury storage joinery",
+      "natural walnut bespoke bookcase",
+      "walnut fitted bookcase",
+      "bespoke bookcase",
+      "made to measure bookcase",
+      "fitted shelving",
+      "mirrored bookcase feature",
+      "integrated bookcase lighting",
+      "bespoke joinery",
     ],
     highlights: [
-      "Purpose-built shoe storage",
-      "Open display shelving",
-      "Integrated shelf lighting",
-      "Dark coordinated cabinetry",
+      "Full-height natural walnut shelving",
+      "Illuminated geometric mirrored centre feature",
+      "Integrated vertical display lighting",
+      "Made-to-measure fitted composition",
     ],
     caseStudy: [
       {
-        heading: "Purpose-built storage",
+        heading: "A bookcase designed as a feature wall",
         body: [
-          "This fitted cabinet was arranged specifically around shoe storage, using repeated open shelves to make the collection visible and easy to access. The dark cabinetry gives the installation a more architectural character than a conventional freestanding shoe rack.",
-          "Because the storage is open, the internal shelf layout becomes part of the room. Consistent spacing and alignment are therefore as important visually as the storage capacity itself.",
+          "This project combines practical book storage with a strong decorative centrepiece. Full-height walnut shelving frames an illuminated geometric mirror composition, turning the fitted bookcase into a focal point within the living room rather than treating it as background storage.",
+          "The warm timber and reflective centre section create deliberate contrast. The shelving provides the visual weight and storage, while the mirrored geometry introduces light, depth and a more sculptural character to the elevation.",
         ],
       },
       {
-        heading: "The challenge of repeated shelving",
+        heading: "The demanding part: controlling the geometric centre",
         body: [
-          "A large number of closely spaced shelves creates a strong visual grid. Any change in level or inconsistent opening width can be noticeable, so the setting out needs to remain disciplined from one side of the cabinet to the other.",
-          "The shelving also has to retain a useful depth and clear opening while working within the available room proportions. The completed project shows how specialist storage can be made to feel integrated rather than purely functional.",
+          "The central feature is built from repeated diagonal mirrored and panelled elements. Because those lines cross one another and repeat vertically, any variation in angle, spacing or junction position would become very noticeable.",
+          "Accurate setting out is therefore important before the surrounding shelving is finally aligned. The centre feature and the two bookcase sections have to read as one composition, even though they use very different shapes and surface treatments.",
         ],
       },
       {
-        heading: "Integrated light as part of the joinery",
+        heading: "Natural walnut shelving and proportion",
         body: [
-          "Lighting is built into the storage so that each section remains legible and the shelves gain depth. The illuminated centre and shelf details show how lighting can turn practical storage into a display feature.",
-          "Consistent light positioning is particularly important in repeated shelving because variation becomes easy to compare across adjacent openings.",
+          "The darker walnut shelving gives the installation a calm frame around the brighter centre. Open shelves of different heights allow books and smaller display pieces to sit naturally without competing with the geometric feature.",
+          "Full-height fitted shelving also needs to respond carefully to the existing room. The finished furniture meets the surrounding walls, skirting and ceiling line while keeping the visible verticals and shelf edges controlled.",
         ],
       },
       {
-        heading: "A consistent Soho joinery language",
+        heading: "Integrated lighting and reflective surfaces",
         body: [
-          "The dark finish and integrated lighting connect this cabinet visually with the other Soho joinery projects in the gallery. The result is a storage element that feels considered as part of the interior rather than added after the room was designed.",
-          "Form & Frame can apply the same approach to made-to-measure shoe storage, display cabinetry and other fitted storage where standard furniture does not use the available space effectively.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-overall-view-01.webp",
-      alt: "Soho bespoke shoe-storage cabinet overall view",
-    },
-    images: [
-      { src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-overall-view-01.webp", alt: "Soho bespoke shoe-storage cabinet overall view" },
-      { src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-angled-view-02.webp", alt: "Angled view of Soho shoe-storage cabinetry" },
-      { src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-led-shelf-detail-03.webp", alt: "LED shelf detail in Soho shoe-storage cabinet" },
-      { src: "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-illuminated-centre-detail-04.webp", alt: "Illuminated centre shelving detail in Soho shoe-storage cabinet" },
-    ],
-  },
-{
-    galleryId: "G06",
-    slug: "built-in-window-seat-storage",
-    title: "Built-In Window Seat with Drawer Storage",
-    category: "Bespoke Joinery",
-    location: "London",
-    summary: "Painted built-in window seating with concealed drawer storage, shaped to sit cleanly within the existing room.",
-    seoDescription: "London built-in window seat case study by Form & Frame, with painted made-to-measure joinery and integrated drawer storage.",
-    keywords: [
-      "built in window seat London",
-      "window seat storage",
-      "bespoke drawer storage",
-      "made to measure window seat",
-      "painted fitted furniture",
-      "bespoke joinery London",
-    ],
-    highlights: [
-      "Made-to-measure window seating",
-      "Integrated drawer storage",
-      "Painted fitted finish",
-      "Shaped around the existing room",
-    ],
-    caseStudy: [
-      {
-        heading: "Using an awkward area productively",
-        body: [
-          "This project turns the space beneath a window into fitted seating with useful drawer storage. Window areas often have specific width, depth and surrounding-wall constraints, making made-to-measure joinery more effective than standard furniture.",
-          "The finished seat is designed to feel part of the room rather than a separate box placed against the wall. Its proportions follow the available opening and maintain a simple painted appearance.",
-        ],
-      },
-      {
-        heading: "The demanding part: fitting to the existing room",
-        body: [
-          "Built-in furniture has to meet real walls, floors and architectural edges, which are not always perfectly straight or square. The visible success of the piece depends on how accurately the outer lines are fitted to those existing conditions.",
-          "A window seat is also viewed at close range and used physically, so the top, drawer fronts and surrounding junctions need to feel deliberate and robust as well as visually neat.",
-        ],
-      },
-      {
-        heading: "Drawer storage without visual clutter",
-        body: [
-          "The drawers add practical capacity while allowing the front of the seat to remain calm and consistent. When closed, the storage reads as part of the overall joinery rather than as a separate chest of drawers.",
-          "The open-storage photograph demonstrates the usable volume concealed behind the fitted elevation, which is one of the main advantages of designing directly around the available space.",
-        ],
-      },
-      {
-        heading: "A simple fitted result",
-        body: [
-          "The final piece is deliberately understated. Its value comes from using the room efficiently, fitting the existing architecture carefully and combining seating with concealed storage in one element.",
-          "Form & Frame can apply the same approach to window seats, alcove furniture, under-window storage and other fitted pieces where the room geometry makes standard furniture inefficient.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/painted-built-in-window-seat-storage/painted-built-in-window-seat-storage-01.webp",
-      alt: "Painted built-in window seat with drawer storage",
-    },
-    images: [
-      { src: "/images/gallery/painted-built-in-window-seat-storage/painted-built-in-window-seat-storage-01.webp", alt: "Painted built-in window seat with drawer storage" },
-      { src: "/images/gallery/painted-built-in-window-seat-storage/built-in-window-seat-drawer-storage-open-02.webp", alt: "Built-in window seat drawer storage open" },
-      { src: "/images/gallery/painted-built-in-window-seat-storage/made-to-measure-window-seat-storage-detail-03.webp", alt: "Made-to-measure window seat storage detail" },
-    ],
-  },
-{
-    galleryId: "G04",
-    slug: "grey-black-bespoke-media-wall",
-    title: "Grey & Black Bespoke Media Wall",
-    category: "Bespoke Joinery",
-    location: "London",
-    summary: "Floating media cabinetry shown in two coordinated finishes, with wall-mounted storage, shelves and clean integrated proportions.",
-    seoDescription: "London bespoke media wall case study by Form & Frame, with floating cabinetry, wall-mounted shelving and coordinated grey and black finishes.",
-    keywords: [
-      "bespoke media wall London",
-      "floating media cabinet",
-      "TV wall joinery",
-      "bespoke TV unit London",
-      "wall mounted cabinetry",
-      "fitted media furniture",
-    ],
-    highlights: [
-      "Floating wall-mounted cabinetry",
-      "Grey and black finish options",
-      "Integrated open shelving",
-      "Clean horizontal proportions",
-    ],
-    caseStudy: [
-      {
-        heading: "A floating media composition",
-        body: [
-          "This bespoke media wall is built around a strong horizontal arrangement of floating cabinetry and open shelving. Keeping the units off the floor gives the composition a lighter appearance while still providing substantial storage.",
-          "The design is shown in coordinated grey and black finishes, demonstrating how the same underlying proportions can produce a different character depending on colour and contrast.",
-        ],
-      },
-      {
-        heading: "The demanding part: level, spacing and wall fixing",
-        body: [
-          "Floating furniture makes alignment especially visible because there is no plinth or floor contact to disguise variation. The cabinetry needs to read as level across the wall, and the gaps between separate elements need to remain controlled.",
-          "Wall-mounted units also rely on appropriate fixing and careful positioning. The finished elevation depends on the relationship between the lower cabinets, display shelves and the central media area staying visually balanced.",
-        ],
-      },
-      {
-        heading: "Controlling the visual weight",
-        body: [
-          "Media walls can easily become heavy if every part of the elevation is filled. Here, open wall space and separated shelves keep the arrangement lighter and allow the furniture to frame the media zone rather than dominate it.",
-          "The long horizontal cabinet line provides continuity, while the upper elements introduce variation without losing the overall geometry.",
-        ],
-      },
-      {
-        heading: "A flexible fitted-furniture approach",
-        body: [
-          "The project shows how bespoke media furniture can be adjusted through finish, storage configuration and shelf arrangement while retaining a consistent architectural concept.",
-          "For similar TV units and media walls, Form & Frame can coordinate the fitted furniture around the room proportions and the required storage rather than forcing the project into standard cabinet sizes.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/grey-black-bespoke-media-wall/grey-bespoke-media-wall-front-view-01.webp",
-      alt: "Grey bespoke media wall front view",
-    },
-    images: [
-      { src: "/images/gallery/grey-black-bespoke-media-wall/grey-bespoke-media-wall-front-view-01.webp", alt: "Grey bespoke media wall front view" },
-      { src: "/images/gallery/grey-black-bespoke-media-wall/grey-bespoke-media-wall-angled-view-02.webp", alt: "Grey bespoke media wall angled view" },
-      { src: "/images/gallery/grey-black-bespoke-media-wall/black-bespoke-media-wall-front-view-03.webp", alt: "Black bespoke media wall front view" },
-      { src: "/images/gallery/grey-black-bespoke-media-wall/black-bespoke-media-wall-angled-view-04.webp", alt: "Black bespoke media wall angled view" },
-    ],
-  },
-{
-    galleryId: "G03",
-    slug: "soho-walk-in-wardrobe",
-    title: "Soho Walk-In Wardrobe",
-    category: "Bespoke Joinery",
-    location: "Soho, London",
-    summary: "An illuminated walk-in wardrobe with open storage, mirrored detailing, drawers and integrated LED lighting.",
-    seoDescription: "Soho walk-in wardrobe case study featuring bespoke open storage, drawers, mirrored detailing and integrated LED lighting by Form & Frame.",
-    keywords: [
-      "walk in wardrobe Soho",
-      "bespoke wardrobe London",
-      "fitted wardrobe London",
-      "walk in dressing room",
-      "integrated wardrobe lighting",
-      "bespoke storage joinery",
-    ],
-    highlights: [
-      "Open walk-in wardrobe layout",
-      "Integrated LED lighting",
-      "Drawer storage",
-      "Mirrored detailing",
-    ],
-    caseStudy: [
-      {
-        heading: "Storage designed as a room",
-        body: [
-          "This Soho walk-in wardrobe is more than a line of cupboards. The cabinetry defines the space itself, using open storage, drawer units, mirrored elements and integrated lighting to create a dedicated dressing environment.",
-          "Open wardrobes place the internal construction permanently on display. Shelf spacing, drawer alignment, lighting positions and the relationship between adjacent sections therefore contribute directly to the visual quality of the room.",
-        ],
-      },
-      {
-        heading: "Working with a narrow circulation space",
-        body: [
-          "The aisle view shows how important proportion is in a walk-in wardrobe. Storage needs to provide useful capacity without reducing the circulation route to the point where the room feels cramped.",
-          "Full-height joinery on both sides creates many repeated lines. Keeping these lines visually controlled helps the wardrobe feel ordered and intentional, especially where drawers, shelves and mirrored surfaces meet.",
-        ],
-      },
-      {
-        heading: "Lighting and mirrored details",
-        body: [
-          "Integrated LED lighting improves visibility inside the storage and also gives the cabinetry greater depth. The light highlights shelf edges and vertical divisions, which means alignment and finishing details become even more noticeable.",
-          "Mirrored detailing introduces another precise visual reference. Reflective surfaces tend to emphasise lines and junctions, so careful fitting around them is important to maintain a clean result.",
-        ],
-      },
-      {
-        heading: "A coordinated bespoke interior",
-        body: [
-          "The finished wardrobe combines storage density with a controlled architectural appearance. Open shelves, drawers, lighting and mirrors all need to work together rather than competing for attention.",
-          "Projects of this type benefit from coordinated survey, design development, manufacturing control and installation so that the finished cabinetry is resolved as one complete interior.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-illuminated-storage-01.webp",
-      alt: "Illuminated Soho walk-in wardrobe storage",
-    },
-    images: [
-      { src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-illuminated-storage-01.webp", alt: "Illuminated Soho walk-in wardrobe storage" },
-      { src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-aisle-view-02.webp", alt: "Aisle view through Soho walk-in wardrobe" },
-      { src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-drawer-mirror-detail-03.webp", alt: "Drawer and mirror detail in Soho walk-in wardrobe" },
-    ],
-  },
-{
-    galleryId: "G02",
-    slug: "soho-bespoke-bookcase",
-    title: "Soho Bespoke Bookcase",
-    category: "Bespoke Joinery",
-    location: "Soho, London",
-    summary: "Full-height fitted bookcase cabinetry with integrated display lighting and a dark, architectural finish.",
-    seoDescription: "Soho bespoke fitted bookcase case study by Form & Frame: full-height dark cabinetry, integrated display lighting and carefully aligned shelving in a London interior.",
-    keywords: [
-      "bespoke bookcase Soho",
-      "fitted bookcase London",
-      "bespoke joinery London",
-      "full height bookcase",
-      "integrated shelf lighting",
-      "made to measure shelving",
-    ],
-    highlights: [
-      "Full-height fitted bookcase",
-      "Integrated display lighting",
-      "Dark architectural finish",
-      "Repeated shelving and vertical alignment",
-    ],
-    caseStudy: [
-      {
-        heading: "A full-height fitted feature",
-        body: [
-          "This Soho project uses a full-height bespoke bookcase as a strong architectural element within the room. Rather than treating the shelving as loose furniture, the cabinetry is visually integrated with the interior and extends vertically to create a continuous fitted composition.",
-          "The dark finish gives the bookcase a substantial presence, while the open shelving prevents the elevation from feeling too heavy. The balance between solid framing, open display areas and integrated light is central to the finished appearance.",
-        ],
-      },
-      {
-        heading: "The demanding part: repetition and alignment",
-        body: [
-          "Large bookcases are unforgiving because repeated shelves and vertical divisions make small inaccuracies easy to see. Shelf lines, side panels and openings need to remain visually consistent over the full height and width of the installation.",
-          "The fitting also has to respond to the room rather than assuming the surrounding walls, floor and ceiling are perfectly square. Careful setting out and controlled final fitting allow the cabinetry to sit naturally within the space while keeping the visible grid calm and regular.",
-        ],
-      },
-      {
-        heading: "Integrated lighting",
-        body: [
-          "Lighting is incorporated into the shelving so that the display areas remain useful after dark and the depth of the cabinetry is emphasised. The lighting reads as part of the joinery rather than an added accessory, which helps preserve the clean architectural character of the bookcase.",
-          "Where lighting is integrated into bespoke cabinetry, the visual result depends on consistent positioning and neat coordination with shelf edges, internal surfaces and the wider room lighting.",
-        ],
-      },
-      {
-        heading: "Joinery quality in the finished room",
-        body: [
-          "The completed bookcase demonstrates the value of proportion and repetition in bespoke fitted furniture. The design is relatively disciplined, so the quality is carried by accurate spacing, controlled junctions and the relationship between the cabinetry and the room around it.",
-          "For similar fitted bookcases, libraries and display cabinetry, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, and final installation.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-frontal-room-view-04.jpg",
-      alt: "Full frontal room view of Soho bespoke dark oak bookcase",
-      fit: "contain",
-    },
-    images: [
-      {
-        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-frontal-room-view-04.jpg",
-        alt: "Full frontal room view of Soho bespoke dark oak bookcase",
-        fit: "contain",
-      },
-      {
-        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-room-view-01.webp",
-        alt: "Angled illuminated view of Soho bespoke bookcase",
-        fit: "contain",
-      },
-      {
-        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-full-height-02.webp",
-        alt: "Full-height side view of Soho bespoke bookcase",
-        fit: "contain",
-      },
-      {
-        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-display-view-05.jpg",
-        alt: "Dark oak display shelving and integrated lighting in Soho bookcase",
-        fit: "contain",
-      },
-      {
-        src: "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-door-detail-06.jpg",
-        alt: "Close-up of dark oak lower cabinet door and grain detail",
-        fit: "contain",
-      },
-    ],
-  },
-{
-    galleryId: "G01",
-    slug: "handleless-kitchen-installation",
-    title: "Handleless Kitchen Installation",
-    category: "Kitchen Installation",
-    summary: "A completed white handleless kitchen installation with integrated appliances, fitted utility storage and carefully coordinated finishing details.",
-    seoDescription: "Completed handleless kitchen installation by Form & Frame, with integrated appliances, fitted utility storage, worktop details and precision cabinet alignment.",
-    keywords: [
-      "handleless kitchen installation",
-      "kitchen fitter",
-      "integrated appliance fitting",
-      "white handleless kitchen",
-      "kitchen installation Luton",
-      "kitchen installation Bedfordshire",
-    ],
-    highlights: [
-      "White handleless cabinetry",
-      "Integrated appliance installation",
-      "Fitted utility and tall-unit storage",
-      "Worktop, hob and finishing details",
-    ],
-    caseStudy: [
-      {
-        heading: "The installation",
-        body: [
-          "This project shows a completed white handleless kitchen with a restrained, modern layout. The visual character depends on long uninterrupted lines, accurately aligned cabinet fronts and integrated appliances sitting cleanly within the surrounding cabinetry.",
-          "Handleless kitchens leave very little room for inconsistent gaps or uneven front alignment. The fitting therefore needs to be controlled across base units, tall housings, appliance fronts and adjacent panels so that the finished kitchen reads as one continuous composition rather than a collection of separate cabinets.",
-        ],
-      },
-      {
-        heading: "Where precision matters",
-        body: [
-          "The photographs show several areas where installation quality becomes especially visible: the relationship between appliance doors and neighbouring fronts, the alignment of tall units, the junction between worktops and cabinetry, and the consistency of horizontal handleless lines.",
-          "Integrated appliances also require careful adjustment so that doors open correctly while their furniture fronts remain aligned with the surrounding kitchen. Small discrepancies can become obvious in a minimalist design, so final adjustment and checking form an important part of this type of installation.",
-        ],
-      },
-      {
-        heading: "Utility storage and practical coordination",
-        body: [
-          "The fitted utility storage continues the same visual language as the main kitchen. Keeping these secondary areas consistent is important because tall storage, appliance housings and utility cabinetry often introduce more junctions, fillers and changes in cabinet height than the main run.",
-          "The completed result demonstrates how careful installation can preserve a simple appearance even where the underlying layout includes appliances, storage and several technical interfaces.",
+          "Vertical lighting is incorporated behind and beside the central feature, illuminating the angled panels and mirrored surfaces. This makes the geometry readable in the evening and gives the centre section additional depth.",
+          "Lighting close to mirrored surfaces exposes details very clearly. Straight light lines, neat junctions and consistent spacing become part of the finished joinery quality rather than hidden technical elements.",
         ],
       },
       {
         heading: "The finished result",
         body: [
-          "The final kitchen is clean, functional and deliberately understated. The emphasis is on accurate fitting rather than decorative complexity: straight lines, controlled gaps, integrated equipment and a consistent relationship between units, worktops and surrounding finishes.",
-          "Form & Frame provides independent kitchen installation for customer-supplied kitchens, with projects considered across Luton, Bedfordshire, Hertfordshire and selected surrounding areas.",
+          "The completed bookcase balances storage with a highly individual visual feature. The walnut cabinetry provides warmth and practicality, while the illuminated mirrored centre gives the room a distinctive focal point without requiring a separate decorative installation.",
+          "For similar bespoke bookcases, display walls and fitted shelving, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment around the proportions of the room.",
         ],
       },
     ],
     cover: {
-      src: "/images/homepage/modern-white-handleless-kitchen-installation.webp",
-      alt: "Completed white handleless kitchen installation",
+      src: "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-room-view-01.webp",
+      alt: "Natural walnut bespoke bookcase with illuminated geometric mirrored centre",
       fit: "contain",
     },
     images: [
       {
-        src: "/images/homepage/modern-white-handleless-kitchen-installation.webp",
-        alt: "Completed white handleless kitchen installation",
+        src: "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-room-view-01.webp",
+        alt: "Room view of natural walnut fitted bookcase with illuminated geometric mirror feature",
         fit: "contain",
       },
       {
-        src: "/images/homepage/white-handleless-kitchen-fitting-integrated-appliances.webp",
-        alt: "White handleless kitchen with integrated appliances",
+        src: "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-angled-view-02.webp",
+        alt: "Angled view of walnut shelving and illuminated geometric centre feature",
         fit: "contain",
       },
       {
-        src: "/images/homepage/fitted-kitchen-utility-storage-installation.webp",
-        alt: "Fitted utility storage and integrated kitchen appliances",
+        src: "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-geometric-mirror-detail-03.webp",
+        alt: "Geometric mirrored panel and integrated lighting detail in bespoke bookcase",
         fit: "contain",
       },
       {
-        src: "/images/homepage/integrated-dishwasher-kitchen-installation-detail.webp",
-        alt: "Integrated dishwasher installation detail",
+        src: "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-full-view-04.webp",
+        alt: "Full view of natural walnut shelving with geometric illuminated mirror feature",
+        fit: "contain",
+      },
+    ],
+  },
+{
+    galleryId: "G11",
+    slug: "westminster-polished-brass-panelled-doors",
+    title: "Westminster Polished Brass Panelled Doors",
+    category: "Bespoke Joinery",
+    location: "Westminster, London",
+    summary: "Dark reflective wall panels and integrated doors detailed with polished brass lines, forming a precise architectural feature within a Westminster dining interior.",
+    seoDescription: "Westminster bespoke panelled doors case study by Form & Frame, featuring dark reflective panels, integrated doors and precision polished-brass detailing.",
+    keywords: [
+      "bespoke panelled doors Westminster",
+      "polished brass inlay doors",
+      "bespoke wall panels London",
+      "luxury panelled doors",
+      "brass detail joinery",
+      "bespoke doors London",
+      "architectural joinery Westminster",
+      "bespoke interior panels",
+    ],
+    highlights: [
+      "Dark reflective wall panels and integrated doors",
+      "Polished brass line detailing",
+      "Full-height architectural composition",
+      "Precise alignment across intersecting panel joints",
+    ],
+    caseStudy: [
+      {
+        heading: "Architectural joinery integrated into the dining room",
+        body: [
+          "This Westminster project uses full-height dark panels and doors as part of the room architecture rather than treating the doors as separate elements. The polished brass lines continue across the elevation, giving the installation a strong geometric identity within the dining space.",
+          "The dark reflective finish adds depth and contrast against the lighter walls, floor and dining furniture. The result depends on the panel system, door positions and metallic detailing reading as one continuous composition.",
+        ],
+      },
+      {
+        heading: "The demanding part: keeping the brass grid aligned",
+        body: [
+          "The polished brass lines create clear horizontal and vertical references across multiple panels and door faces. Any change in level or spacing would be immediately visible, especially where lines intersect at panel joints.",
+          "Accurate setting out is therefore central to the finished result. Door gaps, panel divisions and brass details all need to work together so that the geometry remains continuous whether the doors are viewed from close range or across the room.",
+        ],
+      },
+      {
+        heading: "Reflective surfaces expose every junction",
+        body: [
+          "High-gloss dark surfaces reflect the room around them, which makes irregular gaps and misalignment more noticeable than on a matt finish. The photographs show how the panel faces sit in a consistent plane while the brass lines remain crisp against the darker background.",
+          "This type of finish also requires careful handling during final fitting because the completed surfaces are highly visible and form part of the decorative character of the room.",
+        ],
+      },
+      {
+        heading: "Doors concealed within the panelled elevation",
+        body: [
+          "The doors are visually absorbed into the wider panel composition. Rather than interrupting the wall with conventional door detailing, the brass lines and dark surfaces continue the same architectural language across fixed and opening sections.",
+          "That approach requires the functional elements of the doors to be coordinated with the visible panel layout so that usability does not compromise the visual continuity of the finished wall.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed installation creates a restrained but distinctive backdrop to the dining room. The combination of dark reflective surfaces and polished brass gives the wall depth and definition while keeping the overall geometry disciplined.",
+          "For similar bespoke panelled doors, feature walls and architectural joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment around the room and the required door positions.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-room-view-01.jpg",
+      alt: "Westminster dining room with dark bespoke panelled doors and polished brass detailing",
+      fit: "contain",
+    },
+    images: [
+      {
+        src: "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-room-view-01.jpg",
+        alt: "Dining room view of Westminster bespoke panelled doors with polished brass lines",
         fit: "contain",
       },
       {
-        src: "/images/homepage/kitchen-worktop-hob-appliance-installation-detail.webp",
-        alt: "Kitchen worktop and hob installation detail",
+        src: "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-room-view-02.jpg",
+        alt: "Wide room view of dark reflective panels and integrated doors with brass detailing",
         fit: "contain",
       },
+      {
+        src: "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-mid-detail-03.jpg",
+        alt: "Mid-range view of polished brass grid detailing across dark bespoke panels",
+        fit: "contain",
+      },
+      {
+        src: "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-close-detail-04.jpg",
+        alt: "Close-up of polished brass line intersections on dark panelled doors",
+        fit: "contain",
+      },
+    ],
+  },
+{
+    galleryId: "G12",
+    slug: "alexander-james-bespoke-bookcase",
+    title: "Alexander James Bespoke Bookcase",
+    category: "Bespoke Joinery",
+    summary: "A full-height bespoke display bookcase with varied open shelving, integrated lower storage and a carefully balanced fitted composition.",
+    seoDescription: "Alexander James bespoke bookcase case study by Form & Frame, featuring full-height fitted shelving, display compartments and integrated lower storage.",
+    keywords: [
+      "Alexander James bespoke bookcase",
+      "bespoke fitted bookcase",
+      "full height bookcase",
+      "display shelving",
+      "made to measure shelving",
+      "bespoke storage furniture",
+      "fitted joinery",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Full-height fitted display bookcase",
+      "Varied open shelving proportions",
+      "Integrated lower storage",
+      "Made-to-measure fitted composition",
+    ],
+    caseStudy: [
+      {
+        heading: "A fitted bookcase designed as part of the room",
+        body: [
+          "This project uses a full-height bespoke bookcase to create a permanent fitted feature rather than a freestanding piece of furniture. The shelving occupies the elevation as an architectural element, combining open display space with lower storage in one continuous composition.",
+          "The different shelf sizes give the piece a more individual rhythm than a repeated grid. That variation allows books, decorative objects and larger display pieces to sit naturally while still keeping the overall elevation controlled.",
+        ],
+      },
+      {
+        heading: "The demanding part: balancing varied shelf proportions",
+        body: [
+          "When shelving compartments change in width and height, the setting out has to remain deliberate. Each opening needs to feel related to the neighbouring sections so the finished piece reads as one coherent design rather than a collection of unrelated boxes.",
+          "Full-height cabinetry also makes vertical alignment particularly visible. The outer panels, internal divisions and lower storage fronts all need to remain visually consistent across the completed installation.",
+        ],
+      },
+      {
+        heading: "Display space and practical storage",
+        body: [
+          "The open sections provide the visual character of the bookcase, while the lower cabinets give the room useful concealed storage. Combining the two functions helps the installation remain practical without making the entire wall feel visually heavy.",
+          "The closed lower section also creates a strong base for the taller open shelving above, giving the fitted furniture a clear visual hierarchy.",
+        ],
+      },
+      {
+        heading: "Fitting a large piece accurately",
+        body: [
+          "Large fitted bookcases need to respond to the real room rather than assuming perfectly straight walls, floors and ceilings. Accurate survey and controlled installation help the outer lines meet the surrounding architecture cleanly while keeping the visible shelf grid true.",
+          "The photographs show how the furniture sits tightly within the room while preserving clear, even junctions around the main fitted elements.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed bookcase provides substantial display and storage capacity while retaining a composed, furniture-led appearance. Its varied shelving gives the piece visual interest, while the lower cabinetry keeps everyday storage discreet.",
+          "For similar fitted bookcases, display walls and made-to-measure shelving, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-room-view-01.jpg",
+      alt: "Alexander James bespoke full-height fitted bookcase",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-room-view-01.jpg", alt: "Room view of Alexander James bespoke fitted bookcase", fit: "contain" },
+      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-front-view-02.jpg", alt: "Front view of full-height bespoke display bookcase", fit: "contain" },
+      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-angled-view-03.jpg", alt: "Angled view of fitted bookcase and open shelving", fit: "contain" },
+      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-shelving-detail-04.jpg", alt: "Open shelving detail in bespoke bookcase", fit: "contain" },
+      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-detail-05.jpg", alt: "Bespoke bookcase joinery detail", fit: "contain" },
+      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-full-height-06.jpg", alt: "Full-height view of bespoke fitted bookcase", fit: "contain" },
+    ],
+  },
+{
+    galleryId: "G13",
+    slug: "cream-bespoke-tv-unit",
+    title: "Cream Bespoke TV Unit",
+    category: "Bespoke Joinery",
+    summary: "A light cream fitted media unit with an integrated television zone, open display shelving and coordinated concealed storage.",
+    seoDescription: "Cream bespoke TV unit case study by Form & Frame, combining fitted media cabinetry, open shelving and integrated storage in a light contemporary finish.",
+    keywords: [
+      "cream bespoke TV unit",
+      "fitted media unit",
+      "bespoke TV wall",
+      "made to measure TV unit",
+      "living room fitted furniture",
+      "bespoke media cabinetry",
+      "fitted shelving",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Light cream fitted media cabinetry",
+      "Integrated television zone",
+      "Open display shelving",
+      "Concealed lower storage",
+    ],
+    caseStudy: [
+      {
+        heading: "A fitted media unit with a lighter visual character",
+        body: [
+          "This project uses a light cream finish to create a fitted television unit that feels integrated with the room without becoming visually heavy. The composition combines the media zone, open display shelving and concealed storage as one coordinated piece of furniture.",
+          "The lighter finish helps the cabinetry sit comfortably against the surrounding interior while still giving the television wall a clear architectural structure.",
+        ],
+      },
+      {
+        heading: "The demanding part: keeping the composition balanced",
+        body: [
+          "Media furniture has to accommodate several different functions within one elevation. The television opening, shelving and storage all need to relate to one another so that the finished wall feels balanced rather than fragmented.",
+          "Careful setting out is especially important where open shelves meet larger cabinet sections, because even small changes in line or spacing can become noticeable across the finished elevation.",
+        ],
+      },
+      {
+        heading: "Open display and concealed storage",
+        body: [
+          "The open shelving provides space for decorative objects and keeps the upper sections visually lighter. The closed storage below creates a practical zone for items that do not need to remain visible.",
+          "Combining open and closed elements allows the unit to work as everyday living-room furniture while still maintaining a clean presentation around the television.",
+        ],
+      },
+      {
+        heading: "Fitting around the existing room",
+        body: [
+          "Made-to-measure media cabinetry needs to respond to real wall dimensions, floor levels and surrounding finishes. The success of the installation depends on accurate junctions at the outer edges and controlled alignment between the main fitted elements.",
+          "The photographs show how the cabinetry is integrated into the room rather than simply placed in front of the wall, which is one of the main advantages of bespoke fitted furniture.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed unit combines media, display and storage functions in a calm light-toned composition. The overall effect is practical and architectural without overwhelming the room.",
+          "For similar bespoke TV units and fitted media walls, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-room-view-01.webp",
+      alt: "Cream bespoke fitted TV unit in a living room",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-room-view-01.webp", alt: "Room view of cream bespoke fitted TV unit", fit: "contain" },
+      { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-front-view-02.webp", alt: "Front view of cream fitted media cabinetry", fit: "contain" },
+      { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-angled-view-03.webp", alt: "Angled view of cream bespoke TV unit and shelving", fit: "contain" },
+      { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-display-detail-04.webp", alt: "Illuminated display-niche detail in cream media unit", fit: "contain" },
+      { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-side-view-05.webp", alt: "Side room view of cream bespoke media furniture", fit: "contain" },
+    ],
+  },
+{
+    galleryId: "G14",
+    slug: "crocodile-front-bespoke-cabinet",
+    title: "Crocodile-Front Bespoke Cabinet",
+    category: "Bespoke Joinery",
+    summary: "A tall dark bespoke cabinet with crocodile-pattern textured fronts, brass-toned detailing and concealed internal shelving.",
+    seoDescription: "Crocodile-front bespoke cabinet case study by Form & Frame, featuring dark textured doors, brass-toned handle and base details, and concealed internal shelving.",
+    keywords: [
+      "crocodile front bespoke cabinet",
+      "textured bespoke cabinet",
+      "dark bespoke furniture",
+      "bespoke storage cabinet",
+      "brass detail cabinet",
+      "luxury bespoke joinery",
+      "made to measure cabinet",
+      "bespoke furniture",
+    ],
+    highlights: [
+      "Crocodile-pattern textured full-height fronts",
+      "Brass-toned square pull and base detailing",
+      "Concealed internal shelving and storage",
+      "Tall furniture proportions set against a light classical interior",
+    ],
+    caseStudy: [
+      {
+        heading: "A strong furniture piece within a restrained interior",
+        body: [
+          "This cabinet was designed as a visually distinctive piece rather than a neutral background element. The dark textured fronts create a deliberate contrast with the pale wall panelling, fireplace and surrounding interior, while the tall proportions give the cabinet a clear architectural presence.",
+          "The room photography shows matching cabinetry positioned around the fireplace, allowing the dark vertical forms to frame the lighter centre of the room without relying on excessive decorative detail.",
+        ],
+      },
+      {
+        heading: "The demanding part: controlling the textured front",
+        body: [
+          "A strongly patterned surface makes alignment more visible. The door margins, centre joint and surrounding dark frame therefore need to remain disciplined so the texture reads as intentional rather than visually uneven.",
+          "The square brass-toned pull is positioned directly across the meeting line of the doors, creating a precise focal point against the darker surface. Small inconsistencies in this area would be immediately noticeable.",
+        ],
+      },
+      {
+        heading: "Concealed storage behind full-height doors",
+        body: [
+          "With the doors open, the cabinet reveals a dark internal arrangement of shelves and storage. Keeping this practical interior behind full-height fronts allows the closed cabinet to retain a clean, furniture-led appearance while still providing useful storage.",
+          "The open view also shows the depth and scale of the doors, which need to operate accurately without disturbing the visual alignment of the closed elevation.",
+        ],
+      },
+      {
+        heading: "Proportion, base detail and room context",
+        body: [
+          "The cabinet is lifted on a brass-toned base structure rather than reading as a solid block to the floor. This introduces a lighter visual break below the dark body and relates directly to the handle detail above.",
+          "The wider room views show why proportion matters: the cabinet has to hold its own beside the fireplace, mirrors, lighting and furniture while still leaving the surrounding architecture visually legible.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed cabinet combines a highly textured exterior with restrained geometry, concealed storage and carefully controlled metal detailing. The contrast between the dark fronts and the brighter room gives the piece its character without requiring an overcomplicated form.",
+          "For similar bespoke cabinets, feature storage pieces and made-to-measure furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-room-view-01.webp",
+      alt: "Dark crocodile-front bespoke cabinet beside a classical fireplace",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-room-view-01.webp", alt: "Room view of dark crocodile-front bespoke cabinet", fit: "contain" },
+      { src: "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-room-context-02.webp", alt: "Wider room context showing matching dark bespoke cabinets", fit: "contain" },
+      { src: "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-open-storage-03.webp", alt: "Open bespoke cabinet showing concealed internal shelving", fit: "contain" },
+      { src: "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-texture-detail-04.webp", alt: "Close detail of crocodile-pattern textured cabinet front", fit: "contain" },
+      { src: "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-brass-handle-detail-05.webp", alt: "Brass-toned square handle detail on textured cabinet doors", fit: "contain" },
+    ],
+  },
+{
+    galleryId: "G15",
+    slug: "sc-bespoke-tv-unit",
+    title: "S&C Bespoke TV Unit",
+    category: "Bespoke Joinery",
+    summary: "A full-wall dark media installation combining an integrated television, large upholstered-look feature panels, open display shelving and long low-level concealed storage.",
+    seoDescription: "S&C bespoke TV unit case study by Form & Frame, combining a full-wall dark media installation, integrated television, textured feature panels, display shelving and concealed storage.",
+    keywords: [
+      "S&C bespoke TV unit",
+      "dark bespoke media wall",
+      "full wall TV unit",
+      "integrated television cabinetry",
+      "textured media wall",
+      "bespoke display shelving",
+      "made to measure TV unit",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Full-wall dark media composition",
+      "Integrated television within large textured panels",
+      "Open display shelving at the outer sections",
+      "Long low-level concealed storage",
+    ],
+    caseStudy: [
+      {
+        heading: "A media wall designed as part of the room",
+        body: [
+          "This project uses the television wall as a complete fitted composition rather than treating the screen as a separate object. The dark full-width installation combines the television, large textured panels, open display areas and low storage into one continuous elevation.",
+          "Against the pale seating and bright ceiling, the dark joinery gives the room a strong focal wall while keeping the television visually integrated with the surrounding furniture.",
+        ],
+      },
+      {
+        heading: "The demanding part: maintaining a large panel grid",
+        body: [
+          "The main feature is a repeated grid of large dark panels surrounding the television. Because the divisions continue across a wide area, consistent horizontal and vertical alignment is especially important. Small variations would become visible immediately across the completed wall.",
+          "The television opening also has to sit accurately within this grid so the screen feels deliberately positioned rather than inserted after the surrounding furniture was set out.",
+        ],
+      },
+      {
+        heading: "Display space without breaking the composition",
+        body: [
+          "Open shelving is concentrated toward the outer sections of the installation. These recesses provide space for books and decorative objects while preserving the darker, more continuous treatment around the central television zone.",
+          "The combination of closed panelled areas and open shelves gives the wall useful storage and display capacity without making every section visually busy.",
+        ],
+      },
+      {
+        heading: "Low storage and room-scale proportion",
+        body: [
+          "A long low-level cabinet runs beneath the media wall, giving the composition a strong horizontal base and providing concealed storage. Its alignment with the upper sections helps the full installation read as one piece rather than separate upper and lower elements.",
+          "The wider photographs show the importance of room-scale proportion. The furniture occupies a substantial wall but remains balanced against the large seating group, patterned rug and other strong features within the interior.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed TV unit combines media, display and storage functions within a dark, highly structured wall treatment. Repeated panel lines, integrated shelving and the long lower cabinet give the installation a deliberate architectural character.",
+          "For similar bespoke TV units and full-wall media installations, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-room-view-01.webp",
+      alt: "S&C dark full-wall bespoke TV unit in a living room",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-room-view-01.webp", alt: "Main room view of S&C dark bespoke TV unit", fit: "contain" },
+      { src: "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-wide-view-02.webp", alt: "Wide living-room view of full-wall bespoke media furniture", fit: "contain" },
+      { src: "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-screen-view-03.webp", alt: "S&C media wall with integrated television in use", fit: "contain" },
+      { src: "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-side-view-04.webp", alt: "Side perspective of dark media wall and low storage", fit: "contain" },
+      { src: "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-detail-05.webp", alt: "Close view of textured media panels and display shelving", fit: "contain" },
+    ],
+  },
+{
+    galleryId: "G16",
+    slug: "sc-bespoke-bookcase",
+    title: "S&C Bespoke Bookcase",
+    category: "Bespoke Joinery",
+    summary: "A dark open bookcase used as both display furniture and a room-dividing feature, with a varied grid of shelves and carefully aligned vertical structure.",
+    seoDescription: "S&C bespoke bookcase case study by Form & Frame, featuring a dark open shelving structure used as display furniture and a room-dividing architectural element.",
+    keywords: [
+      "S&C bespoke bookcase",
+      "dark bespoke bookcase",
+      "open room divider shelving",
+      "bespoke display bookcase",
+      "made to measure shelving",
+      "architectural bookcase",
+      "luxury bespoke furniture",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Dark open shelving used as a room-dividing feature",
+      "Varied grid of vertical and horizontal openings",
+      "Display storage visible from multiple room angles",
+      "Large-scale structure integrated with the interior",
+    ],
+    caseStudy: [
+      {
+        heading: "A bookcase that also defines the room",
+        body: [
+          "This project uses an open bookcase as more than display storage. The dark shelving forms a visual division within the room while still allowing light, views and movement through the open grid.",
+          "Because the piece is visible from several directions, the structure has to work as furniture from both close range and across the wider interior.",
+        ],
+      },
+      {
+        heading: "The demanding part: repeated alignment across a large grid",
+        body: [
+          "The design relies on many repeated horizontal shelves and vertical divisions. That makes small setting-out errors easy to see, particularly where several openings line up across the full height and width of the installation.",
+          "The varied compartment sizes also need to remain visually deliberate so the composition feels balanced rather than random.",
+        ],
+      },
+      {
+        heading: "Open display without making the room feel enclosed",
+        body: [
+          "The open arrangement allows decorative objects, books and accessories to be displayed while keeping visual connections between the adjoining parts of the room.",
+          "Using open sections rather than a solid wall gives the furniture a lighter architectural role, even though the dark finish gives the piece a strong presence.",
+        ],
+      },
+      {
+        heading: "Detail, depth and multiple viewpoints",
+        body: [
+          "Closer photographs show the depth of the shelving and the relationship between the heavier outer frame and the smaller internal divisions. These details are especially important because the furniture is experienced from several angles rather than from one front elevation only.",
+          "The wider room views confirm how the shelving relates to seating, lighting and the surrounding architecture, which is essential when a fitted piece also acts as a spatial divider.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed bookcase provides substantial display capacity while creating a clear architectural division within the room. Its open grid keeps the interior connected, while the dark finish gives the structure enough visual weight to anchor the space.",
+          "For similar bespoke bookcases, display walls and room-dividing furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-room-view-01.webp",
+      alt: "S&C dark open bespoke bookcase used as a room divider",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-room-view-01.webp", alt: "Main room view of S&C dark open bespoke bookcase", fit: "contain" },
+      { src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-wide-room-view-02.webp", alt: "Wide room view showing the bespoke bookcase dividing the interior", fit: "contain" },
+      { src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-angled-view-03.webp", alt: "Angled view of the dark open shelving structure", fit: "contain" },
+      { src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-detail-04.webp", alt: "Close detail of open shelving and display compartments", fit: "contain" },
+      { src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-structure-detail-05.webp", alt: "Structural detail showing the repeated shelving grid", fit: "contain" },
+      { src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-opposite-room-view-06.webp", alt: "Opposite room view of the open bespoke bookcase", fit: "contain" },
+    ],
+  },
+{
+    galleryId: "G17",
+    slug: "grey-bespoke-sideboard",
+    title: "Grey Bespoke Sideboard",
+    category: "Bespoke Joinery",
+    summary: "A slim bespoke sideboard with a dark grey timber finish, square metal pulls, polished metal legs and a combination of drawers and concealed internal storage.",
+    seoDescription: "Grey bespoke sideboard case study by Form & Frame, featuring dark timber-finished cabinetry, square metal pulls, polished metal legs, drawers and concealed internal storage.",
+    keywords: [
+      "grey bespoke sideboard",
+      "bespoke console cabinet",
+      "dark timber sideboard",
+      "made to measure sideboard",
+      "bespoke storage furniture",
+      "metal leg sideboard",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Dark grey timber-finished cabinetry",
+      "Square metal pull details",
+      "Polished metal support legs",
+      "Drawers with concealed internal storage",
+    ],
+    caseStudy: [
+      {
+        heading: "A slim piece with a strong horizontal proportion",
+        body: [
+          "This sideboard is deliberately low and wide, giving it a strong horizontal character. The dark timber finish keeps the body visually restrained while the polished metal legs lift the cabinet away from the floor.",
+          "The front elevation is kept simple so the material, proportions and metal details carry most of the visual interest.",
+        ],
+      },
+      {
+        heading: "The demanding part: keeping the front composition clean",
+        body: [
+          "A long, simple front makes alignment easy to judge. Drawer gaps, door margins and the centre division therefore need to remain consistent so the elevation reads as one controlled piece of furniture.",
+          "The square metal pulls become small focal points across the front, making their position and alignment particularly visible.",
+        ],
+      },
+      {
+        heading: "Storage behind a minimal exterior",
+        body: [
+          "The open view shows that the cabinet combines shallow drawer storage with a larger internal compartment. This allows several storage functions to sit behind one clean exterior.",
+          "The mirrored or reflective internal surfaces add depth to the storage area and contrast with the darker exterior finish.",
+        ],
+      },
+      {
+        heading: "Detail and material contrast",
+        body: [
+          "The close photograph shows the internal lining and the relationship between the darker cabinet material and the surrounding frame. These smaller construction details matter because the piece is relatively simple in form and therefore leaves little to distract from finish quality.",
+          "The metal legs and pulls provide a sharper, lighter contrast against the dark timber surfaces.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed sideboard is compact, restrained and furniture-led, combining useful storage with a clean linear profile and metal detailing.",
+          "For similar bespoke sideboards, consoles and made-to-measure storage furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-front-view-01.webp",
+      alt: "Grey bespoke sideboard with polished metal legs",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-front-view-01.webp", alt: "Front view of grey bespoke sideboard", fit: "contain" },
+      { src: "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-angled-view-02.webp", alt: "Angled view of grey bespoke sideboard and polished metal legs", fit: "contain" },
+      { src: "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-open-storage-03.webp", alt: "Open bespoke sideboard showing drawers and concealed storage", fit: "contain" },
+      { src: "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-interior-detail-04.webp", alt: "Interior material detail inside bespoke sideboard", fit: "contain" },
+    ],
+  },
+{
+    galleryId: "G19",
+    slug: "putney-heath-bespoke-cabinets",
+    title: "Putney Heath Bespoke Cabinets",
+    category: "Bespoke Joinery",
+    location: "Putney Heath, London",
+    summary: "A matching pair of tall dark bespoke cabinets framing a fireplace, with concealed storage, integrated television space and brass-toned detailing.",
+    seoDescription: "Putney Heath bespoke cabinet case study by Form & Frame, featuring a matching pair of dark tall cabinets with concealed storage, integrated television space and brass-toned detailing.",
+    keywords: [
+      "Putney Heath bespoke cabinets",
+      "bespoke cabinets London",
+      "dark fitted cabinets",
+      "fireplace alcove cabinetry",
+      "bespoke TV cabinet",
+      "brass detail cabinetry",
+      "made to measure storage",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Matching tall cabinets framing a fireplace",
+      "Dark textured exterior finish",
+      "Concealed shelving and integrated television storage",
+      "Brass-toned base and handle detailing",
+    ],
+    caseStudy: [
+      {
+        heading: "A matching pair designed around the fireplace",
+        body: [
+          "This Putney Heath project uses two tall bespoke cabinets to frame the fireplace and create a balanced fitted composition. Although the cabinets share the same exterior language, their internal functions are different.",
+          "The matching proportions and finish allow the pair to read as one coordinated design while keeping the central fireplace visually dominant.",
+        ],
+      },
+      {
+        heading: "The demanding part: symmetry with different internal functions",
+        body: [
+          "A paired arrangement makes differences in height, width and alignment particularly visible. The outer frames, base details and front margins therefore need to remain consistent across both cabinets.",
+          "At the same time, each interior has to accommodate a different storage requirement without changing the closed appearance of the matching exteriors.",
+        ],
+      },
+      {
+        heading: "Concealed shelving and television storage",
+        body: [
+          "One cabinet opens to reveal practical shelving and storage, while the other incorporates a television within the internal arrangement. Closing the doors returns both pieces to the same restrained furniture-led appearance.",
+          "This approach keeps technology and everyday storage concealed when not required while preserving a formal, symmetrical room composition.",
+        ],
+      },
+      {
+        heading: "Material and metal detailing",
+        body: [
+          "Close photographs show the textured dark finish, framed fronts and brass-toned details used at the handles and lower supports. These lighter metal elements provide contrast without competing with the darker cabinetry.",
+          "The relationship between the frame, door margins and metal details is important because the strong vertical proportions make small inconsistencies easy to notice.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed pair combines concealed storage and media functions within a coordinated architectural arrangement around the fireplace. The cabinets remain visually consistent when closed while serving different practical roles internally.",
+          "For similar bespoke cabinet pairs, alcove furniture and concealed media storage, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-pair-view-01.webp",
+      alt: "Matching dark bespoke cabinets framing a fireplace in Putney Heath",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-pair-view-01.webp", alt: "Pair of bespoke cabinets framing a fireplace in Putney Heath", fit: "contain" },
+      { src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-room-view-02.webp", alt: "Room context showing matching tall bespoke cabinets", fit: "contain" },
+      { src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-open-storage-03.webp", alt: "Open bespoke cabinet showing concealed shelving", fit: "contain" },
+      { src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-tv-storage-04.webp", alt: "Open bespoke cabinet with integrated television storage", fit: "contain" },
+      { src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-detail-05.webp", alt: "Dark cabinet frame and brass-toned detail", fit: "contain" },
+      { src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-front-detail-06.webp", alt: "Front and handle detail on Putney Heath bespoke cabinet", fit: "contain" },
+    ],
+  },
+{
+    galleryId: "G20",
+    slug: "highgate-fitted-wardrobes",
+    title: "Highgate Fitted Wardrobes",
+    category: "Bespoke Joinery",
+    location: "Highgate, London",
+    summary: "A pair of full-height fitted wardrobes arranged around a bedroom fireplace, with restrained grey fronts and practical hanging, shelving and drawer storage.",
+    seoDescription: "Highgate fitted wardrobe case study by Form & Frame, featuring full-height grey wardrobes arranged around a bedroom fireplace with hanging, shelving and drawer storage.",
+    keywords: [
+      "Highgate fitted wardrobes",
+      "fitted wardrobes London",
+      "bespoke bedroom wardrobes",
+      "grey fitted wardrobes",
+      "alcove wardrobes",
+      "made to measure wardrobes",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Full-height fitted wardrobes around a fireplace",
+      "Restrained grey painted fronts",
+      "Internal hanging, shelving and drawer storage",
+      "Bedroom-scale fitted composition",
+    ],
+    caseStudy: [
+      {
+        heading: "Wardrobes integrated around the fireplace",
+        body: [
+          "This Highgate bedroom uses fitted wardrobes on both sides of the fireplace, turning the wall into a balanced storage composition while keeping the chimney breast and fireplace visually clear.",
+          "The simple full-height fronts keep the wardrobes quiet within the room and allow the existing architectural features to remain prominent.",
+        ],
+      },
+      {
+        heading: "The demanding part: balancing two alcoves",
+        body: [
+          "Working on opposite sides of a fireplace makes symmetry and proportion especially visible. The wardrobes need to align in height, projection and door spacing while responding to the actual dimensions of each alcove.",
+          "The closed elevation therefore depends on careful setting out rather than decorative detail.",
+        ],
+      },
+      {
+        heading: "Practical internal storage",
+        body: [
+          "The open photographs show a combination of hanging space, upper shelving and lower drawers. This gives the wardrobe practical everyday storage while keeping the external appearance restrained.",
+          "The internal arrangement uses the full available height so the fitted furniture makes effective use of the bedroom alcoves.",
+        ],
+      },
+      {
+        heading: "A calm bedroom finish",
+        body: [
+          "The grey finish relates closely to the wall colour and fireplace surround, helping the wardrobes feel integrated rather than added as separate pieces.",
+          "Because the front design is intentionally simple, door alignment, margins and the relationship with the cornice become important parts of the finished result.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed wardrobes provide substantial concealed storage while preserving a calm, balanced bedroom elevation around the fireplace.",
+          "For similar fitted wardrobes and made-to-measure bedroom storage, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-closed-view-01.webp",
+      alt: "Grey fitted wardrobes arranged around a bedroom fireplace in Highgate",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-closed-view-01.webp", alt: "Closed view of Highgate fitted wardrobes around the fireplace", fit: "contain" },
+      { src: "/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-open-view-02.webp", alt: "Open fitted wardrobe showing hanging and drawer storage", fit: "contain" },
+      { src: "/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-storage-detail-03.webp", alt: "Highgate wardrobe internal storage detail", fit: "contain" },
+    ],
+  },
+{
+    galleryId: "G21",
+    slug: "northwood-bespoke-tv-unit",
+    title: "Northwood Bespoke TV Unit",
+    category: "Bespoke Joinery",
+    location: "Northwood, London",
+    summary: "A dark timber full-wall TV and display unit with integrated television, illuminated open niches, upper shelving and concealed low-level storage.",
+    seoDescription: "Northwood bespoke TV unit case study by Form & Frame, featuring dark timber cabinetry, integrated television, illuminated display niches, upper shelving and concealed low-level storage.",
+    keywords: [
+      "Northwood bespoke TV unit",
+      "bespoke media wall Northwood",
+      "dark timber TV unit",
+      "integrated TV cabinetry",
+      "illuminated display shelving",
+      "made to measure media unit",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Full-wall dark timber media composition",
+      "Integrated television",
+      "Illuminated open display niches",
+      "Upper shelving with low-level concealed storage",
+    ],
+    caseStudy: [
+      {
+        heading: "A full-wall media and display composition",
+        body: [
+          "This Northwood installation combines the television with open display shelving and concealed storage across a large section of wall. The dark timber finish gives the furniture a strong presence while the open grid prevents the elevation from feeling too solid.",
+          "The television is integrated into the overall shelving composition rather than treated as a separate object.",
+        ],
+      },
+      {
+        heading: "The demanding part: keeping a large grid visually controlled",
+        body: [
+          "The design uses repeated vertical divisions, horizontal shelves and illuminated display sections. Across a wall-scale installation, any inconsistency in spacing or alignment would be immediately visible.",
+          "The television opening also has to sit naturally within the wider grid so it feels part of the furniture rather than interrupting it.",
+        ],
+      },
+      {
+        heading: "Display lighting within the shelving",
+        body: [
+          "Warm integrated lighting highlights selected open niches and creates contrast against the darker timber finish. The lighting also helps separate display zones from the deeper shelving around the television.",
+          "Because the illuminated sections are viewed directly, the relationship between shelf edges, internal panels and lighting positions becomes part of the visual finish.",
+        ],
+      },
+      {
+        heading: "Open display above concealed storage",
+        body: [
+          "The upper part of the unit is predominantly open and display-led, while the lower cabinetry provides concealed storage behind darker fronts. This keeps everyday storage out of view without making the entire wall visually heavy.",
+          "The angled room view shows how the shelving continues across the wall and relates to the adjacent window and seating area.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed TV unit combines media, display and concealed storage functions within one dark timber composition. Warm lighting and open shelving break up the scale of the wall and give the installation more depth.",
+          "For similar bespoke TV units, media walls and integrated display furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/northwood-bespoke-tv-unit/northwood-bespoke-tv-unit-room-view-01.webp",
+      alt: "Dark timber bespoke TV and display unit in Northwood",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/northwood-bespoke-tv-unit/northwood-bespoke-tv-unit-room-view-01.webp", alt: "Main room view of Northwood bespoke TV unit", fit: "contain" },
+      { src: "/images/gallery/northwood-bespoke-tv-unit/northwood-bespoke-tv-unit-angled-view-02.webp", alt: "Angled view of dark timber TV unit with illuminated display shelving", fit: "contain" },
     ],
   },
 ];
