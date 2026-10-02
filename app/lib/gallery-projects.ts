@@ -1951,6 +1951,77 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/fulham-home-office/fulham-home-office-detail-04.webp", alt: "Shelving and brass inlay detail in Fulham home office", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G32",
+    slug: "fulham-alcove-units",
+    title: "Fulham Alcove Units",
+    category: "Bespoke Joinery",
+    location: "Fulham, London",
+    summary: "A pair of dark fitted alcove units with integrated shelving, concealed storage and fine brass detailing.",
+    seoDescription: "Fulham bespoke alcove units case study by Form & Frame, featuring dark fitted cabinetry, open shelving, concealed storage and brass detailing.",
+    keywords: [
+      "Fulham alcove units",
+      "bespoke alcove furniture Fulham",
+      "fitted alcove cabinets London",
+      "dark timber alcove units",
+      "brass inlay joinery",
+      "made to measure shelving",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Fitted alcove cabinetry",
+      "Integrated open shelving",
+      "Concealed lower storage",
+      "Brass detailing",
+    ],
+    caseStudy: [
+      {
+        heading: "Fitted furniture shaped to the alcoves",
+        body: [
+          "This Fulham project uses fitted cabinetry within the room's alcoves, combining open shelving above with concealed storage below.",
+          "The dark finish gives the units a strong architectural presence while keeping the fireplace and surrounding room as the central composition.",
+        ],
+      },
+      {
+        heading: "The demanding part: working with existing architecture",
+        body: [
+          "Alcove furniture depends on accurate survey because the surrounding walls, chimney breast, floors and ceilings define every visible junction.",
+          "The two sides also need to relate closely to one another so the finished installation feels balanced even when the existing room is not perfectly symmetrical.",
+        ],
+      },
+      {
+        heading: "Open display and concealed storage",
+        body: [
+          "The shelving creates dedicated space for books and decorative objects, while the lower cabinets keep everyday storage out of view.",
+          "This combination keeps the room practical without making the fitted furniture visually heavy from floor to ceiling.",
+        ],
+      },
+      {
+        heading: "Detail and finish",
+        body: [
+          "Fine brass details provide a controlled contrast against the darker cabinetry and help define selected edges and divisions.",
+          "The close-up photography shows the joinery as a furniture piece rather than simply built-in storage.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed alcove units add storage and display space while remaining closely integrated with the existing architecture.",
+          "For similar alcove units, fitted shelving and living-room joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/fulham-alcove-units/fulham-alcove-units-room-view-01.webp",
+      alt: "Dark bespoke alcove units in Fulham",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/fulham-alcove-units/fulham-alcove-units-room-view-01.webp", alt: "Room view of Fulham alcove units", fit: "contain" },
+      { src: "/images/gallery/fulham-alcove-units/fulham-alcove-units-front-view-02.webp", alt: "Front view of fitted alcove cabinetry in Fulham", fit: "contain" },
+      { src: "/images/gallery/fulham-alcove-units/fulham-alcove-units-detail-03.webp", alt: "Joinery and brass detail in Fulham alcove units", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
