@@ -1,35 +1,5 @@
 {
   "schema_version": 1,
-  "enabled": true,
-  "project": "G28 — Manchester Make-Up Island & Dressing Table",
-  "slug": "manchester-makeup-island-dressing-table",
-  "max_long_edge": 2000,
-  "min_long_edge": 1200,
-  "webp_quality": 84,
-  "avif_quality": 58,
-  "webp_target_bytes": 500000,
-  "avif_target_bytes": 400000,
-  "images": [
-    {
-      "drive_file_id": "1vSzUIhW7nu5C2Xa7FA2nRxpzcgwj743-",
-      "source_label": "Garsdale Lane 144.JPG",
-      "role": "make-up island overall view",
-      "output_stem": "manchester-makeup-island-overall-view-01",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-9940-8210-84d7-9df84cae4013/raw?se=2026-10-02T13%3A14%3A04Z&sp=r&sv=2026-02-06&sr=b&scid=d53602ad-53ef-5a83-b415-5874f78f3b6f&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A08%3A02Z&ske=2026-10-03T06%3A08%3A02Z&sks=b&skv=2026-02-06&sig=MuJTb2Ta2qNgfHuWvZEvj1dbo82eOCh/6ezsZIarIJc%3D"
-    },
-    {
-      "drive_file_id": "1bk7HGDH5oQ77WBbFhUGnv_GEmMJYY2aS",
-      "source_label": "Garsdale Lane 149.JPG",
-      "role": "make-up island detail",
-      "output_stem": "manchester-makeup-island-detail-02",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-092c-8210-b2c2-67807fc8191b/raw?se=2026-10-02T13%3A14%3A06Z&sp=r&sv=2026-02-06&sr=b&scid=9c92269f-71b6-58d2-8e5a-f132b4527840&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T05%3A19%3A16Z&ske=2026-10-03T05%3A19%3A16Z&sks=b&skv=2026-02-06&sig=KAKl2CHsIx9eJYfrrhBWxr3tWI8Rm7D2Rww3w3ApO3I%3D"
-    },
-    {
-      "drive_file_id": "1cR1w6bICOwZI1yATfEdXphQ7Mv7Ep8s4",
-      "source_label": "Garsdale Lane 139.JPG",
-      "role": "dressing table view",
-      "output_stem": "manchester-dressing-table-view-03",
-      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-7bf0-81f4-9caf-2bce137b7d57/raw?se=2026-10-02T13%3A14%3A08Z&sp=r&sv=2026-02-06&sr=b&scid=502c7c8a-4f15-5e69-a631-f3c8e7407174&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T02%3A30%3A33Z&ske=2026-10-03T02%3A30%3A33Z&sks=b&skv=2026-02-06&sig=Z0jp0mVH6b8NSOd2YMG1FaqhZtuOrfPe7PgRE8R%2BWOk%3D"
-    }
-  ]
+  "enabled": false,
+  "last_completed_slug": "manchester-makeup-island-dressing-table"
 }
