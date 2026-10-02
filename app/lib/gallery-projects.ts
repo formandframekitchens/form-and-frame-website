@@ -453,6 +453,78 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
+    slug: "cream-bespoke-tv-unit",
+    title: "Cream Bespoke TV Unit",
+    category: "Bespoke Joinery",
+    summary: "A light cream fitted media unit with an integrated television zone, open display shelving and coordinated concealed storage.",
+    seoDescription: "Cream bespoke TV unit case study by Form & Frame, combining fitted media cabinetry, open shelving and integrated storage in a light contemporary finish.",
+    keywords: [
+      "cream bespoke TV unit",
+      "fitted media unit",
+      "bespoke TV wall",
+      "made to measure TV unit",
+      "living room fitted furniture",
+      "bespoke media cabinetry",
+      "fitted shelving",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Light cream fitted media cabinetry",
+      "Integrated television zone",
+      "Open display shelving",
+      "Concealed lower storage",
+    ],
+    caseStudy: [
+      {
+        heading: "A fitted media unit with a lighter visual character",
+        body: [
+          "This project uses a light cream finish to create a fitted television unit that feels integrated with the room without becoming visually heavy. The composition combines the media zone, open display shelving and concealed storage as one coordinated piece of furniture.",
+          "The lighter finish helps the cabinetry sit comfortably against the surrounding interior while still giving the television wall a clear architectural structure.",
+        ],
+      },
+      {
+        heading: "The demanding part: keeping the composition balanced",
+        body: [
+          "Media furniture has to accommodate several different functions within one elevation. The television opening, shelving and storage all need to relate to one another so that the finished wall feels balanced rather than fragmented.",
+          "Careful setting out is especially important where open shelves meet larger cabinet sections, because even small changes in line or spacing can become noticeable across the finished elevation.",
+        ],
+      },
+      {
+        heading: "Open display and concealed storage",
+        body: [
+          "The open shelving provides space for decorative objects and keeps the upper sections visually lighter. The closed storage below creates a practical zone for items that do not need to remain visible.",
+          "Combining open and closed elements allows the unit to work as everyday living-room furniture while still maintaining a clean presentation around the television.",
+        ],
+      },
+      {
+        heading: "Fitting around the existing room",
+        body: [
+          "Made-to-measure media cabinetry needs to respond to real wall dimensions, floor levels and surrounding finishes. The success of the installation depends on accurate junctions at the outer edges and controlled alignment between the main fitted elements.",
+          "The photographs show how the cabinetry is integrated into the room rather than simply placed in front of the wall, which is one of the main advantages of bespoke fitted furniture.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed unit combines media, display and storage functions in a calm light-toned composition. The overall effect is practical and architectural without overwhelming the room.",
+          "For similar bespoke TV units and fitted media walls, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-room-view-01.jpg",
+      alt: "Cream bespoke fitted TV unit in a living room",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-room-view-01.jpg", alt: "Room view of cream bespoke fitted TV unit", fit: "contain" },
+      { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-front-view-02.jpg", alt: "Front view of cream fitted media cabinetry", fit: "contain" },
+      { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-angled-view-03.jpg", alt: "Angled view of cream bespoke TV unit and shelving", fit: "contain" },
+      { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-storage-detail-04.jpg", alt: "Storage and fitted cabinetry detail in cream media unit", fit: "contain" },
+      { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-detail-05.jpg", alt: "Detail view of cream bespoke media furniture", fit: "contain" },
+    ],
+  },
+  {
     slug: "soho-bespoke-bookcase",
     title: "Soho Bespoke Bookcase",
     category: "Bespoke Joinery",
