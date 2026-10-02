@@ -885,6 +885,80 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
+    slug: "putney-heath-bespoke-cabinets",
+    title: "Putney Heath Bespoke Cabinets",
+    category: "Bespoke Joinery",
+    location: "Putney Heath, London",
+    summary: "A matching pair of tall dark bespoke cabinets framing a fireplace, with concealed storage, integrated television space and brass-toned detailing.",
+    seoDescription: "Putney Heath bespoke cabinet case study by Form & Frame, featuring a matching pair of dark tall cabinets with concealed storage, integrated television space and brass-toned detailing.",
+    keywords: [
+      "Putney Heath bespoke cabinets",
+      "bespoke cabinets London",
+      "dark fitted cabinets",
+      "fireplace alcove cabinetry",
+      "bespoke TV cabinet",
+      "brass detail cabinetry",
+      "made to measure storage",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Matching tall cabinets framing a fireplace",
+      "Dark textured exterior finish",
+      "Concealed shelving and integrated television storage",
+      "Brass-toned base and handle detailing",
+    ],
+    caseStudy: [
+      {
+        heading: "A matching pair designed around the fireplace",
+        body: [
+          "This Putney Heath project uses two tall bespoke cabinets to frame the fireplace and create a balanced fitted composition. Although the cabinets share the same exterior language, their internal functions are different.",
+          "The matching proportions and finish allow the pair to read as one coordinated design while keeping the central fireplace visually dominant.",
+        ],
+      },
+      {
+        heading: "The demanding part: symmetry with different internal functions",
+        body: [
+          "A paired arrangement makes differences in height, width and alignment particularly visible. The outer frames, base details and front margins therefore need to remain consistent across both cabinets.",
+          "At the same time, each interior has to accommodate a different storage requirement without changing the closed appearance of the matching exteriors.",
+        ],
+      },
+      {
+        heading: "Concealed shelving and television storage",
+        body: [
+          "One cabinet opens to reveal practical shelving and storage, while the other incorporates a television within the internal arrangement. Closing the doors returns both pieces to the same restrained furniture-led appearance.",
+          "This approach keeps technology and everyday storage concealed when not required while preserving a formal, symmetrical room composition.",
+        ],
+      },
+      {
+        heading: "Material and metal detailing",
+        body: [
+          "Close photographs show the textured dark finish, framed fronts and brass-toned details used at the handles and lower supports. These lighter metal elements provide contrast without competing with the darker cabinetry.",
+          "The relationship between the frame, door margins and metal details is important because the strong vertical proportions make small inconsistencies easy to notice.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed pair combines concealed storage and media functions within a coordinated architectural arrangement around the fireplace. The cabinets remain visually consistent when closed while serving different practical roles internally.",
+          "For similar bespoke cabinet pairs, alcove furniture and concealed media storage, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-pair-view-01.webp",
+      alt: "Matching dark bespoke cabinets framing a fireplace in Putney Heath",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-pair-view-01.webp", alt: "Pair of bespoke cabinets framing a fireplace in Putney Heath", fit: "contain" },
+      { src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-room-view-02.webp", alt: "Room context showing matching tall bespoke cabinets", fit: "contain" },
+      { src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-open-storage-03.webp", alt: "Open bespoke cabinet showing concealed shelving", fit: "contain" },
+      { src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-tv-storage-04.webp", alt: "Open bespoke cabinet with integrated television storage", fit: "contain" },
+      { src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-detail-05.webp", alt: "Dark cabinet frame and brass-toned detail", fit: "contain" },
+      { src: "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-front-detail-06.webp", alt: "Front and handle detail on Putney Heath bespoke cabinet", fit: "contain" },
+    ],
+  },
+  {
     slug: "soho-bespoke-bookcase",
     title: "Soho Bespoke Bookcase",
     category: "Bespoke Joinery",
