@@ -23,8 +23,8 @@ Rules:
 | G09 | Natural Walnut Bespoke Bookcase | LIVE | Nuotraukos puslapiui / strong professional set |
 | G10 | Duplicate Dark Oak Bookcase Set | MERGED INTO G02 | Same Soho Bespoke Bookcase job; selected images merged into G02; G10 retired and never reused |
 | G11 | Westminster Polished Brass Panelled Doors | PREVIEW | Westminster source / selected 4-image set |
-| G12 | Alexander James Bespoke Bookcase | PREVIEW | Alexander James source |
-| G13 | Cream Bespoke TV Unit | QUEUED | Gallery 1 |
+| G12 | Alexander James Bespoke Bookcase | LIVE | Alexander James source |
+| G13 | Cream Bespoke TV Unit | PREVIEW | Gallery 1 |
 | G14 | Crocodile-Front Bespoke Cabinet | QUEUED | Gallery 4 / strong chosen set |
 | G15 | S&C Bespoke TV Unit | QUEUED | Gallery 6 |
 | G16 | S&C Bespoke Bookcase | QUEUED | Gallery 7 |
@@ -72,8 +72,8 @@ Current confirmed minimum: 47 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Last live gallery: G11 — Westminster Polished Brass Panelled Doors
-- Current preview: G12 — Alexander James Bespoke Bookcase
-- Preview branch: g12-alexander-james-bespoke-bookcase
-- Next queued after approval: G13 — Cream Bespoke TV Unit
+- Last live gallery: G12 — Alexander James Bespoke Bookcase
+- Current preview: G13 — Cream Bespoke TV Unit
+- Preview branch: g13-cream-bespoke-tv-unit
+- Next queued after approval: G14 — Crocodile-Front Bespoke Cabinet
 - Continue strictly in ascending G-number order unless the user explicitly changes priority.
