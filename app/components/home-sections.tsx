@@ -28,7 +28,7 @@ export function Hero() {
               <strong>From plan to finished kitchen.</strong>
               <span className="hero-process">Review <i>→</i> Prepare <i>→</i> Install <i>→</i> Finish</span>
             </div>
-            <div className="hero-actions"><Action href="/contact?service=kitchen-installation#enquiry-form">Get an installation quote</Action><Action href="/#projects" secondary>View our work</Action></div>
+            <div className="hero-actions"><Action href="/contact?service=kitchen-installation#enquiry-form">Get an installation quote</Action><Action href="/gallery" secondary>View our work</Action></div>
           </div>
         </div>
       </div>
@@ -97,7 +97,8 @@ export function ProjectsPreview() {
     <section className="section projects-section" id="projects"><div className="container">
       <p className="eyebrow">Genuine installation photography</p>
       <h2>Details from a completed kitchen</h2>
-      <p className="project-intro">These photographs show one completed kitchen currently approved for the website. Additional project stories will be added only when their project details and image permissions have been confirmed.</p>
+      <p className="project-intro">Selected photographs from completed kitchen installation and bespoke joinery work. The full gallery brings each project together with its supporting views and details.</p>
+      <Link className="text-link" href="/gallery">View full gallery <span aria-hidden="true">↗</span></Link>
       <div className="project-grid">
         <Photo name="finished" caption="Completed handleless kitchen" />
         <Photo name="craftsmanship" caption="Integrated appliance fitting detail" />

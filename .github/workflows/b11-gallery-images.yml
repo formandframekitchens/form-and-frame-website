@@ -1,0 +1,72 @@
+name: B11 Gallery Image Processor
+
+on:
+  push:
+    branches:
+      - b11-gallery-case-studies
+    paths:
+      - "docs/gallery/image-jobs/**"
+      - ".github/workflows/b11-gallery-images.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  process-gallery-images:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout B11
+        uses: actions/checkout@v4
+        with:
+          ref: b11-gallery-case-studies
+
+      - name: Ensure image tools
+        run: |
+          if ! command -v convert >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y imagemagick
+          fi
+          convert -version
+
+      - name: Process current gallery job
+        shell: bash
+        run: |
+          set -euo pipefail
+          JOB="docs/gallery/image-jobs/current.json"
+          test -f "$JOB"
+
+          count=$(jq '.images | length' "$JOB")
+          for i in $(seq 0 $((count - 1))); do
+            url=$(jq -r ".images[$i].source_url" "$JOB")
+            output=$(jq -r ".images[$i].output" "$JOB")
+            crop=$(jq -r ".images[$i].crop" "$JOB")
+
+            mkdir -p "$(dirname "$output")"
+            src="/tmp/gallery-source-$i.jpg"
+            curl --fail --location --retry 2 "$url" -o "$src"
+
+            convert "$src"               -auto-orient               -strip               -colorspace sRGB               -crop "$crop" +repage               -resize "1800x1350!"               -unsharp "0x0.7+0.7+0.03"               -quality 78               "$output"
+
+            bytes=$(stat -c%s "$output")
+            if [ "$bytes" -gt 500000 ]; then
+              convert "$src"                 -auto-orient                 -strip                 -colorspace sRGB                 -crop "$crop" +repage                 -resize "1800x1350!"                 -unsharp "0x0.7+0.7+0.03"                 -quality 72                 "$output"
+              bytes=$(stat -c%s "$output")
+            fi
+
+            dimensions=$(identify -format '%wx%h' "$output")
+            test "$dimensions" = "1800x1350"
+            test "$bytes" -le 500000
+            echo "$output : $dimensions : $bytes bytes"
+          done
+
+      - name: Commit processed assets
+        run: |
+          set -euo pipefail
+          title=$(jq -r '.project' docs/gallery/image-jobs/current.json)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/images/gallery
+          git rm docs/gallery/image-jobs/current.json
+          git commit -m "B11 add polished gallery assets: $title"
+          git push origin HEAD:b11-gallery-case-studies
