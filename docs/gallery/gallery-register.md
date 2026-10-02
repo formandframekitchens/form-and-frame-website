@@ -91,13 +91,17 @@ Current confirmed minimum: 47 distinct case-study slots, plus retired duplicate 
 ## Resume pointer
 - Last live gallery: G13 — Cream Bespoke TV Unit
 - Sequence halted at: G14 — Crocodile-Front Bespoke Cabinet
-- G14 branch exists: g14-crocodile-front-bespoke-cabinet
+- Active repair branch: g14-crocodile-front-bespoke-cabinet-v2
 - G14 quality review: PASSED
-- Selected G14 images: room view, wider room context, open cabinet, crocodile-texture close-up, brass handle/front detail
-- One damaged/truncated source image was excluded and must not be retried
-- Five optimized local WebP assets were successfully prepared in the working runtime, but were NOT committed to GitHub
-- Failed checkpoint: local optimized-asset transfer into the G14 branch
-- Fuse reason: after earlier Google Drive -> GitHub transport failures, the replacement local-file transfer path did not complete cleanly and the sequence stalled before any verified branch asset commit
-- Important: do NOT start G15 until G14 asset-transfer method is replaced with one verified transfer method
-- Next repair should begin at the asset-transfer checkpoint, not repeat image selection
+- Selected images remain: room view, wider room context, open cabinet, crocodile-texture close-up, brass handle/front detail
+- One damaged/truncated source image remains excluded and must not be retried
+- Verified transfer result:
+  - first clean source image transferred Drive -> GitHub blob -> tree -> commit -> branch successfully
+  - committed branch file SHA matched the created GitHub blob SHA
+  - second selected image successfully created as a GitHub blob but was not yet committed to the branch
+- Failed checkpoint: third selected image Drive raw binary/base64 fetch
+- Root cause now isolated: Google Drive connector raw binary/body streaming is intermittently failing with HTTP/2 body-read errors; GitHub blob/tree/commit path itself is working
+- This is the second recurrence of the same Drive binary-stream transport failure, so the safety fuse is legitimately TRIPPED
+- Do NOT start G15
+- Next repair must replace or bypass Google Drive raw-binary streaming; do not repeat the current include_base64 transfer loop
 - Safety fuse status: TRIPPED — sequence intentionally stopped
