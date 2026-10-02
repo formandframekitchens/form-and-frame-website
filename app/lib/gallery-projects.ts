@@ -525,6 +525,78 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
+    slug: "crocodile-front-bespoke-cabinet",
+    title: "Crocodile-Front Bespoke Cabinet",
+    category: "Bespoke Joinery",
+    summary: "A tall dark bespoke cabinet with crocodile-pattern textured fronts, brass-toned detailing and concealed internal shelving.",
+    seoDescription: "Crocodile-front bespoke cabinet case study by Form & Frame, featuring dark textured doors, brass-toned handle and base details, and concealed internal shelving.",
+    keywords: [
+      "crocodile front bespoke cabinet",
+      "textured bespoke cabinet",
+      "dark bespoke furniture",
+      "bespoke storage cabinet",
+      "brass detail cabinet",
+      "luxury bespoke joinery",
+      "made to measure cabinet",
+      "bespoke furniture",
+    ],
+    highlights: [
+      "Crocodile-pattern textured full-height fronts",
+      "Brass-toned square pull and base detailing",
+      "Concealed internal shelving and storage",
+      "Tall furniture proportions set against a light classical interior",
+    ],
+    caseStudy: [
+      {
+        heading: "A strong furniture piece within a restrained interior",
+        body: [
+          "This cabinet was designed as a visually distinctive piece rather than a neutral background element. The dark textured fronts create a deliberate contrast with the pale wall panelling, fireplace and surrounding interior, while the tall proportions give the cabinet a clear architectural presence.",
+          "The room photography shows matching cabinetry positioned around the fireplace, allowing the dark vertical forms to frame the lighter centre of the room without relying on excessive decorative detail.",
+        ],
+      },
+      {
+        heading: "The demanding part: controlling the textured front",
+        body: [
+          "A strongly patterned surface makes alignment more visible. The door margins, centre joint and surrounding dark frame therefore need to remain disciplined so the texture reads as intentional rather than visually uneven.",
+          "The square brass-toned pull is positioned directly across the meeting line of the doors, creating a precise focal point against the darker surface. Small inconsistencies in this area would be immediately noticeable.",
+        ],
+      },
+      {
+        heading: "Concealed storage behind full-height doors",
+        body: [
+          "With the doors open, the cabinet reveals a dark internal arrangement of shelves and storage. Keeping this practical interior behind full-height fronts allows the closed cabinet to retain a clean, furniture-led appearance while still providing useful storage.",
+          "The open view also shows the depth and scale of the doors, which need to operate accurately without disturbing the visual alignment of the closed elevation.",
+        ],
+      },
+      {
+        heading: "Proportion, base detail and room context",
+        body: [
+          "The cabinet is lifted on a brass-toned base structure rather than reading as a solid block to the floor. This introduces a lighter visual break below the dark body and relates directly to the handle detail above.",
+          "The wider room views show why proportion matters: the cabinet has to hold its own beside the fireplace, mirrors, lighting and furniture while still leaving the surrounding architecture visually legible.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed cabinet combines a highly textured exterior with restrained geometry, concealed storage and carefully controlled metal detailing. The contrast between the dark fronts and the brighter room gives the piece its character without requiring an overcomplicated form.",
+          "For similar bespoke cabinets, feature storage pieces and made-to-measure furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-room-view-01.webp",
+      alt: "Dark crocodile-front bespoke cabinet beside a classical fireplace",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-room-view-01.webp", alt: "Room view of dark crocodile-front bespoke cabinet", fit: "contain" },
+      { src: "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-room-context-02.webp", alt: "Wider room context showing matching dark bespoke cabinets", fit: "contain" },
+      { src: "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-open-storage-03.webp", alt: "Open bespoke cabinet showing concealed internal shelving", fit: "contain" },
+      { src: "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-texture-detail-04.webp", alt: "Close detail of crocodile-pattern textured cabinet front", fit: "contain" },
+      { src: "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-brass-handle-detail-05.webp", alt: "Brass-toned square handle detail on textured cabinet doors", fit: "contain" },
+    ],
+  },
+  {
     slug: "soho-bespoke-bookcase",
     title: "Soho Bespoke Bookcase",
     category: "Bespoke Joinery",
