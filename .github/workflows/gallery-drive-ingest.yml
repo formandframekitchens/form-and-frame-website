@@ -4,8 +4,6 @@ on:
   push:
     paths:
       - "docs/gallery/image-jobs/current.json"
-      - "scripts/gallery_drive_ingest.py"
-      - ".github/workflows/gallery-drive-ingest.yml"
   workflow_dispatch:
 
 permissions:
