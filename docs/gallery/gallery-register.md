@@ -49,7 +49,7 @@ When the fuse fires:
 | G18 | Dubai Bespoke TV Unit | LIVE | Arno 08 / coherent light-grey 5-image set; separate dark unit excluded |
 | G19 | Putney Heath Bespoke Cabinets | LIVE | Arno 07 / 6-image paired-cabinet set; Drive ingest passed |
 | G20 | Highgate Fitted Wardrobes | LIVE | Arno 06 / 3-image fitted-wardrobe set; Drive ingest passed |
-| G21 | Northwood Bespoke TV Unit | PREVIEW READY | Split from Arno 05 / 2-image TV-unit set; office images reserved for G22 |
+| G21 | Northwood Bespoke TV Unit | MERGED / PRODUCTION BUILDING | Split from Arno 05 / 2-image TV-unit set; office images reserved for G22 |
 | G22 | Northwood Home Office | QUEUED | Split from Arno 05 |
 | G23 | Putney Flat Bespoke TV Unit | QUEUED | Arno 04 |
 | G24 | Earls Court Bespoke TV Unit | QUEUED | Split from Arno 03 |
@@ -90,14 +90,15 @@ Current confirmed minimum: 47 distinct case-study slots, plus retired duplicate 
 
 ## Resume pointer
 - Last confirmed live gallery: G20 — Highgate Fitted Wardrobes
-- Current gallery: G21 — Northwood Bespoke TV Unit
-- Active branch: g21-northwood-bespoke-tv-unit
-- G21 workflow: PASSED first run
-- G21 source validation: PASSED for 38.jpg and 39.jpg
-- G21 output: 2 WebP + 2 AVIF assets generated without cropping
+- G14–G21 repository integrity check: PASSED on master
+- G20 production deployment: VERIFIED READY
+- G20 live route: VERIFIED with all 3 images
+- G21 — Northwood Bespoke TV Unit: MERGED INTO MASTER
+- G21 Drive ingest: PASSED
+- G21 output: 2 WebP + 2 AVIF assets
 - G21 Git blob SHA verification: PASSED
-- G21 sanitized Drive-ID archive: VERIFIED
-- G21 case-study code: ADDED
-- G22 Northwood Home Office source separation: 40.jpg, 41.jpg and 42.jpg reserved and not used in G21
-- Next checkpoint: Vercel preview + production verification
-- Safety fuse status: ARMED
+- G21 preview route: VERIFIED with both TV-unit images
+- G21 production deployment: BUILDING on both allowed state checks
+- Safety fuse: TRIPPED — no third production poll performed
+- G22 Northwood Home Office source reserved: 40.jpg, 41.jpg and 42.jpg
+- Resume exactly at: one fresh G21 production-state check; if READY, verify live route, mark G21 LIVE, then stop this batch
