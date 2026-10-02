@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "project": "G14 — Crocodile-Front Bespoke Cabinet",
+  "slug": "crocodile-front-bespoke-cabinet",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1sid9Ql-OsU4fx9Y2bfR-1wvHiqwt1i1E",
+      "source_label": "Bespoke cabinet-2.jpg",
+      "role": "room view",
+      "output_stem": "crocodile-front-cabinet-room-view-01"
+    },
+    {
+      "drive_file_id": "1Nq80zNUk9mZxLMZNvunOlLUYce1JpqT0",
+      "source_label": "Bespoke cabinet-3.jpg",
+      "role": "wider room context",
+      "output_stem": "crocodile-front-cabinet-room-context-02"
+    },
+    {
+      "drive_file_id": "1nWZE4pID_1_SJC6tdDldDo92AE5Ty4kU",
+      "source_label": "Bespoke cabinet-6.jpg",
+      "role": "open cabinet",
+      "output_stem": "crocodile-front-cabinet-open-storage-03"
+    },
+    {
+      "drive_file_id": "1au4__pHpEVCIrx0RD10gRbrbFNXcfhdA",
+      "source_label": "Bespoke cabinet-10.jpg",
+      "role": "crocodile texture detail",
+      "output_stem": "crocodile-front-cabinet-texture-detail-04"
+    },
+    {
+      "drive_file_id": "1Q0zKaOKIvINud6frSL6lIR-zPOstPaUb",
+      "source_label": "Bespoke cabinet-1.jpg",
+      "role": "brass handle detail",
+      "output_stem": "crocodile-front-cabinet-brass-handle-detail-05"
+    }
+  ],
+  "enabled": false
+}

@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "project": "G14 \u2014 Crocodile-Front Bespoke Cabinet",
+  "slug": "crocodile-front-bespoke-cabinet",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1sid9Ql-OsU4fx9Y2bfR-1wvHiqwt1i1E",
+      "source_label": "Bespoke cabinet-2.jpg",
+      "role": "room view",
+      "original": {
+        "width": 3000,
+        "height": 1970
+      },
+      "webp": {
+        "path": "public/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-room-view-01.webp",
+        "bytes": 186670,
+        "quality": 84,
+        "width": 2000,
+        "height": 1313,
+        "sha256": "b52405da5ade31a846885a14eb3344babd50605b13ecf5352c3ea62bae8d8f79",
+        "git_blob_sha": "35b5aceed1b28552f742c7e2a321402a76c56380"
+      },
+      "avif": {
+        "path": "public/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-room-view-01.avif",
+        "bytes": 113227,
+        "quality": 58,
+        "width": 2000,
+        "height": 1313,
+        "sha256": "aef161100e24f0357ba43c1f465f6aeda368563d64210b952ec081d56b2f7e41",
+        "git_blob_sha": "9909dcfbf363e27c9dd80a0cba621d789f57bca3"
+      }
+    },
+    {
+      "drive_file_id": "1Nq80zNUk9mZxLMZNvunOlLUYce1JpqT0",
+      "source_label": "Bespoke cabinet-3.jpg",
+      "role": "wider room context",
+      "original": {
+        "width": 3000,
+        "height": 1970
+      },
+      "webp": {
+        "path": "public/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-room-context-02.webp",
+        "bytes": 229570,
+        "quality": 84,
+        "width": 2000,
+        "height": 1313,
+        "sha256": "c62bfe571288480f6e20552671f8d9c32811fa351529099e3be9de76d495e6b3",
+        "git_blob_sha": "dd9d898d4ebb8a641f8a0c56ebd058d67d68afef"
+      },
+      "avif": {
+        "path": "public/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-room-context-02.avif",
+        "bytes": 157538,
+        "quality": 58,
+        "width": 2000,
+        "height": 1313,
+        "sha256": "c2f05e8d64d8e7b4aaba2420a5e6369c612d1d93af71e8035dd095e09baae7fa",
+        "git_blob_sha": "1aa6302a078fe58ab565e17c2fe107920d7a13a2"
+      }
+    },
+    {
+      "drive_file_id": "1nWZE4pID_1_SJC6tdDldDo92AE5Ty4kU",
+      "source_label": "Bespoke cabinet-6.jpg",
+      "role": "open cabinet",
+      "original": {
+        "width": 1970,
+        "height": 3000
+      },
+      "webp": {
+        "path": "public/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-open-storage-03.webp",
+        "bytes": 182612,
+        "quality": 84,
+        "width": 1313,
+        "height": 2000,
+        "sha256": "6ce406a0b9ef6cdae2262e43f391ffa12194217bacfd696e7c83749c3047afe1",
+        "git_blob_sha": "8e163b8f48f6cd45ebdf9131b6c51a96ec61887c"
+      },
+      "avif": {
+        "path": "public/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-open-storage-03.avif",
+        "bytes": 113373,
+        "quality": 58,
+        "width": 1313,
+        "height": 2000,
+        "sha256": "19e001fbb3023e0625abaa2f4d30ebbd8ffc7822ceac1d18a8b81f59572c8bbd",
+        "git_blob_sha": "b31e77b3cb85cf6e367afff76d424419b071adeb"
+      }
+    },
+    {
+      "drive_file_id": "1au4__pHpEVCIrx0RD10gRbrbFNXcfhdA",
+      "source_label": "Bespoke cabinet-10.jpg",
+      "role": "crocodile texture detail",
+      "original": {
+        "width": 3000,
+        "height": 1970
+      },
+      "webp": {
+        "path": "public/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-texture-detail-04.webp",
+        "bytes": 205366,
+        "quality": 84,
+        "width": 2000,
+        "height": 1313,
+        "sha256": "a4e55b5ec284f27c7f91ef99ba93100ffc80fdfa73b17462e74c62b36073d3d9",
+        "git_blob_sha": "080d57ddd207eab9ddbd5eaa814695b9f80b0d92"
+      },
+      "avif": {
+        "path": "public/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-texture-detail-04.avif",
+        "bytes": 116049,
+        "quality": 58,
+        "width": 2000,
+        "height": 1313,
+        "sha256": "f9e1d47ee4ad9674fbfbcc0fd4ab39b760169ba7d215793ae6934b2074aced25",
+        "git_blob_sha": "b507693ff3d419a22946cde0c5a6f3813efd4ddd"
+      }
+    },
+    {
+      "drive_file_id": "1Q0zKaOKIvINud6frSL6lIR-zPOstPaUb",
+      "source_label": "Bespoke cabinet-1.jpg",
+      "role": "brass handle detail",
+      "original": {
+        "width": 1970,
+        "height": 3000
+      },
+      "webp": {
+        "path": "public/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-brass-handle-detail-05.webp",
+        "bytes": 495110,
+        "quality": 72,
+        "width": 1182,
+        "height": 1800,
+        "sha256": "7edeaa72e8080df5a571097e85d910a414d2a1ae4f8f986e4078e6978a262060",
+        "git_blob_sha": "cb1f7c4816bd419e661c32d75e1cde97605058fd"
+      },
+      "avif": {
+        "path": "public/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-brass-handle-detail-05.avif",
+        "bytes": 380132,
+        "quality": 42,
+        "width": 1313,
+        "height": 2000,
+        "sha256": "3be3154a2edf99560a1248b3145736d81fda1e65d54c9c1f3cc93cd4dce59103",
+        "git_blob_sha": "abba47f84b2bcdeecc0f61fa67276db8f761384a"
+      }
+    }
+  ]
+}

@@ -42,7 +42,7 @@ When the fuse fires:
 | G11 | Westminster Polished Brass Panelled Doors | LIVE | Westminster source / selected 4-image set |
 | G12 | Alexander James Bespoke Bookcase | LIVE | Alexander James source |
 | G13 | Cream Bespoke TV Unit | LIVE | Gallery 1 |
-| G14 | Crocodile-Front Bespoke Cabinet | FUSE STOP | Gallery 4 / strong chosen set |
+| G14 | Crocodile-Front Bespoke Cabinet | PREVIEW READY | Gallery 4 / Drive ingest verified; 5-image WebP + AVIF set |
 | G15 | S&C Bespoke TV Unit | QUEUED | Gallery 6 |
 | G16 | S&C Bespoke Bookcase | QUEUED | Gallery 7 |
 | G17 | Grey Bespoke Sideboard | QUEUED / LOWER | Gallery 10 / four-image set |
@@ -90,18 +90,13 @@ Current confirmed minimum: 47 distinct case-study slots, plus retired duplicate 
 
 ## Resume pointer
 - Last live gallery: G13 — Cream Bespoke TV Unit
-- Sequence halted at: G14 — Crocodile-Front Bespoke Cabinet
-- Active repair branch: g14-crocodile-front-bespoke-cabinet-v2
-- G14 quality review: PASSED
-- Selected images remain: room view, wider room context, open cabinet, crocodile-texture close-up, brass handle/front detail
-- One damaged/truncated source image remains excluded and must not be retried
-- Verified transfer result:
-  - first clean source image transferred Drive -> GitHub blob -> tree -> commit -> branch successfully
-  - committed branch file SHA matched the created GitHub blob SHA
-  - second selected image successfully created as a GitHub blob but was not yet committed to the branch
-- Failed checkpoint: third selected image Drive raw binary/base64 fetch
-- Root cause now isolated: Google Drive connector raw binary/body streaming is intermittently failing with HTTP/2 body-read errors; GitHub blob/tree/commit path itself is working
-- This is the second recurrence of the same Drive binary-stream transport failure, so the safety fuse is legitimately TRIPPED
-- Do NOT start G15
-- Next repair must replace or bypass Google Drive raw-binary streaming; do not repeat the current include_base64 transfer loop
-- Safety fuse status: TRIPPED — sequence intentionally stopped
+- Current gallery: G14 — Crocodile-Front Bespoke Cabinet
+- Active branch: gallery-drive-ingest-v1
+- New Drive ingest workflow: VERIFIED on G14
+- G14 source validation: PASSED; damaged Bespoke cabinet-7.jpg remains excluded
+- G14 output: 5 WebP + 5 AVIF assets generated without cropping
+- G14 Git blob SHA verification: PASSED for all generated assets
+- G14 case-study code: ADDED
+- Next checkpoint: build + Vercel preview verification
+- G15 must not begin until G14 preview/build checkpoint passes
+- Safety fuse status: ARMED
