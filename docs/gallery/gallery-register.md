@@ -61,7 +61,7 @@ When the fuse fires:
 | G28 | Manchester Make-Up Island & Dressing Table | LIVE | Manchester HIGH RES / 3 clean originals matched from labelled web set; logo folders excluded; Drive ingest passed |
 | G29 | Virginia Water Wine Room | LIVE | Wentworth / 6 clean images; duplicate/logo preflight passed; Drive ingest passed after push-race retry |
 | G30 | Fulham Wine Cellar | LIVE | Clean HIGH RES MH0031–MH0035; duplicate/logo preflight passed; Drive ingest passed |
-| G31 | Fulham Home Office | PROCESSING / FUSE STOP | Clean HIGH RES MH0025–MH0028; duplicate/logo preflight passed; Actions still in_progress on second check |
+| G31 | Fulham Home Office | LIVE | Clean HIGH RES MH0025–MH0028; duplicate/logo preflight passed; Drive ingest passed |
 | G32 | Fulham Alcove Units | QUEUED | Professional pictures / Fulham project |
 | G33 | Fulham Juice Bar Joinery | QUEUED | Professional pictures / Fulham project |
 | G34 | Fulham Antique Mirror Feature | QUEUED | Professional pictures / Fulham project |
@@ -91,13 +91,10 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Last confirmed live gallery: G30 — Fulham Wine Cellar
-- G12 public name: Bookcase in Esher
-- G31 — Fulham Home Office: ingest branch g31-fulham-home-office
-- G31 source set: clean HIGH RES MH0025–MH0028
-- G31 duplicate/logo preflight: PASSED
-- GitHub Actions run 37017446858 remained in_progress on both allowed checks
-- Safety fuse: TRIPPED — no third Actions poll performed
-- G32 Fulham Alcove Units: NOT STARTED
-- G32 resolved clean source set: MH0016–MH0018 only
-- Resume exactly at: one fresh G31 Actions-state check; if completed success, add G31 case study/register checkpoint, preview, merge, production verify, then continue G32
+- Last live gallery: G31 — Fulham Home Office
+- G31 production: VERIFIED READY and live with 4 images
+- Next gallery: G32 — Fulham Alcove Units
+- G32 source set: clean HIGH RES MH0016–MH0018 only
+- Ambiguous/unrelated Fulham images remain excluded
+- Duplicate/logo preflight remains mandatory
+- Safety fuse status: ARMED
