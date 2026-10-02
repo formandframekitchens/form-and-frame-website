@@ -1,56 +1,5 @@
 {
   "schema_version": 1,
-  "enabled": true,
-  "project": "G16 — S&C Bespoke Bookcase",
-  "slug": "sc-bespoke-bookcase",
-  "max_long_edge": 2000,
-  "min_long_edge": 1200,
-  "webp_quality": 84,
-  "avif_quality": 58,
-  "webp_target_bytes": 500000,
-  "avif_target_bytes": 400000,
-  "images": [
-    {
-      "drive_file_id": "1xzbUY7yAH8SMAk-FtjoRB_2FwYV_SKbP",
-      "source_label": "1.jpg",
-      "role": "main room view",
-      "output_stem": "sc-bespoke-bookcase-room-view-01",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-c954-8210-967c-47e24b3ef7fe/raw?se=2026-10-02T10%3A09%3A35Z&sp=r&sv=2026-02-06&sr=b&scid=e8777862-60a1-53a6-ac36-6a47702ce343&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A08%3A02Z&ske=2026-10-03T06%3A08%3A02Z&sks=b&skv=2026-02-06&sig=yz3B32Tjz6aNphQcvdx/30i9w/M3CXL1ZmUKCA96omw%3D"
-    },
-    {
-      "drive_file_id": "14-N7t5Gn_0L_sTndYFYRA_Pd4xJQXz08",
-      "source_label": "6.jpg",
-      "role": "wide room view",
-      "output_stem": "sc-bespoke-bookcase-wide-room-view-02",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-d8b4-8210-b208-307596e9b18a/raw?se=2026-10-02T10%3A10%3A39Z&sp=r&sv=2026-02-06&sr=b&scid=df55a872-13c7-5490-9b65-0f29bc11ef22&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T07%3A16%3A18Z&ske=2026-10-03T07%3A16%3A18Z&sks=b&skv=2026-02-06&sig=aYOalOCVXuYpfUeNm3I8dE6qEjUBQGgFHf/BGgibuys%3D"
-    },
-    {
-      "drive_file_id": "1pKu-JJ8cMrCWvWHqoeiOaDe1sZ_mQU0z",
-      "source_label": "2.jpg",
-      "role": "angled bookcase view",
-      "output_stem": "sc-bespoke-bookcase-angled-view-03",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-7890-8210-b915-64e14630f403/raw?se=2026-10-02T10%3A10%3A42Z&sp=r&sv=2026-02-06&sr=b&scid=920cb8eb-db50-59eb-b41a-74e7fa9a2b6f&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A37%3A21Z&ske=2026-10-03T06%3A37%3A21Z&sks=b&skv=2026-02-06&sig=G3ItcRbjS8uGPfmxmUh4PQkSCHQ6zbpO4FYckAxbRGQ%3D"
-    },
-    {
-      "drive_file_id": "1g8KOWmQ2WH5dVseV0SrlKKykSRUZdwSR",
-      "source_label": "3.jpg",
-      "role": "shelving detail",
-      "output_stem": "sc-bespoke-bookcase-detail-04",
-      "source_url": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-546c-820a-a26c-f83465c90476/raw?se=2026-10-02T10%3A10%3A45Z&sp=r&sv=2026-02-06&sr=b&scid=3ae67b69-de1d-5423-af82-bbb54df71a3a&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A52%3A24Z&ske=2026-10-03T06%3A52%3A24Z&sks=b&skv=2026-02-06&sig=64PyuvVIT219r7mk8FGoRn6NzQrRVdc0V1poWa6sZ6M%3D"
-    },
-    {
-      "drive_file_id": "1SN1RhZD93Ktu-ZukYd7hOPpPQRmeBuli",
-      "source_label": "4.jpg",
-      "role": "structure detail",
-      "output_stem": "sc-bespoke-bookcase-structure-detail-05",
-      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-1f58-81f4-97ab-f684e2af3aa4/raw?se=2026-10-02T10%3A11%3A05Z&sp=r&sv=2026-02-06&sr=b&scid=70818090-e5f7-555e-a58f-a34ba3b65619&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T07%3A36%3A03Z&ske=2026-10-03T07%3A36%3A03Z&sks=b&skv=2026-02-06&sig=zn9bpt1kBTqERVTK900MZOfOen2XDJs4iK/qVnqjDho%3D"
-    },
-    {
-      "drive_file_id": "11ePG6Bv2EF1u1F7heKC4LE3deh5kPhak",
-      "source_label": "5.jpg",
-      "role": "opposite room view",
-      "output_stem": "sc-bespoke-bookcase-opposite-room-view-06",
-      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-f824-81f4-8f5c-149802a5b5ed/raw?se=2026-10-02T10%3A11%3A08Z&sp=r&sv=2026-02-06&sr=b&scid=30250def-253d-59b8-a16d-7f5b5a474872&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T05%3A01%3A08Z&ske=2026-10-03T05%3A01%3A08Z&sks=b&skv=2026-02-06&sig=aR7aMrGvUOZD29OZ23SO/3eq9Rwo6R1BpntM6qT60iU%3D"
-    }
-  ]
+  "enabled": false,
+  "last_completed_slug": "sc-bespoke-bookcase"
 }
