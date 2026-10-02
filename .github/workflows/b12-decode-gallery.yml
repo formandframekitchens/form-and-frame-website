@@ -1,0 +1,46 @@
+name: B12 Decode Gallery Assets
+
+on:
+  push:
+    branches:
+      - b12-black-oak-media-wall
+    paths:
+      - "docs/gallery/b12-trigger.txt"
+
+permissions:
+  contents: write
+
+jobs:
+  decode-gallery-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout preview branch
+        uses: actions/checkout@v4
+        with:
+          ref: b12-black-oak-media-wall
+
+      - name: Decode optimised WebP assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p public/images/gallery/black-oak-media-wall-brass-inlay
+          for encoded in docs/gallery/b12-b64/*.b64; do
+            filename="$(basename "$encoded" .b64)"
+            output="public/images/gallery/black-oak-media-wall-brass-inlay/$filename"
+            base64 --decode "$encoded" > "$output"
+            bytes=$(stat -c%s "$output")
+            test "$bytes" -gt 50000
+            test "$bytes" -lt 500000
+            echo "$output : $bytes bytes"
+          done
+
+      - name: Commit final assets and remove transfer files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/images/gallery/black-oak-media-wall-brass-inlay
+          git rm -r docs/gallery/b12-b64 docs/gallery/b12-trigger.txt
+          git commit -m "B12 add optimised Black Oak Media Wall assets"
+          git push origin HEAD:b12-black-oak-media-wall
