@@ -102,5 +102,5 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 - G25 Earls Court Floating Shelf & Mirror Wall: unique separate feature; one clean source image, no logo
 - G26 Putney Bespoke TV Unit: unique set; source images 08.jpg and 11.jpg are duplicates, use only one
 - G27 Manchester Walk-In Wardrobe: clean source must come from Manchester project WEB Foto/HIGH RES, never from folders marked "with logo"
-- Batch target after G23 live confirmation: continue G25, G26, G27 and then one additional unique gallery so five new distinct galleries are delivered in total
+- Batch target after G23 live confirmation: continue G25, G26 and G27; together with G22 and G23 this delivers five new distinct galleries
 - Resume exactly at: one fresh G23 production-state check; if READY, verify live route, mark G23 LIVE, then continue
