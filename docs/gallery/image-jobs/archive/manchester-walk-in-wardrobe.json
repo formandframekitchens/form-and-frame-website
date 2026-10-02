@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G27 — Manchester Walk-In Wardrobe",
+  "slug": "manchester-walk-in-wardrobe",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1v7cOqfPq0YIeYYT8qdF1ZiCG5MpzUbPy",
+      "source_label": "Garsdale Lane 28.JPG",
+      "role": "overall wardrobe room view",
+      "output_stem": "manchester-walk-in-wardrobe-overall-view-01"
+    },
+    {
+      "drive_file_id": "1nV_MsUDY-YMlIapPUUZpb6hLZCgLjCJW",
+      "source_label": "Garsdale Lane 27.JPG",
+      "role": "symmetrical wardrobe view",
+      "output_stem": "manchester-walk-in-wardrobe-front-view-02"
+    },
+    {
+      "drive_file_id": "13OnECAcDEu3jvAOpyXpihLkvgDscTIKo",
+      "source_label": "Garsdale Lane 29.JPG",
+      "role": "wardrobe and dressing area detail",
+      "output_stem": "manchester-walk-in-wardrobe-dressing-detail-03"
+    }
+  ]
+}

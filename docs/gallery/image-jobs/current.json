@@ -1,35 +1,5 @@
 {
   "schema_version": 1,
-  "enabled": true,
-  "project": "G27 — Manchester Walk-In Wardrobe",
-  "slug": "manchester-walk-in-wardrobe",
-  "max_long_edge": 2000,
-  "min_long_edge": 1200,
-  "webp_quality": 84,
-  "avif_quality": 58,
-  "webp_target_bytes": 500000,
-  "avif_target_bytes": 400000,
-  "images": [
-    {
-      "drive_file_id": "1v7cOqfPq0YIeYYT8qdF1ZiCG5MpzUbPy",
-      "source_label": "Garsdale Lane 28.JPG",
-      "role": "overall wardrobe room view",
-      "output_stem": "manchester-walk-in-wardrobe-overall-view-01",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-3078-8210-b3f8-6b5e1afe33a6/raw?se=2026-10-02T12%3A56%3A06Z&sp=r&sv=2026-02-06&sr=b&scid=c45644aa-2b9a-5f62-bb46-64a05d4f6031&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A37%3A17Z&ske=2026-10-03T06%3A37%3A17Z&sks=b&skv=2026-02-06&sig=/Mqra/piMPLzMPnh15MjjbiK5vbtNlN1J8K2qBNP4UI%3D"
-    },
-    {
-      "drive_file_id": "1nV_MsUDY-YMlIapPUUZpb6hLZCgLjCJW",
-      "source_label": "Garsdale Lane 27.JPG",
-      "role": "symmetrical wardrobe view",
-      "output_stem": "manchester-walk-in-wardrobe-front-view-02",
-      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-2ac0-81f4-a877-790b1ea8b99b/raw?se=2026-10-02T12%3A56%3A08Z&sp=r&sv=2026-02-06&sr=b&scid=6b57618f-7a64-5a1e-aa1d-558587ed89a2&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A08%3A03Z&ske=2026-10-03T06%3A08%3A03Z&sks=b&skv=2026-02-06&sig=S9LReeQ3ieeI6%2Bmo1eMvhrAlbnPUbji5amfBghUB/Z4%3D"
-    },
-    {
-      "drive_file_id": "13OnECAcDEu3jvAOpyXpihLkvgDscTIKo",
-      "source_label": "Garsdale Lane 29.JPG",
-      "role": "wardrobe and dressing area detail",
-      "output_stem": "manchester-walk-in-wardrobe-dressing-detail-03",
-      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-269c-81f4-bd63-79c34b5d10b8/raw?se=2026-10-02T12%3A56%3A11Z&sp=r&sv=2026-02-06&sr=b&scid=a2ee9263-2ce8-5f54-8a49-14b291fdc79d&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T05%3A52%3A33Z&ske=2026-10-03T05%3A52%3A33Z&sks=b&skv=2026-02-06&sig=jp1k/fWafgkUxuIgKP%2BYkPYelCIgGeGGC0ccMQQLPb8%3D"
-    }
-  ]
+  "enabled": false,
+  "last_completed_slug": "manchester-walk-in-wardrobe"
 }
