@@ -48,7 +48,7 @@ When the fuse fires:
 | G17 | Grey Bespoke Sideboard | LIVE / LOWER | Gallery 10 / four-image set; Drive ingest passed |
 | G18 | Dubai Bespoke TV Unit | LIVE | Arno 08 / coherent light-grey 5-image set; separate dark unit excluded |
 | G19 | Putney Heath Bespoke Cabinets | LIVE | Arno 07 / 6-image paired-cabinet set; Drive ingest passed |
-| G20 | Highgate Fitted Wardrobes | QUEUED | Arno 06 |
+| G20 | Highgate Fitted Wardrobes | PROCESSING | Arno 06 / 3-image fitted-wardrobe set |
 | G21 | Northwood Bespoke TV Unit | QUEUED | Split from Arno 05 |
 | G22 | Northwood Home Office | QUEUED | Split from Arno 05 |
 | G23 | Putney Flat Bespoke TV Unit | QUEUED | Arno 04 |
@@ -90,9 +90,10 @@ Current confirmed minimum: 47 distinct case-study slots, plus retired duplicate 
 
 ## Resume pointer
 - Last live gallery: G19 — Putney Heath Bespoke Cabinets
-- G14–G19 integrity check: PASSED on master and production
-- G19 production deployment: VERIFIED READY
-- G19 live route: VERIFIED with all 6 images
-- Next gallery: G20 — Highgate Fitted Wardrobes
-- Complete G20 and G21, then stop this batch
+- Current gallery: G20 — Highgate Fitted Wardrobes
+- Active branch: g20-highgate-fitted-wardrobes
+- G20 source review: PASSED for all 3 wardrobe images
+- G20 case-study code: ADDED
+- G20 ingest: ACTIVE; awaiting one final workflow-state check
+- G21 must not start until G20 completes all checkpoints
 - Safety fuse status: ARMED
