@@ -22,7 +22,7 @@ Rules:
 | G08 | Black Oak Media Wall with Brass Inlay | LIVE | Chelsea / black TV source |
 | G09 | Natural Walnut Bespoke Bookcase | LIVE | Nuotraukos puslapiui / strong professional set |
 | G10 | Duplicate Dark Oak Bookcase Set | MERGED INTO G02 | Same Soho Bespoke Bookcase job; selected images merged into G02; G10 retired and never reused |
-| G11 | Bespoke Panels & Doors with Polished Brass | QUEUED | Westminster penthouse / strong detail set |
+| G11 | Westminster Polished Brass Panelled Doors | PREVIEW | Westminster source / selected 4-image set |
 | G12 | AX Bespoke Bookcase | QUEUED | Alexander James source |
 | G13 | Cream Bespoke TV Unit | QUEUED | Gallery 1 |
 | G14 | Crocodile-Front Bespoke Cabinet | QUEUED | Gallery 4 / strong chosen set |
@@ -74,5 +74,7 @@ Current confirmed minimum: 47 distinct case-study slots, plus retired duplicate 
 ## Resume pointer
 - Last new live gallery: G09 — Natural Walnut Bespoke Bookcase
 - G10 is retired: duplicate photo set merged into G02 — Soho Bespoke Bookcase
-- Next queued gallery: G11 — Bespoke Panels & Doors with Polished Brass
+- Current preview: G11 — Westminster Polished Brass Panelled Doors
+- Preview branch: g11-westminster-polished-brass-panels
+- Next queued after approval: G12 — AX Bespoke Bookcase
 - Continue strictly in ascending G-number order; never reuse retired G10.
