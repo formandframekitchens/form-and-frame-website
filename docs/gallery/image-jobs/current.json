@@ -1,5 +1,56 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "dubai-bespoke-tv-unit"
+  "enabled": true,
+  "project": "G19 — Putney Heath Bespoke Cabinets",
+  "slug": "putney-heath-bespoke-cabinets",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1hJcssnLMthPu2tOAGyRW6R8HzNQJwW7E",
+      "source_label": "bespoke wardrobes london.jpg",
+      "role": "pair view",
+      "output_stem": "putney-heath-bespoke-cabinets-pair-view-01",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-b9e8-8210-8b29-87a7d77cd826/raw?se=2026-10-02T10%3A27%3A17Z&sp=r&sv=2026-02-06&sr=b&scid=c30b9789-2628-5ec9-b910-88a722fd758d&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T08%3A42%3A14Z&ske=2026-10-03T08%3A42%3A14Z&sks=b&skv=2026-02-06&sig=ihCupz4UIZkpsnxUeU%2BptYnEXIx4T3tQIJki0cHDaXw%3D"
+    },
+    {
+      "drive_file_id": "1xwZFO7-2nGuIt38aTsq0DQLzsfRDQmCu",
+      "source_label": "london interior design.jpg",
+      "role": "room context",
+      "output_stem": "putney-heath-bespoke-cabinets-room-view-02",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-3400-8210-bfd5-8ea5fd878052/raw?se=2026-10-02T10%3A27%3A18Z&sp=r&sv=2026-02-06&sr=b&scid=2e1542b2-296d-5b42-8089-463db4a15590&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T08%3A42%3A15Z&ske=2026-10-03T08%3A42%3A15Z&sks=b&skv=2026-02-06&sig=uR1iOrPAv8F6%2BFJlwMIOmc9wZBAMJ7zsjD4KCFq5RTY%3D"
+    },
+    {
+      "drive_file_id": "1bmwcjJrlhiCOzLxnYuWsgcIJ1JmZOcIY",
+      "source_label": "bespoke wardrobes london.png",
+      "role": "open storage cabinet",
+      "output_stem": "putney-heath-bespoke-cabinets-open-storage-03",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-04e4-8210-a093-83b41ef95c58/raw?se=2026-10-02T10%3A27%3A20Z&sp=r&sv=2026-02-06&sr=b&scid=33a8c861-c97d-50e4-8f7a-0692580e24cb&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T05%3A52%3A37Z&ske=2026-10-03T05%3A52%3A37Z&sks=b&skv=2026-02-06&sig=Xqbjb6gpZEyMqqLPTv%2BXZyvWMfZTqdUG3McqNCJU5HA%3D"
+    },
+    {
+      "drive_file_id": "1N2hYyjzTANzjwDo2WDwXNvxFpruoSUO4",
+      "source_label": "luxury furniture.jpg",
+      "role": "TV cabinet interior",
+      "output_stem": "putney-heath-bespoke-cabinets-tv-storage-04",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-8e88-81f4-92bc-5ca5c87505c9/raw?se=2026-10-02T10%3A27%3A22Z&sp=r&sv=2026-02-06&sr=b&scid=d8d8d2c8-e2d7-53de-8dc6-120531ea8d6a&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A52%3A16Z&ske=2026-10-03T06%3A52%3A16Z&sks=b&skv=2026-02-06&sig=ARwp%2BO9uK9D7uArZ/Pc90MipTUVizXRh7oVNnrnZca4%3D"
+    },
+    {
+      "drive_file_id": "1FA0R81tWELFwUJ0jf6SoZDEB6FqBzV_w",
+      "source_label": "fitted furniture.png",
+      "role": "brass and frame detail",
+      "output_stem": "putney-heath-bespoke-cabinets-detail-05",
+      "source_url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-b794-8246-8d26-63803dd15cb3/raw?se=2026-10-02T10%3A27%3A24Z&sp=r&sv=2026-02-06&sr=b&scid=c4212122-68d1-5d76-a042-3f0324fe99c4&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T04%3A24%3A54Z&ske=2026-10-03T04%3A24%3A54Z&sks=b&skv=2026-02-06&sig=98QNJzNL7iuKFZlaFSifIbyRV8stACJiUl92CHW95wc%3D"
+    },
+    {
+      "drive_file_id": "1SIKQJNILxjTomfAFPZy6Z_sYZiai1CZU",
+      "source_label": "furniture makers.jpg",
+      "role": "front and handle detail",
+      "output_stem": "putney-heath-bespoke-cabinets-front-detail-06",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-1bc0-8210-b27a-678f518fe113/raw?se=2026-10-02T10%3A27%3A25Z&sp=r&sv=2026-02-06&sr=b&scid=2f017adf-f36a-5b23-9c13-0940d6832503&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A21%3A27Z&ske=2026-10-03T06%3A21%3A27Z&sks=b&skv=2026-02-06&sig=2kmhw9D1KMGsKHWKono3UULGjQIMkQ90eA2Fe3Am2bo%3D"
+    }
+  ]
 }
