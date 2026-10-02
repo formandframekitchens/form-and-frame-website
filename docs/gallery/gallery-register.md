@@ -58,7 +58,7 @@ When the fuse fires:
 | G25 | Earls Court Floating Shelf & Mirror Wall | LIVE | Split from Arno 03 / 1 unique clean image; duplicate/logo preflight passed; Drive ingest passed |
 | G26 | Putney Bespoke TV Unit | LIVE | Arno 01 / 4 unique clean images; duplicate source photo excluded; logo preflight passed; Drive ingest passed |
 | G27 | Manchester Walk-In Wardrobe | LIVE | Manchester HIGH RES / 3 clean originals; logo folders excluded; duplicate preflight passed; Drive ingest passed |
-| G28 | Manchester Make-Up Island & Dressing Table | PREVIEW READY | Manchester HIGH RES / 3 clean originals matched from labelled web set; logo folders excluded; Drive ingest passed |
+| G28 | Manchester Make-Up Island & Dressing Table | LIVE | Manchester HIGH RES / 3 clean originals matched from labelled web set; logo folders excluded; Drive ingest passed |
 | G29 | Virginia Water Wine Room | QUEUED | Professional pictures / Wentworth |
 | G30 | Maria's House Wine Cellar | QUEUED | Professional pictures / Maria's House |
 | G31 | Maria's House Home Office | QUEUED | Professional pictures / Maria's House |
@@ -91,11 +91,8 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Last live gallery: G27 — Manchester Walk-In Wardrobe
-- Current gallery: G28 — Manchester Make-Up Island & Dressing Table
-- G28 duplicate preflight: PASSED; separate furniture from G27
-- G28 logo/watermark preflight: PASSED using HIGH RES originals matched to labelled web views
-- G28 Drive ingest: PASSED
-- G28 output: 3 WebP + 3 AVIF; Git blob SHA verification passed
-- Next checkpoint: preview, merge, production verification
+- Last live gallery: G28 — Manchester Make-Up Island & Dressing Table
+- G28 production: VERIFIED READY and live with 3 images
+- Next gallery: G29 — Virginia Water Wine Room
+- Duplicate/logo preflight remains mandatory before ingest
 - Safety fuse status: ARMED
