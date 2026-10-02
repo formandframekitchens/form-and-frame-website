@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "project": "G17 \u2014 Grey Bespoke Sideboard",
+  "slug": "grey-bespoke-sideboard",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1v9YjqpbTjfuAGYvVP3uwFTnpNgQSElMH",
+      "source_label": "front view",
+      "role": "front view",
+      "original": {
+        "width": 5320,
+        "height": 2286
+      },
+      "webp": {
+        "path": "public/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-front-view-01.webp",
+        "bytes": 41346,
+        "quality": 84,
+        "width": 2000,
+        "height": 859,
+        "sha256": "f9f1165ce5e65f54d4d809015d82ee8421de10adfd9d7da3beee75fe3ac557ea",
+        "git_blob_sha": "596f17367e9dee5dd4280b377eda30a55c94da9e"
+      },
+      "avif": {
+        "path": "public/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-front-view-01.avif",
+        "bytes": 19565,
+        "quality": 58,
+        "width": 2000,
+        "height": 859,
+        "sha256": "19d43bff54e5b24d10588f2c36842a17e52ad571ced5d0829209ac4bf6236483",
+        "git_blob_sha": "c35bfabacd09d773e114c5ae8955b4ef54032071"
+      }
+    },
+    {
+      "drive_file_id": "17D9fj-SJACvDN9TJbiEeNx6yWmZ3F7y8",
+      "source_label": "angled view",
+      "role": "angled view",
+      "original": {
+        "width": 5336,
+        "height": 2839
+      },
+      "webp": {
+        "path": "public/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-angled-view-02.webp",
+        "bytes": 63268,
+        "quality": 84,
+        "width": 2000,
+        "height": 1064,
+        "sha256": "ea7b7644ed10bf26fbc3f7300219ff6f3e7c1a636f8fa71820a84dcb619aa47d",
+        "git_blob_sha": "fe846896bb3421f96eafeb52ae2e75e12285ce4a"
+      },
+      "avif": {
+        "path": "public/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-angled-view-02.avif",
+        "bytes": 33166,
+        "quality": 58,
+        "width": 2000,
+        "height": 1064,
+        "sha256": "06987f862ef022ad699e2c0c14f0921541d6ad2fa4ed60beafe98edd426249dc",
+        "git_blob_sha": "b79e73e1a89b51e4e52b9793298168d9e06f7227"
+      }
+    },
+    {
+      "drive_file_id": "1CjaDXtSRdLjwH7oWPNfz3AcFqeQjrk6q",
+      "source_label": "open storage view",
+      "role": "open storage",
+      "original": {
+        "width": 5576,
+        "height": 2751
+      },
+      "webp": {
+        "path": "public/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-open-storage-03.webp",
+        "bytes": 77028,
+        "quality": 84,
+        "width": 2000,
+        "height": 987,
+        "sha256": "811224ef57bdd61bd0bd942906ebd3a69704047d916bbcf1c17f12ed1e5e8e3a",
+        "git_blob_sha": "2a612368a2ff035bb7a596e1152aa83922a5194f"
+      },
+      "avif": {
+        "path": "public/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-open-storage-03.avif",
+        "bytes": 38118,
+        "quality": 58,
+        "width": 2000,
+        "height": 987,
+        "sha256": "d18f2cce37543d80c4ace91517c07301d7bbf0764f2467b4a303f34fe3930919",
+        "git_blob_sha": "d2da770aeeea44e07ec0c2de5b19f1fb52b0f838"
+      }
+    },
+    {
+      "drive_file_id": "19e_uLiPZ2UqWTGMdTPzrQkp_Fsr0_IUZ",
+      "source_label": "interior detail",
+      "role": "interior detail",
+      "original": {
+        "width": 5760,
+        "height": 3840
+      },
+      "webp": {
+        "path": "public/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-interior-detail-04.webp",
+        "bytes": 191700,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "5dad6ea9edd9b5d33654a935048c48b461e9dab80036133a81d7c4e6d64fa25f",
+        "git_blob_sha": "d64270eed5aa77f115a5727b7aa951f4fbd6cdae"
+      },
+      "avif": {
+        "path": "public/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-interior-detail-04.avif",
+        "bytes": 112594,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "87974237422c2ceddf1776ddf181e88b22a67f8bf40ceb184d87684a2658ceb8",
+        "git_blob_sha": "d02f2d22e28369f80d18dac51365647ec2922106"
+      }
+    }
+  ]
+}

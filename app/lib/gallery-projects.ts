@@ -742,6 +742,76 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
+    slug: "grey-bespoke-sideboard",
+    title: "Grey Bespoke Sideboard",
+    category: "Bespoke Joinery",
+    summary: "A slim bespoke sideboard with a dark grey timber finish, square metal pulls, polished metal legs and a combination of drawers and concealed internal storage.",
+    seoDescription: "Grey bespoke sideboard case study by Form & Frame, featuring dark timber-finished cabinetry, square metal pulls, polished metal legs, drawers and concealed internal storage.",
+    keywords: [
+      "grey bespoke sideboard",
+      "bespoke console cabinet",
+      "dark timber sideboard",
+      "made to measure sideboard",
+      "bespoke storage furniture",
+      "metal leg sideboard",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Dark grey timber-finished cabinetry",
+      "Square metal pull details",
+      "Polished metal support legs",
+      "Drawers with concealed internal storage",
+    ],
+    caseStudy: [
+      {
+        heading: "A slim piece with a strong horizontal proportion",
+        body: [
+          "This sideboard is deliberately low and wide, giving it a strong horizontal character. The dark timber finish keeps the body visually restrained while the polished metal legs lift the cabinet away from the floor.",
+          "The front elevation is kept simple so the material, proportions and metal details carry most of the visual interest.",
+        ],
+      },
+      {
+        heading: "The demanding part: keeping the front composition clean",
+        body: [
+          "A long, simple front makes alignment easy to judge. Drawer gaps, door margins and the centre division therefore need to remain consistent so the elevation reads as one controlled piece of furniture.",
+          "The square metal pulls become small focal points across the front, making their position and alignment particularly visible.",
+        ],
+      },
+      {
+        heading: "Storage behind a minimal exterior",
+        body: [
+          "The open view shows that the cabinet combines shallow drawer storage with a larger internal compartment. This allows several storage functions to sit behind one clean exterior.",
+          "The mirrored or reflective internal surfaces add depth to the storage area and contrast with the darker exterior finish.",
+        ],
+      },
+      {
+        heading: "Detail and material contrast",
+        body: [
+          "The close photograph shows the internal lining and the relationship between the darker cabinet material and the surrounding frame. These smaller construction details matter because the piece is relatively simple in form and therefore leaves little to distract from finish quality.",
+          "The metal legs and pulls provide a sharper, lighter contrast against the dark timber surfaces.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed sideboard is compact, restrained and furniture-led, combining useful storage with a clean linear profile and metal detailing.",
+          "For similar bespoke sideboards, consoles and made-to-measure storage furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-front-view-01.webp",
+      alt: "Grey bespoke sideboard with polished metal legs",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-front-view-01.webp", alt: "Front view of grey bespoke sideboard", fit: "contain" },
+      { src: "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-angled-view-02.webp", alt: "Angled view of grey bespoke sideboard and polished metal legs", fit: "contain" },
+      { src: "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-open-storage-03.webp", alt: "Open bespoke sideboard showing drawers and concealed storage", fit: "contain" },
+      { src: "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-interior-detail-04.webp", alt: "Interior material detail inside bespoke sideboard", fit: "contain" },
+    ],
+  },
+  {
     slug: "soho-bespoke-bookcase",
     title: "Soho Bespoke Bookcase",
     category: "Bespoke Joinery",
