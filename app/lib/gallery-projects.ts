@@ -1029,6 +1029,75 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
+    slug: "northwood-bespoke-tv-unit",
+    title: "Northwood Bespoke TV Unit",
+    category: "Bespoke Joinery",
+    location: "Northwood, London",
+    summary: "A dark timber full-wall TV and display unit with integrated television, illuminated open niches, upper shelving and concealed low-level storage.",
+    seoDescription: "Northwood bespoke TV unit case study by Form & Frame, featuring dark timber cabinetry, integrated television, illuminated display niches, upper shelving and concealed low-level storage.",
+    keywords: [
+      "Northwood bespoke TV unit",
+      "bespoke media wall Northwood",
+      "dark timber TV unit",
+      "integrated TV cabinetry",
+      "illuminated display shelving",
+      "made to measure media unit",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Full-wall dark timber media composition",
+      "Integrated television",
+      "Illuminated open display niches",
+      "Upper shelving with low-level concealed storage",
+    ],
+    caseStudy: [
+      {
+        heading: "A full-wall media and display composition",
+        body: [
+          "This Northwood installation combines the television with open display shelving and concealed storage across a large section of wall. The dark timber finish gives the furniture a strong presence while the open grid prevents the elevation from feeling too solid.",
+          "The television is integrated into the overall shelving composition rather than treated as a separate object.",
+        ],
+      },
+      {
+        heading: "The demanding part: keeping a large grid visually controlled",
+        body: [
+          "The design uses repeated vertical divisions, horizontal shelves and illuminated display sections. Across a wall-scale installation, any inconsistency in spacing or alignment would be immediately visible.",
+          "The television opening also has to sit naturally within the wider grid so it feels part of the furniture rather than interrupting it.",
+        ],
+      },
+      {
+        heading: "Display lighting within the shelving",
+        body: [
+          "Warm integrated lighting highlights selected open niches and creates contrast against the darker timber finish. The lighting also helps separate display zones from the deeper shelving around the television.",
+          "Because the illuminated sections are viewed directly, the relationship between shelf edges, internal panels and lighting positions becomes part of the visual finish.",
+        ],
+      },
+      {
+        heading: "Open display above concealed storage",
+        body: [
+          "The upper part of the unit is predominantly open and display-led, while the lower cabinetry provides concealed storage behind darker fronts. This keeps everyday storage out of view without making the entire wall visually heavy.",
+          "The angled room view shows how the shelving continues across the wall and relates to the adjacent window and seating area.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed TV unit combines media, display and concealed storage functions within one dark timber composition. Warm lighting and open shelving break up the scale of the wall and give the installation more depth.",
+          "For similar bespoke TV units, media walls and integrated display furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/northwood-bespoke-tv-unit/northwood-bespoke-tv-unit-room-view-01.webp",
+      alt: "Dark timber bespoke TV and display unit in Northwood",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/northwood-bespoke-tv-unit/northwood-bespoke-tv-unit-room-view-01.webp", alt: "Main room view of Northwood bespoke TV unit", fit: "contain" },
+      { src: "/images/gallery/northwood-bespoke-tv-unit/northwood-bespoke-tv-unit-angled-view-02.webp", alt: "Angled view of dark timber TV unit with illuminated display shelving", fit: "contain" },
+    ],
+  },
+  {
     slug: "soho-bespoke-bookcase",
     title: "Soho Bespoke Bookcase",
     category: "Bespoke Joinery",
