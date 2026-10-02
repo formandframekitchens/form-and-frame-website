@@ -1,48 +1,5 @@
 {
   "schema_version": 1,
-  "project": "G14 — Crocodile-Front Bespoke Cabinet",
-  "slug": "crocodile-front-bespoke-cabinet",
-  "max_long_edge": 2000,
-  "min_long_edge": 1200,
-  "webp_quality": 84,
-  "avif_quality": 58,
-  "webp_target_bytes": 500000,
-  "avif_target_bytes": 400000,
-  "images": [
-    {
-      "drive_file_id": "1sid9Ql-OsU4fx9Y2bfR-1wvHiqwt1i1E",
-      "source_label": "Bespoke cabinet-2.jpg",
-      "role": "room view",
-      "output_stem": "crocodile-front-cabinet-room-view-01",
-      "source_url": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-4c1c-820a-8231-2d3968c7b787/raw?se=2026-10-02T09%3A37%3A41Z&sp=r&sv=2026-02-06&sr=b&scid=cb4e66a0-edf7-5a2d-a6af-dd979a0e2216&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T07%3A16%3A21Z&ske=2026-10-03T07%3A16%3A21Z&sks=b&skv=2026-02-06&sig=gLnCvi2yl70p6YFkbqBYywjIZKeouErNQmUZutTfgD0%3D"
-    },
-    {
-      "drive_file_id": "1Nq80zNUk9mZxLMZNvunOlLUYce1JpqT0",
-      "source_label": "Bespoke cabinet-3.jpg",
-      "role": "wider room context",
-      "output_stem": "crocodile-front-cabinet-room-context-02",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-5f74-8210-b7d7-c64ebbccd5bf/raw?se=2026-10-02T09%3A37%3A42Z&sp=r&sv=2026-02-06&sr=b&scid=146267ab-264b-55c3-9edc-471889348359&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T07%3A16%3A18Z&ske=2026-10-03T07%3A16%3A18Z&sks=b&skv=2026-02-06&sig=9TG8ur2IykJNGyHJk2%2BUEj1VP4qph/DJejRqq5b8NHo%3D"
-    },
-    {
-      "drive_file_id": "1nWZE4pID_1_SJC6tdDldDo92AE5Ty4kU",
-      "source_label": "Bespoke cabinet-6.jpg",
-      "role": "open cabinet",
-      "output_stem": "crocodile-front-cabinet-open-storage-03",
-      "source_url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-36c4-8246-9813-e6e8df2d3774/raw?se=2026-10-02T09%3A37%3A48Z&sp=r&sv=2026-02-06&sr=b&scid=5fcf9caf-7169-54d0-8cf6-6aaeca55c2b2&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T07%3A36%3A04Z&ske=2026-10-03T07%3A36%3A04Z&sks=b&skv=2026-02-06&sig=xlOH%2Bk9/FoWugnz%2BggSrBu4whQ5qxkmmXFe6KmDfjTw%3D"
-    },
-    {
-      "drive_file_id": "1au4__pHpEVCIrx0RD10gRbrbFNXcfhdA",
-      "source_label": "Bespoke cabinet-10.jpg",
-      "role": "crocodile texture detail",
-      "output_stem": "crocodile-front-cabinet-texture-detail-04",
-      "source_url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-a12c-8243-9e6b-73d09e5e7a80/raw?se=2026-10-02T09%3A37%3A51Z&sp=r&sv=2026-02-06&sr=b&scid=5a721344-43e7-52c9-b19a-b0922baa5308&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T06%3A52%3A24Z&ske=2026-10-03T06%3A52%3A24Z&sks=b&skv=2026-02-06&sig=jTBpOcYKWBmi37QoA%2B3wc/MfZ%2BDEDwJFd71KasfY2hE%3D"
-    },
-    {
-      "drive_file_id": "1Q0zKaOKIvINud6frSL6lIR-zPOstPaUb",
-      "source_label": "Bespoke cabinet-1.jpg",
-      "role": "brass handle detail",
-      "output_stem": "crocodile-front-cabinet-brass-handle-detail-05",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-d294-8210-874c-a25f8cbe5de3/raw?se=2026-10-02T09%3A37%3A55Z&sp=r&sv=2026-02-06&sr=b&scid=0b64996f-02e7-5633-8853-81bc06eaae9d&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T07%3A16%3A19Z&ske=2026-10-03T07%3A16%3A19Z&sks=b&skv=2026-02-06&sig=NSakN0zRhqyEBKzy4CeHw44507Dx/XhzV2Ku6Ae11JQ%3D"
-    }
-  ]
+  "enabled": false,
+  "last_completed_slug": "crocodile-front-bespoke-cabinet"
 }
