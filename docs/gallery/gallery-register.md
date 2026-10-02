@@ -52,7 +52,7 @@ When the fuse fires:
 | G19 | Putney Heath Bespoke Cabinets | LIVE | Arno 07 / clean 6-image WebP + AVIF set; branded-logo source copies replaced; absorbs duplicate G05 source job |
 | G20 | Highgate Fitted Wardrobes | LIVE | Arno 06 / 3-image fitted-wardrobe set; Drive ingest passed |
 | G21 | Northwood Bespoke TV Unit | LIVE | Split from Arno 05 / 2-image TV-unit set; office images reserved for G22 |
-| G22 | Northwood Home Office | QUEUED | Split from Arno 05 |
+| G22 | Northwood Home Office | PREVIEW READY | Split from Arno 05 / 3 clean images; duplicate/logo preflight passed; Drive ingest passed |
 | G23 | Putney Flat Bespoke TV Unit | QUEUED | Arno 04 |
 | G24 | Earls Court Bespoke TV Unit | QUEUED | Split from Arno 03 |
 | G25 | Earls Court Floating Shelf & Mirror Wall | QUEUED | Split from Arno 03 |
@@ -91,13 +91,14 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Active cleanup branch: gallery-cleanup-g04-g18-g19-order
-- G19 Putney Heath Bespoke Cabinets: clean 6-image WebP + AVIF rebuild PASSED with Git blob SHA verification
-- G18 Dubai Bespoke TV Unit: RETIRED INTO G04 as same job
-- G04 Grey & Black Bespoke Media Wall: canonical gallery now contains original G04 set plus five useful G18 views
-- Retired G18 route redirects permanently to G04
-- Gallery review order: ascending stable G-number with G01 at the top
-- Retired IDs remain skipped and are never reused: G05, G10, G18
-- G-number badges remain visible on gallery cards and project pages
-- Next checkpoint: Vercel preview verification, then merge to master and production verification
+- Current gallery: G22 — Northwood Home Office
+- G22 duplicate preflight: PASSED; distinct from G21 TV unit
+- G22 logo/watermark preflight: PASSED on all 3 source images
+- G22 Drive ingest: PASSED
+- G22 output: 3 WebP + 3 AVIF assets
+- G22 Git blob SHA verification: PASSED
+- G22 case study: ADDED
+- Next checkpoint: Vercel preview, merge, production verification
+- G23 must not start until G22 completes
+- G24 duplicate discovery: same TV-unit photography as G13; do not publish G24
 - Safety fuse status: ARMED
