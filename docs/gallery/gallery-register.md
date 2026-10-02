@@ -44,7 +44,7 @@ When the fuse fires:
 | G13 | Cream Bespoke TV Unit | LIVE | Gallery 1 |
 | G14 | Crocodile-Front Bespoke Cabinet | LIVE | Gallery 4 / Drive ingest verified; 5-image WebP + AVIF set |
 | G15 | S&C Bespoke TV Unit | LIVE | Gallery 6 / first fresh Drive ingest trial passed; 5-image WebP + AVIF set |
-| G16 | S&C Bespoke Bookcase | QUEUED | Gallery 7 |
+| G16 | S&C Bespoke Bookcase | PREVIEW READY | Gallery 7 / 6-image Drive ingest passed; WebP + AVIF set |
 | G17 | Grey Bespoke Sideboard | QUEUED / LOWER | Gallery 10 / four-image set |
 | G18 | Dubai Bespoke TV Unit | QUEUED | Arno 08 |
 | G19 | Putney Heath Bespoke Cabinets | QUEUED | Arno 07 |
@@ -90,13 +90,13 @@ Current confirmed minimum: 47 distinct case-study slots, plus retired duplicate 
 
 ## Resume pointer
 - Last live gallery: G15 — S&C Bespoke TV Unit
-- G14 — Crocodile-Front Bespoke Cabinet: LIVE
-- G15 production workflow trial: PASSED first run
-- G15 production deployment: VERIFIED READY
-- G15 live route: VERIFIED HTTP 200
-- Permanent gallery ingest workflow: PROVEN on both G14 repair and fresh G15 project
-- Standard sequence now: select Drive IDs -> safe Drive handoff -> validate -> WebP + AVIF optimise without crop -> atomic GitHub commit -> Git blob SHA verify -> case study -> Vercel preview -> PR -> production verification
-- Temporary transport URLs are removed automatically; sanitized Drive-ID manifest is retained for traceability
-- Next gallery: G16 — S&C Bespoke Bookcase
-- G16 source separation: bespoke bookcase image remains reserved and was not used in G15
+- Current gallery: G16 — S&C Bespoke Bookcase
+- Active branch: g16-sc-bespoke-bookcase
+- G16 workflow: PASSED
+- G16 source validation: PASSED for all 6 selected bookcase images
+- G16 output: 6 WebP + 6 AVIF assets generated without cropping
+- G16 Git blob SHA verification: PASSED for all generated assets
+- G16 sanitized Drive-ID archive: VERIFIED
+- G16 case-study code: ADDED
+- Next checkpoint: Vercel preview + route verification
 - Safety fuse status: ARMED

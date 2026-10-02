@@ -669,6 +669,79 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
+    slug: "sc-bespoke-bookcase",
+    title: "S&C Bespoke Bookcase",
+    category: "Bespoke Joinery",
+    summary: "A dark open bookcase used as both display furniture and a room-dividing feature, with a varied grid of shelves and carefully aligned vertical structure.",
+    seoDescription: "S&C bespoke bookcase case study by Form & Frame, featuring a dark open shelving structure used as display furniture and a room-dividing architectural element.",
+    keywords: [
+      "S&C bespoke bookcase",
+      "dark bespoke bookcase",
+      "open room divider shelving",
+      "bespoke display bookcase",
+      "made to measure shelving",
+      "architectural bookcase",
+      "luxury bespoke furniture",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Dark open shelving used as a room-dividing feature",
+      "Varied grid of vertical and horizontal openings",
+      "Display storage visible from multiple room angles",
+      "Large-scale structure integrated with the interior",
+    ],
+    caseStudy: [
+      {
+        heading: "A bookcase that also defines the room",
+        body: [
+          "This project uses an open bookcase as more than display storage. The dark shelving forms a visual division within the room while still allowing light, views and movement through the open grid.",
+          "Because the piece is visible from several directions, the structure has to work as furniture from both close range and across the wider interior.",
+        ],
+      },
+      {
+        heading: "The demanding part: repeated alignment across a large grid",
+        body: [
+          "The design relies on many repeated horizontal shelves and vertical divisions. That makes small setting-out errors easy to see, particularly where several openings line up across the full height and width of the installation.",
+          "The varied compartment sizes also need to remain visually deliberate so the composition feels balanced rather than random.",
+        ],
+      },
+      {
+        heading: "Open display without making the room feel enclosed",
+        body: [
+          "The open arrangement allows decorative objects, books and accessories to be displayed while keeping visual connections between the adjoining parts of the room.",
+          "Using open sections rather than a solid wall gives the furniture a lighter architectural role, even though the dark finish gives the piece a strong presence.",
+        ],
+      },
+      {
+        heading: "Detail, depth and multiple viewpoints",
+        body: [
+          "Closer photographs show the depth of the shelving and the relationship between the heavier outer frame and the smaller internal divisions. These details are especially important because the furniture is experienced from several angles rather than from one front elevation only.",
+          "The wider room views confirm how the shelving relates to seating, lighting and the surrounding architecture, which is essential when a fitted piece also acts as a spatial divider.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed bookcase provides substantial display capacity while creating a clear architectural division within the room. Its open grid keeps the interior connected, while the dark finish gives the structure enough visual weight to anchor the space.",
+          "For similar bespoke bookcases, display walls and room-dividing furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-room-view-01.webp",
+      alt: "S&C dark open bespoke bookcase used as a room divider",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-room-view-01.webp", alt: "Main room view of S&C dark open bespoke bookcase", fit: "contain" },
+      { src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-wide-room-view-02.webp", alt: "Wide room view showing the bespoke bookcase dividing the interior", fit: "contain" },
+      { src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-angled-view-03.webp", alt: "Angled view of the dark open shelving structure", fit: "contain" },
+      { src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-detail-04.webp", alt: "Close detail of open shelving and display compartments", fit: "contain" },
+      { src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-structure-detail-05.webp", alt: "Structural detail showing the repeated shelving grid", fit: "contain" },
+      { src: "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-opposite-room-view-06.webp", alt: "Opposite room view of the open bespoke bookcase", fit: "contain" },
+    ],
+  },
+  {
     slug: "soho-bespoke-bookcase",
     title: "Soho Bespoke Bookcase",
     category: "Bespoke Joinery",

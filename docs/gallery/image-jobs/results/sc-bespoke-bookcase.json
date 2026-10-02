@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "project": "G16 \u2014 S&C Bespoke Bookcase",
+  "slug": "sc-bespoke-bookcase",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1xzbUY7yAH8SMAk-FtjoRB_2FwYV_SKbP",
+      "source_label": "1.jpg",
+      "role": "main room view",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-room-view-01.webp",
+        "bytes": 346090,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "fad5c35ae9ad4b5393a7c62d1ae707d8f7c97c4e7225d1534b7253d15ddfba89",
+        "git_blob_sha": "bbf30998cc829fa743f26ef660d48110d31ec702"
+      },
+      "avif": {
+        "path": "public/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-room-view-01.avif",
+        "bytes": 232677,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "2a10362d3cd39bde5d880e5c9ebfdb3c23335833c4a91548a52e5a8011423ba2",
+        "git_blob_sha": "8ca8b4f101b6a8a6e77410992c8516418f47c306"
+      }
+    },
+    {
+      "drive_file_id": "14-N7t5Gn_0L_sTndYFYRA_Pd4xJQXz08",
+      "source_label": "6.jpg",
+      "role": "wide room view",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-wide-room-view-02.webp",
+        "bytes": 355594,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "70a2b4e453f83432139161d3e47154505ff8c3a16cfac4ed1efd9b918765858d",
+        "git_blob_sha": "666aa30bb04ed4b755dd6afcfa97e9f4fa3c8f4a"
+      },
+      "avif": {
+        "path": "public/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-wide-room-view-02.avif",
+        "bytes": 222404,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "b49956afcd6ab9d9a9a703e4edf61218fd105457b25e872cbf6b7e73fcfdce2b",
+        "git_blob_sha": "4765ec435c6e2d38d5f79dabf8848f356651b38e"
+      }
+    },
+    {
+      "drive_file_id": "1pKu-JJ8cMrCWvWHqoeiOaDe1sZ_mQU0z",
+      "source_label": "2.jpg",
+      "role": "angled bookcase view",
+      "original": {
+        "width": 3744,
+        "height": 5616
+      },
+      "webp": {
+        "path": "public/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-angled-view-03.webp",
+        "bytes": 428940,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "223b85b4d55a1dd2e405d550f3710a0e34771d3d9ce984cd373cd0e038ba5a55",
+        "git_blob_sha": "1fc0cc8b93ab75aa311d9ddf3d7f32ffbb3403d0"
+      },
+      "avif": {
+        "path": "public/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-angled-view-03.avif",
+        "bytes": 326195,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "da8579cfb8426cb61c4a4a70fa7efd08d85469e7888bfe4a443a9f48874bb07e",
+        "git_blob_sha": "16f0a467fff961bedd72353cc59077e6122607a7"
+      }
+    },
+    {
+      "drive_file_id": "1g8KOWmQ2WH5dVseV0SrlKKykSRUZdwSR",
+      "source_label": "3.jpg",
+      "role": "shelving detail",
+      "original": {
+        "width": 3744,
+        "height": 5616
+      },
+      "webp": {
+        "path": "public/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-detail-04.webp",
+        "bytes": 105020,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "0a173ffb9c2ac2ed6921716ad9e7568c6408c97a6f9ae9b5b9e56e86675b2048",
+        "git_blob_sha": "e8835b02e16e8c9738be3db5eec1c6245a588247"
+      },
+      "avif": {
+        "path": "public/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-detail-04.avif",
+        "bytes": 61732,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "1baa665ddd929808706d1335305f59c006b0813db130abfae84282f591ce6a59",
+        "git_blob_sha": "c795694513684b0a2198e610318627cdedfac8fa"
+      }
+    },
+    {
+      "drive_file_id": "1SN1RhZD93Ktu-ZukYd7hOPpPQRmeBuli",
+      "source_label": "4.jpg",
+      "role": "structure detail",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-structure-detail-05.webp",
+        "bytes": 134296,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "d85562383ca6273eea09b4495523ea1c44bdc2080e681cece50d7f3adce332a8",
+        "git_blob_sha": "f4c4a2573db7195fd1b8371e172e2adf7a5016c9"
+      },
+      "avif": {
+        "path": "public/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-structure-detail-05.avif",
+        "bytes": 80947,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "08d60742243715d8532b0a4ed0b99533333fff6d324da6ce187ff6de3dc0cbbc",
+        "git_blob_sha": "6d83c4cb55f02d3f4e11c49629e38e3dbac0e2f8"
+      }
+    },
+    {
+      "drive_file_id": "11ePG6Bv2EF1u1F7heKC4LE3deh5kPhak",
+      "source_label": "5.jpg",
+      "role": "opposite room view",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-opposite-room-view-06.webp",
+        "bytes": 209432,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "aa4da6dca3dd3c603ccbc108385a583857d50117125f481dfff5f5ddbc47991a",
+        "git_blob_sha": "16ecdbf6ebc370a49503741b7dc2f84736196413"
+      },
+      "avif": {
+        "path": "public/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-opposite-room-view-06.avif",
+        "bytes": 130579,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "ce53e46129f779582d7cad43329be28a7d34e4f77ddda487d0cae6cf31b7b747",
+        "git_blob_sha": "6e5b60b0a32b0bb21d2ab6a1ec44383955e4a615"
+      }
+    }
+  ]
+}

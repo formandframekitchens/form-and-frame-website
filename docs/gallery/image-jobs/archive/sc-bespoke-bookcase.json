@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G16 — S&C Bespoke Bookcase",
+  "slug": "sc-bespoke-bookcase",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1xzbUY7yAH8SMAk-FtjoRB_2FwYV_SKbP",
+      "source_label": "1.jpg",
+      "role": "main room view",
+      "output_stem": "sc-bespoke-bookcase-room-view-01"
+    },
+    {
+      "drive_file_id": "14-N7t5Gn_0L_sTndYFYRA_Pd4xJQXz08",
+      "source_label": "6.jpg",
+      "role": "wide room view",
+      "output_stem": "sc-bespoke-bookcase-wide-room-view-02"
+    },
+    {
+      "drive_file_id": "1pKu-JJ8cMrCWvWHqoeiOaDe1sZ_mQU0z",
+      "source_label": "2.jpg",
+      "role": "angled bookcase view",
+      "output_stem": "sc-bespoke-bookcase-angled-view-03"
+    },
+    {
+      "drive_file_id": "1g8KOWmQ2WH5dVseV0SrlKKykSRUZdwSR",
+      "source_label": "3.jpg",
+      "role": "shelving detail",
+      "output_stem": "sc-bespoke-bookcase-detail-04"
+    },
+    {
+      "drive_file_id": "1SN1RhZD93Ktu-ZukYd7hOPpPQRmeBuli",
+      "source_label": "4.jpg",
+      "role": "structure detail",
+      "output_stem": "sc-bespoke-bookcase-structure-detail-05"
+    },
+    {
+      "drive_file_id": "11ePG6Bv2EF1u1F7heKC4LE3deh5kPhak",
+      "source_label": "5.jpg",
+      "role": "opposite room view",
+      "output_stem": "sc-bespoke-bookcase-opposite-room-view-06"
+    }
+  ]
+}
