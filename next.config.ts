@@ -4,6 +4,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/gallery/alexander-james-bespoke-bookcase",
+        destination: "/gallery/bookcase-in-esher",
+        permanent: true,
+      },
+      {
         source: "/gallery/golden-textured-front-cabinet",
         destination: "/gallery/putney-heath-bespoke-cabinets",
         permanent: true,
