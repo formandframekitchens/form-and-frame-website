@@ -20,8 +20,8 @@ Rules:
 | G06 | Built-In Window Seat with Drawer Storage | LIVE | Existing / Eric source duplicate |
 | G07 | Soho Shoe-Storage Cabinet | LIVE / LOW | Keep at bottom of gallery |
 | G08 | Black Oak Media Wall with Brass Inlay | LIVE | Chelsea / black TV source |
-| G09 | Natural Walnut Bespoke Bookcase | PREVIEW | Nuotraukos puslapiui / strong professional set |
-| G10 | Bespoke Bookcase Gallery 2 | QUEUED | Nuotraukos puslapiui |
+| G09 | Natural Walnut Bespoke Bookcase | LIVE | Nuotraukos puslapiui / strong professional set |
+| G10 | Bespoke Bookcase Gallery 2 | PREVIEW | Nuotraukos puslapiui |
 | G11 | Bespoke Panels & Doors with Polished Brass | QUEUED | Westminster penthouse / strong detail set |
 | G12 | AX Bespoke Bookcase | QUEUED | Alexander James source |
 | G13 | Cream Bespoke TV Unit | QUEUED | Gallery 1 |
