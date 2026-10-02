@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "project": "G13 \u2014 Cream Bespoke TV Unit \u2014 clean originals",
+  "slug": "cream-bespoke-tv-unit",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "19NsLnVhmOF1-2cxlAGrdvSzOaAS5a_TZ",
+      "source_label": "DSC_7379.jpg",
+      "role": "main room view",
+      "original": {
+        "width": 5781,
+        "height": 4912
+      },
+      "webp": {
+        "path": "public/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-room-view-01.webp",
+        "bytes": 267828,
+        "quality": 84,
+        "width": 2000,
+        "height": 1699,
+        "sha256": "aadbce1e974f351dec90eed121a8f31aef9b2e2951bd4cc73c416255dcd54b5e",
+        "git_blob_sha": "0017b1ce50076890ff1bc2e41f47071d0620e3d3"
+      },
+      "avif": {
+        "path": "public/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-room-view-01.avif",
+        "bytes": 154746,
+        "quality": 58,
+        "width": 2000,
+        "height": 1699,
+        "sha256": "74bc4985166ac4cb82614bc1ae0e9efb21ffd0a029b6a90a00925edc36137fe1",
+        "git_blob_sha": "2f0e699a7484053459a8876d9bb4b8aa2a7728ef"
+      }
+    },
+    {
+      "drive_file_id": "1_YuDCLslvRAY3nIWHWkgLBuRHEgHvGEj",
+      "source_label": "DSC_7403.jpg",
+      "role": "front view",
+      "original": {
+        "width": 7360,
+        "height": 4912
+      },
+      "webp": {
+        "path": "public/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-front-view-02.webp",
+        "bytes": 118104,
+        "quality": 84,
+        "width": 2000,
+        "height": 1335,
+        "sha256": "d4f710322d14b4825b672368a3cb27d29ae7060c5a43227cdf3c7502c8255992",
+        "git_blob_sha": "c999b759419d87eba7978d109482442c91df8f4a"
+      },
+      "avif": {
+        "path": "public/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-front-view-02.avif",
+        "bytes": 59593,
+        "quality": 58,
+        "width": 2000,
+        "height": 1335,
+        "sha256": "212c11a16ba34e9c3990bce25e4a9ebbd4d953f53dd0ae84fa8eb45b7d7beceb",
+        "git_blob_sha": "eeb1bb5a13cfae1b49211a381cfbbc24677a8769"
+      }
+    },
+    {
+      "drive_file_id": "1WJ5Zgb8LoroqOI0xFsDFuxT-s-Bp08Ji",
+      "source_label": "DSC_7378.jpg",
+      "role": "angled view",
+      "original": {
+        "width": 4912,
+        "height": 7360
+      },
+      "webp": {
+        "path": "public/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-angled-view-03.webp",
+        "bytes": 159092,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "55e7f2414e27d992b21f637d0d44f8398c88d882e75fc6f9579b5d4368f74b0a",
+        "git_blob_sha": "f4d0c907c2958d6964de8d0216634570a0c08b66"
+      },
+      "avif": {
+        "path": "public/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-angled-view-03.avif",
+        "bytes": 87516,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "0c7a2dc591f8d0c35914fd1f2ca648a0056453f9b3cb596f9c614d10e7c5d5ee",
+        "git_blob_sha": "d4d595abff578008f19ea44b67b363b0e46de117"
+      }
+    },
+    {
+      "drive_file_id": "1EkdH3ICAjr2xVHXINfYd0xwutv3k-YaJ",
+      "source_label": "DSC_7369.jpg",
+      "role": "display niche detail",
+      "original": {
+        "width": 4912,
+        "height": 7360
+      },
+      "webp": {
+        "path": "public/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-display-detail-04.webp",
+        "bytes": 142660,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "80ab81a1dc228e9e918aa3d71e704aa5ee79a27d02c5fdda965a7b63caa93862",
+        "git_blob_sha": "338f9ac2e4bb9498ee92e2df5b2ed4efbbc3b7d7"
+      },
+      "avif": {
+        "path": "public/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-display-detail-04.avif",
+        "bytes": 61539,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "6b5b40bb2c51e416e7c595f6abac6c07a9434b76018c04e2426d37997994095f",
+        "git_blob_sha": "f198d6adb81ee9c3f08ddf2886844565b9a0785f"
+      }
+    },
+    {
+      "drive_file_id": "1_1Y1hZTr4gZcaixI-uoDIHcXifKv_oUk",
+      "source_label": "DSC_7394.jpg",
+      "role": "side room view",
+      "original": {
+        "width": 7360,
+        "height": 4912
+      },
+      "webp": {
+        "path": "public/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-side-view-05.webp",
+        "bytes": 226038,
+        "quality": 84,
+        "width": 2000,
+        "height": 1335,
+        "sha256": "4b426568fdc4047f263115672f012b8197ebb7d5f52e2e97f7048e277dd5b2ec",
+        "git_blob_sha": "6acf7f11c8e5ea3a3a5ae1d09561737649b8ff2b"
+      },
+      "avif": {
+        "path": "public/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-side-view-05.avif",
+        "bytes": 129732,
+        "quality": 58,
+        "width": 2000,
+        "height": 1335,
+        "sha256": "e66d034334a03047fc5e4199b662aad26dc68e151cff800e31532f153c4b0906",
+        "git_blob_sha": "1c0a1b8050a72a362b043ff60b05bd49a70dcd79"
+      }
+    }
+  ]
+}

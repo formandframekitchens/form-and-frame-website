@@ -119,7 +119,7 @@ export default async function GalleryProjectPage({ params }: PageProps<"/gallery
             </nav>
             <div className="project-detail-heading">
               <div>
-                <p className="eyebrow">{project.category}{project.location ? ` · ${project.location}` : ""}</p>
+                <p className="eyebrow"><span className="project-gallery-id">{project.galleryId}</span>{project.category}{project.location ? ` · ${project.location}` : ""}</p>
                 <h1>{project.title}</h1>
               </div>
               <p className="project-detail-summary">{project.summary}</p>
@@ -190,7 +190,7 @@ export default async function GalleryProjectPage({ params }: PageProps<"/gallery
               <div className="project-related-links">
                 {relatedProjects.map(item => (
                   <Link href={`/gallery/${item.slug}`} key={item.slug}>
-                    <span>{item.location ?? item.category}</span>
+                    <span>{item.galleryId} · {item.location ?? item.category}</span>
                     <strong>{item.title}</strong>
                     <span aria-hidden="true">↗</span>
                   </Link>

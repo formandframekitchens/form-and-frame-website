@@ -36,6 +36,7 @@ export default function GalleryPage() {
                 <article className="gallery-card" key={project.slug}>
                   <Link href={`/gallery/${project.slug}`} aria-label={`View ${project.title}`}>
                     <div className="gallery-card-image">
+                      <span className="gallery-card-project-id">{project.galleryId}</span>
                       <Image
                         src={project.cover.src}
                         alt={project.cover.alt}

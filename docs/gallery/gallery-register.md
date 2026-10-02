@@ -3,13 +3,15 @@
 This is the permanent internal tracking register for website gallery case studies.
 
 Rules:
-- Tracking number is internal and is not added to public SEO titles.
+- Tracking number is a stable development ID (G01, G02, etc.). It is shown as a small badge on gallery cards and project pages, but is not added to public SEO titles.
 - One distinct furniture item can become its own case study even when several items are from the same property.
 - Only strong completed-project photography is promoted into the main gallery.
 - Weaker projects remain at the bottom or on HOLD.
 - Every new gallery follows: source review -> image selection -> optimisation -> SEO/case study -> preview -> approval -> live.
 - Do not reuse a G-number.
 - Process only one G-number at a time. Complete and verify its checkpoint before starting the next.
+- New active gallery projects are prepended to `galleryProjects` so the newest work appears at the top until a manual display order is supplied.
+- G-numbers never change when display order changes.
 
 ## Safety fuse
 STOP THE ENTIRE GALLERY SEQUENCE IMMEDIATELY if any of these occurs:
@@ -33,7 +35,7 @@ When the fuse fires:
 | G02 | Soho Bespoke Bookcase | LIVE | Soho 13 |
 | G03 | Soho Walk-In Wardrobe | LIVE | Soho 13 |
 | G04 | Grey & Black Bespoke Media Wall | LIVE | Existing strong media-wall set |
-| G05 | Golden Textured-Front Cabinet | LIVE | Golden-front cabinet |
+| G05 | Golden Textured-Front Cabinet | MERGED INTO G19 | Same source job/files as G19 Putney Heath Bespoke Cabinets; duplicate retired and never reused |
 | G06 | Built-In Window Seat with Drawer Storage | LIVE | Existing / Eric source duplicate |
 | G07 | Soho Shoe-Storage Cabinet | LIVE / LOW | Keep at bottom of gallery |
 | G08 | Black Oak Media Wall with Brass Inlay | LIVE | Chelsea / black TV source |
@@ -41,15 +43,15 @@ When the fuse fires:
 | G10 | Duplicate Dark Oak Bookcase Set | MERGED INTO G02 | Same Soho Bespoke Bookcase job; selected images merged into G02; G10 retired and never reused |
 | G11 | Westminster Polished Brass Panelled Doors | LIVE | Westminster source / selected 4-image set |
 | G12 | Alexander James Bespoke Bookcase | LIVE | Alexander James source |
-| G13 | Cream Bespoke TV Unit | LIVE | Gallery 1 |
+| G13 | Cream Bespoke TV Unit | LIVE | Gallery 1 / clean original photography; branded-logo JPG set retired |
 | G14 | Crocodile-Front Bespoke Cabinet | LIVE | Gallery 4 / Drive ingest verified; 5-image WebP + AVIF set |
 | G15 | S&C Bespoke TV Unit | LIVE | Gallery 6 / first fresh Drive ingest trial passed; 5-image WebP + AVIF set |
 | G16 | S&C Bespoke Bookcase | LIVE | Gallery 7 / 6-image Drive ingest passed; WebP + AVIF set |
 | G17 | Grey Bespoke Sideboard | LIVE / LOWER | Gallery 10 / four-image set; Drive ingest passed |
 | G18 | Dubai Bespoke TV Unit | LIVE | Arno 08 / coherent light-grey 5-image set; separate dark unit excluded |
-| G19 | Putney Heath Bespoke Cabinets | LIVE | Arno 07 / 6-image paired-cabinet set; Drive ingest passed |
+| G19 | Putney Heath Bespoke Cabinets | LIVE | Arno 07 / 6-image paired-cabinet set; absorbs duplicate G05 source job |
 | G20 | Highgate Fitted Wardrobes | LIVE | Arno 06 / 3-image fitted-wardrobe set; Drive ingest passed |
-| G21 | Northwood Bespoke TV Unit | MERGED / PRODUCTION BUILDING | Split from Arno 05 / 2-image TV-unit set; office images reserved for G22 |
+| G21 | Northwood Bespoke TV Unit | LIVE | Split from Arno 05 / 2-image TV-unit set; office images reserved for G22 |
 | G22 | Northwood Home Office | QUEUED | Split from Arno 05 |
 | G23 | Putney Flat Bespoke TV Unit | QUEUED | Arno 04 |
 | G24 | Earls Court Bespoke TV Unit | QUEUED | Split from Arno 03 |
@@ -85,20 +87,19 @@ When the fuse fires:
 - Visualisations / Samples / product-render collections: not counted as completed-project case studies.
 - Bed projects: keep at the bottom / HOLD unless a strong finished set is found.
 
-Current confirmed minimum: 47 distinct case-study slots, plus retired duplicate reference G10.
+Current confirmed minimum: 46 distinct case-study slots, plus retired duplicate references G05 and G10.
 
 
 ## Resume pointer
-- Last confirmed live gallery: G20 — Highgate Fitted Wardrobes
-- G14–G21 repository integrity check: PASSED on master
-- G20 production deployment: VERIFIED READY
-- G20 live route: VERIFIED with all 3 images
-- G21 — Northwood Bespoke TV Unit: MERGED INTO MASTER
-- G21 Drive ingest: PASSED
-- G21 output: 2 WebP + 2 AVIF assets
-- G21 Git blob SHA verification: PASSED
-- G21 preview route: VERIFIED with both TV-unit images
-- G21 production deployment: BUILDING on both allowed state checks
-- Safety fuse: TRIPPED — no third production poll performed
-- G22 Northwood Home Office source reserved: 40.jpg, 41.jpg and 42.jpg
-- Resume exactly at: one fresh G21 production-state check; if READY, verify live route, mark G21 LIVE, then stop this batch
+- Cleanup branch: gallery-cleanup-g13-g05-numbering
+- G13 Cream TV Unit: clean 5-image WebP/AVIF set VERIFIED in preview; branded JPG assets removed
+- G05 Golden Textured-Front Cabinet: CONFIRMED duplicate of G19 source job; retired into G19
+- G05 duplicate asset folder: REMOVED
+- G05 old route: permanent redirect to G19 Putney Heath Bespoke Cabinets
+- G19 Putney Heath Bespoke Cabinets: retained as the complete 6-image case study
+- Stable G-number field: ADDED to every active project
+- G-number badge: VERIFIED on gallery index and project pages
+- Temporary gallery order: newest active G-number first (new projects appear at top)
+- G-numbers remain stable when final display order is later supplied
+- G21 production: VERIFIED READY and live route verified with 2 images
+- Safety fuse status: ARMED
