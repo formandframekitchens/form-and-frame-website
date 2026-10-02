@@ -1580,6 +1580,78 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/earls-court-floating-shelf-mirror-wall/earls-court-floating-shelf-mirror-wall-view-01.webp", alt: "Floating display shelf and mirrored wall feature in Earls Court", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G26",
+    slug: "putney-bespoke-tv-unit",
+    title: "Putney Bespoke TV Unit",
+    category: "Bespoke Joinery",
+    location: "Putney, London",
+    summary: "A full-width fitted media wall with light textured fronts, integrated television, linear fireplace, illuminated display niches and concealed storage.",
+    seoDescription: "Putney bespoke TV unit case study by Form & Frame, featuring light textured fitted cabinetry, integrated television, linear fireplace, display niches and concealed storage.",
+    keywords: [
+      "Putney bespoke TV unit",
+      "bespoke media wall Putney",
+      "integrated fireplace TV wall",
+      "fitted media cabinetry",
+      "illuminated display niche",
+      "made to measure TV unit",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Full-width fitted media wall",
+      "Integrated television and linear fireplace",
+      "Illuminated display niches",
+      "Concealed storage behind flush fronts",
+    ],
+    caseStudy: [
+      {
+        heading: "A full-width media wall",
+        body: [
+          "This Putney installation uses fitted cabinetry across the full width of the room, integrating the television, fireplace, display niches and concealed storage within one continuous composition.",
+          "The light textured finish keeps the large wall of furniture visually restrained while the darker display recesses add contrast.",
+        ],
+      },
+      {
+        heading: "The demanding part: integrating multiple functions",
+        body: [
+          "The television, fireplace, storage and display niches all occupy different positions within the elevation. Their edges and surrounding panel lines need to stay aligned so the composition remains controlled.",
+          "The photographs show how the cabinet grid continues across the wall even where the internal functions change.",
+        ],
+      },
+      {
+        heading: "Concealed storage and access",
+        body: [
+          "One view shows the television section and adjacent cabinetry opened, revealing practical storage behind the flush external fronts.",
+          "This allows everyday equipment and storage to remain accessible without interrupting the closed appearance of the media wall.",
+        ],
+      },
+      {
+        heading: "Lighting and display niches",
+        body: [
+          "Dark recessed display niches with integrated spot lighting create visual breaks within the lighter fitted elevation.",
+          "The contrast draws attention to displayed objects while helping the full-width installation avoid reading as one continuous solid surface.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed media wall combines entertainment, fireplace, display and storage functions while maintaining a calm fitted appearance across the room.",
+          "For similar bespoke TV units and integrated media walls, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-room-view-01.webp",
+      alt: "Full-width bespoke TV unit with integrated fireplace in Putney",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-room-view-01.webp", alt: "Room view of Putney fitted TV and fireplace wall", fit: "contain" },
+      { src: "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-front-view-02.webp", alt: "Front view of full-width Putney bespoke media wall", fit: "contain" },
+      { src: "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-open-storage-03.webp", alt: "Open storage and television detail in Putney media wall", fit: "contain" },
+      { src: "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-detail-04.webp", alt: "Illuminated display niche detail in Putney TV unit", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
