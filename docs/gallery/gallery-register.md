@@ -62,7 +62,7 @@ When the fuse fires:
 | G29 | Virginia Water Wine Room | LIVE | Wentworth / 6 clean images; duplicate/logo preflight passed; Drive ingest passed after push-race retry |
 | G30 | Fulham Wine Cellar | LIVE | Clean HIGH RES MH0031–MH0035; duplicate/logo preflight passed; Drive ingest passed |
 | G31 | Fulham Home Office | LIVE | Clean HIGH RES MH0025–MH0028; duplicate/logo preflight passed; Drive ingest passed |
-| G32 | Fulham Alcove Units | QUEUED | Professional pictures / Fulham project |
+| G32 | Fulham Alcove Units | PREVIEW BUILDING / FUSE STOP | Clean HIGH RES MH0016–MH0018; duplicate/logo preflight passed; Drive ingest and SHA verification passed |
 | G33 | Fulham Juice Bar Joinery | QUEUED | Professional pictures / Fulham project |
 | G34 | Fulham Antique Mirror Feature | QUEUED | Professional pictures / Fulham project |
 | G35 | Belgravia Kids Room / Home Office Furniture | QUEUED | Professional pictures / Belgravia |
@@ -93,8 +93,11 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 ## Resume pointer
 - Last live gallery: G31 — Fulham Home Office
 - G31 production: VERIFIED READY and live with 4 images
-- Next gallery: G32 — Fulham Alcove Units
-- G32 source set: clean HIGH RES MH0016–MH0018 only
-- Ambiguous/unrelated Fulham images remain excluded
-- Duplicate/logo preflight remains mandatory
-- Safety fuse status: ARMED
+- G32 — Fulham Alcove Units: case study and assets complete on branch g32-fulham-alcove-units
+- G32 source set: clean HIGH RES MH0016–MH0018
+- G32 duplicate/logo preflight: PASSED
+- G32 Drive ingest: PASSED; 3 WebP + 3 AVIF; Git blob SHA verification passed
+- G32 case study: ADDED
+- G32 preview deployment dpl_AepMDtPQ9wXPBBzN8oqwknMfd8qC remained BUILDING on both allowed preview checks
+- Safety fuse: TRIPPED — no third preview poll performed
+- Resume exactly at: one fresh G32 preview-state check; if READY, verify preview route, merge, production verify, mark G32 LIVE
