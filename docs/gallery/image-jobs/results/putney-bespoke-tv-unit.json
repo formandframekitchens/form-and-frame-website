@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "project": "G26 \u2014 Putney Bespoke TV Unit",
+  "slug": "putney-bespoke-tv-unit",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1MeoKk3X5vOXNML9O8Q2NjYCNuVtgc-Ee",
+      "source_label": "08.jpg",
+      "role": "overall room view",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-room-view-01.webp",
+        "bytes": 152574,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "94af3a53019837472a6b67ba13bacddcabd139ccd447d92e8a776ed91e036088",
+        "git_blob_sha": "3ce7b50419ba13dfb428127d655038829ec6c567"
+      },
+      "avif": {
+        "path": "public/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-room-view-01.avif",
+        "bytes": 99599,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "825b8924ffb44ca2cfe1f3336169073eeefb27aaffd492c6cdd69e52c2156506",
+        "git_blob_sha": "9da3512b5e31d68e9df9352728b104eb79f254a6"
+      }
+    },
+    {
+      "drive_file_id": "14ZwqmMD-0Dpq_5lALnm82C2CNgDJjIwf",
+      "source_label": "09.jpg",
+      "role": "front view",
+      "original": {
+        "width": 5371,
+        "height": 3553
+      },
+      "webp": {
+        "path": "public/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-front-view-02.webp",
+        "bytes": 134910,
+        "quality": 84,
+        "width": 2000,
+        "height": 1323,
+        "sha256": "667e957fa049c05a2569f84079ecdf7d6fab538a31ee7f8d82607ee937e1e622",
+        "git_blob_sha": "f0a65475653b7602b0a8e2f4e3934f201364cfea"
+      },
+      "avif": {
+        "path": "public/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-front-view-02.avif",
+        "bytes": 93286,
+        "quality": 58,
+        "width": 2000,
+        "height": 1323,
+        "sha256": "63c938f2df2e9c76f21e26cd1fed2fcf3f6813fea004ac096aea9f3837437ecb",
+        "git_blob_sha": "2965f43e80f846b0a18d81abab0b2674d94fceaf"
+      }
+    },
+    {
+      "drive_file_id": "1qJi_yqZZ40IYIljH-euLv68YFo-9Bfk-",
+      "source_label": "10.jpg",
+      "role": "open storage and TV view",
+      "original": {
+        "width": 5362,
+        "height": 3604
+      },
+      "webp": {
+        "path": "public/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-open-storage-03.webp",
+        "bytes": 153108,
+        "quality": 84,
+        "width": 2000,
+        "height": 1344,
+        "sha256": "e609737d78ebc4b4ba82edece723cc775b2a458c191e49eb20ffb0f47edfe96c",
+        "git_blob_sha": "e75d76e659cee165299ae026fc030c73235c9513"
+      },
+      "avif": {
+        "path": "public/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-open-storage-03.avif",
+        "bytes": 106736,
+        "quality": 58,
+        "width": 2000,
+        "height": 1344,
+        "sha256": "5fd9e43e0a948770cc1731c38ccb072f2836e524fc69742a878dcd6336b469ec",
+        "git_blob_sha": "3a6b7e3f8948ebfb45804c54bd9d8ed701ac4079"
+      }
+    },
+    {
+      "drive_file_id": "1fWB9peT58sdZeeJssx0g2UAUFsA8oD7R",
+      "source_label": "12.jpg",
+      "role": "display niche detail",
+      "original": {
+        "width": 5533,
+        "height": 3681
+      },
+      "webp": {
+        "path": "public/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-detail-04.webp",
+        "bytes": 263716,
+        "quality": 84,
+        "width": 2000,
+        "height": 1331,
+        "sha256": "abee0271abf722fc2a3bfba416f5d3a3342ded0adde0bb5a6fc62bff3691d32c",
+        "git_blob_sha": "0ec8acf8452e2b12663e0fd8a0763e0c043f823f"
+      },
+      "avif": {
+        "path": "public/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-detail-04.avif",
+        "bytes": 155454,
+        "quality": 58,
+        "width": 2000,
+        "height": 1331,
+        "sha256": "057bce3b8f516d5daf05616c9685ab986182c33f109331911dd00e05564d9121",
+        "git_blob_sha": "3035402f1dcc7a10576fa6763f84775bc6f26c61"
+      }
+    }
+  ]
+}
