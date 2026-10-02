@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "project": "G29 \u2014 Virginia Water Wine Room",
+  "slug": "virginia-water-wine-room",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "17vYb9MjC4gnp2Gf2kavRvlePusx_aGWu",
+      "source_label": "217.jpg",
+      "role": "full room and wine wall",
+      "original": {
+        "width": 6556,
+        "height": 4371
+      },
+      "webp": {
+        "path": "public/images/gallery/virginia-water-wine-room/virginia-water-wine-room-overall-view-01.webp",
+        "bytes": 288040,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "cd1a7d9ab5c7d223d6f4703c47b73fe2938891ec54d6c8c41311fefa70e87b65",
+        "git_blob_sha": "28833fc8524ce997ea3712c38d1b14fb421e1d9e"
+      },
+      "avif": {
+        "path": "public/images/gallery/virginia-water-wine-room/virginia-water-wine-room-overall-view-01.avif",
+        "bytes": 199555,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "201f71098295e473e43aa2437945bd421269fde36c7696c8b2ae500ae37ceb06",
+        "git_blob_sha": "83af411852cac458f47b9bda4e8123cedf855e45"
+      }
+    },
+    {
+      "drive_file_id": "1oGukQb-J1Tmi5ReD7pkwrCnJ8Nn1V-q1",
+      "source_label": "219.jpg",
+      "role": "wine wall front detail",
+      "original": {
+        "width": 6720,
+        "height": 4480
+      },
+      "webp": {
+        "path": "public/images/gallery/virginia-water-wine-room/virginia-water-wine-room-front-detail-02.webp",
+        "bytes": 472870,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "d0d9f6632acd15ae37f92c26485d2c39b15c3b3f5d9856bfff949deb7bf9a7a8",
+        "git_blob_sha": "f519bf3c0f4939796097f71885c9701d8d8a4ed0"
+      },
+      "avif": {
+        "path": "public/images/gallery/virginia-water-wine-room/virginia-water-wine-room-front-detail-02.avif",
+        "bytes": 315974,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "cdefc0d4aa4c8fa298313b606b58b76958548ab8f3ee5e0fdd05e8d666de3b47",
+        "git_blob_sha": "b66f229995372f029c28c054de3a86770743258d"
+      }
+    },
+    {
+      "drive_file_id": "1CPzbYluB3CB2Oh77xJyaqVPc97yRFB4C",
+      "source_label": "220.jpg",
+      "role": "wine storage bottle detail",
+      "original": {
+        "width": 6720,
+        "height": 4480
+      },
+      "webp": {
+        "path": "public/images/gallery/virginia-water-wine-room/virginia-water-wine-room-storage-detail-03.webp",
+        "bytes": 379780,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "0cdbcbee6f583a9ba6dcafd5078e8f43360c42e378645929bf8155175f470c8a",
+        "git_blob_sha": "409d59d55479c35e0f91b2ad19ccf92c87b4a2f4"
+      },
+      "avif": {
+        "path": "public/images/gallery/virginia-water-wine-room/virginia-water-wine-room-storage-detail-03.avif",
+        "bytes": 250499,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "bdb349806ddcc9c9c23442c26a537626593a0f6ee55c23c519e7fbe6b7d79b51",
+        "git_blob_sha": "8b2c1ec6d749de6830080d8ccc7778ddfc7d1042"
+      }
+    },
+    {
+      "drive_file_id": "1nFMV1QydcAwHiDMLvytKN__7Bmpyjb99",
+      "source_label": "221.jpg",
+      "role": "vertical bottle storage detail",
+      "original": {
+        "width": 4480,
+        "height": 6720
+      },
+      "webp": {
+        "path": "public/images/gallery/virginia-water-wine-room/virginia-water-wine-room-bottle-detail-04.webp",
+        "bytes": 317114,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "7565e05183c80c43b77ffe04c5dbf535bcdcf909b99494bf27142566a4e3a1c1",
+        "git_blob_sha": "f316d18be0cf8d4b88e3e7afae22953381100174"
+      },
+      "avif": {
+        "path": "public/images/gallery/virginia-water-wine-room/virginia-water-wine-room-bottle-detail-04.avif",
+        "bytes": 199334,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "c66bfb678e0e294442a9bd69a8c127c34366707afeb0bdd7c8799f771d46fb4d",
+        "git_blob_sha": "564522accd4dca788c10f5d65d9e950d7d184834"
+      }
+    },
+    {
+      "drive_file_id": "1eoZaLf2KNNgMt73jlFNYdW-pGn45HAxR",
+      "source_label": "222.jpg",
+      "role": "close bottle rack detail",
+      "original": {
+        "width": 6720,
+        "height": 4480
+      },
+      "webp": {
+        "path": "public/images/gallery/virginia-water-wine-room/virginia-water-wine-room-rack-detail-05.webp",
+        "bytes": 159774,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "2b78e094b0091d8707b806cc591a91e0bfb0b0e53c796e566b241cc5f294c84e",
+        "git_blob_sha": "57e07a53f16314cd835c0e664e574f3b370f4b51"
+      },
+      "avif": {
+        "path": "public/images/gallery/virginia-water-wine-room/virginia-water-wine-room-rack-detail-05.avif",
+        "bytes": 90116,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "72f0883d6c7910cdd2731faac7de817bb2217fc0b2d7027423816b2091328899",
+        "git_blob_sha": "613c8dd9bea465e92cf2afcde8b23480f128c4a2"
+      }
+    },
+    {
+      "drive_file_id": "13yXZf4l_gDJ1l7fMahoOE6K0Erw6BA8J",
+      "source_label": "225.jpg",
+      "role": "room context view",
+      "original": {
+        "width": 6720,
+        "height": 4480
+      },
+      "webp": {
+        "path": "public/images/gallery/virginia-water-wine-room/virginia-water-wine-room-context-view-06.webp",
+        "bytes": 234446,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "df27408a18fc91d296b5b93176d2c6928ca48cb3a1bcdebe2e95e7c948cc11ce",
+        "git_blob_sha": "3f4d5c6d19a9d4a6065f00abaac67304ac2524b3"
+      },
+      "avif": {
+        "path": "public/images/gallery/virginia-water-wine-room/virginia-water-wine-room-context-view-06.avif",
+        "bytes": 155459,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "507a2c8cf80ac12075cb15102ea2638253eeaeb2061028147f3985160a428d4e",
+        "git_blob_sha": "f236259c2a1ebb6e206dce1669f48c0539fe22c6"
+      }
+    }
+  ]
+}
