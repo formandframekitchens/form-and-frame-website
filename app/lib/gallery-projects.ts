@@ -10,7 +10,6 @@ export type GalleryCaseStudySection = {
 };
 
 export type GalleryProject = {
-  galleryId: string;
   slug: string;
   title: string;
   category: "Kitchen Installation" | "Bespoke Joinery";
@@ -24,9 +23,7 @@ export type GalleryProject = {
   images: GalleryImage[];
 };
 
-export const galleryProjects: GalleryProject[
-
-] = [
+export const galleryProjects: GalleryProject[] = [
   {
     slug: "handleless-kitchen-installation",
     title: "Handleless Kitchen Installation",
