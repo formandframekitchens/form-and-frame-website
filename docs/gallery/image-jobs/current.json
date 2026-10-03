@@ -1,5 +1,84 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "8-leys-road-alcove-units"
+  "enabled": true,
+  "project": "G46 — London Luxury Salon Joinery",
+  "slug": "london-luxury-salon-joinery",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1VyBR7xL83Gno4c7nqP35jL-IxE1OgX7l",
+      "source_label": "126001",
+      "role": "overall salon interior",
+      "output_stem": "london-luxury-salon-overall-view-01",
+      "source_url": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-7b28-820a-96f7-308ecac134be/raw?se=2026-10-03T07%3A58%3A28Z&sp=r&sv=2026-02-06&sr=b&scid=85a99488-6e22-5580-aaa2-74ca9e49bcf6&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A15%3A21Z&ske=2026-10-04T06%3A15%3A21Z&sks=b&skv=2026-02-06&sig=unVvFrVlo2oCvVqKXLttfBRl%2BcFIpsXaVvkOTxCy5Ro%3D"
+    },
+    {
+      "drive_file_id": "1B3qDR-eTcQussjiozivDyk3riNTdNJbh",
+      "source_label": "354001",
+      "role": "reception and joinery view",
+      "output_stem": "london-luxury-salon-reception-view-02",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-485c-81f4-81f8-c909d6c49730/raw?se=2026-10-03T07%3A58%3A30Z&sp=r&sv=2026-02-06&sr=b&scid=d2cf0136-8e07-51e4-a416-b0902434156a&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A13%3A07Z&ske=2026-10-04T05%3A13%3A07Z&sks=b&skv=2026-02-06&sig=bLe7AES%2BSveZlJv7UMiI28UivBqhJZpS55X5N/jQLYc%3D"
+    },
+    {
+      "drive_file_id": "1CPbFQ8rr-NpDB2PG3LHyCRWjarwWsGyi",
+      "source_label": "942001",
+      "role": "wide salon room view",
+      "output_stem": "london-luxury-salon-room-view-03",
+      "source_url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-82e4-8246-87f5-b577b8f00113/raw?se=2026-10-03T07%3A58%3A32Z&sp=r&sv=2026-02-06&sr=b&scid=eb9f92bd-aac1-5f24-9a33-893e82f1ee16&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T04%3A11%3A02Z&ske=2026-10-04T04%3A11%3A02Z&sks=b&skv=2026-02-06&sig=gd8baQEC6x5aJY8jROB1hvWjc6kl8Nc%2BTVI6qIc48TM%3D"
+    },
+    {
+      "drive_file_id": "15_4UfzsPI4jX35G5SfVX_ruNcUN8PeC8",
+      "source_label": "1452001",
+      "role": "styling station detail",
+      "output_stem": "london-luxury-salon-station-detail-04",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-b0cc-8210-9ee5-78c4426b89eb/raw?se=2026-10-03T07%3A58%3A34Z&sp=r&sv=2026-02-06&sr=b&scid=39b919c7-51fb-5866-b0be-5a97fc4be480&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A49%3A35Z&ske=2026-10-04T05%3A49%3A35Z&sks=b&skv=2026-02-06&sig=e1ZhNcsMH0cWC%2Bi8Jgu33LXs4c5NjdxAgBOwSyJ2qaY%3D"
+    },
+    {
+      "drive_file_id": "1ioQmfPLDLvpn_RIg0pHsguEMNBJtpaGH",
+      "source_label": "1320001",
+      "role": "fitted cabinetry view",
+      "output_stem": "london-luxury-salon-cabinetry-view-05",
+      "source_url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-6978-8246-8a31-59a07e0731f5/raw?se=2026-10-03T07%3A58%3A36Z&sp=r&sv=2026-02-06&sr=b&scid=8d24b37f-55af-5aae-b51a-24d27ad0e350&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A50%3A36Z&ske=2026-10-04T05%3A50%3A36Z&sks=b&skv=2026-02-06&sig=GW5YGH6pEccjQ7SHYUSnLzcgxP0jnPPcHEu/%2B9ComC4%3D"
+    },
+    {
+      "drive_file_id": "1cUgJNHPrzVsDRO7ixj5xWAGrYWeX9fzD",
+      "source_label": "1590001",
+      "role": "mirror and joinery detail",
+      "output_stem": "london-luxury-salon-mirror-detail-06",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-08fc-81f4-a1e7-8dc5487c67e0/raw?se=2026-10-03T07%3A58%3A39Z&sp=r&sv=2026-02-06&sr=b&scid=5fcc59c9-18e6-51d1-a075-9a44cb748466&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A34%3A13Z&ske=2026-10-04T05%3A34%3A13Z&sks=b&skv=2026-02-06&sig=T9qT0kbeM9MO8HEgEmP/fgMSBE23cpCVmK7oJOULU4Q%3D"
+    },
+    {
+      "drive_file_id": "1q2jdYidzDSJlEhSvcmxjnR2Ia3aAnh7-",
+      "source_label": "732001",
+      "role": "salon context view",
+      "output_stem": "london-luxury-salon-context-view-07",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-ea64-8210-81ac-8060d5492a78/raw?se=2026-10-03T07%3A58%3A40Z&sp=r&sv=2026-02-06&sr=b&scid=15941583-c52e-5f20-b7ce-6ecd8c7251a5&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T20%3A01%3A58Z&ske=2026-10-03T20%3A01%3A58Z&sks=b&skv=2026-02-06&sig=CsuyunvU%2BZaZJid4gW5DEq0LjMWh8cMQWrdNVZcMqfQ%3D"
+    },
+    {
+      "drive_file_id": "1crdZHFLYxs-zBG0gmr4Ns8sEH5hkoH58",
+      "source_label": "1818001",
+      "role": "service and storage joinery",
+      "output_stem": "london-luxury-salon-storage-view-08",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-6f38-8210-87f1-b88334a7c665/raw?se=2026-10-03T07%3A58%3A42Z&sp=r&sv=2026-02-06&sr=b&scid=0e2fce0b-2966-52ba-9730-c9ec87acdecc&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A13%3A10Z&ske=2026-10-04T05%3A13%3A10Z&sks=b&skv=2026-02-06&sig=brOMlI/BMpvG0cPD6KasUt6LwadakBXwdK84W%2Bd3TwE%3D"
+    },
+    {
+      "drive_file_id": "1SLWp5BgVI-PPJaPGsrHqq2-i2mtiY0VX",
+      "source_label": "1242001",
+      "role": "architectural joinery view",
+      "output_stem": "london-luxury-salon-architectural-view-09",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-6070-81f4-9d5d-cfd7bef48d9b/raw?se=2026-10-03T07%3A58%3A44Z&sp=r&sv=2026-02-06&sr=b&scid=3ede15b9-1669-5858-9bab-77fd2012790d&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A58%3A13Z&ske=2026-10-04T06%3A58%3A13Z&sks=b&skv=2026-02-06&sig=TVJwvzx%2B%2BpBS6RQs2Lizo3v1xsTnbcghZy90oHzyUW8%3D"
+    },
+    {
+      "drive_file_id": "1i8hZCK8JzTb811q7pfyHHzn9EaKYO3R_",
+      "source_label": "636001",
+      "role": "material and detail view",
+      "output_stem": "london-luxury-salon-detail-10",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-a610-8210-b596-d4fb4d32eae0/raw?se=2026-10-03T07%3A58%3A46Z&sp=r&sv=2026-02-06&sr=b&scid=d0185dde-4d2e-5687-93ef-52bcdd7111a2&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A03%3A10Z&ske=2026-10-04T06%3A03%3A10Z&sks=b&skv=2026-02-06&sig=jnujB3oR6xkw8ptUK16FSCfeRJnF2feRy1ln%2B8ZWdlk%3D"
+    }
+  ]
 }
