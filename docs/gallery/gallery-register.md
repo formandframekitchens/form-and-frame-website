@@ -78,7 +78,7 @@ When the fuse fires:
 | G45 | 8 Leys Road Alcove Units | LIVE | 9 clean HIGH RES images mapped; logo/web versions excluded; Drive ingest and SHA verification passed |
 | G46 | London Luxury Salon Joinery | LIVE | 10 clean selected salon images; LOGO folder excluded; Drive ingest and SHA verification passed; corrected preview passed; production READY |
 | G47 | Bespoke Media Wall with Display Shelving | LIVE | Aram high res images 1–11; ingest, asset verification, preview and production verification passed; PR #44 merged |
-| G48 | AIDA Stourcliff Road Project | QUEUED / REVIEW SPLIT | 47 professional images; may split further |
+| G48 | Stourcliff Bespoke Media Wall | INGEST RUNNING / FUSE STOP | AIDA high res images 1, 2, 4, 5, 6, 7; WITH LOGO excluded; signed source URLs embedded from start |
 
 ## HOLD / not included in G01-G48
 - Modern Alcove Units: unfinished/weak presentation in current set.
@@ -92,10 +92,27 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 ## Resume pointer
 - Last live gallery: G47 — Bespoke Media Wall with Display Shelving
-- Current gallery: G48 — AIDA Stourcliff Road Project
-- G47 production deployment dpl_FYuNvC5WP38BG2DHzm6BmMf7q2Ss: READY
-- G47 public route https://formandframekitchens.co.uk/gallery/bespoke-media-wall-display-shelving: VERIFIED HTTP 200 with correct G47 content
-- G47 status: LIVE
-- G48 source hierarchy previously grounded: AIDA Stourcliff high res; WITH LOGO excluded
-- G48 is REVIEW SPLIT: 47 professional images may contain multiple distinct furniture items
-- Resume exactly at: review the recent AIDA Stourcliff source hierarchy, classify clean high-res photography into distinct furniture groups, then process only the first unambiguous G48 item; stop if project identity or image-to-item assignment is uncertain
+- Current gallery: G48 — Stourcliff Bespoke Media Wall
+- G48 source hierarchy: recent Sep 24 AIDA Stourcliff road -> high res; WITH LOGO excluded
+- AIDA source count: 47 clean numbered JPEGs; extra HIGH RES PSD copy of image 20 excluded
+- G48 visual selection: HIGH RES images 1, 2, 4, 5, 6, 7 only
+- G48 WEB RES copies were used only for visual classification
+- G48 branch: g48-stourcliff-bespoke-media-wall
+- G48 ingest trigger commit: f7b3a9b7cda75655c5b6f2ce7060e54f37833259
+- Fresh signed source_url values were embedded for all six HIGH RES files before triggering ingest
+- G48 Actions run: 37110081091
+- First Actions check: IN_PROGRESS
+- Second allowed Actions check: IN_PROGRESS; dependencies installing, image ingest not started yet
+- Safety fuse: TRIPPED — no third Actions poll performed
+- Remaining AIDA source split identified but NOT numbered/started:
+  - image 3: whole-room context showing media wall plus separate dining cabinetry
+  - images 8–11: window/radiator-cover and room context
+  - images 12–19: bedroom mirrored wardrobe / bed context
+  - images 20–22: bedroom dressing table
+  - images 23–27: fitted wardrobe and shoe storage
+  - images 28–32: bathroom vanity/storage
+  - images 33–44: white handleless kitchen
+  - image 45: small vanity/counter detail
+  - image 46: recessed display cabinet
+  - image 47: hall context
+- Resume exactly at: one fresh state check for G48 Actions run 37110081091; if successful, verify generated assets + Git blob SHAs, add G48 case study, preview, merge and production verify; if failed, diagnose once before any later G-number
