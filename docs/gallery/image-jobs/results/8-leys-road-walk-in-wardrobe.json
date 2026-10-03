@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "project": "G41 \u2014 8 Leys Road Walk-In Wardrobe",
+  "slug": "8-leys-road-walk-in-wardrobe",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1fRJ4DCAAMZeI90_ItBleGxRtbeu6luPF",
+      "source_label": "i0035.jpg",
+      "role": "overall walk-in wardrobe view",
+      "original": {
+        "width": 4900,
+        "height": 7342
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-overall-01.webp",
+        "bytes": 296146,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "c2f06480927c4fc8d13d221f731a7ae50d1bc3da36792e43664d3568fa40cceb",
+        "git_blob_sha": "4ee4894280a0166dee0aa569a8151e0c42b10733"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-overall-01.avif",
+        "bytes": 169644,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "950da8c2adf27324ef63a7a01e5c958872781fb0d01bd2b0a88199628c744af4",
+        "git_blob_sha": "637bbedb3328a0531491544640c4a9624a29ce4d"
+      }
+    },
+    {
+      "drive_file_id": "1nVFzfHR66VCqmZBORH5cu02gpImduT62",
+      "source_label": "i0034.jpg",
+      "role": "wardrobe interior view",
+      "original": {
+        "width": 4900,
+        "height": 7342
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-interior-02.webp",
+        "bytes": 223272,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "4a4c692f21cd6191987bf2263ba9b8567b7f62e5c1787fae3483eb295c7b52af",
+        "git_blob_sha": "dec638bb718fd064b388a73cd0194a73c0bb7a6f"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-interior-02.avif",
+        "bytes": 128730,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "baae79d179e6cc239f03424b48b4041b63709cb29533e6b1680c7a2907b29409",
+        "git_blob_sha": "e28d338f7ba9e3f824332f8fd5cfcdfeea7629ee"
+      }
+    },
+    {
+      "drive_file_id": "1-Qd24ziVWlBV648vqFc8fndRwF8uChOF",
+      "source_label": "i0037.jpg",
+      "role": "brass and leather detail",
+      "original": {
+        "width": 4912,
+        "height": 7360
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-brass-leather-03.webp",
+        "bytes": 495202,
+        "quality": 76,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "0533b4c2d64a3e94f2290334d06e88da16c92bd60c5d5a0ad8901179e336035e",
+        "git_blob_sha": "dfad407dfd062eacf9fd2521ef2fcfd0024339a4"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-brass-leather-03.avif",
+        "bytes": 391718,
+        "quality": 54,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "d1b6eac262e17a0ee3609fe4bec6716d72b9b910f973e2aa1cf6c9e5b3f37ea5",
+        "git_blob_sha": "6c14db72fc907029f693f6782dec06e4a3e3fad5"
+      }
+    },
+    {
+      "drive_file_id": "1dpL3Xsv8nbwViWRC2NmQndk2RQy_jQO7",
+      "source_label": "i0036.jpg",
+      "role": "wardrobe brass detail",
+      "original": {
+        "width": 4723,
+        "height": 3885
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-brass-detail-04.webp",
+        "bytes": 450530,
+        "quality": 80,
+        "width": 2000,
+        "height": 1645,
+        "sha256": "b17abb1710c8a486c0ee7efa62dfcfae2c78ba7a3c543eeece272908636754f1",
+        "git_blob_sha": "fcbbbd8182078dbb6a7497b5719d440c2079fd4b"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-brass-detail-04.avif",
+        "bytes": 330753,
+        "quality": 58,
+        "width": 2000,
+        "height": 1645,
+        "sha256": "c6742adf806e739a302ec2dc7825efa75e85b5b76dbc552f4351b0d7089039bf",
+        "git_blob_sha": "0503973394658d380dd0dd50f8c53bc635150599"
+      }
+    },
+    {
+      "drive_file_id": "1Rbub6dLymqFnAuQjoqJIFzlMQg80EGlX",
+      "source_label": "E0001.jpg",
+      "role": "walk-in wardrobe cabinetry view",
+      "original": {
+        "width": 5498,
+        "height": 7608
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-cabinetry-05.webp",
+        "bytes": 460390,
+        "quality": 84,
+        "width": 1445,
+        "height": 2000,
+        "sha256": "4032f1a81591f0e9f9d468b03c3e27da87f0df13ae2984f7f6abb2c7d777264b",
+        "git_blob_sha": "49bc31456fc9b65c254e2c6b8ad0996a2ce627dc"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-cabinetry-05.avif",
+        "bytes": 298830,
+        "quality": 58,
+        "width": 1445,
+        "height": 2000,
+        "sha256": "27cf0d5e5b5ce1b64171464cf964e85dde9d65bb0aa1a7a55532a14f84a43df6",
+        "git_blob_sha": "34f635e4135f9d2db2478f6bb128b227d3b94631"
+      }
+    },
+    {
+      "drive_file_id": "1kH7kMEdVrciaY664KYZqJ4IPVEyFkRzO",
+      "source_label": "M0045.jpg",
+      "role": "walk-in wardrobe room view",
+      "original": {
+        "width": 4758,
+        "height": 7082
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-room-06.webp",
+        "bytes": 291310,
+        "quality": 84,
+        "width": 1344,
+        "height": 2000,
+        "sha256": "e59b3227e72f8c67ec1c6ddb2cd72ba912e4def6c5ce9c70b9da1bcc6e356ce3",
+        "git_blob_sha": "1c9031cdc49236404c53c321ebf72929e01fd4f9"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-room-06.avif",
+        "bytes": 170882,
+        "quality": 58,
+        "width": 1344,
+        "height": 2000,
+        "sha256": "1045e546cd74d739eba6eeeb002e15835fc6ec21c84492cd5f72c0c61a845403",
+        "git_blob_sha": "bc3b3bcc8703b9976e9a2767f01a208a794c98dc"
+      }
+    },
+    {
+      "drive_file_id": "1e36QoJKo2twdAm0ooRlCX9ciezu2JKzy",
+      "source_label": "M0044.jpg",
+      "role": "walk-in wardrobe detail view",
+      "original": {
+        "width": 4899,
+        "height": 7341
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-detail-07.webp",
+        "bytes": 272706,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "7986f2d93f8de78c1b06e7e94df0afb8625515f2b8399639da6ac7e63a752c3c",
+        "git_blob_sha": "09ca7ec65d3d3e150ab44d1b9ed1c9c0356fd2f4"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-detail-07.avif",
+        "bytes": 177433,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "c9d43d45c5a9a40b6d6f68257b913018a2de44a0b7ae7b76f4a9bb0dc32d3310",
+        "git_blob_sha": "8429fcb1be6d555edf100d2c3d0ea59a851a6cd7"
+      }
+    }
+  ]
+}
