@@ -1,5 +1,35 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "bespoke-media-wall-display-shelving"
+  "enabled": true,
+  "project": "G50 — Stourcliff Dressing Table",
+  "slug": "stourcliff-dressing-table",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "19S69sFB7so65OdXFIaYkrdXdaHo3HE3R",
+      "source_label": "UNUM - AIDA {HIGH RES} (20)",
+      "role": "overall dressing table view",
+      "output_stem": "stourcliff-dressing-table-overall-01",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-82dc-8210-b8b0-90fe502aa7be/raw?se=2026-10-03T09%3A05%3A19Z&sp=r&sv=2026-02-06&sr=b&scid=1ca7d1ca-5a50-554b-be07-e550c02bf15b&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A05%3A00Z&ske=2026-10-04T08%3A05%3A00Z&sks=b&skv=2026-02-06&sig=Awu3dEcEXi3l0%2BB8nP5FVF2ZKOY2Ui1D3E9X2uEM14g%3D"
+    },
+    {
+      "drive_file_id": "1JQxLZYuNSSjkmrPVwnBRcfDna_eF-NvA",
+      "source_label": "UNUM - AIDA {HIGH RES} (21)",
+      "role": "dressing table front view",
+      "output_stem": "stourcliff-dressing-table-front-02",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-6084-8210-b02b-f5ba5cc433a7/raw?se=2026-10-03T09%3A05%3A19Z&sp=r&sv=2026-02-06&sr=b&scid=bd0709db-d6b3-5511-9f01-bab84ec0f9e8&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T20%3A01%3A57Z&ske=2026-10-03T20%3A01%3A57Z&sks=b&skv=2026-02-06&sig=chrnHGmfCS0GVYMUJhxnTC2I1Mx67ZRS3o0sEwd5EN4%3D"
+    },
+    {
+      "drive_file_id": "1r5TrtdlEhSQT_-JHYGx-C2-asUXzg6tL",
+      "source_label": "UNUM - AIDA {HIGH RES} (22)",
+      "role": "dressing table drawer detail",
+      "output_stem": "stourcliff-dressing-table-detail-03",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-4d8c-8210-92b6-15600d09b1ff/raw?se=2026-10-03T09%3A05%3A19Z&sp=r&sv=2026-02-06&sr=b&scid=22704454-d2e1-5a49-b09e-f5c97cda30f9&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A50%3A33Z&ske=2026-10-04T05%3A50%3A33Z&sks=b&skv=2026-02-06&sig=8J9RI61maEoKkXMTna251B86G7ysDDCR2Pk2UT/c9Tc%3D"
+    }
+  ]
 }
