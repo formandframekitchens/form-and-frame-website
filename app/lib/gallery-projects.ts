@@ -3277,6 +3277,72 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   
+  {
+    galleryId: "G41",
+    slug: "8-leys-road-walk-in-wardrobe",
+    title: "8 Leys Road Walk-In Wardrobe",
+    category: "Bespoke Joinery",
+    summary: "A fitted walk-in wardrobe with dark cabinetry, mirrored doors, open storage and refined brass, leather and handle detailing.",
+    seoDescription: "8 Leys Road bespoke walk-in wardrobe by Form & Frame, featuring dark fitted cabinetry, mirrored doors, open storage and brass and leather detailing.",
+    keywords: [
+      "8 Leys Road walk-in wardrobe",
+      "bespoke walk-in wardrobe",
+      "dark fitted wardrobe",
+      "mirrored wardrobe doors",
+      "brass wardrobe handles",
+      "luxury fitted storage",
+    ],
+    highlights: [
+      "Full-height fitted wardrobe",
+      "Mirrored door fronts",
+      "Open illuminated storage",
+      "Brass and leather detailing",
+    ],
+    caseStudy: [
+      {
+        heading: "A fitted walk-in wardrobe with varied storage",
+        body: [
+          "This 8 Leys Road wardrobe combines full-height enclosed storage with open shelving and display sections within one fitted room.",
+          "Mirrored fronts and darker cabinetry create contrast while the open sections keep selected storage accessible and visible.",
+        ],
+      },
+      {
+        heading: "The demanding part: coordinating several finishes",
+        body: [
+          "The furniture brings together dark cabinet surfaces, mirrored fronts, brass hardware and leather-related detailing, so alignment and edge treatment need to remain controlled across different materials.",
+          "Careful setting out is especially important where tall doors, shelving and decorative hardware meet within the same elevation.",
+        ],
+      },
+      {
+        heading: "Brass, leather and handle details",
+        body: [
+          "The close-up photography shows the brass handles and detailed panel treatment alongside the wider wardrobe views.",
+          "These smaller elements give the fitted storage a more furniture-led character without interrupting the overall composition.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed walk-in wardrobe combines concealed storage, open display areas and reflective fronts within a coherent fitted scheme.",
+          "For similar wardrobes and dressing-room joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-overall-01.webp",
+      alt: "8 Leys Road bespoke walk-in wardrobe",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-overall-01.webp", alt: "Overall view of 8 Leys Road walk-in wardrobe", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-interior-02.webp", alt: "Walk-in wardrobe interior storage", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-brass-leather-03.webp", alt: "Brass and leather wardrobe detail", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-brass-detail-04.webp", alt: "Brass wardrobe detail", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-cabinetry-05.webp", alt: "Walk-in wardrobe cabinetry view", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-room-06.webp", alt: "Walk-in wardrobe room view", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-detail-07.webp", alt: "Walk-in wardrobe fitted detail", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
