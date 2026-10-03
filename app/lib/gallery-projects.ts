@@ -2156,13 +2156,14 @@ export const galleryProjects: GalleryProject[] = [
   },
   {
     galleryId: "G45",
-    slug: "8-leys-road-alcove-units",
-    title: "8 Leys Road Alcove Units",
+    slug: "esher-luxury-residence-alcove-units",
+    title: "Esher Luxury Residence — Alcove Units",
     category: "Bespoke Joinery",
+    location: "Esher, Surrey",
     summary: "A collection of fitted alcove units across several rooms, combining painted cabinetry, open shelving, concealed storage and tailored proportions.",
-    seoDescription: "8 Leys Road bespoke alcove units by Form & Frame, featuring fitted shelving, concealed storage and made-to-measure cabinetry across multiple rooms.",
+    seoDescription: "Esher Luxury Residence bespoke alcove units by Form & Frame, featuring fitted shelving, concealed storage and made-to-measure cabinetry across multiple rooms.",
     keywords: [
-      "8 Leys Road alcove units",
+      "Esher Luxury Residence alcove units",
       "bespoke alcove units London",
       "fitted alcove cabinets",
       "made to measure shelving",
@@ -2207,7 +2208,7 @@ export const galleryProjects: GalleryProject[] = [
     ],
     cover: {
       src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-overall-view-01.webp",
-      alt: "Bespoke alcove units at 8 Leys Road",
+      alt: "Bespoke alcove units at Esher Luxury Residence",
       fit: "contain",
     },
     images: [
@@ -3279,13 +3280,14 @@ export const galleryProjects: GalleryProject[] = [
   
   {
     galleryId: "G41",
-    slug: "8-leys-road-walk-in-wardrobe",
-    title: "8 Leys Road Walk-In Wardrobe",
+    slug: "esher-luxury-residence-walk-in-wardrobe",
+    title: "Esher Luxury Residence — Walk-In Wardrobe",
     category: "Bespoke Joinery",
+    location: "Esher, Surrey",
     summary: "A fitted walk-in wardrobe with dark cabinetry, mirrored doors, open storage and refined brass, leather and handle detailing.",
-    seoDescription: "8 Leys Road bespoke walk-in wardrobe by Form & Frame, featuring dark fitted cabinetry, mirrored doors, open storage and brass and leather detailing.",
+    seoDescription: "Esher Luxury Residence bespoke walk-in wardrobe by Form & Frame, featuring dark fitted cabinetry, mirrored doors, open storage and brass and leather detailing.",
     keywords: [
-      "8 Leys Road walk-in wardrobe",
+      "Esher Luxury Residence walk-in wardrobe",
       "bespoke walk-in wardrobe",
       "dark fitted wardrobe",
       "mirrored wardrobe doors",
@@ -3302,7 +3304,7 @@ export const galleryProjects: GalleryProject[] = [
       {
         heading: "A fitted walk-in wardrobe with varied storage",
         body: [
-          "This 8 Leys Road wardrobe combines full-height enclosed storage with open shelving and display sections within one fitted room.",
+          "This walk-in wardrobe at the Esher residence combines full-height enclosed storage with open shelving and display sections within one fitted room.",
           "Mirrored fronts and darker cabinetry create contrast while the open sections keep selected storage accessible and visible.",
         ],
       },
@@ -3330,11 +3332,11 @@ export const galleryProjects: GalleryProject[] = [
     ],
     cover: {
       src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-overall-01.webp",
-      alt: "8 Leys Road bespoke walk-in wardrobe",
+      alt: "Esher Luxury Residence bespoke walk-in wardrobe",
       fit: "contain",
     },
     images: [
-      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-overall-01.webp", alt: "Overall view of 8 Leys Road walk-in wardrobe", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-overall-01.webp", alt: "Overall view of Esher Luxury Residence walk-in wardrobe", fit: "contain" },
       { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-interior-02.webp", alt: "Walk-in wardrobe interior storage", fit: "contain" },
       { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-brass-leather-03.webp", alt: "Brass and leather wardrobe detail", fit: "contain" },
       { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-brass-detail-04.webp", alt: "Brass wardrobe detail", fit: "contain" },
@@ -3345,13 +3347,14 @@ export const galleryProjects: GalleryProject[] = [
   },
   {
     galleryId: "G42",
-    slug: "8-leys-road-kids-room-tv-unit",
-    title: "8 Leys Road Kids Room TV Unit",
+    slug: "esher-luxury-residence-kids-room-tv-unit",
+    title: "Esher Luxury Residence — Kids Room TV Unit",
     category: "Bespoke Joinery",
+    location: "Esher, Surrey",
     summary: "A fitted kids-room TV unit combining a central screen, open display shelving and practical lower storage within one wall-to-wall composition.",
-    seoDescription: "8 Leys Road bespoke kids-room TV unit by Form & Frame, with integrated television, open display shelving and fitted lower storage.",
+    seoDescription: "Esher Luxury Residence bespoke kids-room TV unit by Form & Frame, with integrated television, open display shelving and fitted lower storage.",
     keywords: [
-          "8 Leys Road kids room TV unit",
+          "Esher Luxury Residence kids room TV unit",
           "bespoke kids room furniture",
           "fitted TV unit",
           "kids room storage",
@@ -3368,7 +3371,7 @@ export const galleryProjects: GalleryProject[] = [
       {
         heading: "A TV unit designed as fitted kids-room furniture",
         body: [
-                  "This 8 Leys Road project integrates the television into a full fitted wall with open display shelving and practical storage below.",
+                  "This Esher residence project integrates the television into a full fitted wall with open display shelving and practical storage below.",
                   "The arrangement gives toys, books and display objects a defined place while keeping the screen central to the composition."
         ],
       },
@@ -3396,24 +3399,25 @@ export const galleryProjects: GalleryProject[] = [
     ],
     cover: {
       src: "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-overall-01.webp",
-      alt: "8 Leys Road Kids Room TV Unit",
+      alt: "Esher Luxury Residence Kids Room TV Unit",
       fit: "contain",
     },
     images: [
-      { src: "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-overall-01.webp", alt: "Overall view of 8 Leys Road kids-room TV unit", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-overall-01.webp", alt: "Overall view of Esher Luxury Residence kids-room TV unit", fit: "contain" },
       { src: "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-detail-02.webp", alt: "Kids-room TV unit detail", fit: "contain" },
       { src: "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-cabinetry-03.webp", alt: "Kids-room fitted cabinetry view", fit: "contain" },
     ],
   },
   {
     galleryId: "G43",
-    slug: "8-leys-road-home-office",
-    title: "8 Leys Road Home Office",
+    slug: "esher-luxury-residence-home-office",
+    title: "Esher Luxury Residence — Home Office",
     category: "Bespoke Joinery",
+    location: "Esher, Surrey",
     summary: "A dark fitted home office with full-height display shelving, lower cabinetry, integrated lighting and refined brass detailing.",
-    seoDescription: "8 Leys Road bespoke home office by Form & Frame, featuring full-height fitted shelving, integrated lighting, lower storage and brass detailing.",
+    seoDescription: "Esher Luxury Residence bespoke home office by Form & Frame, featuring full-height fitted shelving, integrated lighting, lower storage and brass detailing.",
     keywords: [
-          "8 Leys Road home office",
+          "Esher Luxury Residence home office",
           "bespoke home office",
           "fitted office shelving",
           "home office cabinetry",
@@ -3430,7 +3434,7 @@ export const galleryProjects: GalleryProject[] = [
       {
         heading: "A full-height fitted home office",
         body: [
-                  "This 8 Leys Road home office combines tall open shelving with lower closed cabinetry to create a fitted working and display environment.",
+                  "This home office at the Esher residence combines tall open shelving with lower closed cabinetry to create a fitted working and display environment.",
                   "The dark furniture wraps the wall while integrated lighting gives the open shelves depth and makes the display areas easier to read."
         ],
       },
@@ -3458,11 +3462,11 @@ export const galleryProjects: GalleryProject[] = [
     ],
     cover: {
       src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-overall-01.webp",
-      alt: "8 Leys Road Home Office",
+      alt: "Esher Luxury Residence Home Office",
       fit: "contain",
     },
     images: [
-      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-overall-01.webp", alt: "Overall view of 8 Leys Road home office", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-overall-01.webp", alt: "Overall view of Esher Luxury Residence home office", fit: "contain" },
       { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-cabinetry-02.webp", alt: "Home-office fitted shelving and cabinetry", fit: "contain" },
       { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-brass-detail-03.webp", alt: "Brass detail in home-office joinery", fit: "contain" },
       { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-brass-inlay-04.webp", alt: "Brass inlay detail", fit: "contain" },
@@ -3472,13 +3476,14 @@ export const galleryProjects: GalleryProject[] = [
   },
   {
     galleryId: "G44",
-    slug: "8-leys-road-bookcase-leather-brass",
-    title: "8 Leys Road Bookcase with Leather & Brass Detail",
+    slug: "esher-luxury-residence-bookcase-leather-brass",
+    title: "Esher Luxury Residence — Bookcase with Leather & Brass Detail",
     category: "Bespoke Joinery",
+    location: "Esher, Surrey",
     summary: "A full-height bespoke bookcase wall with illuminated shelving and refined leather and brass detailing integrated into the vertical framing.",
-    seoDescription: "8 Leys Road bespoke bookcase by Form & Frame, with full-height illuminated shelving, leather detailing and refined brass accents.",
+    seoDescription: "Esher Luxury Residence bespoke bookcase by Form & Frame, with full-height illuminated shelving, leather detailing and refined brass accents.",
     keywords: [
-          "8 Leys Road bookcase",
+          "Esher Luxury Residence bookcase",
           "bespoke bookcase",
           "illuminated shelving",
           "leather joinery detail",
@@ -3495,7 +3500,7 @@ export const galleryProjects: GalleryProject[] = [
       {
         heading: "A full-height illuminated bookcase wall",
         body: [
-                  "This 8 Leys Road bookcase fills the wall with open display shelving above lower fitted storage.",
+                  "This bookcase at the Esher residence fills the wall with open display shelving above lower fitted storage.",
                   "Integrated lighting within the shelves gives the display objects depth while keeping the furniture visually structured."
         ],
       },
@@ -3523,11 +3528,11 @@ export const galleryProjects: GalleryProject[] = [
     ],
     cover: {
       src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-overall-01.webp",
-      alt: "8 Leys Road Bookcase with Leather & Brass Detail",
+      alt: "Esher Luxury Residence Bookcase with Leather & Brass Detail",
       fit: "contain",
     },
     images: [
-      { src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-overall-01.webp", alt: "Overall view of 8 Leys Road bespoke bookcase", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-overall-01.webp", alt: "Overall view of Esher Luxury Residence bespoke bookcase", fit: "contain" },
       { src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-detail-02.webp", alt: "Bespoke bookcase detail view", fit: "contain" },
       { src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-leather-led-03.webp", alt: "Leather and illuminated shelf detail", fit: "contain" },
       { src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-leather-led-04.webp", alt: "Leather and brass bookcase detail", fit: "contain" },
@@ -3535,13 +3540,14 @@ export const galleryProjects: GalleryProject[] = [
   },
   {
     galleryId: "G56",
-    slug: "8-leys-road-wine-cellar",
-    title: "8 Leys Road Wine Cellar",
+    slug: "esher-luxury-residence-wine-cellar",
+    title: "Esher Luxury Residence — Wine Cellar",
     category: "Bespoke Joinery",
+    location: "Esher, Surrey",
     summary: "A fitted wine cellar with full-height bottle storage, illuminated shelving, a mirrored central display and integrated under-counter refrigeration.",
-    seoDescription: "8 Leys Road bespoke wine cellar by Form & Frame, with full-height wine storage, illuminated display shelving and integrated refrigeration.",
+    seoDescription: "Esher Luxury Residence bespoke wine cellar by Form & Frame, with full-height wine storage, illuminated display shelving and integrated refrigeration.",
     keywords: [
-          "8 Leys Road wine cellar",
+          "Esher Luxury Residence wine cellar",
           "bespoke wine cellar",
           "wine storage joinery",
           "illuminated wine shelving",
@@ -3558,7 +3564,7 @@ export const galleryProjects: GalleryProject[] = [
       {
         heading: "A fitted wine cellar centred on display and storage",
         body: [
-                  "This 8 Leys Road wine cellar combines full-height bottle storage with a central illuminated display area and a compact table-and-bar arrangement.",
+                  "This wine cellar at the Esher residence combines full-height bottle storage with a central illuminated display area and a compact table-and-bar arrangement.",
                   "The fitted joinery uses the full wall height so wine storage and display remain integrated rather than appearing as separate racks."
         ],
       },
@@ -3586,11 +3592,11 @@ export const galleryProjects: GalleryProject[] = [
     ],
     cover: {
       src: "/images/gallery/8-leys-road-wine-cellar/8-leys-wine-cellar-overall-01.webp",
-      alt: "8 Leys Road Wine Cellar",
+      alt: "Esher Luxury Residence Wine Cellar",
       fit: "contain",
     },
     images: [
-      { src: "/images/gallery/8-leys-road-wine-cellar/8-leys-wine-cellar-overall-01.webp", alt: "Overall view of 8 Leys Road wine cellar", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-wine-cellar/8-leys-wine-cellar-overall-01.webp", alt: "Overall view of Esher Luxury Residence wine cellar", fit: "contain" },
       { src: "/images/gallery/8-leys-road-wine-cellar/8-leys-wine-cellar-interior-02.webp", alt: "Wine cellar interior with fitted bottle storage", fit: "contain" },
     ],
   },
