@@ -2948,6 +2948,71 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-14.webp", alt: "Belgravia home-office furniture view", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G36",
+    slug: "belgravia-bathroom-furniture-antique-mirror",
+    title: "Belgravia Bathroom Furniture & Antique Mirror",
+    category: "Bespoke Joinery",
+    location: "Belgravia, London",
+    summary: "A fitted bathroom scheme combining bespoke cabinetry with an antique-mirror feature and carefully resolved storage details.",
+    seoDescription: "Belgravia bespoke bathroom furniture by Form & Frame, combining fitted cabinetry, antique mirror detailing and integrated storage in a refined London interior.",
+    keywords: [
+      "Belgravia bathroom furniture",
+      "bespoke bathroom cabinetry",
+      "antique mirror bathroom",
+      "fitted bathroom storage",
+      "luxury bathroom joinery",
+      "bespoke joinery London",
+    ],
+    highlights: [
+      "Antique-mirror feature",
+      "Fitted bathroom cabinetry",
+      "Integrated storage",
+      "Detailed panel junctions",
+    ],
+    caseStudy: [
+      {
+        heading: "Bathroom furniture and mirror work designed together",
+        body: [
+          "This Belgravia bathroom combines fitted furniture with an antique-mirror feature so the storage and decorative surfaces read as one coordinated joinery scheme.",
+          "The gallery shows the mirror treatment alongside the surrounding cabinetry and smaller furniture details.",
+        ],
+      },
+      {
+        heading: "The demanding part: precise fitting in a finished bathroom",
+        body: [
+          "Bathroom joinery has to meet fixed walls, surfaces and fittings with very little tolerance for inconsistent gaps.",
+          "Accurate setting out keeps the cabinet fronts, mirror edges and adjoining panels aligned while protecting the clean appearance of the finished room.",
+        ],
+      },
+      {
+        heading: "Antique mirror as an integrated feature",
+        body: [
+          "The antique mirror adds depth and reflection without reading as a separate decorative object.",
+          "By coordinating it directly with the surrounding fitted furniture, the feature becomes part of the architecture of the bathroom.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed scheme combines practical bathroom storage with a more decorative mirror-led focal point.",
+          "For similar bathroom cabinetry and specialist mirror joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-antique-mirror-01.webp",
+      alt: "Belgravia bathroom furniture with antique mirror",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-antique-mirror-01.webp", alt: "Belgravia bathroom with antique mirror feature", fit: "contain" },
+      { src: "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-antique-mirror-detail-02.webp", alt: "Antique mirror bathroom detail", fit: "contain" },
+      { src: "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-furniture-03.webp", alt: "Fitted bathroom furniture view", fit: "contain" },
+      { src: "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-cabinetry-04.webp", alt: "Belgravia bathroom cabinetry view", fit: "contain" },
+      { src: "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-detail-05.webp", alt: "Bathroom furniture detail", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
