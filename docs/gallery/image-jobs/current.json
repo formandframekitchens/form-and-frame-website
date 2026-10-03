@@ -1,5 +1,49 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "fulham-juice-bar-joinery"
+  "enabled": true,
+  "project": "G34 — Fulham Antique Mirror Feature",
+  "slug": "fulham-antique-mirror-feature",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1Qbiz2_gKq4DoIfKVLy_Ag2Enh1_XFSCz",
+      "source_label": "MH0036.jpg",
+      "role": "overall antique mirror feature",
+      "output_stem": "fulham-antique-mirror-overall-view-01",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-cef4-8210-8f16-deb64d17bd77/raw?se=2026-10-03T07%3A16%3A58Z&sp=r&sv=2026-02-06&sr=b&scid=b8f332af-511a-5d68-b307-d672bad393a6&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T20%3A15%3A40Z&ske=2026-10-03T20%3A15%3A40Z&sks=b&skv=2026-02-06&sig=W0mzlK5SEzZr9j5mdUX58z3174VcKnXBQ%2Bfdu0Sz6Jo%3D"
+    },
+    {
+      "drive_file_id": "1-2QBJCJZg--fCTPimFl-bgVAhdeHgXdW",
+      "source_label": "MH0037.jpg",
+      "role": "mirror wall front view",
+      "output_stem": "fulham-antique-mirror-front-view-02",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-df20-8210-b293-6170c08f81a6/raw?se=2026-10-03T07%3A17%3A00Z&sp=r&sv=2026-02-06&sr=b&scid=ddc6e75a-b9c8-5e08-b446-0058f71e9f68&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T03%3A57%3A23Z&ske=2026-10-04T03%3A57%3A23Z&sks=b&skv=2026-02-06&sig=5AmzEvXKhCeclc1jHF5OJR9/BOOICApSbS/bdm5OKxA%3D"
+    },
+    {
+      "drive_file_id": "1o7dEn1gu-_tUMS-L9mowbASEsnk-U7KG",
+      "source_label": "MH0038.jpg",
+      "role": "mirror and cabinetry angled view",
+      "output_stem": "fulham-antique-mirror-angled-view-03",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-4e88-8210-84e2-2717408ba2f7/raw?se=2026-10-03T07%3A17%3A03Z&sp=r&sv=2026-02-06&sr=b&scid=acfeaad5-af3c-57de-9320-b26e99bb49e7&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A58%3A13Z&ske=2026-10-04T06%3A58%3A13Z&sks=b&skv=2026-02-06&sig=S1VIWUztr6v4OOLIAhDzcktxqDcRlMVyO/49ZtqFnQA%3D"
+    },
+    {
+      "drive_file_id": "1F9v2n1TPbjP6aVes-mj3ET_yinGWHHCR",
+      "source_label": "MH0039.jpg",
+      "role": "mirror panel detail",
+      "output_stem": "fulham-antique-mirror-detail-04",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-5ac8-81f4-a96a-4fdf5aea238f/raw?se=2026-10-03T07%3A17%3A06Z&sp=r&sv=2026-02-06&sr=b&scid=ae413c66-741f-5869-b337-e2517319ddac&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A02%3A17Z&ske=2026-10-04T06%3A02%3A17Z&sks=b&skv=2026-02-06&sig=zKGhQEtniqPfOII1VhKQRuXTVcScTUEPLqhbQZoMl88%3D"
+    },
+    {
+      "drive_file_id": "15t6HlEPtD81x5MoI2CYRCpUVAW5PIhbf",
+      "source_label": "MH0040.jpg",
+      "role": "room context view",
+      "output_stem": "fulham-antique-mirror-context-view-05",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-b5d0-8210-8bb6-1c7eca881b5b/raw?se=2026-10-03T07%3A17%3A09Z&sp=r&sv=2026-02-06&sr=b&scid=5b9cd0da-fe47-5f16-9192-6acd33aed9cc&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A49%3A37Z&ske=2026-10-04T05%3A49%3A37Z&sks=b&skv=2026-02-06&sig=p6e5hMDW2pOYAd12H60sM4YAz/gTpuVEDUy3Ct15eP8%3D"
+    }
+  ]
 }
