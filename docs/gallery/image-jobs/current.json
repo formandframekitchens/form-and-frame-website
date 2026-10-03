@@ -1,56 +1,5 @@
 {
   "schema_version": 1,
-  "enabled": true,
-  "project": "G43 — 8 Leys Road Home Office",
-  "slug": "8-leys-road-home-office",
-  "max_long_edge": 2000,
-  "min_long_edge": 1200,
-  "webp_quality": 84,
-  "avif_quality": 58,
-  "webp_target_bytes": 500000,
-  "avif_target_bytes": 400000,
-  "images": [
-    {
-      "drive_file_id": "1H85E_9dNkHi__ACHSIIoqkHhwrF2CpNS",
-      "source_label": "h0019.jpg",
-      "role": "overall home office view",
-      "output_stem": "8-leys-home-office-overall-01",
-      "source_url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-dfac-8246-8ec9-08f7ee351710/raw?se=2026-10-03T12%3A26%3A55Z&sp=r&sv=2026-02-06&sr=b&scid=93bc93f2-d74f-5e2e-8cde-e267095fe8e8&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T09%3A44%3A23Z&ske=2026-10-04T09%3A44%3A23Z&sks=b&skv=2026-02-06&sig=/t7%2B7YxNrkV/Ds0tIQ2fUFb2sbLNErkqvTUXZJtGgw0%3D"
-    },
-    {
-      "drive_file_id": "1vlAX5hElW3jHy4YvwnNxtcP-nXLn0IoJ",
-      "source_label": "h0021.jpg",
-      "role": "home office cabinetry view",
-      "output_stem": "8-leys-home-office-cabinetry-02",
-      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-2f04-81f4-9dc4-5af02cbe3354/raw?se=2026-10-03T12%3A27%3A11Z&sp=r&sv=2026-02-06&sr=b&scid=3e9bb43d-8b2c-5172-8d86-e864a7ce0a74&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T07%3A14%3A12Z&ske=2026-10-04T07%3A14%3A12Z&sks=b&skv=2026-02-06&sig=MC3XoXJWpjhv7gEFP96%2BITKB4k0Er9McAjdfpjbgnoE%3D"
-    },
-    {
-      "drive_file_id": "10jdIV1eIXapy6FhLKxxxKGXhBC2moylG",
-      "source_label": "h0026.jpg",
-      "role": "brass detail",
-      "output_stem": "8-leys-home-office-brass-detail-03",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-8e70-8210-8a85-4283973fc43b/raw?se=2026-10-03T12%3A27%3A09Z&sp=r&sv=2026-02-06&sr=b&scid=ca38fdae-6324-5966-885b-84383d530084&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T19%3A52%3A06Z&ske=2026-10-03T19%3A52%3A06Z&sks=b&skv=2026-02-06&sig=Wc%2B66iYg37dUkxDEGcMccVJodzqQArWifpJBAgJPnUw%3D"
-    },
-    {
-      "drive_file_id": "1Raw1GoCRv6mp9-IooRHKNgynx8el1CU6",
-      "source_label": "C0054.jpg",
-      "role": "brass inlay detail",
-      "output_stem": "8-leys-home-office-brass-inlay-04",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-5170-8210-8ee8-5a72e2b0c692/raw?se=2026-10-03T12%3A27%3A10Z&sp=r&sv=2026-02-06&sr=b&scid=6f86d6ba-4eec-5e1b-89d9-572a1529b7ac&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T07%3A44%3A06Z&ske=2026-10-04T07%3A44%3A06Z&sks=b&skv=2026-02-06&sig=NbQ37MRLm5bHngqTKJ5psWlfhuWr5BBxiLeqlc5oOx8%3D"
-    },
-    {
-      "drive_file_id": "1C69AZN_q1soPP10GuTsUQFJQ5n0KHahD",
-      "source_label": "B0007.jpg",
-      "role": "brass hardware detail",
-      "output_stem": "8-leys-home-office-hardware-05",
-      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-602c-81f4-8ff9-3bb6ff6afe35/raw?se=2026-10-03T12%3A27%3A11Z&sp=r&sv=2026-02-06&sr=b&scid=28c4287a-0bd3-5915-a72b-cdabf4a42ce1&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T07%3A14%3A12Z&ske=2026-10-04T07%3A14%3A12Z&sks=b&skv=2026-02-06&sig=Ut3z8Qxfp1msJSBekO1Wzk9YpSt5ojG%2BbHfyWYHoZIg%3D"
-    },
-    {
-      "drive_file_id": "1pE3Zww5SflgvqqjBex-2seOZgXzo9TIC",
-      "source_label": "A0007.jpg",
-      "role": "home office joinery detail",
-      "output_stem": "8-leys-home-office-detail-06",
-      "source_url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-0960-8243-ba63-821663fccdf2/raw?se=2026-10-03T12%3A27%3A11Z&sp=r&sv=2026-02-06&sr=b&scid=2422fb75-7e53-5029-95d0-ccde7c02acf6&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T09%3A44%3A25Z&ske=2026-10-04T09%3A44%3A25Z&sks=b&skv=2026-02-06&sig=g1q6PiuopooA52dXllt0TxW8vdJvVNBpRhjsxkJKNRU%3D"
-    }
-  ]
+  "enabled": false,
+  "last_completed_slug": "8-leys-road-home-office"
 }
