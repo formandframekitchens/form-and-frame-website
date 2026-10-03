@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "project": "G42 \u2014 8 Leys Road Kids Room TV Unit",
+  "slug": "8-leys-road-kids-room-tv-unit",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1WdWqC8OGm7iA1jfLj5w-y35J7KhiInWm",
+      "source_label": "z0028.jpg",
+      "role": "overall kids room TV unit view",
+      "original": {
+        "width": 6424,
+        "height": 4492
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-overall-01.webp",
+        "bytes": 229088,
+        "quality": 84,
+        "width": 2000,
+        "height": 1399,
+        "sha256": "b8f95fe7c536cec2e1661a49ea98a44b44ab95f71ccad2685fc0ad64c05ed8df",
+        "git_blob_sha": "dc67d7bd1b43fd29f4413499e24de2112de9f0ab"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-overall-01.avif",
+        "bytes": 151750,
+        "quality": 58,
+        "width": 2000,
+        "height": 1399,
+        "sha256": "4cfc3ea8e8a1f640e44cd9b05fb214d21042528b257df69c5e8d131d8b163cd1",
+        "git_blob_sha": "86ca2d5ec1dd96fbaa0bb43e041eedbe71468dd6"
+      }
+    },
+    {
+      "drive_file_id": "1sFq4xU1WU4vOMIbJbONrtx21XIn2Azld",
+      "source_label": "z0032.jpg",
+      "role": "kids room TV unit detail",
+      "original": {
+        "width": 4853,
+        "height": 6776
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-detail-02.webp",
+        "bytes": 263354,
+        "quality": 84,
+        "width": 1432,
+        "height": 2000,
+        "sha256": "5f83bab69acd4af35fde3e6db935d6f17f22c84f4588b79d8311df6f7721a718",
+        "git_blob_sha": "850850743168f6ca7484e6a2ca7c7c1cb538549a"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-detail-02.avif",
+        "bytes": 167626,
+        "quality": 58,
+        "width": 1432,
+        "height": 2000,
+        "sha256": "8f556ee4c2f95cf5492864260023b7e2ac698a851de51ed9291a2aaf2637fd3f",
+        "git_blob_sha": "8be622cf8f8943988f07065fa602201b379b01e9"
+      }
+    },
+    {
+      "drive_file_id": "1bGJnk69vxj99bgaZy5iQ5qdpFVSQjB8K",
+      "source_label": "z0031.jpg",
+      "role": "kids room cabinetry view",
+      "original": {
+        "width": 4912,
+        "height": 7360
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-cabinetry-03.webp",
+        "bytes": 247682,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "959d763ced3f52876ae50b7a8feb8c76f5b393f0839de95cd875a748ab5538aa",
+        "git_blob_sha": "53fd258c972eeb4295904690719d00aaa69b4180"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-cabinetry-03.avif",
+        "bytes": 165021,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "8e1ab921dafa417789f82b630e6afd1b238fd4f376c9382b242f5a213b1224b1",
+        "git_blob_sha": "c3c3662807f477ca28411f1df4ba341b4fbf1a6b"
+      }
+    }
+  ]
+}
