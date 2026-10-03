@@ -3013,6 +3013,72 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-detail-05.webp", alt: "Bathroom furniture detail", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G37",
+    slug: "belgravia-walk-in-wardrobe",
+    title: "Belgravia Walk-In Wardrobe",
+    category: "Bespoke Joinery",
+    location: "Belgravia, London",
+    summary: "A fitted walk-in wardrobe with illuminated display storage, dark timber cabinetry, brass detailing and carefully integrated handle work.",
+    seoDescription: "Belgravia walk-in wardrobe by Form & Frame, featuring illuminated storage, bespoke cabinetry, brass inlay and detailed fitted joinery.",
+    keywords: [
+      "Belgravia walk-in wardrobe",
+      "bespoke wardrobe London",
+      "illuminated wardrobe storage",
+      "brass inlay wardrobe",
+      "luxury fitted wardrobe",
+      "bespoke dressing room",
+    ],
+    highlights: [
+      "Full walk-in wardrobe layout",
+      "Illuminated display storage",
+      "Brass inlay detailing",
+      "Integrated handle details",
+    ],
+    caseStudy: [
+      {
+        heading: "A fitted walk-in wardrobe scheme",
+        body: [
+          "This Belgravia walk-in wardrobe is arranged as a fitted storage environment rather than a series of freestanding pieces.",
+          "The overall view shows tall cabinetry and illuminated display storage working together within the room.",
+        ],
+      },
+      {
+        heading: "The demanding part: combining storage and decorative detailing",
+        body: [
+          "The installation brings together full-height cabinetry, display sections and smaller decorative details, so alignment has to remain consistent across several types of storage.",
+          "The wardrobe also relies on clean junctions where darker timber surfaces meet brass-trimmed details and integrated handles.",
+        ],
+      },
+      {
+        heading: "Lighting, brass and handle details",
+        body: [
+          "The closer photographs show illuminated storage, brass inlay and cut-out handle detailing.",
+          "These elements add definition to the fitted furniture while remaining integrated into the overall wardrobe composition.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed walk-in wardrobe combines practical storage with a more refined furniture-led finish.",
+          "For similar wardrobes and dressing-room joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-overall-01.webp",
+      alt: "Belgravia bespoke walk-in wardrobe",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-overall-01.webp", alt: "Overall Belgravia walk-in wardrobe view", fit: "contain" },
+      { src: "/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-interior-02.webp", alt: "Walk-in wardrobe interior view", fit: "contain" },
+      { src: "/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-display-03.webp", alt: "Illuminated wardrobe display storage", fit: "contain" },
+      { src: "/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-brass-inlay-04.webp", alt: "Brass inlay wardrobe detail", fit: "contain" },
+      { src: "/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-brass-detail-05.webp", alt: "Brass wardrobe detailing", fit: "contain" },
+      { src: "/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-handle-detail-06.webp", alt: "Integrated cut-out handle detail", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
