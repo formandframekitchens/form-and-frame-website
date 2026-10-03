@@ -118,11 +118,12 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 - Active lane G51 — Stourcliff Fitted Wardrobe & Shoe Storage
   - branch: g51-stourcliff-wardrobe-shoe-storage
   - ingest SUCCESS; 10/10 assets verified
-  - reconciled onto G50 master state
-  - case-study commit: 47dd68f131bbe744e82888ca509848bf812fc85a
-  - preview deployment dpl_yUaMv23DtGLWCjB3V3PSPFjZLy3w: READY
-  - preview route /gallery/stourcliff-fitted-wardrobe-shoe-storage: VERIFIED HTTP 200
-  - PR #48 open; initial mergeability calculation pending
+  - original case-study commit: 47dd68f131bbe744e82888ca509848bf812fc85a
+  - original preview route verified HTTP 200
+  - PR #48 initially remained non-mergeable after master register advanced
+  - one reasoned repair applied: latest master tree + only G51 changed blobs
+  - repaired/reconciled branch head: 5cee30c126a94e91a4e6a6b16c98535d367c51ce
+  - next: verify Vercel on exact repaired head and fresh PR #48 mergeability check
 - Active lane G52 — Stourcliff Bathroom Vanity & Storage
   - branch: g52-stourcliff-bathroom-vanity-storage
   - ingest SUCCESS; 10/10 assets verified
