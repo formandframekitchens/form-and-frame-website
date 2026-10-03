@@ -20,6 +20,11 @@ function projectFamily(title: string) {
   return galleryFamilyPrefixes.find(prefix => title.startsWith(prefix)) ?? title;
 }
 
+function galleryNumber(galleryId: string) {
+  const value = Number.parseInt(galleryId.replace(/^G/i, ""), 10);
+  return Number.isFinite(value) ? value : Number.MAX_SAFE_INTEGER;
+}
+
 function groupProjectsByFamily() {
   const used = new Set<string>();
   const grouped: typeof galleryProjects = [];
@@ -28,7 +33,9 @@ function groupProjectsByFamily() {
     if (used.has(project.slug)) continue;
 
     const family = projectFamily(project.title);
-    const familyProjects = galleryProjects.filter(item => projectFamily(item.title) === family);
+    const familyProjects = galleryProjects
+      .filter(item => projectFamily(item.title) === family)
+      .sort((a, b) => galleryNumber(a.galleryId) - galleryNumber(b.galleryId));
 
     for (const item of familyProjects) {
       if (!used.has(item.slug)) {
