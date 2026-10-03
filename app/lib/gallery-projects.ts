@@ -2363,6 +2363,71 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-tv-surround-11.webp", alt: "Integrated television surround detail", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G48",
+    slug: "stourcliff-bespoke-media-wall",
+    title: "Stourcliff Bespoke Media Wall",
+    category: "Bespoke Joinery",
+    summary: "A dark fitted media wall combining an integrated television, reflective display sections, lower drawers and precisely aligned architectural cabinetry.",
+    seoDescription: "Stourcliff bespoke media wall by Form & Frame, with integrated TV, reflective display cabinetry, lower drawers and detailed fitted joinery.",
+    keywords: [
+      "Stourcliff bespoke media wall",
+      "bespoke TV wall",
+      "dark fitted media unit",
+      "reflective display cabinetry",
+      "bespoke living room joinery",
+      "fitted TV cabinetry",
+    ],
+    highlights: [
+      "Integrated television surround",
+      "Reflective display sections",
+      "Lower drawer storage",
+      "Full-height fitted cabinetry",
+    ],
+    caseStudy: [
+      {
+        heading: "A fitted media wall built as one composition",
+        body: [
+          "This project brings the television, display sections and lower storage together within one continuous fitted elevation.",
+          "The darker cabinetry gives the wall a strong architectural presence while the reflective sections introduce contrast and depth around the media area.",
+        ],
+      },
+      {
+        heading: "The demanding part: controlling alignment",
+        body: [
+          "The front elevation relies on consistent vertical lines, drawer gaps and panel junctions across a wide fitted installation.",
+          "Because the television, display areas and storage all sit within the same composition, inaccurate setting out would be immediately visible across the finished wall.",
+        ],
+      },
+      {
+        heading: "Display and concealed storage",
+        body: [
+          "Reflective display sections sit above the lower cabinetry while drawers provide concealed storage beneath.",
+          "The close-up photographs show how the cabinet frames, worktop-level surfaces and surrounding panels meet cleanly at their junctions.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed media wall combines entertainment, display and storage functions in a single fitted piece with a controlled, furniture-led appearance.",
+          "For similar media walls and fitted living-room joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-overall-view-01.webp",
+      alt: "Stourcliff bespoke media wall with integrated television",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-overall-view-01.webp", alt: "Overall living room view of Stourcliff bespoke media wall", fit: "contain" },
+      { src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-front-view-02.webp", alt: "Front view of fitted media wall", fit: "contain" },
+      { src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-display-detail-03.webp", alt: "Media wall display and television surround detail", fit: "contain" },
+      { src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-cabinet-detail-04.webp", alt: "Reflective display cabinetry detail", fit: "contain" },
+      { src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-drawer-detail-05.webp", alt: "Lower drawer and cabinet detail", fit: "contain" },
+      { src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-junction-detail-06.webp", alt: "Cabinet and panel junction detail", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
