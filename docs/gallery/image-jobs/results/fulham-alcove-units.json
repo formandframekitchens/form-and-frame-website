@@ -5,6 +5,33 @@
   "source_manifest": "docs/gallery/image-jobs/current.json",
   "images": [
     {
+      "drive_file_id": "1b0i-IAGux20lKppzGKgIHQzW9vZZLwSf",
+      "source_label": "MH0009.jpg",
+      "role": "full room view showing both alcove units",
+      "original": {
+        "width": 6933,
+        "height": 4758
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-alcove-units/fulham-alcove-units-pair-overall-00.webp",
+        "bytes": 105904,
+        "quality": 84,
+        "width": 2000,
+        "height": 1373,
+        "sha256": "09d76b9e27aec0ffc5c32a20ec1685781b97655445ca9fabd65443877b0ec2da",
+        "git_blob_sha": "c076df073d9af7af4f2d98fa7149bfb9c9e0ebdd"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-alcove-units/fulham-alcove-units-pair-overall-00.avif",
+        "bytes": 73880,
+        "quality": 58,
+        "width": 2000,
+        "height": 1373,
+        "sha256": "44cfa3e8aff3bce35201460b1f79eb490837bf31b4c06cd79d81580f83c2d50b",
+        "git_blob_sha": "9ebab388a7325ffcffae82c4fa0c2083764ed712"
+      }
+    },
+    {
       "drive_file_id": "13AjMOzBgw74Ng6wiL-4s-7XkEhQVLe6S",
       "source_label": "MH0016.jpg",
       "role": "alcove units room view",
