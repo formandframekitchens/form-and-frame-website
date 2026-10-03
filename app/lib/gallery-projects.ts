@@ -2154,6 +2154,74 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-context-view-05.webp", alt: "Room context view of Fulham antique mirror feature", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G45",
+    slug: "8-leys-road-alcove-units",
+    title: "8 Leys Road Alcove Units",
+    category: "Bespoke Joinery",
+    summary: "A collection of fitted alcove units across several rooms, combining painted cabinetry, open shelving, concealed storage and tailored proportions.",
+    seoDescription: "8 Leys Road bespoke alcove units by Form & Frame, featuring fitted shelving, concealed storage and made-to-measure cabinetry across multiple rooms.",
+    keywords: [
+      "8 Leys Road alcove units",
+      "bespoke alcove units London",
+      "fitted alcove cabinets",
+      "made to measure shelving",
+      "painted fitted furniture",
+      "bespoke joinery",
+    ],
+    highlights: [
+      "Multiple fitted alcove installations",
+      "Open shelving and concealed storage",
+      "Made-to-measure room-by-room fitting",
+      "Painted cabinetry",
+    ],
+    caseStudy: [
+      {
+        heading: "Alcove furniture across several rooms",
+        body: [
+          "This project includes several fitted alcove installations within the same property, each responding to a different room while maintaining a consistent fitted-furniture approach.",
+          "The gallery shows full-room compositions as well as closer views of individual alcove units, shelving and lower cabinetry.",
+        ],
+      },
+      {
+        heading: "The demanding part: adapting to different rooms",
+        body: [
+          "Each alcove has its own wall geometry, chimney-breast proportions and surrounding architectural conditions, so the furniture cannot simply be repeated from one room to another.",
+          "Accurate survey and setting out allow the shelving, lower cabinets and outer fillers to meet the existing walls cleanly while preserving a balanced appearance.",
+        ],
+      },
+      {
+        heading: "Display and concealed storage",
+        body: [
+          "Open shelves provide display space above, while the lower cupboards keep everyday storage concealed.",
+          "This combination gives the rooms practical storage capacity without making the fitted furniture feel visually heavy.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "Across the property, the alcove units create useful storage and display space while remaining closely integrated with the existing rooms.",
+          "For similar multi-room fitted joinery projects, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-overall-view-01.webp",
+      alt: "Bespoke alcove units at 8 Leys Road",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-overall-view-01.webp", alt: "Overall room view of alcove units", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-angled-view-02.webp", alt: "Angled view of fitted alcove furniture", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-front-view-03.webp", alt: "Front view of fitted alcove units", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-detail-04.webp", alt: "Alcove shelving and cabinet detail", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-detail-05.webp", alt: "Opposite alcove unit detail", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-second-room-06.webp", alt: "Second room fitted alcove units", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-second-room-detail-07.webp", alt: "Second room alcove cabinetry detail", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-third-room-08.webp", alt: "Third room alcove installation", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-third-room-front-09.webp", alt: "Front view of third room alcove units", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {

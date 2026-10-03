@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G45 — 8 Leys Road Alcove Units",
+  "slug": "8-leys-road-alcove-units",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1exvC7znP1AoZ4tK6Rb7ymm0TYO-v1FUH",
+      "source_label": "A0001.jpg",
+      "role": "alcove room overall view",
+      "output_stem": "8-leys-road-alcove-units-overall-view-01"
+    },
+    {
+      "drive_file_id": "1UquxlRoJvWj02qjQaMrtVDw4WF3nGv6Q",
+      "source_label": "A0004.jpg",
+      "role": "first room angled view",
+      "output_stem": "8-leys-road-alcove-units-angled-view-02"
+    },
+    {
+      "drive_file_id": "13gnUsD_B7PXE0laoFE9RF2P-ai_G990e",
+      "source_label": "A0002.jpg",
+      "role": "first room front view",
+      "output_stem": "8-leys-road-alcove-units-front-view-03"
+    },
+    {
+      "drive_file_id": "1kawxAM0og5ceqesnkwgzoBNK4WqntZ0E",
+      "source_label": "A0003.jpg",
+      "role": "first room right alcove detail",
+      "output_stem": "8-leys-road-alcove-units-detail-04"
+    },
+    {
+      "drive_file_id": "1APB8F34IhtTstl96m9z4A_JSGREogsOK",
+      "source_label": "A0006.jpg",
+      "role": "first room opposite alcove detail",
+      "output_stem": "8-leys-road-alcove-units-detail-05"
+    },
+    {
+      "drive_file_id": "1P6PsTNJSDzbKRwOwBm8mSVW-2lJyFpp4",
+      "source_label": "B0001.jpg",
+      "role": "second room overall view",
+      "output_stem": "8-leys-road-alcove-units-second-room-06"
+    },
+    {
+      "drive_file_id": "1Cn2Kw5c5TvFnulY1ao1p5Oqk1KlzGJvb",
+      "source_label": "B0004.jpg",
+      "role": "second room alcove detail",
+      "output_stem": "8-leys-road-alcove-units-second-room-detail-07"
+    },
+    {
+      "drive_file_id": "1GPsrMJ8WJHH7eX1pKV9Xy5KzFJksAEhJ",
+      "source_label": "h0018.jpg",
+      "role": "third room overall view",
+      "output_stem": "8-leys-road-alcove-units-third-room-08"
+    },
+    {
+      "drive_file_id": "1ZBEccZT3ob3Eo1uZ8A7eiuYwj5xhqBY-",
+      "source_label": "h0024.jpg",
+      "role": "third room front view",
+      "output_stem": "8-leys-road-alcove-units-third-room-front-09"
+    }
+  ]
+}
