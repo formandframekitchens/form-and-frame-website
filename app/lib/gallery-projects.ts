@@ -2682,6 +2682,77 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-cabinet-detail-05.webp", alt: "Bathroom cabinet detail", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G53",
+    slug: "stourcliff-white-handleless-kitchen",
+    title: "Stourcliff White Handleless Kitchen",
+    category: "Kitchen Installation",
+    summary: "A completed white handleless kitchen with integrated appliances, clean cabinet lines and carefully coordinated worktop and fitted-unit details.",
+    seoDescription: "Stourcliff white handleless kitchen by Form & Frame, featuring integrated appliances, precise cabinet alignment and clean contemporary fitted details.",
+    keywords: [
+      "white handleless kitchen",
+      "handleless kitchen installation",
+      "integrated kitchen appliances",
+      "contemporary fitted kitchen",
+      "precision kitchen fitting",
+      "Stourcliff kitchen",
+    ],
+    highlights: [
+      "White handleless cabinetry",
+      "Integrated appliances",
+      "Clean cabinet alignment",
+      "Coordinated worktop details",
+    ],
+    caseStudy: [
+      {
+        heading: "A clean handleless kitchen composition",
+        body: [
+          "This completed kitchen uses white handleless cabinetry to create long, uninterrupted lines across the room.",
+          "Integrated appliances and fitted units sit within the same restrained composition, keeping the practical elements visually controlled.",
+        ],
+      },
+      {
+        heading: "The demanding part: maintaining continuous alignment",
+        body: [
+          "Handleless kitchens make small discrepancies easy to see because the design depends on consistent horizontal and vertical lines.",
+          "Cabinet fronts, appliance housings, fillers and adjoining panels therefore need careful setting out and final adjustment so the finished installation reads as one continuous system.",
+        ],
+      },
+      {
+        heading: "Worktops, appliances and fitted details",
+        body: [
+          "The gallery includes wider room views as well as closer photographs of worktop junctions, appliance areas and cabinet alignment.",
+          "These details show how the individual elements are brought together without interrupting the simple overall appearance.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed kitchen is deliberately understated, with the quality of the result depending on accurate fitting, controlled gaps and consistent relationships between the cabinetry and surrounding surfaces.",
+          "Form & Frame provides independent kitchen installation for customer-supplied kitchens, with projects considered across Luton, Bedfordshire, Hertfordshire and selected surrounding areas.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-overall-01.webp",
+      alt: "Stourcliff white handleless fitted kitchen",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-overall-01.webp", alt: "Overall view of white handleless kitchen", fit: "contain" },
+      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-room-view-02.webp", alt: "Room view of completed handleless kitchen", fit: "contain" },
+      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-cabinetry-03.webp", alt: "White handleless kitchen cabinetry", fit: "contain" },
+      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-worktop-04.webp", alt: "Kitchen worktop and cabinetry view", fit: "contain" },
+      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-05.webp", alt: "Handleless kitchen detail", fit: "contain" },
+      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-alignment-06.webp", alt: "Kitchen cabinet alignment detail", fit: "contain" },
+      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-appliance-view-07.webp", alt: "Integrated appliance and cabinetry view", fit: "contain" },
+      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-counter-detail-08.webp", alt: "Kitchen counter detail", fit: "contain" },
+      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-fitted-detail-09.webp", alt: "Fitted kitchen detail", fit: "contain" },
+      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-10.webp", alt: "Kitchen joinery detail", fit: "contain" },
+      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-11.webp", alt: "White kitchen detail view", fit: "contain" },
+      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-12.webp", alt: "Final fitted kitchen detail", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
