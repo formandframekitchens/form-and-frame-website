@@ -2226,7 +2226,7 @@ export const galleryProjects: GalleryProject[] = [
     galleryId: "G46",
     slug: "london-luxury-salon-joinery",
     title: "London Luxury Salon Joinery",
-    category: "Commercial Joinery",
+    category: "Bespoke Joinery",
     location: "London",
     summary: "A refined salon fit-out combining reception furniture, styling stations, mirrors, storage and architectural joinery in a coordinated commercial interior.",
     seoDescription: "London luxury salon joinery case study by Form & Frame, featuring reception furniture, styling stations, mirrors, fitted storage and architectural joinery.",
