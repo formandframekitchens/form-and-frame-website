@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G41 — 8 Leys Road Walk-In Wardrobe",
+  "slug": "8-leys-road-walk-in-wardrobe",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1fRJ4DCAAMZeI90_ItBleGxRtbeu6luPF",
+      "source_label": "i0035.jpg",
+      "role": "overall walk-in wardrobe view",
+      "output_stem": "8-leys-walk-in-wardrobe-overall-01"
+    },
+    {
+      "drive_file_id": "1nVFzfHR66VCqmZBORH5cu02gpImduT62",
+      "source_label": "i0034.jpg",
+      "role": "wardrobe interior view",
+      "output_stem": "8-leys-walk-in-wardrobe-interior-02"
+    },
+    {
+      "drive_file_id": "1-Qd24ziVWlBV648vqFc8fndRwF8uChOF",
+      "source_label": "i0037.jpg",
+      "role": "brass and leather detail",
+      "output_stem": "8-leys-walk-in-wardrobe-brass-leather-03"
+    },
+    {
+      "drive_file_id": "1dpL3Xsv8nbwViWRC2NmQndk2RQy_jQO7",
+      "source_label": "i0036.jpg",
+      "role": "wardrobe brass detail",
+      "output_stem": "8-leys-walk-in-wardrobe-brass-detail-04"
+    },
+    {
+      "drive_file_id": "1Rbub6dLymqFnAuQjoqJIFzlMQg80EGlX",
+      "source_label": "E0001.jpg",
+      "role": "walk-in wardrobe cabinetry view",
+      "output_stem": "8-leys-walk-in-wardrobe-cabinetry-05"
+    },
+    {
+      "drive_file_id": "1kH7kMEdVrciaY664KYZqJ4IPVEyFkRzO",
+      "source_label": "M0045.jpg",
+      "role": "walk-in wardrobe room view",
+      "output_stem": "8-leys-walk-in-wardrobe-room-06"
+    },
+    {
+      "drive_file_id": "1e36QoJKo2twdAm0ooRlCX9ciezu2JKzy",
+      "source_label": "M0044.jpg",
+      "role": "walk-in wardrobe detail view",
+      "output_stem": "8-leys-walk-in-wardrobe-detail-07"
+    }
+  ]
+}
