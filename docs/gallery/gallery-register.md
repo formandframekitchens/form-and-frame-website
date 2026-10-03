@@ -96,11 +96,14 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 - G47 source hierarchy: recent Sep 24 Aram project -> high res; WITH LOGO excluded
 - G47 visual selection: HIGH RES images 1–11 only
 - G47 branch: g47-bespoke-media-wall-display-shelving
-- G47 ingest trigger commit: 9fa6e785b4c1cef8b06347ee599437f726c8a0bb
-- G47 GitHub Actions run: 37109143361
-- First workflow lookup: run not yet surfaced
-- Second allowed check: run surfaced as IN_PROGRESS
-- Safety fuse: TRIPPED — no third Actions poll performed
+- Initial ingest run 37109143361: FAILED before download because GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON was unavailable
+- Root cause confirmed from logs: ingest requires either Drive credential or temporary source_url
+- Repair applied using same successful G45/G46 method: fresh temporary source_url added for all 11 HIGH RES files
+- Repair commit: ea5afd488e1d8889ef7c75ea57cad661ac5dc608
+- Repaired Actions run: 37109360072
+- First repaired-run check: IN_PROGRESS
+- Second allowed repaired-run check: IN_PROGRESS; dependencies installing, image ingest not started yet
+- Safety fuse: TRIPPED — no third poll performed
 - Remaining Aram source split identified but NOT numbered/started:
   - images 12–21: dark bar/display cabinet
   - images 22–31: bespoke dressing table / make-up storage
@@ -109,4 +112,4 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
   - images 36–39: dark bathroom fitted storage
   - images 40–42: bathroom TV frame
 - G48 — AIDA Stourcliff Road Project remains QUEUED / REVIEW SPLIT and has NOT started
-- Resume exactly at: one fresh state check for Actions run 37109143361; if successful, verify generated assets + Git blob SHAs, add G47 case study, preview, merge and production verify; if failed, diagnose once and repair before any later G-number
+- Resume exactly at: one fresh state check for repaired Actions run 37109360072; if successful, verify generated assets + Git blob SHAs, add G47 case study, preview, merge and production verify; if failed, diagnose the failed step once before any later G-number
