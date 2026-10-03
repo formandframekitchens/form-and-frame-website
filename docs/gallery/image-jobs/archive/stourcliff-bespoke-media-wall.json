@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G48 — Stourcliff Bespoke Media Wall",
+  "slug": "stourcliff-bespoke-media-wall",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "19YE7BCWxlRn_3MCZFS3nNbe-YH_ykkhl",
+      "source_label": "UNUM - AIDA {HIGH RES} (1)",
+      "role": "overall living room and media wall view",
+      "output_stem": "stourcliff-media-wall-overall-view-01"
+    },
+    {
+      "drive_file_id": "1T28BZZEO1D_O0KZ593UW1LAKcKv8IkYH",
+      "source_label": "UNUM - AIDA {HIGH RES} (2)",
+      "role": "front media wall view",
+      "output_stem": "stourcliff-media-wall-front-view-02"
+    },
+    {
+      "drive_file_id": "10Dbn9xG114o4ga9hdl4c1eI8tTQbe2O5",
+      "source_label": "UNUM - AIDA {HIGH RES} (4)",
+      "role": "media wall display and TV surround detail",
+      "output_stem": "stourcliff-media-wall-display-detail-03"
+    },
+    {
+      "drive_file_id": "1YnqRtawaenfhStqjJd9n_MfrXn6ilHZp",
+      "source_label": "UNUM - AIDA {HIGH RES} (5)",
+      "role": "cabinet frame and reflective display detail",
+      "output_stem": "stourcliff-media-wall-cabinet-detail-04"
+    },
+    {
+      "drive_file_id": "1C478Qwe_4gdeo9bZ2HjkjbjhrXAcyT8M",
+      "source_label": "UNUM - AIDA {HIGH RES} (6)",
+      "role": "drawer and cabinet detail",
+      "output_stem": "stourcliff-media-wall-drawer-detail-05"
+    },
+    {
+      "drive_file_id": "1UB5L_FivUjgQyRVGnHiB88mwZS48b8QY",
+      "source_label": "UNUM - AIDA {HIGH RES} (7)",
+      "role": "cabinet and worktop junction detail",
+      "output_stem": "stourcliff-media-wall-junction-detail-06"
+    }
+  ]
+}
