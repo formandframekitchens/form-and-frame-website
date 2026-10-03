@@ -92,7 +92,11 @@ When a lane fuse fires:
 | G45 | 8 Leys Road Alcove Units | LIVE | 9 clean HIGH RES images mapped; logo/web versions excluded; Drive ingest and SHA verification passed |
 | G46 | London Luxury Salon Joinery | LIVE | 10 clean selected salon images; LOGO folder excluded; Drive ingest and SHA verification passed; corrected preview passed; production READY |
 | G47 | Bespoke Media Wall with Display Shelving | LIVE | Aram high res images 1–11; ingest, asset verification, preview and production verification passed; PR #44 merged |
-| G48 | Stourcliff Bespoke Media Wall | PREVIEW BUILDING / FUSE STOP | AIDA high res images 1, 2, 4, 5, 6, 7; ingest passed; 12/12 generated assets verified; case study added |
+| G48 | Stourcliff Bespoke Media Wall | LIVE | AIDA high res images 1, 2, 4, 5, 6, 7; ingest, SHA verification, preview, merge and production route verification passed |
+| G49 | Stourcliff Mirrored Wardrobes | INGEST RUNNING | AIDA high res images 12–16; images 17–19 excluded as bed/headboard context |
+| G50 | Stourcliff Dressing Table | INGEST RUNNING | AIDA high res images 20–22 |
+| G51 | Stourcliff Fitted Wardrobe & Shoe Storage | INGEST RUNNING | AIDA high res images 23–27 |
+| G52 | Stourcliff Bathroom Vanity & Storage | INGEST RUNNING | AIDA high res images 28–32 |
 
 ## HOLD / not included in G01-G48
 - Modern Alcove Units: unfinished/weak presentation in current set.
@@ -105,29 +109,41 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Last live gallery: G47 — Bespoke Media Wall with Display Shelving
-- Current gallery: G48 — Stourcliff Bespoke Media Wall
-- G48 source hierarchy: recent Sep 24 AIDA Stourcliff road -> high res; WITH LOGO excluded
-- G48 visual selection: HIGH RES images 1, 2, 4, 5, 6, 7 only
-- G48 branch: g48-stourcliff-bespoke-media-wall
-- G48 Actions run 37110081091: SUCCESS
-- G48 ingest commit: 8c93369220aed9a988fd3679022d7352edfe9b9f
-- Generated assets verified against ingest report: 12/12 Git blob SHAs matched
-- G48 case study commit: 6ec4e558e101a7e7032b5a8195c5ab2519114e79
-- G48 location field intentionally omitted; project name retained without inventing geography
-- Vercel preview deployment: 9u6afkWiqoRFfU52jAYCPd1XmEfs
-- First preview check: PENDING
-- Second allowed preview check: PENDING
-- Safety fuse: TRIPPED — no third preview poll performed
-- Remaining AIDA source split identified but NOT numbered/started:
-  - image 3: whole-room context showing media wall plus separate dining cabinetry
+- Gallery Batch Workflow v2 is active: up to five independent lanes; lane-local fuse; shared master integration serialized.
+- Last live gallery: G48 — Stourcliff Bespoke Media Wall
+- G48 PR #45 merged at bca6b1665e636a4af166fd13567730d5dc80c953
+- G48 production deployment dpl_7N932vpHVkEKyaTmTsaueAtYDuXM: READY
+- G48 public route /gallery/stourcliff-bespoke-media-wall: VERIFIED HTTP 200
+- Active lane G49 — Stourcliff Mirrored Wardrobes
+  - branch: g49-stourcliff-mirrored-wardrobes
+  - selection: AIDA HIGH RES 12–16
+  - trigger commit: 392120b4dafca9f8ce3125f9c455751ac2d5b33f
+  - Actions run: 37111692816
+  - state: IN_PROGRESS
+- Active lane G50 — Stourcliff Dressing Table
+  - branch: g50-stourcliff-dressing-table
+  - selection: AIDA HIGH RES 20–22
+  - trigger commit: 6491d4bbffa9420aa8f7f6ef003db314f7d6a59b
+  - Actions run: 37111694940
+  - state: IN_PROGRESS
+- Active lane G51 — Stourcliff Fitted Wardrobe & Shoe Storage
+  - branch: g51-stourcliff-wardrobe-shoe-storage
+  - selection: AIDA HIGH RES 23–27
+  - trigger commit: cc40720fd5c8b7f2693637cce514591005258361
+  - Actions run: 37111696594
+  - state: IN_PROGRESS
+- Active lane G52 — Stourcliff Bathroom Vanity & Storage
+  - branch: g52-stourcliff-bathroom-vanity-storage
+  - selection: AIDA HIGH RES 28–32
+  - trigger commit: b0d0596a801c04db7690a126fd71e5867351960e
+  - Actions run: 37111699981
+  - state: IN_PROGRESS
+- Next refill lane: G53 — Stourcliff White Handleless Kitchen, AIDA HIGH RES 33–44.
+- Remaining AIDA after G53:
+  - image 3: mixed whole-room context; not a standalone case study
   - images 8–11: window/radiator-cover and room context
-  - images 12–19: bedroom mirrored wardrobe / bed context
-  - images 20–22: bedroom dressing table
-  - images 23–27: fitted wardrobe and shoe storage
-  - images 28–32: bathroom vanity/storage
-  - images 33–44: white handleless kitchen
+  - images 17–19: bed/headboard context; HOLD unless strong standalone joinery value is established
   - image 45: small vanity/counter detail
   - image 46: recessed display cabinet
   - image 47: hall context
-- Resume exactly at: one fresh Vercel status check for case-study commit 6ec4e558e101a7e7032b5a8195c5ab2519114e79; if READY, verify G48 route, create/verify PR, merge, production verify, mark G48 LIVE; if failed, diagnose once before any later gallery
+- Integration order remains G49 -> G50 -> G51 -> G52 -> G53. Before integrating a lane created from an older master base, reconcile it onto the latest master while preserving its verified asset blobs.
