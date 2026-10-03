@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G44 — 8 Leys Road Bookcase with Leather & Brass Detail",
+  "slug": "8-leys-road-bookcase-leather-brass",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1UoYxkQwlWgEyXdPPDNO63_IasJkwhqf4",
+      "source_label": "C0050.jpg",
+      "role": "overall bookcase view",
+      "output_stem": "8-leys-bookcase-overall-01"
+    },
+    {
+      "drive_file_id": "170XTOS6lrc1faj-uyX3c0l8njEvVoz0b",
+      "source_label": "C0049.jpg",
+      "role": "bookcase detail view",
+      "output_stem": "8-leys-bookcase-detail-02"
+    },
+    {
+      "drive_file_id": "1dEbxeBrkje5fBee96WXMwpKj6XnvTxJl",
+      "source_label": "C0051.jpg",
+      "role": "leather and LED detail",
+      "output_stem": "8-leys-bookcase-leather-led-03"
+    },
+    {
+      "drive_file_id": "1HTJgt3cu3hGMnUNwnpGs96uyfNILIBmB",
+      "source_label": "C0052.jpg",
+      "role": "leather and LED detail",
+      "output_stem": "8-leys-bookcase-leather-led-04"
+    }
+  ]
+}
