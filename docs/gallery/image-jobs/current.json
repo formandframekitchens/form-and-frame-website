@@ -1,5 +1,112 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "stourcliff-recessed-display-niche"
+  "enabled": true,
+  "project": "G35 — Belgravia Kids Room & Home Office Furniture",
+  "slug": "belgravia-kids-room-home-office-furniture",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1KfykVA_PJE_CUqG-TxWlSoM41N1YaG-z",
+      "source_label": "Belgravia HIGH RES IMG_9761 / WEB 26",
+      "role": "kids room fitted furniture view",
+      "output_stem": "belgravia-kids-home-office-01",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-3da4-8210-9ccd-1531ab5dd7f0/raw?se=2026-10-03T10%3A05%3A17Z&sp=r&sv=2026-02-06&sr=b&scid=0459e98d-b44f-58f9-9492-940ee023be7e&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T09%3A45%3A04Z&ske=2026-10-04T09%3A45%3A04Z&sks=b&skv=2026-02-06&sig=2zJ5byS3zRuNleuEVRWe%2BiSSxUsJVZUIxBqMIwj4JiU%3D"
+    },
+    {
+      "drive_file_id": "1tl-ztEwqs-IkAMrbd87zhEYb0U03FnhN",
+      "source_label": "Belgravia HIGH RES IMG_9740 / WEB 27",
+      "role": "kids room cabinetry view",
+      "output_stem": "belgravia-kids-home-office-02",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-e49c-8210-a130-f633678d52c1/raw?se=2026-10-03T10%3A05%3A17Z&sp=r&sv=2026-02-06&sr=b&scid=00c0c210-0d94-5e85-a91b-43ad14fe13bc&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A12%3A12Z&ske=2026-10-04T05%3A12%3A12Z&sks=b&skv=2026-02-06&sig=4zEDEubN7DduFC444a3X7nx62W86XS0IHMupi5WASN8%3D"
+    },
+    {
+      "drive_file_id": "1xRCx7wZw0UlefJwO5UnDVGR1_mEOhc6D",
+      "source_label": "Belgravia HIGH RES IMG_9742_1 / WEB 28",
+      "role": "kids room bespoke furniture detail",
+      "output_stem": "belgravia-kids-home-office-03",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-8b98-81f4-bc56-e19ea1682090/raw?se=2026-10-03T10%3A05%3A18Z&sp=r&sv=2026-02-06&sr=b&scid=5b20417d-005f-5a4b-af6a-60f563179a07&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T19%3A49%3A42Z&ske=2026-10-03T19%3A49%3A42Z&sks=b&skv=2026-02-06&sig=uiw20D1GWL4Bz6RVBcfIUDC9axQas8NF8ZP8UDfA9NM%3D"
+    },
+    {
+      "drive_file_id": "1cu4w5GTn2EE6Wxf2KJv-T2V0KLT0kMua",
+      "source_label": "Belgravia HIGH RES IMG_9711_2 / WEB 31",
+      "role": "home office overall view",
+      "output_stem": "belgravia-kids-home-office-04",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-0408-8210-8044-8f4994d0204e/raw?se=2026-10-03T10%3A05%3A18Z&sp=r&sv=2026-02-06&sr=b&scid=3a8865af-314f-5905-8ade-b599c92810eb&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T09%3A44%3A23Z&ske=2026-10-04T09%3A44%3A23Z&sks=b&skv=2026-02-06&sig=q0I14hgkAzXnNSAlRU908GKU3Uj2W/m5m571vsyn0M8%3D"
+    },
+    {
+      "drive_file_id": "1N2UTW7Z25-ZHlYnqEKNoYPk2d24LHLEq",
+      "source_label": "Belgravia HIGH RES IMG_9713 / WEB 32",
+      "role": "leather desk detail",
+      "output_stem": "belgravia-kids-home-office-05",
+      "source_url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-50d4-8246-b658-70a00db33638/raw?se=2026-10-03T10%3A05%3A18Z&sp=r&sv=2026-02-06&sr=b&scid=623059eb-144e-50af-824b-feea0026c1c5&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A05%3A07Z&ske=2026-10-04T08%3A05%3A07Z&sks=b&skv=2026-02-06&sig=O%2BSKVbvWdsvyCo1Xah2A798dJW/oUhkDEIAp7T0hVJs%3D"
+    },
+    {
+      "drive_file_id": "1cssE36pEJ4mU4HNLLJosKkURR6QUf1qt",
+      "source_label": "Belgravia HIGH RES IMG_9814_2 / WEB 33",
+      "role": "kids room furniture view",
+      "output_stem": "belgravia-kids-home-office-06",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-b128-8210-a21b-3a83ad189606/raw?se=2026-10-03T10%3A05%3A18Z&sp=r&sv=2026-02-06&sr=b&scid=44d02ac2-2d61-53ad-b88c-b5c6386f8e27&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A47%3A55Z&ske=2026-10-04T08%3A47%3A55Z&sks=b&skv=2026-02-06&sig=zo/%2B26YGN35srltWZ7GaxxbtANAWNryZ6XKZBQF5SL0%3D"
+    },
+    {
+      "drive_file_id": "1mfLQRhJ4GXvEcAg3fwtd_xW5ElJBgCYv",
+      "source_label": "Belgravia HIGH RES IMG_9817 / WEB 34",
+      "role": "kids room fitted joinery view",
+      "output_stem": "belgravia-kids-home-office-07",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-72f8-8210-8459-5f95094760b7/raw?se=2026-10-03T10%3A05%3A20Z&sp=r&sv=2026-02-06&sr=b&scid=936581e4-3145-53c0-a55e-155ebd4aff51&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A46%3A55Z&ske=2026-10-04T08%3A46%3A55Z&sks=b&skv=2026-02-06&sig=JI7pX3NznpRkdnRwGu0EJIGJ286WGldQxhC6TVbb8iU%3D"
+    },
+    {
+      "drive_file_id": "1pLL8BXEsqdVR394JsHOGpOab7Hv2mNXD",
+      "source_label": "Belgravia HIGH RES IMG_9826_1 / WEB 35",
+      "role": "kids room joinery detail",
+      "output_stem": "belgravia-kids-home-office-08",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-d8cc-81f4-bb01-3097e1443ad4/raw?se=2026-10-03T10%3A05%3A21Z&sp=r&sv=2026-02-06&sr=b&scid=3fa45cb6-2b4e-5276-b1b0-a04801452537&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T07%3A45%3A05Z&ske=2026-10-04T07%3A45%3A05Z&sks=b&skv=2026-02-06&sig=3VcwmUUKprjGjX0MO/lwlcE8wbeaaOS9dLHqm3F6Owg%3D"
+    },
+    {
+      "drive_file_id": "1-2Zn4c3N2RT8uT_7YKBt4QAGDTTRwlIw",
+      "source_label": "Belgravia HIGH RES IMG_9823_1 / WEB 36",
+      "role": "kids room furniture detail",
+      "output_stem": "belgravia-kids-home-office-09",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-e97c-8210-8845-a0259cb1176c/raw?se=2026-10-03T10%3A05%3A20Z&sp=r&sv=2026-02-06&sr=b&scid=9e492c23-1273-52f0-914a-191cc6097b3e&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A47%3A55Z&ske=2026-10-04T08%3A47%3A55Z&sks=b&skv=2026-02-06&sig=00Fces0jSD6xHLECmQ2KCc6ALacB9UUPH2wh/LYhako%3D"
+    },
+    {
+      "drive_file_id": "1dOo4TYSr6J5GYq4c-3jp-3DavptCISdU",
+      "source_label": "Belgravia HIGH RES IMG_9830 / WEB 37",
+      "role": "kids room cabinetry detail",
+      "output_stem": "belgravia-kids-home-office-10",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-9168-8210-b34d-de8b9ece26ea/raw?se=2026-10-03T10%3A05%3A20Z&sp=r&sv=2026-02-06&sr=b&scid=fa67a02b-35d5-58f3-a90b-691339ebf1b8&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A05%3A00Z&ske=2026-10-04T08%3A05%3A00Z&sks=b&skv=2026-02-06&sig=sZteKNvoLZEAy7oDN/Ou9uY%2BdswUp6J8wmh05RMs%2B2s%3D"
+    },
+    {
+      "drive_file_id": "1u6J_6MAOs9WNafrGwEeiZKbz89eRsq6Q",
+      "source_label": "Belgravia HIGH RES IMG_9825 / WEB 39",
+      "role": "kids room bespoke furniture view",
+      "output_stem": "belgravia-kids-home-office-11",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-99fc-8210-8137-82d048ff1b4d/raw?se=2026-10-03T10%3A05%3A21Z&sp=r&sv=2026-02-06&sr=b&scid=261bac1e-9605-5a48-9e3e-2630795e3796&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A15%3A18Z&ske=2026-10-04T06%3A15%3A18Z&sks=b&skv=2026-02-06&sig=iQcLSJttzomWi05JB2CCj9BwWy1N8BGmVx/T6gJaem4%3D"
+    },
+    {
+      "drive_file_id": "1iY5c7DI6QUGAhEmquz84aFexQ3Tnyjtf",
+      "source_label": "Belgravia HIGH RES IMG_9807 / WEB 40",
+      "role": "home office kids room view",
+      "output_stem": "belgravia-kids-home-office-12",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-a060-8210-9e89-10c829cc79f2/raw?se=2026-10-03T10%3A05%3A22Z&sp=r&sv=2026-02-06&sr=b&scid=3e541ac7-24f2-58be-8d23-e3fc3af99839&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A47%3A55Z&ske=2026-10-04T08%3A47%3A55Z&sks=b&skv=2026-02-06&sig=rRg51UjhJ6vHchwX/AMaMUSdUvEYacf2Ok2LiYQ6gZ8%3D"
+    },
+    {
+      "drive_file_id": "1qp6Z2ZzFqMu1-G3OTnLUDAzGJfBdBtiU",
+      "source_label": "Belgravia HIGH RES IMG_9768 / WEB 41",
+      "role": "home office kids room detail",
+      "output_stem": "belgravia-kids-home-office-13",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-70d4-81f4-bf89-6427cd949794/raw?se=2026-10-03T10%3A05%3A33Z&sp=r&sv=2026-02-06&sr=b&scid=ef15a35b-5008-532a-8633-4362adc5c13e&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A34%3A15Z&ske=2026-10-04T05%3A34%3A15Z&sks=b&skv=2026-02-06&sig=AxPgkKdWoku0TmMDjxgaxvpRzA3lLdvV9NefQJRc2cc%3D"
+    },
+    {
+      "drive_file_id": "1MksyQugbSyEdqPZjDRjfb7eCLzN2ewnZ",
+      "source_label": "Belgravia HIGH RES IMG_9789 / WEB 42",
+      "role": "home office kids room furniture view",
+      "output_stem": "belgravia-kids-home-office-14",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-cca0-8210-b749-d4c8afb577b7/raw?se=2026-10-03T10%3A05%3A32Z&sp=r&sv=2026-02-06&sr=b&scid=474233d2-eca6-5eed-9a2e-b123b78fb65a&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T19%3A59%3A23Z&ske=2026-10-03T19%3A59%3A23Z&sks=b&skv=2026-02-06&sig=D8Anry3gHCkeG3X8A9KtcXWGkKn7sWe0R/G0as6V9oo%3D"
+    }
+  ]
 }
