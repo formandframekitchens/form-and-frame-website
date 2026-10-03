@@ -3277,6 +3277,67 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   
+  {
+    galleryId: "G56",
+    slug: "8-leys-road-wine-cellar",
+    title: "8 Leys Road Wine Cellar",
+    category: "Bespoke Joinery",
+    summary: "A fitted wine cellar with full-height bottle storage, illuminated shelving, a mirrored central display and integrated under-counter refrigeration.",
+    seoDescription: "8 Leys Road bespoke wine cellar by Form & Frame, with full-height wine storage, illuminated display shelving and integrated refrigeration.",
+    keywords: [
+          "8 Leys Road wine cellar",
+          "bespoke wine cellar",
+          "wine storage joinery",
+          "illuminated wine shelving",
+          "fitted wine room",
+          "bespoke bar cabinetry"
+    ],
+    highlights: [
+          "Full-height wine storage",
+          "Integrated display lighting",
+          "Mirrored central display",
+          "Under-counter refrigeration"
+    ],
+    caseStudy: [
+      {
+        heading: "A fitted wine cellar centred on display and storage",
+        body: [
+                  "This 8 Leys Road wine cellar combines full-height bottle storage with a central illuminated display area and a compact table-and-bar arrangement.",
+                  "The fitted joinery uses the full wall height so wine storage and display remain integrated rather than appearing as separate racks."
+        ],
+      },
+      {
+        heading: "The demanding part: coordinating bottle storage and display",
+        body: [
+                  "Wine storage requires repeated shelf spacing while the central section also needs to accommodate display objects, serving space and refrigeration below.",
+                  "Accurate setting out keeps the bottle racks, illuminated shelves and central mirrored area aligned across the complete elevation."
+        ],
+      },
+      {
+        heading: "Lighting, mirror and refrigeration",
+        body: [
+                  "Integrated lighting emphasises the bottle storage and central shelves, while the reflective backing increases depth through the middle of the room.",
+                  "Under-counter refrigeration is incorporated below the serving area so the functional equipment remains part of the fitted scheme."
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+                  "The completed room combines wine storage, display and serving functions within one fitted interior.",
+                  "For similar wine rooms and specialist storage joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment."
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/8-leys-road-wine-cellar/8-leys-wine-cellar-overall-01.webp",
+      alt: "8 Leys Road Wine Cellar",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/8-leys-road-wine-cellar/8-leys-wine-cellar-overall-01.webp", alt: "Overall view of 8 Leys Road wine cellar", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-wine-cellar/8-leys-wine-cellar-interior-02.webp", alt: "Wine cellar interior with fitted bottle storage", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
