@@ -11,6 +11,16 @@ Rules:
 - Do not reuse a G-number.
 - Current review order is ascending by stable G-number. G-numbers never change when display order changes.
 
+## Gallery Cover & Grouping Rule — permanent
+- Gallery cards are grouped by project family so projects sharing the same public project name/location stay adjacent.
+- Within a family, cards are ordered by stable G-number.
+- The gallery card cover and the first image in the project carousel MUST be the same image.
+- Cover priority: straight/front or full-pair view -> overall full composition -> full room view -> widest available view.
+- Do not use a side view, close-up, hardware/material detail, single component, doorway crop, or partial furniture view as the first image when a fuller composition exists.
+- For paired/symmetrical fitted furniture such as alcove units, the first image should show the complete pair whenever a suitable source image exists.
+- If no honest full-scale source photograph exists, do not substitute an image from another project. Record the project as a source-quality exception until a suitable photograph is found.
+- Current source-quality exception: G40 Belgravia Leather Wardrobe. The source set contains only close-up leather/brass detail photography; no full wardrobe view is available in the Belgravia HIGH RES set or Drive search.
+
 ## Gallery Batch Workflow v2 — permanent operating rule
 - Maintain up to FIVE active gallery lanes at once when the work is independent.
 - Source review, image classification, HIGH RES mapping, ingest, optimisation and asset verification may run independently across those lanes.
