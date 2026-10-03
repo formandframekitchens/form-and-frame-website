@@ -1,5 +1,49 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "stourcliff-recessed-display-niche"
+  "enabled": true,
+  "project": "G36 — Belgravia Bathroom Furniture & Antique Mirror",
+  "slug": "belgravia-bathroom-furniture-antique-mirror",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1mqlT1ZH2dGCY-rYa7AgACmirQsP_h2Tg",
+      "source_label": "Belgravia HIGH RES IMG_9928 / WEB 21",
+      "role": "antique mirror bathroom view",
+      "output_stem": "belgravia-bathroom-antique-mirror-01",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-bd00-8210-a5e5-6484e76c02ce/raw?se=2026-10-03T10%3A04%3A15Z&sp=r&sv=2026-02-06&sr=b&scid=c22c9b2d-1439-5e55-9c5e-6329cf0719dc&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T07%3A14%3A12Z&ske=2026-10-04T07%3A14%3A12Z&sks=b&skv=2026-02-06&sig=%2BNrCKlDOtjgzmluNFxBuqlGonAenAN4dT56JvVCk6nU%3D"
+    },
+    {
+      "drive_file_id": "1una8iNy4qymvuyuFK8s_KRipOslC5cgn",
+      "source_label": "Belgravia HIGH RES IMG_9913_1 / WEB 22",
+      "role": "antique mirror detail",
+      "output_stem": "belgravia-bathroom-antique-mirror-detail-02",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-b480-81f4-8c77-77f19e76d345/raw?se=2026-10-03T10%3A04%3A16Z&sp=r&sv=2026-02-06&sr=b&scid=a2e909b1-8f77-5dbd-a080-f1dd5bf51864&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T19%3A04%3A45Z&ske=2026-10-03T19%3A04%3A45Z&sks=b&skv=2026-02-06&sig=wlLyp%2BO6wYbwluoZhTKA0BFdQkVu/3hxBfg4IETL3%2BU%3D"
+    },
+    {
+      "drive_file_id": "1Ezi4gmkflQdHpC6O2lJOpk64f-D-udsf",
+      "source_label": "Belgravia HIGH RES IMG_0060_1 / WEB 23",
+      "role": "bathroom fitted furniture view",
+      "output_stem": "belgravia-bathroom-furniture-03",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-cde0-8210-a176-a9f67f3056f3/raw?se=2026-10-03T10%3A04%3A16Z&sp=r&sv=2026-02-06&sr=b&scid=f486171e-f5a3-5b79-9fb2-974dd00c172e&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A13%3A07Z&ske=2026-10-04T05%3A13%3A07Z&sks=b&skv=2026-02-06&sig=VB%2BOXVuBT7EaW0BKp5thgXcObRHYgkpCD9mm3qDL994%3D"
+    },
+    {
+      "drive_file_id": "1tayGSJS8j8sVkXfzzxaU39HzpWjXYWtE",
+      "source_label": "Belgravia HIGH RES IMG_9977 / WEB 24",
+      "role": "bathroom cabinetry view",
+      "output_stem": "belgravia-bathroom-cabinetry-04",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-5428-8210-9a1c-080e5e573bc5/raw?se=2026-10-03T10%3A04%3A16Z&sp=r&sv=2026-02-06&sr=b&scid=83454279-a634-53a8-a447-1f953d798a3e&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T07%3A45%3A04Z&ske=2026-10-04T07%3A45%3A04Z&sks=b&skv=2026-02-06&sig=UrWduRYj5mw5fBdFOgmh%2B2KDeGAN360Wa/vl8h5W0M4%3D"
+    },
+    {
+      "drive_file_id": "1N5rYLnJ2TTHo39DVfx7DbMmMpj1rvU1L",
+      "source_label": "Belgravia HIGH RES IMG_9990_1 / WEB 25",
+      "role": "bathroom furniture detail",
+      "output_stem": "belgravia-bathroom-detail-05",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-54b8-81f4-a650-30bf74f58475/raw?se=2026-10-03T10%3A04%3A17Z&sp=r&sv=2026-02-06&sr=b&scid=79d93293-5b9b-563e-842c-2eb68e24e648&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A15%3A18Z&ske=2026-10-04T06%3A15%3A18Z&sks=b&skv=2026-02-06&sig=EFGCU9LpRhR6XSUsO1wK9ecWP7964XaPjnVZVN84N0Y%3D"
+    }
+  ]
 }
