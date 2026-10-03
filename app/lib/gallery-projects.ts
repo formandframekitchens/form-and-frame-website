@@ -2753,6 +2753,67 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-12.webp", alt: "Final fitted kitchen detail", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G54",
+    slug: "stourcliff-bespoke-radiator-cover",
+    title: "Stourcliff Bespoke Radiator Cover",
+    category: "Bespoke Joinery",
+    summary: "A fitted radiator cover integrated beneath the window, combining a ventilated front with a continuous ledge and carefully resolved joinery around the opening.",
+    seoDescription: "Stourcliff bespoke radiator cover by Form & Frame, fitted beneath a window with a ventilated front, integrated ledge and precise surrounding joinery.",
+    keywords: [
+      "bespoke radiator cover",
+      "fitted radiator cover",
+      "window radiator cover",
+      "bespoke window ledge",
+      "fitted living room joinery",
+      "Stourcliff radiator cover",
+    ],
+    highlights: [
+      "Fitted radiator enclosure",
+      "Integrated window ledge",
+      "Ventilated front panel",
+      "Precise wall and window junctions",
+    ],
+    caseStudy: [
+      {
+        heading: "A fitted radiator cover beneath the window",
+        body: [
+          "This piece integrates the radiator into the room by enclosing it within fitted joinery and extending the top into a practical ledge beneath the window.",
+          "The result is more architectural than a freestanding cover because the furniture follows the width and proportions of the opening.",
+        ],
+      },
+      {
+        heading: "The demanding part: fitting around an existing opening",
+        body: [
+          "Radiator covers beneath windows need accurate setting out so the top, side panels and ventilation area all sit cleanly within the surrounding wall geometry.",
+          "The installation also has to maintain enough clearance around the radiator while keeping the visible gaps and edges controlled.",
+        ],
+      },
+      {
+        heading: "Ventilation and visual integration",
+        body: [
+          "The front panel allows heat to circulate while concealing the radiator itself.",
+          "By aligning the cover closely with the window opening and surrounding surfaces, the piece reads as part of the room rather than an added accessory.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed radiator cover creates a cleaner wall elevation and adds a useful ledge without interrupting the room.",
+          "For similar radiator covers, window seats and fitted architectural joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/stourcliff-bespoke-radiator-cover/stourcliff-radiator-cover-overall-02.webp",
+      alt: "Stourcliff bespoke radiator cover beneath window",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/stourcliff-bespoke-radiator-cover/stourcliff-radiator-cover-overall-02.webp", alt: "Overall view of bespoke radiator cover beneath window", fit: "contain" },
+      { src: "/images/gallery/stourcliff-bespoke-radiator-cover/stourcliff-radiator-cover-detail-01.webp", alt: "Radiator cover and integrated window ledge detail", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
