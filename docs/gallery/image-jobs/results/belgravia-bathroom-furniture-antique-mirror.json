@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "project": "G36 \u2014 Belgravia Bathroom Furniture & Antique Mirror",
+  "slug": "belgravia-bathroom-furniture-antique-mirror",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1mqlT1ZH2dGCY-rYa7AgACmirQsP_h2Tg",
+      "source_label": "Belgravia HIGH RES IMG_9928 / WEB 21",
+      "role": "antique mirror bathroom view",
+      "original": {
+        "width": 3691,
+        "height": 5481
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-antique-mirror-01.webp",
+        "bytes": 259844,
+        "quality": 84,
+        "width": 1347,
+        "height": 2000,
+        "sha256": "d0a6396f47133d894412d66dd1cc3ec368f80a7de7c41a9c44d1a823a5141d86",
+        "git_blob_sha": "7518e67e724177763a4eeb7bb8a51303868466d7"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-antique-mirror-01.avif",
+        "bytes": 155628,
+        "quality": 58,
+        "width": 1347,
+        "height": 2000,
+        "sha256": "35388c606bc06e22dfa74f7ea718a81fe697b0f6930a875127775f0bad1a55fb",
+        "git_blob_sha": "1a9322c22f0f51f68f8c59e2afdabacb926a2e52"
+      }
+    },
+    {
+      "drive_file_id": "1una8iNy4qymvuyuFK8s_KRipOslC5cgn",
+      "source_label": "Belgravia HIGH RES IMG_9913_1 / WEB 22",
+      "role": "antique mirror detail",
+      "original": {
+        "width": 3744,
+        "height": 5616
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-antique-mirror-detail-02.webp",
+        "bytes": 148094,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "bbc7d57a91de8b0ddfd1f1b9e9218af2b16b559c3df64b2e2e7eb81034960fc7",
+        "git_blob_sha": "b4dfa1d95aac2d3d04a41c979daccacbf9aa8f77"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-antique-mirror-detail-02.avif",
+        "bytes": 90207,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "e65c3f34dd8fe6811172ec34350871d62f69bee26e94478652dc482c90df3ec7",
+        "git_blob_sha": "a1ebe003055dc7f2e68a0013d2836a820ea4f7b7"
+      }
+    },
+    {
+      "drive_file_id": "1Ezi4gmkflQdHpC6O2lJOpk64f-D-udsf",
+      "source_label": "Belgravia HIGH RES IMG_0060_1 / WEB 23",
+      "role": "bathroom fitted furniture view",
+      "original": {
+        "width": 3613,
+        "height": 5403
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-furniture-03.webp",
+        "bytes": 62632,
+        "quality": 84,
+        "width": 1337,
+        "height": 2000,
+        "sha256": "22116030bfc39f2446762f8cc939250f22806d48a4ae419cc6a3cfe9c7a9ec65",
+        "git_blob_sha": "8b1b760b32322d2e12c2ba62d9be30086a8c53bd"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-furniture-03.avif",
+        "bytes": 35672,
+        "quality": 58,
+        "width": 1337,
+        "height": 2000,
+        "sha256": "9c01eae44d69067d4f306658d7fad92d65ae62d69d84127c2c89c500d5545ea5",
+        "git_blob_sha": "49d8fbe94e4a8cf90abba02f62c03ceaf545c48b"
+      }
+    },
+    {
+      "drive_file_id": "1tayGSJS8j8sVkXfzzxaU39HzpWjXYWtE",
+      "source_label": "Belgravia HIGH RES IMG_9977 / WEB 24",
+      "role": "bathroom cabinetry view",
+      "original": {
+        "width": 3744,
+        "height": 5616
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-cabinetry-04.webp",
+        "bytes": 105910,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "7b27895b0e51e6ad671d02c138914d301b4f2caae8044c54cee889942537832f",
+        "git_blob_sha": "546f0accab21b828326ef3eb3ed3a41ba2407d47"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-cabinetry-04.avif",
+        "bytes": 67161,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "0fc58d2ab58198c45ef185462b83af614005d6d311e0ab45e259842f4482fecb",
+        "git_blob_sha": "7da0d79e9307f4386dd7003727e9c64052e6c387"
+      }
+    },
+    {
+      "drive_file_id": "1N5rYLnJ2TTHo39DVfx7DbMmMpj1rvU1L",
+      "source_label": "Belgravia HIGH RES IMG_9990_1 / WEB 25",
+      "role": "bathroom furniture detail",
+      "original": {
+        "width": 3744,
+        "height": 5616
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-detail-05.webp",
+        "bytes": 103568,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "604b78324f9e3b9e1e388b43f100c5753923b3ba116a80a4fe618173e3458079",
+        "git_blob_sha": "a8e12ce878cf87dd0ba0dc8284b3d9d6c514c68d"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-detail-05.avif",
+        "bytes": 48744,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "2816f03a286c3115439e53c6d05c6d54e77e97e393f658cb048ec2eb03ae1d60",
+        "git_blob_sha": "939e9402e148f3d2883e1e61fcda4486b7eb0ec2"
+      }
+    }
+  ]
+}
