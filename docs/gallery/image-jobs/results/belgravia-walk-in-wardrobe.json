@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "project": "G37 \u2014 Belgravia Walk-In Wardrobe",
+  "slug": "belgravia-walk-in-wardrobe",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "19lcVXsOD4mrMNF5I2jAta85ukSHXsM5D",
+      "source_label": "Belgravia HIGH RES IMG_9944_1 / WEB 15",
+      "role": "overall walk-in wardrobe view",
+      "original": {
+        "width": 3428,
+        "height": 5142
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-overall-01.webp",
+        "bytes": 136244,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "0b3ce8766b16ba2b7c17243a12ab9bde872f0b8386eb9d65dabb427809d0de09",
+        "git_blob_sha": "7dd6df2c76e8455007744032224d7a99e1df6fd1"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-overall-01.avif",
+        "bytes": 79843,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "3db40b2c73d62ec45c30a454eecc5702c5ff6e280ca30f6982de955702545007",
+        "git_blob_sha": "a29cb34dfc38374162df89b3d0e65e771a23a99b"
+      }
+    },
+    {
+      "drive_file_id": "15uy5QIOy6pp-cb0k_cnrgF-KqyQesk4e",
+      "source_label": "Belgravia HIGH RES IMG_9938 / WEB 16",
+      "role": "wardrobe interior view",
+      "original": {
+        "width": 3216,
+        "height": 5208
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-interior-02.webp",
+        "bytes": 189876,
+        "quality": 84,
+        "width": 1235,
+        "height": 2000,
+        "sha256": "d06896451ee2f7af37639c4b2136b2939026f0effc7a0f12a126ff0cabcdccfc",
+        "git_blob_sha": "46ea1f9ca41fce8f54fe0ea257b405a506c17aeb"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-interior-02.avif",
+        "bytes": 65913,
+        "quality": 58,
+        "width": 1235,
+        "height": 2000,
+        "sha256": "8169daff2f1517ab55eab4b45498679cc7bbea3771bc44c7d3ea34ecfb6cdf46",
+        "git_blob_sha": "6a5404921e573ced7980bf2269ddc5f5745b6c7e"
+      }
+    },
+    {
+      "drive_file_id": "1UK15mlbuJMMgURxmQkg0P0Wip7WDMe7C",
+      "source_label": "Belgravia HIGH RES IMG_9963 / WEB 17",
+      "role": "illuminated display storage detail",
+      "original": {
+        "width": 3552,
+        "height": 5328
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-display-03.webp",
+        "bytes": 241004,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "b6802bbf4c8c841847d8ed84da24c5b21286181f47cd409265cd5e4084928829",
+        "git_blob_sha": "53624e18dcf6ed08ce955f0350f3ae1846989fe7"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-display-03.avif",
+        "bytes": 148600,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "f46bab32b1609c275fe6bf253ab5132f02e3e5bbe68fada610b66ae3f1f8eceb",
+        "git_blob_sha": "0504877769d42925d4fbee46a00349a89f60b24f"
+      }
+    },
+    {
+      "drive_file_id": "18M8p-OgENi9BKpo9lC45EgqG9bWtpeT2",
+      "source_label": "Belgravia HIGH RES IMG_9962 / WEB 18",
+      "role": "brass inlay detail",
+      "original": {
+        "width": 3744,
+        "height": 5616
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-brass-inlay-04.webp",
+        "bytes": 411762,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "c4dfd17cc43fa54710dec768ef52375e27af00e5cc3dacd376542f530dfbec81",
+        "git_blob_sha": "3cc8935cc6f155a6403a03c126ce9453ae2aba43"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-brass-inlay-04.avif",
+        "bytes": 198195,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "75fb47d6c59ba5056211dfec121470a4e20861acfa229a6a5c730587d04b627e",
+        "git_blob_sha": "391edc1c81c1321abfc05c2f1f7c577e431826cd"
+      }
+    },
+    {
+      "drive_file_id": "1_eTfKl_VcEQkuYgYHjv1MsF6YkM69fRN",
+      "source_label": "Belgravia HIGH RES IMG_9936 / WEB 18a",
+      "role": "brass handle and inlay detail",
+      "original": {
+        "width": 3241,
+        "height": 4862
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-brass-detail-05.webp",
+        "bytes": 122076,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "350e3d064b92c803a824e816d90838703c4f5f50d53a6eed794cb144c87080c7",
+        "git_blob_sha": "9fd96e0da83725f87160ffd70445c782d8c7e88f"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-brass-detail-05.avif",
+        "bytes": 59053,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "46e25ee03471c2cd3a541f82df5e6e8cc77ca30f646615cab7300224a36759fb",
+        "git_blob_sha": "69d6aafbc15ca5b5e5ddda97f1b457ed2324ba92"
+      }
+    },
+    {
+      "drive_file_id": "106-sgz6_fwAhJl79pBwHx4sfnSwgSg5Z",
+      "source_label": "Belgravia HIGH RES IMG_9959 / WEB 20",
+      "role": "cut-out handle detail",
+      "original": {
+        "width": 4866,
+        "height": 3244
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-handle-detail-06.webp",
+        "bytes": 484708,
+        "quality": 68,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "3042211eaaa68ec9ba5ebb3764a2bfd0c0d16dc288b3593d83dc0276436bf6fc",
+        "git_blob_sha": "e83395070f6134a98f1828266396cd7e1cf24252"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-handle-detail-06.avif",
+        "bytes": 380261,
+        "quality": 50,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "32f3e36511de13c5bd5ee579b7b2471bcc1874fce9beb9a40aa90e8ae8a01762",
+        "git_blob_sha": "420abba61893fb803302f27b937a3f98b94a198a"
+      }
+    }
+  ]
+}

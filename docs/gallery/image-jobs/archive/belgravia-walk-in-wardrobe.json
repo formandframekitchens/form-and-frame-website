@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G37 — Belgravia Walk-In Wardrobe",
+  "slug": "belgravia-walk-in-wardrobe",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "19lcVXsOD4mrMNF5I2jAta85ukSHXsM5D",
+      "source_label": "Belgravia HIGH RES IMG_9944_1 / WEB 15",
+      "role": "overall walk-in wardrobe view",
+      "output_stem": "belgravia-walk-in-wardrobe-overall-01"
+    },
+    {
+      "drive_file_id": "15uy5QIOy6pp-cb0k_cnrgF-KqyQesk4e",
+      "source_label": "Belgravia HIGH RES IMG_9938 / WEB 16",
+      "role": "wardrobe interior view",
+      "output_stem": "belgravia-walk-in-wardrobe-interior-02"
+    },
+    {
+      "drive_file_id": "1UK15mlbuJMMgURxmQkg0P0Wip7WDMe7C",
+      "source_label": "Belgravia HIGH RES IMG_9963 / WEB 17",
+      "role": "illuminated display storage detail",
+      "output_stem": "belgravia-walk-in-wardrobe-display-03"
+    },
+    {
+      "drive_file_id": "18M8p-OgENi9BKpo9lC45EgqG9bWtpeT2",
+      "source_label": "Belgravia HIGH RES IMG_9962 / WEB 18",
+      "role": "brass inlay detail",
+      "output_stem": "belgravia-walk-in-wardrobe-brass-inlay-04"
+    },
+    {
+      "drive_file_id": "1_eTfKl_VcEQkuYgYHjv1MsF6YkM69fRN",
+      "source_label": "Belgravia HIGH RES IMG_9936 / WEB 18a",
+      "role": "brass handle and inlay detail",
+      "output_stem": "belgravia-walk-in-wardrobe-brass-detail-05"
+    },
+    {
+      "drive_file_id": "106-sgz6_fwAhJl79pBwHx4sfnSwgSg5Z",
+      "source_label": "Belgravia HIGH RES IMG_9959 / WEB 20",
+      "role": "cut-out handle detail",
+      "output_stem": "belgravia-walk-in-wardrobe-handle-detail-06"
+    }
+  ]
+}
