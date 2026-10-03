@@ -3277,6 +3277,69 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   
+  {
+    galleryId: "G44",
+    slug: "8-leys-road-bookcase-leather-brass",
+    title: "8 Leys Road Bookcase with Leather & Brass Detail",
+    category: "Bespoke Joinery",
+    summary: "A full-height bespoke bookcase wall with illuminated shelving and refined leather and brass detailing integrated into the vertical framing.",
+    seoDescription: "8 Leys Road bespoke bookcase by Form & Frame, with full-height illuminated shelving, leather detailing and refined brass accents.",
+    keywords: [
+          "8 Leys Road bookcase",
+          "bespoke bookcase",
+          "illuminated shelving",
+          "leather joinery detail",
+          "brass detail bookcase",
+          "fitted display wall"
+    ],
+    highlights: [
+          "Full-height fitted bookcase",
+          "Integrated shelf lighting",
+          "Leather detailing",
+          "Brass accents"
+    ],
+    caseStudy: [
+      {
+        heading: "A full-height illuminated bookcase wall",
+        body: [
+                  "This 8 Leys Road bookcase fills the wall with open display shelving above lower fitted storage.",
+                  "Integrated lighting within the shelves gives the display objects depth while keeping the furniture visually structured."
+        ],
+      },
+      {
+        heading: "The demanding part: maintaining repetition across the wall",
+        body: [
+                  "A long bookcase elevation depends on consistent shelf lines, vertical divisions and lower cabinet proportions.",
+                  "Because the furniture is read as one large composition, small variations in spacing or alignment would be immediately visible."
+        ],
+      },
+      {
+        heading: "Leather and brass details",
+        body: [
+                  "The close-up photographs focus on the leather and brass treatment around the bookcase framing and illuminated shelves.",
+                  "These material details provide contrast against the darker furniture while remaining integrated into the overall joinery."
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+                  "The completed bookcase combines display, concealed storage and decorative material detailing within a single fitted wall.",
+                  "For similar bookcases and display furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment."
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-overall-01.webp",
+      alt: "8 Leys Road Bookcase with Leather & Brass Detail",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-overall-01.webp", alt: "Overall view of 8 Leys Road bespoke bookcase", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-detail-02.webp", alt: "Bespoke bookcase detail view", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-leather-led-03.webp", alt: "Leather and illuminated shelf detail", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-leather-led-04.webp", alt: "Leather and brass bookcase detail", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
