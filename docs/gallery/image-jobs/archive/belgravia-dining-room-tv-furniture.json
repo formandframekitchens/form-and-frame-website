@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G38 — Belgravia Dining Room & TV Furniture",
+  "slug": "belgravia-dining-room-tv-furniture",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1wciNF32xGOQnuD8q9Qf24h3Yn-nKMyoc",
+      "source_label": "Belgravia HIGH RES IMG_9896_1 / WEB 1",
+      "role": "overall TV and dining room view",
+      "output_stem": "belgravia-dining-tv-overall-01"
+    },
+    {
+      "drive_file_id": "1rnVWjsIlcgY_Xl44D87fivqAhOm9MTxS",
+      "source_label": "Belgravia HIGH RES IMG_0063_1 / WEB 2",
+      "role": "TV furniture view",
+      "output_stem": "belgravia-dining-tv-unit-02"
+    },
+    {
+      "drive_file_id": "1qPkB34LlwqJf7_yP3oUuqW8ejhlIt7Zc",
+      "source_label": "Belgravia HIGH RES IMG_9903 / WEB 3",
+      "role": "dining room furniture view",
+      "output_stem": "belgravia-dining-furniture-03"
+    },
+    {
+      "drive_file_id": "1_2vMiYIAel89N2-Qx9wd8tYsECthgNGs",
+      "source_label": "Belgravia HIGH RES IMG_9904_1 / WEB 4",
+      "role": "dining room fitted furniture detail",
+      "output_stem": "belgravia-dining-furniture-detail-04"
+    },
+    {
+      "drive_file_id": "19EAdjdVpsYBXrv9dKVwjgt5qfqKpEC5p",
+      "source_label": "Belgravia HIGH RES IMG_9900_1 / WEB 5",
+      "role": "dining cabinetry detail",
+      "output_stem": "belgravia-dining-cabinetry-05"
+    },
+    {
+      "drive_file_id": "1GEWGBOSsfdcjMn1djnWj-V4dYphddkvJ",
+      "source_label": "Belgravia HIGH RES IMG_9899 / WEB 6",
+      "role": "leather and joinery detail",
+      "output_stem": "belgravia-dining-leather-detail-06"
+    },
+    {
+      "drive_file_id": "1iViJdOoC6KgJr8zkjNFRhUbMiIwzfWwv",
+      "source_label": "Belgravia HIGH RES IMG_9906_1 / WEB 7",
+      "role": "dining room furniture detail",
+      "output_stem": "belgravia-dining-detail-07"
+    }
+  ]
+}
