@@ -77,7 +77,7 @@ When the fuse fires:
 | G44 | 8 Leys Road Bookcase with Leather & Brass Detail | QUEUED | Professional pictures / 8 Leys |
 | G45 | 8 Leys Road Alcove Units | LIVE | 9 clean HIGH RES images mapped; logo/web versions excluded; Drive ingest and SHA verification passed |
 | G46 | London Luxury Salon Joinery | LIVE | 10 clean selected salon images; LOGO folder excluded; Drive ingest and SHA verification passed; corrected preview passed; production READY |
-| G47 | Aram Project | QUEUED / REVIEW SPLIT | 42 professional images; may split further |
+| G47 | Bespoke Media Wall with Display Shelving | INGEST RUNNING / FUSE STOP | Aram high res images 1–11; WEB RES used only for visual review; WITH LOGO excluded |
 | G48 | AIDA Stourcliff Road Project | QUEUED / REVIEW SPLIT | 47 professional images; may split further |
 
 ## HOLD / not included in G01-G48
@@ -92,14 +92,21 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 ## Resume pointer
 - Last live gallery: G46 — London Luxury Salon Joinery
-- Current gallery: G47 — Aram Project
-- G46 internal source: Gillie Green project
-- G46 clean curated set: 10 images; LOGO folder excluded
-- G46 Drive ingest: PASSED; WebP + AVIF generated; Git blob SHA verification passed
-- G46 corrected preview: READY
-- G46 merged via PR #43; merge commit 844ebd9f9ec33ff40227251863bc50762c458a24
-- G46 production deployment dpl_AyVCRB6Nt2RPRX5ekMqdCeyuP9g7: READY
-- G47 source hierarchy grounded: Aram high res; WITH LOGO excluded
-- G48 source hierarchy grounded: AIDA Stourcliff high res; WITH LOGO excluded
-- G47, G48: NOT STARTED
-- Resume exactly at: review/split G47 Aram high res into distinct furniture items before ingest; stop if project identity or image-to-item assignment is uncertain
+- Current gallery: G47 — Bespoke Media Wall with Display Shelving
+- G47 source hierarchy: recent Sep 24 Aram project -> high res; WITH LOGO excluded
+- G47 visual selection: HIGH RES images 1–11 only
+- G47 branch: g47-bespoke-media-wall-display-shelving
+- G47 ingest trigger commit: 9fa6e785b4c1cef8b06347ee599437f726c8a0bb
+- G47 GitHub Actions run: 37109143361
+- First workflow lookup: run not yet surfaced
+- Second allowed check: run surfaced as IN_PROGRESS
+- Safety fuse: TRIPPED — no third Actions poll performed
+- Remaining Aram source split identified but NOT numbered/started:
+  - images 12–21: dark bar/display cabinet
+  - images 22–31: bespoke dressing table / make-up storage
+  - images 32 + 35: coordinated bedroom storage cabinets
+  - images 33–34: bedroom TV cabinet
+  - images 36–39: dark bathroom fitted storage
+  - images 40–42: bathroom TV frame
+- G48 — AIDA Stourcliff Road Project remains QUEUED / REVIEW SPLIT and has NOT started
+- Resume exactly at: one fresh state check for Actions run 37109143361; if successful, verify generated assets + Git blob SHAs, add G47 case study, preview, merge and production verify; if failed, diagnose once and repair before any later G-number
