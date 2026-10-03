@@ -2222,6 +2222,77 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-third-room-front-09.webp", alt: "Front view of third room alcove units", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G46",
+    slug: "london-luxury-salon-joinery",
+    title: "London Luxury Salon Joinery",
+    category: "Commercial Joinery",
+    location: "London",
+    summary: "A refined salon fit-out combining reception furniture, styling stations, mirrors, storage and architectural joinery in a coordinated commercial interior.",
+    seoDescription: "London luxury salon joinery case study by Form & Frame, featuring reception furniture, styling stations, mirrors, fitted storage and architectural joinery.",
+    keywords: [
+      "London salon joinery",
+      "luxury salon fit out",
+      "bespoke salon furniture",
+      "commercial joinery London",
+      "reception desk joinery",
+      "styling station cabinetry",
+      "bespoke commercial interiors",
+    ],
+    highlights: [
+      "Reception and front-of-house joinery",
+      "Bespoke styling stations",
+      "Integrated mirrors and storage",
+      "Architectural commercial fit-out details",
+    ],
+    caseStudy: [
+      {
+        heading: "A complete salon joinery scheme",
+        body: [
+          "This London project brings together several types of bespoke joinery within one commercial salon interior, including reception furniture, styling stations, storage and architectural fitted elements.",
+          "The joinery supports day-to-day salon use while maintaining a consistent material and detailing language across the space.",
+        ],
+      },
+      {
+        heading: "The demanding part: repetition with consistency",
+        body: [
+          "Commercial interiors often repeat the same functional elements across a larger space. Styling stations, mirrors, cabinetry and service areas therefore need consistent dimensions and alignment so the interior feels controlled rather than repetitive.",
+          "That consistency also has to survive installation across multiple wall conditions and circulation zones.",
+        ],
+      },
+      {
+        heading: "Storage and service integration",
+        body: [
+          "The furniture incorporates practical storage and service functions around the main client-facing areas.",
+          "By integrating those requirements into the cabinetry, the salon can keep working equipment accessible without allowing it to dominate the finished appearance.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed fit-out combines practical commercial requirements with a refined furniture-led interior.",
+          "For similar salon, hospitality and commercial joinery projects, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-overall-view-01.webp",
+      alt: "Luxury salon joinery interior in London",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-overall-view-01.webp", alt: "Overall view of London luxury salon joinery", fit: "contain" },
+      { src: "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-reception-view-02.webp", alt: "Reception and joinery view", fit: "contain" },
+      { src: "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-room-view-03.webp", alt: "Wide salon interior view", fit: "contain" },
+      { src: "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-station-detail-04.webp", alt: "Styling station detail", fit: "contain" },
+      { src: "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-cabinetry-view-05.webp", alt: "Fitted salon cabinetry view", fit: "contain" },
+      { src: "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-mirror-detail-06.webp", alt: "Mirror and joinery detail", fit: "contain" },
+      { src: "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-context-view-07.webp", alt: "Salon room context view", fit: "contain" },
+      { src: "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-storage-view-08.webp", alt: "Service and storage joinery", fit: "contain" },
+      { src: "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-architectural-view-09.webp", alt: "Architectural salon joinery view", fit: "contain" },
+      { src: "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-detail-10.webp", alt: "Salon material and joinery detail", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
