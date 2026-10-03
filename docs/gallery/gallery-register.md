@@ -95,11 +95,13 @@ When a lane fuse fires:
 | G48 | Stourcliff Bespoke Media Wall | LIVE | AIDA high res images 1, 2, 4, 5, 6, 7; ingest, SHA verification, preview, merge and production route verification passed |
 | G49 | Stourcliff Mirrored Wardrobes | LIVE | AIDA high res images 12–16; 10/10 assets verified; preview and production routes verified; PR #46 merged |
 | G50 | Stourcliff Dressing Table | LIVE | AIDA high res images 20–22; 6/6 assets verified; preview and production routes verified; PR #47 merged |
-| G51 | Stourcliff Fitted Wardrobe & Shoe Storage | PR OPEN / PREVIEW VERIFIED | AIDA high res images 23–27; 10/10 assets verified; preview route HTTP 200; PR #48 open |
-| G52 | Stourcliff Bathroom Vanity & Storage | ASSETS VERIFIED / WAITING INTEGRATION | AIDA high res images 28–32; 10/10 assets verified |
-| G53 | Stourcliff White Handleless Kitchen | ASSETS VERIFIED / WAITING INTEGRATION | AIDA high res images 33–44; 24/24 assets verified |
+| G51 | Stourcliff Fitted Wardrobe & Shoe Storage | LIVE | AIDA high res images 23–27; 10/10 assets verified; preview and production routes verified; PR #49 merged |
+| G52 | Stourcliff Bathroom Vanity & Storage | LIVE | AIDA high res images 28–32; 10/10 assets verified; preview and production routes verified; PR #50 merged |
+| G53 | Stourcliff White Handleless Kitchen | LIVE | AIDA high res images 33–44; 24/24 assets verified; preview and production routes verified; PR #51 merged |
+| G54 | Stourcliff Bespoke Radiator Cover | LIVE | AIDA high res images 8 and 11; 4/4 assets verified; preview and production routes verified; PR #52 merged |
+| G55 | Stourcliff Recessed Display Niche | LIVE | AIDA high res image 46; 2/2 assets verified; preview and production routes verified; PR #53 merged |
 
-## HOLD / not included in G01-G48
+## HOLD / not included in active gallery set
 - Modern Alcove Units: unfinished/weak presentation in current set.
 - Rise & Fall TV Unit: WhatsApp-only low-resolution photography.
 - Wine Rack work-in-progress set: useful detail photography but no strong finished-room set yet.
@@ -111,25 +113,21 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 ## Resume pointer
 - Gallery Batch Workflow v2 is active and is the permanent operating rule.
-- Last live gallery: G50 — Stourcliff Dressing Table
-- G50 PR #47 merged at 9279eb6ad7039e561a81bf037deb10da834444d9
-- G50 production deployment dpl_HSgdgETBdiqXqdCcARNCEiRJKK1K: READY
-- G50 public route /gallery/stourcliff-dressing-table: VERIFIED HTTP 200
-- Active lane G51 — Stourcliff Fitted Wardrobe & Shoe Storage
-  - branch: g51-stourcliff-wardrobe-shoe-storage
-  - ingest SUCCESS; 10/10 assets verified
-  - original case-study commit: 47dd68f131bbe744e82888ca509848bf812fc85a
-  - original preview route verified HTTP 200
-  - PR #48 initially remained non-mergeable after master register advanced
-  - one reasoned repair applied: latest master tree + only G51 changed blobs
-  - repaired/reconciled branch head: 5cee30c126a94e91a4e6a6b16c98535d367c51ce
-  - next: verify Vercel on exact repaired head and fresh PR #48 mergeability check
-- Active lane G52 — Stourcliff Bathroom Vanity & Storage
-  - branch: g52-stourcliff-bathroom-vanity-storage
-  - ingest SUCCESS; 10/10 assets verified
-  - reconciliation blobs prepared
-- Active lane G53 — Stourcliff White Handleless Kitchen
-  - branch: g53-stourcliff-white-handleless-kitchen
-  - ingest SUCCESS; 24/24 assets verified
-  - reconciliation blobs prepared
-- Next integration order: G51 -> G52 -> G53.
+- Last live gallery: G55 — Stourcliff Recessed Display Niche
+- G51 PR #49 merged; production/public route verified.
+- G52 PR #50 merged at 88f8b9bd2f44d090c28655336dcd9ccb080afa68; production deployment dpl_82RTDSQcN6CgGiuuCfJbVbRqLtXT READY; public route verified HTTP 200.
+- G53 PR #51 merged at 6ca7471851838d5beaf4a602f9a5ad86adac7d2c; production deployment dpl_76qec7sLmh6HhktxELMCe6wok6Gu READY; public route verified HTTP 200.
+- G54 PR #52 merged at 06e8d40bad2a51f6607f64500e32ad3bda00cacd; production deployment dpl_DgXNju8dXcMQh97BarZanTaZC4vC READY; public route verified HTTP 200.
+- G55 PR #53 merged at bf98f454bcac16285a59afe64f1fa68c21d77878; production deployment dpl_FSRw1HtkE7FuV9tMJVjiiVjBkqro READY; public route verified HTTP 200.
+- AIDA/Stourcliff remaining images 3, 9, 10, 17–19, 45, 47 are context/weak/HOLD and are not forced into case studies.
+- New active source stream: recent Sep-24 Belgravia project folder 1Wxw__wVyuD6qL4rywt5MmFjYjBfVcWPL.
+- Belgravia source hierarchy: WEB Foto for visual classification; HIGH RES for canonical ingestion.
+- Belgravia stable gallery IDs already allocated:
+  - G35 Kids Room / Home Office Furniture
+  - G36 Bathroom Furniture & Antique Mirror
+  - G37 Walk-In Wardrobe
+  - G38 Dining Room & TV Furniture
+  - G39 Master Bedroom Furniture
+  - G40 Leather Wardrobe
+- G35 WEB visual grouping confirmed: images 33–37 and 39–42 are one coherent children’s bedroom/study installation; image 38 belongs to G40 leather wardrobe.
+- Next exact action: build WEB-to-HIGH-RES visual mapping for Belgravia once, then activate up to five Belgravia lanes in parallel (G35–G39) with signed HIGH RES source URLs.
