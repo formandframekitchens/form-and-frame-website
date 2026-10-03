@@ -75,7 +75,7 @@ When the fuse fires:
 | G42 | 8 Leys Road Kids Room TV Unit | QUEUED | Professional pictures / 8 Leys |
 | G43 | 8 Leys Road Home Office | QUEUED | Professional pictures / 8 Leys |
 | G44 | 8 Leys Road Bookcase with Leather & Brass Detail | QUEUED | Professional pictures / 8 Leys |
-| G45 | 8 Leys Road Alcove Units | QUEUED | Professional pictures / 8 Leys |
+| G45 | 8 Leys Road Alcove Units | PROCESSING / FUSE STOP | 9 clean HIGH RES images mapped; logo/web versions excluded; Actions still in_progress on second check |
 | G46 | Gillie Green Project | QUEUED / REVIEW SPLIT | 21 professional images; may split further |
 | G47 | Aram Project | QUEUED / REVIEW SPLIT | 42 professional images; may split further |
 | G48 | AIDA Stourcliff Road Project | QUEUED / REVIEW SPLIT | 47 professional images; may split further |
@@ -92,9 +92,21 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 ## Resume pointer
 - Last live gallery: G34 — Fulham Antique Mirror Feature
-- G34 production: VERIFIED READY and live with 5 images
-- Next requested gallery: G45 — 8 Leys Road Alcove Units
-- G45 source hierarchy: use 8 Leys HIGH RES only; With LOGO folder excluded
-- Remaining requested batch: G45 -> G46 -> G47 -> G48 -> G49
-- Duplicate/logo preflight remains mandatory
-- Safety fuse status: ARMED
+- Current gallery: G45 — 8 Leys Road Alcove Units
+- G45 duplicate preflight: PASSED
+- G45 logo/watermark preflight: PASSED using HIGH RES only
+- G45 clean source mapping:
+  1. A0001.jpg
+  2. A0004.jpg
+  3. A0002.jpg
+  4. A0003.jpg
+  5. A0006.jpg
+  6. B0001.jpg
+  7. B0004.jpg
+  8. h0018.jpg
+  9. h0024.jpg
+- G45 ingest branch: g45-8-leys-road-alcove-units
+- GitHub Actions run 37106518661 remained in_progress on both allowed checks
+- Safety fuse: TRIPPED — no third Actions poll performed
+- G46, G47, G48, G49: NOT STARTED
+- Resume exactly at: one fresh G45 Actions-state check; if completed success, add case study, preview, merge, production verify, mark G45 LIVE, then continue G46
