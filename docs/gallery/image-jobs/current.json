@@ -1,5 +1,63 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "stourcliff-recessed-display-niche"
+  "enabled": true,
+  "project": "G38 — Belgravia Dining Room & TV Furniture",
+  "slug": "belgravia-dining-room-tv-furniture",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1wciNF32xGOQnuD8q9Qf24h3Yn-nKMyoc",
+      "source_label": "Belgravia HIGH RES IMG_9896_1 / WEB 1",
+      "role": "overall TV and dining room view",
+      "output_stem": "belgravia-dining-tv-overall-01",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-6138-81f4-a984-a37e9c6a85ae/raw?se=2026-10-03T10%3A04%3A46Z&sp=r&sv=2026-02-06&sr=b&scid=b5e9b679-5ca4-5564-ba0e-b93249a38dea&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A50%3A36Z&ske=2026-10-04T05%3A50%3A36Z&sks=b&skv=2026-02-06&sig=OX9%2Bz4MeeXfyBYGl7N9T/m8w5SESlcukp7O7UTpfc7o%3D"
+    },
+    {
+      "drive_file_id": "1rnVWjsIlcgY_Xl44D87fivqAhOm9MTxS",
+      "source_label": "Belgravia HIGH RES IMG_0063_1 / WEB 2",
+      "role": "TV furniture view",
+      "output_stem": "belgravia-dining-tv-unit-02",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-5320-8210-afe0-9fb66d6d252f/raw?se=2026-10-03T10%3A04%3A45Z&sp=r&sv=2026-02-06&sr=b&scid=b7b60fa0-34a7-5deb-862c-b9943a77482e&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A49%3A37Z&ske=2026-10-04T05%3A49%3A37Z&sks=b&skv=2026-02-06&sig=33G1TbDF0NhMRvQ8ttcRjGd1e5NKRuoypuRqhLWuok0%3D"
+    },
+    {
+      "drive_file_id": "1qPkB34LlwqJf7_yP3oUuqW8ejhlIt7Zc",
+      "source_label": "Belgravia HIGH RES IMG_9903 / WEB 3",
+      "role": "dining room furniture view",
+      "output_stem": "belgravia-dining-furniture-03",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-0bf8-8210-8b09-bdac7c75fbee/raw?se=2026-10-03T10%3A04%3A46Z&sp=r&sv=2026-02-06&sr=b&scid=85ef6986-5a2e-59b3-a2df-edbe46a97409&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T09%3A44%3A23Z&ske=2026-10-04T09%3A44%3A23Z&sks=b&skv=2026-02-06&sig=YWMZzlA7pxCthmI6ItdZUa%2BONohMfGvT5X2rp3wPTWQ%3D"
+    },
+    {
+      "drive_file_id": "1_2vMiYIAel89N2-Qx9wd8tYsECthgNGs",
+      "source_label": "Belgravia HIGH RES IMG_9904_1 / WEB 4",
+      "role": "dining room fitted furniture detail",
+      "output_stem": "belgravia-dining-furniture-detail-04",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-2e60-8210-a460-cece6f0d1163/raw?se=2026-10-03T10%3A04%3A45Z&sp=r&sv=2026-02-06&sr=b&scid=ee7575b8-4439-5c14-89ef-3d7e45d9e5a3&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A13%3A09Z&ske=2026-10-04T05%3A13%3A09Z&sks=b&skv=2026-02-06&sig=2PuEVw65D%2BxoTUgaN%2BK0hpP%2BNe5n59O/1yBeIh4SbOA%3D"
+    },
+    {
+      "drive_file_id": "19EAdjdVpsYBXrv9dKVwjgt5qfqKpEC5p",
+      "source_label": "Belgravia HIGH RES IMG_9900_1 / WEB 5",
+      "role": "dining cabinetry detail",
+      "output_stem": "belgravia-dining-cabinetry-05",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-e784-81f4-91aa-cec647a5faee/raw?se=2026-10-03T10%3A04%3A47Z&sp=r&sv=2026-02-06&sr=b&scid=4cbe5d3d-2a0b-5d43-b86e-3f46d9c7680e&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A58%3A14Z&ske=2026-10-04T06%3A58%3A14Z&sks=b&skv=2026-02-06&sig=v99RYnODFx66jWfj750ofm9LJd30reAi8f4KAhFWnXI%3D"
+    },
+    {
+      "drive_file_id": "1GEWGBOSsfdcjMn1djnWj-V4dYphddkvJ",
+      "source_label": "Belgravia HIGH RES IMG_9899 / WEB 6",
+      "role": "leather and joinery detail",
+      "output_stem": "belgravia-dining-leather-detail-06",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-269c-8210-8581-bda4dd2d30a2/raw?se=2026-10-03T10%3A04%3A47Z&sp=r&sv=2026-02-06&sr=b&scid=88ee480f-e6b7-5862-9964-f214fde72a61&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T07%3A14%3A10Z&ske=2026-10-04T07%3A14%3A10Z&sks=b&skv=2026-02-06&sig=cNQHESQve%2BAkr3AGRBYVbRZoc35awEpYdptTHiXPAE8%3D"
+    },
+    {
+      "drive_file_id": "1iViJdOoC6KgJr8zkjNFRhUbMiIwzfWwv",
+      "source_label": "Belgravia HIGH RES IMG_9906_1 / WEB 7",
+      "role": "dining room furniture detail",
+      "output_stem": "belgravia-dining-detail-07",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-0ca8-8210-a1e3-0aaeccddfcb7/raw?se=2026-10-03T10%3A04%3A47Z&sp=r&sv=2026-02-06&sr=b&scid=65646dc7-cab6-583c-9a77-5f722922a1f6&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A34%3A13Z&ske=2026-10-04T06%3A34%3A13Z&sks=b&skv=2026-02-06&sig=RgWCL/NlOWj8YH1qEsM%2BeBWDNj0/3r63uSFv/0nG6K8%3D"
+    }
+  ]
 }
