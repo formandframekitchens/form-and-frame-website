@@ -7,27 +7,41 @@ Rules:
 - One distinct furniture item can become its own case study even when several items are from the same property.
 - Only strong completed-project photography is promoted into the main gallery.
 - Weaker projects remain at the bottom or on HOLD.
-- Every new gallery follows: source review -> image selection -> optimisation -> SEO/case study -> preview -> approval -> live.
+- Every new gallery follows the same lane sequence: source review -> item split -> image selection -> HIGH RES mapping -> ingest/optimisation -> Git blob SHA verification -> SEO/case study -> Vercel preview -> route verification -> PR -> merge -> production verification -> LIVE.
 - Do not reuse a G-number.
-- Process only one G-number at a time. Complete and verify its checkpoint before starting the next.
-- Current review order is ascending by stable G-number, with G01 at the top. A later manual display order may change presentation without changing G-numbers.
-- G-numbers never change when display order changes.
+- Current review order is ascending by stable G-number. G-numbers never change when display order changes.
 
-## Safety fuse
-STOP THE ENTIRE GALLERY SEQUENCE IMMEDIATELY if any of these occurs:
-- the same tool/action fails twice or enters a repeated error loop;
-- project identity is uncertain or may duplicate an existing gallery;
-- image source or which furniture item an image belongs to is unclear;
-- branch, commit, pull request or production state cannot be verified;
-- Vercel preview does not reach READY or the expected project route cannot be verified;
-- asset transfer is incomplete or final image files cannot be verified in the branch;
-- the case study would require invented facts.
+## Gallery Batch Workflow v2 — permanent operating rule
+- Maintain up to FIVE active gallery lanes at once when the work is independent.
+- Source review, image classification, HIGH RES mapping, ingest, optimisation and asset verification may run independently across those lanes.
+- Each gallery gets its own branch, state, checkpoint and fuse. A failure in one lane does NOT stop the other independent lanes.
+- Shared integration into `master` remains SERIAL: gallery case-study integration / PR / merge / production verification is completed one gallery at a time in G-number order because the galleries share `app/lib/gallery-projects.ts` and production state.
+- While an async step is BUILDING / PENDING / IN_PROGRESS, do productive work on the other active lanes instead of ending the prompt.
+- Do not repeatedly poll an async step. After productive work elsewhere, one fresh check may be made. Two consecutive checks with no state change parks only that lane until the next productive cycle.
+- When a parked lane becomes READY/SUCCESS later in the same prompt, resume it immediately.
+- If a lane fails, diagnose the failed step once, apply one reasoned repair, and continue that lane. If the same failure repeats twice, park that lane and continue the other independent lanes.
+- Never continue a lane past an unverified asset transfer, uncertain project identity, uncertain image ownership, invented case-study facts, an unverified branch/commit/PR, or an unverified preview/production route.
+- A GLOBAL fuse applies only when the problem is genuinely shared across all lanes (for example GitHub authentication failure, Drive access failure affecting every source, repository corruption, or a platform-wide deployment failure). In that case, stop dependent actions but continue any safe independent review/classification work.
+- The gallery register is the durable source of truth across chat limits. Every parked lane must record branch, commit/run/deployment IDs, last verified checkpoint, failure reason if any, and exact resume action.
+- Signed temporary `source_url` values are added at ingest trigger time whenever the Drive service credential is unavailable, using the proven G45–G48 transfer path.
+- WEB RES images are for visual classification only; HIGH RES clean originals are canonical for ingestion. WITH LOGO/watermarked copies are excluded.
+- Do not destructively crop joinery. If a required ratio would cut the furniture, preserve the joinery and use an extension/outpaint workflow where needed rather than cutting the object.
 
-When the fuse fires:
-1. Do not retry the failing step repeatedly.
-2. Do not start the next G-number.
-3. Record the G-number, failed checkpoint and reason in the Resume pointer / Fuse stop note.
-4. Return control to the user so the next prompt can diagnose and repair the workflow.
+## Per-gallery fuse
+Park ONLY the affected gallery lane when:
+- the same action fails twice;
+- project identity or image-to-item assignment is uncertain;
+- asset transfer or SHA verification is incomplete;
+- branch/commit/PR state cannot be verified;
+- preview or production route fails verification;
+- completing the case study would require invented facts.
+
+When a lane fuse fires:
+1. Stop retrying that action.
+2. Record the exact checkpoint and reason.
+3. Continue other independent active galleries.
+4. Return to the parked lane after other productive work or when a fresh check is justified.
+5. Do not advance that lane to LIVE until every required checkpoint is verified.
 
 | No. | Project | Status | Priority / source note |
 |---|---|---|---|
