@@ -3079,6 +3079,73 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-handle-detail-06.webp", alt: "Integrated cut-out handle detail", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G38",
+    slug: "belgravia-dining-room-tv-furniture",
+    title: "Belgravia Dining Room & TV Furniture",
+    category: "Bespoke Joinery",
+    location: "Belgravia, London",
+    summary: "A coordinated dining-room furniture scheme combining a bespoke TV unit, fitted cabinetry and refined leather and joinery details.",
+    seoDescription: "Belgravia dining-room and TV furniture by Form & Frame, featuring bespoke cabinetry, a fitted TV unit and refined furniture detailing in a London interior.",
+    keywords: [
+      "Belgravia dining room furniture",
+      "bespoke TV unit London",
+      "fitted dining room cabinetry",
+      "bespoke living room furniture",
+      "leather furniture detail",
+      "bespoke joinery Belgravia",
+    ],
+    highlights: [
+      "Bespoke TV furniture",
+      "Fitted dining-room cabinetry",
+      "Coordinated furniture composition",
+      "Leather and joinery detailing",
+    ],
+    caseStudy: [
+      {
+        heading: "Dining-room and TV furniture as one scheme",
+        body: [
+          "This Belgravia project coordinates the TV furniture and dining-room cabinetry so the separate pieces read as one fitted interior scheme.",
+          "The wider photographs show the furniture in the room, while the closer views reveal the cabinet fronts, panel junctions and material details.",
+        ],
+      },
+      {
+        heading: "The demanding part: maintaining consistency across separate furniture pieces",
+        body: [
+          "Where several fitted pieces share the same room, proportions, panel lines and detailing need to remain consistent even when the furniture performs different functions.",
+          "Accurate setting out and final adjustment help the TV unit and dining cabinetry feel related rather than assembled as unrelated elements.",
+        ],
+      },
+      {
+        heading: "Cabinetry and material detail",
+        body: [
+          "The gallery includes closer views of fitted cabinetry and leather detailing within the scheme.",
+          "These smaller details add depth to the furniture while keeping the broader room composition visually controlled.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed room combines media, storage and dining furniture within a coordinated bespoke joinery language.",
+          "For similar dining-room and TV furniture projects, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-tv-overall-01.webp",
+      alt: "Belgravia dining room with bespoke TV and fitted furniture",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-tv-overall-01.webp", alt: "Overall Belgravia dining-room and TV furniture view", fit: "contain" },
+      { src: "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-tv-unit-02.webp", alt: "Bespoke TV furniture view", fit: "contain" },
+      { src: "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-furniture-03.webp", alt: "Dining-room bespoke furniture view", fit: "contain" },
+      { src: "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-furniture-detail-04.webp", alt: "Dining-room fitted furniture detail", fit: "contain" },
+      { src: "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-cabinetry-05.webp", alt: "Dining-room cabinetry detail", fit: "contain" },
+      { src: "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-leather-detail-06.webp", alt: "Leather and joinery detail", fit: "contain" },
+      { src: "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-detail-07.webp", alt: "Belgravia dining furniture detail", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
