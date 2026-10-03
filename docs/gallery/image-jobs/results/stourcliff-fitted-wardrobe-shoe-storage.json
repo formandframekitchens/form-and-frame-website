@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "project": "G51 \u2014 Stourcliff Fitted Wardrobe & Shoe Storage",
+  "slug": "stourcliff-fitted-wardrobe-shoe-storage",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1at6YJot-GxRW8HVrRXsLp1M5UgrW32oz",
+      "source_label": "UNUM - AIDA {HIGH RES} (23)",
+      "role": "overall fitted wardrobe view",
+      "original": {
+        "width": 8688,
+        "height": 5792
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-overall-01.webp",
+        "bytes": 140292,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "0493eed7568731e7a6e21605f90556f70ee55fb77e0668a37b07e386499371dd",
+        "git_blob_sha": "c958f481909de9ce3fcd1369e09f1147ad7218b9"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-overall-01.avif",
+        "bytes": 94669,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "37d62fe482530efa2740606ae2d870c6a368819a99054b8e40750fbeb9ec65d5",
+        "git_blob_sha": "87aec3a2aac937df20aa941edfbb0a3b98f389cf"
+      }
+    },
+    {
+      "drive_file_id": "11VLZRLqj-2o8RntyJoX52e4DXIj393xt",
+      "source_label": "UNUM - AIDA {HIGH RES} (24)",
+      "role": "wardrobe front detail",
+      "original": {
+        "width": 8666,
+        "height": 5777
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-front-02.webp",
+        "bytes": 199356,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "095c06e2c677260ac92be11f25520ae0620ed4bf5214de01f70ae237d0a42783",
+        "git_blob_sha": "9c5ffd29c60f678428f2a797f2ec7a0c5d663f06"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-front-02.avif",
+        "bytes": 128400,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "172a38a478e1286abccd5df3b165e86470a0cf66d96e3fe93d1d8a937a95f116",
+        "git_blob_sha": "ca52e32cff655433a9c460776b4e6366a56a70f6"
+      }
+    },
+    {
+      "drive_file_id": "1WJUGp1pIQpYHcOrRgDJca0t6c8vO_9c4",
+      "source_label": "UNUM - AIDA {HIGH RES} (25)",
+      "role": "shoe storage detail",
+      "original": {
+        "width": 5588,
+        "height": 8382
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-shoe-storage-03.webp",
+        "bytes": 91694,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "84261f902aef17fb3d4b385009f56abd56609a0e1948e3853a6eeebab000511d",
+        "git_blob_sha": "789461d67b851df412fd8c509d55a357ff7c6f4e"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-shoe-storage-03.avif",
+        "bytes": 56811,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "65bb5e1ffd5b61ffdca16a1eac2a4a9f7c7cbdbaccea85dab6e38b3cad05bbc7",
+        "git_blob_sha": "b367154f786b619730e2733279777344fd7dcbfd"
+      }
+    },
+    {
+      "drive_file_id": "1fWGzSda2hmlfQU00nLxrB1se1vHfeEWv",
+      "source_label": "UNUM - AIDA {HIGH RES} (26)",
+      "role": "open storage view",
+      "original": {
+        "width": 8688,
+        "height": 5792
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-open-storage-04.webp",
+        "bytes": 122916,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "bad8496211cc21377cec690a93fbb63d1bab60ff773e174e54bdc2c6bb4cd98f",
+        "git_blob_sha": "82cf78c6366e5ac42ff9f3480e5995f96640ceba"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-open-storage-04.avif",
+        "bytes": 72476,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "baa4733e85e999e55f04347479aa79dc3bf85d9be06c01e604fd744837ff5c0d",
+        "git_blob_sha": "a28ffc5f4007bb7882b1ce7aa6de73222421f0d0"
+      }
+    },
+    {
+      "drive_file_id": "1mC-UbawXzWGpc7OZ-dL3QZ4cmbSkSc9K",
+      "source_label": "UNUM - AIDA {HIGH RES} (27)",
+      "role": "wardrobe junction detail",
+      "original": {
+        "width": 5792,
+        "height": 8688
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-junction-05.webp",
+        "bytes": 154390,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "b80938fdd2e101af9aba44e88531f85385b3713c6fbf38cef825986bf4454ac4",
+        "git_blob_sha": "550891d1ea2034ac2a17d369a22f882e9bc7e6c6"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-junction-05.avif",
+        "bytes": 92440,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "faf60d8da58c12287bc62773f602b80a55088256690c6dd536091797c4dca5ac",
+        "git_blob_sha": "33d8708683dd370cd605a5e589309eab5239f0c8"
+      }
+    }
+  ]
+}
