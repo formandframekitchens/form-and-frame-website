@@ -1,5 +1,42 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "belgravia-leather-wardrobe"
+  "enabled": true,
+  "project": "G44 — 8 Leys Road Bookcase with Leather & Brass Detail",
+  "slug": "8-leys-road-bookcase-leather-brass",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1UoYxkQwlWgEyXdPPDNO63_IasJkwhqf4",
+      "source_label": "C0050.jpg",
+      "role": "overall bookcase view",
+      "output_stem": "8-leys-bookcase-overall-01",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-930c-81f4-86ee-298b3876516b/raw?se=2026-10-03T12%3A27%3A14Z&sp=r&sv=2026-02-06&sr=b&scid=d6e8919b-b38b-59ea-9465-a906dafb6387&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A35%3A09Z&ske=2026-10-04T06%3A35%3A09Z&sks=b&skv=2026-02-06&sig=IKgVNNt9j1VVq71Ys2kwoi2bQ9wPVQnbhVazMFLFqcs%3D"
+    },
+    {
+      "drive_file_id": "170XTOS6lrc1faj-uyX3c0l8njEvVoz0b",
+      "source_label": "C0049.jpg",
+      "role": "bookcase detail view",
+      "output_stem": "8-leys-bookcase-detail-02",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-a63c-8210-a45d-f1ee7b84f69d/raw?se=2026-10-03T12%3A27%3A13Z&sp=r&sv=2026-02-06&sr=b&scid=fd929596-a30f-52e3-acf9-4829e8f51ec6&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T07%3A15%3A08Z&ske=2026-10-04T07%3A15%3A08Z&sks=b&skv=2026-02-06&sig=P8C2OTRhKjQqV6LYtRDuOTnOV9JNlwxBrt%2Bit3C/R/Q%3D"
+    },
+    {
+      "drive_file_id": "1dEbxeBrkje5fBee96WXMwpKj6XnvTxJl",
+      "source_label": "C0051.jpg",
+      "role": "leather and LED detail",
+      "output_stem": "8-leys-bookcase-leather-led-03",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-de90-8210-bb42-3632775d8819/raw?se=2026-10-03T12%3A27%3A14Z&sp=r&sv=2026-02-06&sr=b&scid=15dac6b3-cad2-54b1-b5c9-1766d7c829b9&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A46%3A56Z&ske=2026-10-04T08%3A46%3A56Z&sks=b&skv=2026-02-06&sig=BckYaWXYkhbAuQLkM44BYpNb51lD04Yx4/DWrE9cVxc%3D"
+    },
+    {
+      "drive_file_id": "1HTJgt3cu3hGMnUNwnpGs96uyfNILIBmB",
+      "source_label": "C0052.jpg",
+      "role": "leather and LED detail",
+      "output_stem": "8-leys-bookcase-leather-led-04",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-2d6c-8210-be49-2c457ec62834/raw?se=2026-10-03T12%3A27%3A14Z&sp=r&sv=2026-02-06&sr=b&scid=78de454d-a925-553c-b4a5-86c675b45fed&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T07%3A15%3A10Z&ske=2026-10-04T07%3A15%3A10Z&sks=b&skv=2026-02-06&sig=IpRUAntf8iBRX6XLIEFq5ceKeI9QPZIRupQqnUTDqlU%3D"
+    }
+  ]
 }
