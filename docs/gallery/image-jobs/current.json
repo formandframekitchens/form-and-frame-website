@@ -1,49 +1,5 @@
 {
   "schema_version": 1,
-  "enabled": true,
-  "project": "G52 — Stourcliff Bathroom Vanity & Storage",
-  "slug": "stourcliff-bathroom-vanity-storage",
-  "max_long_edge": 2000,
-  "min_long_edge": 1200,
-  "webp_quality": 84,
-  "avif_quality": 58,
-  "webp_target_bytes": 500000,
-  "avif_target_bytes": 400000,
-  "images": [
-    {
-      "drive_file_id": "1yknpbsIzwr7Ko4GrfOsN74bwlXfIXYAW",
-      "source_label": "UNUM - AIDA {HIGH RES} (28)",
-      "role": "overall bathroom vanity view",
-      "output_stem": "stourcliff-bathroom-vanity-overall-01",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-d5c4-8210-a63f-6dca3bc2b3c5/raw?se=2026-10-03T09%3A05%3A55Z&sp=r&sv=2026-02-06&sr=b&scid=ff14211f-ace1-5023-9b21-6f1777073dda&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A58%3A13Z&ske=2026-10-04T06%3A58%3A13Z&sks=b&skv=2026-02-06&sig=/7EWEqprRSzeWUudCc38Yryqt0fWV6RNT6BaUwOYHts%3D"
-    },
-    {
-      "drive_file_id": "1cu7paoIIU3gpqnxry3qIiGxU7PWYAHfy",
-      "source_label": "UNUM - AIDA {HIGH RES} (29)",
-      "role": "bathroom vanity front view",
-      "output_stem": "stourcliff-bathroom-vanity-front-02",
-      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-2300-81f4-89ff-6fb295ee1001/raw?se=2026-10-03T09%3A05%3A56Z&sp=r&sv=2026-02-06&sr=b&scid=9dc5ca1f-3751-581f-864a-cd98d4583e4c&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A04%3A05Z&ske=2026-10-04T08%3A04%3A05Z&sks=b&skv=2026-02-06&sig=V/b2LEzTxiDw%2BEU7Nim5o%2BXulF8zReYNPCx05paI2GY%3D"
-    },
-    {
-      "drive_file_id": "1mENi4tffmZBGL0z8WKkoE1NFOyFfTDDk",
-      "source_label": "UNUM - AIDA {HIGH RES} (30)",
-      "role": "bathroom fitted storage view",
-      "output_stem": "stourcliff-bathroom-storage-03",
-      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-ba6c-81f4-9c2c-666f9688629d/raw?se=2026-10-03T09%3A05%3A56Z&sp=r&sv=2026-02-06&sr=b&scid=cf3d0150-cbbb-50be-ace0-c027cb6e7262&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A34%3A13Z&ske=2026-10-04T05%3A34%3A13Z&sks=b&skv=2026-02-06&sig=G4yaESrRtBehsMMYG0e0DXZV%2BDrm5EwqbCpRZysweWQ%3D"
-    },
-    {
-      "drive_file_id": "17zZEfdfccR1pyenRbu3WVXGb5yhCQKSs",
-      "source_label": "UNUM - AIDA {HIGH RES} (31)",
-      "role": "vanity junction detail",
-      "output_stem": "stourcliff-bathroom-vanity-junction-04",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-4ae4-8210-82b0-c4a50fb405fa/raw?se=2026-10-03T09%3A05%3A55Z&sp=r&sv=2026-02-06&sr=b&scid=6284c0e5-dace-5822-a9d2-1f3e2310103c&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A15%3A18Z&ske=2026-10-04T06%3A15%3A18Z&sks=b&skv=2026-02-06&sig=aLVLqO8ZPt25RJlr3njSZ5CfBfbVA8%2Bfoq1EsRr4mGw%3D"
-    },
-    {
-      "drive_file_id": "1bgmlAKZxbIl9RQXlXHmBjzBuPbLMN4tf",
-      "source_label": "UNUM - AIDA {HIGH RES} (32)",
-      "role": "bathroom cabinet detail",
-      "output_stem": "stourcliff-bathroom-cabinet-detail-05",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-3d40-8210-9560-b7c1862f008f/raw?se=2026-10-03T09%3A05%3A57Z&sp=r&sv=2026-02-06&sr=b&scid=ab73ea26-1a2f-5bfe-9c71-044b650cda05&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A04%3A02Z&ske=2026-10-04T08%3A04%3A02Z&sks=b&skv=2026-02-06&sig=Cp7I4XVEapWcGTRlp6iZFsBlDKbC70/xPbcRhn%2B%2BIwM%3D"
-    }
-  ]
+  "enabled": false,
+  "last_completed_slug": "stourcliff-bathroom-vanity-storage"
 }
