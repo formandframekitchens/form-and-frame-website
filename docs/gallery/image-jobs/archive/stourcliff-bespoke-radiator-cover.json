@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G54 — Stourcliff Bespoke Radiator Cover",
+  "slug": "stourcliff-bespoke-radiator-cover",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1oEO3Gs7IWhHf5D3sm9gnzJhDaD5keYCP",
+      "source_label": "UNUM - AIDA {HIGH RES} (8)",
+      "role": "radiator cover and window ledge detail",
+      "output_stem": "stourcliff-radiator-cover-detail-01"
+    },
+    {
+      "drive_file_id": "1GI7vY3nCLgfVF9zNurGnyFaiBjixCyPQ",
+      "source_label": "UNUM - AIDA {HIGH RES} (11)",
+      "role": "full radiator cover beneath window",
+      "output_stem": "stourcliff-radiator-cover-overall-02"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "project": "G54 \u2014 Stourcliff Bespoke Radiator Cover",
+  "slug": "stourcliff-bespoke-radiator-cover",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1oEO3Gs7IWhHf5D3sm9gnzJhDaD5keYCP",
+      "source_label": "UNUM - AIDA {HIGH RES} (8)",
+      "role": "radiator cover and window ledge detail",
+      "original": {
+        "width": 4768,
+        "height": 7008
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-bespoke-radiator-cover/stourcliff-radiator-cover-detail-01.webp",
+        "bytes": 171508,
+        "quality": 84,
+        "width": 1361,
+        "height": 2000,
+        "sha256": "d52b0389748f8d2863a14f52f95b5c1111099757ec4a83248268dfbf4018a8ba",
+        "git_blob_sha": "5f3c7a9e6372a19d81f68b2f928832a5050dad2c"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-bespoke-radiator-cover/stourcliff-radiator-cover-detail-01.avif",
+        "bytes": 95116,
+        "quality": 58,
+        "width": 1361,
+        "height": 2000,
+        "sha256": "aae44fa5b5c68bf5818a0d7155180d6b92e60097706daf3f789733f2e8683eda",
+        "git_blob_sha": "e0e3bfbdb7a411461bdc3cf2414556ab90ffe55b"
+      }
+    },
+    {
+      "drive_file_id": "1GI7vY3nCLgfVF9zNurGnyFaiBjixCyPQ",
+      "source_label": "UNUM - AIDA {HIGH RES} (11)",
+      "role": "full radiator cover beneath window",
+      "original": {
+        "width": 5600,
+        "height": 8400
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-bespoke-radiator-cover/stourcliff-radiator-cover-overall-02.webp",
+        "bytes": 213120,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "73bcefd3884ed06585541053859e154e5db1c4e56d012c9efe1214a928070bc4",
+        "git_blob_sha": "f31afd1689128275e5b0421cbd00fb09a0cc1e29"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-bespoke-radiator-cover/stourcliff-radiator-cover-overall-02.avif",
+        "bytes": 137231,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "4a5d23ff95e2a9c1720400162b727a57357cb323983dc485db73b95542a231cd",
+        "git_blob_sha": "9dd9a766a4f8a3ccc454363aae50f5aec5902177"
+      }
+    }
+  ]
+}
