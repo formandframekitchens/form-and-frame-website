@@ -64,7 +64,7 @@ When the fuse fires:
 | G31 | Fulham Home Office | LIVE | Clean HIGH RES MH0025–MH0028; duplicate/logo preflight passed; Drive ingest passed |
 | G32 | Fulham Alcove Units | LIVE | Clean HIGH RES MH0016–MH0018; duplicate/logo preflight passed; Drive ingest and SHA verification passed |
 | G33 | Fulham Juice Bar Joinery | LIVE | Clean HIGH RES 7-image set; watermarked web copies and adjacent media-wall project excluded; Drive ingest and SHA verification passed |
-| G34 | Fulham Antique Mirror Feature | PROCESSING / FUSE STOP | Clean HIGH RES MH0036–MH0040; duplicate/logo preflight passed; Actions still in_progress on second check |
+| G34 | Fulham Antique Mirror Feature | PREVIEW BUILDING / FUSE STOP | Clean HIGH RES MH0036–MH0040; duplicate/logo preflight passed; Drive ingest and SHA verification passed; case study added |
 | G35 | Belgravia Kids Room / Home Office Furniture | QUEUED | Professional pictures / Belgravia |
 | G36 | Belgravia Bathroom Furniture & Antique Mirror | QUEUED | Professional pictures / Belgravia |
 | G37 | Belgravia Walk-In Wardrobe | QUEUED | Professional pictures / Belgravia |
@@ -92,16 +92,13 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 ## Resume pointer
 - Last confirmed live gallery: G33 — Fulham Juice Bar Joinery
-- Current gallery: G34 — Fulham Antique Mirror Feature
+- G34 — Fulham Antique Mirror Feature: assets and case study complete on branch g34-fulham-antique-mirror-feature
 - G34 source set: clean HIGH RES MH0036–MH0040
-- G34 branded WEB antique-mirror copies: EXCLUDED
-- G34 duplicate preflight: PASSED; no existing antique-mirror gallery
-- GitHub Actions run 37105567393 remained in_progress on both allowed checks
-- Safety fuse: TRIPPED — no third Actions poll performed
-- Requested batch after G34: G45 8 Leys Road Alcove Units -> G46 Gillie Green -> G47 Aram -> G48 AIDA Stourcliff Road -> G49 next distinct finished project
-- G45 source hierarchy grounded: use 8 Leys HIGH RES only; With LOGO folder excluded
-- G46 source hierarchy grounded: Gillie Green LOGO folder excluded; use clean FOTO/ATRINKTOS/SUSPAUSTOS source after split review
-- G47 source hierarchy grounded: Aram WITH LOGO folder excluded; use high res after split review
-- G48 source folder grounded: AIDA Stourcliff Road
-- G49 not yet assigned in register; must be selected from next distinct finished project, never invented
-- Resume exactly at: one fresh G34 Actions-state check; if completed success, add G34 case study, preview, merge, production verify, then continue G45
+- Branded WEB antique-mirror copies: EXCLUDED
+- G34 duplicate/logo preflight: PASSED
+- G34 Drive ingest: PASSED; 5 WebP + 5 AVIF; Git blob SHA verification passed
+- G34 case study: ADDED
+- G34 preview deployment dpl_7Qpovy7LuRTD2g4E6XC3k8wu5JTj remained BUILDING on both allowed preview checks
+- Safety fuse: TRIPPED — no third preview poll performed
+- Remaining requested batch: G45 -> G46 -> G47 -> G48 -> G49
+- Resume exactly at: one fresh G34 preview-state check; if READY, verify preview route, merge, production verify, mark G34 LIVE, then continue G45
