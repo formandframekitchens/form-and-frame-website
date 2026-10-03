@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G35 — Belgravia Kids Room & Home Office Furniture",
+  "slug": "belgravia-kids-room-home-office-furniture",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1KfykVA_PJE_CUqG-TxWlSoM41N1YaG-z",
+      "source_label": "Belgravia HIGH RES IMG_9761 / WEB 26",
+      "role": "kids room fitted furniture view",
+      "output_stem": "belgravia-kids-home-office-01"
+    },
+    {
+      "drive_file_id": "1tl-ztEwqs-IkAMrbd87zhEYb0U03FnhN",
+      "source_label": "Belgravia HIGH RES IMG_9740 / WEB 27",
+      "role": "kids room cabinetry view",
+      "output_stem": "belgravia-kids-home-office-02"
+    },
+    {
+      "drive_file_id": "1xRCx7wZw0UlefJwO5UnDVGR1_mEOhc6D",
+      "source_label": "Belgravia HIGH RES IMG_9742_1 / WEB 28",
+      "role": "kids room bespoke furniture detail",
+      "output_stem": "belgravia-kids-home-office-03"
+    },
+    {
+      "drive_file_id": "1cu4w5GTn2EE6Wxf2KJv-T2V0KLT0kMua",
+      "source_label": "Belgravia HIGH RES IMG_9711_2 / WEB 31",
+      "role": "home office overall view",
+      "output_stem": "belgravia-kids-home-office-04"
+    },
+    {
+      "drive_file_id": "1N2UTW7Z25-ZHlYnqEKNoYPk2d24LHLEq",
+      "source_label": "Belgravia HIGH RES IMG_9713 / WEB 32",
+      "role": "leather desk detail",
+      "output_stem": "belgravia-kids-home-office-05"
+    },
+    {
+      "drive_file_id": "1cssE36pEJ4mU4HNLLJosKkURR6QUf1qt",
+      "source_label": "Belgravia HIGH RES IMG_9814_2 / WEB 33",
+      "role": "kids room furniture view",
+      "output_stem": "belgravia-kids-home-office-06"
+    },
+    {
+      "drive_file_id": "1mfLQRhJ4GXvEcAg3fwtd_xW5ElJBgCYv",
+      "source_label": "Belgravia HIGH RES IMG_9817 / WEB 34",
+      "role": "kids room fitted joinery view",
+      "output_stem": "belgravia-kids-home-office-07"
+    },
+    {
+      "drive_file_id": "1pLL8BXEsqdVR394JsHOGpOab7Hv2mNXD",
+      "source_label": "Belgravia HIGH RES IMG_9826_1 / WEB 35",
+      "role": "kids room joinery detail",
+      "output_stem": "belgravia-kids-home-office-08"
+    },
+    {
+      "drive_file_id": "1-2Zn4c3N2RT8uT_7YKBt4QAGDTTRwlIw",
+      "source_label": "Belgravia HIGH RES IMG_9823_1 / WEB 36",
+      "role": "kids room furniture detail",
+      "output_stem": "belgravia-kids-home-office-09"
+    },
+    {
+      "drive_file_id": "1dOo4TYSr6J5GYq4c-3jp-3DavptCISdU",
+      "source_label": "Belgravia HIGH RES IMG_9830 / WEB 37",
+      "role": "kids room cabinetry detail",
+      "output_stem": "belgravia-kids-home-office-10"
+    },
+    {
+      "drive_file_id": "1u6J_6MAOs9WNafrGwEeiZKbz89eRsq6Q",
+      "source_label": "Belgravia HIGH RES IMG_9825 / WEB 39",
+      "role": "kids room bespoke furniture view",
+      "output_stem": "belgravia-kids-home-office-11"
+    },
+    {
+      "drive_file_id": "1iY5c7DI6QUGAhEmquz84aFexQ3Tnyjtf",
+      "source_label": "Belgravia HIGH RES IMG_9807 / WEB 40",
+      "role": "home office kids room view",
+      "output_stem": "belgravia-kids-home-office-12"
+    },
+    {
+      "drive_file_id": "1qp6Z2ZzFqMu1-G3OTnLUDAzGJfBdBtiU",
+      "source_label": "Belgravia HIGH RES IMG_9768 / WEB 41",
+      "role": "home office kids room detail",
+      "output_stem": "belgravia-kids-home-office-13"
+    },
+    {
+      "drive_file_id": "1MksyQugbSyEdqPZjDRjfb7eCLzN2ewnZ",
+      "source_label": "Belgravia HIGH RES IMG_9789 / WEB 42",
+      "role": "home office kids room furniture view",
+      "output_stem": "belgravia-kids-home-office-14"
+    }
+  ]
+}

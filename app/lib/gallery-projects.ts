@@ -2874,6 +2874,80 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/stourcliff-recessed-display-niche/stourcliff-recessed-display-niche-01.webp", alt: "Recessed illuminated display niche with fitted shelving", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G35",
+    slug: "belgravia-kids-room-home-office-furniture",
+    title: "Belgravia Kids Room & Home Office Furniture",
+    category: "Bespoke Joinery",
+    location: "Belgravia, London",
+    summary: "A coordinated fitted-furniture scheme across a kids room and home-office setting, combining desks, storage cabinetry, display elements and refined furniture details.",
+    seoDescription: "Belgravia bespoke kids-room and home-office furniture by Form & Frame, with fitted desks, storage cabinetry, display joinery and detailed furniture finishes.",
+    keywords: [
+      "Belgravia bespoke joinery",
+      "kids room fitted furniture",
+      "bespoke home office",
+      "fitted study furniture",
+      "home office cabinetry",
+      "bespoke desk London",
+    ],
+    highlights: [
+      "Fitted kids-room cabinetry",
+      "Integrated home-office furniture",
+      "Desk and storage coordination",
+      "Leather desk detail",
+    ],
+    caseStudy: [
+      {
+        heading: "A coordinated fitted-furniture scheme",
+        body: [
+          "This Belgravia project brings together fitted furniture across a kids-room and home-office setting, using built-in cabinetry and desk elements to organise the rooms without relying on freestanding storage.",
+          "The gallery shows wider room views alongside closer details of the fitted units, allowing the overall composition and individual joinery junctions to be seen together.",
+        ],
+      },
+      {
+        heading: "The demanding part: aligning desks, storage and surrounding panels",
+        body: [
+          "Where desks, cabinets and tall storage meet within one fitted composition, the visible lines need to remain consistent across several different functions.",
+          "Accurate setting out helps the furniture meet surrounding walls cleanly while keeping desk surfaces, cabinet fronts and adjacent panels visually controlled.",
+        ],
+      },
+      {
+        heading: "Furniture details within the wider scheme",
+        body: [
+          "The photography includes a leather-clad desk detail as well as fitted kids-room and home-office cabinetry.",
+          "These closer views show how material details and smaller junctions contribute to the finished appearance without overwhelming the practical storage and working areas.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed rooms combine practical study and storage functions with a consistent fitted-furniture approach.",
+          "For similar kids-room furniture, studies and home-office joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-01.webp",
+      alt: "Belgravia fitted kids-room and home-office furniture",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-01.webp", alt: "Belgravia kids-room fitted furniture view", fit: "contain" },
+      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-02.webp", alt: "Kids-room cabinetry view", fit: "contain" },
+      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-03.webp", alt: "Bespoke kids-room furniture detail", fit: "contain" },
+      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-04.webp", alt: "Belgravia home-office fitted furniture", fit: "contain" },
+      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-05.webp", alt: "Leather desk detail", fit: "contain" },
+      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-06.webp", alt: "Kids-room furniture view", fit: "contain" },
+      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-07.webp", alt: "Kids-room fitted joinery view", fit: "contain" },
+      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-08.webp", alt: "Kids-room joinery detail", fit: "contain" },
+      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-09.webp", alt: "Fitted furniture detail", fit: "contain" },
+      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-10.webp", alt: "Cabinetry detail in Belgravia kids room", fit: "contain" },
+      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-11.webp", alt: "Bespoke kids-room furniture view", fit: "contain" },
+      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-12.webp", alt: "Home-office and kids-room furniture view", fit: "contain" },
+      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-13.webp", alt: "Home-office fitted furniture detail", fit: "contain" },
+      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-14.webp", alt: "Belgravia home-office furniture view", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
