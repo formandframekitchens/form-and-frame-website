@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "project": "G48 \u2014 Stourcliff Bespoke Media Wall",
+  "slug": "stourcliff-bespoke-media-wall",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "19YE7BCWxlRn_3MCZFS3nNbe-YH_ykkhl",
+      "source_label": "UNUM - AIDA {HIGH RES} (1)",
+      "role": "overall living room and media wall view",
+      "original": {
+        "width": 7153,
+        "height": 4912
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-overall-view-01.webp",
+        "bytes": 316426,
+        "quality": 84,
+        "width": 2000,
+        "height": 1373,
+        "sha256": "cb6a4edbeed6084d6ef5fa395b6ed219d760dc9e0fc65b2c9094e2710b71b021",
+        "git_blob_sha": "3d612f75767f6e967e37ac0b6916c6d3c400bb51"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-overall-view-01.avif",
+        "bytes": 218912,
+        "quality": 58,
+        "width": 2000,
+        "height": 1373,
+        "sha256": "6c24fb93f01e9e422aad3a21f050c2ab108cfe4900527ec80a83c05f4ecf3a32",
+        "git_blob_sha": "ee8d5c3ef2e3c3434166163e3a1dc0372dabd660"
+      }
+    },
+    {
+      "drive_file_id": "1T28BZZEO1D_O0KZ593UW1LAKcKv8IkYH",
+      "source_label": "UNUM - AIDA {HIGH RES} (2)",
+      "role": "front media wall view",
+      "original": {
+        "width": 7360,
+        "height": 4912
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-front-view-02.webp",
+        "bytes": 335228,
+        "quality": 84,
+        "width": 2000,
+        "height": 1335,
+        "sha256": "c5728153d246388f10b78b4f3ac761f01d7f4e331c02ab67b62ac2b728c2393c",
+        "git_blob_sha": "7e2e04ada72fa056f7d686dad7d94d11c138ec42"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-front-view-02.avif",
+        "bytes": 231546,
+        "quality": 58,
+        "width": 2000,
+        "height": 1335,
+        "sha256": "fff6d09bf461b33ff04d6faffb60a9ca7218cca884659984cc12307999a364c2",
+        "git_blob_sha": "cadaa78c0df69e7d118e94899b30e8e60b192d7e"
+      }
+    },
+    {
+      "drive_file_id": "10Dbn9xG114o4ga9hdl4c1eI8tTQbe2O5",
+      "source_label": "UNUM - AIDA {HIGH RES} (4)",
+      "role": "media wall display and TV surround detail",
+      "original": {
+        "width": 4611,
+        "height": 6798
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-display-detail-03.webp",
+        "bytes": 183312,
+        "quality": 84,
+        "width": 1357,
+        "height": 2000,
+        "sha256": "56365ee8a58f9bda53fd00b42666d7e964eaba27c61470bde9645e396a5ab5f5",
+        "git_blob_sha": "d691525779013a10caeb8feb4249b8847f0ff0ca"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-display-detail-03.avif",
+        "bytes": 104945,
+        "quality": 58,
+        "width": 1357,
+        "height": 2000,
+        "sha256": "03627fb62afe59b578b7de781e022fdf7c21a422fa2012e9e6b8ebba597ed739",
+        "git_blob_sha": "410098d43ffa5c4bc825d50bbd5b691788696afc"
+      }
+    },
+    {
+      "drive_file_id": "1YnqRtawaenfhStqjJd9n_MfrXn6ilHZp",
+      "source_label": "UNUM - AIDA {HIGH RES} (5)",
+      "role": "cabinet frame and reflective display detail",
+      "original": {
+        "width": 4912,
+        "height": 6432
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-cabinet-detail-04.webp",
+        "bytes": 301380,
+        "quality": 84,
+        "width": 1527,
+        "height": 2000,
+        "sha256": "e282f9eacdf646257e87d81c2569ec83f9f3835d3bbd6b878ba57340a0a67344",
+        "git_blob_sha": "95de8058ad7c99032490672ce83a30afc28825d2"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-cabinet-detail-04.avif",
+        "bytes": 191808,
+        "quality": 58,
+        "width": 1527,
+        "height": 2000,
+        "sha256": "251eb384a47be4978b7d96391d600ff40ccbf6d1b32d5891682c5ccb759cc62c",
+        "git_blob_sha": "d334a75796ff97afa2066355f879e24615db6ad3"
+      }
+    },
+    {
+      "drive_file_id": "1C478Qwe_4gdeo9bZ2HjkjbjhrXAcyT8M",
+      "source_label": "UNUM - AIDA {HIGH RES} (6)",
+      "role": "drawer and cabinet detail",
+      "original": {
+        "width": 6308,
+        "height": 4543
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-drawer-detail-05.webp",
+        "bytes": 71846,
+        "quality": 84,
+        "width": 2000,
+        "height": 1440,
+        "sha256": "09adc4188abe211552151672bb73d7e495ccbe2ebdb606bcd2b30e91b3dc7f40",
+        "git_blob_sha": "aa70ce1459c49a379850a7af59956d9eb36f5803"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-drawer-detail-05.avif",
+        "bytes": 34418,
+        "quality": 58,
+        "width": 2000,
+        "height": 1440,
+        "sha256": "9ffedd3547f6d96f6facc4a0ff3521d51f1281b6ed4724be2cba3cefea024eb1",
+        "git_blob_sha": "c090045f5eee6b6c4703e731d795d25237b4c1ad"
+      }
+    },
+    {
+      "drive_file_id": "1UB5L_FivUjgQyRVGnHiB88mwZS48b8QY",
+      "source_label": "UNUM - AIDA {HIGH RES} (7)",
+      "role": "cabinet and worktop junction detail",
+      "original": {
+        "width": 6096,
+        "height": 4547
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-junction-detail-06.webp",
+        "bytes": 89462,
+        "quality": 84,
+        "width": 2000,
+        "height": 1492,
+        "sha256": "db2184c4bcd69a716874cb2ca70d65a314f02a27d248650671ef13aea20921ca",
+        "git_blob_sha": "dba23a7b1778b507a976dc28e1325b712db0b3ed"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-junction-detail-06.avif",
+        "bytes": 50142,
+        "quality": 58,
+        "width": 2000,
+        "height": 1492,
+        "sha256": "7e583f2862c83baa40af25cd8561600ba60c3f4a5dd73a20b8c74a62b9e06315",
+        "git_blob_sha": "469491e6651b5fc0a316f2b8afac6e57f576b9fe"
+      }
+    }
+  ]
+}
