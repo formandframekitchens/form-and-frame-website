@@ -3276,69 +3276,7 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/belgravia-leather-wardrobe/belgravia-leather-wardrobe-panel-detail-03.webp", alt: "Leather wardrobe panel detail", fit: "contain" },
     ],
   },
-  {
-    galleryId: "G40",
-    slug: "belgravia-leather-wardrobe",
-    title: "Belgravia Leather Wardrobe",
-    category: "Bespoke Joinery",
-    location: "Belgravia, London",
-    summary: "A bespoke leather-finished wardrobe with refined panel detailing and brass handle accents, photographed through close furniture details.",
-    seoDescription: "Belgravia leather wardrobe by Form & Frame, featuring bespoke leather-clad panels, brass handle detailing and precision fitted joinery.",
-    keywords: [
-      "Belgravia leather wardrobe",
-      "bespoke leather wardrobe",
-      "luxury wardrobe London",
-      "brass handle wardrobe",
-      "fitted wardrobe detailing",
-      "bespoke joinery Belgravia",
-    ],
-    highlights: [
-      "Leather-finished wardrobe panels",
-      "Brass handle detailing",
-      "Precision fitted junctions",
-      "Refined furniture finish",
-    ],
-    caseStudy: [
-      {
-        heading: "A wardrobe defined by material detail",
-        body: [
-          "This Belgravia wardrobe is presented through detailed photography that focuses on the leather-finished panels and the way the furniture is resolved at close range.",
-          "Rather than relying on decorative excess, the character of the piece comes from the material surface, panel proportions and hardware details.",
-        ],
-      },
-      {
-        heading: "The demanding part: controlling edges and junctions",
-        body: [
-          "Leather-clad wardrobe panels make the quality of edge treatment and panel alignment especially visible.",
-          "The fitting therefore depends on controlled junctions between the leather surfaces, adjoining panels and brass hardware.",
-        ],
-      },
-      {
-        heading: "Brass handle detailing",
-        body: [
-          "The brass handle detail provides contrast against the darker leather surface and gives the wardrobe a more furniture-led finish.",
-          "The close-up photography shows how these smaller elements contribute to the overall quality of the piece.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed wardrobe combines practical fitted storage with a distinctive material finish and carefully integrated hardware.",
-          "For similar wardrobes and specialist fitted furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/belgravia-leather-wardrobe/belgravia-leather-wardrobe-detail-01.webp",
-      alt: "Belgravia bespoke leather wardrobe detail",
-      fit: "contain",
-    },
-    images: [
-      { src: "/images/gallery/belgravia-leather-wardrobe/belgravia-leather-wardrobe-detail-01.webp", alt: "Belgravia leather wardrobe detail", fit: "contain" },
-      { src: "/images/gallery/belgravia-leather-wardrobe/belgravia-leather-wardrobe-brass-handle-02.webp", alt: "Brass handle detail on leather wardrobe", fit: "contain" },
-      { src: "/images/gallery/belgravia-leather-wardrobe/belgravia-leather-wardrobe-panel-detail-03.webp", alt: "Leather wardrobe panel detail", fit: "contain" },
-    ],
-  },
+  
 ];
 
 export function getGalleryProject(slug: string) {
