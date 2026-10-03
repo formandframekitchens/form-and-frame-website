@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "project": "G44 \u2014 8 Leys Road Bookcase with Leather & Brass Detail",
+  "slug": "8-leys-road-bookcase-leather-brass",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1UoYxkQwlWgEyXdPPDNO63_IasJkwhqf4",
+      "source_label": "C0050.jpg",
+      "role": "overall bookcase view",
+      "original": {
+        "width": 5818,
+        "height": 7319
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-overall-01.webp",
+        "bytes": 174818,
+        "quality": 84,
+        "width": 1590,
+        "height": 2000,
+        "sha256": "9695bc5b908f889f3680c4f2ee91f7d320ef417783a19d4ec9cdb6930cb1ee96",
+        "git_blob_sha": "3d5383e2cb764a886640fbc9dc4f100e9c2ddb70"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-overall-01.avif",
+        "bytes": 95676,
+        "quality": 58,
+        "width": 1590,
+        "height": 2000,
+        "sha256": "3b71e8716bf53944b43a6533362dde84ef60a5d241dd48ce2313277fa974df3b",
+        "git_blob_sha": "0db698cf29f014d5c41cde0b7b1f36472aa62e65"
+      }
+    },
+    {
+      "drive_file_id": "170XTOS6lrc1faj-uyX3c0l8njEvVoz0b",
+      "source_label": "C0049.jpg",
+      "role": "bookcase detail view",
+      "original": {
+        "width": 8000,
+        "height": 5792
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-detail-02.webp",
+        "bytes": 187002,
+        "quality": 84,
+        "width": 2000,
+        "height": 1448,
+        "sha256": "7c4ea3657623717e1a851515e91f4d086a7cbe56021e0d58c0c7cbe8084159a7",
+        "git_blob_sha": "6e6634030b26649b3072f49578f56e5fc1b02d00"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-detail-02.avif",
+        "bytes": 122584,
+        "quality": 58,
+        "width": 2000,
+        "height": 1448,
+        "sha256": "fc275bbac6a628780ce9c5e8155fc9d9ba591abeb0f8ed46193ce6519158e0af",
+        "git_blob_sha": "9e0e68ea9af178366e800435934692fbdff2a88e"
+      }
+    },
+    {
+      "drive_file_id": "1dEbxeBrkje5fBee96WXMwpKj6XnvTxJl",
+      "source_label": "C0051.jpg",
+      "role": "leather and LED detail",
+      "original": {
+        "width": 4568,
+        "height": 6873
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-leather-led-03.webp",
+        "bytes": 191466,
+        "quality": 84,
+        "width": 1329,
+        "height": 2000,
+        "sha256": "9941709148cdfceae00a33251b80975e2df67d3d36efacea5f1f88e2eadfec45",
+        "git_blob_sha": "6e29d116d1c033e995b5d302980fbbd693938742"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-leather-led-03.avif",
+        "bytes": 113428,
+        "quality": 58,
+        "width": 1329,
+        "height": 2000,
+        "sha256": "52a5f2340c2e5bc6802a1aa03d0c94797ef0274afbc810fe7eb8dda4aea1a62a",
+        "git_blob_sha": "428a33c0e77a23facaee3c1bfb70b427ad85501e"
+      }
+    },
+    {
+      "drive_file_id": "1HTJgt3cu3hGMnUNwnpGs96uyfNILIBmB",
+      "source_label": "C0052.jpg",
+      "role": "leather and LED detail",
+      "original": {
+        "width": 4912,
+        "height": 7088
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-leather-led-04.webp",
+        "bytes": 225588,
+        "quality": 84,
+        "width": 1386,
+        "height": 2000,
+        "sha256": "858c1487526f04894997d943b6ae44b37d92010d6a5155ae603c1ab112b4b430",
+        "git_blob_sha": "6f7a6ebbd0282bd0ef932283e72418dda2024c93"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-leather-led-04.avif",
+        "bytes": 131549,
+        "quality": 58,
+        "width": 1386,
+        "height": 2000,
+        "sha256": "2b0d6f910b6eba450d071a550f9cdea1ffe09b8d9b7bff3bdb05cd048e6149c1",
+        "git_blob_sha": "a4f7b1fd1066bc72e91ffdaa8625eee1f391948f"
+      }
+    }
+  ]
+}
