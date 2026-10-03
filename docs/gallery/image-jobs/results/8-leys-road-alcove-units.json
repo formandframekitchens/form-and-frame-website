@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "project": "G45 \u2014 8 Leys Road Alcove Units",
+  "slug": "8-leys-road-alcove-units",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1exvC7znP1AoZ4tK6Rb7ymm0TYO-v1FUH",
+      "source_label": "A0001.jpg",
+      "role": "alcove room overall view",
+      "original": {
+        "width": 8564,
+        "height": 5523
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-overall-view-01.webp",
+        "bytes": 228284,
+        "quality": 84,
+        "width": 2000,
+        "height": 1290,
+        "sha256": "7a548b2bde934f6a150dee3953a8232df8f38e082e14b4041e8eaf7964f8dedd",
+        "git_blob_sha": "af6a997ced095494a9497dab3d1f01e6e5fd636f"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-overall-view-01.avif",
+        "bytes": 147333,
+        "quality": 58,
+        "width": 2000,
+        "height": 1290,
+        "sha256": "dcaa00281a49f50b2684ab66497022b1d0c82e4a24f6cfbd745e4357a32d192a",
+        "git_blob_sha": "eb37b05ea48ca0c6fae9f4c576635e2f4fe2a947"
+      }
+    },
+    {
+      "drive_file_id": "1UquxlRoJvWj02qjQaMrtVDw4WF3nGv6Q",
+      "source_label": "A0004.jpg",
+      "role": "first room angled view",
+      "original": {
+        "width": 5792,
+        "height": 8464
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-angled-view-02.webp",
+        "bytes": 284676,
+        "quality": 84,
+        "width": 1369,
+        "height": 2000,
+        "sha256": "6f46cea6c207ba635468c69c55092c26a3add6878dd6aeac637427cd5dfe650f",
+        "git_blob_sha": "0b59256be42fc7dd5cf2fd458c884d8473bbd7e6"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-angled-view-02.avif",
+        "bytes": 180514,
+        "quality": 58,
+        "width": 1369,
+        "height": 2000,
+        "sha256": "9b3cb196854a3bc623465a5da95129fded717e98421254a6696710327d540326",
+        "git_blob_sha": "101c25979cab44b4c22082239bb8948647021912"
+      }
+    },
+    {
+      "drive_file_id": "13gnUsD_B7PXE0laoFE9RF2P-ai_G990e",
+      "source_label": "A0002.jpg",
+      "role": "first room front view",
+      "original": {
+        "width": 5793,
+        "height": 8325
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-front-view-03.webp",
+        "bytes": 252378,
+        "quality": 84,
+        "width": 1392,
+        "height": 2000,
+        "sha256": "72458dc4a7a0548830cbcd42f93142f091059d4aeab4c60902217a0a61353be6",
+        "git_blob_sha": "99fdb806a619a36e1571d0364c5f65a0ba5b115c"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-front-view-03.avif",
+        "bytes": 154637,
+        "quality": 58,
+        "width": 1392,
+        "height": 2000,
+        "sha256": "53450f2641ac43f3c3b725b80ad2d095adc9157a0ad083a2695602f2d3edb86d",
+        "git_blob_sha": "85aa3861803ad72d5c2f5c0fd4d64f6eabeff3e7"
+      }
+    },
+    {
+      "drive_file_id": "1kawxAM0og5ceqesnkwgzoBNK4WqntZ0E",
+      "source_label": "A0003.jpg",
+      "role": "first room right alcove detail",
+      "original": {
+        "width": 5413,
+        "height": 8120
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-detail-04.webp",
+        "bytes": 215034,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "26bb5d08e851eb9789a1321c82702ca5bcfc01954a8155e46a1f6facb3ed4bbd",
+        "git_blob_sha": "22e4a4bf823914d32b5f5dce06c5ae1b1384cd94"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-detail-04.avif",
+        "bytes": 119978,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "50e8d872f99388397a78bc6a8b2d5d7f47c3baf51db44907279571bf5f894fff",
+        "git_blob_sha": "088d42df1cacdf02e013860af21947580e5aef9e"
+      }
+    },
+    {
+      "drive_file_id": "1APB8F34IhtTstl96m9z4A_JSGREogsOK",
+      "source_label": "A0006.jpg",
+      "role": "first room opposite alcove detail",
+      "original": {
+        "width": 4776,
+        "height": 7104
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-detail-05.webp",
+        "bytes": 240524,
+        "quality": 84,
+        "width": 1345,
+        "height": 2000,
+        "sha256": "23f2460e5aebdc6bcca4efeb6a007631f95c73d736d03a21fc86987d5ceb3769",
+        "git_blob_sha": "f01c69e42ae603ef735ed8bf98e562d5e29ad7e5"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-detail-05.avif",
+        "bytes": 139488,
+        "quality": 58,
+        "width": 1345,
+        "height": 2000,
+        "sha256": "c783254d0de27ba56250f89397f25ab96b24831b9195dd784e31340a8c82b972",
+        "git_blob_sha": "6efd347286f7c122f96c5f49cfbc736e8211a883"
+      }
+    },
+    {
+      "drive_file_id": "1P6PsTNJSDzbKRwOwBm8mSVW-2lJyFpp4",
+      "source_label": "B0001.jpg",
+      "role": "second room overall view",
+      "original": {
+        "width": 8626,
+        "height": 5760
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-second-room-06.webp",
+        "bytes": 263124,
+        "quality": 84,
+        "width": 2000,
+        "height": 1335,
+        "sha256": "1fabc8b9eb9cda5bffe3d8d0544d8b68dcbe978041575bcc348e3b64b913a2b9",
+        "git_blob_sha": "333ec5a8288b2d2f8bf6edb2c46075b511f752da"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-second-room-06.avif",
+        "bytes": 177456,
+        "quality": 58,
+        "width": 2000,
+        "height": 1335,
+        "sha256": "13222a1cd4b5add31e568ed4077af708a37628d4b896c443216ba5e301015862",
+        "git_blob_sha": "e14c4dfc75cdb3cf19bf5bc2cf38e0517dd74055"
+      }
+    },
+    {
+      "drive_file_id": "1Cn2Kw5c5TvFnulY1ao1p5Oqk1KlzGJvb",
+      "source_label": "B0004.jpg",
+      "role": "second room alcove detail",
+      "original": {
+        "width": 4649,
+        "height": 6689
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-second-room-detail-07.webp",
+        "bytes": 201516,
+        "quality": 84,
+        "width": 1390,
+        "height": 2000,
+        "sha256": "539064405ca17ad855494aa9af0cfc2b8805fb1857f7946e5699d3b267283fcf",
+        "git_blob_sha": "1cca0266e40443d7e0c3124a112b16ced8be54b3"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-second-room-detail-07.avif",
+        "bytes": 133471,
+        "quality": 58,
+        "width": 1390,
+        "height": 2000,
+        "sha256": "ff3878f42b299c386fa84f9c555bb9b439aa1aee29b1903eedfb4fd8b8ee6948",
+        "git_blob_sha": "3f335cdeae3879f4e591872b761e3d33e47af268"
+      }
+    },
+    {
+      "drive_file_id": "1GPsrMJ8WJHH7eX1pKV9Xy5KzFJksAEhJ",
+      "source_label": "h0018.jpg",
+      "role": "third room overall view",
+      "original": {
+        "width": 7693,
+        "height": 5506
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-third-room-08.webp",
+        "bytes": 323776,
+        "quality": 84,
+        "width": 2000,
+        "height": 1431,
+        "sha256": "8de507bce0a082eaa46b4aa54df1b0ecb96fdf5daa6d3901b59d0d7207489261",
+        "git_blob_sha": "bf475ca3f059b54aeb20c18bf9a371ceb1c67186"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-third-room-08.avif",
+        "bytes": 210695,
+        "quality": 58,
+        "width": 2000,
+        "height": 1431,
+        "sha256": "a52a53a1c2f6ec502f8102ed5362fd7c434e91b4d37a8f772e802e4d83851bb5",
+        "git_blob_sha": "bcca996661231e2d93f754187e558c83b25a4357"
+      }
+    },
+    {
+      "drive_file_id": "1ZBEccZT3ob3Eo1uZ8A7eiuYwj5xhqBY-",
+      "source_label": "h0024.jpg",
+      "role": "third room front view",
+      "original": {
+        "width": 6125,
+        "height": 4236
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-third-room-front-09.webp",
+        "bytes": 325830,
+        "quality": 84,
+        "width": 2000,
+        "height": 1383,
+        "sha256": "03523c58f47a606a6a4e18fc6151562efc35dd8026d6bfcaa13e0f47e29cd10a",
+        "git_blob_sha": "e48c5ff15ef5e45a155fb574d9ecc177602eb207"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-third-room-front-09.avif",
+        "bytes": 214124,
+        "quality": 58,
+        "width": 2000,
+        "height": 1383,
+        "sha256": "4de6473c51a1457064894efe36ecb3df6f20e06590b41d87e84600edd4ede8c8",
+        "git_blob_sha": "9b2f01490df1d3ee7e5bece1ba9d3848226fa51e"
+      }
+    }
+  ]
+}
