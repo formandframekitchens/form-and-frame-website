@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "project": "G52 \u2014 Stourcliff Bathroom Vanity & Storage",
+  "slug": "stourcliff-bathroom-vanity-storage",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1yknpbsIzwr7Ko4GrfOsN74bwlXfIXYAW",
+      "source_label": "UNUM - AIDA {HIGH RES} (28)",
+      "role": "overall bathroom vanity view",
+      "original": {
+        "width": 4912,
+        "height": 7360
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-overall-01.webp",
+        "bytes": 119760,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "4bcf14aac4dec524ae0fb1cb0e42227f1f8a2d5678f0e1436e79cf08cf9c500d",
+        "git_blob_sha": "8249278719830ea6c2525ca40769c989ccb62d31"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-overall-01.avif",
+        "bytes": 78673,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "8c9cc20b6f2e1afa8aee8efe96b73aff1006da1486746d180cc9febdf2634cce",
+        "git_blob_sha": "219112804edc70a14c00057689c833b4e2456460"
+      }
+    },
+    {
+      "drive_file_id": "1cu7paoIIU3gpqnxry3qIiGxU7PWYAHfy",
+      "source_label": "UNUM - AIDA {HIGH RES} (29)",
+      "role": "bathroom vanity front view",
+      "original": {
+        "width": 4912,
+        "height": 7360
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-front-02.webp",
+        "bytes": 90650,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "b41d3909ce1e1e80d5b04ca3d7e3fd79257d9cb3475f930ad07142caa42630aa",
+        "git_blob_sha": "22c397423a7d2c11d383a4dc233ef3d13073826b"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-front-02.avif",
+        "bytes": 61202,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "4060c053fe8155cc71a2956ed161f63482a992c762dccb8f5137d027bca24703",
+        "git_blob_sha": "cdf4812fc058f595916a72127e9a57f56c06f83b"
+      }
+    },
+    {
+      "drive_file_id": "1mENi4tffmZBGL0z8WKkoE1NFOyFfTDDk",
+      "source_label": "UNUM - AIDA {HIGH RES} (30)",
+      "role": "bathroom fitted storage view",
+      "original": {
+        "width": 4912,
+        "height": 7360
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-storage-03.webp",
+        "bytes": 126092,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "c816e3c69747d176180ca1092e750b05e7059e0b4b2a42af6d966ce458586d06",
+        "git_blob_sha": "6bdbe6f96f13a6e4e19b4993a324458a248868af"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-storage-03.avif",
+        "bytes": 78436,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "8f8051825569d9d995fdc374970dbe879b61c5c2178386c6f28d2cf24d5fda79",
+        "git_blob_sha": "7cb4017e5777e74ef00a8b46441bc26fb1e877ba"
+      }
+    },
+    {
+      "drive_file_id": "17zZEfdfccR1pyenRbu3WVXGb5yhCQKSs",
+      "source_label": "UNUM - AIDA {HIGH RES} (31)",
+      "role": "vanity junction detail",
+      "original": {
+        "width": 5120,
+        "height": 7680
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-junction-04.webp",
+        "bytes": 37996,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "118975ce876cc2d11605cd7244d75a5744374b9ecf483f1fcdd03813bce7d35c",
+        "git_blob_sha": "983ec22bd3f996a25401254ea92e848b3d2babcf"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-junction-04.avif",
+        "bytes": 18905,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "c4a70d1ab8191e17a404903352d415640f678694baeaa7a1a08144d1a2237807",
+        "git_blob_sha": "b374f38e0643749b3fdc42d16e64151866886e9c"
+      }
+    },
+    {
+      "drive_file_id": "1bgmlAKZxbIl9RQXlXHmBjzBuPbLMN4tf",
+      "source_label": "UNUM - AIDA {HIGH RES} (32)",
+      "role": "bathroom cabinet detail",
+      "original": {
+        "width": 5358,
+        "height": 3845
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-cabinet-detail-05.webp",
+        "bytes": 39958,
+        "quality": 84,
+        "width": 2000,
+        "height": 1435,
+        "sha256": "aed3660986275d2404fb631203050b7d2a42d52492fe6d69b0fd166990586e4a",
+        "git_blob_sha": "33ec25aa899f10f47be816eedd3df8c5063a195e"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-cabinet-detail-05.avif",
+        "bytes": 26015,
+        "quality": 58,
+        "width": 2000,
+        "height": 1435,
+        "sha256": "b731a92883e7561ab4a8e1edc6df1d62b8733e89ac2b6fc64ab3eedaf8ba6384",
+        "git_blob_sha": "06e97f13cadfbc1c32a5df8c5c859c83729e6b26"
+      }
+    }
+  ]
+}
