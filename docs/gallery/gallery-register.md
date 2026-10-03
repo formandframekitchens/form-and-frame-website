@@ -85,11 +85,11 @@ When a lane fuse fires:
 | G38 | Belgravia Dining Room & TV Furniture | LIVE | 7 mapped HIGH RES originals; 14/14 generated assets verified; PR #57 merged; preview and production routes verified |
 | G39 | Belgravia Master Bedroom Furniture | LIVE | 7 mapped HIGH RES originals; 14/14 generated assets verified; PR #58 merged; preview and production routes verified |
 | G40 | Belgravia Leather Wardrobe | LIVE | 3 mapped HIGH RES originals; 6/6 generated assets verified; PR #59 merged; preview and production routes verified |
-| G41 | 8 Leys Road Walk-In Wardrobe | LIVE | 7 mapped HIGH RES originals; 14/14 generated assets verified; PR #60 merged; gallery record restored by PR #64 integrity repair; final production route verified |
-| G42 | 8 Leys Road Kids Room TV Unit | LIVE | 3 mapped HIGH RES originals; 6/6 generated assets verified; PR #61 merged; gallery record restored by PR #64 integrity repair; final production route verified |
-| G43 | 8 Leys Road Home Office | LIVE | 6 mapped HIGH RES originals; 12/12 generated assets verified; PR #62 merged; gallery record restored by PR #64 integrity repair; final production route verified |
-| G44 | 8 Leys Road Bookcase with Leather & Brass Detail | LIVE | 4 mapped HIGH RES originals; 8/8 generated assets verified; PR #63 merged; final production route verified |
-| G45 | 8 Leys Road Alcove Units | LIVE | 9 clean HIGH RES images mapped; logo/web versions excluded; Drive ingest and SHA verification passed |
+| G41 | Esher Luxury Residence — Walk-In Wardrobe | LIVE | 7 mapped HIGH RES originals; 14/14 generated assets verified; PR #60 merged; gallery record restored by PR #64 integrity repair; final production route verified |
+| G42 | Esher Luxury Residence — Kids Room TV Unit | LIVE | 3 mapped HIGH RES originals; 6/6 generated assets verified; PR #61 merged; gallery record restored by PR #64 integrity repair; final production route verified |
+| G43 | Esher Luxury Residence — Home Office | LIVE | 6 mapped HIGH RES originals; 12/12 generated assets verified; PR #62 merged; gallery record restored by PR #64 integrity repair; final production route verified |
+| G44 | Esher Luxury Residence — Bookcase with Leather & Brass Detail | LIVE | 4 mapped HIGH RES originals; 8/8 generated assets verified; PR #63 merged; final production route verified |
+| G45 | Esher Luxury Residence — Alcove Units | LIVE | 9 clean HIGH RES images mapped; logo/web versions excluded; Drive ingest and SHA verification passed |
 | G46 | London Luxury Salon Joinery | LIVE | 10 clean selected salon images; LOGO folder excluded; Drive ingest and SHA verification passed; corrected preview passed; production READY |
 | G47 | Bespoke Media Wall with Display Shelving | LIVE | Aram high res images 1–11; ingest, asset verification, preview and production verification passed; PR #44 merged |
 | G48 | Stourcliff Bespoke Media Wall | LIVE | AIDA high res images 1, 2, 4, 5, 6, 7; ingest, SHA verification, preview, merge and production route verification passed |
@@ -100,7 +100,7 @@ When a lane fuse fires:
 | G53 | Stourcliff White Handleless Kitchen | LIVE | AIDA high res images 33–44; 24/24 assets verified; preview and production routes verified; PR #51 merged |
 | G54 | Stourcliff Bespoke Radiator Cover | LIVE | AIDA high res images 8 and 11; 4/4 assets verified; preview and production routes verified; PR #52 merged |
 | G55 | Stourcliff Recessed Display Niche | LIVE | AIDA high res image 46; 2/2 assets verified; preview and production routes verified; PR #53 merged |
-| G56 | 8 Leys Road Wine Cellar | LIVE | 2 mapped HIGH RES originals; 4/4 generated assets verified; PR #64 merged; also restored G41–G43 gallery records; final production route verified |
+| G56 | Esher Luxury Residence — Wine Cellar | LIVE | 2 mapped HIGH RES originals; 4/4 generated assets verified; PR #64 merged; also restored G41–G43 gallery records; final production route verified |
 
 ## HOLD / not included in active gallery set
 - Modern Alcove Units: unfinished/weak presentation in current set.
@@ -114,10 +114,10 @@ Current confirmed minimum: 56 distinct case-study slots, plus retired duplicate 
 
 ## Resume pointer
 - Gallery Batch Workflow v2 remains the permanent operating rule.
-- Latest completed batch: 8 Leys Road G41–G44 plus G56 Wine Cellar.
+- Latest completed batch: Esher Luxury Residence G41–G44 plus G56 Wine Cellar.
 - Highest live gallery ID: G56 — 8 Leys Road Wine Cellar.
 - Source hierarchy:
-  - recent Sep-24 folder: 8 Leys Road (1nh0q7YOvMEaNM9OwfxJIFLUhEtP18X-c)
+  - recent Sep-24 folder: Esher Luxury Residence (internal Drive source folder remains `8 Leys Road`, ID 1nh0q7YOvMEaNM9OwfxJIFLUhEtP18X-c)
   - WEB Foto: 1UsPjmWOMFJU-5ix2Gr98wY5Xa1FnIpsE — review/classification only
   - WEB RES: 19V1wHSajf41-YeC700BBN94oHjEQueFl — filename mapping/reference
   - HIGH RES: 1NdfGvZOsej1maLwkQcFQ4pwCMGGpJec- — canonical ingest originals
@@ -126,23 +126,23 @@ Current confirmed minimum: 56 distinct case-study slots, plus retired duplicate 
   - 7 HIGH RES originals
   - 14/14 WebP + AVIF blob SHAs verified
   - PR #60 merged at 89c754877810beaf4666e364a24b582f1ed352c3
-  - final production route /gallery/8-leys-road-walk-in-wardrobe: VERIFIED HTTP 200
+  - final production route /gallery/esher-luxury-residence-walk-in-wardrobe: VERIFIED HTTP 200
 - G42 — 8 Leys Road Kids Room TV Unit
   - 3 HIGH RES originals
   - 6/6 WebP + AVIF blob SHAs verified
   - PR #61 merged at 5c09c8d8b7cb957fd58e6004bc5dfd82ef9a5f4b
-  - final production route /gallery/8-leys-road-kids-room-tv-unit: VERIFIED HTTP 200
+  - final production route /gallery/esher-luxury-residence-kids-room-tv-unit: VERIFIED HTTP 200
 - G43 — 8 Leys Road Home Office
   - 6 HIGH RES originals
   - 12/12 WebP + AVIF blob SHAs verified
   - PR #62 merged at 75b612fe30f825b5bc1289e78603ee853a0d7154
-  - final production route /gallery/8-leys-road-home-office: VERIFIED HTTP 200
+  - final production route /gallery/esher-luxury-residence-home-office: VERIFIED HTTP 200
 - G44 — 8 Leys Road Bookcase with Leather & Brass Detail
   - 4 HIGH RES originals
   - 8/8 WebP + AVIF blob SHAs verified
   - PR #63 merged at 1e1ba909c5cfc835accf45baf85481513c965a3c
   - production deployment dpl_HxvDGfR7PFzJ9S8Jeig7cFDi2UjB: READY
-  - final production route /gallery/8-leys-road-bookcase-leather-brass: VERIFIED HTTP 200
+  - final production route /gallery/esher-luxury-residence-bookcase-leather-brass: VERIFIED HTTP 200
 - G56 — 8 Leys Road Wine Cellar
   - 2 HIGH RES originals (w0038, w0039)
   - 4/4 WebP + AVIF blob SHAs verified
@@ -150,12 +150,12 @@ Current confirmed minimum: 56 distinct case-study slots, plus retired duplicate 
   - preview integrity check: G41, G42, G43, G44 and G56 all HTTP 200
   - PR #64 merged at 184264b6c29656d00d66e335d2cd6e7d00899efc
   - production deployment dpl_FKunriYkYA35CM3Q59qcnyAQaK2V: READY
-  - final production route /gallery/8-leys-road-wine-cellar: VERIFIED HTTP 200
+  - final production route /gallery/esher-luxury-residence-wine-cellar: VERIFIED HTTP 200
 - Integrity repair performed in PR #64:
   - verified image assets for G41–G43 had remained on master, but later serialized gallery-project file updates had dropped their case-study records
   - PR #64 restored exactly one G41, G42 and G43 gallery record, preserved exactly one G44/G45 record, and added exactly one G56 record
   - all five requested public routes were re-verified on the final production deployment
-- 8 Leys Road additional single-image candidates remain unnumbered:
+- Esher Luxury Residence additional single-image candidates remain unnumbered:
   - WEB 31: make-up table
   - WEB 32: bathroom mirror
 - Next new stable gallery ID available: G57.
