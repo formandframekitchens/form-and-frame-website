@@ -115,35 +115,35 @@ Current confirmed minimum: 56 distinct case-study slots, plus retired duplicate 
 ## Resume pointer
 - Gallery Batch Workflow v2 remains the permanent operating rule.
 - Latest completed batch: Esher Luxury Residence G41–G44 plus G56 Wine Cellar.
-- Highest live gallery ID: G56 — 8 Leys Road Wine Cellar.
+- Highest live gallery ID: G56 — Esher Luxury Residence — Wine Cellar.
 - Source hierarchy:
   - recent Sep-24 folder: Esher Luxury Residence (internal Drive source folder remains `8 Leys Road`, ID 1nh0q7YOvMEaNM9OwfxJIFLUhEtP18X-c)
   - WEB Foto: 1UsPjmWOMFJU-5ix2Gr98wY5Xa1FnIpsE — review/classification only
   - WEB RES: 19V1wHSajf41-YeC700BBN94oHjEQueFl — filename mapping/reference
   - HIGH RES: 1NdfGvZOsej1maLwkQcFQ4pwCMGGpJec- — canonical ingest originals
   - With LOGO excluded
-- G41 — 8 Leys Road Walk-In Wardrobe
+- G41 — Esher Luxury Residence — Walk-In Wardrobe
   - 7 HIGH RES originals
   - 14/14 WebP + AVIF blob SHAs verified
   - PR #60 merged at 89c754877810beaf4666e364a24b582f1ed352c3
   - final production route /gallery/esher-luxury-residence-walk-in-wardrobe: VERIFIED HTTP 200
-- G42 — 8 Leys Road Kids Room TV Unit
+- G42 — Esher Luxury Residence — Kids Room TV Unit
   - 3 HIGH RES originals
   - 6/6 WebP + AVIF blob SHAs verified
   - PR #61 merged at 5c09c8d8b7cb957fd58e6004bc5dfd82ef9a5f4b
   - final production route /gallery/esher-luxury-residence-kids-room-tv-unit: VERIFIED HTTP 200
-- G43 — 8 Leys Road Home Office
+- G43 — Esher Luxury Residence — Home Office
   - 6 HIGH RES originals
   - 12/12 WebP + AVIF blob SHAs verified
   - PR #62 merged at 75b612fe30f825b5bc1289e78603ee853a0d7154
   - final production route /gallery/esher-luxury-residence-home-office: VERIFIED HTTP 200
-- G44 — 8 Leys Road Bookcase with Leather & Brass Detail
+- G44 — Esher Luxury Residence — Bookcase with Leather & Brass Detail
   - 4 HIGH RES originals
   - 8/8 WebP + AVIF blob SHAs verified
   - PR #63 merged at 1e1ba909c5cfc835accf45baf85481513c965a3c
   - production deployment dpl_HxvDGfR7PFzJ9S8Jeig7cFDi2UjB: READY
   - final production route /gallery/esher-luxury-residence-bookcase-leather-brass: VERIFIED HTTP 200
-- G56 — 8 Leys Road Wine Cellar
+- G56 — Esher Luxury Residence — Wine Cellar
   - 2 HIGH RES originals (w0038, w0039)
   - 4/4 WebP + AVIF blob SHAs verified
   - exact preview head 55e702304936f900dd3edad13b3b6172951a822c: READY
