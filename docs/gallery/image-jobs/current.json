@@ -1,5 +1,49 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "bespoke-media-wall-display-shelving"
+  "enabled": true,
+  "project": "G51 — Stourcliff Fitted Wardrobe & Shoe Storage",
+  "slug": "stourcliff-fitted-wardrobe-shoe-storage",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1at6YJot-GxRW8HVrRXsLp1M5UgrW32oz",
+      "source_label": "UNUM - AIDA {HIGH RES} (23)",
+      "role": "overall fitted wardrobe view",
+      "output_stem": "stourcliff-wardrobe-storage-overall-01",
+      "source_url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-c030-8243-a107-dbbd3346edb7/raw?se=2026-10-03T09%3A05%3A37Z&sp=r&sv=2026-02-06&sr=b&scid=ac5134f2-90f3-5844-a343-1373bd549c22&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T03%3A57%3A29Z&ske=2026-10-04T03%3A57%3A29Z&sks=b&skv=2026-02-06&sig=hYeWz7oE0/uWKglyoqciOapudts5/vul/AYVnKCeUI4%3D"
+    },
+    {
+      "drive_file_id": "11VLZRLqj-2o8RntyJoX52e4DXIj393xt",
+      "source_label": "UNUM - AIDA {HIGH RES} (24)",
+      "role": "wardrobe front detail",
+      "output_stem": "stourcliff-wardrobe-storage-front-02",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-6dc0-8210-9de6-58ac6f46d497/raw?se=2026-10-03T09%3A05%3A35Z&sp=r&sv=2026-02-06&sr=b&scid=2a55da5a-cdd1-5524-b586-c3a0c2a8534c&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T19%3A02%3A06Z&ske=2026-10-03T19%3A02%3A06Z&sks=b&skv=2026-02-06&sig=3Iv/x7JT8OFjouPY0Tdn3OqHsZreHeiZP1EnvTKm2IY%3D"
+    },
+    {
+      "drive_file_id": "1WJUGp1pIQpYHcOrRgDJca0t6c8vO_9c4",
+      "source_label": "UNUM - AIDA {HIGH RES} (25)",
+      "role": "shoe storage detail",
+      "output_stem": "stourcliff-wardrobe-shoe-storage-03",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-3630-8210-84ee-7f9c4984496b/raw?se=2026-10-03T09%3A05%3A36Z&sp=r&sv=2026-02-06&sr=b&scid=3f2d081a-f419-5f20-82bd-e8466347a14a&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A58%3A13Z&ske=2026-10-04T06%3A58%3A13Z&sks=b&skv=2026-02-06&sig=%2BoQVmIxY%2BsvKaSkQMlP5h45z8UcreoM6T5h9lIy2uwQ%3D"
+    },
+    {
+      "drive_file_id": "1fWGzSda2hmlfQU00nLxrB1se1vHfeEWv",
+      "source_label": "UNUM - AIDA {HIGH RES} (26)",
+      "role": "open storage view",
+      "output_stem": "stourcliff-wardrobe-open-storage-04",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-3948-8210-9759-1d24ad423f60/raw?se=2026-10-03T09%3A05%3A36Z&sp=r&sv=2026-02-06&sr=b&scid=2d9f8ff9-754b-5869-b1cf-050efbcdf3df&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A47%3A55Z&ske=2026-10-04T08%3A47%3A55Z&sks=b&skv=2026-02-06&sig=sSuLNUJgLYwR39S%2BRmk0cnaSsS/Xuz/j5FxFkZYgDbQ%3D"
+    },
+    {
+      "drive_file_id": "1mC-UbawXzWGpc7OZ-dL3QZ4cmbSkSc9K",
+      "source_label": "UNUM - AIDA {HIGH RES} (27)",
+      "role": "wardrobe junction detail",
+      "output_stem": "stourcliff-wardrobe-junction-05",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-072c-81f4-9c5c-b4c78efa3e88/raw?se=2026-10-03T09%3A05%3A37Z&sp=r&sv=2026-02-06&sr=b&scid=4410e34f-23a0-53c2-bfc8-9d74d56e04fe&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T07%3A15%3A06Z&ske=2026-10-04T07%3A15%3A06Z&sks=b&skv=2026-02-06&sig=gaMWtVcxYmcvHNCq00uIWgqYwpLPEafVVXIgdealNIw%3D"
+    }
+  ]
 }
