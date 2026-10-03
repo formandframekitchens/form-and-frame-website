@@ -2089,6 +2089,71 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-service-detail-07.webp", alt: "Open service storage detail in Fulham juice bar", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G34",
+    slug: "fulham-antique-mirror-feature",
+    title: "Fulham Antique Mirror Feature",
+    category: "Bespoke Joinery",
+    location: "Fulham, London",
+    summary: "A full-height antique mirror feature with integrated dark cabinetry, framed reflective panels and carefully aligned architectural detailing.",
+    seoDescription: "Fulham antique mirror feature by Form & Frame, combining full-height aged mirror panels with integrated dark cabinetry and fitted architectural detailing.",
+    keywords: [
+      "Fulham antique mirror",
+      "antique mirror wall London",
+      "bespoke mirror feature",
+      "fitted mirror cabinetry",
+      "dark bespoke joinery",
+      "architectural joinery Fulham",
+    ],
+    highlights: [
+      "Full-height antique mirror panels",
+      "Integrated dark cabinetry",
+      "Framed reflective composition",
+      "Made-to-measure fitted installation",
+    ],
+    caseStudy: [
+      {
+        heading: "A mirror feature designed as part of the room",
+        body: [
+          "This Fulham installation combines full-height antique mirror panels with fitted dark cabinetry to create a decorative architectural feature rather than a standalone mirror.",
+          "The aged reflective surface introduces depth and variation while the darker joinery provides a controlled frame around the composition.",
+        ],
+      },
+      {
+        heading: "The demanding part: precise panel alignment",
+        body: [
+          "Large mirror panels make line and proportion particularly visible. The vertical joints, cabinet edges and surrounding architectural lines need to remain accurately coordinated across the full height of the installation.",
+          "The reflective surface also exposes inconsistencies immediately, so survey and fitting accuracy are critical.",
+        ],
+      },
+      {
+        heading: "Cabinetry and reflection",
+        body: [
+          "The darker fitted elements create a strong contrast with the antique mirror and help anchor the feature within the room.",
+          "The reflective panels amplify light and surrounding detail without making the joinery itself visually dominant.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed feature combines reflective surface, fitted cabinetry and architectural alignment in one restrained composition.",
+          "For similar mirror walls, decorative fitted features and bespoke joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-overall-view-01.webp",
+      alt: "Antique mirror feature with dark fitted cabinetry in Fulham",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-overall-view-01.webp", alt: "Overall view of Fulham antique mirror feature", fit: "contain" },
+      { src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-front-view-02.webp", alt: "Front view of full-height antique mirror wall", fit: "contain" },
+      { src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-angled-view-03.webp", alt: "Angled view of mirror feature and dark cabinetry", fit: "contain" },
+      { src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-detail-04.webp", alt: "Antique mirror panel detail", fit: "contain" },
+      { src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-context-view-05.webp", alt: "Room context view of Fulham antique mirror feature", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
