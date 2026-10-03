@@ -1,5 +1,28 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "stourcliff-fitted-wardrobe-shoe-storage"
+  "enabled": true,
+  "project": "G54 — Stourcliff Bespoke Radiator Cover",
+  "slug": "stourcliff-bespoke-radiator-cover",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1oEO3Gs7IWhHf5D3sm9gnzJhDaD5keYCP",
+      "source_label": "UNUM - AIDA {HIGH RES} (8)",
+      "role": "radiator cover and window ledge detail",
+      "output_stem": "stourcliff-radiator-cover-detail-01",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-81a8-8210-a9f8-b2a6dafb644a/raw?se=2026-10-03T09%3A25%3A28Z&sp=r&sv=2026-02-06&sr=b&scid=9e07c4f9-7c0b-5ef6-8638-b6d13cce89da&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A05%3A00Z&ske=2026-10-04T08%3A05%3A00Z&sks=b&skv=2026-02-06&sig=eoOcPB7mdKUGXqdPDC1NFm3ZHNOqiHqn0xvmdLfE7Oo%3D"
+    },
+    {
+      "drive_file_id": "1GI7vY3nCLgfVF9zNurGnyFaiBjixCyPQ",
+      "source_label": "UNUM - AIDA {HIGH RES} (11)",
+      "role": "full radiator cover beneath window",
+      "output_stem": "stourcliff-radiator-cover-overall-02",
+      "source_url": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-cc3c-820a-a0be-074758178340/raw?se=2026-10-03T09%3A25%3A29Z&sp=r&sv=2026-02-06&sr=b&scid=e62effb2-5f34-5890-b925-94ea94004ddc&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A03%3A10Z&ske=2026-10-04T06%3A03%3A10Z&sks=b&skv=2026-02-06&sig=udfGvLjg2DmgRbr%2BVdaHXl8aolLs5uiPtEEOIQ8jUOs%3D"
+    }
+  ]
 }
