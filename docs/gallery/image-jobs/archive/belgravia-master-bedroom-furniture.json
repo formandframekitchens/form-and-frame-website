@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G39 — Belgravia Master Bedroom Furniture",
+  "slug": "belgravia-master-bedroom-furniture",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1eV7JwsB_fw-4NJCkaInILMgtSHewxeHr",
+      "source_label": "Belgravia HIGH RES IMG_0015_2 / WEB 8",
+      "role": "master bedroom furniture overall view",
+      "output_stem": "belgravia-master-bedroom-overall-01"
+    },
+    {
+      "drive_file_id": "1r5FVS7lZ2JjRg7thaN5LBxq1gWtvTjL7",
+      "source_label": "Belgravia HIGH RES IMG_0021_1 / WEB 9",
+      "role": "master bedroom furniture view",
+      "output_stem": "belgravia-master-bedroom-view-02"
+    },
+    {
+      "drive_file_id": "1evD6HAqX0HE6qRNzdVutbcPfIlqz8llI",
+      "source_label": "Belgravia HIGH RES IMG_0033_1 / WEB 10",
+      "role": "make-up table view",
+      "output_stem": "belgravia-master-bedroom-makeup-table-03"
+    },
+    {
+      "drive_file_id": "1Um2PaSplMqPqY5FihdoemLuK856E8VxA",
+      "source_label": "Belgravia HIGH RES IMG_0034_1 / WEB 11",
+      "role": "bedside table view",
+      "output_stem": "belgravia-master-bedroom-bedside-04"
+    },
+    {
+      "drive_file_id": "1hEwTE5cukM_a3xs0cIkm6H_dwEl6kHxB",
+      "source_label": "Belgravia HIGH RES IMG_0046_1 / WEB 12",
+      "role": "TV unit and bedroom furniture view",
+      "output_stem": "belgravia-master-bedroom-tv-unit-05"
+    },
+    {
+      "drive_file_id": "1H7vJ6gxfeFB-tto5PkJjJQRxUmjfjURK",
+      "source_label": "Belgravia HIGH RES IMG_9993 / WEB 13",
+      "role": "bedroom furniture detail",
+      "output_stem": "belgravia-master-bedroom-detail-06"
+    },
+    {
+      "drive_file_id": "15jGtRnR0kK-lZoI9BWNLbODfQ6Cr_zc1",
+      "source_label": "Belgravia HIGH RES IMG_9995_2 / WEB 14",
+      "role": "master bedroom furniture detail",
+      "output_stem": "belgravia-master-bedroom-detail-07"
+    }
+  ]
+}

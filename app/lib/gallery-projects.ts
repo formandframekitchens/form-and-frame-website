@@ -3146,6 +3146,73 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-detail-07.webp", alt: "Belgravia dining furniture detail", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G39",
+    slug: "belgravia-master-bedroom-furniture",
+    title: "Belgravia Master Bedroom Furniture",
+    category: "Bespoke Joinery",
+    location: "Belgravia, London",
+    summary: "A coordinated master-bedroom furniture scheme combining fitted storage, a make-up table, bedside furniture and TV cabinetry within one bespoke interior.",
+    seoDescription: "Belgravia master-bedroom furniture by Form & Frame, featuring a bespoke make-up table, bedside furniture, TV cabinetry and coordinated fitted joinery.",
+    keywords: [
+      "Belgravia master bedroom furniture",
+      "bespoke bedroom furniture London",
+      "bespoke make-up table",
+      "bedside furniture",
+      "bedroom TV unit",
+      "fitted bedroom joinery",
+    ],
+    highlights: [
+      "Coordinated bedroom furniture",
+      "Bespoke make-up table",
+      "Bedside furniture",
+      "Fitted TV cabinetry",
+    ],
+    caseStudy: [
+      {
+        heading: "A coordinated master-bedroom furniture scheme",
+        body: [
+          "This Belgravia master bedroom brings several pieces of fitted and bespoke furniture together within one interior, including the make-up table, bedside furniture and TV cabinetry.",
+          "The individual pieces perform different functions but share a consistent furniture language across the room.",
+        ],
+      },
+      {
+        heading: "The demanding part: consistency across several furniture types",
+        body: [
+          "When multiple pieces sit within the same bedroom, proportions, panel lines and detailing need to remain consistent so the room feels intentionally coordinated.",
+          "Accurate setting out and final adjustment are especially important where furniture meets walls, adjacent surfaces and other fixed elements.",
+        ],
+      },
+      {
+        heading: "Make-up table, bedside and TV furniture",
+        body: [
+          "The photography shows the relationship between the main bedroom furniture pieces as well as closer joinery details.",
+          "The combination provides practical storage and dedicated furniture functions without introducing unrelated freestanding styles.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed bedroom has a consistent bespoke-furniture character across the principal fitted elements.",
+          "For similar bedroom furniture schemes, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-overall-01.webp",
+      alt: "Belgravia bespoke master-bedroom furniture",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-overall-01.webp", alt: "Overall Belgravia master-bedroom furniture view", fit: "contain" },
+      { src: "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-view-02.webp", alt: "Master-bedroom bespoke furniture view", fit: "contain" },
+      { src: "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-makeup-table-03.webp", alt: "Belgravia bespoke make-up table", fit: "contain" },
+      { src: "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-bedside-04.webp", alt: "Bespoke bedside furniture", fit: "contain" },
+      { src: "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-tv-unit-05.webp", alt: "Master-bedroom TV cabinetry", fit: "contain" },
+      { src: "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-detail-06.webp", alt: "Bedroom furniture detail", fit: "contain" },
+      { src: "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-detail-07.webp", alt: "Belgravia master-bedroom joinery detail", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
