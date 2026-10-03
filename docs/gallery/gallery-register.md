@@ -93,10 +93,11 @@ When a lane fuse fires:
 | G46 | London Luxury Salon Joinery | LIVE | 10 clean selected salon images; LOGO folder excluded; Drive ingest and SHA verification passed; corrected preview passed; production READY |
 | G47 | Bespoke Media Wall with Display Shelving | LIVE | Aram high res images 1–11; ingest, asset verification, preview and production verification passed; PR #44 merged |
 | G48 | Stourcliff Bespoke Media Wall | LIVE | AIDA high res images 1, 2, 4, 5, 6, 7; ingest, SHA verification, preview, merge and production route verification passed |
-| G49 | Stourcliff Mirrored Wardrobes | INGEST RUNNING | AIDA high res images 12–16; images 17–19 excluded as bed/headboard context |
-| G50 | Stourcliff Dressing Table | INGEST RUNNING | AIDA high res images 20–22 |
-| G51 | Stourcliff Fitted Wardrobe & Shoe Storage | INGEST RUNNING | AIDA high res images 23–27 |
-| G52 | Stourcliff Bathroom Vanity & Storage | INGEST RUNNING | AIDA high res images 28–32 |
+| G49 | Stourcliff Mirrored Wardrobes | LIVE | AIDA high res images 12–16; 10/10 assets verified; preview and production routes verified; PR #46 merged |
+| G50 | Stourcliff Dressing Table | PREVIEW BUILDING | AIDA high res images 20–22; 6/6 assets verified; case study committed |
+| G51 | Stourcliff Fitted Wardrobe & Shoe Storage | ASSETS VERIFIED / WAITING INTEGRATION | AIDA high res images 23–27; 10/10 assets verified |
+| G52 | Stourcliff Bathroom Vanity & Storage | ASSETS VERIFIED / WAITING INTEGRATION | AIDA high res images 28–32; 10/10 assets verified |
+| G53 | Stourcliff White Handleless Kitchen | ASSETS VERIFIED / WAITING INTEGRATION | AIDA high res images 33–44; 24/24 assets verified |
 
 ## HOLD / not included in G01-G48
 - Modern Alcove Units: unfinished/weak presentation in current set.
@@ -109,41 +110,31 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Gallery Batch Workflow v2 is active: up to five independent lanes; lane-local fuse; shared master integration serialized.
-- Last live gallery: G48 — Stourcliff Bespoke Media Wall
-- G48 PR #45 merged at bca6b1665e636a4af166fd13567730d5dc80c953
-- G48 production deployment dpl_7N932vpHVkEKyaTmTsaueAtYDuXM: READY
-- G48 public route /gallery/stourcliff-bespoke-media-wall: VERIFIED HTTP 200
-- Active lane G49 — Stourcliff Mirrored Wardrobes
-  - branch: g49-stourcliff-mirrored-wardrobes
-  - selection: AIDA HIGH RES 12–16
-  - trigger commit: 392120b4dafca9f8ce3125f9c455751ac2d5b33f
-  - Actions run: 37111692816
-  - state: IN_PROGRESS
+- Gallery Batch Workflow v2 is active and is the permanent operating rule.
+- Last live gallery: G49 — Stourcliff Mirrored Wardrobes
+- G49 branch: g49-stourcliff-mirrored-wardrobes
+- G49 PR #46 merged at dbf99e53544ff71907753a303d02cc06d1a493b2
+- G49 production deployment dpl_7bk4CgqUTrfuaDtfiC5RMNWHm47d: READY
+- G49 public route /gallery/stourcliff-mirrored-wardrobes: VERIFIED HTTP 200
 - Active lane G50 — Stourcliff Dressing Table
   - branch: g50-stourcliff-dressing-table
-  - selection: AIDA HIGH RES 20–22
-  - trigger commit: 6491d4bbffa9420aa8f7f6ef003db314f7d6a59b
-  - Actions run: 37111694940
-  - state: IN_PROGRESS
+  - ingest SUCCESS; 6/6 assets verified
+  - reconciled onto G49 master state
+  - case-study commit: f125b2b8b110194c0acf5dd3bf688f7efbdfd857
+  - preview deployment: 5s2NFkp52sUtnrZ4GgFbCa3Rd67j
+  - first preview check: PENDING
 - Active lane G51 — Stourcliff Fitted Wardrobe & Shoe Storage
   - branch: g51-stourcliff-wardrobe-shoe-storage
-  - selection: AIDA HIGH RES 23–27
-  - trigger commit: cc40720fd5c8b7f2693637cce514591005258361
-  - Actions run: 37111696594
-  - state: IN_PROGRESS
+  - ingest SUCCESS; 10/10 assets verified
+  - asset reconciliation entries prepared; wait for G50 integration before case-study integration
 - Active lane G52 — Stourcliff Bathroom Vanity & Storage
   - branch: g52-stourcliff-bathroom-vanity-storage
-  - selection: AIDA HIGH RES 28–32
-  - trigger commit: b0d0596a801c04db7690a126fd71e5867351960e
-  - Actions run: 37111699981
-  - state: IN_PROGRESS
-- Next refill lane: G53 — Stourcliff White Handleless Kitchen, AIDA HIGH RES 33–44.
-- Remaining AIDA after G53:
-  - image 3: mixed whole-room context; not a standalone case study
-  - images 8–11: window/radiator-cover and room context
-  - images 17–19: bed/headboard context; HOLD unless strong standalone joinery value is established
-  - image 45: small vanity/counter detail
-  - image 46: recessed display cabinet
-  - image 47: hall context
-- Integration order remains G49 -> G50 -> G51 -> G52 -> G53. Before integrating a lane created from an older master base, reconcile it onto the latest master while preserving its verified asset blobs.
+  - ingest SUCCESS; 10/10 assets verified
+  - waiting serialized integration after G51
+- Active lane G53 — Stourcliff White Handleless Kitchen
+  - branch: g53-stourcliff-white-handleless-kitchen
+  - ingest run 37111829965: SUCCESS
+  - ingest head: 9de5cd51cb5d99554eb4220d635623f8cbb700b7
+  - 24/24 assets verified
+  - waiting serialized integration after G52
+- Next action: after productive work, one fresh G50 preview check. If READY, verify route -> PR -> merge -> production verify -> LIVE, then reconcile G51 onto latest master.
