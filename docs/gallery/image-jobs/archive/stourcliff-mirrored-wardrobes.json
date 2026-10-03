@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G49 — Stourcliff Mirrored Wardrobes",
+  "slug": "stourcliff-mirrored-wardrobes",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1cZrlKQf5B8MURsiiFdTRLKsKT5Hhbgwm",
+      "source_label": "UNUM - AIDA {HIGH RES} (12)",
+      "role": "overall mirrored wardrobe view",
+      "output_stem": "stourcliff-mirrored-wardrobes-overall-01"
+    },
+    {
+      "drive_file_id": "1xXp5uvgBoRmp0-S4MV6i4Yi_1M_yshQv",
+      "source_label": "UNUM - AIDA {HIGH RES} (13)",
+      "role": "front wardrobe view",
+      "output_stem": "stourcliff-mirrored-wardrobes-front-02"
+    },
+    {
+      "drive_file_id": "1DF4zqkcxDSkakQ7iwgy1nZmB1TlvS95t",
+      "source_label": "UNUM - AIDA {HIGH RES} (14)",
+      "role": "mirrored door detail",
+      "output_stem": "stourcliff-mirrored-wardrobes-door-detail-03"
+    },
+    {
+      "drive_file_id": "1Nf2axLb2Q3hTIQL8mGov7_uMEzWk3sqT",
+      "source_label": "UNUM - AIDA {HIGH RES} (15)",
+      "role": "wardrobe junction detail",
+      "output_stem": "stourcliff-mirrored-wardrobes-junction-04"
+    },
+    {
+      "drive_file_id": "1PJ2TcDofrnr74dfjdkXtBKSaD59_o7Jw",
+      "source_label": "UNUM - AIDA {HIGH RES} (16)",
+      "role": "wardrobe detail view",
+      "output_stem": "stourcliff-mirrored-wardrobes-detail-05"
+    }
+  ]
+}

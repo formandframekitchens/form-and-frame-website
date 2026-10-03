@@ -2428,6 +2428,70 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-junction-detail-06.webp", alt: "Cabinet and panel junction detail", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G49",
+    slug: "stourcliff-mirrored-wardrobes",
+    title: "Stourcliff Mirrored Wardrobes",
+    category: "Bespoke Joinery",
+    summary: "Full-height fitted wardrobes with mirrored door fronts, carefully aligned panels and a clean built-in relationship to the bedroom.",
+    seoDescription: "Stourcliff mirrored fitted wardrobes by Form & Frame, with full-height mirrored fronts, controlled panel alignment and bespoke bedroom joinery detailing.",
+    keywords: [
+      "mirrored fitted wardrobes",
+      "bespoke bedroom wardrobes",
+      "full height wardrobes",
+      "mirrored wardrobe doors",
+      "fitted bedroom joinery",
+      "Stourcliff wardrobes",
+    ],
+    highlights: [
+      "Full-height fitted wardrobes",
+      "Mirrored door fronts",
+      "Controlled panel alignment",
+      "Integrated bedroom joinery",
+    ],
+    caseStudy: [
+      {
+        heading: "Full-height fitted wardrobe composition",
+        body: [
+          "This bedroom installation uses full-height mirrored wardrobe fronts to create storage while keeping the fitted elevation visually light.",
+          "The mirrored doors reflect the surrounding room, so their alignment, proportions and relationship with the adjacent panels are especially visible in the finished result.",
+        ],
+      },
+      {
+        heading: "The demanding part: maintaining consistent lines",
+        body: [
+          "A mirrored wardrobe exposes even small inconsistencies because reflections make misaligned door edges and uneven gaps easier to notice.",
+          "The installation therefore depends on careful setting out, consistent door spacing and accurate junctions where the fitted furniture meets the surrounding room.",
+        ],
+      },
+      {
+        heading: "Mirrored fronts and fitted detailing",
+        body: [
+          "The close-up views show how the mirrored fronts sit within the wider fitted composition rather than reading as separate freestanding pieces.",
+          "Keeping the door lines controlled allows the reflective surfaces to remain the dominant visual feature without distracting irregular gaps or panel transitions.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed wardrobes provide substantial concealed storage with a restrained, integrated appearance.",
+          "For similar fitted wardrobes and bedroom joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-overall-01.webp",
+      alt: "Stourcliff full-height mirrored fitted wardrobes",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-overall-01.webp", alt: "Overall view of full-height mirrored wardrobes", fit: "contain" },
+      { src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-front-02.webp", alt: "Front view of mirrored fitted wardrobes", fit: "contain" },
+      { src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-door-detail-03.webp", alt: "Mirrored wardrobe door detail", fit: "contain" },
+      { src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-junction-04.webp", alt: "Wardrobe panel and door junction detail", fit: "contain" },
+      { src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-detail-05.webp", alt: "Mirrored fitted wardrobe detail", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
