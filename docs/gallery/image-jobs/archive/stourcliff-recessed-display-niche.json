@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G55 — Stourcliff Recessed Display Niche",
+  "slug": "stourcliff-recessed-display-niche",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "19k0NFlv4jHVCxlVMc93oAwq-DAj7bspR",
+      "source_label": "UNUM - AIDA {HIGH RES} (46)",
+      "role": "recessed illuminated display niche",
+      "output_stem": "stourcliff-recessed-display-niche-01"
+    }
+  ]
+}
