@@ -2293,6 +2293,76 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-detail-10.webp", alt: "Salon material and joinery detail", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G47",
+    slug: "bespoke-media-wall-display-shelving",
+    title: "Bespoke Media Wall with Display Shelving",
+    category: "Bespoke Joinery",
+    summary: "A full-height bespoke media wall combining an integrated television, illuminated display shelving and concealed lower storage in one fitted composition.",
+    seoDescription: "Bespoke media wall by Form & Frame with integrated TV, illuminated display shelving, framed joinery details and concealed lower storage.",
+    keywords: [
+      "bespoke media wall",
+      "media wall display shelving",
+      "integrated TV wall",
+      "illuminated display shelving",
+      "bespoke fitted joinery",
+      "living room media wall",
+    ],
+    highlights: [
+      "Integrated television surround",
+      "Illuminated display shelving",
+      "Concealed lower storage",
+      "Full-height fitted composition",
+    ],
+    caseStudy: [
+      {
+        heading: "A media wall designed as fitted furniture",
+        body: [
+          "This project combines the television, display shelving and lower storage into one full-height fitted composition rather than treating each element separately.",
+          "The open shelves frame the central media area while the lower cabinetry provides practical concealed storage and keeps the overall elevation visually controlled.",
+        ],
+      },
+      {
+        heading: "The demanding part: aligning several visual zones",
+        body: [
+          "A media wall like this depends on accurate coordination between the television opening, shelf lines, outer framing and lower cabinet fronts.",
+          "Because the arrangement is highly symmetrical and viewed as one large elevation, small inconsistencies in gaps or levels would be immediately visible.",
+        ],
+      },
+      {
+        heading: "Integrated lighting and display detail",
+        body: [
+          "The shelving incorporates lighting to emphasise displayed objects and add depth to the fitted wall.",
+          "The close-up photographs show the relationship between the shelf edges, surrounding panels and lighting details, all of which need to remain cleanly integrated rather than appearing as separate add-ons.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed installation combines media, display and storage functions while maintaining a furniture-led appearance.",
+          "For similar bespoke media walls and fitted living-room joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-overall-view-01.webp",
+      alt: "Bespoke media wall with illuminated display shelving",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-overall-view-01.webp", alt: "Overall view of bespoke media wall", fit: "contain" },
+      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-angled-view-02.webp", alt: "Angled room view of fitted media wall", fit: "contain" },
+      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelving-view-03.webp", alt: "Display shelving beside integrated television", fit: "contain" },
+      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelf-lighting-04.webp", alt: "Illuminated display shelving detail", fit: "contain" },
+      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-side-view-05.webp", alt: "Side view of full-height media wall", fit: "contain" },
+      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-storage-detail-06.webp", alt: "Open lower storage detail beneath media wall", fit: "contain" },
+      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelf-edge-07.webp", alt: "Display shelf edge detail", fit: "contain" },
+      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-lighting-detail-08.webp", alt: "Integrated shelf lighting detail", fit: "contain" },
+      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-junction-detail-09.webp", alt: "Frame and panel junction detail", fit: "contain" },
+      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-front-view-10.webp", alt: "Front view of bespoke media wall", fit: "contain" },
+      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-tv-surround-11.webp", alt: "Integrated television surround detail", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
