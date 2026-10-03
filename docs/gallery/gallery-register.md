@@ -78,7 +78,7 @@ When the fuse fires:
 | G45 | 8 Leys Road Alcove Units | LIVE | 9 clean HIGH RES images mapped; logo/web versions excluded; Drive ingest and SHA verification passed |
 | G46 | London Luxury Salon Joinery | LIVE | 10 clean selected salon images; LOGO folder excluded; Drive ingest and SHA verification passed; corrected preview passed; production READY |
 | G47 | Bespoke Media Wall with Display Shelving | LIVE | Aram high res images 1–11; ingest, asset verification, preview and production verification passed; PR #44 merged |
-| G48 | Stourcliff Bespoke Media Wall | INGEST RUNNING / FUSE STOP | AIDA high res images 1, 2, 4, 5, 6, 7; WITH LOGO excluded; signed source URLs embedded from start |
+| G48 | Stourcliff Bespoke Media Wall | PREVIEW BUILDING / FUSE STOP | AIDA high res images 1, 2, 4, 5, 6, 7; ingest passed; 12/12 generated assets verified; case study added |
 
 ## HOLD / not included in G01-G48
 - Modern Alcove Units: unfinished/weak presentation in current set.
@@ -94,16 +94,17 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 - Last live gallery: G47 — Bespoke Media Wall with Display Shelving
 - Current gallery: G48 — Stourcliff Bespoke Media Wall
 - G48 source hierarchy: recent Sep 24 AIDA Stourcliff road -> high res; WITH LOGO excluded
-- AIDA source count: 47 clean numbered JPEGs; extra HIGH RES PSD copy of image 20 excluded
 - G48 visual selection: HIGH RES images 1, 2, 4, 5, 6, 7 only
-- G48 WEB RES copies were used only for visual classification
 - G48 branch: g48-stourcliff-bespoke-media-wall
-- G48 ingest trigger commit: f7b3a9b7cda75655c5b6f2ce7060e54f37833259
-- Fresh signed source_url values were embedded for all six HIGH RES files before triggering ingest
-- G48 Actions run: 37110081091
-- First Actions check: IN_PROGRESS
-- Second allowed Actions check: IN_PROGRESS; dependencies installing, image ingest not started yet
-- Safety fuse: TRIPPED — no third Actions poll performed
+- G48 Actions run 37110081091: SUCCESS
+- G48 ingest commit: 8c93369220aed9a988fd3679022d7352edfe9b9f
+- Generated assets verified against ingest report: 12/12 Git blob SHAs matched
+- G48 case study commit: 6ec4e558e101a7e7032b5a8195c5ab2519114e79
+- G48 location field intentionally omitted; project name retained without inventing geography
+- Vercel preview deployment: 9u6afkWiqoRFfU52jAYCPd1XmEfs
+- First preview check: PENDING
+- Second allowed preview check: PENDING
+- Safety fuse: TRIPPED — no third preview poll performed
 - Remaining AIDA source split identified but NOT numbered/started:
   - image 3: whole-room context showing media wall plus separate dining cabinetry
   - images 8–11: window/radiator-cover and room context
@@ -115,4 +116,4 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
   - image 45: small vanity/counter detail
   - image 46: recessed display cabinet
   - image 47: hall context
-- Resume exactly at: one fresh state check for G48 Actions run 37110081091; if successful, verify generated assets + Git blob SHAs, add G48 case study, preview, merge and production verify; if failed, diagnose once before any later G-number
+- Resume exactly at: one fresh Vercel status check for case-study commit 6ec4e558e101a7e7032b5a8195c5ab2519114e79; if READY, verify G48 route, create/verify PR, merge, production verify, mark G48 LIVE; if failed, diagnose once before any later gallery
