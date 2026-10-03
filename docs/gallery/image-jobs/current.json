@@ -1,5 +1,28 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "belgravia-leather-wardrobe"
+  "enabled": true,
+  "project": "G56 — 8 Leys Road Wine Cellar",
+  "slug": "8-leys-road-wine-cellar",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1Jy7Uh-Od2Ymt9GRgSePo9goFx16kFsQf",
+      "source_label": "w0038.jpg",
+      "role": "overall wine cellar view",
+      "output_stem": "8-leys-wine-cellar-overall-01",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-be6c-8210-9a59-3aa6fc7efe57/raw?se=2026-10-03T12%3A27%3A14Z&sp=r&sv=2026-02-06&sr=b&scid=d3f6a6d0-d63f-563f-8d52-5b1ef0be3536&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T18%3A59%3A36Z&ske=2026-10-03T18%3A59%3A36Z&sks=b&skv=2026-02-06&sig=lKds8Lq82/btmzzIGHEv%2BqxRqRvlJi7r8BFPhwMJU9c%3D"
+    },
+    {
+      "drive_file_id": "1qRwzV49p8QBSJXfA005Hr0V3XKNLcg7N",
+      "source_label": "w0039.jpg",
+      "role": "wine cellar interior view",
+      "output_stem": "8-leys-wine-cellar-interior-02",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-2cbc-81f4-8ab4-fa241e24f80a/raw?se=2026-10-03T12%3A27%3A17Z&sp=r&sv=2026-02-06&sr=b&scid=a2b11490-e41f-5a85-8641-6e0ff7d9ebb2&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A04%3A59Z&ske=2026-10-04T08%3A04%3A59Z&sks=b&skv=2026-02-06&sig=36IwV8b5yD2piwi4mD4wIogt%2Bd2uFS1usDInPa66p1I%3D"
+    }
+  ]
 }
