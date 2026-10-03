@@ -2554,6 +2554,70 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-detail-03.webp", alt: "Dressing table drawer and joinery detail", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G51",
+    slug: "stourcliff-fitted-wardrobe-shoe-storage",
+    title: "Stourcliff Fitted Wardrobe & Shoe Storage",
+    category: "Bespoke Joinery",
+    summary: "Fitted bedroom storage combining full-height wardrobe cabinetry with dedicated open shoe storage and carefully aligned joinery details.",
+    seoDescription: "Stourcliff fitted wardrobe and shoe storage by Form & Frame, combining full-height bedroom cabinetry, open shoe storage and precise fitted joinery.",
+    keywords: [
+      "fitted wardrobe",
+      "shoe storage",
+      "bespoke bedroom storage",
+      "built in wardrobe",
+      "fitted shoe storage",
+      "Stourcliff bedroom joinery",
+    ],
+    highlights: [
+      "Full-height fitted wardrobe",
+      "Dedicated shoe storage",
+      "Open and concealed storage",
+      "Precise fitted junctions",
+    ],
+    caseStudy: [
+      {
+        heading: "Wardrobe and shoe storage as one fitted scheme",
+        body: [
+          "This bedroom project combines full-height wardrobe cabinetry with dedicated shoe storage so different storage needs are handled within one coordinated fitted scheme.",
+          "The wardrobe provides concealed storage while the open sections keep frequently used footwear accessible.",
+        ],
+      },
+      {
+        heading: "The demanding part: coordinating different storage types",
+        body: [
+          "Combining tall wardrobe doors with smaller open storage sections requires careful control of proportions and alignment.",
+          "The furniture has to meet the surrounding walls cleanly while keeping door lines, shelf positions and panel junctions visually consistent.",
+        ],
+      },
+      {
+        heading: "Accessible shoe storage",
+        body: [
+          "The open storage provides a practical place for shoes without reducing the main wardrobe capacity.",
+          "The close-up views show how these smaller storage sections are integrated into the wider fitted furniture rather than added as separate units.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed installation provides a mix of concealed and accessible bedroom storage within a compact fitted footprint.",
+          "For similar wardrobes and specialist bedroom storage, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-overall-01.webp",
+      alt: "Stourcliff fitted wardrobe and shoe storage",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-overall-01.webp", alt: "Overall view of fitted wardrobe and storage", fit: "contain" },
+      { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-front-02.webp", alt: "Front view of fitted wardrobe cabinetry", fit: "contain" },
+      { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-shoe-storage-03.webp", alt: "Dedicated fitted shoe storage", fit: "contain" },
+      { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-open-storage-04.webp", alt: "Open fitted storage detail", fit: "contain" },
+      { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-junction-05.webp", alt: "Wardrobe panel junction detail", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
