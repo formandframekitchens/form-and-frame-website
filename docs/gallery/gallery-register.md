@@ -79,7 +79,7 @@ When a lane fuse fires:
 | G32 | Fulham Alcove Units | LIVE | Clean HIGH RES MH0016–MH0018; duplicate/logo preflight passed; Drive ingest and SHA verification passed |
 | G33 | Fulham Juice Bar Joinery | LIVE | Clean HIGH RES 7-image set; watermarked web copies and adjacent media-wall project excluded; Drive ingest and SHA verification passed |
 | G34 | Fulham Antique Mirror Feature | LIVE | Clean HIGH RES MH0036–MH0040; duplicate/logo preflight passed; Drive ingest and SHA verification passed; preview verified |
-| G35 | Belgravia Kids Room / Home Office Furniture | QUEUED | Professional pictures / Belgravia |
+| G35 | Belgravia Kids Room / Home Office Furniture | REVIEW ACTIVE | Sep-24 Belgravia project; WEB Foto descriptive set + HIGH RES canonical originals |
 | G36 | Belgravia Bathroom Furniture & Antique Mirror | QUEUED | Professional pictures / Belgravia |
 | G37 | Belgravia Walk-In Wardrobe | QUEUED | Professional pictures / Belgravia |
 | G38 | Belgravia Dining Room & TV Furniture | QUEUED | Professional pictures / Belgravia |
@@ -112,22 +112,44 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Gallery Batch Workflow v2 is active and is the permanent operating rule.
+- Gallery Batch Workflow v2 is the permanent operating rule.
 - Last live gallery: G55 — Stourcliff Recessed Display Niche
-- G51 PR #49 merged; production/public route verified.
-- G52 PR #50 merged at 88f8b9bd2f44d090c28655336dcd9ccb080afa68; production deployment dpl_82RTDSQcN6CgGiuuCfJbVbRqLtXT READY; public route verified HTTP 200.
-- G53 PR #51 merged at 6ca7471851838d5beaf4a602f9a5ad86adac7d2c; production deployment dpl_76qec7sLmh6HhktxELMCe6wok6Gu READY; public route verified HTTP 200.
-- G54 PR #52 merged at 06e8d40bad2a51f6607f64500e32ad3bda00cacd; production deployment dpl_DgXNju8dXcMQh97BarZanTaZC4vC READY; public route verified HTTP 200.
-- G55 PR #53 merged at bf98f454bcac16285a59afe64f1fa68c21d77878; production deployment dpl_FSRw1HtkE7FuV9tMJVjiiVjBkqro READY; public route verified HTTP 200.
-- AIDA/Stourcliff remaining images 3, 9, 10, 17–19, 45, 47 are context/weak/HOLD and are not forced into case studies.
-- New active source stream: recent Sep-24 Belgravia project folder 1Wxw__wVyuD6qL4rywt5MmFjYjBfVcWPL.
-- Belgravia source hierarchy: WEB Foto for visual classification; HIGH RES for canonical ingestion.
-- Belgravia stable gallery IDs already allocated:
+- G51 — Stourcliff Fitted Wardrobe & Shoe Storage
+  - PR #49 merged at 53f337b9c18b7fc00101cb67576bd0fcf943877b
+  - production deployment dpl_EVxD8KC352Y5b4LbZaC8m6bY28jx: READY
+  - public route /gallery/stourcliff-fitted-wardrobe-shoe-storage: VERIFIED HTTP 200
+- G52 — Stourcliff Bathroom Vanity & Storage
+  - PR #50 merged at 88f8b9bd2f44d090c28655336dcd9ccb080afa68
+  - production deployment dpl_82RTDSQcN6CgGiuuCfJbVbRqLtXT: READY
+  - public route /gallery/stourcliff-bathroom-vanity-storage: VERIFIED HTTP 200
+- G53 — Stourcliff White Handleless Kitchen
+  - PR #51 merged at 6ca7471851838d5beaf4a602f9a5ad86adac7d2c
+  - production deployment dpl_76qec7sLmh6HhktxELMCe6wok6Gu: READY
+  - public route /gallery/stourcliff-white-handleless-kitchen: VERIFIED HTTP 200
+- G54 — Stourcliff Bespoke Radiator Cover
+  - PR #52 merged at 06e8d40bad2a51f6607f64500e32ad3bda00cacd
+  - production deployment dpl_DgXNju8dXcMQh97BarZanTaZC4vC: READY
+  - public route /gallery/stourcliff-bespoke-radiator-cover: VERIFIED HTTP 200
+- G55 — Stourcliff Recessed Display Niche
+  - PR #53 merged at bf98f454bcac16285a59afe64f1fa68c21d77878
+  - production deployment dpl_FSRw1HtkE7FuV9tMJVjiiVjBkqro: READY
+  - public route /gallery/stourcliff-recessed-display-niche: VERIFIED HTTP 200
+- AIDA remaining decisions:
+  - image 45 small vanity/counter detail: HOLD, too weak alone
+  - image 47 hall context: HOLD, not a standalone joinery project
+  - images 17–19 bed/headboard context: HOLD unless stronger standalone joinery evidence is found
+  - images 9–10 remain room context only; not separate gallery items
+- Active Belgravia source:
+  - recent Sep-24 folder: Belgravia project (1Wxw__wVyuD6qL4rywt5MmFjYjBfVcWPL)
+  - WEB Foto folder: 1wq371pFynlOREPe2X1xdNSHFA43G53Pj
+  - HIGH RES folder: 1uPkVUv8HWy1YqVvHQ5PawtUEUB3WCezC
+  - WEB Foto has 42 descriptive review images; HIGH RES has 47 canonical originals
+- G35 review is ACTIVE: Belgravia Kids Room / Home Office Furniture. WEB images 33–42 have been sampled and confirm a coherent kids-room/home-office fitted furniture group.
+- Existing queued Belgravia IDs remain reserved:
   - G35 Kids Room / Home Office Furniture
   - G36 Bathroom Furniture & Antique Mirror
   - G37 Walk-In Wardrobe
   - G38 Dining Room & TV Furniture
   - G39 Master Bedroom Furniture
   - G40 Leather Wardrobe
-- G35 WEB visual grouping confirmed: images 33–37 and 39–42 are one coherent children’s bedroom/study installation; image 38 belongs to G40 leather wardrobe.
-- Next exact action: build WEB-to-HIGH-RES visual mapping for Belgravia once, then activate up to five Belgravia lanes in parallel (G35–G39) with signed HIGH RES source URLs.
+- Next exact work: finish G35 WEB selection, visually map the selected WEB images to HIGH RES originals, then open parallel ingest lanes for G35–G39 where the mapping is unambiguous. G40 remains the fifth lane if the leather-wardrobe set is distinct after visual review.
