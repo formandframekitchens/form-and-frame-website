@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G34 — Fulham Antique Mirror Feature",
+  "slug": "fulham-antique-mirror-feature",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1Qbiz2_gKq4DoIfKVLy_Ag2Enh1_XFSCz",
+      "source_label": "MH0036.jpg",
+      "role": "overall antique mirror feature",
+      "output_stem": "fulham-antique-mirror-overall-view-01"
+    },
+    {
+      "drive_file_id": "1-2QBJCJZg--fCTPimFl-bgVAhdeHgXdW",
+      "source_label": "MH0037.jpg",
+      "role": "mirror wall front view",
+      "output_stem": "fulham-antique-mirror-front-view-02"
+    },
+    {
+      "drive_file_id": "1o7dEn1gu-_tUMS-L9mowbASEsnk-U7KG",
+      "source_label": "MH0038.jpg",
+      "role": "mirror and cabinetry angled view",
+      "output_stem": "fulham-antique-mirror-angled-view-03"
+    },
+    {
+      "drive_file_id": "1F9v2n1TPbjP6aVes-mj3ET_yinGWHHCR",
+      "source_label": "MH0039.jpg",
+      "role": "mirror panel detail",
+      "output_stem": "fulham-antique-mirror-detail-04"
+    },
+    {
+      "drive_file_id": "15t6HlEPtD81x5MoI2CYRCpUVAW5PIhbf",
+      "source_label": "MH0040.jpg",
+      "role": "room context view",
+      "output_stem": "fulham-antique-mirror-context-view-05"
+    }
+  ]
+}
