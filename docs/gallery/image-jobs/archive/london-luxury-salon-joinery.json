@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G46 — London Luxury Salon Joinery",
+  "slug": "london-luxury-salon-joinery",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1VyBR7xL83Gno4c7nqP35jL-IxE1OgX7l",
+      "source_label": "126001",
+      "role": "overall salon interior",
+      "output_stem": "london-luxury-salon-overall-view-01"
+    },
+    {
+      "drive_file_id": "1B3qDR-eTcQussjiozivDyk3riNTdNJbh",
+      "source_label": "354001",
+      "role": "reception and joinery view",
+      "output_stem": "london-luxury-salon-reception-view-02"
+    },
+    {
+      "drive_file_id": "1CPbFQ8rr-NpDB2PG3LHyCRWjarwWsGyi",
+      "source_label": "942001",
+      "role": "wide salon room view",
+      "output_stem": "london-luxury-salon-room-view-03"
+    },
+    {
+      "drive_file_id": "15_4UfzsPI4jX35G5SfVX_ruNcUN8PeC8",
+      "source_label": "1452001",
+      "role": "styling station detail",
+      "output_stem": "london-luxury-salon-station-detail-04"
+    },
+    {
+      "drive_file_id": "1ioQmfPLDLvpn_RIg0pHsguEMNBJtpaGH",
+      "source_label": "1320001",
+      "role": "fitted cabinetry view",
+      "output_stem": "london-luxury-salon-cabinetry-view-05"
+    },
+    {
+      "drive_file_id": "1cUgJNHPrzVsDRO7ixj5xWAGrYWeX9fzD",
+      "source_label": "1590001",
+      "role": "mirror and joinery detail",
+      "output_stem": "london-luxury-salon-mirror-detail-06"
+    },
+    {
+      "drive_file_id": "1q2jdYidzDSJlEhSvcmxjnR2Ia3aAnh7-",
+      "source_label": "732001",
+      "role": "salon context view",
+      "output_stem": "london-luxury-salon-context-view-07"
+    },
+    {
+      "drive_file_id": "1crdZHFLYxs-zBG0gmr4Ns8sEH5hkoH58",
+      "source_label": "1818001",
+      "role": "service and storage joinery",
+      "output_stem": "london-luxury-salon-storage-view-08"
+    },
+    {
+      "drive_file_id": "1SLWp5BgVI-PPJaPGsrHqq2-i2mtiY0VX",
+      "source_label": "1242001",
+      "role": "architectural joinery view",
+      "output_stem": "london-luxury-salon-architectural-view-09"
+    },
+    {
+      "drive_file_id": "1i8hZCK8JzTb811q7pfyHHzn9EaKYO3R_",
+      "source_label": "636001",
+      "role": "material and detail view",
+      "output_stem": "london-luxury-salon-detail-10"
+    }
+  ]
+}
