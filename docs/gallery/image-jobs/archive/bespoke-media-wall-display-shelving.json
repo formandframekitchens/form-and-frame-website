@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G47 — Bespoke Media Wall with Display Shelving",
+  "slug": "bespoke-media-wall-display-shelving",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1sHKkEFStbaezW5RFskvY7wGNBz64IQiq",
+      "source_label": "ARAM {HIGH RES} (1)",
+      "role": "overall media wall view",
+      "output_stem": "bespoke-media-wall-overall-view-01"
+    },
+    {
+      "drive_file_id": "1kVpDa6wuDF91NHOjLRvVVOYq81IMSfKt",
+      "source_label": "ARAM {HIGH RES} (2)",
+      "role": "angled room view",
+      "output_stem": "bespoke-media-wall-angled-view-02"
+    },
+    {
+      "drive_file_id": "1tP6WkF9LqIRmKQvgnANEZVqYtP51a-ZX",
+      "source_label": "ARAM {HIGH RES} (3)",
+      "role": "display shelving context",
+      "output_stem": "bespoke-media-wall-shelving-view-03"
+    },
+    {
+      "drive_file_id": "19hy2yvtTZQK1HwHqjdfc9uB4MAqykF3G",
+      "source_label": "ARAM {HIGH RES} (4)",
+      "role": "illuminated shelving detail",
+      "output_stem": "bespoke-media-wall-shelf-lighting-04"
+    },
+    {
+      "drive_file_id": "1K863D3YoCqqUkEAjjG0odw9wjk2qwjS0",
+      "source_label": "ARAM {HIGH RES} (5)",
+      "role": "media wall side view",
+      "output_stem": "bespoke-media-wall-side-view-05"
+    },
+    {
+      "drive_file_id": "1wdGUxiQzs5knS8unxgC0_p0ao2lXdPae",
+      "source_label": "ARAM {HIGH RES} (6)",
+      "role": "open lower storage detail",
+      "output_stem": "bespoke-media-wall-storage-detail-06"
+    },
+    {
+      "drive_file_id": "1s1ZLvNfqsqt6Ec3AA54_MoHaVqktc6fR",
+      "source_label": "ARAM {HIGH RES} (7)",
+      "role": "shelf edge detail",
+      "output_stem": "bespoke-media-wall-shelf-edge-07"
+    },
+    {
+      "drive_file_id": "1s_th31MqP6Hto1Rx07rZNDRNmFJg2gcH",
+      "source_label": "ARAM {HIGH RES} (8)",
+      "role": "integrated shelf lighting detail",
+      "output_stem": "bespoke-media-wall-lighting-detail-08"
+    },
+    {
+      "drive_file_id": "1S4Gh7DDYLFCr6_NFQqRQuDsyuEUAwip2",
+      "source_label": "ARAM {HIGH RES} (9)",
+      "role": "frame and panel junction detail",
+      "output_stem": "bespoke-media-wall-junction-detail-09"
+    },
+    {
+      "drive_file_id": "1s01ZskGJkUM6Cna3IYSfL2bde8zGs06R",
+      "source_label": "ARAM {HIGH RES} (10)",
+      "role": "front overall media wall view",
+      "output_stem": "bespoke-media-wall-front-view-10"
+    },
+    {
+      "drive_file_id": "1RYnMTJz7K3RDLrLivScac690aCoVo0pf",
+      "source_label": "ARAM {HIGH RES} (11)",
+      "role": "television surround detail",
+      "output_stem": "bespoke-media-wall-tv-surround-11"
+    }
+  ]
+}

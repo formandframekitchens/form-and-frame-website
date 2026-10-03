@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "project": "G47 \u2014 Bespoke Media Wall with Display Shelving",
+  "slug": "bespoke-media-wall-display-shelving",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1sHKkEFStbaezW5RFskvY7wGNBz64IQiq",
+      "source_label": "ARAM {HIGH RES} (1)",
+      "role": "overall media wall view",
+      "original": {
+        "width": 5694,
+        "height": 7884
+      },
+      "webp": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-overall-view-01.webp",
+        "bytes": 197902,
+        "quality": 84,
+        "width": 1444,
+        "height": 2000,
+        "sha256": "fa057db5736c5619f4b146d92b624ab0b87b1fffe29f2d16156e606f5749997b",
+        "git_blob_sha": "250ae34facd9903ab10752735aec0823cef41f3c"
+      },
+      "avif": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-overall-view-01.avif",
+        "bytes": 123881,
+        "quality": 58,
+        "width": 1444,
+        "height": 2000,
+        "sha256": "66dac8ddb5acbefe3f56abded3c40f43079741267ec5619ec103ecd703956a20",
+        "git_blob_sha": "8b74ad0034322f24f941d92cce4754d067588de6"
+      }
+    },
+    {
+      "drive_file_id": "1kVpDa6wuDF91NHOjLRvVVOYq81IMSfKt",
+      "source_label": "ARAM {HIGH RES} (2)",
+      "role": "angled room view",
+      "original": {
+        "width": 5710,
+        "height": 7840
+      },
+      "webp": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-angled-view-02.webp",
+        "bytes": 237230,
+        "quality": 84,
+        "width": 1457,
+        "height": 2000,
+        "sha256": "077365311d4599ea61a6c11c4d526ccf3e2c7abc319e45de6310adf4e5db94a4",
+        "git_blob_sha": "cb7c27e1cefec3dae38d7ff571a4abc3f0baad86"
+      },
+      "avif": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-angled-view-02.avif",
+        "bytes": 149825,
+        "quality": 58,
+        "width": 1457,
+        "height": 2000,
+        "sha256": "ba1c0452b078a96584491f2d969a9aad33b233e716c44ecf96e1694143856a4a",
+        "git_blob_sha": "f4692fb9304d55c77e6b2622c147914be20c3027"
+      }
+    },
+    {
+      "drive_file_id": "1tP6WkF9LqIRmKQvgnANEZVqYtP51a-ZX",
+      "source_label": "ARAM {HIGH RES} (3)",
+      "role": "display shelving context",
+      "original": {
+        "width": 5660,
+        "height": 7464
+      },
+      "webp": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelving-view-03.webp",
+        "bytes": 245350,
+        "quality": 84,
+        "width": 1517,
+        "height": 2000,
+        "sha256": "340b9a465bdc4838237a94b31cd72578b2bc8b3e6298bde66f313439d8c715b2",
+        "git_blob_sha": "d6f9ac138b5b31b4a3a67db497a73d3ae95b5408"
+      },
+      "avif": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelving-view-03.avif",
+        "bytes": 150462,
+        "quality": 58,
+        "width": 1517,
+        "height": 2000,
+        "sha256": "8f1bbd114d92c55ea0f6b55ca6025d171d558cc5c12a8fc4c76be53916d2007e",
+        "git_blob_sha": "29b5e9df5b6ba5a6991fc8f201430aaefa20a77a"
+      }
+    },
+    {
+      "drive_file_id": "19hy2yvtTZQK1HwHqjdfc9uB4MAqykF3G",
+      "source_label": "ARAM {HIGH RES} (4)",
+      "role": "illuminated shelving detail",
+      "original": {
+        "width": 8214,
+        "height": 5792
+      },
+      "webp": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelf-lighting-04.webp",
+        "bytes": 156274,
+        "quality": 84,
+        "width": 2000,
+        "height": 1410,
+        "sha256": "ad90cad2aefcdaea48ac1f09da13066624c1d87c25d32e3e88fca891b3dc114c",
+        "git_blob_sha": "a14662374c7779684dcb9fc73791a647d852eb1c"
+      },
+      "avif": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelf-lighting-04.avif",
+        "bytes": 83088,
+        "quality": 58,
+        "width": 2000,
+        "height": 1410,
+        "sha256": "43d8dd3698da3f389a93691630b400b3efe506d76841912b0f975f2f1ba3faee",
+        "git_blob_sha": "1c451312c966ec36f5b172808ea624591fadca76"
+      }
+    },
+    {
+      "drive_file_id": "1K863D3YoCqqUkEAjjG0odw9wjk2qwjS0",
+      "source_label": "ARAM {HIGH RES} (5)",
+      "role": "media wall side view",
+      "original": {
+        "width": 5600,
+        "height": 8208
+      },
+      "webp": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-side-view-05.webp",
+        "bytes": 194240,
+        "quality": 84,
+        "width": 1365,
+        "height": 2000,
+        "sha256": "08f1fa446332845878fdf885a86770cf39d8f242bea61f4e1216df5ca91d428b",
+        "git_blob_sha": "ed12c4166038ca1dfc886018fd3c576d016e12c9"
+      },
+      "avif": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-side-view-05.avif",
+        "bytes": 115537,
+        "quality": 58,
+        "width": 1365,
+        "height": 2000,
+        "sha256": "95c3a2dce95e6966a26587f263aed8c4368a1db7095bd3e5338a3ba109ab557a",
+        "git_blob_sha": "f72b857e35ba41b49a51b8f9fd7a37e544ec1761"
+      }
+    },
+    {
+      "drive_file_id": "1wdGUxiQzs5knS8unxgC0_p0ao2lXdPae",
+      "source_label": "ARAM {HIGH RES} (6)",
+      "role": "open lower storage detail",
+      "original": {
+        "width": 5170,
+        "height": 8256
+      },
+      "webp": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-storage-detail-06.webp",
+        "bytes": 316186,
+        "quality": 84,
+        "width": 1252,
+        "height": 2000,
+        "sha256": "88fc8eac1785982b878e060103d04e49fc3d5c7a9c2dcd087a45bccd2638179d",
+        "git_blob_sha": "eec51de2ec9f2e32354adab3068255d3d089f800"
+      },
+      "avif": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-storage-detail-06.avif",
+        "bytes": 178492,
+        "quality": 58,
+        "width": 1252,
+        "height": 2000,
+        "sha256": "78b825ebb715ad4d9bc2da43ec10d926f5bc3aede1752b90d24a176c52567750",
+        "git_blob_sha": "30efc4a6928a769a86a974ab421df16f29c81b7b"
+      }
+    },
+    {
+      "drive_file_id": "1s1ZLvNfqsqt6Ec3AA54_MoHaVqktc6fR",
+      "source_label": "ARAM {HIGH RES} (7)",
+      "role": "shelf edge detail",
+      "original": {
+        "width": 7360,
+        "height": 4912
+      },
+      "webp": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelf-edge-07.webp",
+        "bytes": 129456,
+        "quality": 84,
+        "width": 2000,
+        "height": 1335,
+        "sha256": "d4a3584d09e49ae2c8c894c7729a3dcc4428977ee0a5376de89c1ec01af09cc7",
+        "git_blob_sha": "c2a2f27dbdf2e7a26ba231743cca82277b28cd89"
+      },
+      "avif": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelf-edge-07.avif",
+        "bytes": 36531,
+        "quality": 58,
+        "width": 2000,
+        "height": 1335,
+        "sha256": "5baf3215a4760093b96537e823f635d52d087fc3e35d05bfb7b01bda7958d112",
+        "git_blob_sha": "88ddd76c39c2311ba9d787c7bab20fdfbd333cf3"
+      }
+    },
+    {
+      "drive_file_id": "1s_th31MqP6Hto1Rx07rZNDRNmFJg2gcH",
+      "source_label": "ARAM {HIGH RES} (8)",
+      "role": "integrated shelf lighting detail",
+      "original": {
+        "width": 5609,
+        "height": 3928
+      },
+      "webp": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-lighting-detail-08.webp",
+        "bytes": 99956,
+        "quality": 84,
+        "width": 2000,
+        "height": 1401,
+        "sha256": "0f47ce1d30ef493c54bd9f0a09663e462a51a70970195cf8e564c73bf02f5f4a",
+        "git_blob_sha": "5c79744d4efb38a72b244530722826a564203619"
+      },
+      "avif": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-lighting-detail-08.avif",
+        "bytes": 52464,
+        "quality": 58,
+        "width": 2000,
+        "height": 1401,
+        "sha256": "c5a7b6d7f1c165c25a7b16ce442aaf160546f4404690314254362fc70c6bbcaa",
+        "git_blob_sha": "9e2adf9c0b0f7decf0ed9fa26330111c8f3ca6da"
+      }
+    },
+    {
+      "drive_file_id": "1S4Gh7DDYLFCr6_NFQqRQuDsyuEUAwip2",
+      "source_label": "ARAM {HIGH RES} (9)",
+      "role": "frame and panel junction detail",
+      "original": {
+        "width": 5417,
+        "height": 3827
+      },
+      "webp": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-junction-detail-09.webp",
+        "bytes": 115056,
+        "quality": 84,
+        "width": 2000,
+        "height": 1413,
+        "sha256": "99c99e8a45f8a030b607b2d9436c51972d1b58b3c00199c440e29de98f821d09",
+        "git_blob_sha": "95e00ad69deaeb5d446781466e20b18d67e77d4b"
+      },
+      "avif": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-junction-detail-09.avif",
+        "bytes": 56320,
+        "quality": 58,
+        "width": 2000,
+        "height": 1413,
+        "sha256": "0c927dae9eacbdab80b51136414f61593c51ebc7179b94c950222de5a4b2f725",
+        "git_blob_sha": "efbf8643a304ed7c694e09c6eef9e0cf8c769acc"
+      }
+    },
+    {
+      "drive_file_id": "1s01ZskGJkUM6Cna3IYSfL2bde8zGs06R",
+      "source_label": "ARAM {HIGH RES} (10)",
+      "role": "front overall media wall view",
+      "original": {
+        "width": 8376,
+        "height": 5348
+      },
+      "webp": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-front-view-10.webp",
+        "bytes": 158774,
+        "quality": 84,
+        "width": 2000,
+        "height": 1277,
+        "sha256": "a9d78ace0fbe6fd3520e550b51c465dbe6cd086d8621ce5489665383647759c4",
+        "git_blob_sha": "3708722e40f705f3d39b6f0711c2902ebf5ce5de"
+      },
+      "avif": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-front-view-10.avif",
+        "bytes": 101756,
+        "quality": 58,
+        "width": 2000,
+        "height": 1277,
+        "sha256": "b89283367d1210cf865ca22e8160252d8cc3d0adbd1bedce7a56a8dc39630230",
+        "git_blob_sha": "7e5a2616ad3873071c5649f328e3f1f239d67166"
+      }
+    },
+    {
+      "drive_file_id": "1RYnMTJz7K3RDLrLivScac690aCoVo0pf",
+      "source_label": "ARAM {HIGH RES} (11)",
+      "role": "television surround detail",
+      "original": {
+        "width": 4695,
+        "height": 3579
+      },
+      "webp": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-tv-surround-11.webp",
+        "bytes": 129998,
+        "quality": 84,
+        "width": 2000,
+        "height": 1525,
+        "sha256": "6ca9548dfabe5a64aa3d3fbfaff2bc882ac5a08ae299ebb1f667f9480fdbb450",
+        "git_blob_sha": "98d5488a0cf823899009d9660824638bd8aa565f"
+      },
+      "avif": {
+        "path": "public/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-tv-surround-11.avif",
+        "bytes": 74300,
+        "quality": 58,
+        "width": 2000,
+        "height": 1525,
+        "sha256": "91d4b880201ede566a4f324679a70d8408d753fe1d84ddd73ae1dc027238c93c",
+        "git_blob_sha": "601112cfb58ef0eb6fd1c31243f1333049c920c2"
+      }
+    }
+  ]
+}
