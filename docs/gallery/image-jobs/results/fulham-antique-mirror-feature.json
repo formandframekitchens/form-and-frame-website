@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "project": "G34 \u2014 Fulham Antique Mirror Feature",
+  "slug": "fulham-antique-mirror-feature",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1Qbiz2_gKq4DoIfKVLy_Ag2Enh1_XFSCz",
+      "source_label": "MH0036.jpg",
+      "role": "overall antique mirror feature",
+      "original": {
+        "width": 4927,
+        "height": 7384
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-overall-view-01.webp",
+        "bytes": 173644,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "55b44f75c0ab6c9ff2ea7808f562060825d57fc8971143e28f265e33d84d11fe",
+        "git_blob_sha": "20fb4cc9812a4a2cb92c637ffdab63aa8c18cb0e"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-overall-view-01.avif",
+        "bytes": 113051,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "22c8713ab04a56a79d3309e6b7bcdd233a0c272a72e9237c6421353c2611ccf3",
+        "git_blob_sha": "20cef8f81ef21cf914af3a11a34de987179f53f9"
+      }
+    },
+    {
+      "drive_file_id": "1-2QBJCJZg--fCTPimFl-bgVAhdeHgXdW",
+      "source_label": "MH0037.jpg",
+      "role": "mirror wall front view",
+      "original": {
+        "width": 4927,
+        "height": 7384
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-front-view-02.webp",
+        "bytes": 158486,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "201a080cd813ce45b2720060041c4f63ec1a971c756ad37dddfb75d9f75d67c1",
+        "git_blob_sha": "d1b562253b0f09462f81a8c9a1bf76591c5f9122"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-front-view-02.avif",
+        "bytes": 107674,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "3485cdbec2b99c48e4ff7bb2417707e087f20a97acfbe90fc45e4ceea4146142",
+        "git_blob_sha": "e0b840979f9a86f5aee730b7ce71384f240cfe66"
+      }
+    },
+    {
+      "drive_file_id": "1o7dEn1gu-_tUMS-L9mowbASEsnk-U7KG",
+      "source_label": "MH0038.jpg",
+      "role": "mirror and cabinetry angled view",
+      "original": {
+        "width": 4496,
+        "height": 6272
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-angled-view-03.webp",
+        "bytes": 97116,
+        "quality": 84,
+        "width": 1434,
+        "height": 2000,
+        "sha256": "4c1cc880088a56ebb4b6c8ff9eb1e873ebdb9a6c9c1128e7adefa9a3233aa126",
+        "git_blob_sha": "855f1fbf1da00988ba3bf98292871501a998f7b2"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-angled-view-03.avif",
+        "bytes": 60582,
+        "quality": 58,
+        "width": 1434,
+        "height": 2000,
+        "sha256": "b30d5878314c42b6963d546b2d66326a6151ac48813bdccde585ad8b54b80ee5",
+        "git_blob_sha": "ed0b98f25afacb75b6fbd0e8dab35da5c1f35912"
+      }
+    },
+    {
+      "drive_file_id": "1F9v2n1TPbjP6aVes-mj3ET_yinGWHHCR",
+      "source_label": "MH0039.jpg",
+      "role": "mirror panel detail",
+      "original": {
+        "width": 5928,
+        "height": 4847
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-detail-04.webp",
+        "bytes": 155666,
+        "quality": 84,
+        "width": 2000,
+        "height": 1635,
+        "sha256": "007c03b281b07307a4b5eead55fa648749a655d23ab182620c6a7247c66b66ec",
+        "git_blob_sha": "17e8d5d4a032591baf5b130ddc8b65f937b9cbc8"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-detail-04.avif",
+        "bytes": 99594,
+        "quality": 58,
+        "width": 2000,
+        "height": 1635,
+        "sha256": "8248fa2b6a7d599a4f6f588cfa44d72f9d5d2996914f930eb913ee1cbbdf275a",
+        "git_blob_sha": "bd0370bc2057b7e5f31dd59f547281368c5024b3"
+      }
+    },
+    {
+      "drive_file_id": "15t6HlEPtD81x5MoI2CYRCpUVAW5PIhbf",
+      "source_label": "MH0040.jpg",
+      "role": "room context view",
+      "original": {
+        "width": 4912,
+        "height": 6752
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-context-view-05.webp",
+        "bytes": 428592,
+        "quality": 84,
+        "width": 1455,
+        "height": 2000,
+        "sha256": "9870f1e2083e157e2a3aa80bb3473ac4bfd17a9ce87951a0f49ebf3e415dd22b",
+        "git_blob_sha": "bc2db8f9428293bfc90f90c2999fc465fe929e82"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-context-view-05.avif",
+        "bytes": 293800,
+        "quality": 58,
+        "width": 1455,
+        "height": 2000,
+        "sha256": "7e6059aedc2de4ec25d922a0eb8296e7e6e0c92a5b84746a1f6cbcaa683947d2",
+        "git_blob_sha": "b498ccd5df82b47269af37426c0ed84270fc5221"
+      }
+    }
+  ]
+}
