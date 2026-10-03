@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "project": "G50 \u2014 Stourcliff Dressing Table",
+  "slug": "stourcliff-dressing-table",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "19S69sFB7so65OdXFIaYkrdXdaHo3HE3R",
+      "source_label": "UNUM - AIDA {HIGH RES} (20)",
+      "role": "overall dressing table view",
+      "original": {
+        "width": 8350,
+        "height": 5777
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-overall-01.webp",
+        "bytes": 188976,
+        "quality": 84,
+        "width": 2000,
+        "height": 1384,
+        "sha256": "d025655e9af17bcaef8c18d98407bfc8474dde4c1571894c9344cecafdfc9aad",
+        "git_blob_sha": "52561a705b1671838c2c4185238e7a10ae56bfc2"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-overall-01.avif",
+        "bytes": 125191,
+        "quality": 58,
+        "width": 2000,
+        "height": 1384,
+        "sha256": "73338b7be3073ef8b612712549676f6b50d823f537ff2540e875951cbba34d1e",
+        "git_blob_sha": "2c400a37a0e6d847e522c2299fbe9a9f9e6de7f1"
+      }
+    },
+    {
+      "drive_file_id": "1JQxLZYuNSSjkmrPVwnBRcfDna_eF-NvA",
+      "source_label": "UNUM - AIDA {HIGH RES} (21)",
+      "role": "dressing table front view",
+      "original": {
+        "width": 5777,
+        "height": 8666
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-front-02.webp",
+        "bytes": 216452,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "dba27662e2d876e98d2e5c0cd98e551529a98cdb5535cbfb683b7883f14d46f5",
+        "git_blob_sha": "570e58f53debad4f883ec8078c9eefb97d9b53c4"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-front-02.avif",
+        "bytes": 149628,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "df0dfa3d91b4f359bd4affd77bfb8d326f0e2b7aeb98c23c840b4c232c89f728",
+        "git_blob_sha": "1acf18c0dbb0b18b626dc3933691311d4233db12"
+      }
+    },
+    {
+      "drive_file_id": "1r5TrtdlEhSQT_-JHYGx-C2-asUXzg6tL",
+      "source_label": "UNUM - AIDA {HIGH RES} (22)",
+      "role": "dressing table drawer detail",
+      "original": {
+        "width": 5792,
+        "height": 8688
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-detail-03.webp",
+        "bytes": 60672,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "bab93687981d4e1fb831993839d6880ce7ac60d5a2d0c9c310617229cfd7609f",
+        "git_blob_sha": "eee970d8e54cd10a737232cc9fa31db1e1f21d73"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-detail-03.avif",
+        "bytes": 36082,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "6dd05ab63f9f9650018ef85d2a326a582fb396713e458625867f08c3e6bbd25d",
+        "git_blob_sha": "6c9da89ab6fe66331cd51f696b9780e30b2a7cdd"
+      }
+    }
+  ]
+}
