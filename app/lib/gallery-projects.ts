@@ -3278,65 +3278,68 @@ export const galleryProjects: GalleryProject[] = [
   },
   
   {
-    galleryId: "G42",
-    slug: "8-leys-road-kids-room-tv-unit",
-    title: "8 Leys Road Kids Room TV Unit",
+    galleryId: "G43",
+    slug: "8-leys-road-home-office",
+    title: "8 Leys Road Home Office",
     category: "Bespoke Joinery",
-    summary: "A fitted kids-room TV unit combining a central screen, open display shelving and practical lower storage within one wall-to-wall composition.",
-    seoDescription: "8 Leys Road bespoke kids-room TV unit by Form & Frame, with integrated television, open display shelving and fitted lower storage.",
+    summary: "A dark fitted home office with full-height display shelving, lower cabinetry, integrated lighting and refined brass detailing.",
+    seoDescription: "8 Leys Road bespoke home office by Form & Frame, featuring full-height fitted shelving, integrated lighting, lower storage and brass detailing.",
     keywords: [
-          "8 Leys Road kids room TV unit",
-          "bespoke kids room furniture",
-          "fitted TV unit",
-          "kids room storage",
-          "display shelving",
-          "bespoke media unit"
+          "8 Leys Road home office",
+          "bespoke home office",
+          "fitted office shelving",
+          "home office cabinetry",
+          "brass inlay joinery",
+          "bespoke study furniture"
     ],
     highlights: [
-          "Integrated television",
-          "Open display shelving",
-          "Lower fitted storage",
-          "Wall-to-wall composition"
+          "Full-height display shelving",
+          "Integrated shelf lighting",
+          "Lower fitted cabinetry",
+          "Brass hardware and inlay"
     ],
     caseStudy: [
       {
-        heading: "A TV unit designed as fitted kids-room furniture",
+        heading: "A full-height fitted home office",
         body: [
-                  "This 8 Leys Road project integrates the television into a full fitted wall with open display shelving and practical storage below.",
-                  "The arrangement gives toys, books and display objects a defined place while keeping the screen central to the composition."
+                  "This 8 Leys Road home office combines tall open shelving with lower closed cabinetry to create a fitted working and display environment.",
+                  "The dark furniture wraps the wall while integrated lighting gives the open shelves depth and makes the display areas easier to read."
         ],
       },
       {
-        heading: "The demanding part: balancing display and storage",
+        heading: "The demanding part: controlling a large shelving elevation",
         body: [
-                  "Kids-room furniture needs accessible storage without making the elevation feel visually crowded.",
-                  "The design therefore depends on consistent shelf spacing, controlled cabinet lines and an accurate relationship between the television opening and surrounding display sections."
+                  "Tall open shelving makes level changes, vertical lines and shelf spacing highly visible across the full wall.",
+                  "Accurate setting out is therefore important so the display sections, lower cabinet doors and surrounding panels remain aligned."
         ],
       },
       {
-        heading: "Open shelving and practical lower storage",
+        heading: "Lighting, brass and cabinetry details",
         body: [
-                  "The photography shows the open cubbies, central TV area and lower storage zones working together as one unit.",
-                  "Smaller details show how the display openings are finished at close range while preserving the overall grid."
+                  "Closer photographs show the warm shelf lighting, brass hardware and inlay details alongside the darker cabinetry.",
+                  "These elements add definition without interrupting the disciplined overall furniture layout."
         ],
       },
       {
         heading: "The finished result",
         body: [
-                  "The completed unit combines media, display and everyday storage in a single fitted wall.",
-                  "For similar kids-room TV units and fitted storage, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment."
+                  "The completed home office combines storage, display and working functions within one fitted composition.",
+                  "For similar studies and home-office joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment."
         ],
       },
     ],
     cover: {
-      src: "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-overall-01.webp",
-      alt: "8 Leys Road Kids Room TV Unit",
+      src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-overall-01.webp",
+      alt: "8 Leys Road Home Office",
       fit: "contain",
     },
     images: [
-      { src: "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-overall-01.webp", alt: "Overall view of 8 Leys Road kids-room TV unit", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-detail-02.webp", alt: "Kids-room TV unit detail", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-cabinetry-03.webp", alt: "Kids-room fitted cabinetry view", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-overall-01.webp", alt: "Overall view of 8 Leys Road home office", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-cabinetry-02.webp", alt: "Home-office fitted shelving and cabinetry", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-brass-detail-03.webp", alt: "Brass detail in home-office joinery", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-brass-inlay-04.webp", alt: "Brass inlay detail", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-hardware-05.webp", alt: "Home-office brass hardware detail", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-detail-06.webp", alt: "Home-office fitted joinery detail", fit: "contain" },
     ],
   },
 ];

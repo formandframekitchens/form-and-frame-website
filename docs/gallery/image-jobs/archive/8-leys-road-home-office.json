@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G43 — 8 Leys Road Home Office",
+  "slug": "8-leys-road-home-office",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1H85E_9dNkHi__ACHSIIoqkHhwrF2CpNS",
+      "source_label": "h0019.jpg",
+      "role": "overall home office view",
+      "output_stem": "8-leys-home-office-overall-01"
+    },
+    {
+      "drive_file_id": "1vlAX5hElW3jHy4YvwnNxtcP-nXLn0IoJ",
+      "source_label": "h0021.jpg",
+      "role": "home office cabinetry view",
+      "output_stem": "8-leys-home-office-cabinetry-02"
+    },
+    {
+      "drive_file_id": "10jdIV1eIXapy6FhLKxxxKGXhBC2moylG",
+      "source_label": "h0026.jpg",
+      "role": "brass detail",
+      "output_stem": "8-leys-home-office-brass-detail-03"
+    },
+    {
+      "drive_file_id": "1Raw1GoCRv6mp9-IooRHKNgynx8el1CU6",
+      "source_label": "C0054.jpg",
+      "role": "brass inlay detail",
+      "output_stem": "8-leys-home-office-brass-inlay-04"
+    },
+    {
+      "drive_file_id": "1C69AZN_q1soPP10GuTsUQFJQ5n0KHahD",
+      "source_label": "B0007.jpg",
+      "role": "brass hardware detail",
+      "output_stem": "8-leys-home-office-hardware-05"
+    },
+    {
+      "drive_file_id": "1pE3Zww5SflgvqqjBex-2seOZgXzo9TIC",
+      "source_label": "A0007.jpg",
+      "role": "home office joinery detail",
+      "output_stem": "8-leys-home-office-detail-06"
+    }
+  ]
+}

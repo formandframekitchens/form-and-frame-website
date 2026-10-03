@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "project": "G43 \u2014 8 Leys Road Home Office",
+  "slug": "8-leys-road-home-office",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1H85E_9dNkHi__ACHSIIoqkHhwrF2CpNS",
+      "source_label": "h0019.jpg",
+      "role": "overall home office view",
+      "original": {
+        "width": 4911,
+        "height": 6086
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-home-office/8-leys-home-office-overall-01.webp",
+        "bytes": 282974,
+        "quality": 84,
+        "width": 1614,
+        "height": 2000,
+        "sha256": "239c34b8d4ba8b7a76301376e58aa3ff3cd861d4071725cdc214c316f9193a93",
+        "git_blob_sha": "772ef5c5dea2a5e5bbe2bf417772606a36597e58"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-home-office/8-leys-home-office-overall-01.avif",
+        "bytes": 185015,
+        "quality": 58,
+        "width": 1614,
+        "height": 2000,
+        "sha256": "ee27b8cf66187de677722c6b46af174c3f38c7da7a6e3a92a8e406676db92933",
+        "git_blob_sha": "1d703eb9b704bf0031bae1e16f9439ace893a334"
+      }
+    },
+    {
+      "drive_file_id": "1vlAX5hElW3jHy4YvwnNxtcP-nXLn0IoJ",
+      "source_label": "h0021.jpg",
+      "role": "home office cabinetry view",
+      "original": {
+        "width": 7249,
+        "height": 4770
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-home-office/8-leys-home-office-cabinetry-02.webp",
+        "bytes": 257972,
+        "quality": 84,
+        "width": 2000,
+        "height": 1316,
+        "sha256": "4a17d13678153229e34980e63e23c46f5a8df49d59840571ba7b84894f998847",
+        "git_blob_sha": "046694b12958af65bdae23410936ea7269758cc1"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-home-office/8-leys-home-office-cabinetry-02.avif",
+        "bytes": 187032,
+        "quality": 58,
+        "width": 2000,
+        "height": 1316,
+        "sha256": "a5cb0c4135cd815e0ce0762b42d9eb5378f184a8c311fe95f3d23f456e25a295",
+        "git_blob_sha": "d9bef6ffc7b5797766835be9f58eec655407f261"
+      }
+    },
+    {
+      "drive_file_id": "10jdIV1eIXapy6FhLKxxxKGXhBC2moylG",
+      "source_label": "h0026.jpg",
+      "role": "brass detail",
+      "original": {
+        "width": 4917,
+        "height": 6945
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-home-office/8-leys-home-office-brass-detail-03.webp",
+        "bytes": 137802,
+        "quality": 84,
+        "width": 1416,
+        "height": 2000,
+        "sha256": "3d3e1953411f908cb5e7dd969f8a0b9541f30bc8a1e08de83997de3bff4e3428",
+        "git_blob_sha": "8a2317841d22ca6d6ab87853ab99fae434528fbc"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-home-office/8-leys-home-office-brass-detail-03.avif",
+        "bytes": 91474,
+        "quality": 58,
+        "width": 1416,
+        "height": 2000,
+        "sha256": "98e4fc6299cb2200fd6e1a5ccc525f92d32d56f81fd40146f92c7bf8188db64b",
+        "git_blob_sha": "14afd2e518269791decb1d98ac487c62db42cc23"
+      }
+    },
+    {
+      "drive_file_id": "1Raw1GoCRv6mp9-IooRHKNgynx8el1CU6",
+      "source_label": "C0054.jpg",
+      "role": "brass inlay detail",
+      "original": {
+        "width": 4792,
+        "height": 5936
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-home-office/8-leys-home-office-brass-inlay-04.webp",
+        "bytes": 220008,
+        "quality": 84,
+        "width": 1615,
+        "height": 2000,
+        "sha256": "da4631c828a74e856a51f70ef14b9bd0dda46e4986bd25d5708c61b5f698db8c",
+        "git_blob_sha": "e1e45b9d549b3be9f5058c1e3eb72d0220137a22"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-home-office/8-leys-home-office-brass-inlay-04.avif",
+        "bytes": 131075,
+        "quality": 58,
+        "width": 1615,
+        "height": 2000,
+        "sha256": "9e30faa89e986e9d4c4815a072509425ce1710fedc89344f66125b022c707536",
+        "git_blob_sha": "5d3d6e07fe28a5758fb1a4de7fab987fba8f7585"
+      }
+    },
+    {
+      "drive_file_id": "1C69AZN_q1soPP10GuTsUQFJQ5n0KHahD",
+      "source_label": "B0007.jpg",
+      "role": "brass hardware detail",
+      "original": {
+        "width": 4912,
+        "height": 7296
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-home-office/8-leys-home-office-hardware-05.webp",
+        "bytes": 232202,
+        "quality": 84,
+        "width": 1346,
+        "height": 2000,
+        "sha256": "3e9bee275de008569d6389f0d7cf85a97a0cc88afdb75a96b927a62119025a2b",
+        "git_blob_sha": "b94ee383c993dc480bf014f729e2b06a8522e9f1"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-home-office/8-leys-home-office-hardware-05.avif",
+        "bytes": 136505,
+        "quality": 58,
+        "width": 1346,
+        "height": 2000,
+        "sha256": "6f5f81f80d19b32979c4e09cd0eb9afee1b55f7b29ff30a5d163f5e7df03deeb",
+        "git_blob_sha": "01705a462fdf01c98f4eeadcd4df97dbb53a38bd"
+      }
+    },
+    {
+      "drive_file_id": "1pE3Zww5SflgvqqjBex-2seOZgXzo9TIC",
+      "source_label": "A0007.jpg",
+      "role": "home office joinery detail",
+      "original": {
+        "width": 4280,
+        "height": 5704
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-home-office/8-leys-home-office-detail-06.webp",
+        "bytes": 94708,
+        "quality": 84,
+        "width": 1501,
+        "height": 2000,
+        "sha256": "cbce269e2f8ac26580ab4d7a302cf6238ac684873b15e6b69bc2dd31c1d82e6c",
+        "git_blob_sha": "b2d0abcce3d3595d73530a76b4cdaa462e335773"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-home-office/8-leys-home-office-detail-06.avif",
+        "bytes": 55153,
+        "quality": 58,
+        "width": 1501,
+        "height": 2000,
+        "sha256": "f8808d1ae01e947a20638013c4fff45ac782a36b622d0a981364c8480491919d",
+        "git_blob_sha": "92b9b4bd851d146b9c16713894bbc587d4d995d9"
+      }
+    }
+  ]
+}
