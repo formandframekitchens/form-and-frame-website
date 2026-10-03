@@ -2814,6 +2814,66 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/stourcliff-bespoke-radiator-cover/stourcliff-radiator-cover-detail-01.webp", alt: "Radiator cover and integrated window ledge detail", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G55",
+    slug: "stourcliff-recessed-display-niche",
+    title: "Stourcliff Recessed Display Niche",
+    category: "Bespoke Joinery",
+    summary: "A recessed illuminated display niche built into the wall as a compact architectural joinery feature with integrated shelving.",
+    seoDescription: "Stourcliff recessed display niche by Form & Frame, featuring integrated lighting, fitted shelving and a clean built-in architectural detail.",
+    keywords: [
+      "recessed display niche",
+      "illuminated display niche",
+      "bespoke display shelving",
+      "built in display cabinet",
+      "architectural joinery detail",
+      "Stourcliff bespoke joinery",
+    ],
+    highlights: [
+      "Recessed wall integration",
+      "Integrated display lighting",
+      "Fitted display shelving",
+      "Compact architectural joinery feature",
+    ],
+    caseStudy: [
+      {
+        heading: "A compact built-in display feature",
+        body: [
+          "This project is a small but distinct piece of fitted joinery: a recessed display niche integrated directly into the surrounding wall.",
+          "The shelving and lighting are contained within the opening so the feature reads as part of the architecture rather than as freestanding furniture.",
+        ],
+      },
+      {
+        heading: "The demanding part: precise wall integration",
+        body: [
+          "A recessed feature depends on accurate setting out because the outer frame, shelf positions and surrounding wall lines are all visible at once.",
+          "The fitted opening therefore needs controlled margins and clean junctions so the niche remains visually balanced.",
+        ],
+      },
+      {
+        heading: "Display lighting and shelving",
+        body: [
+          "Integrated lighting gives the niche depth and draws attention to the objects placed on the shelves.",
+          "The result is a practical display area that adds interest without projecting into the room.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed niche provides a focused display feature within a compact footprint.",
+          "For similar recessed displays and architectural joinery details, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/stourcliff-recessed-display-niche/stourcliff-recessed-display-niche-01.webp",
+      alt: "Stourcliff recessed illuminated display niche",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/stourcliff-recessed-display-niche/stourcliff-recessed-display-niche-01.webp", alt: "Recessed illuminated display niche with fitted shelving", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
