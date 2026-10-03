@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "project": "G56 \u2014 8 Leys Road Wine Cellar",
+  "slug": "8-leys-road-wine-cellar",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1Jy7Uh-Od2Ymt9GRgSePo9goFx16kFsQf",
+      "source_label": "w0038.jpg",
+      "role": "overall wine cellar view",
+      "original": {
+        "width": 6920,
+        "height": 4899
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-wine-cellar/8-leys-wine-cellar-overall-01.webp",
+        "bytes": 143116,
+        "quality": 84,
+        "width": 2000,
+        "height": 1416,
+        "sha256": "ab1b7c2ec3b8dfa6eaafbe016ada0881042de89df9eefdaa63adfcc17be59fc1",
+        "git_blob_sha": "4265c5dce9054d6900d8cf5e5ce7d7f3b0f60525"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-wine-cellar/8-leys-wine-cellar-overall-01.avif",
+        "bytes": 102417,
+        "quality": 58,
+        "width": 2000,
+        "height": 1416,
+        "sha256": "1d49f2a04263ff3eddcf6a83b40203a122528eed5a0cb2ba337104789b6b6ba3",
+        "git_blob_sha": "0e5504775ce23ccf383e0faf738723b1fe43ad54"
+      }
+    },
+    {
+      "drive_file_id": "1qRwzV49p8QBSJXfA005Hr0V3XKNLcg7N",
+      "source_label": "w0039.jpg",
+      "role": "wine cellar interior view",
+      "original": {
+        "width": 7350,
+        "height": 4908
+      },
+      "webp": {
+        "path": "public/images/gallery/8-leys-road-wine-cellar/8-leys-wine-cellar-interior-02.webp",
+        "bytes": 218318,
+        "quality": 84,
+        "width": 2000,
+        "height": 1336,
+        "sha256": "10f2f9ad6f282d6b82d765240b2d4b55bf38a92e4a2621a9fe13f84b7e6baf5c",
+        "git_blob_sha": "63382ae9c8fcafe313de2e05dd18667cf2ff0a9b"
+      },
+      "avif": {
+        "path": "public/images/gallery/8-leys-road-wine-cellar/8-leys-wine-cellar-interior-02.avif",
+        "bytes": 158368,
+        "quality": 58,
+        "width": 2000,
+        "height": 1336,
+        "sha256": "26e7ca3c9a4d98c71c58fc86a68d4a222ba6f60917334d47a9aede90baa30d25",
+        "git_blob_sha": "9481473710b509260ed2a77795f026370ec7a0bf"
+      }
+    }
+  ]
+}

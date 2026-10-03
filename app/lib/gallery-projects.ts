@@ -3278,6 +3278,199 @@ export const galleryProjects: GalleryProject[] = [
   },
   
   {
+    galleryId: "G41",
+    slug: "8-leys-road-walk-in-wardrobe",
+    title: "8 Leys Road Walk-In Wardrobe",
+    category: "Bespoke Joinery",
+    summary: "A fitted walk-in wardrobe with dark cabinetry, mirrored doors, open storage and refined brass, leather and handle detailing.",
+    seoDescription: "8 Leys Road bespoke walk-in wardrobe by Form & Frame, featuring dark fitted cabinetry, mirrored doors, open storage and brass and leather detailing.",
+    keywords: [
+      "8 Leys Road walk-in wardrobe",
+      "bespoke walk-in wardrobe",
+      "dark fitted wardrobe",
+      "mirrored wardrobe doors",
+      "brass wardrobe handles",
+      "luxury fitted storage",
+    ],
+    highlights: [
+      "Full-height fitted wardrobe",
+      "Mirrored door fronts",
+      "Open illuminated storage",
+      "Brass and leather detailing",
+    ],
+    caseStudy: [
+      {
+        heading: "A fitted walk-in wardrobe with varied storage",
+        body: [
+          "This 8 Leys Road wardrobe combines full-height enclosed storage with open shelving and display sections within one fitted room.",
+          "Mirrored fronts and darker cabinetry create contrast while the open sections keep selected storage accessible and visible.",
+        ],
+      },
+      {
+        heading: "The demanding part: coordinating several finishes",
+        body: [
+          "The furniture brings together dark cabinet surfaces, mirrored fronts, brass hardware and leather-related detailing, so alignment and edge treatment need to remain controlled across different materials.",
+          "Careful setting out is especially important where tall doors, shelving and decorative hardware meet within the same elevation.",
+        ],
+      },
+      {
+        heading: "Brass, leather and handle details",
+        body: [
+          "The close-up photography shows the brass handles and detailed panel treatment alongside the wider wardrobe views.",
+          "These smaller elements give the fitted storage a more furniture-led character without interrupting the overall composition.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed walk-in wardrobe combines concealed storage, open display areas and reflective fronts within a coherent fitted scheme.",
+          "For similar wardrobes and dressing-room joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-overall-01.webp",
+      alt: "8 Leys Road bespoke walk-in wardrobe",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-overall-01.webp", alt: "Overall view of 8 Leys Road walk-in wardrobe", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-interior-02.webp", alt: "Walk-in wardrobe interior storage", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-brass-leather-03.webp", alt: "Brass and leather wardrobe detail", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-brass-detail-04.webp", alt: "Brass wardrobe detail", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-cabinetry-05.webp", alt: "Walk-in wardrobe cabinetry view", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-room-06.webp", alt: "Walk-in wardrobe room view", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-detail-07.webp", alt: "Walk-in wardrobe fitted detail", fit: "contain" },
+    ],
+  },
+  {
+    galleryId: "G42",
+    slug: "8-leys-road-kids-room-tv-unit",
+    title: "8 Leys Road Kids Room TV Unit",
+    category: "Bespoke Joinery",
+    summary: "A fitted kids-room TV unit combining a central screen, open display shelving and practical lower storage within one wall-to-wall composition.",
+    seoDescription: "8 Leys Road bespoke kids-room TV unit by Form & Frame, with integrated television, open display shelving and fitted lower storage.",
+    keywords: [
+          "8 Leys Road kids room TV unit",
+          "bespoke kids room furniture",
+          "fitted TV unit",
+          "kids room storage",
+          "display shelving",
+          "bespoke media unit"
+    ],
+    highlights: [
+          "Integrated television",
+          "Open display shelving",
+          "Lower fitted storage",
+          "Wall-to-wall composition"
+    ],
+    caseStudy: [
+      {
+        heading: "A TV unit designed as fitted kids-room furniture",
+        body: [
+                  "This 8 Leys Road project integrates the television into a full fitted wall with open display shelving and practical storage below.",
+                  "The arrangement gives toys, books and display objects a defined place while keeping the screen central to the composition."
+        ],
+      },
+      {
+        heading: "The demanding part: balancing display and storage",
+        body: [
+                  "Kids-room furniture needs accessible storage without making the elevation feel visually crowded.",
+                  "The design therefore depends on consistent shelf spacing, controlled cabinet lines and an accurate relationship between the television opening and surrounding display sections."
+        ],
+      },
+      {
+        heading: "Open shelving and practical lower storage",
+        body: [
+                  "The photography shows the open cubbies, central TV area and lower storage zones working together as one unit.",
+                  "Smaller details show how the display openings are finished at close range while preserving the overall grid."
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+                  "The completed unit combines media, display and everyday storage in a single fitted wall.",
+                  "For similar kids-room TV units and fitted storage, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment."
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-overall-01.webp",
+      alt: "8 Leys Road Kids Room TV Unit",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-overall-01.webp", alt: "Overall view of 8 Leys Road kids-room TV unit", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-detail-02.webp", alt: "Kids-room TV unit detail", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-cabinetry-03.webp", alt: "Kids-room fitted cabinetry view", fit: "contain" },
+    ],
+  },
+  {
+    galleryId: "G43",
+    slug: "8-leys-road-home-office",
+    title: "8 Leys Road Home Office",
+    category: "Bespoke Joinery",
+    summary: "A dark fitted home office with full-height display shelving, lower cabinetry, integrated lighting and refined brass detailing.",
+    seoDescription: "8 Leys Road bespoke home office by Form & Frame, featuring full-height fitted shelving, integrated lighting, lower storage and brass detailing.",
+    keywords: [
+          "8 Leys Road home office",
+          "bespoke home office",
+          "fitted office shelving",
+          "home office cabinetry",
+          "brass inlay joinery",
+          "bespoke study furniture"
+    ],
+    highlights: [
+          "Full-height display shelving",
+          "Integrated shelf lighting",
+          "Lower fitted cabinetry",
+          "Brass hardware and inlay"
+    ],
+    caseStudy: [
+      {
+        heading: "A full-height fitted home office",
+        body: [
+                  "This 8 Leys Road home office combines tall open shelving with lower closed cabinetry to create a fitted working and display environment.",
+                  "The dark furniture wraps the wall while integrated lighting gives the open shelves depth and makes the display areas easier to read."
+        ],
+      },
+      {
+        heading: "The demanding part: controlling a large shelving elevation",
+        body: [
+                  "Tall open shelving makes level changes, vertical lines and shelf spacing highly visible across the full wall.",
+                  "Accurate setting out is therefore important so the display sections, lower cabinet doors and surrounding panels remain aligned."
+        ],
+      },
+      {
+        heading: "Lighting, brass and cabinetry details",
+        body: [
+                  "Closer photographs show the warm shelf lighting, brass hardware and inlay details alongside the darker cabinetry.",
+                  "These elements add definition without interrupting the disciplined overall furniture layout."
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+                  "The completed home office combines storage, display and working functions within one fitted composition.",
+                  "For similar studies and home-office joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment."
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-overall-01.webp",
+      alt: "8 Leys Road Home Office",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-overall-01.webp", alt: "Overall view of 8 Leys Road home office", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-cabinetry-02.webp", alt: "Home-office fitted shelving and cabinetry", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-brass-detail-03.webp", alt: "Brass detail in home-office joinery", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-brass-inlay-04.webp", alt: "Brass inlay detail", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-hardware-05.webp", alt: "Home-office brass hardware detail", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-detail-06.webp", alt: "Home-office fitted joinery detail", fit: "contain" },
+    ],
+  },
+  {
     galleryId: "G44",
     slug: "8-leys-road-bookcase-leather-brass",
     title: "8 Leys Road Bookcase with Leather & Brass Detail",
@@ -3338,6 +3531,67 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-detail-02.webp", alt: "Bespoke bookcase detail view", fit: "contain" },
       { src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-leather-led-03.webp", alt: "Leather and illuminated shelf detail", fit: "contain" },
       { src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-leather-led-04.webp", alt: "Leather and brass bookcase detail", fit: "contain" },
+    ],
+  },
+  {
+    galleryId: "G56",
+    slug: "8-leys-road-wine-cellar",
+    title: "8 Leys Road Wine Cellar",
+    category: "Bespoke Joinery",
+    summary: "A fitted wine cellar with full-height bottle storage, illuminated shelving, a mirrored central display and integrated under-counter refrigeration.",
+    seoDescription: "8 Leys Road bespoke wine cellar by Form & Frame, with full-height wine storage, illuminated display shelving and integrated refrigeration.",
+    keywords: [
+          "8 Leys Road wine cellar",
+          "bespoke wine cellar",
+          "wine storage joinery",
+          "illuminated wine shelving",
+          "fitted wine room",
+          "bespoke bar cabinetry"
+    ],
+    highlights: [
+          "Full-height wine storage",
+          "Integrated display lighting",
+          "Mirrored central display",
+          "Under-counter refrigeration"
+    ],
+    caseStudy: [
+      {
+        heading: "A fitted wine cellar centred on display and storage",
+        body: [
+                  "This 8 Leys Road wine cellar combines full-height bottle storage with a central illuminated display area and a compact table-and-bar arrangement.",
+                  "The fitted joinery uses the full wall height so wine storage and display remain integrated rather than appearing as separate racks."
+        ],
+      },
+      {
+        heading: "The demanding part: coordinating bottle storage and display",
+        body: [
+                  "Wine storage requires repeated shelf spacing while the central section also needs to accommodate display objects, serving space and refrigeration below.",
+                  "Accurate setting out keeps the bottle racks, illuminated shelves and central mirrored area aligned across the complete elevation."
+        ],
+      },
+      {
+        heading: "Lighting, mirror and refrigeration",
+        body: [
+                  "Integrated lighting emphasises the bottle storage and central shelves, while the reflective backing increases depth through the middle of the room.",
+                  "Under-counter refrigeration is incorporated below the serving area so the functional equipment remains part of the fitted scheme."
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+                  "The completed room combines wine storage, display and serving functions within one fitted interior.",
+                  "For similar wine rooms and specialist storage joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment."
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/8-leys-road-wine-cellar/8-leys-wine-cellar-overall-01.webp",
+      alt: "8 Leys Road Wine Cellar",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/8-leys-road-wine-cellar/8-leys-wine-cellar-overall-01.webp", alt: "Overall view of 8 Leys Road wine cellar", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-wine-cellar/8-leys-wine-cellar-interior-02.webp", alt: "Wine cellar interior with fitted bottle storage", fit: "contain" },
     ],
   },
 ];
