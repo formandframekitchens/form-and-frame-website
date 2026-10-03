@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "project": "G40 \u2014 Belgravia Leather Wardrobe",
+  "slug": "belgravia-leather-wardrobe",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "14r8y1VNK8Ig7JAmaTty5cn7uxlEoilB1",
+      "source_label": "Belgravia HIGH RES IMG_9749 / WEB 29",
+      "role": "leather wardrobe detail",
+      "original": {
+        "width": 5443,
+        "height": 3629
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-leather-wardrobe/belgravia-leather-wardrobe-detail-01.webp",
+        "bytes": 428258,
+        "quality": 76,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "a7899226b4ff82043434f7fb0c9db3fe693543e3b20ca4b49c2490c794f016fb",
+        "git_blob_sha": "734022907b797f03c82613040e3ebf4f10ae0944"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-leather-wardrobe/belgravia-leather-wardrobe-detail-01.avif",
+        "bytes": 311408,
+        "quality": 54,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "71e1af98beacea436bd28b5e8cc2a67f641794a6aeca88b2e14046169034851f",
+        "git_blob_sha": "fa997a89491f99cc3359416defd2ea069d3040ff"
+      }
+    },
+    {
+      "drive_file_id": "1qxCWvnnMlrp4xTZiT4X5SO5G8Hna_g08",
+      "source_label": "Belgravia HIGH RES IMG_9763_2 / WEB 30",
+      "role": "brass handle detail",
+      "original": {
+        "width": 2284,
+        "height": 3426
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-leather-wardrobe/belgravia-leather-wardrobe-brass-handle-02.webp",
+        "bytes": 488964,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "a9b513827d0a87e791165c10b4a460e052066113b1b2f5be3b90b65648f2ddfe",
+        "git_blob_sha": "f11ce22fa1c68f102aac47ab795f7ca587d7c712"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-leather-wardrobe/belgravia-leather-wardrobe-brass-handle-02.avif",
+        "bytes": 277724,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "09cf2dde090e5e497881795c66f919cf9a0c02da90757d2e29cdf480dc5d086a",
+        "git_blob_sha": "8a4b09c9e382c83ac095b9de4243cd5126557f28"
+      }
+    },
+    {
+      "drive_file_id": "1Ctl7C_VHiSBRY586uKwp2kyLAc7KJl_i",
+      "source_label": "Belgravia HIGH RES IMG_9838 / WEB 38",
+      "role": "leather wardrobe panel detail",
+      "original": {
+        "width": 3744,
+        "height": 5616
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-leather-wardrobe/belgravia-leather-wardrobe-panel-detail-03.webp",
+        "bytes": 104232,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "07e0e09d3d7c8d743629ce9653196271bbb44de48eb4808168023df19825261a",
+        "git_blob_sha": "3c7afd7b83b2d83625259b3b26a6eed9840c0f12"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-leather-wardrobe/belgravia-leather-wardrobe-panel-detail-03.avif",
+        "bytes": 32554,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "5ed98a5901295cec6de507c292dbf530c79817e138d4d00b766d0dd03e9a9cac",
+        "git_blob_sha": "157643699480935ab01c0cb6754adef726009793"
+      }
+    }
+  ]
+}
