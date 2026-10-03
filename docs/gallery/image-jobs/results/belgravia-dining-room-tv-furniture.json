@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "project": "G38 \u2014 Belgravia Dining Room & TV Furniture",
+  "slug": "belgravia-dining-room-tv-furniture",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1wciNF32xGOQnuD8q9Qf24h3Yn-nKMyoc",
+      "source_label": "Belgravia HIGH RES IMG_9896_1 / WEB 1",
+      "role": "overall TV and dining room view",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-tv-overall-01.webp",
+        "bytes": 269718,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "ae16706218525e982ba915969fd8e6e86218114d5cb8686fe5dbb68eda6830f6",
+        "git_blob_sha": "285cd05ad49d2f722984988046939e07b20dd86d"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-tv-overall-01.avif",
+        "bytes": 180621,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "e00ce8dbd288f07e3763659b3b437aabe7091074020e689333ef78b57f7da9c3",
+        "git_blob_sha": "d6183b3cd145c2a9f03d6291ce3aadc0085165e9"
+      }
+    },
+    {
+      "drive_file_id": "1rnVWjsIlcgY_Xl44D87fivqAhOm9MTxS",
+      "source_label": "Belgravia HIGH RES IMG_0063_1 / WEB 2",
+      "role": "TV furniture view",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-tv-unit-02.webp",
+        "bytes": 171618,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "0c73e7126abb2449a6f1ddbfb33eb6d1ad75cc27bb5ee9a3dd7aaea5031c215c",
+        "git_blob_sha": "5d31d0de301e96f531512006d48bd840cd3e06b7"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-tv-unit-02.avif",
+        "bytes": 95606,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "4fcf0b64c4fd6ee12ffcf2b17426105cdcc9263111a62cb71d37bb6df0bfc924",
+        "git_blob_sha": "f88757ec3e36f9dc93167892d0164aea1e357823"
+      }
+    },
+    {
+      "drive_file_id": "1qPkB34LlwqJf7_yP3oUuqW8ejhlIt7Zc",
+      "source_label": "Belgravia HIGH RES IMG_9903 / WEB 3",
+      "role": "dining room furniture view",
+      "original": {
+        "width": 5401,
+        "height": 3659
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-furniture-03.webp",
+        "bytes": 239504,
+        "quality": 84,
+        "width": 2000,
+        "height": 1355,
+        "sha256": "9dab5171b88e04c38202388e0b9a78b8b36241688e24c76b6ab754247ae407b2",
+        "git_blob_sha": "499e3f3a0507564eddba5001c1183f3fb2469444"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-furniture-03.avif",
+        "bytes": 136957,
+        "quality": 58,
+        "width": 2000,
+        "height": 1355,
+        "sha256": "f14b4bb7d4de202449e5420de492cc6f65ee219e98aea771c9712b73cd7a6eb4",
+        "git_blob_sha": "a79507d9549f6a1628f236e3bdfd9bef6302261f"
+      }
+    },
+    {
+      "drive_file_id": "1_2vMiYIAel89N2-Qx9wd8tYsECthgNGs",
+      "source_label": "Belgravia HIGH RES IMG_9904_1 / WEB 4",
+      "role": "dining room fitted furniture detail",
+      "original": {
+        "width": 2262,
+        "height": 3401
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-furniture-detail-04.webp",
+        "bytes": 246060,
+        "quality": 84,
+        "width": 1330,
+        "height": 2000,
+        "sha256": "cb31ff12e27f801d1b07a884cb830a6d5a5c83d27001ccd34eb145556e2b4527",
+        "git_blob_sha": "78ef642103cb21694cfacdb5b0b0a0ccb5fef30f"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-furniture-detail-04.avif",
+        "bytes": 152436,
+        "quality": 58,
+        "width": 1330,
+        "height": 2000,
+        "sha256": "d4ecb91a90aef37c926df7a1a0776573c5516b55850a97f9c27f9491f4c04299",
+        "git_blob_sha": "0f7599927bd701caeb09e37591f128bbf66b3254"
+      }
+    },
+    {
+      "drive_file_id": "19EAdjdVpsYBXrv9dKVwjgt5qfqKpEC5p",
+      "source_label": "Belgravia HIGH RES IMG_9900_1 / WEB 5",
+      "role": "dining cabinetry detail",
+      "original": {
+        "width": 3668,
+        "height": 5510
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-cabinetry-05.webp",
+        "bytes": 185144,
+        "quality": 84,
+        "width": 1331,
+        "height": 2000,
+        "sha256": "9c708ace0934b248f00c9de17d8e1d181a08eba753dda4b6450a78107887e941",
+        "git_blob_sha": "36637c8579a9ee511d560200cb62e3cc4ce00d0d"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-cabinetry-05.avif",
+        "bytes": 108910,
+        "quality": 58,
+        "width": 1331,
+        "height": 2000,
+        "sha256": "f203f2baa33e18203ab0704b1b6a62bd3b45cc2f45f626c452aa973f02604fb4",
+        "git_blob_sha": "cdf2c1a2b9e19594d59b56019caf0ef0f4c5b927"
+      }
+    },
+    {
+      "drive_file_id": "1GEWGBOSsfdcjMn1djnWj-V4dYphddkvJ",
+      "source_label": "Belgravia HIGH RES IMG_9899 / WEB 6",
+      "role": "leather and joinery detail",
+      "original": {
+        "width": 3555,
+        "height": 5333
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-leather-detail-06.webp",
+        "bytes": 499280,
+        "quality": 64,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "be25d23d1357ad0f22aa4064a333f42d1cfaf3cf6b6920c87908087e3421d4b3",
+        "git_blob_sha": "231637c03dc88e5ee4c895946a6ffd1ec510fe71"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-leather-detail-06.avif",
+        "bytes": 369819,
+        "quality": 50,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "1bf47cc9897e79ee347bc388182ff01184edd3c2cb398d5919a0ea5edae46c7f",
+        "git_blob_sha": "6be62e03a3ac1b45e0d53610f569ed6fb871d5c6"
+      }
+    },
+    {
+      "drive_file_id": "1iViJdOoC6KgJr8zkjNFRhUbMiIwzfWwv",
+      "source_label": "Belgravia HIGH RES IMG_9906_1 / WEB 7",
+      "role": "dining room furniture detail",
+      "original": {
+        "width": 3744,
+        "height": 5616
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-detail-07.webp",
+        "bytes": 141528,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "5856ea62296b68cc4c39f3c048ca2ee6de275b8c24708d57d6e0d30f2cbe3d99",
+        "git_blob_sha": "f84e35085bfa32b0d3017e745ecc1fb352c7a5ff"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-detail-07.avif",
+        "bytes": 81789,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "1f777ceca2f6f83f9ecafd92be0a447041c91bd292b97d511998b7a09b932005",
+        "git_blob_sha": "db73bede084bfb929c78a9b883fc5349bf0c2503"
+      }
+    }
+  ]
+}
