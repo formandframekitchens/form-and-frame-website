@@ -2492,6 +2492,68 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-detail-05.webp", alt: "Mirrored fitted wardrobe detail", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G50",
+    slug: "stourcliff-dressing-table",
+    title: "Stourcliff Dressing Table",
+    category: "Bespoke Joinery",
+    summary: "A fitted bedroom dressing table with integrated drawer storage, clean horizontal lines and carefully controlled junctions within the surrounding room.",
+    seoDescription: "Stourcliff bespoke dressing table by Form & Frame, with fitted drawer storage, controlled alignment and detailed bedroom joinery installation.",
+    keywords: [
+      "bespoke dressing table",
+      "fitted dressing table",
+      "bedroom drawer storage",
+      "bespoke bedroom joinery",
+      "fitted bedroom furniture",
+      "Stourcliff dressing table",
+    ],
+    highlights: [
+      "Fitted bedroom dressing table",
+      "Integrated drawer storage",
+      "Clean horizontal alignment",
+      "Detailed fitted joinery",
+    ],
+    caseStudy: [
+      {
+        heading: "A fitted dressing table for the bedroom",
+        body: [
+          "This project uses a fitted dressing table to provide a dedicated surface and integrated drawer storage within the bedroom.",
+          "The furniture is kept visually restrained, with the storage contained within a simple fitted composition rather than reading as a separate freestanding piece.",
+        ],
+      },
+      {
+        heading: "The demanding part: drawer and surface alignment",
+        body: [
+          "The clean appearance depends on consistent drawer gaps, straight horizontal lines and accurate setting out across the fitted unit.",
+          "Small discrepancies would be particularly visible across the long front elevation, so final adjustment and controlled junctions are important to the finished result.",
+        ],
+      },
+      {
+        heading: "Practical storage without visual weight",
+        body: [
+          "The drawers provide everyday concealed storage while the upper surface remains open for use as a dressing area.",
+          "The close-up photography shows the relationship between the drawer fronts, surrounding panels and adjoining surfaces.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed piece provides useful bedroom storage while remaining compact and integrated with the room.",
+          "For similar dressing tables and fitted bedroom furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-overall-01.webp",
+      alt: "Stourcliff fitted bespoke dressing table",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-overall-01.webp", alt: "Overall view of fitted dressing table", fit: "contain" },
+      { src: "/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-front-02.webp", alt: "Front view of bespoke dressing table", fit: "contain" },
+      { src: "/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-detail-03.webp", alt: "Dressing table drawer and joinery detail", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
