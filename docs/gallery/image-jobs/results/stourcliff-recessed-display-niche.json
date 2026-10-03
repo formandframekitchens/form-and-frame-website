@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "project": "G55 \u2014 Stourcliff Recessed Display Niche",
+  "slug": "stourcliff-recessed-display-niche",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "19k0NFlv4jHVCxlVMc93oAwq-DAj7bspR",
+      "source_label": "UNUM - AIDA {HIGH RES} (46)",
+      "role": "recessed illuminated display niche",
+      "original": {
+        "width": 5050,
+        "height": 7951
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-recessed-display-niche/stourcliff-recessed-display-niche-01.webp",
+        "bytes": 431098,
+        "quality": 80,
+        "width": 1270,
+        "height": 2000,
+        "sha256": "753aedbd544d22965adb59608c0879e5e2fa7d49964ab5d2eeadf2eecd8c4f51",
+        "git_blob_sha": "54d03b330e51bdaee0b7fef61c0beab5b4ff5678"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-recessed-display-niche/stourcliff-recessed-display-niche-01.avif",
+        "bytes": 364332,
+        "quality": 58,
+        "width": 1270,
+        "height": 2000,
+        "sha256": "de2344eb4e06dacc4c113c89bbde3c7cbdbddc07643d08392e85ae4d90858683",
+        "git_blob_sha": "1526876adbb22b6a930a1d49ef30819e86241ff1"
+      }
+    }
+  ]
+}
