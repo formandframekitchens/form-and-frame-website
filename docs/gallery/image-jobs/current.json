@@ -1,5 +1,98 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "stourcliff-bespoke-media-wall"
+  "enabled": true,
+  "project": "G53 — Stourcliff White Handleless Kitchen",
+  "slug": "stourcliff-white-handleless-kitchen",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1y2aA7C4k5O3aLFJNR_3b-4JKFVTlh-3b",
+      "source_label": "UNUM - AIDA {HIGH RES} (33)",
+      "role": "overall kitchen view",
+      "output_stem": "stourcliff-white-kitchen-overall-01",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-7e04-81f4-9e34-1f49a3876213/raw?se=2026-10-03T09%3A08%3A26Z&sp=r&sv=2026-02-06&sr=b&scid=50b471a0-a3a3-52b0-b8dc-cc8efa341e09&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A49%3A37Z&ske=2026-10-04T05%3A49%3A37Z&sks=b&skv=2026-02-06&sig=///f9hL/5rkZQcZv3BnEuU5bwkB3mrTBNwZmk%2BnyZ1Q%3D"
+    },
+    {
+      "drive_file_id": "1YC4AjLci7z7Ms5dmylvjXJKYrSvlc2RS",
+      "source_label": "UNUM - AIDA {HIGH RES} (34)",
+      "role": "kitchen room view",
+      "output_stem": "stourcliff-white-kitchen-room-view-02",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-e870-81f4-91fc-de987b4f22ab/raw?se=2026-10-03T09%3A08%3A25Z&sp=r&sv=2026-02-06&sr=b&scid=36f3cea8-586e-5d22-87b1-4b2ac6876c81&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A50%3A35Z&ske=2026-10-04T05%3A50%3A35Z&sks=b&skv=2026-02-06&sig=MKRPHIDhJHryLQPRm8b9qHNbDnwjA%2BUXVXmGy1Paw3w%3D"
+    },
+    {
+      "drive_file_id": "1C4_U-uQnnc6Ia64ScsJ2GrfpU_Oe5j-H",
+      "source_label": "UNUM - AIDA {HIGH RES} (35)",
+      "role": "kitchen cabinetry view",
+      "output_stem": "stourcliff-white-kitchen-cabinetry-03",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-b1ec-8210-93ee-2e12b43f16bb/raw?se=2026-10-03T09%3A08%3A25Z&sp=r&sv=2026-02-06&sr=b&scid=1c539b76-9ed5-507c-86be-4b0fc83e931f&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A03%3A10Z&ske=2026-10-04T06%3A03%3A10Z&sks=b&skv=2026-02-06&sig=OyLESnHJGbRNahznHeH6JVXrWp%2B7REkO/nossl5P0CI%3D"
+    },
+    {
+      "drive_file_id": "1NHI5QMhrLPbedldphw3U0bjGyAurtMD5",
+      "source_label": "UNUM - AIDA {HIGH RES} (36)",
+      "role": "kitchen worktop and cabinetry view",
+      "output_stem": "stourcliff-white-kitchen-worktop-04",
+      "source_url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-5fb8-8243-8f7b-d40d38f8d677/raw?se=2026-10-03T09%3A08%3A26Z&sp=r&sv=2026-02-06&sr=b&scid=7eb98782-0715-5ca3-ab62-24f80bb25b4a&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A05%3A00Z&ske=2026-10-04T08%3A05%3A00Z&sks=b&skv=2026-02-06&sig=ww8yLqKKdy/qBwXKA6%2BKyHU0DHuBj04DeHi1GZrS9Ag%3D"
+    },
+    {
+      "drive_file_id": "1FD9TjK2ondsign9FdxJRLzvxrzWFaeJy",
+      "source_label": "UNUM - AIDA {HIGH RES} (37)",
+      "role": "kitchen detail view",
+      "output_stem": "stourcliff-white-kitchen-detail-05",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-b69c-8210-a955-407d92df0941/raw?se=2026-10-03T09%3A08%3A25Z&sp=r&sv=2026-02-06&sr=b&scid=f23d1524-40aa-5856-87a2-cdd57154b801&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T18%3A59%3A35Z&ske=2026-10-03T18%3A59%3A35Z&sks=b&skv=2026-02-06&sig=fJC3vDGKkXCGTKRN8cOIBh9OlFID13eSSxJaEzNFqA0%3D"
+    },
+    {
+      "drive_file_id": "1gL1ORX00ZyK1-svi2UeYe_r8ptmQfzyZ",
+      "source_label": "UNUM - AIDA {HIGH RES} (38)",
+      "role": "kitchen cabinet alignment detail",
+      "output_stem": "stourcliff-white-kitchen-alignment-06",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-7184-8210-a5f5-91859e434d25/raw?se=2026-10-03T09%3A08%3A27Z&sp=r&sv=2026-02-06&sr=b&scid=86def143-192f-5e6a-9a54-5845ab53145d&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A46%3A56Z&ske=2026-10-04T08%3A46%3A56Z&sks=b&skv=2026-02-06&sig=m2Ulb8fjeaOEAs6KIxEhCGNSdSz4/vdumWyW/QZf3vo%3D"
+    },
+    {
+      "drive_file_id": "1M2TgyZODh77WIoO1wqZhbRcccKVLAFN-",
+      "source_label": "UNUM - AIDA {HIGH RES} (39)",
+      "role": "kitchen appliance and cabinetry view",
+      "output_stem": "stourcliff-white-kitchen-appliance-view-07",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-b40c-81f4-8754-e5f76a6b50a0/raw?se=2026-10-03T09%3A08%3A40Z&sp=r&sv=2026-02-06&sr=b&scid=7bc28479-2c73-5f4c-9a2a-5bddffff5eb0&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A04%3A02Z&ske=2026-10-04T08%3A04%3A02Z&sks=b&skv=2026-02-06&sig=uZT2g2SpAT9xL6hVSldWsS4tuJXGhRDEAZlH00ste/0%3D"
+    },
+    {
+      "drive_file_id": "1j--k0k5_OnZ32AbfjO1uOGWfa7Qy0eKT",
+      "source_label": "UNUM - AIDA {HIGH RES} (40)",
+      "role": "kitchen counter detail",
+      "output_stem": "stourcliff-white-kitchen-counter-detail-08",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-2c5c-8210-ad93-e7fd4ab5efc8/raw?se=2026-10-03T09%3A08%3A39Z&sp=r&sv=2026-02-06&sr=b&scid=c682e34f-6ea0-58ff-9164-590b87a96362&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T07%3A45%3A02Z&ske=2026-10-04T07%3A45%3A02Z&sks=b&skv=2026-02-06&sig=yJ4OqQb214TTXbfcK1T%2BSQK/LH2HAoG37UOSS3apAuw%3D"
+    },
+    {
+      "drive_file_id": "1ugAZpMXHhvzu931PK-pt240bJd5YRvej",
+      "source_label": "UNUM - AIDA {HIGH RES} (41)",
+      "role": "kitchen fitted unit detail",
+      "output_stem": "stourcliff-white-kitchen-fitted-detail-09",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-6194-81f4-93cf-5235c8450874/raw?se=2026-10-03T09%3A08%3A40Z&sp=r&sv=2026-02-06&sr=b&scid=dabc0af9-ecc7-5bbb-858b-884e6c6c9706&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T07%3A45%3A04Z&ske=2026-10-04T07%3A45%3A04Z&sks=b&skv=2026-02-06&sig=Sfljl2iECGaMJiyYPU8G/JCwKsq3BFRia9Kdit9YR7U%3D"
+    },
+    {
+      "drive_file_id": "19MYGUPepZ67tHVYGWY1HMqApuKQhuXnw",
+      "source_label": "UNUM - AIDA {HIGH RES} (42)",
+      "role": "kitchen detail",
+      "output_stem": "stourcliff-white-kitchen-detail-10",
+      "source_url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-1904-8243-85b4-0344ffa4e957/raw?se=2026-10-03T09%3A08%3A39Z&sp=r&sv=2026-02-06&sr=b&scid=9b2e4add-04f3-50a8-a07a-e56152183794&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A57%3A15Z&ske=2026-10-04T06%3A57%3A15Z&sks=b&skv=2026-02-06&sig=igLCC%2BPGOc4DxLyvEknRrp4SV3/uA3rWAk2rswSKSI0%3D"
+    },
+    {
+      "drive_file_id": "1BBpASYGaabcwD9HXWH81f2zdTDPMIlIi",
+      "source_label": "UNUM - AIDA {HIGH RES} (43)",
+      "role": "kitchen detail",
+      "output_stem": "stourcliff-white-kitchen-detail-11",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-1138-8210-ab32-c127b49768d6/raw?se=2026-10-03T09%3A08%3A39Z&sp=r&sv=2026-02-06&sr=b&scid=b84347b7-def9-5108-8825-34faa9e59b57&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A58%3A13Z&ske=2026-10-04T06%3A58%3A13Z&sks=b&skv=2026-02-06&sig=oxxLHf/IVSJ4EHiRhi4o617zdhnhRPikY4zIyRzZX7Q%3D"
+    },
+    {
+      "drive_file_id": "1_RM_gvYbUqbP5lpt5y097EYoD3lCr71Q",
+      "source_label": "UNUM - AIDA {HIGH RES} (44)",
+      "role": "kitchen final detail",
+      "output_stem": "stourcliff-white-kitchen-detail-12",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-7278-81f4-938a-b99411e52c12/raw?se=2026-10-03T09%3A08%3A45Z&sp=r&sv=2026-02-06&sr=b&scid=ee702d66-c024-5235-9e25-9549c5fb4dbe&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A58%3A13Z&ske=2026-10-04T06%3A58%3A13Z&sks=b&skv=2026-02-06&sig=BRSTjhoggG9sRqIFTE/LwBZL3qrvpYBgMGsjaW3xo7M%3D"
+    }
+  ]
 }
