@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "project": "G39 \u2014 Belgravia Master Bedroom Furniture",
+  "slug": "belgravia-master-bedroom-furniture",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1eV7JwsB_fw-4NJCkaInILMgtSHewxeHr",
+      "source_label": "Belgravia HIGH RES IMG_0015_2 / WEB 8",
+      "role": "master bedroom furniture overall view",
+      "original": {
+        "width": 2894,
+        "height": 4335
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-overall-01.webp",
+        "bytes": 231620,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "51a97919a26612873cc098eaa758b6f1b3786244e4f6bbbc16d3b94b1a518d32",
+        "git_blob_sha": "cbd3295b7fe21e79ffc59573f82cf7d53f528cfe"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-overall-01.avif",
+        "bytes": 129642,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "83591f51454644ae9c4621543301fed45ae8caae2e8305608523e3a14173260f",
+        "git_blob_sha": "70ef8b0925a58ec7e25457ffbdca80fc38820b25"
+      }
+    },
+    {
+      "drive_file_id": "1r5FVS7lZ2JjRg7thaN5LBxq1gWtvTjL7",
+      "source_label": "Belgravia HIGH RES IMG_0021_1 / WEB 9",
+      "role": "master bedroom furniture view",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-view-02.webp",
+        "bytes": 186440,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "0d6b76e5d7fbd5bbef11a503b1b82f1e861e874eb41b651cac9ece7392bad541",
+        "git_blob_sha": "d711a2c8f6fdabc9f86464e19767b01285905305"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-view-02.avif",
+        "bytes": 102980,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "419ba26fa18b4a07263fc16e45b77e67bbbe37b51fea110a777ad74a25a9da58",
+        "git_blob_sha": "4ef7a3065368a1586ea2bd440c58bc70086cef40"
+      }
+    },
+    {
+      "drive_file_id": "1evD6HAqX0HE6qRNzdVutbcPfIlqz8llI",
+      "source_label": "Belgravia HIGH RES IMG_0033_1 / WEB 10",
+      "role": "make-up table view",
+      "original": {
+        "width": 2941,
+        "height": 4411
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-makeup-table-03.webp",
+        "bytes": 299790,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "4987933cbe8d6ffa4a45bb55e006b5e5855f930f92b75400e50a69a545cb683c",
+        "git_blob_sha": "c2b9ce9ab774145c1e1945c9d665a6d060fb2616"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-makeup-table-03.avif",
+        "bytes": 146138,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "309a2430352f5e21d798211a6149070a6a59c69d25bad5ff67e112e3e37b2718",
+        "git_blob_sha": "1427f451ae6d7c561f949c6194a35de9eaea3aeb"
+      }
+    },
+    {
+      "drive_file_id": "1Um2PaSplMqPqY5FihdoemLuK856E8VxA",
+      "source_label": "Belgravia HIGH RES IMG_0034_1 / WEB 11",
+      "role": "bedside table view",
+      "original": {
+        "width": 3744,
+        "height": 5616
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-bedside-04.webp",
+        "bytes": 231200,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "8a23f6ef83d4db02b2e2d13d2b4f816c82df346b0698d083400d26ddd0517f09",
+        "git_blob_sha": "c899067792e98da7bd97117fc246418dc2dd2803"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-bedside-04.avif",
+        "bytes": 126174,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "5fd08adc1045a429b5df2863868058395dfc9a77df5e82718ed0e0e13e946329",
+        "git_blob_sha": "ef178eeb9887ddd15294223071cdca1188ba3442"
+      }
+    },
+    {
+      "drive_file_id": "1hEwTE5cukM_a3xs0cIkm6H_dwEl6kHxB",
+      "source_label": "Belgravia HIGH RES IMG_0046_1 / WEB 12",
+      "role": "TV unit and bedroom furniture view",
+      "original": {
+        "width": 5190,
+        "height": 3518
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-tv-unit-05.webp",
+        "bytes": 168704,
+        "quality": 84,
+        "width": 2000,
+        "height": 1356,
+        "sha256": "369a746101ef6e2a7b427267a7a20968e34b329d19a7ef5ed5ee64fe374e4160",
+        "git_blob_sha": "5e7aa0c4b86f97140cf66320c1653ec5a835cc56"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-tv-unit-05.avif",
+        "bytes": 104439,
+        "quality": 58,
+        "width": 2000,
+        "height": 1356,
+        "sha256": "fe5766b4d1a4338d17d8e18cc0e13a8a4e34a0925dfd84e775f6da28c8bf20ca",
+        "git_blob_sha": "82a9443f65d651d198e8a550938872997e1906e8"
+      }
+    },
+    {
+      "drive_file_id": "1H7vJ6gxfeFB-tto5PkJjJQRxUmjfjURK",
+      "source_label": "Belgravia HIGH RES IMG_9993 / WEB 13",
+      "role": "bedroom furniture detail",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-detail-06.webp",
+        "bytes": 188954,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "8d22157a525c264391e8e97c2a17de833fc353c23b62a3c578e5a4d44fa644ad",
+        "git_blob_sha": "76872b56793efd147487f1424ebd04164fa23ba5"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-detail-06.avif",
+        "bytes": 110487,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "bfe9c345f1d513f0aaf857ca64f654f0236994d294aa3c75efc44b50b4330a52",
+        "git_blob_sha": "4080b16b009c68aade6103a3be85023994e03f28"
+      }
+    },
+    {
+      "drive_file_id": "15jGtRnR0kK-lZoI9BWNLbODfQ6Cr_zc1",
+      "source_label": "Belgravia HIGH RES IMG_9995_2 / WEB 14",
+      "role": "master bedroom furniture detail",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-detail-07.webp",
+        "bytes": 254118,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "1d35e0c3683887d95b51f74e8d7303b709ac4d1ef37d9c12674e6c13e19515b6",
+        "git_blob_sha": "23774cb3fbc12f6dad26c3fba4bc4f4ba1dac015"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-detail-07.avif",
+        "bytes": 135608,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "a9e9632490eb9d6979b4898ad3764de8114fbcbf53d8113b3d53f9bcd1b227fa",
+        "git_blob_sha": "f3b7dce1c921a3ce4a14cacefddee7ced67059bf"
+      }
+    }
+  ]
+}
