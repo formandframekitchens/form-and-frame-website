@@ -94,8 +94,8 @@ When a lane fuse fires:
 | G47 | Bespoke Media Wall with Display Shelving | LIVE | Aram high res images 1–11; ingest, asset verification, preview and production verification passed; PR #44 merged |
 | G48 | Stourcliff Bespoke Media Wall | LIVE | AIDA high res images 1, 2, 4, 5, 6, 7; ingest, SHA verification, preview, merge and production route verification passed |
 | G49 | Stourcliff Mirrored Wardrobes | LIVE | AIDA high res images 12–16; 10/10 assets verified; preview and production routes verified; PR #46 merged |
-| G50 | Stourcliff Dressing Table | PREVIEW BUILDING | AIDA high res images 20–22; 6/6 assets verified; case study committed |
-| G51 | Stourcliff Fitted Wardrobe & Shoe Storage | ASSETS VERIFIED / WAITING INTEGRATION | AIDA high res images 23–27; 10/10 assets verified |
+| G50 | Stourcliff Dressing Table | LIVE | AIDA high res images 20–22; 6/6 assets verified; preview and production routes verified; PR #47 merged |
+| G51 | Stourcliff Fitted Wardrobe & Shoe Storage | PR OPEN / PREVIEW VERIFIED | AIDA high res images 23–27; 10/10 assets verified; preview route HTTP 200; PR #48 open |
 | G52 | Stourcliff Bathroom Vanity & Storage | ASSETS VERIFIED / WAITING INTEGRATION | AIDA high res images 28–32; 10/10 assets verified |
 | G53 | Stourcliff White Handleless Kitchen | ASSETS VERIFIED / WAITING INTEGRATION | AIDA high res images 33–44; 24/24 assets verified |
 
@@ -111,30 +111,24 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 ## Resume pointer
 - Gallery Batch Workflow v2 is active and is the permanent operating rule.
-- Last live gallery: G49 — Stourcliff Mirrored Wardrobes
-- G49 branch: g49-stourcliff-mirrored-wardrobes
-- G49 PR #46 merged at dbf99e53544ff71907753a303d02cc06d1a493b2
-- G49 production deployment dpl_7bk4CgqUTrfuaDtfiC5RMNWHm47d: READY
-- G49 public route /gallery/stourcliff-mirrored-wardrobes: VERIFIED HTTP 200
-- Active lane G50 — Stourcliff Dressing Table
-  - branch: g50-stourcliff-dressing-table
-  - ingest SUCCESS; 6/6 assets verified
-  - reconciled onto G49 master state
-  - case-study commit: f125b2b8b110194c0acf5dd3bf688f7efbdfd857
-  - preview deployment: 5s2NFkp52sUtnrZ4GgFbCa3Rd67j
-  - first preview check: PENDING
+- Last live gallery: G50 — Stourcliff Dressing Table
+- G50 PR #47 merged at 9279eb6ad7039e561a81bf037deb10da834444d9
+- G50 production deployment dpl_HSgdgETBdiqXqdCcARNCEiRJKK1K: READY
+- G50 public route /gallery/stourcliff-dressing-table: VERIFIED HTTP 200
 - Active lane G51 — Stourcliff Fitted Wardrobe & Shoe Storage
   - branch: g51-stourcliff-wardrobe-shoe-storage
   - ingest SUCCESS; 10/10 assets verified
-  - asset reconciliation entries prepared; wait for G50 integration before case-study integration
+  - reconciled onto G50 master state
+  - case-study commit: 47dd68f131bbe744e82888ca509848bf812fc85a
+  - preview deployment dpl_yUaMv23DtGLWCjB3V3PSPFjZLy3w: READY
+  - preview route /gallery/stourcliff-fitted-wardrobe-shoe-storage: VERIFIED HTTP 200
+  - PR #48 open; initial mergeability calculation pending
 - Active lane G52 — Stourcliff Bathroom Vanity & Storage
   - branch: g52-stourcliff-bathroom-vanity-storage
   - ingest SUCCESS; 10/10 assets verified
-  - waiting serialized integration after G51
+  - reconciliation blobs prepared
 - Active lane G53 — Stourcliff White Handleless Kitchen
   - branch: g53-stourcliff-white-handleless-kitchen
-  - ingest run 37111829965: SUCCESS
-  - ingest head: 9de5cd51cb5d99554eb4220d635623f8cbb700b7
-  - 24/24 assets verified
-  - waiting serialized integration after G52
-- Next action: after productive work, one fresh G50 preview check. If READY, verify route -> PR -> merge -> production verify -> LIVE, then reconcile G51 onto latest master.
+  - ingest SUCCESS; 24/24 assets verified
+  - reconciliation blobs prepared
+- Next integration order: G51 -> G52 -> G53.
