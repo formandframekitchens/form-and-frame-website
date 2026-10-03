@@ -4,6 +4,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/gallery/belgravia-leather-wardrobe",
+        destination: "/gallery/belgravia-kids-room-home-office-furniture",
+        permanent: true,
+      },
+      {
         source: "/gallery/8-leys-road-walk-in-wardrobe",
         destination: "/gallery/esher-luxury-residence-walk-in-wardrobe",
         permanent: true,

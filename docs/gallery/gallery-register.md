@@ -8,7 +8,7 @@ Rules:
 - Only strong completed-project photography is promoted into the main gallery.
 - Weaker projects remain at the bottom or on HOLD.
 - Every new gallery follows the same lane sequence: source review -> item split -> image selection -> HIGH RES mapping -> ingest/optimisation -> Git blob SHA verification -> SEO/case study -> Vercel preview -> route verification -> PR -> merge -> production verification -> LIVE.
-- Do not reuse a G-number.
+- Do not reuse a G-number unless the owner explicitly clears it for reassignment. G40 is the current explicit exception.
 - Current review order is ascending by stable G-number. G-numbers never change when display order changes.
 
 ## Gallery Cover & Grouping Rule — permanent
@@ -19,7 +19,7 @@ Rules:
 - Do not use a side view, close-up, hardware/material detail, single component, doorway crop, or partial furniture view as the first image when a fuller composition exists.
 - For paired/symmetrical fitted furniture such as alcove units, the first image should show the complete pair whenever a suitable source image exists.
 - If no honest full-scale source photograph exists, do not substitute an image from another project. Record the project as a source-quality exception until a suitable photograph is found.
-- Current source-quality exception: G40 Belgravia Leather Wardrobe. The source set contains only close-up leather/brass detail photography; no full wardrobe view is available in the Belgravia HIGH RES set or Drive search.
+- G40 owner override: the former Belgravia Leather Wardrobe is merged into G35. Its three leather/brass detail images now live inside G35. G40 is cleared for reassignment to a future distinct project.
 
 ## Gallery Batch Workflow v2 — permanent operating rule
 - Maintain up to FIVE active gallery lanes at once when the work is independent.
@@ -89,12 +89,12 @@ When a lane fuse fires:
 | G32 | Fulham Alcove Units | LIVE | Clean HIGH RES MH0016–MH0018; duplicate/logo preflight passed; Drive ingest and SHA verification passed |
 | G33 | Fulham Juice Bar Joinery | LIVE | Clean HIGH RES 7-image set; watermarked web copies and adjacent media-wall project excluded; Drive ingest and SHA verification passed |
 | G34 | Fulham Antique Mirror Feature | LIVE | Clean HIGH RES MH0036–MH0040; duplicate/logo preflight passed; Drive ingest and SHA verification passed; preview verified |
-| G35 | Belgravia Kids Room / Home Office Furniture | LIVE | 14 mapped HIGH RES originals; 28/28 generated assets verified; PR #54 merged; preview and production routes verified |
+| G35 | Belgravia Kids Room / Home Office Furniture | LIVE | G35 includes former G40 leather-wardrobe detail images;  14 mapped HIGH RES originals; 28/28 generated assets verified; PR #54 merged; preview and production routes verified |
 | G36 | Belgravia Bathroom Furniture & Antique Mirror | LIVE | 5 mapped HIGH RES originals; 10/10 generated assets verified; PR #55 merged; preview and production routes verified |
 | G37 | Belgravia Walk-In Wardrobe | LIVE | 6 mapped HIGH RES originals; 12/12 generated assets verified; PR #56 merged; preview and production routes verified |
 | G38 | Belgravia Dining Room & TV Furniture | LIVE | 7 mapped HIGH RES originals; 14/14 generated assets verified; PR #57 merged; preview and production routes verified |
 | G39 | Belgravia Master Bedroom Furniture | LIVE | 7 mapped HIGH RES originals; 14/14 generated assets verified; PR #58 merged; preview and production routes verified |
-| G40 | Belgravia Leather Wardrobe | LIVE | 3 mapped HIGH RES originals; 6/6 generated assets verified; PR #59 merged; preview and production routes verified |
+| G40 | CLEARED FOR REASSIGNMENT | MERGED INTO G35 / RESERVED EMPTY | Former Belgravia Leather Wardrobe merged into G35 by owner instruction; old URL redirects to G35; G40 may be assigned to a new distinct project |
 | G41 | Esher Luxury Residence — Walk-In Wardrobe | LIVE | 7 mapped HIGH RES originals; 14/14 generated assets verified; PR #60 merged; gallery record restored by PR #64 integrity repair; final production route verified |
 | G42 | Esher Luxury Residence — Kids Room TV Unit | LIVE | 3 mapped HIGH RES originals; 6/6 generated assets verified; PR #61 merged; gallery record restored by PR #64 integrity repair; final production route verified |
 | G43 | Esher Luxury Residence — Home Office | LIVE | 6 mapped HIGH RES originals; 12/12 generated assets verified; PR #62 merged; gallery record restored by PR #64 integrity repair; final production route verified |
