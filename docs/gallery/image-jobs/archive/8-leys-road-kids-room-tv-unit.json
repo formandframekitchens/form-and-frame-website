@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G42 — 8 Leys Road Kids Room TV Unit",
+  "slug": "8-leys-road-kids-room-tv-unit",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1WdWqC8OGm7iA1jfLj5w-y35J7KhiInWm",
+      "source_label": "z0028.jpg",
+      "role": "overall kids room TV unit view",
+      "output_stem": "8-leys-kids-room-tv-unit-overall-01"
+    },
+    {
+      "drive_file_id": "1sFq4xU1WU4vOMIbJbONrtx21XIn2Azld",
+      "source_label": "z0032.jpg",
+      "role": "kids room TV unit detail",
+      "output_stem": "8-leys-kids-room-tv-unit-detail-02"
+    },
+    {
+      "drive_file_id": "1bGJnk69vxj99bgaZy5iQ5qdpFVSQjB8K",
+      "source_label": "z0031.jpg",
+      "role": "kids room cabinetry view",
+      "output_stem": "8-leys-kids-room-tv-unit-cabinetry-03"
+    }
+  ]
+}
