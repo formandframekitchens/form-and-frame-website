@@ -113,40 +113,48 @@ Current confirmed minimum: 51 distinct case-study slots, plus retired duplicate 
 
 ## Resume pointer
 - Gallery Batch Workflow v2 is the permanent operating rule.
-- Last completed batch: Belgravia G35–G40 — ALL LIVE.
+- Belgravia batch G35–G40 is COMPLETE and LIVE.
 - G35 — Belgravia Kids Room / Home Office Furniture
-  - 14 HIGH RES originals; 28/28 assets verified
+  - branch: g35-belgravia-kids-room-home-office
+  - 14 HIGH RES originals; 28/28 generated assets verified
   - PR #54 merged at 16ed0de92751667ec32911a4a20c40729d24478e
   - production deployment dpl_DtTxno7CVowAfbsPQdkQjnvvpjNm: READY
   - public route /gallery/belgravia-kids-room-home-office-furniture: VERIFIED HTTP 200
 - G36 — Belgravia Bathroom Furniture & Antique Mirror
-  - 5 HIGH RES originals; 10/10 assets verified
+  - branch: g36-belgravia-bathroom-antique-mirror
+  - 5 HIGH RES originals; 10/10 generated assets verified
   - PR #55 merged at d9e0edddfa654dc53002460281da3a61d4217c5d
   - production deployment dpl_DV7CfeKxxBnfQyWQmMEtbjCYn3r5: READY
   - public route /gallery/belgravia-bathroom-furniture-antique-mirror: VERIFIED HTTP 200
 - G37 — Belgravia Walk-In Wardrobe
-  - 6 HIGH RES originals; 12/12 assets verified
+  - branch: g37-belgravia-walk-in-wardrobe
+  - 6 HIGH RES originals; 12/12 generated assets verified
   - PR #56 merged at fc0a422a14b3d33d3504d265e507b739f82b411a
   - production deployment dpl_983HrLde9UXnF9wdMQRedGXa18aY: READY
   - public route /gallery/belgravia-walk-in-wardrobe: VERIFIED HTTP 200
 - G38 — Belgravia Dining Room & TV Furniture
-  - 7 HIGH RES originals; 14/14 assets verified
+  - branch: g38-belgravia-dining-tv-furniture
+  - 7 HIGH RES originals; 14/14 generated assets verified
   - PR #57 merged at 2dd21aaa09305d86b50e8e164c3e53dc10b65fc0
   - production deployment dpl_G66oDe7FBCbc23DKuUAkYAUw99fG: READY
   - public route /gallery/belgravia-dining-room-tv-furniture: VERIFIED HTTP 200
 - G39 — Belgravia Master Bedroom Furniture
-  - 7 HIGH RES originals; 14/14 assets verified
+  - branch: g39-belgravia-master-bedroom-furniture
+  - 7 HIGH RES originals; 14/14 generated assets verified
   - PR #58 merged at ad345315fd777eba3261d92ad46605deb91bffde
   - production deployment dpl_HzacuVwofjCBaboq9m8wUBqq8Qap: READY
   - public route /gallery/belgravia-master-bedroom-furniture: VERIFIED HTTP 200
 - G40 — Belgravia Leather Wardrobe
-  - 3 HIGH RES originals; 6/6 assets verified
+  - branch: g40-belgravia-leather-wardrobe
+  - 3 HIGH RES originals; 6/6 generated assets verified
+  - exact current head before merge: 36d0bec2ca9e0d226d118ce82b2329b60305be16
+  - exact-head gallery integrity check: one entry each for G35–G40
   - PR #59 merged at da214e4540403ef396f83a3e3290763baa601f24
   - production deployment dpl_6u8C2RhA2pjoVKaUtcwP4WwJR4ps: READY
   - public route /gallery/belgravia-leather-wardrobe: VERIFIED HTTP 200
-- Belgravia source mapping rule used successfully:
-  - WEB Foto used only for descriptive visual classification
-  - HIGH RES originals matched to WEB images before ingest
-  - all generated WebP/AVIF blobs independently SHA-verified
-- Next queued sequence: G41–G44 from 8 Leys Road.
-- Resume next at G41 — 8 Leys Road Walk-In Wardrobe, using the same five-lane workflow and source-mapping process.
+- Recent Belgravia source remains:
+  - Belgravia project: 1Wxw__wVyuD6qL4rywt5MmFjYjBfVcWPL
+  - WEB Foto: 1wq371pFynlOREPe2X1xdNSHFA43G53Pj
+  - HIGH RES: 1uPkVUv8HWy1YqVvHQ5PawtUEUB3WCezC
+- Next uncompleted stable gallery ID: G41 — 8 Leys Road Walk-In Wardrobe.
+- Resume exactly at G41 source review/mapping. Do not repeat G35–G40.
