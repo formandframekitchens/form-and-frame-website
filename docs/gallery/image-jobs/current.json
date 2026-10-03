@@ -1,5 +1,56 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "stourcliff-recessed-display-niche"
+  "enabled": true,
+  "project": "G37 — Belgravia Walk-In Wardrobe",
+  "slug": "belgravia-walk-in-wardrobe",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "19lcVXsOD4mrMNF5I2jAta85ukSHXsM5D",
+      "source_label": "Belgravia HIGH RES IMG_9944_1 / WEB 15",
+      "role": "overall walk-in wardrobe view",
+      "output_stem": "belgravia-walk-in-wardrobe-overall-01",
+      "source_url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-2b44-8243-9318-d6270be00729/raw?se=2026-10-03T10%3A04%3A33Z&sp=r&sv=2026-02-06&sr=b&scid=45de4072-7e78-5027-8050-2a9dc16b0ae7&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T20%3A15%3A42Z&ske=2026-10-03T20%3A15%3A42Z&sks=b&skv=2026-02-06&sig=rsyO6g/2Od2%2B0%2Bo1FwNkv4Rxcz6x1Z//fSYAueBxh%2B8%3D"
+    },
+    {
+      "drive_file_id": "15uy5QIOy6pp-cb0k_cnrgF-KqyQesk4e",
+      "source_label": "Belgravia HIGH RES IMG_9938 / WEB 16",
+      "role": "wardrobe interior view",
+      "output_stem": "belgravia-walk-in-wardrobe-interior-02",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-5350-8210-adc7-f869342b9eaa/raw?se=2026-10-03T10%3A04%3A33Z&sp=r&sv=2026-02-06&sr=b&scid=4317e1a8-adaf-5fe1-9fc6-89193c9d0e24&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A03%3A12Z&ske=2026-10-04T06%3A03%3A12Z&sks=b&skv=2026-02-06&sig=G5YLXFYqet0BO/o27iW8mKMfCQ2BgOKWehKHRtAiqVM%3D"
+    },
+    {
+      "drive_file_id": "1UK15mlbuJMMgURxmQkg0P0Wip7WDMe7C",
+      "source_label": "Belgravia HIGH RES IMG_9963 / WEB 17",
+      "role": "illuminated display storage detail",
+      "output_stem": "belgravia-walk-in-wardrobe-display-03",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-f5a0-8210-8a1e-84fa17a00cc0/raw?se=2026-10-03T10%3A04%3A33Z&sp=r&sv=2026-02-06&sr=b&scid=cefa4fc0-7973-509e-904e-39b75bfc8a1a&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A02%3A17Z&ske=2026-10-04T06%3A02%3A17Z&sks=b&skv=2026-02-06&sig=w20W57uM55Y/ZUkxHOhed3icWKLxLghiXwJEjlA2cnk%3D"
+    },
+    {
+      "drive_file_id": "18M8p-OgENi9BKpo9lC45EgqG9bWtpeT2",
+      "source_label": "Belgravia HIGH RES IMG_9962 / WEB 18",
+      "role": "brass inlay detail",
+      "output_stem": "belgravia-walk-in-wardrobe-brass-inlay-04",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-e5fc-8210-8f73-e06bd4eb8f3e/raw?se=2026-10-03T10%3A04%3A33Z&sp=r&sv=2026-02-06&sr=b&scid=6c2d3ff8-b556-5792-95fe-7a02ba3980c5&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T07%3A44%3A06Z&ske=2026-10-04T07%3A44%3A06Z&sks=b&skv=2026-02-06&sig=MeD0eTsRJn42N9BoTLRj3Zk3vGef4dIR38loUHxegIA%3D"
+    },
+    {
+      "drive_file_id": "1_eTfKl_VcEQkuYgYHjv1MsF6YkM69fRN",
+      "source_label": "Belgravia HIGH RES IMG_9936 / WEB 18a",
+      "role": "brass handle and inlay detail",
+      "output_stem": "belgravia-walk-in-wardrobe-brass-detail-05",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-102c-8210-9ef2-b93d863f9134/raw?se=2026-10-03T10%3A04%3A33Z&sp=r&sv=2026-02-06&sr=b&scid=1a3ac50d-2fa6-5005-ba72-ee5815f2fa26&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T09%3A45%3A23Z&ske=2026-10-04T09%3A45%3A23Z&sks=b&skv=2026-02-06&sig=gESxXGsGqXhaxWGUAsrWl3RB6pKrsvs2C4lMXtePMZE%3D"
+    },
+    {
+      "drive_file_id": "106-sgz6_fwAhJl79pBwHx4sfnSwgSg5Z",
+      "source_label": "Belgravia HIGH RES IMG_9959 / WEB 20",
+      "role": "cut-out handle detail",
+      "output_stem": "belgravia-walk-in-wardrobe-handle-detail-06",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-8f2c-8210-9dec-4ef39c7c8c65/raw?se=2026-10-03T10%3A04%3A35Z&sp=r&sv=2026-02-06&sr=b&scid=93d56c25-754c-5634-99e1-c72fdf62fc4f&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A34%3A13Z&ske=2026-10-04T06%3A34%3A13Z&sks=b&skv=2026-02-06&sig=MbbbPaAxr/aCrN3SsjEG6sSe8qbdoFK1e9/dSUnlUn4%3D"
+    }
+  ]
 }
