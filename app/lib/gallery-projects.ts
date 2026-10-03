@@ -247,12 +247,13 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-illuminated-storage-01.webp",
-      alt: "Illuminated Soho walk-in wardrobe storage",
+      src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-aisle-view-02.webp",
+      alt: "Full aisle view through Soho walk-in wardrobe",
+    
     },
     images: [
+      { src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-aisle-view-02.webp", alt: "Full aisle view through Soho walk-in wardrobe" },
       { src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-illuminated-storage-01.webp", alt: "Illuminated Soho walk-in wardrobe storage" },
-      { src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-aisle-view-02.webp", alt: "Aisle view through Soho walk-in wardrobe" },
       { src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-drawer-mirror-detail-03.webp", alt: "Drawer and mirror detail in Soho walk-in wardrobe" },
     ],
   },
@@ -785,13 +786,14 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-room-view-01.jpg",
-      alt: "Full-height bespoke fitted bookcase in Esher",
+      src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-front-view-02.jpg",
+      alt: "Front view of bespoke bookcase in Esher",
       fit: "contain",
+    
     },
     images: [
+      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-front-view-02.jpg", alt: "Front view of bespoke bookcase in Esher", fit: "contain" },
       { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-room-view-01.jpg", alt: "Room view of bespoke fitted bookcase in Esher", fit: "contain" },
-      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-front-view-02.jpg", alt: "Front view of full-height bespoke display bookcase", fit: "contain" },
       { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-angled-view-03.jpg", alt: "Angled view of fitted bookcase and open shelving", fit: "contain" },
       { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-shelving-detail-04.jpg", alt: "Open shelving detail in bespoke bookcase", fit: "contain" },
       { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-detail-05.jpg", alt: "Bespoke bookcase joinery detail", fit: "contain" },
@@ -859,13 +861,14 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-room-view-01.webp",
-      alt: "Cream bespoke fitted TV unit in a living room",
+      src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-front-view-02.webp",
+      alt: "Front view of cream bespoke TV unit",
       fit: "contain",
+    
     },
     images: [
+      { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-front-view-02.webp", alt: "Front view of cream bespoke TV unit", fit: "contain" },
       { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-room-view-01.webp", alt: "Room view of cream bespoke fitted TV unit", fit: "contain" },
-      { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-front-view-02.webp", alt: "Front view of cream fitted media cabinetry", fit: "contain" },
       { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-angled-view-03.webp", alt: "Angled view of cream bespoke TV unit and shelving", fit: "contain" },
       { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-display-detail-04.webp", alt: "Illuminated display-niche detail in cream media unit", fit: "contain" },
       { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-side-view-05.webp", alt: "Side room view of cream bespoke media furniture", fit: "contain" },
@@ -1439,14 +1442,15 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/northwood-home-office/northwood-home-office-overall-view-01.webp",
-      alt: "Dark timber fitted home office in Northwood",
+      src: "/images/gallery/northwood-home-office/northwood-home-office-front-view-03.webp",
+      alt: "Front view of Northwood home office",
       fit: "contain",
+    
     },
     images: [
+      { src: "/images/gallery/northwood-home-office/northwood-home-office-front-view-03.webp", alt: "Front view of Northwood home office", fit: "contain" },
       { src: "/images/gallery/northwood-home-office/northwood-home-office-overall-view-01.webp", alt: "Overall view of Northwood fitted home office", fit: "contain" },
       { src: "/images/gallery/northwood-home-office/northwood-home-office-storage-detail-02.webp", alt: "Low cabinetry and drawer storage in Northwood home office", fit: "contain" },
-      { src: "/images/gallery/northwood-home-office/northwood-home-office-front-view-03.webp", alt: "Front workspace view with overhead storage and integrated lighting", fit: "contain" },
     ],
   },
   {
@@ -1510,13 +1514,14 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-room-view-01.webp",
-      alt: "Dark timber bespoke TV unit in a Putney flat",
+      src: "/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-front-view-02.webp",
+      alt: "Front view of Putney Flat bespoke TV unit",
       fit: "contain",
+    
     },
     images: [
+      { src: "/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-front-view-02.webp", alt: "Front view of Putney Flat bespoke TV unit", fit: "contain" },
       { src: "/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-room-view-01.webp", alt: "Room view of Putney bespoke TV unit", fit: "contain" },
-      { src: "/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-front-view-02.webp", alt: "Front view of dark timber media wall with integrated television", fit: "contain" },
       { src: "/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-display-detail-03.webp", alt: "Illuminated display niche detail in Putney media wall", fit: "contain" },
     ],
   },
@@ -1642,13 +1647,14 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-room-view-01.webp",
-      alt: "Full-width bespoke TV unit with integrated fireplace in Putney",
+      src: "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-front-view-02.webp",
+      alt: "Front view of Putney bespoke TV unit",
       fit: "contain",
+    
     },
     images: [
+      { src: "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-front-view-02.webp", alt: "Front view of Putney bespoke TV unit", fit: "contain" },
       { src: "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-room-view-01.webp", alt: "Room view of Putney fitted TV and fireplace wall", fit: "contain" },
-      { src: "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-front-view-02.webp", alt: "Front view of full-width Putney bespoke media wall", fit: "contain" },
       { src: "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-open-storage-03.webp", alt: "Open storage and television detail in Putney media wall", fit: "contain" },
       { src: "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-detail-04.webp", alt: "Illuminated display niche detail in Putney TV unit", fit: "contain" },
     ],
@@ -1715,13 +1721,14 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-overall-view-01.webp",
-      alt: "Light bespoke walk-in wardrobe with central island in Manchester",
+      src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-front-view-02.webp",
+      alt: "Front view of Manchester walk-in wardrobe",
       fit: "contain",
+    
     },
     images: [
+      { src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-front-view-02.webp", alt: "Front view of Manchester walk-in wardrobe", fit: "contain" },
       { src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-overall-view-01.webp", alt: "Overall view of Manchester walk-in wardrobe with central island", fit: "contain" },
-      { src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-front-view-02.webp", alt: "Symmetrical view between opposing wardrobe runs", fit: "contain" },
       { src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-dressing-detail-03.webp", alt: "Wardrobe and integrated dressing area detail", fit: "contain" },
     ],
   },
@@ -1867,13 +1874,14 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-doorway-view-01.webp",
-      alt: "Bespoke wine cellar in Fulham",
+      src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-front-view-02.webp",
+      alt: "Front view of Fulham wine cellar",
       fit: "contain",
+    
     },
     images: [
+      { src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-front-view-02.webp", alt: "Front view of Fulham wine cellar", fit: "contain" },
       { src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-doorway-view-01.webp", alt: "Doorway view of Fulham wine cellar", fit: "contain" },
-      { src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-front-view-02.webp", alt: "Front view of fitted wine storage in Fulham", fit: "contain" },
       { src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-angled-view-03.webp", alt: "Angled view of illuminated wine racks", fit: "contain" },
       { src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-storage-detail-04.webp", alt: "Bottle storage detail in Fulham wine cellar", fit: "contain" },
       { src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-rack-detail-05.webp", alt: "Diamond wine-rack detail", fit: "contain" },
@@ -2012,11 +2020,13 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/fulham-alcove-units/fulham-alcove-units-room-view-01.webp",
-      alt: "Dark bespoke alcove units in Fulham",
+      src: "/images/gallery/fulham-alcove-units/fulham-alcove-units-pair-overall-00.webp",
+      alt: "Front view of both Fulham alcove units",
       fit: "contain",
+    
     },
     images: [
+      { src: "/images/gallery/fulham-alcove-units/fulham-alcove-units-pair-overall-00.webp", alt: "Front view of both Fulham alcove units", fit: "contain" },
       { src: "/images/gallery/fulham-alcove-units/fulham-alcove-units-room-view-01.webp", alt: "Room view of Fulham alcove units", fit: "contain" },
       { src: "/images/gallery/fulham-alcove-units/fulham-alcove-units-front-view-02.webp", alt: "Front view of fitted alcove cabinetry in Fulham", fit: "contain" },
       { src: "/images/gallery/fulham-alcove-units/fulham-alcove-units-detail-03.webp", alt: "Joinery and brass detail in Fulham alcove units", fit: "contain" },
@@ -2075,14 +2085,15 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-overall-view-01.webp",
-      alt: "Bespoke juice bar joinery in Fulham",
+      src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-front-view-03.webp",
+      alt: "Front view of Fulham juice bar joinery",
       fit: "contain",
+    
     },
     images: [
+      { src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-front-view-03.webp", alt: "Front view of Fulham juice bar joinery", fit: "contain" },
       { src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-overall-view-01.webp", alt: "Overall view of Fulham juice bar joinery", fit: "contain" },
       { src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-room-context-02.webp", alt: "Room context view of Fulham juice bar", fit: "contain" },
-      { src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-front-view-03.webp", alt: "Front view of Fulham juice bar cabinetry", fit: "contain" },
       { src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-counter-detail-04.webp", alt: "Countertop and joinery detail", fit: "contain" },
       { src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-island-view-05.webp", alt: "Juice bar island and seating view", fit: "contain" },
       { src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-side-cabinet-06.webp", alt: "Closed side cabinetry in Fulham juice bar", fit: "contain" },
@@ -2142,13 +2153,14 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-overall-view-01.webp",
-      alt: "Antique mirror feature with dark fitted cabinetry in Fulham",
+      src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-front-view-02.webp",
+      alt: "Front view of Fulham antique mirror feature",
       fit: "contain",
+    
     },
     images: [
+      { src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-front-view-02.webp", alt: "Front view of Fulham antique mirror feature", fit: "contain" },
       { src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-overall-view-01.webp", alt: "Overall view of Fulham antique mirror feature", fit: "contain" },
-      { src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-front-view-02.webp", alt: "Front view of full-height antique mirror wall", fit: "contain" },
       { src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-angled-view-03.webp", alt: "Angled view of mirror feature and dark cabinetry", fit: "contain" },
       { src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-detail-04.webp", alt: "Antique mirror panel detail", fit: "contain" },
       { src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-context-view-05.webp", alt: "Room context view of Fulham antique mirror feature", fit: "contain" },
@@ -2207,14 +2219,15 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-overall-view-01.webp",
-      alt: "Bespoke alcove units at Esher Luxury Residence",
+      src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-front-view-03.webp",
+      alt: "Front view of Esher Luxury Residence alcove units",
       fit: "contain",
+    
     },
     images: [
+      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-front-view-03.webp", alt: "Front view of Esher Luxury Residence alcove units", fit: "contain" },
       { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-overall-view-01.webp", alt: "Overall room view of alcove units", fit: "contain" },
       { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-angled-view-02.webp", alt: "Angled view of fitted alcove furniture", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-front-view-03.webp", alt: "Front view of fitted alcove units", fit: "contain" },
       { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-detail-04.webp", alt: "Alcove shelving and cabinet detail", fit: "contain" },
       { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-detail-05.webp", alt: "Opposite alcove unit detail", fit: "contain" },
       { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-second-room-06.webp", alt: "Second room fitted alcove units", fit: "contain" },
@@ -2346,11 +2359,13 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-overall-view-01.webp",
-      alt: "Bespoke media wall with illuminated display shelving",
+      src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-front-view-10.webp",
+      alt: "Front view of bespoke media wall with display shelving",
       fit: "contain",
+    
     },
     images: [
+      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-front-view-10.webp", alt: "Front view of bespoke media wall with display shelving", fit: "contain" },
       { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-overall-view-01.webp", alt: "Overall view of bespoke media wall", fit: "contain" },
       { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-angled-view-02.webp", alt: "Angled room view of fitted media wall", fit: "contain" },
       { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelving-view-03.webp", alt: "Display shelving beside integrated television", fit: "contain" },
@@ -2360,7 +2375,6 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelf-edge-07.webp", alt: "Display shelf edge detail", fit: "contain" },
       { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-lighting-detail-08.webp", alt: "Integrated shelf lighting detail", fit: "contain" },
       { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-junction-detail-09.webp", alt: "Frame and panel junction detail", fit: "contain" },
-      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-front-view-10.webp", alt: "Front view of bespoke media wall", fit: "contain" },
       { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-tv-surround-11.webp", alt: "Integrated television surround detail", fit: "contain" },
     ],
   },
@@ -2416,13 +2430,14 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-overall-view-01.webp",
-      alt: "Stourcliff bespoke media wall with integrated television",
+      src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-front-view-02.webp",
+      alt: "Front view of Stourcliff bespoke media wall",
       fit: "contain",
+    
     },
     images: [
+      { src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-front-view-02.webp", alt: "Front view of Stourcliff bespoke media wall", fit: "contain" },
       { src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-overall-view-01.webp", alt: "Overall living room view of Stourcliff bespoke media wall", fit: "contain" },
-      { src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-front-view-02.webp", alt: "Front view of fitted media wall", fit: "contain" },
       { src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-display-detail-03.webp", alt: "Media wall display and television surround detail", fit: "contain" },
       { src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-cabinet-detail-04.webp", alt: "Reflective display cabinetry detail", fit: "contain" },
       { src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-drawer-detail-05.webp", alt: "Lower drawer and cabinet detail", fit: "contain" },
@@ -2481,13 +2496,14 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-overall-01.webp",
-      alt: "Stourcliff full-height mirrored fitted wardrobes",
+      src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-front-02.webp",
+      alt: "Front view of Stourcliff mirrored wardrobes",
       fit: "contain",
+    
     },
     images: [
+      { src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-front-02.webp", alt: "Front view of Stourcliff mirrored wardrobes", fit: "contain" },
       { src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-overall-01.webp", alt: "Overall view of full-height mirrored wardrobes", fit: "contain" },
-      { src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-front-02.webp", alt: "Front view of mirrored fitted wardrobes", fit: "contain" },
       { src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-door-detail-03.webp", alt: "Mirrored wardrobe door detail", fit: "contain" },
       { src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-junction-04.webp", alt: "Wardrobe panel and door junction detail", fit: "contain" },
       { src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-detail-05.webp", alt: "Mirrored fitted wardrobe detail", fit: "contain" },
@@ -2545,13 +2561,14 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-overall-01.webp",
-      alt: "Stourcliff fitted bespoke dressing table",
+      src: "/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-front-02.webp",
+      alt: "Front view of Stourcliff dressing table",
       fit: "contain",
+    
     },
     images: [
+      { src: "/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-front-02.webp", alt: "Front view of Stourcliff dressing table", fit: "contain" },
       { src: "/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-overall-01.webp", alt: "Overall view of fitted dressing table", fit: "contain" },
-      { src: "/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-front-02.webp", alt: "Front view of bespoke dressing table", fit: "contain" },
       { src: "/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-detail-03.webp", alt: "Dressing table drawer and joinery detail", fit: "contain" },
     ],
   },
@@ -2607,13 +2624,14 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-overall-01.webp",
-      alt: "Stourcliff fitted wardrobe and shoe storage",
+      src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-front-02.webp",
+      alt: "Front view of Stourcliff fitted wardrobe and shoe storage",
       fit: "contain",
+    
     },
     images: [
+      { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-front-02.webp", alt: "Front view of Stourcliff fitted wardrobe and shoe storage", fit: "contain" },
       { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-overall-01.webp", alt: "Overall view of fitted wardrobe and storage", fit: "contain" },
-      { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-front-02.webp", alt: "Front view of fitted wardrobe cabinetry", fit: "contain" },
       { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-shoe-storage-03.webp", alt: "Dedicated fitted shoe storage", fit: "contain" },
       { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-open-storage-04.webp", alt: "Open fitted storage detail", fit: "contain" },
       { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-junction-05.webp", alt: "Wardrobe panel junction detail", fit: "contain" },
@@ -2671,13 +2689,14 @@ export const galleryProjects: GalleryProject[] = [
       },
     ],
     cover: {
-      src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-overall-01.webp",
-      alt: "Stourcliff fitted bathroom vanity and storage",
+      src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-front-02.webp",
+      alt: "Front view of Stourcliff bathroom vanity and storage",
       fit: "contain",
+    
     },
     images: [
+      { src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-front-02.webp", alt: "Front view of Stourcliff bathroom vanity and storage", fit: "contain" },
       { src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-overall-01.webp", alt: "Overall view of fitted bathroom vanity", fit: "contain" },
-      { src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-front-02.webp", alt: "Front view of bathroom vanity cabinetry", fit: "contain" },
       { src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-storage-03.webp", alt: "Fitted bathroom storage cabinetry", fit: "contain" },
       { src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-junction-04.webp", alt: "Bathroom vanity junction detail", fit: "contain" },
       { src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-cabinet-detail-05.webp", alt: "Bathroom cabinet detail", fit: "contain" },

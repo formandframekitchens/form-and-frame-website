@@ -5,6 +5,51 @@ import Link from "next/link";
 import { Footer, Header } from "../components/site-shell";
 import { galleryProjects } from "../lib/gallery-projects";
 
+const galleryFamilyPrefixes = [
+  "Soho",
+  "S&C",
+  "Northwood",
+  "Manchester",
+  "Fulham",
+  "Belgravia",
+  "Stourcliff",
+  "Esher Luxury Residence",
+] as const;
+
+function projectFamily(title: string) {
+  return galleryFamilyPrefixes.find(prefix => title.startsWith(prefix)) ?? title;
+}
+
+function galleryNumber(galleryId: string) {
+  const value = Number.parseInt(galleryId.replace(/^G/i, ""), 10);
+  return Number.isFinite(value) ? value : Number.MAX_SAFE_INTEGER;
+}
+
+function groupProjectsByFamily() {
+  const used = new Set<string>();
+  const grouped: typeof galleryProjects = [];
+
+  for (const project of galleryProjects) {
+    if (used.has(project.slug)) continue;
+
+    const family = projectFamily(project.title);
+    const familyProjects = galleryProjects
+      .filter(item => projectFamily(item.title) === family)
+      .sort((a, b) => galleryNumber(a.galleryId) - galleryNumber(b.galleryId));
+
+    for (const item of familyProjects) {
+      if (!used.has(item.slug)) {
+        grouped.push(item);
+        used.add(item.slug);
+      }
+    }
+  }
+
+  return grouped;
+}
+
+const groupedGalleryProjects = groupProjectsByFamily();
+
 export const metadata: Metadata = {
   title: "Kitchen & Bespoke Joinery Gallery | Form & Frame",
   description: "Selected kitchen installation and bespoke joinery projects by Form & Frame, including fitted kitchens, wardrobes, bookcases, media walls and made-to-measure storage.",
@@ -32,7 +77,7 @@ export default function GalleryPage() {
         <section className="gallery-index" aria-label="Project gallery">
           <div className="container">
             <div className="gallery-card-grid">
-              {galleryProjects.map(project => (
+              {groupedGalleryProjects.map(project => (
                 <article className="gallery-card" key={project.slug}>
                   <Link href={`/gallery/${project.slug}`} aria-label={`View ${project.title}`}>
                     <div className="gallery-card-image">

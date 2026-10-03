@@ -11,6 +11,12 @@
   "avif_target_bytes": 400000,
   "images": [
     {
+      "drive_file_id": "1b0i-IAGux20lKppzGKgIHQzW9vZZLwSf",
+      "source_label": "MH0009.jpg",
+      "role": "full room view showing both alcove units",
+      "output_stem": "fulham-alcove-units-pair-overall-00"
+    },
+    {
       "drive_file_id": "13AjMOzBgw74Ng6wiL-4s-7XkEhQVLe6S",
       "source_label": "MH0016.jpg",
       "role": "alcove units room view",
