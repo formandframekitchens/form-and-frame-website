@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G56 — 8 Leys Road Wine Cellar",
+  "slug": "8-leys-road-wine-cellar",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1Jy7Uh-Od2Ymt9GRgSePo9goFx16kFsQf",
+      "source_label": "w0038.jpg",
+      "role": "overall wine cellar view",
+      "output_stem": "8-leys-wine-cellar-overall-01"
+    },
+    {
+      "drive_file_id": "1qRwzV49p8QBSJXfA005Hr0V3XKNLcg7N",
+      "source_label": "w0039.jpg",
+      "role": "wine cellar interior view",
+      "output_stem": "8-leys-wine-cellar-interior-02"
+    }
+  ]
+}
