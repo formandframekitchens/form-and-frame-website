@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G40 — Belgravia Leather Wardrobe",
+  "slug": "belgravia-leather-wardrobe",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "14r8y1VNK8Ig7JAmaTty5cn7uxlEoilB1",
+      "source_label": "Belgravia HIGH RES IMG_9749 / WEB 29",
+      "role": "leather wardrobe detail",
+      "output_stem": "belgravia-leather-wardrobe-detail-01"
+    },
+    {
+      "drive_file_id": "1qxCWvnnMlrp4xTZiT4X5SO5G8Hna_g08",
+      "source_label": "Belgravia HIGH RES IMG_9763_2 / WEB 30",
+      "role": "brass handle detail",
+      "output_stem": "belgravia-leather-wardrobe-brass-handle-02"
+    },
+    {
+      "drive_file_id": "1Ctl7C_VHiSBRY586uKwp2kyLAc7KJl_i",
+      "source_label": "Belgravia HIGH RES IMG_9838 / WEB 38",
+      "role": "leather wardrobe panel detail",
+      "output_stem": "belgravia-leather-wardrobe-panel-detail-03"
+    }
+  ]
+}
