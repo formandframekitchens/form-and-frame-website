@@ -3277,6 +3277,68 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   
+  {
+    galleryId: "G42",
+    slug: "8-leys-road-kids-room-tv-unit",
+    title: "8 Leys Road Kids Room TV Unit",
+    category: "Bespoke Joinery",
+    summary: "A fitted kids-room TV unit combining a central screen, open display shelving and practical lower storage within one wall-to-wall composition.",
+    seoDescription: "8 Leys Road bespoke kids-room TV unit by Form & Frame, with integrated television, open display shelving and fitted lower storage.",
+    keywords: [
+          "8 Leys Road kids room TV unit",
+          "bespoke kids room furniture",
+          "fitted TV unit",
+          "kids room storage",
+          "display shelving",
+          "bespoke media unit"
+    ],
+    highlights: [
+          "Integrated television",
+          "Open display shelving",
+          "Lower fitted storage",
+          "Wall-to-wall composition"
+    ],
+    caseStudy: [
+      {
+        heading: "A TV unit designed as fitted kids-room furniture",
+        body: [
+                  "This 8 Leys Road project integrates the television into a full fitted wall with open display shelving and practical storage below.",
+                  "The arrangement gives toys, books and display objects a defined place while keeping the screen central to the composition."
+        ],
+      },
+      {
+        heading: "The demanding part: balancing display and storage",
+        body: [
+                  "Kids-room furniture needs accessible storage without making the elevation feel visually crowded.",
+                  "The design therefore depends on consistent shelf spacing, controlled cabinet lines and an accurate relationship between the television opening and surrounding display sections."
+        ],
+      },
+      {
+        heading: "Open shelving and practical lower storage",
+        body: [
+                  "The photography shows the open cubbies, central TV area and lower storage zones working together as one unit.",
+                  "Smaller details show how the display openings are finished at close range while preserving the overall grid."
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+                  "The completed unit combines media, display and everyday storage in a single fitted wall.",
+                  "For similar kids-room TV units and fitted storage, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment."
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-overall-01.webp",
+      alt: "8 Leys Road Kids Room TV Unit",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-overall-01.webp", alt: "Overall view of 8 Leys Road kids-room TV unit", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-detail-02.webp", alt: "Kids-room TV unit detail", fit: "contain" },
+      { src: "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-cabinetry-03.webp", alt: "Kids-room fitted cabinetry view", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
