@@ -64,7 +64,7 @@ When the fuse fires:
 | G31 | Fulham Home Office | LIVE | Clean HIGH RES MH0025–MH0028; duplicate/logo preflight passed; Drive ingest passed |
 | G32 | Fulham Alcove Units | LIVE | Clean HIGH RES MH0016–MH0018; duplicate/logo preflight passed; Drive ingest and SHA verification passed |
 | G33 | Fulham Juice Bar Joinery | LIVE | Clean HIGH RES 7-image set; watermarked web copies and adjacent media-wall project excluded; Drive ingest and SHA verification passed |
-| G34 | Fulham Antique Mirror Feature | MERGED / PRODUCTION BUILDING | Clean HIGH RES MH0036–MH0040; duplicate/logo preflight passed; Drive ingest and SHA verification passed; preview verified |
+| G34 | Fulham Antique Mirror Feature | LIVE | Clean HIGH RES MH0036–MH0040; duplicate/logo preflight passed; Drive ingest and SHA verification passed; preview verified |
 | G35 | Belgravia Kids Room / Home Office Furniture | QUEUED | Professional pictures / Belgravia |
 | G36 | Belgravia Bathroom Furniture & Antique Mirror | QUEUED | Professional pictures / Belgravia |
 | G37 | Belgravia Walk-In Wardrobe | QUEUED | Professional pictures / Belgravia |
@@ -91,12 +91,10 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 
 ## Resume pointer
-- Last confirmed live gallery: G33 — Fulham Juice Bar Joinery
-- G34 — Fulham Antique Mirror Feature: MERGED INTO MASTER
-- G34 merge commit: 0f71e80e6afa8f13f30b91cf6d7e3b383f1fd380
-- G34 preview: VERIFIED with 5 clean images
-- G34 production deployment dpl_CFWn5rEJBd8prE3M9e2kDEuWtHJ7 remained BUILDING on both allowed production checks
-- Safety fuse: TRIPPED — no third production poll performed
-- G45 and later galleries: NOT STARTED
+- Last live gallery: G34 — Fulham Antique Mirror Feature
+- G34 production: VERIFIED READY and live with 5 images
+- Next requested gallery: G45 — 8 Leys Road Alcove Units
+- G45 source hierarchy: use 8 Leys HIGH RES only; With LOGO folder excluded
 - Remaining requested batch: G45 -> G46 -> G47 -> G48 -> G49
-- Resume exactly at: one fresh G34 production-state check; if READY, verify live route, mark G34 LIVE, then continue G45
+- Duplicate/logo preflight remains mandatory
+- Safety fuse status: ARMED
