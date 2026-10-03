@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "project": "G46 \u2014 London Luxury Salon Joinery",
+  "slug": "london-luxury-salon-joinery",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1VyBR7xL83Gno4c7nqP35jL-IxE1OgX7l",
+      "source_label": "126001",
+      "role": "overall salon interior",
+      "original": {
+        "width": 2250,
+        "height": 1500
+      },
+      "webp": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-overall-view-01.webp",
+        "bytes": 234218,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "14a020f84fd14bb91342b542e72a142ea3f4e7ed7bc8a9279291a987ac079a39",
+        "git_blob_sha": "078607e8f51187b03172db4d7422deead56db87e"
+      },
+      "avif": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-overall-view-01.avif",
+        "bytes": 127943,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "7a71719cd37320337333a5526c8b310564128d8bb28c95e8aa713c1d50cff08f",
+        "git_blob_sha": "99eb029c88dae66b4ab973446a1ec5cd8df0ad4e"
+      }
+    },
+    {
+      "drive_file_id": "1B3qDR-eTcQussjiozivDyk3riNTdNJbh",
+      "source_label": "354001",
+      "role": "reception and joinery view",
+      "original": {
+        "width": 1000,
+        "height": 1500
+      },
+      "webp": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-reception-view-02.webp",
+        "bytes": 140862,
+        "quality": 84,
+        "width": 1000,
+        "height": 1500,
+        "sha256": "bbdc5b5f1cdfbbca1fc5150ccdfde4f69eb691b653a63dc2f268ee35befc494d",
+        "git_blob_sha": "661a1f2a6109445fe46e55743a0ed80fa3230533"
+      },
+      "avif": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-reception-view-02.avif",
+        "bytes": 85814,
+        "quality": 58,
+        "width": 1000,
+        "height": 1500,
+        "sha256": "27fc0541cfce24b34e05643d093288f6bc357d48b70fef37d702915b22b51882",
+        "git_blob_sha": "68e729c715dc969febf6765fdbae13d8268a6498"
+      }
+    },
+    {
+      "drive_file_id": "1CPbFQ8rr-NpDB2PG3LHyCRWjarwWsGyi",
+      "source_label": "942001",
+      "role": "wide salon room view",
+      "original": {
+        "width": 2250,
+        "height": 1500
+      },
+      "webp": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-room-view-03.webp",
+        "bytes": 445722,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "5aee07c97be63a2e8e793fd2fbf94a495d442fb6c11fd3876a86696dd6255b92",
+        "git_blob_sha": "1b94cafc2e24d8078e800a7e9a6dcea8569e09be"
+      },
+      "avif": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-room-view-03.avif",
+        "bytes": 292619,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "42d9f32c7196f4bf4c4f0e6c8c028bfc39ed8fe884c3612f23517f6786888e21",
+        "git_blob_sha": "4ae570e211fa13896fab71807819cfe02bbe5a4c"
+      }
+    },
+    {
+      "drive_file_id": "15_4UfzsPI4jX35G5SfVX_ruNcUN8PeC8",
+      "source_label": "1452001",
+      "role": "styling station detail",
+      "original": {
+        "width": 1000,
+        "height": 1500
+      },
+      "webp": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-station-detail-04.webp",
+        "bytes": 488924,
+        "quality": 80,
+        "width": 1000,
+        "height": 1500,
+        "sha256": "452df15e79a2896784a53f50dcd85e96c072b9d26e83a42adf5d9bd357747295",
+        "git_blob_sha": "d9d97cf3499472e7ac726c5d4697bd9c390efac6"
+      },
+      "avif": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-station-detail-04.avif",
+        "bytes": 359813,
+        "quality": 54,
+        "width": 1000,
+        "height": 1500,
+        "sha256": "1b31a8c5fbe429fa9902ce6d53816ff70ae62ca4daf86f9e0921027d2ca2b707",
+        "git_blob_sha": "0f72b66e202a8386ed99bb80ae2be5df2019b808"
+      }
+    },
+    {
+      "drive_file_id": "1ioQmfPLDLvpn_RIg0pHsguEMNBJtpaGH",
+      "source_label": "1320001",
+      "role": "fitted cabinetry view",
+      "original": {
+        "width": 2250,
+        "height": 1500
+      },
+      "webp": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-cabinetry-view-05.webp",
+        "bytes": 436094,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "00a2b3d03abebeabb4e79bde601a854af0a59a69366b8cfeb3741f499f3d6a76",
+        "git_blob_sha": "ec0c52b6d3fb0f71e539430e0551bbd0703c7c0c"
+      },
+      "avif": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-cabinetry-view-05.avif",
+        "bytes": 270579,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "db341e58c58552f610ae823dd113f689491c54fb987ac493449134718bab178e",
+        "git_blob_sha": "ed1efd94cb082c3bbdab797377e4fe9ee323ab94"
+      }
+    },
+    {
+      "drive_file_id": "1cUgJNHPrzVsDRO7ixj5xWAGrYWeX9fzD",
+      "source_label": "1590001",
+      "role": "mirror and joinery detail",
+      "original": {
+        "width": 1000,
+        "height": 1500
+      },
+      "webp": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-mirror-detail-06.webp",
+        "bytes": 282546,
+        "quality": 84,
+        "width": 1000,
+        "height": 1500,
+        "sha256": "ccb1ebb5b01936b6c3c18c4b40cb309d4b1049a7f4d409a3c9a68abef814d507",
+        "git_blob_sha": "05c941ea2cd2a08b9debe2c852b6f96250110fb5"
+      },
+      "avif": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-mirror-detail-06.avif",
+        "bytes": 163030,
+        "quality": 58,
+        "width": 1000,
+        "height": 1500,
+        "sha256": "7e9c2d5a9ae0f8cb2567220ce91b7350c38b15bfa9bc136a35e07f1af285cbbd",
+        "git_blob_sha": "41e5674dac617604f224db476ddcd100acb05c58"
+      }
+    },
+    {
+      "drive_file_id": "1q2jdYidzDSJlEhSvcmxjnR2Ia3aAnh7-",
+      "source_label": "732001",
+      "role": "salon context view",
+      "original": {
+        "width": 2250,
+        "height": 1500
+      },
+      "webp": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-context-view-07.webp",
+        "bytes": 317254,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "2077a3ea94e2b17c7509dc07daf44f5a13bb6885ba91129877d010195551188b",
+        "git_blob_sha": "e247e477825854884c589a97e9a5f1f84413613f"
+      },
+      "avif": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-context-view-07.avif",
+        "bytes": 198615,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "5627114298f5680b875de00ad6b576186814d1ccb88f1463a6ac53c0e773b646",
+        "git_blob_sha": "35e034f8004ad5fdee3af6501e6615a4d97f3a1a"
+      }
+    },
+    {
+      "drive_file_id": "1crdZHFLYxs-zBG0gmr4Ns8sEH5hkoH58",
+      "source_label": "1818001",
+      "role": "service and storage joinery",
+      "original": {
+        "width": 2250,
+        "height": 1500
+      },
+      "webp": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-storage-view-08.webp",
+        "bytes": 219374,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "5aae75a02e2c285f1542a3dffd3ffea4f44371073738762ece5d22d795fd0848",
+        "git_blob_sha": "abc5e05c5e7bbf87d22784f7e3fa09845a454d12"
+      },
+      "avif": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-storage-view-08.avif",
+        "bytes": 125029,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "8a2056e5c7efa39a5636cf822c6843401626bc8fcfb0c6037ad50b990700e4ce",
+        "git_blob_sha": "687863509c8b6448f565ebcf44a2cde93452bda7"
+      }
+    },
+    {
+      "drive_file_id": "1SLWp5BgVI-PPJaPGsrHqq2-i2mtiY0VX",
+      "source_label": "1242001",
+      "role": "architectural joinery view",
+      "original": {
+        "width": 2250,
+        "height": 1500
+      },
+      "webp": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-architectural-view-09.webp",
+        "bytes": 494842,
+        "quality": 76,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "ed274964f65ef75a3a47c5ae13dea1165ef42082c262e27f146343c88155a75f",
+        "git_blob_sha": "953a1ca431dc23d0fba5acd8c0df670ee1706ec5"
+      },
+      "avif": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-architectural-view-09.avif",
+        "bytes": 373035,
+        "quality": 50,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "1171e4f638681c2bcc84d8c2c14e1967c52d067f814140787d929633b82af770",
+        "git_blob_sha": "1636abd41d60d388fd2c496a9aa1c154318ee64a"
+      }
+    },
+    {
+      "drive_file_id": "1i8hZCK8JzTb811q7pfyHHzn9EaKYO3R_",
+      "source_label": "636001",
+      "role": "material and detail view",
+      "original": {
+        "width": 2250,
+        "height": 1500
+      },
+      "webp": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-detail-10.webp",
+        "bytes": 259526,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "6c17f34d2999ecff7fc85272d5897db181db670b997d992ad5268ca2c9eeb353",
+        "git_blob_sha": "e023b9e1d953107903d83fb40f1725e99ff5d75b"
+      },
+      "avif": {
+        "path": "public/images/gallery/london-luxury-salon-joinery/london-luxury-salon-detail-10.avif",
+        "bytes": 155971,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "651a33bb05ea3ab67e6390a413abadb4f59029cd41269b783670a0070714a236",
+        "git_blob_sha": "9d801c4d756d9ecb96ae7f38f4d0f8b7bacb74d9"
+      }
+    }
+  ]
+}
