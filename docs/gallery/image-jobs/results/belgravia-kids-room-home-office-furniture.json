@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "project": "G35 \u2014 Belgravia Kids Room & Home Office Furniture",
+  "slug": "belgravia-kids-room-home-office-furniture",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1KfykVA_PJE_CUqG-TxWlSoM41N1YaG-z",
+      "source_label": "Belgravia HIGH RES IMG_9761 / WEB 26",
+      "role": "kids room fitted furniture view",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-01.webp",
+        "bytes": 122944,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "d0ed1b44254f8e2f54deb99df452e145d312291e9f7dfd2467d068d3ba42bbd3",
+        "git_blob_sha": "0341c95557226fc9b0302049b96dccc0348289b3"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-01.avif",
+        "bytes": 71203,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "ea20bf4283a972ac81bd9fed037ab749a241249eaed2a6b44057017fe549037b",
+        "git_blob_sha": "f5c465b817749e70a89d7e095f504d0ecbb9acdc"
+      }
+    },
+    {
+      "drive_file_id": "1tl-ztEwqs-IkAMrbd87zhEYb0U03FnhN",
+      "source_label": "Belgravia HIGH RES IMG_9740 / WEB 27",
+      "role": "kids room cabinetry view",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-02.webp",
+        "bytes": 285790,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "d9c909ebece25e8b9779cd4467307eed96ecde4bdb74ca11fc1d2958fb7cdcee",
+        "git_blob_sha": "f83aeede20052d3d3b2acfe716ede2f435b8d0c4"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-02.avif",
+        "bytes": 162137,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "f5c076997761542cc71e8433cfbadd66234954e2a53364c1a2f6ef28011d4fda",
+        "git_blob_sha": "68710419ebcc95bb550bac0eb3c72524e1418349"
+      }
+    },
+    {
+      "drive_file_id": "1xRCx7wZw0UlefJwO5UnDVGR1_mEOhc6D",
+      "source_label": "Belgravia HIGH RES IMG_9742_1 / WEB 28",
+      "role": "kids room bespoke furniture detail",
+      "original": {
+        "width": 5173,
+        "height": 3224
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-03.webp",
+        "bytes": 157562,
+        "quality": 84,
+        "width": 2000,
+        "height": 1246,
+        "sha256": "4ca40fc98bb5a7062b7ed699f5caa843fd01148eed73936aa396b373484de981",
+        "git_blob_sha": "1ba076ef0651023e64ab75cb948c909bf6f4a6aa"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-03.avif",
+        "bytes": 62314,
+        "quality": 58,
+        "width": 2000,
+        "height": 1246,
+        "sha256": "0905b9fbb9892cdd0849a06bbf822098bf930b3c1ce61af747069d523b5c45e0",
+        "git_blob_sha": "30e1c0974670658dde6e65e184e4bc0fb4cb19ee"
+      }
+    },
+    {
+      "drive_file_id": "1cu4w5GTn2EE6Wxf2KJv-T2V0KLT0kMua",
+      "source_label": "Belgravia HIGH RES IMG_9711_2 / WEB 31",
+      "role": "home office overall view",
+      "original": {
+        "width": 3744,
+        "height": 5616
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-04.webp",
+        "bytes": 207738,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "02cc7cf5b724fa39e83a655a20bb1b6e42262e162b1dc5eda0b14948eb04fabb",
+        "git_blob_sha": "59a86f63e1b4670a09eac2acd0b9ac5324cd3266"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-04.avif",
+        "bytes": 92980,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "646450d1d1fd8a1e9cccef6910258019ceaede2013a5a5eece0d20361bd29aa6",
+        "git_blob_sha": "8d02eb8469939b8c0edb0d0d41d41728f4a55c2e"
+      }
+    },
+    {
+      "drive_file_id": "1N2UTW7Z25-ZHlYnqEKNoYPk2d24LHLEq",
+      "source_label": "Belgravia HIGH RES IMG_9713 / WEB 32",
+      "role": "leather desk detail",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-05.webp",
+        "bytes": 292694,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "c70af6a925f971bdb7992ff54c4efc6d8d67d72fc7cf2b70b25a27e2ac490d9a",
+        "git_blob_sha": "f9d783d3244ab4cb4cca5ce409c291127a9f742f"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-05.avif",
+        "bytes": 179941,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "fabd73ff1b5a48832f43de433dcc638cb1ce4afc34f1d04189d2d8620b7a78b6",
+        "git_blob_sha": "42292db66866630572a9e5fdfa20e62dd925aaea"
+      }
+    },
+    {
+      "drive_file_id": "1cssE36pEJ4mU4HNLLJosKkURR6QUf1qt",
+      "source_label": "Belgravia HIGH RES IMG_9814_2 / WEB 33",
+      "role": "kids room furniture view",
+      "original": {
+        "width": 5141,
+        "height": 3723
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-06.webp",
+        "bytes": 202150,
+        "quality": 84,
+        "width": 2000,
+        "height": 1448,
+        "sha256": "3f9142a7b98618a0ddcfcae45425e750b67f32aadb07cfe2e294541b7cb8fd44",
+        "git_blob_sha": "221b114196bc035a61008cd6bd3101a8e145c9ec"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-06.avif",
+        "bytes": 126807,
+        "quality": 58,
+        "width": 2000,
+        "height": 1448,
+        "sha256": "b5ec616a1c9a3bc0d73b4712237350cb85b40605f90f9715e586ac598cde1ad7",
+        "git_blob_sha": "481283417c7d1784f025bfb0c903cf1516c794db"
+      }
+    },
+    {
+      "drive_file_id": "1mfLQRhJ4GXvEcAg3fwtd_xW5ElJBgCYv",
+      "source_label": "Belgravia HIGH RES IMG_9817 / WEB 34",
+      "role": "kids room fitted joinery view",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-07.webp",
+        "bytes": 282470,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "aa12c451c90fe1622cc6e7b0f771ebbe5dc5b28ce625cc230e119aeb1b699e21",
+        "git_blob_sha": "482cd31449802bc805dc01a480f1cdc0629747f3"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-07.avif",
+        "bytes": 149864,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "e77ecafc2bc6133142577a302cf2b4064a77b36c40e89b87fafa577cbeb98724",
+        "git_blob_sha": "3c4e28ab6e11c89cacfb8253bc91b1b1a0ad1d82"
+      }
+    },
+    {
+      "drive_file_id": "1pLL8BXEsqdVR394JsHOGpOab7Hv2mNXD",
+      "source_label": "Belgravia HIGH RES IMG_9826_1 / WEB 35",
+      "role": "kids room joinery detail",
+      "original": {
+        "width": 5445,
+        "height": 3668
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-08.webp",
+        "bytes": 158522,
+        "quality": 84,
+        "width": 2000,
+        "height": 1347,
+        "sha256": "6ed84ed5e50eb5b076c7c3a212a5ce4602e6c69bb8f2ceb5385ece53f088fe20",
+        "git_blob_sha": "7f6f7e2b7fdfa7c40428048304f45263f130548a"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-08.avif",
+        "bytes": 89791,
+        "quality": 58,
+        "width": 2000,
+        "height": 1347,
+        "sha256": "edbf81beca017304e4b2017e80184881d4382d63742b6669366700e604ef64db",
+        "git_blob_sha": "9571f1f27e324a4260acc6a3c05e69ce59bc3def"
+      }
+    },
+    {
+      "drive_file_id": "1-2Zn4c3N2RT8uT_7YKBt4QAGDTTRwlIw",
+      "source_label": "Belgravia HIGH RES IMG_9823_1 / WEB 36",
+      "role": "kids room furniture detail",
+      "original": {
+        "width": 3665,
+        "height": 5497
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-09.webp",
+        "bytes": 188364,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "3f6a47468c95dc9ba990fd6cbdd3c6c5b5f8846710a17d21838b7c6b2ca41945",
+        "git_blob_sha": "761b9808970f54dc57c0141dbb80f050f6717da3"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-09.avif",
+        "bytes": 96821,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "1b32a0b47deb8047cb31c52e4763607022c6b833a19b5af07c4ebb2e9cb11770",
+        "git_blob_sha": "7eebbacbbc9e4bb9cbee1b90a478765d324c01b9"
+      }
+    },
+    {
+      "drive_file_id": "1dOo4TYSr6J5GYq4c-3jp-3DavptCISdU",
+      "source_label": "Belgravia HIGH RES IMG_9830 / WEB 37",
+      "role": "kids room cabinetry detail",
+      "original": {
+        "width": 3560,
+        "height": 5368
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-10.webp",
+        "bytes": 98706,
+        "quality": 84,
+        "width": 1326,
+        "height": 2000,
+        "sha256": "a4e83867021f618cf5f5bd13428907c6fabe1d81dddee112fcfcbadebd5db548",
+        "git_blob_sha": "bd5d4cbb2497af4963044884f2e1d33ce132cb31"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-10.avif",
+        "bytes": 53446,
+        "quality": 58,
+        "width": 1326,
+        "height": 2000,
+        "sha256": "72dda8c292c459afaa6ccbc165d2c3f959fac9f014278941c3c1d74d59e95005",
+        "git_blob_sha": "fe56a9b5031875f339556fd681929c894c63eb36"
+      }
+    },
+    {
+      "drive_file_id": "1u6J_6MAOs9WNafrGwEeiZKbz89eRsq6Q",
+      "source_label": "Belgravia HIGH RES IMG_9825 / WEB 39",
+      "role": "kids room bespoke furniture view",
+      "original": {
+        "width": 5616,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-11.webp",
+        "bytes": 167672,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "8e80643bcf3056a046d5b34ac89b3f70a310151527ae7246b47c717f93d7456c",
+        "git_blob_sha": "aac4ffaf14c314862c6aa12a7f6102d82614df07"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-11.avif",
+        "bytes": 95959,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "a6351c75f739b9b27509800f2a499bfc29dc1126a647a325f4d19da1205fdc65",
+        "git_blob_sha": "6a6932fd023fbc35935e19fdc30ac458d5a41259"
+      }
+    },
+    {
+      "drive_file_id": "1iY5c7DI6QUGAhEmquz84aFexQ3Tnyjtf",
+      "source_label": "Belgravia HIGH RES IMG_9807 / WEB 40",
+      "role": "home office kids room view",
+      "original": {
+        "width": 3744,
+        "height": 5616
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-12.webp",
+        "bytes": 149230,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "c40de9f2d6110a0cd9d62b8b0dc38bffa98b737f97dec37381d4d4adc03a470e",
+        "git_blob_sha": "27d3ae38c886d7d478b7ba594e174abfd81a83eb"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-12.avif",
+        "bytes": 79280,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "e7c96d3e989b5a72dfc32496d79e332a0c154a304a86c7834c3da796442b393b",
+        "git_blob_sha": "cf6e3911750a1f701c971ae6d7395434b05dd578"
+      }
+    },
+    {
+      "drive_file_id": "1qp6Z2ZzFqMu1-G3OTnLUDAzGJfBdBtiU",
+      "source_label": "Belgravia HIGH RES IMG_9768 / WEB 41",
+      "role": "home office kids room detail",
+      "original": {
+        "width": 3744,
+        "height": 5616
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-13.webp",
+        "bytes": 42916,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "e38fb2782e665464b4ca5784944d8f559185edd66bb99e0914350cec3f1e27b4",
+        "git_blob_sha": "89acb3855abbe130ecd4e46e2b4cf29f8ab9744c"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-13.avif",
+        "bytes": 23455,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "6a5aa57c6473e72c5d05a8096d46d06a60c133517756d085a83f645930c444c7",
+        "git_blob_sha": "beae9e0b578711176b26586729a7685dc0595038"
+      }
+    },
+    {
+      "drive_file_id": "1MksyQugbSyEdqPZjDRjfb7eCLzN2ewnZ",
+      "source_label": "Belgravia HIGH RES IMG_9789 / WEB 42",
+      "role": "home office kids room furniture view",
+      "original": {
+        "width": 5404,
+        "height": 3633
+      },
+      "webp": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-14.webp",
+        "bytes": 143396,
+        "quality": 84,
+        "width": 2000,
+        "height": 1345,
+        "sha256": "989ff52b8c7566589f55d493abb945d9a5e72642090ef26e11eda0d46b8868e0",
+        "git_blob_sha": "9871f81dd799c38186be8f64520a5331fd404174"
+      },
+      "avif": {
+        "path": "public/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-14.avif",
+        "bytes": 31762,
+        "quality": 58,
+        "width": 2000,
+        "height": 1345,
+        "sha256": "e0370a745cd6e77ec55e35814dddd2d0b1ab5d4d199990fbbbf052469496b19f",
+        "git_blob_sha": "06c3d6493e12f3d74fcf5733a852056011d54925"
+      }
+    }
+  ]
+}
