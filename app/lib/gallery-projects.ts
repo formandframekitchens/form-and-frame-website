@@ -2618,6 +2618,70 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-junction-05.webp", alt: "Wardrobe panel junction detail", fit: "contain" },
     ],
   },
+  {
+    galleryId: "G52",
+    slug: "stourcliff-bathroom-vanity-storage",
+    title: "Stourcliff Bathroom Vanity & Storage",
+    category: "Bespoke Joinery",
+    summary: "Fitted bathroom furniture combining a vanity unit with coordinated storage cabinetry and carefully resolved junctions around the room.",
+    seoDescription: "Stourcliff bespoke bathroom vanity and fitted storage by Form & Frame, with coordinated cabinetry, practical storage and precise joinery detailing.",
+    keywords: [
+      "bespoke bathroom vanity",
+      "fitted bathroom storage",
+      "bathroom cabinetry",
+      "bespoke vanity unit",
+      "bathroom joinery",
+      "Stourcliff bathroom furniture",
+    ],
+    highlights: [
+      "Fitted vanity cabinetry",
+      "Coordinated bathroom storage",
+      "Integrated concealed storage",
+      "Precise panel and surface junctions",
+    ],
+    caseStudy: [
+      {
+        heading: "Vanity and storage designed together",
+        body: [
+          "This bathroom scheme combines the vanity area with fitted storage so the practical elements read as one coordinated furniture installation.",
+          "Keeping the pieces visually related helps the bathroom feel controlled while still providing useful concealed storage.",
+        ],
+      },
+      {
+        heading: "The demanding part: fitting around fixed bathroom elements",
+        body: [
+          "Bathroom furniture has to work accurately around walls, surfaces and sanitary fittings, leaving little tolerance for inconsistent gaps or poorly resolved edges.",
+          "Careful setting out is therefore important at the junctions between cabinet fronts, adjoining surfaces and surrounding finishes.",
+        ],
+      },
+      {
+        heading: "Storage within a compact footprint",
+        body: [
+          "The cabinetry provides practical storage without relying on freestanding furniture that would interrupt the room.",
+          "The detail photographs show how the vanity and adjacent fitted elements maintain consistent lines across the installation.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed scheme gives the bathroom a furniture-led appearance while keeping everyday storage integrated and accessible.",
+          "For similar bathroom vanities and fitted storage, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-overall-01.webp",
+      alt: "Stourcliff fitted bathroom vanity and storage",
+      fit: "contain",
+    },
+    images: [
+      { src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-overall-01.webp", alt: "Overall view of fitted bathroom vanity", fit: "contain" },
+      { src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-front-02.webp", alt: "Front view of bathroom vanity cabinetry", fit: "contain" },
+      { src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-storage-03.webp", alt: "Fitted bathroom storage cabinetry", fit: "contain" },
+      { src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-junction-04.webp", alt: "Bathroom vanity junction detail", fit: "contain" },
+      { src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-cabinet-detail-05.webp", alt: "Bathroom cabinet detail", fit: "contain" },
+    ],
+  },
 ];
 
 export function getGalleryProject(slug: string) {
