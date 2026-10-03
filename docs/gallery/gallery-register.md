@@ -76,7 +76,7 @@ When the fuse fires:
 | G43 | 8 Leys Road Home Office | QUEUED | Professional pictures / 8 Leys |
 | G44 | 8 Leys Road Bookcase with Leather & Brass Detail | QUEUED | Professional pictures / 8 Leys |
 | G45 | 8 Leys Road Alcove Units | LIVE | 9 clean HIGH RES images mapped; logo/web versions excluded; Drive ingest and SHA verification passed |
-| G46 | Gillie Green Project | QUEUED / REVIEW SPLIT | 21 professional images; may split further |
+| G46 | London Luxury Salon Joinery | PROCESSING / FUSE STOP | 10 clean selected salon images; LOGO folder excluded; Actions still in_progress on second check |
 | G47 | Aram Project | QUEUED / REVIEW SPLIT | 42 professional images; may split further |
 | G48 | AIDA Stourcliff Road Project | QUEUED / REVIEW SPLIT | 47 professional images; may split further |
 
@@ -92,10 +92,16 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 
 ## Resume pointer
 - Last live gallery: G45 — 8 Leys Road Alcove Units
-- G45 production: VERIFIED READY and live with 9 images
-- Next requested gallery: G46 — Gillie Green Project
-- G46 source hierarchy: LOGO folder excluded; review clean selected sources before ingest
-- G46 professional set contains 21 images and may represent more than one salon location; split review required
-- Remaining requested batch: G46 -> G47 -> G48 -> G49
-- Duplicate/logo preflight remains mandatory
-- Safety fuse status: ARMED
+- Current gallery: G46 — London Luxury Salon Joinery
+- G46 internal source: Gillie Green project
+- G46 public-facing name: London Luxury Salon Joinery
+- G46 duplicate preflight: PASSED
+- G46 logo/watermark preflight: PASSED using ATRINKTOS selected sources only; LOGO folder excluded
+- G46 curated source set: 10 distinct clean views
+- G46 ingest branch: g46-london-luxury-salon-joinery
+- GitHub Actions run 37107875845 remained in_progress on both allowed checks
+- Safety fuse: TRIPPED — no third Actions poll performed
+- G47, G48, G49: NOT STARTED
+- G47 clean source hierarchy grounded: Aram high res available; WITH LOGO excluded
+- G48 clean source hierarchy grounded: AIDA Stourcliff high res available; WITH LOGO excluded
+- Resume exactly at: one fresh G46 Actions-state check; if completed success, add G46 case study, preview, merge, production verify, mark G46 LIVE, then continue G47
