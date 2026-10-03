@@ -77,7 +77,7 @@ When the fuse fires:
 | G44 | 8 Leys Road Bookcase with Leather & Brass Detail | QUEUED | Professional pictures / 8 Leys |
 | G45 | 8 Leys Road Alcove Units | LIVE | 9 clean HIGH RES images mapped; logo/web versions excluded; Drive ingest and SHA verification passed |
 | G46 | London Luxury Salon Joinery | LIVE | 10 clean selected salon images; LOGO folder excluded; Drive ingest and SHA verification passed; corrected preview passed; production READY |
-| G47 | Bespoke Media Wall with Display Shelving | INGEST RUNNING / FUSE STOP | Aram high res images 1–11; WEB RES used only for visual review; WITH LOGO excluded |
+| G47 | Bespoke Media Wall with Display Shelving | PREVIEW BUILDING / FUSE STOP | Aram high res images 1–11; Drive ingest passed; 22/22 generated assets verified; case study added |
 | G48 | AIDA Stourcliff Road Project | QUEUED / REVIEW SPLIT | 47 professional images; may split further |
 
 ## HOLD / not included in G01-G48
@@ -96,14 +96,17 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
 - G47 source hierarchy: recent Sep 24 Aram project -> high res; WITH LOGO excluded
 - G47 visual selection: HIGH RES images 1–11 only
 - G47 branch: g47-bespoke-media-wall-display-shelving
-- Initial ingest run 37109143361: FAILED before download because GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON was unavailable
-- Root cause confirmed from logs: ingest requires either Drive credential or temporary source_url
-- Repair applied using same successful G45/G46 method: fresh temporary source_url added for all 11 HIGH RES files
-- Repair commit: ea5afd488e1d8889ef7c75ea57cad661ac5dc608
-- Repaired Actions run: 37109360072
-- First repaired-run check: IN_PROGRESS
-- Second allowed repaired-run check: IN_PROGRESS; dependencies installing, image ingest not started yet
-- Safety fuse: TRIPPED — no third poll performed
+- Initial ingest failure root cause: missing GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON
+- Repair method: temporary signed source_url values, matching successful G45/G46 workflow
+- Repaired Actions run 37109360072: SUCCESS
+- Ingest commit: e6b74992bade66e4f0dba79c041ea4e27b95bef4
+- Generated assets verified against ingest report: 22/22 Git blob SHAs matched
+- G47 case study commit: fdcd5eca1f6c192392e3bcaf811842c5f832cf3d
+- G47 location intentionally omitted because source does not establish it safely
+- Vercel preview deployment: Fv3E4SdqMbG2T2sDtHHthLSWzos2
+- First preview check: PENDING
+- Second allowed preview check: PENDING
+- Safety fuse: TRIPPED — no third preview poll performed
 - Remaining Aram source split identified but NOT numbered/started:
   - images 12–21: dark bar/display cabinet
   - images 22–31: bespoke dressing table / make-up storage
@@ -112,4 +115,4 @@ Current confirmed minimum: 45 distinct case-study slots, plus retired duplicate 
   - images 36–39: dark bathroom fitted storage
   - images 40–42: bathroom TV frame
 - G48 — AIDA Stourcliff Road Project remains QUEUED / REVIEW SPLIT and has NOT started
-- Resume exactly at: one fresh state check for repaired Actions run 37109360072; if successful, verify generated assets + Git blob SHAs, add G47 case study, preview, merge and production verify; if failed, diagnose the failed step once before any later G-number
+- Resume exactly at: one fresh Vercel status check for case-study commit fdcd5eca1f6c192392e3bcaf811842c5f832cf3d; if READY, create/verify PR, merge, production verify, mark G47 LIVE, then continue the next gallery; if failed, diagnose once before any later G-number
