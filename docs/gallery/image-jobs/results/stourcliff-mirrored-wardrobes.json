@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "project": "G49 \u2014 Stourcliff Mirrored Wardrobes",
+  "slug": "stourcliff-mirrored-wardrobes",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1cZrlKQf5B8MURsiiFdTRLKsKT5Hhbgwm",
+      "source_label": "UNUM - AIDA {HIGH RES} (12)",
+      "role": "overall mirrored wardrobe view",
+      "original": {
+        "width": 8688,
+        "height": 5792
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-overall-01.webp",
+        "bytes": 249662,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "d411e7a025a1c154abc1d369edda1a541bf82ff5ed6d6327fc3942393f1bb93c",
+        "git_blob_sha": "2e65245543d14e07f221a0c23f1ff6b90d03261a"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-overall-01.avif",
+        "bytes": 175660,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "867f403524ca8d312f5a55781515a59350f22474e3a29a8b995e092c736d445a",
+        "git_blob_sha": "6ef48182fcf489c173904ecefe1c06617f071f26"
+      }
+    },
+    {
+      "drive_file_id": "1xXp5uvgBoRmp0-S4MV6i4Yi_1M_yshQv",
+      "source_label": "UNUM - AIDA {HIGH RES} (13)",
+      "role": "front wardrobe view",
+      "original": {
+        "width": 8688,
+        "height": 5792
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-front-02.webp",
+        "bytes": 290146,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "c8763220e48da60f3bab7bdf9465cb307584765afe96c65a148911b62f46b0f4",
+        "git_blob_sha": "56b24160ca54883260ce99b8e87275d35bf68426"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-front-02.avif",
+        "bytes": 202002,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "390da4097c1360cc40be10738b7850ce7053dbd347792e75a5b5cc8612b6a4ba",
+        "git_blob_sha": "0a95f7eea63f45ffe5ce8fd2dae089be0a74a2b3"
+      }
+    },
+    {
+      "drive_file_id": "1DF4zqkcxDSkakQ7iwgy1nZmB1TlvS95t",
+      "source_label": "UNUM - AIDA {HIGH RES} (14)",
+      "role": "mirrored door detail",
+      "original": {
+        "width": 5792,
+        "height": 8688
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-door-detail-03.webp",
+        "bytes": 139376,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "7d5f7897ed2137ca8eebb992e19903c628ed68c15109d81b73b87d4f7b8623be",
+        "git_blob_sha": "13249dae2c2c6a2f8286b706b5b85e9b05d9be08"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-door-detail-03.avif",
+        "bytes": 97612,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "eaa34f57aa870548a2440ab3641df69854bfd189e3db14dac9069e88d01f2e47",
+        "git_blob_sha": "089b37aad692b216e77f0ff8da5e8ffac2295693"
+      }
+    },
+    {
+      "drive_file_id": "1Nf2axLb2Q3hTIQL8mGov7_uMEzWk3sqT",
+      "source_label": "UNUM - AIDA {HIGH RES} (15)",
+      "role": "wardrobe junction detail",
+      "original": {
+        "width": 8688,
+        "height": 5792
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-junction-04.webp",
+        "bytes": 174080,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "21f0d2a36bc8cff852899240820f54a2e32d6f2f78a902a5a550f57ba959c6b3",
+        "git_blob_sha": "75022f38ea88dd4c06c908a3c3f27a7c91af5820"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-junction-04.avif",
+        "bytes": 122030,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "aba297197766f08edc75fba8903111ce7a6bb827a1c0b217bca796107e5cdfb2",
+        "git_blob_sha": "bcb38183a12ee6c0b2372a99b5dd7ced1838044d"
+      }
+    },
+    {
+      "drive_file_id": "1PJ2TcDofrnr74dfjdkXtBKSaD59_o7Jw",
+      "source_label": "UNUM - AIDA {HIGH RES} (16)",
+      "role": "wardrobe detail view",
+      "original": {
+        "width": 5792,
+        "height": 8688
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-detail-05.webp",
+        "bytes": 145600,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "3572e387a6725d70196094a9e03b85c6021dbba1300a4a5f59bda2c21a476835",
+        "git_blob_sha": "b345a853d8e8fe4714b7d3bc610e62da8a335df5"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-detail-05.avif",
+        "bytes": 78531,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "8dc9a10f5f5328bb5956bf05a97c0440f09769b13906950dcf0a85fa9dc4ffeb",
+        "git_blob_sha": "b16c05fd89984818ba493f98f65d5e09bd0589b5"
+      }
+    }
+  ]
+}
