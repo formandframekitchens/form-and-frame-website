@@ -1,35 +1,5 @@
 {
   "schema_version": 1,
-  "enabled": true,
-  "project": "G42 — 8 Leys Road Kids Room TV Unit",
-  "slug": "8-leys-road-kids-room-tv-unit",
-  "max_long_edge": 2000,
-  "min_long_edge": 1200,
-  "webp_quality": 84,
-  "avif_quality": 58,
-  "webp_target_bytes": 500000,
-  "avif_target_bytes": 400000,
-  "images": [
-    {
-      "drive_file_id": "1WdWqC8OGm7iA1jfLj5w-y35J7KhiInWm",
-      "source_label": "z0028.jpg",
-      "role": "overall kids room TV unit view",
-      "output_stem": "8-leys-kids-room-tv-unit-overall-01",
-      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-50b4-81f4-a693-11e91ba5244a/raw?se=2026-10-03T12%3A26%3A54Z&sp=r&sv=2026-02-06&sr=b&scid=8e9f0e84-c7a0-53ef-b6c5-2fd45ad10de5&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A12%3A14Z&ske=2026-10-04T05%3A12%3A14Z&sks=b&skv=2026-02-06&sig=eT6ypo9%2BbmzedZs0YVlaLtfhMK9idvJdP8iBBkE99nU%3D"
-    },
-    {
-      "drive_file_id": "1sFq4xU1WU4vOMIbJbONrtx21XIn2Azld",
-      "source_label": "z0032.jpg",
-      "role": "kids room TV unit detail",
-      "output_stem": "8-leys-kids-room-tv-unit-detail-02",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-5a7c-8210-a2cb-806484759af3/raw?se=2026-10-03T12%3A26%3A52Z&sp=r&sv=2026-02-06&sr=b&scid=6d2c5f12-30bf-5bf8-9f24-1fcb61ee14bb&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A46%3A55Z&ske=2026-10-04T08%3A46%3A55Z&sks=b&skv=2026-02-06&sig=PO5LWRM2yuGVxwt1Uf5FDBDV6PAEXyKk3q4ZEzrxDFo%3D"
-    },
-    {
-      "drive_file_id": "1bGJnk69vxj99bgaZy5iQ5qdpFVSQjB8K",
-      "source_label": "z0031.jpg",
-      "role": "kids room cabinetry view",
-      "output_stem": "8-leys-kids-room-tv-unit-cabinetry-03",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-f390-8210-a847-bdcbcb0a0260/raw?se=2026-10-03T12%3A26%3A55Z&sp=r&sv=2026-02-06&sr=b&scid=22f7005b-40f6-5149-8472-9c4f481fc6e5&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A58%3A13Z&ske=2026-10-04T06%3A58%3A13Z&sks=b&skv=2026-02-06&sig=VeUwuRQ%2BN8RsXvmebRLF9kLM82KuBY1Z0b/fkFmjTSs%3D"
-    }
-  ]
+  "enabled": false,
+  "last_completed_slug": "8-leys-road-kids-room-tv-unit"
 }
