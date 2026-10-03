@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "project": "G53 \u2014 Stourcliff White Handleless Kitchen",
+  "slug": "stourcliff-white-handleless-kitchen",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1y2aA7C4k5O3aLFJNR_3b-4JKFVTlh-3b",
+      "source_label": "UNUM - AIDA {HIGH RES} (33)",
+      "role": "overall kitchen view",
+      "original": {
+        "width": 7861,
+        "height": 5792
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-overall-01.webp",
+        "bytes": 25390,
+        "quality": 84,
+        "width": 2000,
+        "height": 1474,
+        "sha256": "98ce723f0ef985d56f5bc25b2b19ad46e83fb417d5110437bdc6a3bd25090454",
+        "git_blob_sha": "d81b75848e871e60ade46c98985d8e5081db8046"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-overall-01.avif",
+        "bytes": 18720,
+        "quality": 58,
+        "width": 2000,
+        "height": 1474,
+        "sha256": "c6e9feb171336c9d4af1295510904527b884d01cb49f4a79f990e8ad80a5792b",
+        "git_blob_sha": "f69f8768eb8d42616581e082d8de4131d9dead18"
+      }
+    },
+    {
+      "drive_file_id": "1YC4AjLci7z7Ms5dmylvjXJKYrSvlc2RS",
+      "source_label": "UNUM - AIDA {HIGH RES} (34)",
+      "role": "kitchen room view",
+      "original": {
+        "width": 6408,
+        "height": 4272
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-room-view-02.webp",
+        "bytes": 45538,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "837b94cf46b5dcd7a5161e8d3d46874b94882d043574155376ac4673ca48c065",
+        "git_blob_sha": "3de7e7b4b1776a463627c1d3ededabf864b08637"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-room-view-02.avif",
+        "bytes": 29484,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "f6dc2d3acdf7ede30da5b645d71fbd31894df565a6fcb6e3ac86ef2334a27122",
+        "git_blob_sha": "2b01582ab10773cae7d97997131dfed139960973"
+      }
+    },
+    {
+      "drive_file_id": "1C4_U-uQnnc6Ia64ScsJ2GrfpU_Oe5j-H",
+      "source_label": "UNUM - AIDA {HIGH RES} (35)",
+      "role": "kitchen cabinetry view",
+      "original": {
+        "width": 8407,
+        "height": 5792
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-cabinetry-03.webp",
+        "bytes": 27650,
+        "quality": 84,
+        "width": 2000,
+        "height": 1378,
+        "sha256": "89252eb5b2eaeb72dce44a5b3049cbcf46be6fb1b452ddfabd752886ff477590",
+        "git_blob_sha": "5117012195660f266d17cba11d87998a78a1a123"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-cabinetry-03.avif",
+        "bytes": 19186,
+        "quality": 58,
+        "width": 2000,
+        "height": 1378,
+        "sha256": "cc612e2423f05a8d9561932b9a4bb1ae4e9e998dc365d8b92a6a363761bdb225",
+        "git_blob_sha": "ec58c23719b9b90cb70d1a35d88ef0399cd09a0c"
+      }
+    },
+    {
+      "drive_file_id": "1NHI5QMhrLPbedldphw3U0bjGyAurtMD5",
+      "source_label": "UNUM - AIDA {HIGH RES} (36)",
+      "role": "kitchen worktop and cabinetry view",
+      "original": {
+        "width": 5366,
+        "height": 8026
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-worktop-04.webp",
+        "bytes": 65386,
+        "quality": 84,
+        "width": 1337,
+        "height": 2000,
+        "sha256": "cc19642f2c7ee300808499a43ebaf467a1aa99acb4020e0f1d894cb635ddb349",
+        "git_blob_sha": "9f94b02cc45ce5d8190ff47fd451567eae9e20c3"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-worktop-04.avif",
+        "bytes": 39770,
+        "quality": 58,
+        "width": 1337,
+        "height": 2000,
+        "sha256": "65ad53ee3d1eaa67c9e5697acc9b41659a5a924363161b6ccb6ae963391b6cfb",
+        "git_blob_sha": "8682c978d955aec61bd305f466a85c9a168b8147"
+      }
+    },
+    {
+      "drive_file_id": "1FD9TjK2ondsign9FdxJRLzvxrzWFaeJy",
+      "source_label": "UNUM - AIDA {HIGH RES} (37)",
+      "role": "kitchen detail view",
+      "original": {
+        "width": 4989,
+        "height": 6106
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-05.webp",
+        "bytes": 28320,
+        "quality": 84,
+        "width": 1634,
+        "height": 2000,
+        "sha256": "e076259572275cee13a4a2c79b848fa6d1eda7d11e1b0f3da5e33e4c28d8c41e",
+        "git_blob_sha": "ee0646719d58e6d4b503316ba291ad1608d643a4"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-05.avif",
+        "bytes": 17821,
+        "quality": 58,
+        "width": 1634,
+        "height": 2000,
+        "sha256": "73b5c8218e77c0234748ef58b09270a01651276ec60a397ba12a0c1aa5b7bfec",
+        "git_blob_sha": "a4a43c07c74a59ad58ff29102b02b8722222021d"
+      }
+    },
+    {
+      "drive_file_id": "1gL1ORX00ZyK1-svi2UeYe_r8ptmQfzyZ",
+      "source_label": "UNUM - AIDA {HIGH RES} (38)",
+      "role": "kitchen cabinet alignment detail",
+      "original": {
+        "width": 7360,
+        "height": 4912
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-alignment-06.webp",
+        "bytes": 75040,
+        "quality": 84,
+        "width": 2000,
+        "height": 1335,
+        "sha256": "d130dc5f2d6e8e0778f717be13fe8743fea90b0e7977397bfcb9b28f69721bbe",
+        "git_blob_sha": "ae9b58ce20d481f57a85bb6b220f1bb81521d22e"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-alignment-06.avif",
+        "bytes": 47984,
+        "quality": 58,
+        "width": 2000,
+        "height": 1335,
+        "sha256": "6af0263fc36b2ce1aeca1ca4aaa9d5ad6f83efb33119037ad2f4b4635f3119e2",
+        "git_blob_sha": "60599ad5525016907980649546817727212aeff1"
+      }
+    },
+    {
+      "drive_file_id": "1M2TgyZODh77WIoO1wqZhbRcccKVLAFN-",
+      "source_label": "UNUM - AIDA {HIGH RES} (39)",
+      "role": "kitchen appliance and cabinetry view",
+      "original": {
+        "width": 7132,
+        "height": 4714
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-appliance-view-07.webp",
+        "bytes": 48866,
+        "quality": 84,
+        "width": 2000,
+        "height": 1322,
+        "sha256": "e836c554d764b22d7d2cf8c7bb63b778084ee563ffced98e0dcc1ddb191f7d82",
+        "git_blob_sha": "4e8622e9bbab47b650b52deb7f9d9a887d7f72f1"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-appliance-view-07.avif",
+        "bytes": 37791,
+        "quality": 58,
+        "width": 2000,
+        "height": 1322,
+        "sha256": "8b5b6373a7f6a321416e2498c5d70823c29f5b9997513fe19d8934cdfc59a119",
+        "git_blob_sha": "ed6300e1d86ac646c7c94168a9eac2a69241ac59"
+      }
+    },
+    {
+      "drive_file_id": "1j--k0k5_OnZ32AbfjO1uOGWfa7Qy0eKT",
+      "source_label": "UNUM - AIDA {HIGH RES} (40)",
+      "role": "kitchen counter detail",
+      "original": {
+        "width": 4912,
+        "height": 7360
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-counter-detail-08.webp",
+        "bytes": 44776,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "249c826866aeb224546ea9f076f0bac34e81635e28114f5ff7e769c360ecd87f",
+        "git_blob_sha": "5aa2d07513845bdc685bf8d518603f04d46caa5a"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-counter-detail-08.avif",
+        "bytes": 33203,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "529928e89dfc7fe42b1066960d32d1ce95ab8b14cb5c09ed08985705fd4e38f2",
+        "git_blob_sha": "b7242623887ec038d025c4153e76305c01c131e8"
+      }
+    },
+    {
+      "drive_file_id": "1ugAZpMXHhvzu931PK-pt240bJd5YRvej",
+      "source_label": "UNUM - AIDA {HIGH RES} (41)",
+      "role": "kitchen fitted unit detail",
+      "original": {
+        "width": 4579,
+        "height": 6043
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-fitted-detail-09.webp",
+        "bytes": 64146,
+        "quality": 84,
+        "width": 1515,
+        "height": 2000,
+        "sha256": "4e67ffbd39ed0cc36575365df17445519bb461fdc306518474c819a35b7f2122",
+        "git_blob_sha": "a6deb8317e8414ad93d53f6059a54e6e81e0704e"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-fitted-detail-09.avif",
+        "bytes": 43119,
+        "quality": 58,
+        "width": 1515,
+        "height": 2000,
+        "sha256": "319af79615f27aa5a3262916432e34d4a71c9085dcf677a8767a1974cfcf103c",
+        "git_blob_sha": "acbe548a5f18ba71314d4081159c353c6cf5c021"
+      }
+    },
+    {
+      "drive_file_id": "19MYGUPepZ67tHVYGWY1HMqApuKQhuXnw",
+      "source_label": "UNUM - AIDA {HIGH RES} (42)",
+      "role": "kitchen detail",
+      "original": {
+        "width": 4579,
+        "height": 6043
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-10.webp",
+        "bytes": 47606,
+        "quality": 84,
+        "width": 1515,
+        "height": 2000,
+        "sha256": "56bbbc577fb942afdded79b582c93daa4bd260b7f50b4384b655f2f3f7cbe49d",
+        "git_blob_sha": "0d944715346a76a282cf87ad3b8f96d99b89f1f3"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-10.avif",
+        "bytes": 32984,
+        "quality": 58,
+        "width": 1515,
+        "height": 2000,
+        "sha256": "51a472f1814e06f20c6a9e897204bf9a1f97a7dfa20a95a5fe71e68e6ce3a519",
+        "git_blob_sha": "a22223392c1377599a72cc4065e6d2f2932fbb89"
+      }
+    },
+    {
+      "drive_file_id": "1BBpASYGaabcwD9HXWH81f2zdTDPMIlIi",
+      "source_label": "UNUM - AIDA {HIGH RES} (43)",
+      "role": "kitchen detail",
+      "original": {
+        "width": 4579,
+        "height": 6043
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-11.webp",
+        "bytes": 55784,
+        "quality": 84,
+        "width": 1515,
+        "height": 2000,
+        "sha256": "bdff8bec4bd7774d9bc1e9e683b0034e31310fae8c229731654fc69b6d9df8c0",
+        "git_blob_sha": "5020a32fe76807b87afd91ff5a431689e1d9f16d"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-11.avif",
+        "bytes": 37589,
+        "quality": 58,
+        "width": 1515,
+        "height": 2000,
+        "sha256": "48073501caec9cb418fe478a90ef9b3d6b6f4bcdbd5cbe4a65a68371c618439f",
+        "git_blob_sha": "614aa902a4f5008ff85a8a533350107bee36d81d"
+      }
+    },
+    {
+      "drive_file_id": "1_RM_gvYbUqbP5lpt5y097EYoD3lCr71Q",
+      "source_label": "UNUM - AIDA {HIGH RES} (44)",
+      "role": "kitchen final detail",
+      "original": {
+        "width": 5284,
+        "height": 7871
+      },
+      "webp": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-12.webp",
+        "bytes": 39196,
+        "quality": 84,
+        "width": 1343,
+        "height": 2000,
+        "sha256": "2fbf4bbe937dfdad363128c6b4d9b9cd7c9d46d2ae895e56d6fcb3b5eb1a6839",
+        "git_blob_sha": "8bac521f8167da11c91735c6f233c7b70cece910"
+      },
+      "avif": {
+        "path": "public/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-12.avif",
+        "bytes": 25565,
+        "quality": 58,
+        "width": 1343,
+        "height": 2000,
+        "sha256": "a1b7378ba517fad109a1202de722ec2f769588c0995465d903534b6cc7e0b0ca",
+        "git_blob_sha": "0c297a2d429bfad9074ba4fc170f99d7c46894f1"
+      }
+    }
+  ]
+}

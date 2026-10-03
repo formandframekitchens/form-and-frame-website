@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G53 — Stourcliff White Handleless Kitchen",
+  "slug": "stourcliff-white-handleless-kitchen",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1y2aA7C4k5O3aLFJNR_3b-4JKFVTlh-3b",
+      "source_label": "UNUM - AIDA {HIGH RES} (33)",
+      "role": "overall kitchen view",
+      "output_stem": "stourcliff-white-kitchen-overall-01"
+    },
+    {
+      "drive_file_id": "1YC4AjLci7z7Ms5dmylvjXJKYrSvlc2RS",
+      "source_label": "UNUM - AIDA {HIGH RES} (34)",
+      "role": "kitchen room view",
+      "output_stem": "stourcliff-white-kitchen-room-view-02"
+    },
+    {
+      "drive_file_id": "1C4_U-uQnnc6Ia64ScsJ2GrfpU_Oe5j-H",
+      "source_label": "UNUM - AIDA {HIGH RES} (35)",
+      "role": "kitchen cabinetry view",
+      "output_stem": "stourcliff-white-kitchen-cabinetry-03"
+    },
+    {
+      "drive_file_id": "1NHI5QMhrLPbedldphw3U0bjGyAurtMD5",
+      "source_label": "UNUM - AIDA {HIGH RES} (36)",
+      "role": "kitchen worktop and cabinetry view",
+      "output_stem": "stourcliff-white-kitchen-worktop-04"
+    },
+    {
+      "drive_file_id": "1FD9TjK2ondsign9FdxJRLzvxrzWFaeJy",
+      "source_label": "UNUM - AIDA {HIGH RES} (37)",
+      "role": "kitchen detail view",
+      "output_stem": "stourcliff-white-kitchen-detail-05"
+    },
+    {
+      "drive_file_id": "1gL1ORX00ZyK1-svi2UeYe_r8ptmQfzyZ",
+      "source_label": "UNUM - AIDA {HIGH RES} (38)",
+      "role": "kitchen cabinet alignment detail",
+      "output_stem": "stourcliff-white-kitchen-alignment-06"
+    },
+    {
+      "drive_file_id": "1M2TgyZODh77WIoO1wqZhbRcccKVLAFN-",
+      "source_label": "UNUM - AIDA {HIGH RES} (39)",
+      "role": "kitchen appliance and cabinetry view",
+      "output_stem": "stourcliff-white-kitchen-appliance-view-07"
+    },
+    {
+      "drive_file_id": "1j--k0k5_OnZ32AbfjO1uOGWfa7Qy0eKT",
+      "source_label": "UNUM - AIDA {HIGH RES} (40)",
+      "role": "kitchen counter detail",
+      "output_stem": "stourcliff-white-kitchen-counter-detail-08"
+    },
+    {
+      "drive_file_id": "1ugAZpMXHhvzu931PK-pt240bJd5YRvej",
+      "source_label": "UNUM - AIDA {HIGH RES} (41)",
+      "role": "kitchen fitted unit detail",
+      "output_stem": "stourcliff-white-kitchen-fitted-detail-09"
+    },
+    {
+      "drive_file_id": "19MYGUPepZ67tHVYGWY1HMqApuKQhuXnw",
+      "source_label": "UNUM - AIDA {HIGH RES} (42)",
+      "role": "kitchen detail",
+      "output_stem": "stourcliff-white-kitchen-detail-10"
+    },
+    {
+      "drive_file_id": "1BBpASYGaabcwD9HXWH81f2zdTDPMIlIi",
+      "source_label": "UNUM - AIDA {HIGH RES} (43)",
+      "role": "kitchen detail",
+      "output_stem": "stourcliff-white-kitchen-detail-11"
+    },
+    {
+      "drive_file_id": "1_RM_gvYbUqbP5lpt5y097EYoD3lCr71Q",
+      "source_label": "UNUM - AIDA {HIGH RES} (44)",
+      "role": "kitchen final detail",
+      "output_stem": "stourcliff-white-kitchen-detail-12"
+    }
+  ]
+}
