@@ -1,5 +1,49 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "bespoke-media-wall-display-shelving"
+  "enabled": true,
+  "project": "G49 — Stourcliff Mirrored Wardrobes",
+  "slug": "stourcliff-mirrored-wardrobes",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1cZrlKQf5B8MURsiiFdTRLKsKT5Hhbgwm",
+      "source_label": "UNUM - AIDA {HIGH RES} (12)",
+      "role": "overall mirrored wardrobe view",
+      "output_stem": "stourcliff-mirrored-wardrobes-overall-01",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-61e8-81f4-847e-3a50e9889194/raw?se=2026-10-03T09%3A04%3A39Z&sp=r&sv=2026-02-06&sr=b&scid=12ca58c9-1e81-581f-8ca2-94c73b68c928&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T07%3A15%3A07Z&ske=2026-10-04T07%3A15%3A07Z&sks=b&skv=2026-02-06&sig=Kf/Ghk3hTSIkniTBpcRbPHBl50msm5ReylZiFWwS5zs%3D"
+    },
+    {
+      "drive_file_id": "1xXp5uvgBoRmp0-S4MV6i4Yi_1M_yshQv",
+      "source_label": "UNUM - AIDA {HIGH RES} (13)",
+      "role": "front wardrobe view",
+      "output_stem": "stourcliff-mirrored-wardrobes-front-02",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-0be4-8210-a5bd-ccdb08a6c64f/raw?se=2026-10-03T09%3A04%3A38Z&sp=r&sv=2026-02-06&sr=b&scid=0537068b-c38a-5c65-9bda-904b0bea8836&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T06%3A15%3A22Z&ske=2026-10-04T06%3A15%3A22Z&sks=b&skv=2026-02-06&sig=N9Le5lIyNGcF0kNlnBvpzp2CzEZubmJS6VIpHHZYzcw%3D"
+    },
+    {
+      "drive_file_id": "1DF4zqkcxDSkakQ7iwgy1nZmB1TlvS95t",
+      "source_label": "UNUM - AIDA {HIGH RES} (14)",
+      "role": "mirrored door detail",
+      "output_stem": "stourcliff-mirrored-wardrobes-door-detail-03",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-5644-8210-baf3-441bd09207fa/raw?se=2026-10-03T09%3A04%3A38Z&sp=r&sv=2026-02-06&sr=b&scid=72b8cefd-039f-58cc-a524-da8c358a497e&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T07%3A14%3A10Z&ske=2026-10-04T07%3A14%3A10Z&sks=b&skv=2026-02-06&sig=BK7W1yx1/hA0mATJQuL7yAwJJ02H48iEgcV4EuqI7hw%3D"
+    },
+    {
+      "drive_file_id": "1Nf2axLb2Q3hTIQL8mGov7_uMEzWk3sqT",
+      "source_label": "UNUM - AIDA {HIGH RES} (15)",
+      "role": "wardrobe junction detail",
+      "output_stem": "stourcliff-mirrored-wardrobes-junction-04",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-14e8-8210-976f-b4fa3476ce34/raw?se=2026-10-03T09%3A04%3A37Z&sp=r&sv=2026-02-06&sr=b&scid=8d4b383d-510d-5a98-beeb-bf925b6aad2f&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A49%3A37Z&ske=2026-10-04T05%3A49%3A37Z&sks=b&skv=2026-02-06&sig=w4jY9rfTbLQ90yBnXg7f0pn8nwVoES1o2wWd5BqGISY%3D"
+    },
+    {
+      "drive_file_id": "1PJ2TcDofrnr74dfjdkXtBKSaD59_o7Jw",
+      "source_label": "UNUM - AIDA {HIGH RES} (16)",
+      "role": "wardrobe detail view",
+      "output_stem": "stourcliff-mirrored-wardrobes-detail-05",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-2fe4-8210-8294-ea1d9188fe40/raw?se=2026-10-03T09%3A04%3A39Z&sp=r&sv=2026-02-06&sr=b&scid=3276c370-4f15-5dd0-a3fb-ad6c1fed7730&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A05%3A02Z&ske=2026-10-04T08%3A05%3A02Z&sks=b&skv=2026-02-06&sig=eU82QwXxOm5ND/mhTQx6iFBimYJq0nfVtedPcL%2BI1eI%3D"
+    }
+  ]
 }
