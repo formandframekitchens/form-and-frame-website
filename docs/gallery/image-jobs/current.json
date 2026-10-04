@@ -1,5 +1,63 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "8-leys-road-wine-cellar"
+  "enabled": true,
+  "project": "G40 Concealed Library Wall",
+  "slug": "concealed-library-wall",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1_8vE8f333lRcwJbNb4RPqSOZtMEOAznz",
+      "source_label": "_MG_0257.jpg",
+      "output_stem": "concealed-library-wall-overall-01",
+      "role": "cover",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-5000-8210-adc3-e792a13f4c58/raw?se=2026-10-04T14%3A21%3A16Z&sp=r&sv=2026-02-06&sr=b&scid=5981eba0-97f2-5e62-b25c-95e415c07140&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T07%3A24%3A21Z&ske=2026-10-05T07%3A24%3A21Z&sks=b&skv=2026-02-06&sig=lTUiVhgsr/yYMLFG5SSEQwNJpMTuIWNfvWlBS3rITCk%3D"
+    },
+    {
+      "drive_file_id": "1XyrUMz3_wllxXlvve4ip21KKIN8F9Sn9",
+      "source_label": "_MG_0256.jpg",
+      "output_stem": "concealed-library-wall-open-02",
+      "role": "overall",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-286c-81f4-be81-a6c5daab14bc/raw?se=2026-10-04T14%3A21%3A18Z&sp=r&sv=2026-02-06&sr=b&scid=d19109c1-45ff-5632-8217-1f6cb825c4dd&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T07%3A05%3A13Z&ske=2026-10-05T07%3A05%3A13Z&sks=b&skv=2026-02-06&sig=3CUvlvDk%2B2LBYbRMDlbQpLZ3NjuzederZjj4ZXmD8zI%3D"
+    },
+    {
+      "drive_file_id": "14nFEQMvv8cpTMVB5gFeSj1zNDxR7MZ2f",
+      "source_label": "_MG_0250.jpg",
+      "output_stem": "concealed-library-wall-panelled-03",
+      "role": "detail",
+      "source_url": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-a900-820a-971d-7534a36c7659/raw?se=2026-10-04T14%3A21%3A21Z&sp=r&sv=2026-02-06&sr=b&scid=5f43ba4c-afa8-5d62-bc6b-88be19119a4f&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T05%3A37%3A01Z&ske=2026-10-05T05%3A37%3A01Z&sks=b&skv=2026-02-06&sig=VdCD%2BEoVmcas3G6xuuI9ycj5c9ZmiU5vOgQbjHQxOhg%3D"
+    },
+    {
+      "drive_file_id": "1HBQO6SYgC7RZivxBcPOfryjtEf_IjfV6",
+      "source_label": "_MG_0251.jpg",
+      "output_stem": "concealed-library-wall-open-detail-04",
+      "role": "detail",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-8a78-8210-9077-5cbb5cbacfdb/raw?se=2026-10-04T14%3A21%3A23Z&sp=r&sv=2026-02-06&sr=b&scid=5ae07327-5afa-56b0-9f65-b0c98aae4570&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T06%3A17%3A04Z&ske=2026-10-05T06%3A17%3A04Z&sks=b&skv=2026-02-06&sig=1UMmus28AZuTi7zR2mDnv48Q5CBJSiV99/dEP3eh3gs%3D"
+    },
+    {
+      "drive_file_id": "1VNQdMUaloY22IgGB8xH74r5EeqzKznhi",
+      "source_label": "_MG_0249.jpg",
+      "output_stem": "concealed-library-wall-panel-detail-05",
+      "role": "detail",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-40b0-81f4-a5ba-905262c62077/raw?se=2026-10-04T14%3A21%3A26Z&sp=r&sv=2026-02-06&sr=b&scid=abc7a196-ae1a-57ab-a4a0-daa0208139a3&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T08%3A53%3A18Z&ske=2026-10-05T08%3A53%3A18Z&sks=b&skv=2026-02-06&sig=UvKxlcxOr8q911wJWvWMvUaCNsfQLM4Gvh7xdXMpuC8%3D"
+    },
+    {
+      "drive_file_id": "1BA6m40XVwmYhIfNFBiS2SND0W6LqR3v9",
+      "source_label": "_MG_0254.jpg",
+      "output_stem": "concealed-library-wall-room-06",
+      "role": "overall",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-09a0-8210-8241-72b6c9f97735/raw?se=2026-10-04T14%3A21%3A28Z&sp=r&sv=2026-02-06&sr=b&scid=ef89d468-1135-5819-9cc6-06c592706200&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T07%3A47%3A19Z&ske=2026-10-05T07%3A47%3A19Z&sks=b&skv=2026-02-06&sig=RVVf18DrCDw5DlnnjUfXNP9Zopp3gNczm43EZyYoMOk%3D"
+    },
+    {
+      "drive_file_id": "1uUWoFaV3MgnE2YECSiWpQc53Ngpe7oJF",
+      "source_label": "_MG_0261.jpg",
+      "output_stem": "concealed-library-wall-library-detail-07",
+      "role": "detail",
+      "source_url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-1d60-8243-bd8d-cbcc983423ef/raw?se=2026-10-04T14%3A21%3A30Z&sp=r&sv=2026-02-06&sr=b&scid=1fd6afea-a0de-591b-8586-acf2c8426199&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T07%3A25%3A21Z&ske=2026-10-05T07%3A25%3A21Z&sks=b&skv=2026-02-06&sig=elyfKS/kyJC316uxKA1wZ4geme%2BRxI5DFVU/tUj5/fI%3D"
+    }
+  ]
 }
