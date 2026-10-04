@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "project": "G58 — Garsdale Lane Mirrored Dressing Room with Island",
+  "slug": "garsdale-lane-mirrored-dressing-room-island",
+  "images": [
+    {
+      "drive_file_id": "1OasRztEhv2QBQZ7O1JadjCPbedNSKzFX",
+      "source_label": "Garsdale Lane 28.JPG",
+      "role": "overall mirrored dressing room and central island view",
+      "output_stem": "garsdale-mirrored-dressing-room-overall-01"
+    }
+  ]
+}
