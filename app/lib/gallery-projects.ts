@@ -3240,6 +3240,71 @@ export const galleryProjects: GalleryProject[] = [
   },
 
   {
+    galleryId: "G40",
+    slug: "dark-illuminated-alcove-bookcases-wall-panelling",
+    title: "Dark Illuminated Alcove Bookcases & Wall Panelling",
+    category: "Bespoke Joinery",
+    summary: "A dark fitted living-room composition with paired illuminated alcove bookcases, concealed lower storage and coordinated wall panelling around the fireplace.",
+    seoDescription: "Dark bespoke alcove bookcases and wall panelling by Form & Frame, with paired illuminated shelving, fitted lower storage and a coordinated fireplace composition.",
+    keywords: [
+      "bespoke alcove bookcases",
+      "illuminated fitted bookcases",
+      "dark fitted shelving",
+      "bespoke wall panelling",
+      "fireplace alcove joinery",
+      "made to measure bookcases",
+      "bespoke living room joinery",
+    ],
+    highlights: [
+      "Paired full-height alcove bookcases",
+      "Integrated display lighting",
+      "Concealed lower storage",
+      "Coordinated fireplace wall panelling",
+    ],
+    caseStudy: [
+      {
+        heading: "A symmetrical fitted composition around the fireplace",
+        body: [
+          "This project uses the two fireplace alcoves as a single coordinated joinery composition. Full-height bookcases sit on both sides, with lower closed storage and open display shelving above.",
+          "The dark finish continues across the surrounding wall panelling so the separate fitted elements read as one room-wide scheme rather than unrelated pieces of furniture.",
+        ],
+      },
+      {
+        heading: "The demanding part: keeping both sides visually balanced",
+        body: [
+          "Paired alcove furniture makes differences in level, spacing and proportion easy to see because each side is read against the other.",
+          "Accurate setting out keeps shelf lines, cabinet widths and the relationship to the central fireplace visually controlled across the complete elevation.",
+        ],
+      },
+      {
+        heading: "Integrated display lighting",
+        body: [
+          "Lighting is built into the open shelving to bring depth to the darker joinery and to define the display areas after dark.",
+          "Keeping the lighting consistent across both bookcases helps reinforce the symmetry of the fitted composition.",
+        ],
+      },
+      {
+        heading: "The finished result",
+        body: [
+          "The completed wall combines display shelving, concealed storage and architectural panelling within one restrained fitted scheme.",
+          "For similar alcove bookcases and living-room joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
+        ],
+      },
+    ],
+    cover: {
+      src: "/images/gallery/dark-illuminated-alcove-bookcases-wall-panelling/dark-alcove-bookcases-overall-01.webp",
+      alt: "Dark illuminated alcove bookcases and wall panelling around a fireplace",
+      fit: "contain",
+    },
+    images: [
+      {
+        src: "/images/gallery/dark-illuminated-alcove-bookcases-wall-panelling/dark-alcove-bookcases-overall-01.webp",
+        alt: "Overall room view of paired dark illuminated alcove bookcases and wall panelling",
+        fit: "contain",
+      },
+    ],
+  },
+  {
     galleryId: "G41",
     slug: "esher-luxury-residence-walk-in-wardrobe",
     title: "Esher Luxury Residence — Walk-In Wardrobe",
