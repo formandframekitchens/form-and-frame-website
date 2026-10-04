@@ -94,7 +94,7 @@ When a lane fuse fires:
 | G37 | Belgravia Walk-In Wardrobe | LIVE | 6 mapped HIGH RES originals; 12/12 generated assets verified; PR #56 merged; preview and production routes verified |
 | G38 | Belgravia Dining Room & TV Furniture | LIVE | 7 mapped HIGH RES originals; 14/14 generated assets verified; PR #57 merged; preview and production routes verified |
 | G39 | Belgravia Master Bedroom Furniture | LIVE | 7 mapped HIGH RES originals; 14/14 generated assets verified; PR #58 merged; preview and production routes verified |
-| G40 | CLEARED FOR REASSIGNMENT | MERGED INTO G35 / RESERVED EMPTY | Former Belgravia Leather Wardrobe merged into G35 by owner instruction; old URL redirects to G35; G40 may be assigned to a new distinct project |
+| G40 | Dark Illuminated Alcove Bookcases & Wall Panelling | INTEGRATING | 1 high-resolution overall source; 2/2 generated assets SHA-verified; full-room cover selected; awaiting preview/PR/production verification |
 | G41 | Esher Luxury Residence — Walk-In Wardrobe | LIVE | 7 mapped HIGH RES originals; 14/14 generated assets verified; PR #60 merged; gallery record restored by PR #64 integrity repair; final production route verified |
 | G42 | Esher Luxury Residence — Kids Room TV Unit | LIVE | 3 mapped HIGH RES originals; 6/6 generated assets verified; PR #61 merged; gallery record restored by PR #64 integrity repair; final production route verified |
 | G43 | Esher Luxury Residence — Home Office | LIVE | 6 mapped HIGH RES originals; 12/12 generated assets verified; PR #62 merged; gallery record restored by PR #64 integrity repair; final production route verified |
