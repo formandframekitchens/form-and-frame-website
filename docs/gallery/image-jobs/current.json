@@ -1,5 +1,42 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "8-leys-road-wine-cellar"
+  "enabled": true,
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "project": "G59 — Illuminated White Shoe-Storage Wall",
+  "slug": "illuminated-white-shoe-storage-wall",
+  "images": [
+    {
+      "drive_file_id": "1TuwQPHNWYHBOLAewYIhAX-idDOmMrbma",
+      "source_label": "IMG.jpg",
+      "role": "overall illuminated white shoe-storage wall",
+      "output_stem": "white-shoe-storage-overall-01",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-145c-81f4-80bd-5ad96b628114/raw?se=2026-10-04T12%3A30%3A33Z&sp=r&sv=2026-02-06&sr=b&scid=d83277e9-707e-5a22-9440-8c20c7beff62&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T08%3A14%3A04Z&ske=2026-10-05T08%3A14%3A04Z&sks=b&skv=2026-02-06&sig=DDP0C1/CbGTAp83O9Bk88R%2B8Cc034/ZxMyFPuv9LMRg%3D"
+    },
+    {
+      "drive_file_id": "16DgJl3erTk6JnuYAQwwR97xZ5si4TXn8",
+      "source_label": "IMG 3.jpg",
+      "role": "angled overall shoe-storage view",
+      "output_stem": "white-shoe-storage-angle-02",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-21c8-8210-bebf-72bc83313711/raw?se=2026-10-04T12%3A30%3A34Z&sp=r&sv=2026-02-06&sr=b&scid=bfc2f84f-e5d9-5188-b48a-a9cf55dfda39&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T07%3A24%3A21Z&ske=2026-10-05T07%3A24%3A21Z&sks=b&skv=2026-02-06&sig=emawZZygGEZOO%2BCvkVdqgYjZMbSVd1WGE774Dp%2BhZzE%3D"
+    },
+    {
+      "drive_file_id": "1BYbfjcBkn5qf4CwE9QwmggTcSgdzM0jX",
+      "source_label": "IMG 2.jpg",
+      "role": "integrated shelf lighting detail",
+      "output_stem": "white-shoe-storage-lighting-03",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-3420-8210-ae18-dbe42f63a38f/raw?se=2026-10-04T12%3A30%3A34Z&sp=r&sv=2026-02-06&sr=b&scid=ef61bc97-b058-52ec-8bca-07c29f1c8114&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T04%3A53%3A00Z&ske=2026-10-05T04%3A53%3A00Z&sks=b&skv=2026-02-06&sig=GmlDoebVAIoHnPtNAx%2Bib6ImpaW15QbSdvEbFjgcCeA%3D"
+    },
+    {
+      "drive_file_id": "1rZNBdd8tfDnbpM1orYVlqVOJ0j6p6kXC",
+      "source_label": "IMG 1.jpg",
+      "role": "shelf and shoe detail",
+      "output_stem": "white-shoe-storage-detail-04",
+      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-2848-8210-8822-097c5926d481/raw?se=2026-10-04T12%3A30%3A34Z&sp=r&sv=2026-02-06&sr=b&scid=880dad61-db1f-5fe5-bd77-0eb83bf18f75&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T07%3A05%3A10Z&ske=2026-10-05T07%3A05%3A10Z&sks=b&skv=2026-02-06&sig=mjsf4%2BBWCem859426ofhmYLZlzvjQsFituM9az4ND/o%3D"
+    }
+  ]
 }
