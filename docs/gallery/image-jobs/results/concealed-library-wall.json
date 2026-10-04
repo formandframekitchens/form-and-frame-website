@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "project": "G40 Concealed Library Wall",
+  "slug": "concealed-library-wall",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1_8vE8f333lRcwJbNb4RPqSOZtMEOAznz",
+      "source_label": "_MG_0257.jpg",
+      "role": "cover",
+      "original": {
+        "width": 5403,
+        "height": 3647
+      },
+      "webp": {
+        "path": "public/images/gallery/concealed-library-wall/concealed-library-wall-overall-01.webp",
+        "bytes": 190172,
+        "quality": 84,
+        "width": 2000,
+        "height": 1350,
+        "sha256": "8b30350e8ed78995bf424d8f4eef181a2619dde7c254eca389a28cbcffc33779",
+        "git_blob_sha": "1e7b29d8203032cc3a9ea5ef9f4c91c34b20dd15"
+      },
+      "avif": {
+        "path": "public/images/gallery/concealed-library-wall/concealed-library-wall-overall-01.avif",
+        "bytes": 123892,
+        "quality": 58,
+        "width": 2000,
+        "height": 1350,
+        "sha256": "e126ff5a3972fb407cee23dbe525ed3410bad0de75deffc6b0fc8e4b0e977822",
+        "git_blob_sha": "9aa4b036db3a72482bfaf5ee244cda57c026d533"
+      }
+    },
+    {
+      "drive_file_id": "1XyrUMz3_wllxXlvve4ip21KKIN8F9Sn9",
+      "source_label": "_MG_0256.jpg",
+      "role": "overall",
+      "original": {
+        "width": 5403,
+        "height": 3647
+      },
+      "webp": {
+        "path": "public/images/gallery/concealed-library-wall/concealed-library-wall-open-02.webp",
+        "bytes": 68042,
+        "quality": 84,
+        "width": 2000,
+        "height": 1350,
+        "sha256": "d3b944b7c0c54a17c63c5d2da95de3494f92fc1f94d460d29ada3fda0b56c551",
+        "git_blob_sha": "ef63fc41db1808040cd6af08bd8c077c085d46e6"
+      },
+      "avif": {
+        "path": "public/images/gallery/concealed-library-wall/concealed-library-wall-open-02.avif",
+        "bytes": 43970,
+        "quality": 58,
+        "width": 2000,
+        "height": 1350,
+        "sha256": "e2fe725ac0fcd120fe836b80777ff29f491c76799618e7f8de803186b3415e34",
+        "git_blob_sha": "d5b188e6616735fa6e311ca1c0eca290bb36abb5"
+      }
+    },
+    {
+      "drive_file_id": "14nFEQMvv8cpTMVB5gFeSj1zNDxR7MZ2f",
+      "source_label": "_MG_0250.jpg",
+      "role": "detail",
+      "original": {
+        "width": 5507,
+        "height": 3678
+      },
+      "webp": {
+        "path": "public/images/gallery/concealed-library-wall/concealed-library-wall-panelled-03.webp",
+        "bytes": 236342,
+        "quality": 84,
+        "width": 2000,
+        "height": 1336,
+        "sha256": "4bd29fc12610f4e679c92c0b0a7df5995e69f3742c604ffed55fa0af03f1fcbe",
+        "git_blob_sha": "c6d396a3b3a7332c37262fe627ca334c79c2b25b"
+      },
+      "avif": {
+        "path": "public/images/gallery/concealed-library-wall/concealed-library-wall-panelled-03.avif",
+        "bytes": 150112,
+        "quality": 58,
+        "width": 2000,
+        "height": 1336,
+        "sha256": "45152aa84969581cb457694e6336eddd41f701856fa1bbab3c2eee4771f836d9",
+        "git_blob_sha": "ba227a6a870262e8b415d3efdb3bbce6e536a38d"
+      }
+    },
+    {
+      "drive_file_id": "1HBQO6SYgC7RZivxBcPOfryjtEf_IjfV6",
+      "source_label": "_MG_0251.jpg",
+      "role": "detail",
+      "original": {
+        "width": 5507,
+        "height": 3678
+      },
+      "webp": {
+        "path": "public/images/gallery/concealed-library-wall/concealed-library-wall-open-detail-04.webp",
+        "bytes": 239752,
+        "quality": 84,
+        "width": 2000,
+        "height": 1336,
+        "sha256": "65d512d31fadaa7c9235c874049f2ed1bdb05906c2f9831516c0b7fb158fda82",
+        "git_blob_sha": "8bad844749c344630930e0c0a514cc59f6c497b8"
+      },
+      "avif": {
+        "path": "public/images/gallery/concealed-library-wall/concealed-library-wall-open-detail-04.avif",
+        "bytes": 151360,
+        "quality": 58,
+        "width": 2000,
+        "height": 1336,
+        "sha256": "fc3e72b3c1afd74468fedcc071ad8e477418f4486d0015b5c17c549030342815",
+        "git_blob_sha": "37e8e7272b06d40836bf2709b49da5f50353ace9"
+      }
+    },
+    {
+      "drive_file_id": "1VNQdMUaloY22IgGB8xH74r5EeqzKznhi",
+      "source_label": "_MG_0249.jpg",
+      "role": "detail",
+      "original": {
+        "width": 5507,
+        "height": 3678
+      },
+      "webp": {
+        "path": "public/images/gallery/concealed-library-wall/concealed-library-wall-panel-detail-05.webp",
+        "bytes": 98944,
+        "quality": 84,
+        "width": 2000,
+        "height": 1336,
+        "sha256": "ea56586575554224a2c30c972f80ca014f67c495c154fefa379c8f6001346141",
+        "git_blob_sha": "e6a67e0e90c44eacf5b63b87f6d10c68eb2b4b68"
+      },
+      "avif": {
+        "path": "public/images/gallery/concealed-library-wall/concealed-library-wall-panel-detail-05.avif",
+        "bytes": 61878,
+        "quality": 58,
+        "width": 2000,
+        "height": 1336,
+        "sha256": "5a279358890548b33219886eaafc2286fb6a43e189be4794169261cca30f784d",
+        "git_blob_sha": "f4197d0fb8a42230bafeeffa31cc0e365e986f69"
+      }
+    },
+    {
+      "drive_file_id": "1BA6m40XVwmYhIfNFBiS2SND0W6LqR3v9",
+      "source_label": "_MG_0254.jpg",
+      "role": "overall",
+      "original": {
+        "width": 5403,
+        "height": 3647
+      },
+      "webp": {
+        "path": "public/images/gallery/concealed-library-wall/concealed-library-wall-room-06.webp",
+        "bytes": 88920,
+        "quality": 84,
+        "width": 2000,
+        "height": 1350,
+        "sha256": "75e0eb088bdee7e853e7a90a2fa57402cfa7535254de647ecf5450154d749f72",
+        "git_blob_sha": "fb8e11dd36d33c07115eb0bf47098c7da9d21b38"
+      },
+      "avif": {
+        "path": "public/images/gallery/concealed-library-wall/concealed-library-wall-room-06.avif",
+        "bytes": 56606,
+        "quality": 58,
+        "width": 2000,
+        "height": 1350,
+        "sha256": "d0090f110d703957b6ab820f96b19c4ff12c56696747891bbabba5882000ea5f",
+        "git_blob_sha": "4ec4e66df34c1765c504cbb3cbaf3e8f973d5365"
+      }
+    },
+    {
+      "drive_file_id": "1uUWoFaV3MgnE2YECSiWpQc53Ngpe7oJF",
+      "source_label": "_MG_0261.jpg",
+      "role": "detail",
+      "original": {
+        "width": 3744,
+        "height": 5616
+      },
+      "webp": {
+        "path": "public/images/gallery/concealed-library-wall/concealed-library-wall-library-detail-07.webp",
+        "bytes": 116616,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "457a2969b8d4177710b3376db1f746dea405aa6a4dbe547e2adb5b6ff5703038",
+        "git_blob_sha": "2cdefdbebd0b414799426ee25efa39068acefa9a"
+      },
+      "avif": {
+        "path": "public/images/gallery/concealed-library-wall/concealed-library-wall-library-detail-07.avif",
+        "bytes": 72929,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "4fc7b5cbebc7bd3826a0b8892d90a435daf16cc5aef158e37917cad4892dd863",
+        "git_blob_sha": "9f9e975fabc3af68df59cf100a6c209fa013cda0"
+      }
+    }
+  ]
+}

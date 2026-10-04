@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G40 Concealed Library Wall",
+  "slug": "concealed-library-wall",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1_8vE8f333lRcwJbNb4RPqSOZtMEOAznz",
+      "source_label": "_MG_0257.jpg",
+      "output_stem": "concealed-library-wall-overall-01",
+      "role": "cover"
+    },
+    {
+      "drive_file_id": "1XyrUMz3_wllxXlvve4ip21KKIN8F9Sn9",
+      "source_label": "_MG_0256.jpg",
+      "output_stem": "concealed-library-wall-open-02",
+      "role": "overall"
+    },
+    {
+      "drive_file_id": "14nFEQMvv8cpTMVB5gFeSj1zNDxR7MZ2f",
+      "source_label": "_MG_0250.jpg",
+      "output_stem": "concealed-library-wall-panelled-03",
+      "role": "detail"
+    },
+    {
+      "drive_file_id": "1HBQO6SYgC7RZivxBcPOfryjtEf_IjfV6",
+      "source_label": "_MG_0251.jpg",
+      "output_stem": "concealed-library-wall-open-detail-04",
+      "role": "detail"
+    },
+    {
+      "drive_file_id": "1VNQdMUaloY22IgGB8xH74r5EeqzKznhi",
+      "source_label": "_MG_0249.jpg",
+      "output_stem": "concealed-library-wall-panel-detail-05",
+      "role": "detail"
+    },
+    {
+      "drive_file_id": "1BA6m40XVwmYhIfNFBiS2SND0W6LqR3v9",
+      "source_label": "_MG_0254.jpg",
+      "output_stem": "concealed-library-wall-room-06",
+      "role": "overall"
+    },
+    {
+      "drive_file_id": "1uUWoFaV3MgnE2YECSiWpQc53Ngpe7oJF",
+      "source_label": "_MG_0261.jpg",
+      "output_stem": "concealed-library-wall-library-detail-07",
+      "role": "detail"
+    }
+  ]
+}
