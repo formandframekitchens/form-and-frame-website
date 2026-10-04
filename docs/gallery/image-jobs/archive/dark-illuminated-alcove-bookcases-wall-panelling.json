@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "project": "G40 — Dark Illuminated Alcove Bookcases & Wall Panelling",
+  "slug": "dark-illuminated-alcove-bookcases-wall-panelling",
+  "images": [
+    {
+      "drive_file_id": "1O-Z9yweWMbDd5OibnraOdfcvXyAncAZP",
+      "source_label": "h0024.jpg",
+      "role": "overall room view with paired illuminated alcove bookcases and wall panelling",
+      "output_stem": "dark-alcove-bookcases-overall-01"
+    }
+  ]
+}

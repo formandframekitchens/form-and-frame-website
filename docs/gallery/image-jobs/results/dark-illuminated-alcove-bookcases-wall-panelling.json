@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "project": "G40 \u2014 Dark Illuminated Alcove Bookcases & Wall Panelling",
+  "slug": "dark-illuminated-alcove-bookcases-wall-panelling",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1O-Z9yweWMbDd5OibnraOdfcvXyAncAZP",
+      "source_label": "h0024.jpg",
+      "role": "overall room view with paired illuminated alcove bookcases and wall panelling",
+      "original": {
+        "width": 6125,
+        "height": 4236
+      },
+      "webp": {
+        "path": "public/images/gallery/dark-illuminated-alcove-bookcases-wall-panelling/dark-alcove-bookcases-overall-01.webp",
+        "bytes": 325830,
+        "quality": 84,
+        "width": 2000,
+        "height": 1383,
+        "sha256": "03523c58f47a606a6a4e18fc6151562efc35dd8026d6bfcaa13e0f47e29cd10a",
+        "git_blob_sha": "e48c5ff15ef5e45a155fb574d9ecc177602eb207"
+      },
+      "avif": {
+        "path": "public/images/gallery/dark-illuminated-alcove-bookcases-wall-panelling/dark-alcove-bookcases-overall-01.avif",
+        "bytes": 214124,
+        "quality": 58,
+        "width": 2000,
+        "height": 1383,
+        "sha256": "4de6473c51a1457064894efe36ecb3df6f20e06590b41d87e84600edd4ede8c8",
+        "git_blob_sha": "9b2f01490df1d3ee7e5bece1ba9d3848226fa51e"
+      }
+    }
+  ]
+}
