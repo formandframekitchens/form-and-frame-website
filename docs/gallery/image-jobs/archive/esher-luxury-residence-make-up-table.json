@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G60 Esher Luxury Residence — Make-Up Table",
+  "slug": "esher-luxury-residence-make-up-table",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1I9Yk3yS8T5-Td0R49jaucj8nwVxxfFxO",
+      "source_label": "M0048.jpg",
+      "output_stem": "esher-luxury-residence-make-up-table-overall-01",
+      "role": "cover"
+    }
+  ]
+}
