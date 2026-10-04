@@ -1,49 +1,5 @@
 {
   "schema_version": 1,
-  "enabled": true,
-  "project": "G59 Traditional Radiator Covers & Fitted Shelving",
-  "slug": "traditional-radiator-covers-fitted-shelving",
-  "max_long_edge": 2000,
-  "min_long_edge": 1200,
-  "webp_quality": 84,
-  "avif_quality": 58,
-  "webp_target_bytes": 500000,
-  "avif_target_bytes": 400000,
-  "images": [
-    {
-      "drive_file_id": "1uB2fhOMozzj6E0VCEXv9ywotU-5N8biq",
-      "source_label": "_MG_9660.jpg",
-      "output_stem": "traditional-radiator-covers-shelving-overall-01",
-      "role": "cover",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-a93c-8210-b07a-4cc77f645c91/raw?se=2026-10-04T14%3A24%3A59Z&sp=r&sv=2026-02-06&sr=b&scid=37084f74-40b9-595c-a5f8-279c586aa7bf&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T07%3A25%3A16Z&ske=2026-10-05T07%3A25%3A16Z&sks=b&skv=2026-02-06&sig=L8Kf7JT5C4955PZjjIV5cWvbfqK/Mr/LmvJ51lapzDo%3D"
-    },
-    {
-      "drive_file_id": "1l77cQf2-XSWhRh1H0XRBfk1i0_7fupru",
-      "source_label": "_MG_9669.jpg",
-      "output_stem": "traditional-radiator-covers-shelving-overall-02",
-      "role": "overall",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-9788-8210-b55d-adacfa4bdb2e/raw?se=2026-10-04T14%3A24%3A58Z&sp=r&sv=2026-02-06&sr=b&scid=fbca2ec9-7d13-58f0-b03b-e4d34597b55c&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T06%3A32%3A18Z&ske=2026-10-05T06%3A32%3A18Z&sks=b&skv=2026-02-06&sig=DoOkEQgoN4BXmp0lrv6X94SJo2V0g0uUqCM9hQvvpSk%3D"
-    },
-    {
-      "drive_file_id": "1Qiq8hhBndiaEV2nV3kVl6_DaCRtfD2qo",
-      "source_label": "_MG_9637.jpg",
-      "output_stem": "traditional-radiator-covers-shelving-window-03",
-      "role": "overall",
-      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-726c-81f4-b203-d4849e172150/raw?se=2026-10-04T14%3A24%3A59Z&sp=r&sv=2026-02-06&sr=b&scid=1cb4fecd-ae09-519b-8448-7466cfd3f638&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T08%3A52%3A18Z&ske=2026-10-05T08%3A52%3A18Z&sks=b&skv=2026-02-06&sig=pDiA%2ByEc31WqYphmUbH0f29teQmZBFzA0%2BCorJMHCQ4%3D"
-    },
-    {
-      "drive_file_id": "1i2sxjVGce-OaQbPTx63I_3Vop8o83uMF",
-      "source_label": "_MG_9682.jpg",
-      "output_stem": "traditional-radiator-covers-shelving-detail-04",
-      "role": "detail",
-      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-95fc-81f4-b24f-c7655862e5b3/raw?se=2026-10-04T14%3A25%3A00Z&sp=r&sv=2026-02-06&sr=b&scid=b2f2127f-a02b-530a-95d6-3b7ebf24d486&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T08%3A52%3A19Z&ske=2026-10-05T08%3A52%3A19Z&sks=b&skv=2026-02-06&sig=oSgCuknPltBl40t3xvMZxEZ8OXpBLnJavSKz6BcCT4Q%3D"
-    },
-    {
-      "drive_file_id": "1_Ob2eEQSsJElD4QJfVSfohQ6eYS9gvGD",
-      "source_label": "_MG_9626.jpg",
-      "output_stem": "traditional-radiator-covers-shelving-detail-05",
-      "role": "detail",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-cd84-8210-bce1-221890c3a240/raw?se=2026-10-04T14%3A24%3A59Z&sp=r&sv=2026-02-06&sr=b&scid=45773a9e-480b-53f1-8f5d-4977ae2a90b1&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T08%3A52%3A57Z&ske=2026-10-05T08%3A52%3A57Z&sks=b&skv=2026-02-06&sig=Zhn4oR6/Rylw5p849PxE5LyfU078OF09Z73rCoQ9v/k%3D"
-    }
-  ]
+  "enabled": false,
+  "last_completed_slug": "traditional-radiator-covers-fitted-shelving"
 }
