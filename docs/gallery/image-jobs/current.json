@@ -1,49 +1,5 @@
 {
   "schema_version": 1,
-  "enabled": true,
-  "project": "G57 Full-Wall White Library Bookcase",
-  "slug": "full-wall-white-library-bookcase",
-  "max_long_edge": 2000,
-  "min_long_edge": 1200,
-  "webp_quality": 84,
-  "avif_quality": 58,
-  "webp_target_bytes": 500000,
-  "avif_target_bytes": 400000,
-  "images": [
-    {
-      "drive_file_id": "1g8-T2acU0kYav1MLxQ_MoD_PR_pCISJl",
-      "source_label": "_MG_0602print.jpg",
-      "output_stem": "full-wall-white-library-bookcase-overall-01",
-      "role": "cover",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-6910-8210-8517-a9c8f738bb81/raw?se=2026-10-04T14%3A23%3A24Z&sp=r&sv=2026-02-06&sr=b&scid=f73a50ed-71c8-5e94-87b7-dac064f2d351&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T18%3A52%3A08Z&ske=2026-10-04T18%3A52%3A08Z&sks=b&skv=2026-02-06&sig=MfDZN3JPFrE7MANHp5BsEkGpC05EUAkbDrHH5Cm3CCY%3D"
-    },
-    {
-      "drive_file_id": "1gN2dm3prM-k1mEkfppSWgfZ5kY2kJ1Jw",
-      "source_label": "_MG_0598print.jpg",
-      "output_stem": "full-wall-white-library-bookcase-room-02",
-      "role": "overall",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-0410-8210-8e44-58d06bdae04f/raw?se=2026-10-04T14%3A23%3A24Z&sp=r&sv=2026-02-06&sr=b&scid=76044388-d1fb-5f11-be8c-5e3405f35dbd&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T07%3A25%3A16Z&ske=2026-10-05T07%3A25%3A16Z&sks=b&skv=2026-02-06&sig=q32gWXMyC8oA7BV%2BBfYiP%2BL6VR9bPRkGTUt3hoDOH%2Bw%3D"
-    },
-    {
-      "drive_file_id": "13ERhWWEQsL54SiII1VKieNYYq-C4I8xS",
-      "source_label": "_MG_0619web.jpg",
-      "output_stem": "full-wall-white-library-bookcase-detail-03",
-      "role": "detail",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-dc78-8210-a9b8-33f0cddce5e5/raw?se=2026-10-04T14%3A23%3A24Z&sp=r&sv=2026-02-06&sr=b&scid=f093e6a7-3b39-5c97-839e-bae4f2fdbcfd&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T04%3A21%3A00Z&ske=2026-10-05T04%3A21%3A00Z&sks=b&skv=2026-02-06&sig=2klwDDwKOqswSzSMj1lz3uWP5hC9fMtdfVQ8Gt8sS04%3D"
-    },
-    {
-      "drive_file_id": "1sxgtz43lpT6H19_FRhR2VJDh-q1nAL9S",
-      "source_label": "_MG_0610print.jpg",
-      "output_stem": "full-wall-white-library-bookcase-storage-04",
-      "role": "detail",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-b544-8210-ad4c-3c397bbb6e6b/raw?se=2026-10-04T14%3A23%3A24Z&sp=r&sv=2026-02-06&sr=b&scid=c414a87e-dad4-59b0-b6a6-b3986994c4be&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T06%3A02%3A05Z&ske=2026-10-05T06%3A02%3A05Z&sks=b&skv=2026-02-06&sig=nzK0G0YJYZH7z2miah0xFHS8el1fkoj6On8RD85uUbs%3D"
-    },
-    {
-      "drive_file_id": "1MikQ3ybfUff5iDQFpX1dYReHaiL067xu",
-      "source_label": "_MG_0616print.jpg",
-      "output_stem": "full-wall-white-library-bookcase-room-05",
-      "role": "overall",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-4c3c-8210-b9c6-a3289c066bc7/raw?se=2026-10-04T14%3A23%3A25Z&sp=r&sv=2026-02-06&sr=b&scid=bc64a789-39ea-565c-82d4-b7088f357ad1&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T08%3A15%3A04Z&ske=2026-10-05T08%3A15%3A04Z&sks=b&skv=2026-02-06&sig=DW/XDRijnce8gCxxMPLWMpMfaWyKUpM6TQ/mqFWMf9k%3D"
-    }
-  ]
+  "enabled": false,
+  "last_completed_slug": "full-wall-white-library-bookcase"
 }
