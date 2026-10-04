@@ -60,5 +60,5 @@ export async function GET(request: NextRequest) {
     allowOverwrite: true,
   });
 
-  return NextResponse.json({ pathname: blob.pathname, size: blob.size });
+  return NextResponse.json({ pathname: blob.pathname, url: blob.url });
 }
