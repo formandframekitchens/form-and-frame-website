@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "project": "G59 — Illuminated White Shoe-Storage Wall",
+  "slug": "illuminated-white-shoe-storage-wall",
+  "images": [
+    {
+      "drive_file_id": "1TuwQPHNWYHBOLAewYIhAX-idDOmMrbma",
+      "source_label": "IMG.jpg",
+      "role": "overall illuminated white shoe-storage wall",
+      "output_stem": "white-shoe-storage-overall-01"
+    },
+    {
+      "drive_file_id": "16DgJl3erTk6JnuYAQwwR97xZ5si4TXn8",
+      "source_label": "IMG 3.jpg",
+      "role": "angled overall shoe-storage view",
+      "output_stem": "white-shoe-storage-angle-02"
+    },
+    {
+      "drive_file_id": "1BYbfjcBkn5qf4CwE9QwmggTcSgdzM0jX",
+      "source_label": "IMG 2.jpg",
+      "role": "integrated shelf lighting detail",
+      "output_stem": "white-shoe-storage-lighting-03"
+    },
+    {
+      "drive_file_id": "1rZNBdd8tfDnbpM1orYVlqVOJ0j6p6kXC",
+      "source_label": "IMG 1.jpg",
+      "role": "shelf and shoe detail",
+      "output_stem": "white-shoe-storage-detail-04"
+    }
+  ]
+}

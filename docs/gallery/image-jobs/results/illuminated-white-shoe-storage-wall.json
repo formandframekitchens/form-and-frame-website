@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "project": "G59 \u2014 Illuminated White Shoe-Storage Wall",
+  "slug": "illuminated-white-shoe-storage-wall",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1TuwQPHNWYHBOLAewYIhAX-idDOmMrbma",
+      "source_label": "IMG.jpg",
+      "role": "overall illuminated white shoe-storage wall",
+      "original": {
+        "width": 953,
+        "height": 1440
+      },
+      "webp": {
+        "path": "public/images/gallery/illuminated-white-shoe-storage-wall/white-shoe-storage-overall-01.webp",
+        "bytes": 86700,
+        "quality": 84,
+        "width": 953,
+        "height": 1440,
+        "sha256": "751a57aa2cb6c62b82916e24a2d1d80d3f461d619352043acc846ca47bb19ccf",
+        "git_blob_sha": "73a627613abfc0167121c92b5e49659a329d9438"
+      },
+      "avif": {
+        "path": "public/images/gallery/illuminated-white-shoe-storage-wall/white-shoe-storage-overall-01.avif",
+        "bytes": 62981,
+        "quality": 58,
+        "width": 953,
+        "height": 1440,
+        "sha256": "9cfe168a517b161aa7fd2f0cfea02173f61c47f1e8442133d7328474a6e8f601",
+        "git_blob_sha": "62815f0b8bb2ec4fccf184321b30ca5c271b045b"
+      }
+    },
+    {
+      "drive_file_id": "16DgJl3erTk6JnuYAQwwR97xZ5si4TXn8",
+      "source_label": "IMG 3.jpg",
+      "role": "angled overall shoe-storage view",
+      "original": {
+        "width": 1440,
+        "height": 953
+      },
+      "webp": {
+        "path": "public/images/gallery/illuminated-white-shoe-storage-wall/white-shoe-storage-angle-02.webp",
+        "bytes": 72484,
+        "quality": 84,
+        "width": 1440,
+        "height": 953,
+        "sha256": "a99c3f6ff229b33a1a3ff19784844d7aaf691b7ea16dcdd399732edf370906e4",
+        "git_blob_sha": "bcb50d313a082045e21e5157508a841f6561b82f"
+      },
+      "avif": {
+        "path": "public/images/gallery/illuminated-white-shoe-storage-wall/white-shoe-storage-angle-02.avif",
+        "bytes": 50940,
+        "quality": 58,
+        "width": 1440,
+        "height": 953,
+        "sha256": "eb4b33086e435aa8cb4171537cdb8b021b1b283aee2c4eb97486dd268260e698",
+        "git_blob_sha": "311f8e9a5b926dfcb176987396c828b75898ab5a"
+      }
+    },
+    {
+      "drive_file_id": "1BYbfjcBkn5qf4CwE9QwmggTcSgdzM0jX",
+      "source_label": "IMG 2.jpg",
+      "role": "integrated shelf lighting detail",
+      "original": {
+        "width": 1440,
+        "height": 953
+      },
+      "webp": {
+        "path": "public/images/gallery/illuminated-white-shoe-storage-wall/white-shoe-storage-lighting-03.webp",
+        "bytes": 26882,
+        "quality": 84,
+        "width": 1440,
+        "height": 953,
+        "sha256": "57c92ec4de7205a7e6ead4076f5b209d2ad74bb0132facef3a6b1497f2bc0b07",
+        "git_blob_sha": "ebd1ea3b4f57d7b968d65a36cb4a60bf1e68c171"
+      },
+      "avif": {
+        "path": "public/images/gallery/illuminated-white-shoe-storage-wall/white-shoe-storage-lighting-03.avif",
+        "bytes": 21677,
+        "quality": 58,
+        "width": 1440,
+        "height": 953,
+        "sha256": "a89f4fc12adfbebf3ae0592019a1758e8f3914990a93459e4427ac5bc169523b",
+        "git_blob_sha": "1c887ff6d3c40e5fad717412effce63c7a390bfa"
+      }
+    },
+    {
+      "drive_file_id": "1rZNBdd8tfDnbpM1orYVlqVOJ0j6p6kXC",
+      "source_label": "IMG 1.jpg",
+      "role": "shelf and shoe detail",
+      "original": {
+        "width": 1440,
+        "height": 953
+      },
+      "webp": {
+        "path": "public/images/gallery/illuminated-white-shoe-storage-wall/white-shoe-storage-detail-04.webp",
+        "bytes": 29752,
+        "quality": 84,
+        "width": 1440,
+        "height": 953,
+        "sha256": "7d115dee7079ef765efae35e4fa2f3365cc78be27d3c7c8aa997d9405794e827",
+        "git_blob_sha": "f5f2627f4806944a0a844bbf78b72f803cefb6b2"
+      },
+      "avif": {
+        "path": "public/images/gallery/illuminated-white-shoe-storage-wall/white-shoe-storage-detail-04.avif",
+        "bytes": 22796,
+        "quality": 58,
+        "width": 1440,
+        "height": 953,
+        "sha256": "ed79b3deb002c27cadd71f05dd0beccf5c406c73240656b57185abbd4926d32c",
+        "git_blob_sha": "fd11e27a304de6fe32c99303dcb2dc807641d036"
+      }
+    }
+  ]
+}
