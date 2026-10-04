@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "project": "G57 \u2014 Fulham Media Wall with Illuminated Display Shelving",
+  "slug": "fulham-media-wall-illuminated-display-shelving",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1b0i-IAGux20lKppzGKgIHQzW9vZZLwSf",
+      "source_label": "MH0009.jpg",
+      "role": "straight-on overall media wall view",
+      "original": {
+        "width": 6933,
+        "height": 4758
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-media-wall-illuminated-display-shelving/fulham-media-wall-overall-01.webp",
+        "bytes": 105904,
+        "quality": 84,
+        "width": 2000,
+        "height": 1373,
+        "sha256": "09d76b9e27aec0ffc5c32a20ec1685781b97655445ca9fabd65443877b0ec2da",
+        "git_blob_sha": "c076df073d9af7af4f2d98fa7149bfb9c9e0ebdd"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-media-wall-illuminated-display-shelving/fulham-media-wall-overall-01.avif",
+        "bytes": 73880,
+        "quality": 58,
+        "width": 2000,
+        "height": 1373,
+        "sha256": "44cfa3e8aff3bce35201460b1f79eb490837bf31b4c06cd79d81580f83c2d50b",
+        "git_blob_sha": "9ebab388a7325ffcffae82c4fa0c2083764ed712"
+      }
+    },
+    {
+      "drive_file_id": "1ygzwWZWW8ljixliS6Mas7waP1CkmA14p",
+      "source_label": "MH0007.jpg",
+      "role": "wide room view showing media wall in context",
+      "original": {
+        "width": 7840,
+        "height": 5792
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-media-wall-illuminated-display-shelving/fulham-media-wall-room-view-02.webp",
+        "bytes": 199546,
+        "quality": 84,
+        "width": 2000,
+        "height": 1478,
+        "sha256": "5a1a550d4bfdbeb8a2f77b7b2337badd3fdae83c376f7439bd3e1af04c9ae171",
+        "git_blob_sha": "5f7cb239aa02481ebe00b72ca6ce19ddab1f5dfe"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-media-wall-illuminated-display-shelving/fulham-media-wall-room-view-02.avif",
+        "bytes": 129230,
+        "quality": 58,
+        "width": 2000,
+        "height": 1478,
+        "sha256": "57ca07d2cb4c4cb3924933518a375568e479ce33aa418e0d4709092a9a1faf7b",
+        "git_blob_sha": "869d562d047efe299f76514fbec94a30e822a2d2"
+      }
+    },
+    {
+      "drive_file_id": "1TK1XtDCkcmCK5CI6MW-iptnGIqJwYmz2",
+      "source_label": "MH0010.jpg",
+      "role": "illuminated display shelving detail",
+      "original": {
+        "width": 4736,
+        "height": 6240
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-media-wall-illuminated-display-shelving/fulham-media-wall-detail-03.webp",
+        "bytes": 59298,
+        "quality": 84,
+        "width": 1518,
+        "height": 2000,
+        "sha256": "f699a890a9657fadf1fc64aac038b0e600445066c0478ebcac720c6e894dd0cb",
+        "git_blob_sha": "299d0cc83cf0aa89a7972294a081d82aaeaa1fa1"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-media-wall-illuminated-display-shelving/fulham-media-wall-detail-03.avif",
+        "bytes": 42123,
+        "quality": 58,
+        "width": 1518,
+        "height": 2000,
+        "sha256": "24ad022a9a9dfe7d37ab2aac5734511fc6ae744d2dd5d8c8fa4a42b3d03b00a8",
+        "git_blob_sha": "86550e93b7c1b4571f48dd71c24a71e4e228443f"
+      }
+    },
+    {
+      "drive_file_id": "1q_H9z6vLHl2bZro9kjOodC2CB0TuP3gK",
+      "source_label": "MH0011.jpg",
+      "role": "media wall joinery detail",
+      "original": {
+        "width": 4160,
+        "height": 5408
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-media-wall-illuminated-display-shelving/fulham-media-wall-detail-04.webp",
+        "bytes": 114572,
+        "quality": 84,
+        "width": 1538,
+        "height": 2000,
+        "sha256": "e4e13e9fb19fe09e924dee5085bef533abc3fc122b9f6604c403225487d5959d",
+        "git_blob_sha": "d300e65869c1e93105dda9d425a49381de6b3540"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-media-wall-illuminated-display-shelving/fulham-media-wall-detail-04.avif",
+        "bytes": 68958,
+        "quality": 58,
+        "width": 1538,
+        "height": 2000,
+        "sha256": "a3011fe9df1f2a92008dc3f829df95132817235ca5c28b31bfab5819436470b9",
+        "git_blob_sha": "ba8a700fc296b6a3c039784c272c71becc05daa4"
+      }
+    },
+    {
+      "drive_file_id": "1u9vQsrl4tRGQVB_JmWq7jNcCv6cuf9AT",
+      "source_label": "MH0012.jpg",
+      "role": "cabinet and display detail",
+      "original": {
+        "width": 4912,
+        "height": 7360
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-media-wall-illuminated-display-shelving/fulham-media-wall-detail-05.webp",
+        "bytes": 195690,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "e30e29c3cc1248924735fed6169ee206b9711bb773d447c4c0fedc1ca4d13e07",
+        "git_blob_sha": "9c4338491052bc66d7e4a8d1a21f6c8d18e651c6"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-media-wall-illuminated-display-shelving/fulham-media-wall-detail-05.avif",
+        "bytes": 128949,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "8b8a8e431c8bbedb8a88a0051f398a029a98bbaf056e5b68e5732e49d03a1225",
+        "git_blob_sha": "f562ce76315134a3358e1722f68a2724d8edd2f6"
+      }
+    },
+    {
+      "drive_file_id": "1UcInPH83bm6rKr6qqPfXwSRwH_SQWn6I",
+      "source_label": "MH0013.jpg",
+      "role": "shelving and material detail",
+      "original": {
+        "width": 4912,
+        "height": 7360
+      },
+      "webp": {
+        "path": "public/images/gallery/fulham-media-wall-illuminated-display-shelving/fulham-media-wall-detail-06.webp",
+        "bytes": 98812,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "7863eda2f718df0a43dc2b0bd96fdc6cedc70fd28f9126cb53638550ea5b3587",
+        "git_blob_sha": "2f0e7117a7cf3370e42948316a9bad7ea41d2dab"
+      },
+      "avif": {
+        "path": "public/images/gallery/fulham-media-wall-illuminated-display-shelving/fulham-media-wall-detail-06.avif",
+        "bytes": 59515,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "6d2425985179d334e5d5c854e5c946ffce015e6e3332f1a57536a8a28e00afd7",
+        "git_blob_sha": "f251b56575761e1d5f08a5189c785ab8352d56d8"
+      }
+    }
+  ]
+}

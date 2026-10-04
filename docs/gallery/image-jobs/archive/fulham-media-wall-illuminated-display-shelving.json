@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "project": "G57 — Fulham Media Wall with Illuminated Display Shelving",
+  "slug": "fulham-media-wall-illuminated-display-shelving",
+  "images": [
+    {
+      "drive_file_id": "1b0i-IAGux20lKppzGKgIHQzW9vZZLwSf",
+      "source_label": "MH0009.jpg",
+      "role": "straight-on overall media wall view",
+      "output_stem": "fulham-media-wall-overall-01"
+    },
+    {
+      "drive_file_id": "1ygzwWZWW8ljixliS6Mas7waP1CkmA14p",
+      "source_label": "MH0007.jpg",
+      "role": "wide room view showing media wall in context",
+      "output_stem": "fulham-media-wall-room-view-02"
+    },
+    {
+      "drive_file_id": "1TK1XtDCkcmCK5CI6MW-iptnGIqJwYmz2",
+      "source_label": "MH0010.jpg",
+      "role": "illuminated display shelving detail",
+      "output_stem": "fulham-media-wall-detail-03"
+    },
+    {
+      "drive_file_id": "1q_H9z6vLHl2bZro9kjOodC2CB0TuP3gK",
+      "source_label": "MH0011.jpg",
+      "role": "media wall joinery detail",
+      "output_stem": "fulham-media-wall-detail-04"
+    },
+    {
+      "drive_file_id": "1u9vQsrl4tRGQVB_JmWq7jNcCv6cuf9AT",
+      "source_label": "MH0012.jpg",
+      "role": "cabinet and display detail",
+      "output_stem": "fulham-media-wall-detail-05"
+    },
+    {
+      "drive_file_id": "1UcInPH83bm6rKr6qqPfXwSRwH_SQWn6I",
+      "source_label": "MH0013.jpg",
+      "role": "shelving and material detail",
+      "output_stem": "fulham-media-wall-detail-06"
+    }
+  ]
+}
