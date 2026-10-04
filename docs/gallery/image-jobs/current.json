@@ -1,5 +1,21 @@
 {
   "schema_version": 1,
-  "enabled": false,
-  "last_completed_slug": "8-leys-road-wine-cellar"
+  "enabled": true,
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "project": "G40 — Dark Illuminated Alcove Bookcases & Wall Panelling",
+  "slug": "dark-illuminated-alcove-bookcases-wall-panelling",
+  "images": [
+    {
+      "drive_file_id": "1O-Z9yweWMbDd5OibnraOdfcvXyAncAZP",
+      "source_label": "h0024.jpg",
+      "role": "overall room view with paired illuminated alcove bookcases and wall panelling",
+      "output_stem": "dark-alcove-bookcases-overall-01",
+      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-2ca4-81f4-be27-9e2245e28f33/raw?se=2026-10-04T12%3A30%3A32Z&sp=r&sv=2026-02-06&sr=b&scid=3ddf896a-9565-59be-b793-ba9d7a7333a8&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T12%3A23%3A57Z&ske=2026-10-05T12%3A23%3A57Z&sks=b&skv=2026-02-06&sig=b1u4inJuL/muJyjsQajLdjQgUPJX36YfvIfpgNbfXzw%3D"
+    }
+  ]
 }
