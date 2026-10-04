@@ -1,56 +1,5 @@
 {
   "schema_version": 1,
-  "enabled": true,
-  "project": "G58 Esher Luxury Residence — Bathroom Vanity & Mirror",
-  "slug": "esher-luxury-residence-bathroom-vanity-mirror",
-  "max_long_edge": 2000,
-  "min_long_edge": 1200,
-  "webp_quality": 84,
-  "avif_quality": 58,
-  "webp_target_bytes": 500000,
-  "avif_target_bytes": 400000,
-  "images": [
-    {
-      "drive_file_id": "1mNLVhj12MV_kUP7rqgE7mMFCZwKlNtR8",
-      "source_label": "F0001.jpg",
-      "output_stem": "esher-bathroom-vanity-mirror-overall-01",
-      "role": "cover",
-      "source_url": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-a6ac-820a-9a4d-68455e081095/raw?se=2026-10-04T14%3A24%3A09Z&sp=r&sv=2026-02-06&sr=b&scid=524c5ad9-2429-5340-a8e0-e4008c50303b&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T09%3A28%3A24Z&ske=2026-10-05T09%3A28%3A24Z&sks=b&skv=2026-02-06&sig=%2BV0GBrqaOQK3KyoMtObtiOPlDwZ5uz76FGFb6/qrKA4%3D"
-    },
-    {
-      "drive_file_id": "1J0LpeHB-ui0-TtOXhECnR38WyC31HNYL",
-      "source_label": "F0002.jpg",
-      "output_stem": "esher-bathroom-vanity-mirror-overall-02",
-      "role": "overall",
-      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-4638-81f4-807d-cfc39486eb46/raw?se=2026-10-04T14%3A24%3A08Z&sp=r&sv=2026-02-06&sr=b&scid=ac3fac3c-b85e-5b36-8492-3c03ee676c66&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T08%3A14%3A00Z&ske=2026-10-05T08%3A14%3A00Z&sks=b&skv=2026-02-06&sig=%2BkghXwCzFp%2B%2BCaAJHntAeUcbX%2BpD%2BMPkwsmvulZUymk%3D"
-    },
-    {
-      "drive_file_id": "1oqMZ62cajxTmILIMgDtgYUR_iaM9njbz",
-      "source_label": "F0003.jpg",
-      "output_stem": "esher-bathroom-vanity-mirror-detail-03",
-      "role": "detail",
-      "source_url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-ddb0-8243-945c-babc3b3558af/raw?se=2026-10-04T14%3A24%3A09Z&sp=r&sv=2026-02-06&sr=b&scid=6861235b-d507-5b6c-aee1-5fe2583f5b9d&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T08%3A52%3A28Z&ske=2026-10-05T08%3A52%3A28Z&sks=b&skv=2026-02-06&sig=ZW4lLtxduLr%2BA8LP2K8e2aB2T//W/2/JyDRy/GKLEmY%3D"
-    },
-    {
-      "drive_file_id": "1JQmG59a9mYFYVagZ46T5NdfbtNyk6p1t",
-      "source_label": "G0004.jpg",
-      "output_stem": "esher-bathroom-vanity-mirror-angle-04",
-      "role": "overall",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-0ec0-8210-9993-23e056c532e4/raw?se=2026-10-04T14%3A24%3A09Z&sp=r&sv=2026-02-06&sr=b&scid=83d8d8d8-9280-585f-8ae6-733d42ea45a1&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T06%3A17%3A01Z&ske=2026-10-05T06%3A17%3A01Z&sks=b&skv=2026-02-06&sig=bxGJhsWr2MeGenKo3NG5Gb9otIJUqGK9YxQOSGgR9CI%3D"
-    },
-    {
-      "drive_file_id": "1OK-Bh0euYglui8JKwvjN5F4M-fhWypuG",
-      "source_label": "G0005.jpg",
-      "output_stem": "esher-bathroom-vanity-mirror-detail-05",
-      "role": "detail",
-      "source_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-9060-8210-898d-0109881e8ea7/raw?se=2026-10-04T14%3A24%3A08Z&sp=r&sv=2026-02-06&sr=b&scid=65b1ec54-4f58-52bc-aa87-bde73b094a18&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T09%3A29%3A26Z&ske=2026-10-05T09%3A29%3A26Z&sks=b&skv=2026-02-06&sig=fTZtgrMdynvhBJuW1UEOsjNgfTg1%2B8mm3Zt6S%2Bqk5yA%3D"
-    },
-    {
-      "drive_file_id": "1gxuLZM29-LGYPXGbubFVWAcNvECGYUOD",
-      "source_label": "G0006.jpg",
-      "output_stem": "esher-bathroom-vanity-mirror-detail-06",
-      "role": "detail",
-      "source_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-8300-81f4-a337-d9fc369a1ace/raw?se=2026-10-04T14%3A24%3A12Z&sp=r&sv=2026-02-06&sr=b&scid=7970c80a-5765-5bd0-b341-0af583d1f952&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T09%3A29%3A25Z&ske=2026-10-05T09%3A29%3A25Z&sks=b&skv=2026-02-06&sig=3XH/5%2BI6VGLkhDyZJNGL38QCK/hAivrVXxu38szXTzA%3D"
-    }
-  ]
+  "enabled": false,
+  "last_completed_slug": "esher-luxury-residence-bathroom-vanity-mirror"
 }
