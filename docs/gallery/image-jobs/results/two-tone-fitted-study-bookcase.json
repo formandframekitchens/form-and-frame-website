@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "project": "G60 \u2014 Two-Tone Fitted Study Bookcase",
+  "slug": "two-tone-fitted-study-bookcase",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1LTnQwJkl3bjyUna5s2009sOeoUuKtW3m",
+      "source_label": "IMG.jpg",
+      "role": "overall populated fitted study bookcase",
+      "original": {
+        "width": 1440,
+        "height": 953
+      },
+      "webp": {
+        "path": "public/images/gallery/two-tone-fitted-study-bookcase/two-tone-study-bookcase-overall-01.webp",
+        "bytes": 265532,
+        "quality": 84,
+        "width": 1440,
+        "height": 953,
+        "sha256": "e43e5be695e94b35ad342e9e5f5a3945460c0a8ee9ed3b78fe204dc9c35f637c",
+        "git_blob_sha": "aac0df9292d9c2911978259bb69634b7c28ea5bf"
+      },
+      "avif": {
+        "path": "public/images/gallery/two-tone-fitted-study-bookcase/two-tone-study-bookcase-overall-01.avif",
+        "bytes": 192758,
+        "quality": 58,
+        "width": 1440,
+        "height": 953,
+        "sha256": "beaf104d1822ca2b17f9bbb8eb67956bb5f8846bdb6591c80df9b49985690f88",
+        "git_blob_sha": "41b99a0467fffd97f6ed3ed2ed6cbf49a79946ad"
+      }
+    },
+    {
+      "drive_file_id": "1YCyAek1qdALt7g9By2PRjsOUkGT6Iu38",
+      "source_label": "IMG 1.jpg",
+      "role": "front view of fitted shelving and lower cabinetry",
+      "original": {
+        "width": 1440,
+        "height": 953
+      },
+      "webp": {
+        "path": "public/images/gallery/two-tone-fitted-study-bookcase/two-tone-study-bookcase-front-02.webp",
+        "bytes": 74306,
+        "quality": 84,
+        "width": 1440,
+        "height": 953,
+        "sha256": "e81c1cd8f1da35e643a6a75064ccae434bdec64da15a584f5d9c10058c7c5528",
+        "git_blob_sha": "5ab98c40cb16620e05b1d74ae683129eb108fc56"
+      },
+      "avif": {
+        "path": "public/images/gallery/two-tone-fitted-study-bookcase/two-tone-study-bookcase-front-02.avif",
+        "bytes": 48835,
+        "quality": 58,
+        "width": 1440,
+        "height": 953,
+        "sha256": "00d87702bff6caac5bf3065b803ce25e06a03d2373cd3298a07af763e94805fa",
+        "git_blob_sha": "3ea1f30c398b973366cbdd319771b4657dce749d"
+      }
+    },
+    {
+      "drive_file_id": "1sP7oHrmGTo6BDlXNOPl4YkEDu3MQIaGa",
+      "source_label": "IMG 2.jpg",
+      "role": "open drawer detail",
+      "original": {
+        "width": 1440,
+        "height": 953
+      },
+      "webp": {
+        "path": "public/images/gallery/two-tone-fitted-study-bookcase/two-tone-study-bookcase-drawers-03.webp",
+        "bytes": 79902,
+        "quality": 84,
+        "width": 1440,
+        "height": 953,
+        "sha256": "d6a076252845bc930e81e6acc2be56ab22dcfaf43f6ac043d8e1cf85c2eced30",
+        "git_blob_sha": "be76fe17c772fcf721b41d3361024d94c76858ca"
+      },
+      "avif": {
+        "path": "public/images/gallery/two-tone-fitted-study-bookcase/two-tone-study-bookcase-drawers-03.avif",
+        "bytes": 54208,
+        "quality": 58,
+        "width": 1440,
+        "height": 953,
+        "sha256": "0e015e7e13d73253e65e1ba34a31cdd331822e22e3cd978878777e74ac17fd52",
+        "git_blob_sha": "1144efc2fbe89316353fefe62a96dd9d9b00118e"
+      }
+    },
+    {
+      "drive_file_id": "1Ps07JOANeu2LAO6SI_12bUhSvAJFT3HI",
+      "source_label": "IMG 5.jpg",
+      "role": "cabinet and shelving detail",
+      "original": {
+        "width": 1440,
+        "height": 953
+      },
+      "webp": {
+        "path": "public/images/gallery/two-tone-fitted-study-bookcase/two-tone-study-bookcase-detail-04.webp",
+        "bytes": 286406,
+        "quality": 84,
+        "width": 1440,
+        "height": 953,
+        "sha256": "12926b02e9dd28a6d6e614819a691409c98ed65c7b2899b8d2d1c8ad3b60a882",
+        "git_blob_sha": "8f3daf85dc4e0a8034b32601b7f09a1c90eadb1f"
+      },
+      "avif": {
+        "path": "public/images/gallery/two-tone-fitted-study-bookcase/two-tone-study-bookcase-detail-04.avif",
+        "bytes": 195954,
+        "quality": 58,
+        "width": 1440,
+        "height": 953,
+        "sha256": "aacbc977a84832ee9bc3df5d631471a38da95b7e9af604e96f38dcd12aefd9e7",
+        "git_blob_sha": "e75e87633bd9658a6e95679bf6d92504bf2d9302"
+      }
+    },
+    {
+      "drive_file_id": "1y35ncqmgFI50kw934TjnEYsXvNZGfBgb",
+      "source_label": "IMG 6.jpg",
+      "role": "fitted joinery detail",
+      "original": {
+        "width": 1440,
+        "height": 953
+      },
+      "webp": {
+        "path": "public/images/gallery/two-tone-fitted-study-bookcase/two-tone-study-bookcase-detail-05.webp",
+        "bytes": 175258,
+        "quality": 84,
+        "width": 1440,
+        "height": 953,
+        "sha256": "7942fcf81f690c899e222674b0be6d4da186c2161392f8733292225be140e68b",
+        "git_blob_sha": "42b011f94e1d339030320a58a420fd7853403ef1"
+      },
+      "avif": {
+        "path": "public/images/gallery/two-tone-fitted-study-bookcase/two-tone-study-bookcase-detail-05.avif",
+        "bytes": 123527,
+        "quality": 58,
+        "width": 1440,
+        "height": 953,
+        "sha256": "cae07ac09e25cf1a866abed6215c0d58edd5a0014377c03f0175bc6cc34e9cfd",
+        "git_blob_sha": "eec788b826e6b98bffe4af6f3dba5672655f0f23"
+      }
+    },
+    {
+      "drive_file_id": "1V4VixKRuYV8XPS0s5Nm8cQTatmu5hFKk",
+      "source_label": "IMG 4.jpg",
+      "role": "shelving junction detail",
+      "original": {
+        "width": 1440,
+        "height": 953
+      },
+      "webp": {
+        "path": "public/images/gallery/two-tone-fitted-study-bookcase/two-tone-study-bookcase-detail-06.webp",
+        "bytes": 103288,
+        "quality": 84,
+        "width": 1440,
+        "height": 953,
+        "sha256": "a83253a06acb3cb439bf81d86325f67cd4a2b67ec01ace931f65436d64eead73",
+        "git_blob_sha": "26744c875061474a4bee205445cbc5168be936d6"
+      },
+      "avif": {
+        "path": "public/images/gallery/two-tone-fitted-study-bookcase/two-tone-study-bookcase-detail-06.avif",
+        "bytes": 79134,
+        "quality": 58,
+        "width": 1440,
+        "height": 953,
+        "sha256": "67cf5ad6b92226ba9398683b97325f4ea19881e655668a69d97bf6ea76a81d5b",
+        "git_blob_sha": "7792ae33da13741633a8780cc98cdbdb84ca3a34"
+      }
+    },
+    {
+      "drive_file_id": "1gf9PwzF4VzeeiyJ1--XgftY5F3ovS_y8",
+      "source_label": "IMG 3.jpg",
+      "role": "cabinet front detail",
+      "original": {
+        "width": 1440,
+        "height": 953
+      },
+      "webp": {
+        "path": "public/images/gallery/two-tone-fitted-study-bookcase/two-tone-study-bookcase-detail-07.webp",
+        "bytes": 84794,
+        "quality": 84,
+        "width": 1440,
+        "height": 953,
+        "sha256": "b8c694a98b90425ee40bf6dd659a478948bc26fa37cdcca54b0a20199dbafcc6",
+        "git_blob_sha": "d76ba08463c74ea7b6a64cddbc71c0b203ae9d9c"
+      },
+      "avif": {
+        "path": "public/images/gallery/two-tone-fitted-study-bookcase/two-tone-study-bookcase-detail-07.avif",
+        "bytes": 52597,
+        "quality": 58,
+        "width": 1440,
+        "height": 953,
+        "sha256": "7220c9301e82cb9d5bf4fa5a0df2f55457f4bd3903d2276fb5d6308e230f8baf",
+        "git_blob_sha": "5fb5772766f0ed5b0202fbac36ae3023334e5885"
+      }
+    }
+  ]
+}

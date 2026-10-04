@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "project": "G60 — Two-Tone Fitted Study Bookcase",
+  "slug": "two-tone-fitted-study-bookcase",
+  "images": [
+    {
+      "drive_file_id": "1LTnQwJkl3bjyUna5s2009sOeoUuKtW3m",
+      "source_label": "IMG.jpg",
+      "role": "overall populated fitted study bookcase",
+      "output_stem": "two-tone-study-bookcase-overall-01"
+    },
+    {
+      "drive_file_id": "1YCyAek1qdALt7g9By2PRjsOUkGT6Iu38",
+      "source_label": "IMG 1.jpg",
+      "role": "front view of fitted shelving and lower cabinetry",
+      "output_stem": "two-tone-study-bookcase-front-02"
+    },
+    {
+      "drive_file_id": "1sP7oHrmGTo6BDlXNOPl4YkEDu3MQIaGa",
+      "source_label": "IMG 2.jpg",
+      "role": "open drawer detail",
+      "output_stem": "two-tone-study-bookcase-drawers-03"
+    },
+    {
+      "drive_file_id": "1Ps07JOANeu2LAO6SI_12bUhSvAJFT3HI",
+      "source_label": "IMG 5.jpg",
+      "role": "cabinet and shelving detail",
+      "output_stem": "two-tone-study-bookcase-detail-04"
+    },
+    {
+      "drive_file_id": "1y35ncqmgFI50kw934TjnEYsXvNZGfBgb",
+      "source_label": "IMG 6.jpg",
+      "role": "fitted joinery detail",
+      "output_stem": "two-tone-study-bookcase-detail-05"
+    },
+    {
+      "drive_file_id": "1V4VixKRuYV8XPS0s5Nm8cQTatmu5hFKk",
+      "source_label": "IMG 4.jpg",
+      "role": "shelving junction detail",
+      "output_stem": "two-tone-study-bookcase-detail-06"
+    },
+    {
+      "drive_file_id": "1gf9PwzF4VzeeiyJ1--XgftY5F3ovS_y8",
+      "source_label": "IMG 3.jpg",
+      "role": "cabinet front detail",
+      "output_stem": "two-tone-study-bookcase-detail-07"
+    }
+  ]
+}
