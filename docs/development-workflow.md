@@ -33,7 +33,15 @@ This keeps the structure simple:
 
 `B06 TEST -> preview in Vercel -> approved -> merge to master SOLID`
 
-## Sequence
+## Current sequence — 5 October 2026
+
+- B13 — Gallery completion, navigation, enquiries and content reconciliation.
+- Branch: `b13-gallery-completion`.
+- Four already prepared gallery branches retain their assigned G57–G60 lane names; each is integrated and verified separately under this batch.
+- Next new website batch: B14. Check remote branches before assigning it in case another task has reserved a later number.
+- Earlier B07–B12 work exists in repository history. Numbers are never reused.
+
+## Historical sequence (superseded)
 
 Current development batch:
 
