@@ -26,8 +26,8 @@ const projectCategories: Record<string, GalleryCategory[]> = {
   G15: ["entertainment-units"], G16: ["bookcases"], G17: ["unique-furniture"],
   G19: ["unique-furniture", "alcove-units"], G20: ["wardrobes", "alcove-units"],
   G21: ["entertainment-units", "bookcases"], G22: ["office-furniture"], G23: ["entertainment-units"],
-  G25: ["unique-furniture"], G26: ["entertainment-units"], G27: ["wardrobes"],
-  G28: ["unique-furniture", "wardrobes"], G29: ["unique-furniture"], G30: ["unique-furniture"],
+  G25: ["unique-furniture"], G26: ["entertainment-units"], G27: ["wardrobes", "unique-furniture"],
+  G29: ["unique-furniture"], G30: ["unique-furniture"],
   G31: ["office-furniture", "bookcases"], G32: ["alcove-units", "entertainment-units"],
   G33: ["unique-furniture"], G34: ["unique-furniture", "wardrobes"],
   G35: ["office-furniture", "wardrobes", "bookcases"], G36: ["unique-furniture"],
@@ -38,9 +38,10 @@ const projectCategories: Record<string, GalleryCategory[]> = {
   G50: ["unique-furniture"], G51: ["wardrobes"], G52: ["unique-furniture"],
   G54: ["unique-furniture"], G55: ["unique-furniture"], G56: ["unique-furniture"],
   G57: ["bookcases"], G58: ["unique-furniture"], G59: ["unique-furniture", "bookcases"], G60: ["unique-furniture"],
+  G61: ["alcove-units", "bookcases"],
 };
 
-const retiredIds: Record<string, string> = { G05: "G19", G10: "G02", G18: "G04", G24: "G13", G53: "G01" };
+const retiredIds: Record<string, string> = { G05: "G19", G10: "G02", G18: "G04", G24: "G13", G28: "G27", G53: "G01" };
 const familyPrefixes = ["Soho", "S&C", "Northwood", "Manchester", "Fulham", "Belgravia", "Stourcliff", "Esher Luxury Residence"];
 
 export function categoriesForProject(project: GalleryProject) {
@@ -102,7 +103,8 @@ export function galleryEnquiryHref(project: GalleryProject) {
 }
 
 export function getEnquiryProject(slug: string, service: string) {
-  const project = galleryProjects.find(item => item.slug === slug);
+  const canonicalSlug = slug === "manchester-makeup-island-dressing-table" ? "manchester-walk-in-wardrobe" : slug;
+  const project = galleryProjects.find(item => item.slug === canonicalSlug);
   return project && galleryEnquirySelection(project).service === service ? project : undefined;
 }
 

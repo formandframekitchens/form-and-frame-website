@@ -4,6 +4,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/gallery/manchester-makeup-island-dressing-table",
+        destination: "/gallery/manchester-walk-in-wardrobe",
+        permanent: true,
+      },
+      {
         source: "/gallery/stourcliff-white-handleless-kitchen",
         destination: "/gallery/handleless-kitchen-installation",
         permanent: true,

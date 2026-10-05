@@ -1,0 +1,28 @@
+{
+  "verifiedAt": "2026-10-05T09:35:58.464Z",
+  "base": "http://127.0.0.1:3105",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "photoOrder": true,
+      "closedWardrobeCover": true,
+      "categories": true,
+      "enquiries": true,
+      "retiredGalleryRedirect": true,
+      "retiredIdSearch": true,
+      "legacyEnquiryReference": true,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "photoOrder": true,
+      "closedWardrobeCover": true,
+      "categories": true,
+      "enquiries": true,
+      "retiredGalleryRedirect": true,
+      "retiredIdSearch": true,
+      "legacyEnquiryReference": true,
+      "errors": []
+    }
+  ]
+}

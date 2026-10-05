@@ -1718,87 +1718,22 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
-    galleryId: "G27",
-    slug: "manchester-walk-in-wardrobe",
-    title: "Manchester Walk-In Wardrobe",
-    category: "Bespoke Joinery",
-    location: "Manchester",
-    summary: "A light figured-timber walk-in wardrobe with mirrored and glazed fronts, a central storage island and an integrated dressing area.",
-    seoDescription: "Manchester walk-in wardrobe case study by Form & Frame, featuring light figured-timber cabinetry, mirrored and glazed doors, a central storage island and integrated dressing furniture.",
-    keywords: [
-      "Manchester walk-in wardrobe",
-      "bespoke dressing room Manchester",
-      "fitted wardrobes Manchester",
-      "mirrored wardrobe doors",
-      "wardrobe island",
-      "bespoke dressing room",
-      "made to measure wardrobes",
-      "bespoke joinery",
-    ],
-    highlights: [
-      "Full walk-in wardrobe composition",
-      "Mirrored and glazed cabinet fronts",
-      "Central storage island",
-      "Integrated dressing area",
-    ],
-    caseStudy: [
-      {
-        heading: "A complete dressing-room composition",
-        body: [
-          "This Manchester project uses fitted wardrobes on opposing walls with a central storage island and dressing area, creating a complete walk-in wardrobe rather than a single run of cabinetry.",
-          "The light figured finish keeps the large amount of furniture visually calm while mirrored and glazed fronts introduce reflection and depth.",
-        ],
-      },
-      {
-        heading: "The demanding part: symmetry across the room",
-        body: [
-          "Opposing wardrobe runs make alignment highly visible. Door heights, mirrored panels, vertical divisions and handle positions need to relate accurately across both sides of the room.",
-          "The central island reinforces that symmetry, so its position and proportion also need to sit naturally within the circulation space.",
-        ],
-      },
-      {
-        heading: "Mirrored and glazed fronts",
-        body: [
-          "The doors combine reflective and translucent panels within framed fronts, allowing the wardrobe to feel lighter than a continuous wall of solid doors.",
-          "The mirror panels also reflect the opposite cabinetry, making consistency in spacing and alignment an important part of the finished appearance.",
-        ],
-      },
-      {
-        heading: "Island and dressing area",
-        body: [
-          "The central island provides additional drawer storage and a practical surface within the dressing room, while the adjacent dressing table creates a dedicated preparation area.",
-          "These elements are coordinated with the wardrobe finish so the room reads as one designed furniture scheme.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed room combines fitted wardrobes, mirrors, display sections, island storage and dressing furniture within a balanced light-toned interior.",
-          "For similar walk-in wardrobes and dressing rooms, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-front-view-02.webp",
-      alt: "Front view of Manchester walk-in wardrobe",
-      fit: "contain",
-
-    },
-    images: [
-      { src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-front-view-02.webp", alt: "Front view of Manchester walk-in wardrobe", fit: "contain" },
-      { src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-overall-view-01.webp", alt: "Overall view of Manchester walk-in wardrobe with central island", fit: "contain" },
-      { src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-dressing-detail-03.webp", alt: "Wardrobe and integrated dressing area detail", fit: "contain" },
-    ],
-  },
-  {
-  "galleryId": "G28",
-  "slug": "manchester-makeup-island-dressing-table",
-  "title": "Manchester Make-Up Island & Dressing Table",
+  "galleryId": "G27",
+  "slug": "manchester-walk-in-wardrobe",
+  "title": "Manchester Walk-In Wardrobe",
   "category": "Bespoke Joinery",
   "location": "Manchester",
-  "summary": "A coordinated dressing-room furniture set with a central make-up island and matching dressing table in a light figured timber finish.",
-  "seoDescription": "Manchester bespoke dressing-room furniture case study by Form & Frame, featuring a central make-up island and coordinated dressing table in a light figured timber finish.",
+  "summary": "A complete light-toned walk-in wardrobe with mirrored and glazed fronts, a central island, jewellery compartments and a matching dressing table.",
+  "seoDescription": "Explore the complete Manchester walk-in wardrobe, including mirrored cabinetry, a central storage island, jewellery compartments and a matching dressing table.",
   "keywords": [
+    "Manchester walk-in wardrobe",
+    "bespoke dressing room Manchester",
+    "fitted wardrobes Manchester",
+    "mirrored wardrobe doors",
+    "wardrobe island",
+    "bespoke dressing room",
+    "made to measure wardrobes",
+    "bespoke joinery",
     "Manchester dressing table",
     "make-up island Manchester",
     "bespoke dressing room furniture",
@@ -1807,50 +1742,68 @@ export const galleryProjects: GalleryProject[] = [
     "bespoke joinery Manchester"
   ],
   "highlights": [
-    "Central make-up island",
-    "Coordinated dressing table",
-    "Light figured timber finish",
-    "Integrated drawer storage"
+    "Complete walk-in wardrobe and dressing area",
+    "Mirrored and glazed cabinet fronts",
+    "Central island with divided jewellery storage",
+    "Matching dressing table"
   ],
   "caseStudy": [
     {
-      "heading": "Furniture designed as part of the dressing room",
+      "heading": "A complete dressing-room composition",
       "body": [
-        "This Manchester project combines a central make-up island with a separate dressing table, using the same light figured timber finish so the two pieces read as one coordinated furniture scheme.",
-        "The island adds storage and a practical central surface, while the dressing table creates a dedicated preparation area against the wall."
+        "This Manchester project uses fitted wardrobes on opposing walls with a central storage island and dressing area, creating a complete walk-in wardrobe rather than a single run of cabinetry.",
+        "The light figured finish keeps the large amount of furniture visually calm while mirrored and glazed fronts introduce reflection and depth."
       ]
     },
     {
-      "heading": "The demanding part: balancing freestanding-looking pieces",
+      "heading": "The demanding part: symmetry across the room",
       "body": [
-        "Both pieces are visually simple, so proportion and alignment carry much of the finished character. Drawer fronts, panel lines and edge details need to remain consistent across the separate items.",
-        "The central island also has to sit comfortably within the circulation space rather than interrupting movement through the dressing room."
+        "Opposing wardrobe runs make alignment highly visible. Door heights, mirrored panels, vertical divisions and handle positions need to relate accurately across both sides of the room.",
+        "The central island reinforces that symmetry, so its position and proportion also need to sit naturally within the circulation space."
       ]
     },
     {
-      "heading": "Drawer storage and usable surfaces",
+      "heading": "Mirrored and glazed fronts",
       "body": [
-        "The island incorporates drawer storage below a generous top surface, keeping smaller dressing-room items accessible while preserving a clean exterior.",
-        "The matching dressing table provides a second work surface and additional storage without introducing a competing material or style."
+        "The doors combine reflective and translucent panels within framed fronts, allowing the wardrobe to feel lighter than a continuous wall of solid doors.",
+        "The mirror panels also reflect the opposite cabinetry, making consistency in spacing and alignment an important part of the finished appearance."
+      ]
+    },
+    {
+      "heading": "Island and dressing area",
+      "body": [
+        "The central island provides additional drawer storage and a practical surface within the dressing room, while the adjacent dressing table creates a dedicated preparation area.",
+        "These elements are coordinated with the wardrobe finish so the room reads as one designed furniture scheme.",
+        "Closer views show the divided jewellery compartments beneath the island's glazed top, the dressing-table storage and the carefully aligned frame and drawer-front details."
       ]
     },
     {
       "heading": "The finished result",
       "body": [
-        "The completed furniture adds practical storage and dedicated preparation areas while maintaining the same material language as the wider Manchester dressing-room scheme.",
-        "For similar dressing islands, dressing tables and fitted bedroom furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment."
+        "The completed room combines fitted wardrobes, mirrors, display sections, island storage and dressing furniture within a balanced light-toned interior.",
+        "For similar walk-in wardrobes and dressing rooms, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment."
       ]
     }
   ],
   "cover": {
-    "src": "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-overall-view-01.webp",
-    "alt": "Full view of the Manchester dressing island with the matching dressing table behind",
+    "src": "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-front-view-02.webp",
+    "alt": "Front view of Manchester walk-in wardrobe",
     "fit": "contain"
   },
   "images": [
     {
+      "src": "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-front-view-02.webp",
+      "alt": "Front view of Manchester walk-in wardrobe",
+      "fit": "contain"
+    },
+    {
       "src": "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-overall-view-01.webp",
       "alt": "Full view of the Manchester dressing island with the matching dressing table behind",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-dressing-detail-03.webp",
+      "alt": "Wardrobe and integrated dressing area detail",
       "fit": "contain"
     },
     {
@@ -1870,6 +1823,7 @@ export const galleryProjects: GalleryProject[] = [
     }
   ]
 },
+
   {
     galleryId: "G29",
     slug: "virginia-water-wine-room",
@@ -2257,75 +2211,85 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
-    galleryId: "G45",
-    slug: "esher-luxury-residence-alcove-units",
-    title: "Esher Luxury Residence — Alcove Units",
-    category: "Bespoke Joinery",
-    location: "Esher, Surrey",
-    summary: "A collection of fitted alcove units across several rooms, combining painted cabinetry, open shelving, concealed storage and tailored proportions.",
-    seoDescription: "Esher Luxury Residence bespoke alcove units by Form & Frame, featuring fitted shelving, concealed storage and made-to-measure cabinetry across multiple rooms.",
-    keywords: [
-      "Esher Luxury Residence alcove units",
-      "bespoke alcove units London",
-      "fitted alcove cabinets",
-      "made to measure shelving",
-      "painted fitted furniture",
-      "bespoke joinery",
-    ],
-    highlights: [
-      "Multiple fitted alcove installations",
-      "Open shelving and concealed storage",
-      "Made-to-measure room-by-room fitting",
-      "Painted cabinetry",
-    ],
-    caseStudy: [
-      {
-        heading: "Alcove furniture across several rooms",
-        body: [
-          "This project includes several fitted alcove installations within the same property, each responding to a different room while maintaining a consistent fitted-furniture approach.",
-          "The gallery shows full-room compositions as well as closer views of individual alcove units, shelving and lower cabinetry.",
-        ],
-      },
-      {
-        heading: "The demanding part: adapting to different rooms",
-        body: [
-          "Each alcove has its own wall geometry, chimney-breast proportions and surrounding architectural conditions, so the furniture cannot simply be repeated from one room to another.",
-          "Accurate survey and setting out allow the shelving, lower cabinets and outer fillers to meet the existing walls cleanly while preserving a balanced appearance.",
-        ],
-      },
-      {
-        heading: "Display and concealed storage",
-        body: [
-          "Open shelves provide display space above, while the lower cupboards keep everyday storage concealed.",
-          "This combination gives the rooms practical storage capacity without making the fitted furniture feel visually heavy.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "Across the property, the alcove units create useful storage and display space while remaining closely integrated with the existing rooms.",
-          "For similar multi-room fitted joinery projects, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-front-view-03.webp",
-      alt: "Front view of Esher Luxury Residence alcove units",
-      fit: "contain",
-
+  "galleryId": "G45",
+  "slug": "esher-luxury-residence-alcove-units",
+  "title": "Esher Luxury Residence — Alcove Units",
+  "category": "Bespoke Joinery",
+  "location": "Esher, Surrey",
+  "summary": "A pair of dark fitted alcove units with illuminated display shelves and lower cupboards, framing the fireplace in a rooflit Esher living room.",
+  "seoDescription": "See the Esher living-room alcove pair, with dark fitted cupboards, illuminated display shelving and a balanced composition around the fireplace.",
+  "keywords": [
+    "Esher Luxury Residence alcove units",
+    "illuminated alcove shelves",
+    "fitted living room cupboards",
+    "bespoke alcove cabinets",
+    "fireplace shelving",
+    "bespoke joinery"
+  ],
+  "highlights": [
+    "Paired fireplace alcoves",
+    "Illuminated display shelving",
+    "Dark lower storage cupboards",
+    "Fitted composition in a rooflit living room"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A pair of alcoves around the fireplace",
+      "body": [
+        "These fitted units sit on either side of the fireplace in a rooflit living room at the Esher residence. Their dark finish gives the display shelves definition against the lighter chimney breast and surrounding walls."
+      ]
     },
-    images: [
-      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-front-view-03.webp", alt: "Front view of Esher Luxury Residence alcove units", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-overall-view-01.webp", alt: "Overall room view of alcove units", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-angled-view-02.webp", alt: "Angled view of fitted alcove furniture", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-detail-04.webp", alt: "Alcove shelving and cabinet detail", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-detail-05.webp", alt: "Opposite alcove unit detail", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-second-room-06.webp", alt: "Second room fitted alcove units", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-second-room-detail-07.webp", alt: "Second room alcove cabinetry detail", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-third-room-08.webp", alt: "Third room alcove installation", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-third-room-front-09.webp", alt: "Front view of third room alcove units", fit: "contain" },
-    ],
+    {
+      "heading": "Light, display and concealed storage",
+      "body": [
+        "Warm shelf lighting brings the displayed objects forward, while cupboards below provide concealed storage. The photographs move from the complete pair and room setting to closer views of the shelves, fronts and cabinet edges."
+      ]
+    },
+    {
+      "heading": "Planning a similar alcove pair",
+      "body": [
+        "Chimney-breast proportions, wall depth, floor levels and lighting positions all influence the fitted layout. Photographs and approximate measurements of both alcoves help Form & Frame consider the shelf arrangement, cupboard proportions and installation requirements."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-front-view-03.webp",
+    "alt": "Full view of the illuminated alcove pair beside the fireplace in the rooflit living room",
+    "fit": "contain"
   },
+  "images": [
+    {
+      "src": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-front-view-03.webp",
+      "alt": "Full view of the illuminated alcove pair beside the fireplace in the rooflit living room",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-overall-view-01.webp",
+      "alt": "Wide living-room view of the paired fitted alcoves",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-angled-view-02.webp",
+      "alt": "Angled view of the illuminated alcoves and fireplace",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-detail-04.webp",
+      "alt": "Right-hand alcove with illuminated shelves and lower cupboards",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-detail-05.webp",
+      "alt": "Closer view of the right-hand alcove beside the fireplace",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/8-leys-road-home-office/8-leys-home-office-detail-06.webp",
+      "alt": "Dark alcove shelf, cabinet edge and decorative bowl detail",
+      "fit": "contain"
+    }
+  ]
+},
   {
     galleryId: "G46",
     slug: "london-luxury-salon-joinery",
@@ -2663,70 +2627,80 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
-    galleryId: "G51",
-    slug: "stourcliff-fitted-wardrobe-shoe-storage",
-    title: "Stourcliff Fitted Wardrobe & Shoe Storage",
-    category: "Bespoke Joinery",
-    summary: "Fitted bedroom storage combining full-height wardrobe cabinetry with dedicated open shoe storage and carefully aligned joinery details.",
-    seoDescription: "Stourcliff fitted wardrobe and shoe storage by Form & Frame, combining full-height bedroom cabinetry, open shoe storage and precise fitted joinery.",
-    keywords: [
-      "fitted wardrobe",
-      "shoe storage",
-      "bespoke bedroom storage",
-      "built in wardrobe",
-      "fitted shoe storage",
-      "Stourcliff bedroom joinery",
-    ],
-    highlights: [
-      "Full-height fitted wardrobe",
-      "Dedicated shoe storage",
-      "Open and concealed storage",
-      "Precise fitted junctions",
-    ],
-    caseStudy: [
-      {
-        heading: "Wardrobe and shoe storage as one fitted scheme",
-        body: [
-          "This bedroom project combines full-height wardrobe cabinetry with dedicated shoe storage so different storage needs are handled within one coordinated fitted scheme.",
-          "The wardrobe provides concealed storage while the open sections keep frequently used footwear accessible.",
-        ],
-      },
-      {
-        heading: "The demanding part: coordinating different storage types",
-        body: [
-          "Combining tall wardrobe doors with smaller open storage sections requires careful control of proportions and alignment.",
-          "The furniture has to meet the surrounding walls cleanly while keeping door lines, shelf positions and panel junctions visually consistent.",
-        ],
-      },
-      {
-        heading: "Accessible shoe storage",
-        body: [
-          "The open storage provides a practical place for shoes without reducing the main wardrobe capacity.",
-          "The close-up views show how these smaller storage sections are integrated into the wider fitted furniture rather than added as separate units.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed installation provides a mix of concealed and accessible bedroom storage within a compact fitted footprint.",
-          "For similar wardrobes and specialist bedroom storage, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-front-02.webp",
-      alt: "Front view of Stourcliff fitted wardrobe and shoe storage",
-      fit: "contain",
-
+  "galleryId": "G51",
+  "slug": "stourcliff-fitted-wardrobe-shoe-storage",
+  "title": "Stourcliff Fitted Wardrobe & Shoe Storage",
+  "category": "Bespoke Joinery",
+  "summary": "A full-height fitted wardrobe with closed panelled doors, interior shelves and drawers, and a coordinated shoe cupboard beneath the window.",
+  "seoDescription": "Explore the Stourcliff fitted wardrobe, with closed panelled doors, organised interior shelves and drawers, and a matching shoe-storage cupboard.",
+  "keywords": [
+    "fitted wardrobe",
+    "shoe storage",
+    "bespoke bedroom storage",
+    "built in wardrobe",
+    "fitted shoe storage",
+    "Stourcliff bedroom joinery"
+  ],
+  "highlights": [
+    "Full-height fitted wardrobe",
+    "Panelled doors concealing shelves and drawers",
+    "Coordinated shoe-storage cupboard",
+    "Pull-out shoe shelving"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A fitted wardrobe with a calm exterior",
+      "body": [
+        "Closed panelled doors form the main wardrobe elevation in this Stourcliff bedroom. The next photograph opens the doors to show the shelves and drawers within, making the relationship between the finished exterior and its practical storage clear."
+      ]
     },
-    images: [
-      { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-front-02.webp", alt: "Front view of Stourcliff fitted wardrobe and shoe storage", fit: "contain" },
-      { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-overall-01.webp", alt: "Overall view of fitted wardrobe and storage", fit: "contain" },
-      { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-shoe-storage-03.webp", alt: "Dedicated fitted shoe storage", fit: "contain" },
-      { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-open-storage-04.webp", alt: "Open fitted storage detail", fit: "contain" },
-      { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-junction-05.webp", alt: "Wardrobe panel junction detail", fit: "contain" },
-    ],
+    {
+      "heading": "Clothing and shoe storage",
+      "body": [
+        "A separate fitted cupboard beneath the window provides dedicated shoe storage. Its doors open to reveal rows of footwear on pull-out shelves, with closer views showing the shelf arrangement and cabinet details.",
+        "For a similar wardrobe, the balance of hanging space, shelves and drawers can be planned around what you need to store, while door clearances and the surrounding room guide the layout."
+      ]
+    },
+    {
+      "heading": "Planning your wardrobe",
+      "body": [
+        "Share room photographs, approximate dimensions and your storage priorities. Form & Frame can review the wardrobe layout, technical details and fitting requirements before confirming the project scope."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-overall-01.webp",
+    "alt": "Closed doors on the full-height Stourcliff fitted wardrobe",
+    "fit": "contain"
   },
+  "images": [
+    {
+      "src": "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-overall-01.webp",
+      "alt": "Closed doors on the full-height Stourcliff fitted wardrobe",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-front-02.webp",
+      "alt": "Open wardrobe doors showing fitted shelves and drawers",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-shoe-storage-03.webp",
+      "alt": "Open shoe cupboard beneath the window",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-open-storage-04.webp",
+      "alt": "Pull-out shoe shelves inside the fitted cupboard",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-junction-05.webp",
+      "alt": "Close view of the shoe shelves and cabinet hinge",
+      "fit": "contain"
+    }
+  ]
+},
   {
     galleryId: "G52",
     slug: "stourcliff-bathroom-vanity-storage",
@@ -3390,135 +3364,166 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
-    galleryId: "G43",
-    slug: "esher-luxury-residence-home-office",
-    title: "Esher Luxury Residence — Home Office",
-    category: "Bespoke Joinery",
-    location: "Esher, Surrey",
-    summary: "A dark fitted home office with full-height display shelving, lower cabinetry, integrated lighting and refined brass detailing.",
-    seoDescription: "Esher Luxury Residence bespoke home office by Form & Frame, featuring full-height fitted shelving, integrated lighting, lower storage and brass detailing.",
-    keywords: [
-          "Esher Luxury Residence home office",
-          "bespoke home office",
-          "fitted office shelving",
-          "home office cabinetry",
-          "brass inlay joinery",
-          "bespoke study furniture"
-    ],
-    highlights: [
-          "Full-height display shelving",
-          "Integrated shelf lighting",
-          "Lower fitted cabinetry",
-          "Brass hardware and inlay"
-    ],
-    caseStudy: [
-      {
-        heading: "A full-height fitted home office",
-        body: [
-                  "This home office at the Esher residence combines tall open shelving with lower closed cabinetry to create a fitted working and display environment.",
-                  "The dark furniture wraps the wall while integrated lighting gives the open shelves depth and makes the display areas easier to read."
-        ],
-      },
-      {
-        heading: "The demanding part: controlling a large shelving elevation",
-        body: [
-                  "Tall open shelving makes level changes, vertical lines and shelf spacing highly visible across the full wall.",
-                  "Accurate setting out is therefore important so the display sections, lower cabinet doors and surrounding panels remain aligned."
-        ],
-      },
-      {
-        heading: "Lighting, brass and cabinetry details",
-        body: [
-                  "Closer photographs show the warm shelf lighting, brass hardware and inlay details alongside the darker cabinetry.",
-                  "These elements add definition without interrupting the disciplined overall furniture layout."
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-                  "The completed home office combines storage, display and working functions within one fitted composition.",
-                  "For similar studies and home-office joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment."
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-overall-01.webp",
-      alt: "Esher Luxury Residence Home Office",
-      fit: "contain",
+  "galleryId": "G43",
+  "slug": "esher-luxury-residence-home-office",
+  "title": "Esher Luxury Residence — Home Office",
+  "category": "Bespoke Joinery",
+  "location": "Esher, Surrey",
+  "summary": "A dark fitted home office with illuminated desk-side shelving, lower cupboards and a coordinated seating area with fireplace alcoves and wall panelling.",
+  "seoDescription": "Explore the Esher home office, with dark fitted bookcases, illuminated shelving, lower cupboards and coordinated alcoves around the seating-area fireplace.",
+  "keywords": [
+    "Esher Luxury Residence home office",
+    "bespoke home office",
+    "fitted office shelving",
+    "home office cabinetry",
+    "brass inlay joinery",
+    "bespoke study furniture"
+  ],
+  "highlights": [
+    "Desk-side fitted bookcase",
+    "Integrated shelf lighting",
+    "Fireplace alcoves and seating area",
+    "Lower cupboards and wall panelling"
+  ],
+  "caseStudy": [
+    {
+      "heading": "Storage beside the working area",
+      "body": [
+        "The home office combines a full-height fitted bookcase with lower cupboards beside the desk. Dark fronts and repeated shelf divisions give the working area a clear, ordered backdrop, while integrated lighting highlights the displayed objects."
+      ]
     },
-    images: [
-      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-overall-01.webp", alt: "Overall view of Esher Luxury Residence home office", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-cabinetry-02.webp", alt: "Home-office fitted shelving and cabinetry", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-brass-detail-03.webp", alt: "Brass detail in home-office joinery", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-brass-inlay-04.webp", alt: "Brass inlay detail", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-hardware-05.webp", alt: "Home-office brass hardware detail", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-home-office/8-leys-home-office-detail-06.webp", alt: "Home-office fitted joinery detail", fit: "contain" },
-    ],
+    {
+      "heading": "A coordinated seating area",
+      "body": [
+        "The wider room views show a seating area with fitted alcoves on either side of the television and fireplace. Lower cupboards and wall panelling continue the dark joinery around this part of the room, connecting it with the desk-side furniture."
+      ]
+    },
+    {
+      "heading": "Details across the room",
+      "body": [
+        "The shelving, cupboard fronts and surrounding panels use repeated horizontal and vertical lines. The closer view shows the illuminated display shelves above the lower storage.",
+        "When planning a similar home office, it helps to consider working space, display, concealed storage and any seating area together. Room photographs and approximate dimensions give Form & Frame a starting point for discussing the layout and installation scope."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/8-leys-road-home-office/8-leys-home-office-overall-01.webp",
+    "alt": "Overall view of Esher Luxury Residence home office",
+    "fit": "contain"
   },
+  "images": [
+    {
+      "src": "/images/gallery/8-leys-road-home-office/8-leys-home-office-overall-01.webp",
+      "alt": "Overall view of Esher Luxury Residence home office",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/8-leys-road-home-office/8-leys-home-office-cabinetry-02.webp",
+      "alt": "Home-office fitted shelving and cabinetry",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/8-leys-road-home-office/8-leys-home-office-brass-detail-03.webp",
+      "alt": "Illuminated display shelving and lower cupboard detail in the home office",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-third-room-08.webp",
+      "alt": "Home-office seating area with illuminated alcoves beside the television and fireplace",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-third-room-front-09.webp",
+      "alt": "Full front view of the home-office alcoves, fireplace and surrounding wall panelling",
+      "fit": "contain"
+    }
+  ]
+},
   {
-    galleryId: "G44",
-    slug: "esher-luxury-residence-bookcase-leather-brass",
-    title: "Esher Luxury Residence — Bookcase with Leather & Brass Detail",
-    category: "Bespoke Joinery",
-    location: "Esher, Surrey",
-    summary: "A full-height bespoke bookcase wall with illuminated shelving and refined leather and brass detailing integrated into the vertical framing.",
-    seoDescription: "Esher Luxury Residence bespoke bookcase by Form & Frame, with full-height illuminated shelving, leather detailing and refined brass accents.",
-    keywords: [
-          "Esher Luxury Residence bookcase",
-          "bespoke bookcase",
-          "illuminated shelving",
-          "leather joinery detail",
-          "brass detail bookcase",
-          "fitted display wall"
-    ],
-    highlights: [
-          "Full-height fitted bookcase",
-          "Integrated shelf lighting",
-          "Leather detailing",
-          "Brass accents"
-    ],
-    caseStudy: [
-      {
-        heading: "A full-height illuminated bookcase wall",
-        body: [
-                  "This bookcase at the Esher residence fills the wall with open display shelving above lower fitted storage.",
-                  "Integrated lighting within the shelves gives the display objects depth while keeping the furniture visually structured."
-        ],
-      },
-      {
-        heading: "The demanding part: maintaining repetition across the wall",
-        body: [
-                  "A long bookcase elevation depends on consistent shelf lines, vertical divisions and lower cabinet proportions.",
-                  "Because the furniture is read as one large composition, small variations in spacing or alignment would be immediately visible."
-        ],
-      },
-      {
-        heading: "Leather and brass details",
-        body: [
-                  "The close-up photographs focus on the leather and brass treatment around the bookcase framing and illuminated shelves.",
-                  "These material details provide contrast against the darker furniture while remaining integrated into the overall joinery."
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-                  "The completed bookcase combines display, concealed storage and decorative material detailing within a single fitted wall.",
-                  "For similar bookcases and display furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment."
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-overall-01.webp",
-      alt: "Esher Luxury Residence Bookcase with Leather & Brass Detail",
-      fit: "contain",
+  "galleryId": "G44",
+  "slug": "esher-luxury-residence-bookcase-leather-brass",
+  "title": "Esher Luxury Residence — Bookcase with Leather & Brass Detail",
+  "category": "Bespoke Joinery",
+  "location": "Esher, Surrey",
+  "summary": "A full-height bespoke bookcase wall with illuminated shelving and refined leather and brass detailing integrated into the vertical framing.",
+  "seoDescription": "Esher Luxury Residence bespoke bookcase by Form & Frame, with full-height illuminated shelving, leather detailing and refined brass accents.",
+  "keywords": [
+    "Esher Luxury Residence bookcase",
+    "bespoke bookcase",
+    "illuminated shelving",
+    "leather joinery detail",
+    "brass detail bookcase",
+    "fitted display wall"
+  ],
+  "highlights": [
+    "Full-height fitted bookcase",
+    "Integrated shelf lighting",
+    "Leather detailing",
+    "Brass accents"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A full-height illuminated bookcase wall",
+      "body": [
+        "This bookcase at the Esher residence fills the wall with open display shelving above lower fitted storage.",
+        "Integrated lighting within the shelves gives the display objects depth while keeping the furniture visually structured."
+      ]
     },
-    images: [
-      { src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-overall-01.webp", alt: "Overall view of Esher Luxury Residence bespoke bookcase", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-detail-02.webp", alt: "Bespoke bookcase detail view", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-leather-led-03.webp", alt: "Leather and illuminated shelf detail", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-leather-led-04.webp", alt: "Leather and brass bookcase detail", fit: "contain" },
-    ],
+    {
+      "heading": "The demanding part: maintaining repetition across the wall",
+      "body": [
+        "A long bookcase elevation depends on consistent shelf lines, vertical divisions and lower cabinet proportions.",
+        "Because the furniture is read as one large composition, small variations in spacing or alignment would be immediately visible."
+      ]
+    },
+    {
+      "heading": "Leather and brass details",
+      "body": [
+        "The close-up photographs focus on the leather and brass treatment around the bookcase framing and illuminated shelves.",
+        "These material details provide contrast against the darker furniture while remaining integrated into the overall joinery."
+      ]
+    },
+    {
+      "heading": "The finished result",
+      "body": [
+        "The completed bookcase combines display, concealed storage and decorative material detailing within a single fitted wall.",
+        "For similar bookcases and display furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-overall-01.webp",
+    "alt": "Overall view of Esher Luxury Residence bespoke bookcase",
+    "fit": "contain"
   },
+  "images": [
+    {
+      "src": "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-overall-01.webp",
+      "alt": "Overall view of Esher Luxury Residence bespoke bookcase",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-detail-02.webp",
+      "alt": "Bespoke bookcase detail view",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-leather-led-03.webp",
+      "alt": "Leather and illuminated shelf detail",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-leather-led-04.webp",
+      "alt": "Leather and brass bookcase detail",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/8-leys-road-home-office/8-leys-home-office-brass-inlay-04.webp",
+      "alt": "Lower bookcase cabinet with brass-trimmed fronts beneath the display shelf",
+      "fit": "contain"
+    }
+  ]
+},
   {
     galleryId: "G56",
     slug: "esher-luxury-residence-wine-cellar",
@@ -3836,6 +3841,65 @@ export const galleryProjects: GalleryProject[] = [
     {
       "src": "/images/gallery/esher-luxury-residence-make-up-table/esher-luxury-residence-make-up-table-overall-01.webp",
       "alt": "Complete Esher make-up table viewed through the doorway, with twin drawer units and a tall mirror",
+      "fit": "contain"
+    }
+  ]
+},
+{
+  "galleryId": "G61",
+  "slug": "esher-luxury-residence-modern-alcove-units",
+  "title": "Esher Luxury Residence — Modern Alcove Units",
+  "category": "Bespoke Joinery",
+  "location": "Esher, Surrey",
+  "summary": "A modern fitted alcove pair with reflective display shelving and projecting top details, framing the television and fireplace in a light-toned living room.",
+  "seoDescription": "Explore modern alcove units at the Esher residence, with reflective display shelves, dark framing and a coordinated television and fireplace composition.",
+  "keywords": [
+    "Esher modern alcove units",
+    "modern fitted shelving",
+    "reflective display shelving",
+    "living room alcove furniture",
+    "bespoke alcove pair"
+  ],
+  "highlights": [
+    "Two fitted alcoves framing the fireplace",
+    "Reflective open display shelving",
+    "Dark framing and projecting top details",
+    "Full-room view and individual alcove detail"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A balanced living-room pair",
+      "body": [
+        "Two fitted alcove units frame the central television and fireplace in this light-toned Esher living room. The full-room photograph shows both pieces together, with their dark framing set against the pale walls and seating."
+      ]
+    },
+    {
+      "heading": "Reflective shelves and top details",
+      "body": [
+        "The closer photograph shows the left-hand unit, including its reflective display areas and projecting top detail. The repeated shelf lines organise the displayed objects while keeping the alcove visually open."
+      ]
+    },
+    {
+      "heading": "Discuss your alcove furniture",
+      "body": [
+        "Share photographs of the whole wall and the available dimensions on both sides of the chimney breast. Form & Frame can review the display and storage requirements, proportions and fitting details before agreeing a similar project."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-second-room-06.webp",
+    "alt": "Full living-room view of modern alcove units around the television and fireplace",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-second-room-06.webp",
+      "alt": "Full living-room view of modern alcove units around the television and fireplace",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-second-room-detail-07.webp",
+      "alt": "Left-hand modern alcove with reflective shelves and projecting top detail",
       "fit": "contain"
     }
   ]
