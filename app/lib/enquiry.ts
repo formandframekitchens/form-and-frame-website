@@ -77,11 +77,12 @@ export function readEnquirySelection(params: Pick<URLSearchParams, "get">): Enqu
   return { service, supplier, installation: installation?.value || "", joinery };
 }
 
-export function enquiryHref(selection: { service: ServiceId; supplier?: SupplierId | ""; installation?: InstallationId | ""; joinery?: JoineryId | "" }) {
+export function enquiryHref(selection: { service: ServiceId; supplier?: SupplierId | ""; installation?: InstallationId | ""; joinery?: JoineryId | ""; project?: string }) {
   const params = new URLSearchParams({ service: selection.service });
   if (selection.supplier) params.set("supplier", selection.supplier);
   if (selection.installation) params.set("installation", selection.installation);
   if (selection.joinery && selection.service === "bespoke-joinery") params.set("joinery", selection.joinery);
+  if (selection.project) params.set("project", selection.project);
   return `/contact?${params.toString()}#enquiry-form`;
 }
 

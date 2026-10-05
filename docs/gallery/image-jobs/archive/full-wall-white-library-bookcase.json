@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G57 Full-Wall White Library Bookcase",
+  "slug": "full-wall-white-library-bookcase",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1g8-T2acU0kYav1MLxQ_MoD_PR_pCISJl",
+      "source_label": "_MG_0602print.jpg",
+      "output_stem": "full-wall-white-library-bookcase-overall-01",
+      "role": "cover"
+    },
+    {
+      "drive_file_id": "1gN2dm3prM-k1mEkfppSWgfZ5kY2kJ1Jw",
+      "source_label": "_MG_0598print.jpg",
+      "output_stem": "full-wall-white-library-bookcase-room-02",
+      "role": "overall"
+    },
+    {
+      "drive_file_id": "13ERhWWEQsL54SiII1VKieNYYq-C4I8xS",
+      "source_label": "_MG_0619web.jpg",
+      "output_stem": "full-wall-white-library-bookcase-detail-03",
+      "role": "detail"
+    },
+    {
+      "drive_file_id": "1sxgtz43lpT6H19_FRhR2VJDh-q1nAL9S",
+      "source_label": "_MG_0610print.jpg",
+      "output_stem": "full-wall-white-library-bookcase-storage-04",
+      "role": "detail"
+    },
+    {
+      "drive_file_id": "1MikQ3ybfUff5iDQFpX1dYReHaiL067xu",
+      "source_label": "_MG_0616print.jpg",
+      "output_stem": "full-wall-white-library-bookcase-room-05",
+      "role": "overall"
+    }
+  ]
+}

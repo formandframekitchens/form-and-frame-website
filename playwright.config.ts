@@ -15,6 +15,7 @@ export default defineConfig({
     { name: "mobile", use: { viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true } },
   ],
   webServer: {
+    env: { PROGRESS_GALLERY_ACCESS_CODE: "local-gallery-test-only", RESEND_API_KEY: "" },
     command: "npm run start -- --hostname 127.0.0.1 --port 3105",
     url: "http://127.0.0.1:3105",
     reuseExistingServer: !process.env.CI,
