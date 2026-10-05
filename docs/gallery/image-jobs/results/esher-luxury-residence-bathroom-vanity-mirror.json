@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "project": "G58 Esher Luxury Residence \u2014 Bathroom Vanity & Mirror",
+  "slug": "esher-luxury-residence-bathroom-vanity-mirror",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1mNLVhj12MV_kUP7rqgE7mMFCZwKlNtR8",
+      "source_label": "F0001.jpg",
+      "role": "cover",
+      "original": {
+        "width": 5792,
+        "height": 8688
+      },
+      "webp": {
+        "path": "public/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-overall-01.webp",
+        "bytes": 127506,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "60787a462657c3118441ba71d064454338ce0441a01bbfe32ed60c41887054a3",
+        "git_blob_sha": "f219a633570bcd8d87acc8f18049c518903b0ceb"
+      },
+      "avif": {
+        "path": "public/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-overall-01.avif",
+        "bytes": 90101,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "34b3263673bbd432247638727249b93823570faa097c186d0d50e21e206970d9",
+        "git_blob_sha": "f0dc982fffb40812c03c50d0697f4a2b83eb1dd2"
+      }
+    },
+    {
+      "drive_file_id": "1J0LpeHB-ui0-TtOXhECnR38WyC31HNYL",
+      "source_label": "F0002.jpg",
+      "role": "overall",
+      "original": {
+        "width": 4900,
+        "height": 7306
+      },
+      "webp": {
+        "path": "public/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-overall-02.webp",
+        "bytes": 117638,
+        "quality": 84,
+        "width": 1341,
+        "height": 2000,
+        "sha256": "bd8c4a5cfb94ea4e996c127f27ca10cb6188504e5532356f66a4b4092052be6b",
+        "git_blob_sha": "413983e6487754506c25d30b42c151bfde2bf3a9"
+      },
+      "avif": {
+        "path": "public/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-overall-02.avif",
+        "bytes": 84897,
+        "quality": 58,
+        "width": 1341,
+        "height": 2000,
+        "sha256": "eadb5137fac88f19137dace6bc3220bb20b88fd5f1da6bc6f6e2cc08286d7323",
+        "git_blob_sha": "eb372920eff7c81bd5844e95024a7f35705bc8c6"
+      }
+    },
+    {
+      "drive_file_id": "1oqMZ62cajxTmILIMgDtgYUR_iaM9njbz",
+      "source_label": "F0003.jpg",
+      "role": "detail",
+      "original": {
+        "width": 4912,
+        "height": 7360
+      },
+      "webp": {
+        "path": "public/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-detail-03.webp",
+        "bytes": 124616,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "5dc8d13711c9f8a56e9ac5f91d8d2f7f43bf26cd6d535d6d4f78974244859840",
+        "git_blob_sha": "ab3d4c3a4f564e62fc5f4e96d1a86addcb32693e"
+      },
+      "avif": {
+        "path": "public/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-detail-03.avif",
+        "bytes": 83480,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "0fdc344a9757922b77bc5f65d8954aa16a4241466cd05fc3609e84fb3ede7fd5",
+        "git_blob_sha": "15b17d42f1ae07ccd4a454d3846625ab4346f568"
+      }
+    },
+    {
+      "drive_file_id": "1JQmG59a9mYFYVagZ46T5NdfbtNyk6p1t",
+      "source_label": "G0004.jpg",
+      "role": "overall",
+      "original": {
+        "width": 5792,
+        "height": 8688
+      },
+      "webp": {
+        "path": "public/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-angle-04.webp",
+        "bytes": 123884,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "464302b10cb81e43b6917ef03389db96117e985d8c630baffab0691c83c0eb94",
+        "git_blob_sha": "3d86460cd50f17a6cffb113b9f21c5fd41236db2"
+      },
+      "avif": {
+        "path": "public/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-angle-04.avif",
+        "bytes": 90243,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "741f0698f042eae1c67b86f2a87a81123f4520ce79388b0cd734d84dcbe7797d",
+        "git_blob_sha": "ae1b687b25d9e71785e38634fced78f2a77db854"
+      }
+    },
+    {
+      "drive_file_id": "1OK-Bh0euYglui8JKwvjN5F4M-fhWypuG",
+      "source_label": "G0005.jpg",
+      "role": "detail",
+      "original": {
+        "width": 4900,
+        "height": 7342
+      },
+      "webp": {
+        "path": "public/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-detail-05.webp",
+        "bytes": 107356,
+        "quality": 84,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "528b00d7f7e9079f21fe09979fa7eb0acbcf9b9f958742c34d1d960d302efa21",
+        "git_blob_sha": "50bac2ba0138d64d8a16788817285822e8b3c707"
+      },
+      "avif": {
+        "path": "public/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-detail-05.avif",
+        "bytes": 78886,
+        "quality": 58,
+        "width": 1335,
+        "height": 2000,
+        "sha256": "3e919f2a7b38e878787a196285060777d9c6634f44a4f6a7c87f59b6aa59900a",
+        "git_blob_sha": "8739e79530a84d8b6035f34b8a05e49f3e51974b"
+      }
+    },
+    {
+      "drive_file_id": "1gxuLZM29-LGYPXGbubFVWAcNvECGYUOD",
+      "source_label": "G0006.jpg",
+      "role": "detail",
+      "original": {
+        "width": 4912,
+        "height": 7248
+      },
+      "webp": {
+        "path": "public/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-detail-06.webp",
+        "bytes": 125356,
+        "quality": 84,
+        "width": 1355,
+        "height": 2000,
+        "sha256": "e8a32b2d811c9c8f767f946b839f460a0fc394902844c29a31e4337639ccd91b",
+        "git_blob_sha": "ffc0abcada0d42a289ef63464916c97ee403ee99"
+      },
+      "avif": {
+        "path": "public/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-detail-06.avif",
+        "bytes": 84606,
+        "quality": 58,
+        "width": 1355,
+        "height": 2000,
+        "sha256": "60c7575920e4329c95be91703dfe52793231de5c9f661bed88edb444a458b2a9",
+        "git_blob_sha": "e90a2feca9b8c595cce7d57552a3b37f2573c317"
+      }
+    }
+  ]
+}
