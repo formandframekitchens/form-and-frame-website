@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 
 import { ProjectGalleryCarousel } from "../../components/project-gallery-carousel";
 import { Footer, Header } from "../../components/site-shell";
-import { galleryProjects, getGalleryProject } from "../../lib/gallery-projects";
+import { publicGalleryProjects, getGalleryProject } from "../../lib/gallery-projects";
 import { galleryEnquiryHref, galleryEnquirySelection, relatedGalleryProjects } from "../../lib/gallery-catalog";
 import { serviceOptions } from "../../lib/enquiry";
 import { siteUrl } from "../../lib/site";
@@ -12,7 +12,7 @@ import { siteUrl } from "../../lib/site";
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return galleryProjects.map(({ slug }) => ({ slug }));
+  return publicGalleryProjects.map(({ slug }) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: PageProps<"/gallery/[slug]">): Promise<Metadata> {

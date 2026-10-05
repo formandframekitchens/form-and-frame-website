@@ -2,7 +2,17 @@
 
 This is the permanent internal tracking register for website gallery case studies.
 
-## Current checkpoint — 5 October 2026 / B14
+## Current checkpoint — 5 October 2026 / B15
+
+Resume from [B15 gallery visibility and order](b15-visibility-order.md). The owner requested hiding G46, G26, G23, G21 and G22, retaining their records and photographs for later restoration.
+
+- 49 public projects; 54 saved records and 273 photographs retained.
+- Final eleven gallery cards, in order: G12, G13, G15, G17, G16, G06, G11, G07, G04, G02, G03.
+- The explicit bottom selection overrides family grouping. The other cards keep their existing family grouping.
+- Hidden projects are excluded from public routes, search, filters, recommendations, service cards, enquiry references and sitemap.
+- Next new development batch: B16. Next unassigned gallery: G62. G40 remains reserved.
+
+## Historical checkpoint — B14 (superseded by B15)
 
 Resume from [B14 photo corrections](b14-photo-corrections.md). Owner-approved photo reassignments are LIVE via PR #77 / merge `63b003b`; production `dpl_EL4zQfhSWxViiASzJMqWhun1ZNRC` is READY. All six affected galleries, image assignments, redirects and enquiry flows passed live desktop/mobile verification.
 
@@ -43,7 +53,7 @@ Rules:
 - Current review order is ascending by stable G-number. G-numbers never change when display order changes.
 
 ## Gallery Cover & Grouping Rule — permanent
-- Gallery cards are grouped by project family so projects sharing the same public project name/location stay adjacent.
+- Gallery cards are grouped by project family so projects sharing the same public project name/location stay adjacent, except for the owner's explicit bottom selection in B15.
 - Within a family, cards are ordered by stable G-number.
 - The gallery card cover and the first image in the project carousel MUST be the same image.
 - Cover priority: straight/front or full-pair view -> overall full composition -> full room view -> widest available view.
@@ -87,31 +97,31 @@ When a lane fuse fires:
 | No. | Project | Status | Priority / source note |
 |---|---|---|---|
 | G01 | Stourcliff White Handleless Kitchen | LIVE | Canonical established route; absorbs G53 photographs |
-| G02 | Soho Bespoke Bookcase | LIVE | Soho 13 |
-| G03 | Soho Walk-In Wardrobe | LIVE | Soho 13 |
-| G04 | Grey & Black Bespoke Media Wall | LIVE | Canonical media-wall gallery; absorbs the G18 image set |
+| G02 | Soho Bespoke Bookcase | LIVE / BOTTOM B15 | Soho 13 |
+| G03 | Soho Walk-In Wardrobe | LIVE / BOTTOM B15 | Soho 13 |
+| G04 | Grey & Black Bespoke Media Wall | LIVE / BOTTOM B15 | Canonical media-wall gallery; absorbs the G18 image set |
 | G05 | Golden Textured-Front Cabinet | MERGED INTO G19 | Same source job/files as G19 Putney Heath Bespoke Cabinets; duplicate retired and never reused |
-| G06 | Built-In Window Seat with Drawer Storage | LIVE | Existing / Eric source duplicate |
-| G07 | Soho Shoe-Storage Cabinet | LIVE / LOW | Keep at bottom of gallery |
+| G06 | Built-In Window Seat with Drawer Storage | LIVE / BOTTOM B15 | Existing / Eric source duplicate |
+| G07 | Soho Shoe-Storage Cabinet | LIVE / BOTTOM B15 | Keep at bottom of gallery |
 | G08 | Black Oak Media Wall with Brass Inlay | LIVE | Chelsea / black TV source |
 | G09 | Natural Walnut Bespoke Bookcase | LIVE | Nuotraukos puslapiui / strong professional set |
 | G10 | Duplicate Dark Oak Bookcase Set | MERGED INTO G02 | Same Soho Bespoke Bookcase job; selected images merged into G02; G10 retired and never reused |
-| G11 | Westminster Polished Brass Panelled Doors | LIVE | Westminster source / selected 4-image set |
-| G12 | Bookcase in Esher | LIVE | Existing Esher bookcase set; personal/designer name removed |
-| G13 | Cream Bespoke TV Unit | LIVE | Gallery 1 / clean original photography; branded-logo JPG set retired |
+| G11 | Westminster Polished Brass Panelled Doors | LIVE / BOTTOM B15 | Westminster source / selected 4-image set |
+| G12 | Bookcase in Esher | LIVE / BOTTOM B15 | Existing Esher bookcase set; personal/designer name removed |
+| G13 | Cream Bespoke TV Unit | LIVE / BOTTOM B15 | Gallery 1 / clean original photography; branded-logo JPG set retired |
 | G14 | Crocodile-Front Bespoke Cabinet | LIVE | Gallery 4 / Drive ingest verified; 5-image WebP + AVIF set |
-| G15 | S&C Bespoke TV Unit | LIVE | Gallery 6 / first fresh Drive ingest trial passed; 5-image WebP + AVIF set |
-| G16 | S&C Bespoke Bookcase | LIVE | Gallery 7 / 6-image Drive ingest passed; WebP + AVIF set |
-| G17 | Grey Bespoke Sideboard | LIVE / LOWER | Gallery 10 / four-image set; Drive ingest passed |
+| G15 | S&C Bespoke TV Unit | LIVE / BOTTOM B15 | Gallery 6 / first fresh Drive ingest trial passed; 5-image WebP + AVIF set |
+| G16 | S&C Bespoke Bookcase | LIVE / BOTTOM B15 | Gallery 7 / 6-image Drive ingest passed; WebP + AVIF set |
+| G17 | Grey Bespoke Sideboard | LIVE / BOTTOM B15 | Gallery 10 / four-image set; Drive ingest passed |
 | G18 | Dubai Bespoke TV Unit | MERGED INTO G04 | Same job as G04; five useful images merged into canonical G04; G18 retired and never reused |
 | G19 | Putney Heath Bespoke Cabinets | LIVE | Arno 07 / clean 6-image WebP + AVIF set; branded-logo source copies replaced; absorbs duplicate G05 source job |
 | G20 | Highgate Fitted Wardrobes | LIVE | Arno 06 / 3-image fitted-wardrobe set; Drive ingest passed |
-| G21 | Northwood Bespoke TV Unit | LIVE | Split from Arno 05 / 2-image TV-unit set; office images reserved for G22 |
-| G22 | Northwood Home Office | LIVE | Split from Arno 05 / 3 clean images; duplicate/logo preflight passed; Drive ingest passed |
-| G23 | Putney Flat Bespoke TV Unit | LIVE | Arno 04 / 3 clean images; duplicate/logo preflight passed; Drive ingest passed |
+| G21 | Northwood Bespoke TV Unit | HIDDEN / B15 | Split from Arno 05 / 2-image TV-unit set; office images reserved for G22 |
+| G22 | Northwood Home Office | HIDDEN / B15 | Split from Arno 05 / 3 clean images; duplicate/logo preflight passed; Drive ingest passed |
+| G23 | Putney Flat Bespoke TV Unit | HIDDEN / B15 | Arno 04 / 3 clean images; duplicate/logo preflight passed; Drive ingest passed |
 | G24 | Earls Court Bespoke TV Unit | MERGED INTO G13 | Same TV-unit photography as G13 Cream Bespoke TV Unit; duplicate retired and never reused |
 | G25 | Earls Court Floating Shelf & Mirror Wall | LIVE | Split from Arno 03 / 1 unique clean image; duplicate/logo preflight passed; Drive ingest passed |
-| G26 | Putney Bespoke TV Unit | LIVE | Arno 01 / 4 unique clean images; duplicate source photo excluded; logo preflight passed; Drive ingest passed |
+| G26 | Putney Bespoke TV Unit | HIDDEN / B15 | Arno 01 / 4 unique clean images; duplicate source photo excluded; logo preflight passed; Drive ingest passed |
 | G27 | Manchester Walk-In Wardrobe | LIVE | Complete wardrobe, island and dressing-table project; six unique images after absorbing G28; B14 live verified |
 | G28 | Manchester Make-Up Island & Dressing Table | MERGED INTO G27 | Owner confirmed the same project; photos retained once in G27, old URL redirects; ID retired and never reused |
 | G29 | Virginia Water Wine Room | LIVE | Wentworth / 6 clean images; duplicate/logo preflight passed; Drive ingest passed after push-race retry |
@@ -131,7 +141,7 @@ When a lane fuse fires:
 | G43 | Esher Luxury Residence — Home Office | LIVE | Five photographs: original 1–3 plus original G45 8–9; C0054 moved to G44, A0007 to G45, B0007 removed; B14 verified |
 | G44 | Esher Luxury Residence — Bookcase with Leather & Brass Detail | LIVE | Original four photographs plus C0054 from original G43 image 4; B14 verified |
 | G45 | Esher Luxury Residence — Alcove Units | LIVE | Rooflit-room installation only: original 1–5 plus A0007 from original G43 image 6; other rooms moved to G61/G43; B14 verified |
-| G46 | London Luxury Salon Joinery | LIVE | 10 clean selected salon images; LOGO folder excluded; Drive ingest and SHA verification passed; corrected preview passed; production READY |
+| G46 | London Luxury Salon Joinery | HIDDEN / B15 | 10 clean selected salon images; LOGO folder excluded; Drive ingest and SHA verification passed; corrected preview passed; production READY |
 | G47 | Bespoke Media Wall with Display Shelving | LIVE | Aram high res images 1–11; ingest, asset verification, preview and production verification passed; PR #44 merged |
 | G48 | Stourcliff Bespoke Media Wall | LIVE | AIDA high res images 1, 2, 4, 5, 6, 7; ingest, SHA verification, preview, merge and production route verification passed |
 | G49 | Stourcliff Mirrored Wardrobes | LIVE | AIDA high res images 12–16; 10/10 assets verified; preview and production routes verified; PR #46 merged |

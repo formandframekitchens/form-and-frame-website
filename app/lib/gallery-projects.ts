@@ -1,3 +1,5 @@
+import { hiddenGalleryIds } from "./gallery-visibility";
+
 export type GalleryImage = {
   src: string;
   alt: string;
@@ -3906,6 +3908,8 @@ export const galleryProjects: GalleryProject[] = [
 },
 ];
 
+export const publicGalleryProjects = galleryProjects.filter(project => !hiddenGalleryIds.includes(project.galleryId));
+
 export function getGalleryProject(slug: string) {
-  return galleryProjects.find(project => project.slug === slug);
+  return publicGalleryProjects.find(project => project.slug === slug);
 }

@@ -35,9 +35,14 @@ This keeps the structure simple:
 
 ## Current sequence — 5 October 2026
 
+- B15 — Owner-directed gallery visibility and bottom ordering.
+- Branch: `b15-gallery-visibility-order`.
+- Next new website batch: B16; next unassigned gallery: G62.
+
+### Previous sequence (B14)
+
 - B14 — Owner-directed gallery photo corrections and Manchester merge.
 - Branch: `b14-gallery-photo-corrections`.
-- Next new website batch: B15; next unassigned gallery: G62.
 
 ### Previous sequence (B13)
 
