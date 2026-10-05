@@ -35,6 +35,12 @@ This keeps the structure simple:
 
 ## Current sequence — 5 October 2026
 
+- B14 — Owner-directed gallery photo corrections and Manchester merge.
+- Branch: `b14-gallery-photo-corrections`.
+- Next new website batch: B15; next unassigned gallery: G62.
+
+### Previous sequence (B13)
+
 - B13 — Gallery completion, navigation, enquiries and content reconciliation.
 - Branch: `b13-gallery-completion`.
 - Four already prepared gallery branches retain their assigned G57–G60 lane names; each is integrated and verified separately under this batch.
