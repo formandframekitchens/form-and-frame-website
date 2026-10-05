@@ -4,7 +4,7 @@ import Link from "next/link";
 import { GalleryProjectCard } from "../components/gallery-project-card";
 import { Footer, Header } from "../components/site-shell";
 import { categoriesForProject, filterGalleryProjects, galleryCategories, galleryHref, readGalleryFilters } from "../lib/gallery-catalog";
-import { galleryProjects } from "../lib/gallery-projects";
+import { publicGalleryProjects } from "../lib/gallery-projects";
 
 export async function generateMetadata({ searchParams }: PageProps<"/gallery">): Promise<Metadata> {
   const filters = readGalleryFilters(await searchParams);
@@ -38,9 +38,9 @@ export default async function GalleryPage({ searchParams }: PageProps<"/gallery"
               <div className="gallery-search-fields"><input id="gallery-search" type="search" name="q" defaultValue={filters.q} maxLength={100} placeholder="Try wardrobes, Fulham or G32" /><button type="submit" className="button">Search</button></div>
             </Form>
             <nav className="gallery-filters" aria-label="Filter projects by furniture type">
-              <Link href={galleryHref({ q: filters.q })} aria-current={!filters.category ? "page" : undefined} prefetch={false}>All projects <span>{galleryProjects.length}</span></Link>
+              <Link href={galleryHref({ q: filters.q })} aria-current={!filters.category ? "page" : undefined} prefetch={false}>All projects <span>{publicGalleryProjects.length}</span></Link>
               {galleryCategories.map(category => <Link key={category.value} href={galleryHref({ category: category.value, q: filters.q })} aria-current={filters.category === category.value ? "page" : undefined} prefetch={false}>
-                {category.label} <span>{galleryProjects.filter(project => categoriesForProject(project).includes(category.value)).length}</span>
+                {category.label} <span>{publicGalleryProjects.filter(project => categoriesForProject(project).includes(category.value)).length}</span>
               </Link>)}
             </nav>
           </div>

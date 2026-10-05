@@ -6,7 +6,7 @@ import { ServiceQuote, ServiceSection } from "./service-page";
 import { enquiryHref } from "../lib/enquiry";
 import type { JoineryCategory } from "../lib/joinery-categories";
 import { categoriesForProject, galleryHref } from "../lib/gallery-catalog";
-import { galleryProjects } from "../lib/gallery-projects";
+import { publicGalleryProjects } from "../lib/gallery-projects";
 import { GalleryProjectCard } from "./gallery-project-card";
 
 export function JoineryCategoryPage({ category }: { category: JoineryCategory }) {
@@ -14,10 +14,10 @@ export function JoineryCategoryPage({ category }: { category: JoineryCategory })
   const preferredProjects: Record<string, string[]> = {
     wardrobes: ["G27", "G41", "G49", "G20"], "alcove-units": ["G32", "G45", "G19"],
     bookcases: ["G44", "G09", "G57", "G12"], "entertainment-units": ["G08", "G47", "G48", "G04"],
-    "office-furniture": ["G31", "G43", "G22", "G35"], "unique-furniture": ["G29", "G58", "G46", "G59"],
+    "office-furniture": ["G31", "G43", "G35"], "unique-furniture": ["G29", "G58", "G59"],
   };
   const preferred = preferredProjects[category.slug] ?? [];
-  const projects = category.slug === "under-stairs-storage" ? [] : galleryProjects
+  const projects = category.slug === "under-stairs-storage" ? [] : publicGalleryProjects
     .filter(project => categoriesForProject(project).includes(category.slug as Exclude<typeof category.slug, "under-stairs-storage">))
     .sort((a, b) => (preferred.includes(a.galleryId) ? preferred.indexOf(a.galleryId) : 99) - (preferred.includes(b.galleryId) ? preferred.indexOf(b.galleryId) : 99));
   const hero = projects[0]?.cover;

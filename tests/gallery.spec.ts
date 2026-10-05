@@ -1,7 +1,8 @@
 import { expect, test } from "@playwright/test";
 import { existsSync } from "node:fs";
 import path from "node:path";
-import { galleryProjects } from "../app/lib/gallery-projects";
+import { galleryProjects, publicGalleryProjects } from "../app/lib/gallery-projects";
+import { hiddenGalleryIds } from "../app/lib/gallery-visibility";
 import { categoriesForProject, filterGalleryProjects, galleryEnquirySelection, relatedGalleryProjects } from "../app/lib/gallery-catalog";
 import { enquiryDetails } from "../app/lib/enquiry-email";
 
@@ -46,7 +47,7 @@ test("prepared projects display their verified images and retain enquiry context
 
 test("category filters, search, reload and empty results work", async ({ page }, testInfo) => {
   await page.goto("/gallery");
-  await expect(page.locator(".gallery-card")).toHaveCount(galleryProjects.length);
+  await expect(page.locator(".gallery-card")).toHaveCount(publicGalleryProjects.length);
   await page.getByRole("navigation", { name: "Filter projects by furniture type" }).getByRole("link", { name: /^Bookcases/ }).click();
   const count = filterGalleryProjects({ category: "bookcases", q: "" }).length;
   await expect(page.locator(".gallery-card")).toHaveCount(count);
@@ -61,9 +62,42 @@ test("category filters, search, reload and empty results work", async ({ page },
   await page.getByRole("button", { name: "Search", exact: true }).click();
   await expect(page.getByRole("heading", { name: "No projects match this search" })).toBeVisible();
   await page.getByRole("link", { name: "View all projects", exact: true }).click();
-  await expect(page.locator(".gallery-card")).toHaveCount(galleryProjects.length);
+  await expect(page.locator(".gallery-card")).toHaveCount(publicGalleryProjects.length);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   await page.screenshot({ path: testInfo.outputPath("gallery-index.png") });
+});
+
+test("owner's bottom selection stays last, including filtered results", async ({ page }) => {
+  await page.goto("/gallery");
+  const ids = await page.locator(".gallery-card-project-id").allTextContents();
+  expect(ids).toHaveLength(49);
+  expect(ids.slice(-11)).toEqual(["G12", "G13", "G15", "G17", "G16", "G06", "G11", "G07", "G04", "G02", "G03"]);
+  expect(ids.some(id => hiddenGalleryIds.includes(id))).toBe(false);
+  await page.getByRole("navigation", { name: "Filter projects by furniture type" }).getByRole("link", { name: /^Bookcases/ }).click();
+  await expect.poll(async () => (await page.locator(".gallery-card-project-id").allTextContents()).slice(-3)).toEqual(["G12", "G16", "G02"]);
+});
+
+test("hidden galleries are retained but unpublished from routes, search and enquiries", async ({ request }, testInfo) => {
+  test.skip(testInfo.project.name !== "desktop", "Publication checks do not depend on viewport.");
+  const hidden = galleryProjects.filter(project => hiddenGalleryIds.includes(project.galleryId));
+  expect(hidden).toHaveLength(5);
+  expect(galleryProjects).toHaveLength(54);
+  const sitemap = await (await request.get("/sitemap.xml")).text();
+  for (const project of hidden) {
+    const response = await request.get("/gallery/" + project.slug);
+    expect(response.status(), project.galleryId).toBe(404);
+    expect(await response.text()).toContain('name="robots" content="noindex"');
+    expect(sitemap).not.toContain("/gallery/" + project.slug + "</loc>");
+    expect(await (await request.get("/gallery?q=" + project.galleryId)).text()).not.toContain('class="gallery-card"');
+    const contact = await (await request.get("/contact?service=bespoke-joinery&project=" + project.slug)).text();
+    expect(contact).not.toContain('class="enquiry-project-reference"');
+    const enquiry = await request.post("/api/enquiries", { multipart: { service: "bespoke-joinery", project: project.slug } });
+    expect(enquiry.status()).toBe(400);
+    expect((await enquiry.json()).fields.project).toBeTruthy();
+  }
+  for (const project of publicGalleryProjects) {
+    expect(relatedGalleryProjects(project).some(item => hiddenGalleryIds.includes(item.galleryId))).toBe(false);
+  }
 });
 
 test("search and category navigation also work without JavaScript", async ({ browser }, testInfo) => {
@@ -154,6 +188,7 @@ test("joinery pages connect to relevant completed projects", async ({ page }) =>
   for (const category of ["wardrobes", "alcove-units", "bookcases", "entertainment-units", "office-furniture", "unique-furniture"]) {
     await page.goto("/bespoke-joinery/" + category);
     expect(await page.locator("#completed-projects .gallery-card").count()).toBeGreaterThan(0);
+    expect((await page.locator(".gallery-card-project-id").allTextContents()).some(id => hiddenGalleryIds.includes(id))).toBe(false);
     await expect(page.locator("#completed-projects .text-link")).toHaveAttribute("href", "/gallery?category=" + category);
   }
   await page.goto("/bespoke-joinery/under-stairs-storage");
@@ -163,7 +198,7 @@ test("joinery pages connect to relevant completed projects", async ({ page }) =>
 test("public routes, canonical URLs, sitemap and duplicate redirect stay valid", async ({ request }, testInfo) => {
   test.skip(testInfo.project.name !== "desktop", "Route checks do not depend on viewport.");
   const sitemap = await (await request.get("/sitemap.xml")).text();
-  for (const project of galleryProjects) {
+  for (const project of publicGalleryProjects) {
     const response = await request.get("/gallery/" + project.slug);
     expect(response.status(), project.galleryId).toBe(200);
     const html = await response.text();

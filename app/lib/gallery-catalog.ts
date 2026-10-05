@@ -1,5 +1,6 @@
 import { enquiryHref, type ServiceId } from "./enquiry";
-import { galleryProjects, type GalleryProject } from "./gallery-projects";
+import { publicGalleryProjects, type GalleryProject } from "./gallery-projects";
+import { bottomGalleryIds } from "./gallery-visibility";
 import type { JoineryId } from "./joinery-types";
 
 export const galleryCategories = [
@@ -81,14 +82,18 @@ function searchable(value: string) {
 
 export function filterGalleryProjects(filters: GalleryFilters) {
   const terms = searchable(filters.q).split(/\s+/).filter(Boolean);
-  return groupProjectsByFamily(galleryProjects.filter(project => {
+  const matches = publicGalleryProjects.filter(project => {
     const categories = categoriesForProject(project);
     if (filters.category && !categories.includes(filters.category)) return false;
     const aliases = Object.entries(retiredIds).filter(([, id]) => id === project.galleryId).map(([id]) => id);
     const text = searchable([project.galleryId, ...aliases, project.title, project.location, project.summary, ...project.keywords,
       ...galleryCategories.filter(category => categories.includes(category.value)).map(category => category.label)].join(" "));
     return terms.every(term => text.includes(term));
-  }));
+  });
+  const mainProjects = matches.filter(project => !bottomGalleryIds.includes(project.galleryId));
+  const bottomProjects = matches.filter(project => bottomGalleryIds.includes(project.galleryId))
+    .sort((a, b) => bottomGalleryIds.indexOf(a.galleryId) - bottomGalleryIds.indexOf(b.galleryId));
+  return [...groupProjectsByFamily(mainProjects), ...bottomProjects];
 }
 
 export function galleryEnquirySelection(project: GalleryProject): { service: ServiceId; joinery?: JoineryId; project: string } {
@@ -104,7 +109,7 @@ export function galleryEnquiryHref(project: GalleryProject) {
 
 export function getEnquiryProject(slug: string, service: string) {
   const canonicalSlug = slug === "manchester-makeup-island-dressing-table" ? "manchester-walk-in-wardrobe" : slug;
-  const project = galleryProjects.find(item => item.slug === canonicalSlug);
+  const project = publicGalleryProjects.find(item => item.slug === canonicalSlug);
   return project && galleryEnquirySelection(project).service === service ? project : undefined;
 }
 
@@ -113,6 +118,6 @@ export function relatedGalleryProjects(project: GalleryProject) {
   const score = (item: GalleryProject) => categoriesForProject(item).reduce((total, category) => total + (categories.includes(category) ? 4 : 0), 0)
     + (categoriesForProject(item)[0] === categories[0] ? 6 : 0)
     + (projectFamily(item) === projectFamily(project) ? 3 : 0);
-  return galleryProjects.filter(item => item.slug !== project.slug && score(item) > 0)
+  return publicGalleryProjects.filter(item => item.slug !== project.slug && score(item) > 0)
     .sort((a, b) => score(b) - score(a) || Number(a.galleryId.slice(1)) - Number(b.galleryId.slice(1))).slice(0, 3);
 }
