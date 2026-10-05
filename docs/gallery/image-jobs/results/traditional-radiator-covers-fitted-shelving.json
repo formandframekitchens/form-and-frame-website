@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "project": "G59 Traditional Radiator Covers & Fitted Shelving",
+  "slug": "traditional-radiator-covers-fitted-shelving",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1uB2fhOMozzj6E0VCEXv9ywotU-5N8biq",
+      "source_label": "_MG_9660.jpg",
+      "role": "cover",
+      "original": {
+        "width": 5508,
+        "height": 3744
+      },
+      "webp": {
+        "path": "public/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-overall-01.webp",
+        "bytes": 282654,
+        "quality": 84,
+        "width": 2000,
+        "height": 1359,
+        "sha256": "d9f582fd3305eae7dccbd4224c1a558d0f8c9247ac8ba84052189aebef618e42",
+        "git_blob_sha": "2227340a5859340b247c784e93c128a105c98902"
+      },
+      "avif": {
+        "path": "public/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-overall-01.avif",
+        "bytes": 175164,
+        "quality": 58,
+        "width": 2000,
+        "height": 1359,
+        "sha256": "393ca6590650b6a60928d56f4cc25187817f1167e82586bbc3dcbb6ef48006aa",
+        "git_blob_sha": "f425ec3f7d66d59d4f6cc4fd79ee5100bb5254d9"
+      }
+    },
+    {
+      "drive_file_id": "1l77cQf2-XSWhRh1H0XRBfk1i0_7fupru",
+      "source_label": "_MG_9669.jpg",
+      "role": "overall",
+      "original": {
+        "width": 5560,
+        "height": 3080
+      },
+      "webp": {
+        "path": "public/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-overall-02.webp",
+        "bytes": 205838,
+        "quality": 84,
+        "width": 2000,
+        "height": 1108,
+        "sha256": "c1b2787046bcd35fa7b4b3fe8d4e772f87ccc70b84f201a6709951d5e82d371e",
+        "git_blob_sha": "3f55cbc974cd3cd1a070dafc5a7e29cd11910276"
+      },
+      "avif": {
+        "path": "public/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-overall-02.avif",
+        "bytes": 125516,
+        "quality": 58,
+        "width": 2000,
+        "height": 1108,
+        "sha256": "ae9695fc6e55e770b87b4c445a467fb146416fe5f07b4f1926a2883c3f0901e0",
+        "git_blob_sha": "8d93e147a1a621850a89c850b0ade5eb2c0d6b58"
+      }
+    },
+    {
+      "drive_file_id": "1Qiq8hhBndiaEV2nV3kVl6_DaCRtfD2qo",
+      "source_label": "_MG_9637.jpg",
+      "role": "overall",
+      "original": {
+        "width": 3744,
+        "height": 5616
+      },
+      "webp": {
+        "path": "public/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-window-03.webp",
+        "bytes": 131382,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "4d15c7d02cf3c4118de6615bd0b7a17a3d932829a32c0195400a83b36c6c6e5d",
+        "git_blob_sha": "c448c4951968f44db63f97004a08ff7ba17bde7c"
+      },
+      "avif": {
+        "path": "public/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-window-03.avif",
+        "bytes": 90443,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "abadc590672bfb9b6a0639d4c950ccf50d368ba067ee42eeb785006512dd9617",
+        "git_blob_sha": "90575f44bb4c02513b08e7f439a45472e21027f4"
+      }
+    },
+    {
+      "drive_file_id": "1i2sxjVGce-OaQbPTx63I_3Vop8o83uMF",
+      "source_label": "_MG_9682.jpg",
+      "role": "detail",
+      "original": {
+        "width": 4561,
+        "height": 3368
+      },
+      "webp": {
+        "path": "public/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-detail-04.webp",
+        "bytes": 215462,
+        "quality": 84,
+        "width": 2000,
+        "height": 1477,
+        "sha256": "53b8b519597258d483987a47f7f9bf0c8b141f074b4bb4a48cc8b681d831a9ee",
+        "git_blob_sha": "a7a420125bcaa38c57cf99e3c69353cefbfc268e"
+      },
+      "avif": {
+        "path": "public/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-detail-04.avif",
+        "bytes": 127272,
+        "quality": 58,
+        "width": 2000,
+        "height": 1477,
+        "sha256": "af91d2ff79d9e3cd2289914f0c107512c6db96ae17f9cdb3a3c8286b5b0457a4",
+        "git_blob_sha": "1b50581f8da17a7313524a141f0195359232181f"
+      }
+    },
+    {
+      "drive_file_id": "1_Ob2eEQSsJElD4QJfVSfohQ6eYS9gvGD",
+      "source_label": "_MG_9626.jpg",
+      "role": "detail",
+      "original": {
+        "width": 4792,
+        "height": 3544
+      },
+      "webp": {
+        "path": "public/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-detail-05.webp",
+        "bytes": 387078,
+        "quality": 84,
+        "width": 2000,
+        "height": 1479,
+        "sha256": "866867ef88d13c893ba96728037dba04ba368d06166deb10041dcc688f70363f",
+        "git_blob_sha": "63cdd2654614cea3d02eeb91aed54837f36d30c2"
+      },
+      "avif": {
+        "path": "public/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-detail-05.avif",
+        "bytes": 271648,
+        "quality": 58,
+        "width": 2000,
+        "height": 1479,
+        "sha256": "5fc07deaaa53452a8c24ba1780e43e38d45def921334c629cc6f4b0925d247f6",
+        "git_blob_sha": "45dd94a9ff1a440f3ca52bdb6666902a93e20a02"
+      }
+    }
+  ]
+}
