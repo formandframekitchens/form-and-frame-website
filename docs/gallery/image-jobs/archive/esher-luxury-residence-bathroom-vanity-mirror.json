@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "project": "G58 Esher Luxury Residence — Bathroom Vanity & Mirror",
+  "slug": "esher-luxury-residence-bathroom-vanity-mirror",
+  "max_long_edge": 2000,
+  "min_long_edge": 1200,
+  "webp_quality": 84,
+  "avif_quality": 58,
+  "webp_target_bytes": 500000,
+  "avif_target_bytes": 400000,
+  "images": [
+    {
+      "drive_file_id": "1mNLVhj12MV_kUP7rqgE7mMFCZwKlNtR8",
+      "source_label": "F0001.jpg",
+      "output_stem": "esher-bathroom-vanity-mirror-overall-01",
+      "role": "cover"
+    },
+    {
+      "drive_file_id": "1J0LpeHB-ui0-TtOXhECnR38WyC31HNYL",
+      "source_label": "F0002.jpg",
+      "output_stem": "esher-bathroom-vanity-mirror-overall-02",
+      "role": "overall"
+    },
+    {
+      "drive_file_id": "1oqMZ62cajxTmILIMgDtgYUR_iaM9njbz",
+      "source_label": "F0003.jpg",
+      "output_stem": "esher-bathroom-vanity-mirror-detail-03",
+      "role": "detail"
+    },
+    {
+      "drive_file_id": "1JQmG59a9mYFYVagZ46T5NdfbtNyk6p1t",
+      "source_label": "G0004.jpg",
+      "output_stem": "esher-bathroom-vanity-mirror-angle-04",
+      "role": "overall"
+    },
+    {
+      "drive_file_id": "1OK-Bh0euYglui8JKwvjN5F4M-fhWypuG",
+      "source_label": "G0005.jpg",
+      "output_stem": "esher-bathroom-vanity-mirror-detail-05",
+      "role": "detail"
+    },
+    {
+      "drive_file_id": "1gxuLZM29-LGYPXGbubFVWAcNvECGYUOD",
+      "source_label": "G0006.jpg",
+      "output_stem": "esher-bathroom-vanity-mirror-detail-06",
+      "role": "detail"
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { FormEvent, useRef, useState } from "react";
 import { WHATSAPP_HREF } from "../lib/contact";
+import type { GalleryReference } from "../lib/gallery-catalog";
 import { joineryOptions, type JoineryId } from "../lib/joinery-types";
 import { installationOptions, isKitchenService, readEnquirySelection, serviceOptions, supplierOptions, type EnquirySelection, type InstallationId, type ServiceId, type SupplierId } from "../lib/enquiry";
 
@@ -12,14 +13,16 @@ const MAX_FILE_BYTES = 3 * 1024 * 1024;
 const MAX_TOTAL_BYTES = 4 * 1024 * 1024;
 const ACCEPTED_TYPES = new Set(["application/pdf", "image/jpeg", "image/png"]);
 
-export function EnquiryForm() {
+export function EnquiryForm({ project }: { project?: GalleryReference }) {
   const params = useSearchParams();
   const initialSelection = readEnquirySelection(params);
-  return <EnquiryFields key={JSON.stringify(initialSelection)} initialSelection={initialSelection} />;
+  const initialMessage = params.get("request") === "gallery-access" ? "I would like to request access to the private progress gallery." : "";
+  return <EnquiryFields key={JSON.stringify([initialSelection, project?.slug, initialMessage])} initialSelection={initialSelection} initialProject={project} initialMessage={initialMessage} />;
 }
 
-function EnquiryFields({ initialSelection }: { initialSelection: EnquirySelection }) {
+function EnquiryFields({ initialSelection, initialProject, initialMessage }: { initialSelection: EnquirySelection; initialProject?: GalleryReference; initialMessage: string }) {
   const [selection, setSelection] = useState(initialSelection);
+  const [project, setProject] = useState(initialProject);
   const [files, setFiles] = useState<File[]>([]);
   const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
@@ -128,6 +131,12 @@ function EnquiryFields({ initialSelection }: { initialSelection: EnquirySelectio
 
   return <form className="enquiry-form" onSubmit={submit} noValidate>
     {initialSelection.service && <p className="enquiry-prefill-note">Your service choices have been filled in below. You can change them before sending your enquiry.</p>}
+    {project && <div className="enquiry-project-reference">
+      <input type="hidden" name="project" value={project.slug} />
+      <div><span>Inspired by this project</span><Link href={`/gallery/${project.slug}`}>{project.galleryId} · {project.title}</Link></div>
+      <button type="button" onClick={() => setProject(undefined)} aria-label="Remove gallery project reference">Remove</button>
+    </div>}
+    {error("project")}
 
     {status !== "idle" && <div
       className={`form-status form-status-${status}`}
@@ -173,7 +182,7 @@ function EnquiryFields({ initialSelection }: { initialSelection: EnquirySelectio
       </label>
 
       <label>Service
-        <select name="service" required value={selection.service} aria-invalid={Boolean(fieldErrors.service)} onChange={event => setSelection({ service: event.target.value as ServiceId, supplier: "", installation: "", joinery: "" })}>
+        <select name="service" required value={selection.service} aria-invalid={Boolean(fieldErrors.service)} onChange={event => { setSelection({ service: event.target.value as ServiceId, supplier: "", installation: "", joinery: "" }); setProject(undefined); }}>
           <option value="" disabled>Select service</option>
           {serviceOptions.map(option => <option key={option.value} value={option.value}>{option.label}</option>)}
         </select>
@@ -254,6 +263,7 @@ function EnquiryFields({ initialSelection }: { initialSelection: EnquirySelectio
       <label className="form-span">Project details
         <textarea
           name="message"
+          defaultValue={initialMessage}
           rows={7}
           required
           maxLength={6000}

@@ -85,6 +85,10 @@
   font-size: 14px;
 }
 
+.accessRequest { margin-top: 24px; }
+.accessRequest a, .returnLink { text-decoration: underline; text-underline-offset: 4px; }
+.returnLink { display: inline-block; margin-top: 12px; font-size: 14px; }
+
 .galleryPage {
   padding: clamp(24px, 4vw, 64px);
 }

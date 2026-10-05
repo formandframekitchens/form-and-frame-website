@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "project": "G57 Full-Wall White Library Bookcase",
+  "slug": "full-wall-white-library-bookcase",
+  "source_manifest": "docs/gallery/image-jobs/current.json",
+  "images": [
+    {
+      "drive_file_id": "1g8-T2acU0kYav1MLxQ_MoD_PR_pCISJl",
+      "source_label": "_MG_0602print.jpg",
+      "role": "cover",
+      "original": {
+        "width": 6707,
+        "height": 4473
+      },
+      "webp": {
+        "path": "public/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-overall-01.webp",
+        "bytes": 373842,
+        "quality": 84,
+        "width": 2000,
+        "height": 1334,
+        "sha256": "9c7cef4c115ae15a187ea82745c01d4b6ac068bb103de6657f1889e7d12ace9c",
+        "git_blob_sha": "69065bab84f29e706cd8a8a761bec480415312cc"
+      },
+      "avif": {
+        "path": "public/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-overall-01.avif",
+        "bytes": 245325,
+        "quality": 58,
+        "width": 2000,
+        "height": 1334,
+        "sha256": "a430de2aca3553366cefb79a7dc4358e152f8862dd576035a5a0a347908e1498",
+        "git_blob_sha": "1ba9ad74d26dfb13ae14e98407519c15afc4cff8"
+      }
+    },
+    {
+      "drive_file_id": "1gN2dm3prM-k1mEkfppSWgfZ5kY2kJ1Jw",
+      "source_label": "_MG_0598print.jpg",
+      "role": "overall",
+      "original": {
+        "width": 7020,
+        "height": 4680
+      },
+      "webp": {
+        "path": "public/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-room-02.webp",
+        "bytes": 231692,
+        "quality": 84,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "9b8dbc59b79bd4d900ca0d91741ca4d622d89b1d0c498579bd0daab35361cedd",
+        "git_blob_sha": "8afa807613a32c33cc36f971e67aae3a357c4388"
+      },
+      "avif": {
+        "path": "public/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-room-02.avif",
+        "bytes": 155643,
+        "quality": 58,
+        "width": 2000,
+        "height": 1333,
+        "sha256": "fad1ab10f28e3c299bbf42070277880d9e0ce4198bc50e07f9cc4340cfda9c39",
+        "git_blob_sha": "f3ee4ff2a603de1c287dc42c640832f258019406"
+      }
+    },
+    {
+      "drive_file_id": "13ERhWWEQsL54SiII1VKieNYYq-C4I8xS",
+      "source_label": "_MG_0619web.jpg",
+      "role": "detail",
+      "original": {
+        "width": 1685,
+        "height": 1123
+      },
+      "webp": {
+        "path": "public/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-detail-03.webp",
+        "bytes": 178000,
+        "quality": 84,
+        "width": 1685,
+        "height": 1123,
+        "sha256": "f99570ec6683da42abc69d510e197b5e456d0befd4c0036cb7e058b10440d156",
+        "git_blob_sha": "1daede60b0c555ba90e37e9786dc5335759c74a1"
+      },
+      "avif": {
+        "path": "public/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-detail-03.avif",
+        "bytes": 127689,
+        "quality": 58,
+        "width": 1685,
+        "height": 1123,
+        "sha256": "4daa0278921b2dcc95a774619694325f1ddfd9f16ef3ece71ee2df88969ebc36",
+        "git_blob_sha": "a95771c7094293c2497ffe99be0749a9b1dc88ff"
+      }
+    },
+    {
+      "drive_file_id": "1sxgtz43lpT6H19_FRhR2VJDh-q1nAL9S",
+      "source_label": "_MG_0610print.jpg",
+      "role": "detail",
+      "original": {
+        "width": 4680,
+        "height": 7020
+      },
+      "webp": {
+        "path": "public/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-storage-04.webp",
+        "bytes": 227130,
+        "quality": 84,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "fc3cedac869bec27b87d0b792e0c05cf5f9b3d0368683fc23f58eef2789f4ec4",
+        "git_blob_sha": "c50fb9968842de1d21866ce5cfba79ed9571c676"
+      },
+      "avif": {
+        "path": "public/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-storage-04.avif",
+        "bytes": 160105,
+        "quality": 58,
+        "width": 1333,
+        "height": 2000,
+        "sha256": "9132e45ec81f9cbdd660f03752b9aee675533cc4d4832b680036d9e6767dc101",
+        "git_blob_sha": "4655abcad150dfc80cf27917b7388ba2defa026d"
+      }
+    },
+    {
+      "drive_file_id": "1MikQ3ybfUff5iDQFpX1dYReHaiL067xu",
+      "source_label": "_MG_0616print.jpg",
+      "role": "overall",
+      "original": {
+        "width": 6770,
+        "height": 4603
+      },
+      "webp": {
+        "path": "public/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-room-05.webp",
+        "bytes": 259260,
+        "quality": 84,
+        "width": 2000,
+        "height": 1360,
+        "sha256": "b03581a11245ebd3364abaee18cb33228eeaf6f977d195512f2d9b4abfc6d8e8",
+        "git_blob_sha": "4a8c6aea8f065ee7b943bf04077c1afc279abef9"
+      },
+      "avif": {
+        "path": "public/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-room-05.avif",
+        "bytes": 166382,
+        "quality": 58,
+        "width": 2000,
+        "height": 1360,
+        "sha256": "7b6fb7bccbdb9058f5f0b3eea0e4ec400a3338cce81398879119642be71642f3",
+        "git_blob_sha": "68bd6e8be0a2e4f4d1b3e0256147d7311c12f83b"
+      }
+    }
+  ]
+}
