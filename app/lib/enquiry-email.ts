@@ -1,6 +1,8 @@
 import { BUSINESS_EMAIL, BUSINESS_PHONE_DISPLAY } from "./contact";
 import { installationOptions, isKitchenService, serviceOptions, supplierOptions } from "./enquiry";
 import { joineryOptions } from "./joinery-types";
+import { getEnquiryProject } from "./gallery-catalog";
+import { siteUrl } from "./site";
 
 export type EnquiryFileSummary = { filename: string; size: number; type: string };
 
@@ -33,6 +35,7 @@ export function enquiryDetails(form: FormData, reference: string, files: Enquiry
   const supplier = value(form, "supplier");
   const joinery = value(form, "joinery");
   const usesSupplier = installationOptions.find(option => option.value === installation)?.usesSupplier !== false;
+  const project = getEnquiryProject(value(form, "project"), service);
 
   const rows: Array<[string, string]> = [
     ["Reference", reference],
@@ -43,6 +46,11 @@ export function enquiryDetails(form: FormData, reference: string, files: Enquiry
     ["Postcode / town", value(form, "location")],
     ["Service", optionLabel(serviceOptions, service)],
   ];
+
+  if (project) {
+    rows.push(["Gallery inspiration", `${project.galleryId} · ${project.title}`]);
+    rows.push(["Gallery link", `${siteUrl}/gallery/${project.slug}`]);
+  }
 
   if (service === "bespoke-joinery") {
     rows.push(["Furniture / joinery type", optionLabel(joineryOptions, joinery, "Not sure yet")]);

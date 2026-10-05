@@ -3,6 +3,7 @@ import { EnquiryForm } from "../components/enquiry-form";
 import { Footer, Header } from "../components/site-shell";
 import { BUSINESS_EMAIL, BUSINESS_PHONE_DISPLAY, EMAIL_HREF, PHONE_HREF, WHATSAPP_HREF } from "../lib/contact";
 import { serviceMetadata } from "../lib/service-metadata";
+import { getEnquiryProject } from "../lib/gallery-catalog";
 
 export const metadata = serviceMetadata(
   "Contact Form & Frame | Project Enquiries",
@@ -10,7 +11,10 @@ export const metadata = serviceMetadata(
   "/contact"
 );
 
-export default function ContactPage() {
+export default async function ContactPage({ searchParams }: PageProps<"/contact">) {
+  const query = await searchParams;
+  const project = getEnquiryProject(typeof query.project === "string" ? query.project : "", typeof query.service === "string" ? query.service : "");
+  const projectReference = project ? { galleryId: project.galleryId, slug: project.slug, title: project.title } : undefined;
   return <>
     <Header />
     <main id="main-content" className="service-page">
@@ -27,7 +31,7 @@ export default function ContactPage() {
       <section className="service-section service-section-muted" id="enquiry-form"><div className="container">
         <p className="eyebrow">Initial enquiry</p>
         <h2>Send the essentials first</h2>
-        <div className="service-section-body"><Suspense fallback={<p className="enquiry-loading">Loading your enquiry form… You can also <a href={EMAIL_HREF}>email {BUSINESS_EMAIL}</a>.</p>}><EnquiryForm /></Suspense></div>
+        <div className="service-section-body"><Suspense fallback={<p className="enquiry-loading">Loading your enquiry form… You can also <a href={EMAIL_HREF}>email {BUSINESS_EMAIL}</a>.</p>}><EnquiryForm project={projectReference} /></Suspense></div>
       </div></section>
     </main>
     <Footer />

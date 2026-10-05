@@ -2,6 +2,26 @@
 
 This is the permanent internal tracking register for website gallery case studies.
 
+## Current checkpoint — 5 October 2026 / B13
+
+The previous resume pointer at the end of this file is historical. Resume from [B13 completion](b13-completion.md), which records the approved corrections and four prepared lanes.
+
+- B13 shared corrections: LIVE via PR #71 / merge 0d28003; production dpl_8kpjDr4ADvUnvkaZbNnPmG97ih8M READY and public gallery verified. Search, category filters, real-project links, project-aware enquiries, photo-dialog accessibility and private access requests are active.
+- Canonical public set after kitchen reconciliation: 50 records. G53 is merged into G01; its old URL redirects permanently. G01 retains the established route and uses the 12 clean HIGH RES kitchen photographs.
+- G12 and G31 now lead with full furniture views. G28 leads with the full island/table image already verified in the same Manchester project (also used in G27). G32 copy describes the pale illuminated alcove units shown in its photographs.
+- G40 remains reserved. PR #68 duplicates h0024.jpg already included in G45 and was closed as superseded on 5 October.
+- G57–G60 below are the four distinct prepared projects. Competing draft branches for Fulham media wall, Garsdale wardrobes, shoe storage and study bookcase duplicate G32, G27, G07 and G12 respectively; do not integrate those proposals.
+- All 34 prepared WebP/AVIF assets passed SHA-256 and Git blob SHA checks. G57 excludes its WEB RES copy; G58 selects three distinct views and omits three near-identical repeats. G60 has one verified full-piece source viewed through a doorway; no wider honest source is available.
+
+| New ID | Prepared branch | Public selection | Status |
+| --- | --- | --- | --- |
+| G57 | g57-full-wall-white-library-bookcase | Four HIGH RES views | Verified assets; awaiting integration |
+| G58 | g58-esher-bathroom-vanity-mirror | Three distinct HIGH RES views | Verified assets; awaiting G57 |
+| G59 | g59-traditional-radiator-covers-shelving | Five HIGH RES views; complete radiator cover first | Verified assets; awaiting G58 |
+| G60 | g60-esher-make-up-table | One HIGH RES overall view | Verified assets; awaiting G59 |
+
+Next unassigned stable gallery ID is G61. Additional unreviewed archive projects remain source-review work. The protected Alex selection remains private and is not part of the public project count.
+
 Rules:
 - Tracking number is a stable development ID (G01, G02, etc.). It is shown as a small badge on gallery cards and project pages, but is not added to public SEO titles.
 - One distinct furniture item can become its own case study even when several items are from the same property.
@@ -55,7 +75,7 @@ When a lane fuse fires:
 
 | No. | Project | Status | Priority / source note |
 |---|---|---|---|
-| G01 | Handleless Kitchen Installation | LIVE | Existing kitchen case study |
+| G01 | Stourcliff White Handleless Kitchen | LIVE / B13 CORRECTION | Canonical established route; absorbs G53 photographs |
 | G02 | Soho Bespoke Bookcase | LIVE | Soho 13 |
 | G03 | Soho Walk-In Wardrobe | LIVE | Soho 13 |
 | G04 | Grey & Black Bespoke Media Wall | LIVE | Canonical media-wall gallery; absorbs the G18 image set |
@@ -107,7 +127,7 @@ When a lane fuse fires:
 | G50 | Stourcliff Dressing Table | LIVE | AIDA high res images 20–22; 6/6 assets verified; preview and production routes verified; PR #47 merged |
 | G51 | Stourcliff Fitted Wardrobe & Shoe Storage | LIVE | AIDA high res images 23–27; 10/10 assets verified; preview and production routes verified; PR #49 merged |
 | G52 | Stourcliff Bathroom Vanity & Storage | LIVE | AIDA high res images 28–32; 10/10 assets verified; preview and production routes verified; PR #50 merged |
-| G53 | Stourcliff White Handleless Kitchen | LIVE | AIDA high res images 33–44; 24/24 assets verified; preview and production routes verified; PR #51 merged |
+| G53 | Stourcliff White Handleless Kitchen | MERGED INTO G01 | Same kitchen; 12 clean images retained in G01; former G53 URL redirects; ID retired and never reused |
 | G54 | Stourcliff Bespoke Radiator Cover | LIVE | AIDA high res images 8 and 11; 4/4 assets verified; preview and production routes verified; PR #52 merged |
 | G55 | Stourcliff Recessed Display Niche | LIVE | AIDA high res image 46; 2/2 assets verified; preview and production routes verified; PR #53 merged |
 | G56 | Esher Luxury Residence — Wine Cellar | LIVE | 2 mapped HIGH RES originals; 4/4 generated assets verified; PR #64 merged; also restored G41–G43 gallery records; final production route verified |
@@ -119,10 +139,10 @@ When a lane fuse fires:
 - Visualisations / Samples / product-render collections: not counted as completed-project case studies.
 - Bed projects: keep at the bottom / HOLD unless a strong finished set is found.
 
-Current confirmed minimum: 56 distinct case-study slots, plus retired duplicate references G05, G10, G18 and G24.
+Current reconciliation: 50 public case studies after G53 is merged into G01; four prepared additions bring the intended total to 54. Retired duplicate IDs are G05, G10, G18, G24 and G53; G40 is reserved after its former content was merged into G35.
 
 
-## Resume pointer
+## Historical checkpoint before B13 (superseded)
 - Gallery Batch Workflow v2 remains the permanent operating rule.
 - Latest completed batch: Esher Luxury Residence G41–G44 plus G56 Wine Cellar.
 - Highest live gallery ID: G56 — Esher Luxury Residence — Wine Cellar.

@@ -26,89 +26,124 @@ export type GalleryProject = {
 
 export const galleryProjects: GalleryProject[] = [
 {
-    galleryId: "G01",
-    slug: "handleless-kitchen-installation",
-    title: "Handleless Kitchen Installation",
-    category: "Kitchen Installation",
-    summary: "A completed white handleless kitchen installation with integrated appliances, fitted utility storage and carefully coordinated finishing details.",
-    seoDescription: "Completed handleless kitchen installation by Form & Frame, with integrated appliances, fitted utility storage, worktop details and precision cabinet alignment.",
-    keywords: [
-      "handleless kitchen installation",
-      "kitchen fitter",
-      "integrated appliance fitting",
-      "white handleless kitchen",
-      "kitchen installation Luton",
-      "kitchen installation Bedfordshire",
-    ],
-    highlights: [
-      "White handleless cabinetry",
-      "Integrated appliance installation",
-      "Fitted utility and tall-unit storage",
-      "Worktop, hob and finishing details",
-    ],
-    caseStudy: [
-      {
-        heading: "The installation",
-        body: [
-          "This project shows a completed white handleless kitchen with a restrained, modern layout. The visual character depends on long uninterrupted lines, accurately aligned cabinet fronts and integrated appliances sitting cleanly within the surrounding cabinetry.",
-          "Handleless kitchens leave very little room for inconsistent gaps or uneven front alignment. The fitting therefore needs to be controlled across base units, tall housings, appliance fronts and adjacent panels so that the finished kitchen reads as one continuous composition rather than a collection of separate cabinets.",
-        ],
-      },
-      {
-        heading: "Where precision matters",
-        body: [
-          "The photographs show several areas where installation quality becomes especially visible: the relationship between appliance doors and neighbouring fronts, the alignment of tall units, the junction between worktops and cabinetry, and the consistency of horizontal handleless lines.",
-          "Integrated appliances also require careful adjustment so that doors open correctly while their furniture fronts remain aligned with the surrounding kitchen. Small discrepancies can become obvious in a minimalist design, so final adjustment and checking form an important part of this type of installation.",
-        ],
-      },
-      {
-        heading: "Utility storage and practical coordination",
-        body: [
-          "The fitted utility storage continues the same visual language as the main kitchen. Keeping these secondary areas consistent is important because tall storage, appliance housings and utility cabinetry often introduce more junctions, fillers and changes in cabinet height than the main run.",
-          "The completed result demonstrates how careful installation can preserve a simple appearance even where the underlying layout includes appliances, storage and several technical interfaces.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The final kitchen is clean, functional and deliberately understated. The emphasis is on accurate fitting rather than decorative complexity: straight lines, controlled gaps, integrated equipment and a consistent relationship between units, worktops and surrounding finishes.",
-          "Form & Frame provides independent kitchen installation for customer-supplied kitchens, with projects considered across Luton, Bedfordshire, Hertfordshire and selected surrounding areas.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/homepage/modern-white-handleless-kitchen-installation.webp",
-      alt: "Completed white handleless kitchen installation",
-      fit: "contain",
+  "galleryId": "G01",
+  "slug": "handleless-kitchen-installation",
+  "title": "Stourcliff White Handleless Kitchen",
+  "category": "Kitchen Installation",
+  "summary": "A completed white handleless kitchen installation with integrated appliances, fitted utility storage and carefully coordinated finishing details.",
+  "seoDescription": "Completed handleless kitchen installation by Form & Frame, with integrated appliances, fitted utility storage, worktop details and precision cabinet alignment.",
+  "keywords": [
+    "handleless kitchen installation",
+    "kitchen fitter",
+    "integrated appliance fitting",
+    "white handleless kitchen",
+    "kitchen installation Luton",
+    "kitchen installation Bedfordshire"
+  ],
+  "highlights": [
+    "White handleless cabinetry",
+    "Integrated appliance installation",
+    "Fitted utility and tall-unit storage",
+    "Worktop, hob and finishing details"
+  ],
+  "caseStudy": [
+    {
+      "heading": "The installation",
+      "body": [
+        "This project shows a completed white handleless kitchen with a restrained, modern layout. The visual character depends on long uninterrupted lines, accurately aligned cabinet fronts and integrated appliances sitting cleanly within the surrounding cabinetry.",
+        "Handleless kitchens leave very little room for inconsistent gaps or uneven front alignment. The fitting therefore needs to be controlled across base units, tall housings, appliance fronts and adjacent panels so that the finished kitchen reads as one continuous composition rather than a collection of separate cabinets."
+      ]
     },
-    images: [
-      {
-        src: "/images/homepage/modern-white-handleless-kitchen-installation.webp",
-        alt: "Completed white handleless kitchen installation",
-        fit: "contain",
-      },
-      {
-        src: "/images/homepage/white-handleless-kitchen-fitting-integrated-appliances.webp",
-        alt: "White handleless kitchen with integrated appliances",
-        fit: "contain",
-      },
-      {
-        src: "/images/homepage/fitted-kitchen-utility-storage-installation.webp",
-        alt: "Fitted utility storage and integrated kitchen appliances",
-        fit: "contain",
-      },
-      {
-        src: "/images/homepage/integrated-dishwasher-kitchen-installation-detail.webp",
-        alt: "Integrated dishwasher installation detail",
-        fit: "contain",
-      },
-      {
-        src: "/images/homepage/kitchen-worktop-hob-appliance-installation-detail.webp",
-        alt: "Kitchen worktop and hob installation detail",
-        fit: "contain",
-      },
-    ],
+    {
+      "heading": "Where precision matters",
+      "body": [
+        "The photographs show several areas where installation quality becomes especially visible: the relationship between appliance doors and neighbouring fronts, the alignment of tall units, the junction between worktops and cabinetry, and the consistency of horizontal handleless lines.",
+        "Integrated appliances also require careful adjustment so that doors open correctly while their furniture fronts remain aligned with the surrounding kitchen. Small discrepancies can become obvious in a minimalist design, so final adjustment and checking form an important part of this type of installation."
+      ]
+    },
+    {
+      "heading": "Utility storage and practical coordination",
+      "body": [
+        "The fitted utility storage continues the same visual language as the main kitchen. Keeping these secondary areas consistent is important because tall storage, appliance housings and utility cabinetry often introduce more junctions, fillers and changes in cabinet height than the main run.",
+        "The completed result demonstrates how careful installation can preserve a simple appearance even where the underlying layout includes appliances, storage and several technical interfaces."
+      ]
+    },
+    {
+      "heading": "The finished result",
+      "body": [
+        "The final kitchen is clean, functional and deliberately understated. The emphasis is on accurate fitting rather than decorative complexity: straight lines, controlled gaps, integrated equipment and a consistent relationship between units, worktops and surrounding finishes.",
+        "Form & Frame provides independent kitchen installation for customer-supplied kitchens, with projects considered across Luton, Bedfordshire, Hertfordshire and selected surrounding areas."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-alignment-06.webp",
+    "alt": "Full-room view of the white handleless kitchen in Stourcliff",
+    "fit": "contain"
   },
+  "images": [
+    {
+      "src": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-alignment-06.webp",
+      "alt": "Full-room view of the white handleless kitchen in Stourcliff",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-appliance-view-07.webp",
+      "alt": "Overall view of the cooking run, sink and tall cabinetry",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-counter-detail-08.webp",
+      "alt": "Microwave housing and matching utility cabinetry",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-10.webp",
+      "alt": "Closed utility cabinetry beside the kitchen",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-fitted-detail-09.webp",
+      "alt": "Open tall cupboard in the kitchen utility area",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-11.webp",
+      "alt": "Washing machine concealed behind a matching cabinet door",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-worktop-04.webp",
+      "alt": "Gas hob, oven and surrounding worktop",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-room-view-02.webp",
+      "alt": "Drawer fronts and handle profiles beside the worktop",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-cabinetry-03.webp",
+      "alt": "Junction between the worktop, base cabinetry and tall unit",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-05.webp",
+      "alt": "Handleless cabinet fronts and worktop edge",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-overall-01.webp",
+      "alt": "Close-up of the recessed handle profile on a white kitchen drawer",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-12.webp",
+      "alt": "Integrated dishwasher door and fitted furniture front",
+      "fit": "contain"
+    }
+  ]
+},
 {
     galleryId: "G02",
     slug: "soho-bespoke-bookcase",
@@ -249,7 +284,7 @@ export const galleryProjects: GalleryProject[] = [
     cover: {
       src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-aisle-view-02.webp",
       alt: "Full aisle view through Soho walk-in wardrobe",
-    
+
     },
     images: [
       { src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-aisle-view-02.webp", alt: "Full aisle view through Soho walk-in wardrobe" },
@@ -725,81 +760,104 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
 {
-    galleryId: "G12",
-    slug: "bookcase-in-esher",
-    title: "Bookcase in Esher",
-    category: "Bespoke Joinery",
-    location: "Esher, Surrey",
-    summary: "A full-height bespoke display bookcase with varied open shelving, integrated lower storage and a carefully balanced fitted composition.",
-    seoDescription: "Esher bespoke bookcase case study by Form & Frame, featuring full-height fitted shelving, display compartments and integrated lower storage.",
-    keywords: [
-      "bespoke bookcase Esher",
-      "bespoke fitted bookcase",
-      "full height bookcase",
-      "display shelving",
-      "made to measure shelving",
-      "bespoke storage furniture",
-      "fitted joinery",
-      "bespoke joinery",
-    ],
-    highlights: [
-      "Full-height fitted display bookcase",
-      "Varied open shelving proportions",
-      "Integrated lower storage",
-      "Made-to-measure fitted composition",
-    ],
-    caseStudy: [
-      {
-        heading: "A fitted bookcase designed as part of the room",
-        body: [
-          "This project uses a full-height bespoke bookcase to create a permanent fitted feature rather than a freestanding piece of furniture. The shelving occupies the elevation as an architectural element, combining open display space with lower storage in one continuous composition.",
-          "The different shelf sizes give the piece a more individual rhythm than a repeated grid. That variation allows books, decorative objects and larger display pieces to sit naturally while still keeping the overall elevation controlled.",
-        ],
-      },
-      {
-        heading: "The demanding part: balancing varied shelf proportions",
-        body: [
-          "When shelving compartments change in width and height, the setting out has to remain deliberate. Each opening needs to feel related to the neighbouring sections so the finished piece reads as one coherent design rather than a collection of unrelated boxes.",
-          "Full-height cabinetry also makes vertical alignment particularly visible. The outer panels, internal divisions and lower storage fronts all need to remain visually consistent across the completed installation.",
-        ],
-      },
-      {
-        heading: "Display space and practical storage",
-        body: [
-          "The open sections provide the visual character of the bookcase, while the lower cabinets give the room useful concealed storage. Combining the two functions helps the installation remain practical without making the entire wall feel visually heavy.",
-          "The closed lower section also creates a strong base for the taller open shelving above, giving the fitted furniture a clear visual hierarchy.",
-        ],
-      },
-      {
-        heading: "Fitting a large piece accurately",
-        body: [
-          "Large fitted bookcases need to respond to the real room rather than assuming perfectly straight walls, floors and ceilings. Accurate survey and controlled installation help the outer lines meet the surrounding architecture cleanly while keeping the visible shelf grid true.",
-          "The photographs show how the furniture sits tightly within the room while preserving clear, even junctions around the main fitted elements.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed bookcase provides substantial display and storage capacity while retaining a composed, furniture-led appearance. Its varied shelving gives the piece visual interest, while the lower cabinetry keeps everyday storage discreet.",
-          "For similar fitted bookcases, display walls and made-to-measure shelving, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-front-view-02.jpg",
-      alt: "Front view of bespoke bookcase in Esher",
-      fit: "contain",
-    
+  "galleryId": "G12",
+  "slug": "bookcase-in-esher",
+  "title": "Bookcase in Esher",
+  "category": "Bespoke Joinery",
+  "location": "Esher, Surrey",
+  "summary": "A full-height bespoke display bookcase with varied open shelving, integrated lower storage and a carefully balanced fitted composition.",
+  "seoDescription": "Esher bespoke bookcase case study by Form & Frame, featuring full-height fitted shelving, display compartments and integrated lower storage.",
+  "keywords": [
+    "bespoke bookcase Esher",
+    "bespoke fitted bookcase",
+    "full height bookcase",
+    "display shelving",
+    "made to measure shelving",
+    "bespoke storage furniture",
+    "fitted joinery",
+    "bespoke joinery"
+  ],
+  "highlights": [
+    "Full-height fitted display bookcase",
+    "Varied open shelving proportions",
+    "Integrated lower storage",
+    "Made-to-measure fitted composition"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A fitted bookcase designed as part of the room",
+      "body": [
+        "This project uses a full-height bespoke bookcase to create a permanent fitted feature rather than a freestanding piece of furniture. The shelving occupies the elevation as an architectural element, combining open display space with lower storage in one continuous composition.",
+        "The different shelf sizes give the piece a more individual rhythm than a repeated grid. That variation allows books, decorative objects and larger display pieces to sit naturally while still keeping the overall elevation controlled."
+      ]
     },
-    images: [
-      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-front-view-02.jpg", alt: "Front view of bespoke bookcase in Esher", fit: "contain" },
-      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-room-view-01.jpg", alt: "Room view of bespoke fitted bookcase in Esher", fit: "contain" },
-      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-angled-view-03.jpg", alt: "Angled view of fitted bookcase and open shelving", fit: "contain" },
-      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-shelving-detail-04.jpg", alt: "Open shelving detail in bespoke bookcase", fit: "contain" },
-      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-detail-05.jpg", alt: "Bespoke bookcase joinery detail", fit: "contain" },
-      { src: "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-full-height-06.jpg", alt: "Full-height view of bespoke fitted bookcase", fit: "contain" },
-    ],
+    {
+      "heading": "The demanding part: balancing varied shelf proportions",
+      "body": [
+        "When shelving compartments change in width and height, the setting out has to remain deliberate. Each opening needs to feel related to the neighbouring sections so the finished piece reads as one coherent design rather than a collection of unrelated boxes.",
+        "Full-height cabinetry also makes vertical alignment particularly visible. The outer panels, internal divisions and lower storage fronts all need to remain visually consistent across the completed installation."
+      ]
+    },
+    {
+      "heading": "Display space and practical storage",
+      "body": [
+        "The open sections provide the visual character of the bookcase, while the lower cabinets give the room useful concealed storage. Combining the two functions helps the installation remain practical without making the entire wall feel visually heavy.",
+        "The closed lower section also creates a strong base for the taller open shelving above, giving the fitted furniture a clear visual hierarchy."
+      ]
+    },
+    {
+      "heading": "Fitting a large piece accurately",
+      "body": [
+        "Large fitted bookcases need to respond to the real room rather than assuming perfectly straight walls, floors and ceilings. Accurate survey and controlled installation help the outer lines meet the surrounding architecture cleanly while keeping the visible shelf grid true.",
+        "The photographs show how the furniture sits tightly within the room while preserving clear, even junctions around the main fitted elements."
+      ]
+    },
+    {
+      "heading": "The finished result",
+      "body": [
+        "The completed bookcase provides substantial display and storage capacity while retaining a composed, furniture-led appearance. Its varied shelving gives the piece visual interest, while the lower cabinetry keeps everyday storage discreet.",
+        "For similar fitted bookcases, display walls and made-to-measure shelving, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-room-view-01.jpg",
+    "alt": "Full front view of the Esher bookcase and lower cupboards",
+    "fit": "contain"
   },
+  "images": [
+    {
+      "src": "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-room-view-01.jpg",
+      "alt": "Full front view of the Esher bookcase and lower cupboards",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-front-view-02.jpg",
+      "alt": "Open drawers below the Esher bookcase",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-angled-view-03.jpg",
+      "alt": "Shelves and countertop above the lower cabinetry",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-shelving-detail-04.jpg",
+      "alt": "Pale cupboard door with a dark border",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-detail-05.jpg",
+      "alt": "Cupboard interior, hinge and door edge",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-full-height-06.jpg",
+      "alt": "Open drawer with divided storage",
+      "fit": "contain"
+    }
+  ]
+},
 {
     galleryId: "G13",
     slug: "cream-bespoke-tv-unit",
@@ -864,7 +922,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-front-view-02.webp",
       alt: "Front view of cream bespoke TV unit",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-front-view-02.webp", alt: "Front view of cream bespoke TV unit", fit: "contain" },
@@ -1445,7 +1503,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/northwood-home-office/northwood-home-office-front-view-03.webp",
       alt: "Front view of Northwood home office",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/northwood-home-office/northwood-home-office-front-view-03.webp", alt: "Front view of Northwood home office", fit: "contain" },
@@ -1517,7 +1575,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-front-view-02.webp",
       alt: "Front view of Putney Flat bespoke TV unit",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-front-view-02.webp", alt: "Front view of Putney Flat bespoke TV unit", fit: "contain" },
@@ -1650,7 +1708,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-front-view-02.webp",
       alt: "Front view of Putney bespoke TV unit",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-front-view-02.webp", alt: "Front view of Putney bespoke TV unit", fit: "contain" },
@@ -1724,7 +1782,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-front-view-02.webp",
       alt: "Front view of Manchester walk-in wardrobe",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-front-view-02.webp", alt: "Front view of Manchester walk-in wardrobe", fit: "contain" },
@@ -1733,68 +1791,85 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
-    galleryId: "G28",
-    slug: "manchester-makeup-island-dressing-table",
-    title: "Manchester Make-Up Island & Dressing Table",
-    category: "Bespoke Joinery",
-    location: "Manchester",
-    summary: "A coordinated dressing-room furniture set with a central make-up island and matching dressing table in a light figured timber finish.",
-    seoDescription: "Manchester bespoke dressing-room furniture case study by Form & Frame, featuring a central make-up island and coordinated dressing table in a light figured timber finish.",
-    keywords: [
-      "Manchester dressing table",
-      "make-up island Manchester",
-      "bespoke dressing room furniture",
-      "dressing room island",
-      "made to measure dressing table",
-      "bespoke joinery Manchester",
-    ],
-    highlights: [
-      "Central make-up island",
-      "Coordinated dressing table",
-      "Light figured timber finish",
-      "Integrated drawer storage",
-    ],
-    caseStudy: [
-      {
-        heading: "Furniture designed as part of the dressing room",
-        body: [
-          "This Manchester project combines a central make-up island with a separate dressing table, using the same light figured timber finish so the two pieces read as one coordinated furniture scheme.",
-          "The island adds storage and a practical central surface, while the dressing table creates a dedicated preparation area against the wall.",
-        ],
-      },
-      {
-        heading: "The demanding part: balancing freestanding-looking pieces",
-        body: [
-          "Both pieces are visually simple, so proportion and alignment carry much of the finished character. Drawer fronts, panel lines and edge details need to remain consistent across the separate items.",
-          "The central island also has to sit comfortably within the circulation space rather than interrupting movement through the dressing room.",
-        ],
-      },
-      {
-        heading: "Drawer storage and usable surfaces",
-        body: [
-          "The island incorporates drawer storage below a generous top surface, keeping smaller dressing-room items accessible while preserving a clean exterior.",
-          "The matching dressing table provides a second work surface and additional storage without introducing a competing material or style.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed furniture adds practical storage and dedicated preparation areas while maintaining the same material language as the wider Manchester dressing-room scheme.",
-          "For similar dressing islands, dressing tables and fitted bedroom furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/manchester-makeup-island-dressing-table/manchester-makeup-island-overall-view-01.webp",
-      alt: "Light figured timber make-up island in a Manchester dressing room",
-      fit: "contain",
+  "galleryId": "G28",
+  "slug": "manchester-makeup-island-dressing-table",
+  "title": "Manchester Make-Up Island & Dressing Table",
+  "category": "Bespoke Joinery",
+  "location": "Manchester",
+  "summary": "A coordinated dressing-room furniture set with a central make-up island and matching dressing table in a light figured timber finish.",
+  "seoDescription": "Manchester bespoke dressing-room furniture case study by Form & Frame, featuring a central make-up island and coordinated dressing table in a light figured timber finish.",
+  "keywords": [
+    "Manchester dressing table",
+    "make-up island Manchester",
+    "bespoke dressing room furniture",
+    "dressing room island",
+    "made to measure dressing table",
+    "bespoke joinery Manchester"
+  ],
+  "highlights": [
+    "Central make-up island",
+    "Coordinated dressing table",
+    "Light figured timber finish",
+    "Integrated drawer storage"
+  ],
+  "caseStudy": [
+    {
+      "heading": "Furniture designed as part of the dressing room",
+      "body": [
+        "This Manchester project combines a central make-up island with a separate dressing table, using the same light figured timber finish so the two pieces read as one coordinated furniture scheme.",
+        "The island adds storage and a practical central surface, while the dressing table creates a dedicated preparation area against the wall."
+      ]
     },
-    images: [
-      { src: "/images/gallery/manchester-makeup-island-dressing-table/manchester-makeup-island-overall-view-01.webp", alt: "Overall view of Manchester make-up island", fit: "contain" },
-      { src: "/images/gallery/manchester-makeup-island-dressing-table/manchester-makeup-island-detail-02.webp", alt: "Make-up island drawer and surface detail", fit: "contain" },
-      { src: "/images/gallery/manchester-makeup-island-dressing-table/manchester-dressing-table-view-03.webp", alt: "Coordinated Manchester dressing table", fit: "contain" },
-    ],
+    {
+      "heading": "The demanding part: balancing freestanding-looking pieces",
+      "body": [
+        "Both pieces are visually simple, so proportion and alignment carry much of the finished character. Drawer fronts, panel lines and edge details need to remain consistent across the separate items.",
+        "The central island also has to sit comfortably within the circulation space rather than interrupting movement through the dressing room."
+      ]
+    },
+    {
+      "heading": "Drawer storage and usable surfaces",
+      "body": [
+        "The island incorporates drawer storage below a generous top surface, keeping smaller dressing-room items accessible while preserving a clean exterior.",
+        "The matching dressing table provides a second work surface and additional storage without introducing a competing material or style."
+      ]
+    },
+    {
+      "heading": "The finished result",
+      "body": [
+        "The completed furniture adds practical storage and dedicated preparation areas while maintaining the same material language as the wider Manchester dressing-room scheme.",
+        "For similar dressing islands, dressing tables and fitted bedroom furniture, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-overall-view-01.webp",
+    "alt": "Full view of the Manchester dressing island with the matching dressing table behind",
+    "fit": "contain"
   },
+  "images": [
+    {
+      "src": "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-overall-view-01.webp",
+      "alt": "Full view of the Manchester dressing island with the matching dressing table behind",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/manchester-makeup-island-dressing-table/manchester-makeup-island-overall-view-01.webp",
+      "alt": "Jewellery compartments beneath the dressing island's glazed top",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/manchester-makeup-island-dressing-table/manchester-makeup-island-detail-02.webp",
+      "alt": "Divided storage and dressing accessories beside the mirror",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/manchester-makeup-island-dressing-table/manchester-dressing-table-view-03.webp",
+      "alt": "Glazed top, frame and pale drawer-front detail",
+      "fit": "contain"
+    }
+  ]
+},
   {
     galleryId: "G29",
     slug: "virginia-water-wine-room",
@@ -1877,7 +1952,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-front-view-02.webp",
       alt: "Front view of Fulham wine cellar",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-front-view-02.webp", alt: "Front view of Fulham wine cellar", fit: "contain" },
@@ -1888,150 +1963,165 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
-    galleryId: "G31",
-    slug: "fulham-home-office",
-    title: "Fulham Home Office",
-    category: "Bespoke Joinery",
-    location: "Fulham, London",
-    summary: "A dark fitted home office with an integrated desk, full-height storage, open shelving and refined brass inlay details.",
-    seoDescription: "Fulham bespoke home office case study by Form & Frame, featuring dark fitted cabinetry, integrated desk, open shelving, full-height storage and brass inlay details.",
-    keywords: [
-      "Fulham home office",
-      "bespoke home office Fulham",
-      "fitted office furniture London",
-      "dark timber home office",
-      "brass inlay cabinetry",
-      "made to measure study",
-      "bespoke joinery",
-    ],
-    highlights: [
-      "Integrated fitted desk",
-      "Full-height storage",
-      "Open display shelving",
-      "Brass inlay detailing",
-    ],
-    caseStudy: [
-      {
-        heading: "A fitted office built around the room",
-        body: [
-          "This Fulham home office combines a fitted desk, full-height storage and open display shelving within one dark architectural composition.",
-          "The cabinetry uses the available wall area efficiently while keeping the working surface clear and visually connected to the surrounding storage.",
-        ],
-      },
-      {
-        heading: "The demanding part: integrating different functions",
-        body: [
-          "The desk, drawers, shelving and tall cupboards all operate differently, but their visible panel lines and proportions need to remain coordinated.",
-          "Because the finish is dark and the detailing is precise, small changes in alignment become particularly noticeable across the completed elevation.",
-        ],
-      },
-      {
-        heading: "Open shelving and concealed storage",
-        body: [
-          "Open display shelves create visual breaks within the fitted wall, while enclosed cupboards provide practical storage for items that do not need to remain on view.",
-          "This balance helps the room function as a working office without allowing storage requirements to dominate the interior.",
-        ],
-      },
-      {
-        heading: "Brass detailing",
-        body: [
-          "Fine brass inlay details introduce a controlled contrast against the darker cabinetry and help articulate selected edges and divisions.",
-          "The close-up views show how the metal detail is integrated as part of the furniture rather than applied as a separate decorative layer.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed office combines work surface, shelving and substantial storage in a fitted composition with a restrained material palette.",
-          "For similar fitted studies and home offices, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/fulham-home-office/fulham-home-office-overall-view-01.webp",
-      alt: "Dark fitted home office in Fulham",
-      fit: "contain",
+  "galleryId": "G31",
+  "slug": "fulham-home-office",
+  "title": "Fulham Home Office",
+  "category": "Bespoke Joinery",
+  "location": "Fulham, London",
+  "summary": "A dark fitted home office with an integrated desk, full-height storage, open shelving and refined brass inlay details.",
+  "seoDescription": "Fulham bespoke home office case study by Form & Frame, featuring dark fitted cabinetry, integrated desk, open shelving, full-height storage and brass inlay details.",
+  "keywords": [
+    "Fulham home office",
+    "bespoke home office Fulham",
+    "fitted office furniture London",
+    "dark timber home office",
+    "brass inlay cabinetry",
+    "made to measure study",
+    "bespoke joinery"
+  ],
+  "highlights": [
+    "Integrated fitted desk",
+    "Full-height storage",
+    "Open display shelving",
+    "Brass inlay detailing"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A fitted office built around the room",
+      "body": [
+        "This Fulham home office combines a fitted desk, full-height storage and open display shelving within one dark architectural composition.",
+        "The cabinetry uses the available wall area efficiently while keeping the working surface clear and visually connected to the surrounding storage."
+      ]
     },
-    images: [
-      { src: "/images/gallery/fulham-home-office/fulham-home-office-overall-view-01.webp", alt: "Overall view of Fulham fitted home office", fit: "contain" },
-      { src: "/images/gallery/fulham-home-office/fulham-home-office-desk-view-02.webp", alt: "Desk and cabinetry view in Fulham home office", fit: "contain" },
-      { src: "/images/gallery/fulham-home-office/fulham-home-office-storage-detail-03.webp", alt: "Full-height storage detail in Fulham home office", fit: "contain" },
-      { src: "/images/gallery/fulham-home-office/fulham-home-office-detail-04.webp", alt: "Shelving and brass inlay detail in Fulham home office", fit: "contain" },
-    ],
+    {
+      "heading": "The demanding part: integrating different functions",
+      "body": [
+        "The desk, drawers, shelving and tall cupboards all operate differently, but their visible panel lines and proportions need to remain coordinated.",
+        "Because the finish is dark and the detailing is precise, small changes in alignment become particularly noticeable across the completed elevation."
+      ]
+    },
+    {
+      "heading": "Open shelving and concealed storage",
+      "body": [
+        "Open display shelves create visual breaks within the fitted wall, while enclosed cupboards provide practical storage for items that do not need to remain on view.",
+        "This balance helps the room function as a working office without allowing storage requirements to dominate the interior."
+      ]
+    },
+    {
+      "heading": "Brass detailing",
+      "body": [
+        "Fine brass inlay details introduce a controlled contrast against the darker cabinetry and help articulate selected edges and divisions.",
+        "The close-up views show how the metal detail is integrated as part of the furniture rather than applied as a separate decorative layer."
+      ]
+    },
+    {
+      "heading": "The finished result",
+      "body": [
+        "The completed office combines work surface, shelving and substantial storage in a fitted composition with a restrained material palette.",
+        "For similar fitted studies and home offices, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/fulham-home-office/fulham-home-office-desk-view-02.webp",
+    "alt": "Full front view of the fitted Fulham desk, shelving and cupboards",
+    "fit": "contain"
   },
+  "images": [
+    {
+      "src": "/images/gallery/fulham-home-office/fulham-home-office-desk-view-02.webp",
+      "alt": "Full front view of the fitted Fulham desk, shelving and cupboards",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/fulham-home-office/fulham-home-office-overall-view-01.webp",
+      "alt": "View into the Fulham home office from the doorway",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/fulham-home-office/fulham-home-office-storage-detail-03.webp",
+      "alt": "Full-height storage detail in Fulham home office",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/fulham-home-office/fulham-home-office-detail-04.webp",
+      "alt": "Shelving and brass inlay detail in Fulham home office",
+      "fit": "contain"
+    }
+  ]
+},
   {
-    galleryId: "G32",
-    slug: "fulham-alcove-units",
-    title: "Fulham Alcove Units",
-    category: "Bespoke Joinery",
-    location: "Fulham, London",
-    summary: "A pair of dark fitted alcove units with integrated shelving, concealed storage and fine brass detailing.",
-    seoDescription: "Fulham bespoke alcove units case study by Form & Frame, featuring dark fitted cabinetry, open shelving, concealed storage and brass detailing.",
-    keywords: [
-      "Fulham alcove units",
-      "bespoke alcove furniture Fulham",
-      "fitted alcove cabinets London",
-      "dark timber alcove units",
-      "brass inlay joinery",
-      "made to measure shelving",
-      "bespoke joinery",
-    ],
-    highlights: [
-      "Fitted alcove cabinetry",
-      "Integrated open shelving",
-      "Concealed lower storage",
-      "Brass detailing",
-    ],
-    caseStudy: [
-      {
-        heading: "Fitted furniture shaped to the alcoves",
-        body: [
-          "This Fulham project uses fitted cabinetry within the room's alcoves, combining open shelving above with concealed storage below.",
-          "The dark finish gives the units a strong architectural presence while keeping the fireplace and surrounding room as the central composition.",
-        ],
-      },
-      {
-        heading: "The demanding part: working with existing architecture",
-        body: [
-          "Alcove furniture depends on accurate survey because the surrounding walls, chimney breast, floors and ceilings define every visible junction.",
-          "The two sides also need to relate closely to one another so the finished installation feels balanced even when the existing room is not perfectly symmetrical.",
-        ],
-      },
-      {
-        heading: "Open display and concealed storage",
-        body: [
-          "The shelving creates dedicated space for books and decorative objects, while the lower cabinets keep everyday storage out of view.",
-          "This combination keeps the room practical without making the fitted furniture visually heavy from floor to ceiling.",
-        ],
-      },
-      {
-        heading: "Detail and finish",
-        body: [
-          "Fine brass details provide a controlled contrast against the darker cabinetry and help define selected edges and divisions.",
-          "The close-up photography shows the joinery as a furniture piece rather than simply built-in storage.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed alcove units add storage and display space while remaining closely integrated with the existing architecture.",
-          "For similar alcove units, fitted shelving and living-room joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/fulham-alcove-units/fulham-alcove-units-pair-overall-00.webp",
-      alt: "Front view of both Fulham alcove units",
-      fit: "contain",
-    
+  "galleryId": "G32",
+  "slug": "fulham-alcove-units",
+  "title": "Fulham Alcove Units",
+  "category": "Bespoke Joinery",
+  "location": "Fulham, London",
+  "summary": "Pale fitted alcove cupboards and illuminated display shelves framing a television and fireplace in Fulham.",
+  "seoDescription": "Completed Fulham alcove joinery with pale cupboard fronts, illuminated open shelving and a balanced composition around the television and fireplace.",
+  "keywords": [
+    "Fulham alcove units",
+    "bespoke alcove cupboards",
+    "illuminated display shelving",
+    "fitted living room storage",
+    "bespoke joinery"
+  ],
+  "highlights": [
+    "Paired fitted alcove units",
+    "Illuminated open display shelves",
+    "Pale lower cupboards",
+    "Television and fireplace composition"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A balanced living-room composition",
+      "body": [
+        "The two fitted alcove units frame the central television and fireplace. Open shelves occupy the upper sections, while cupboards below provide concealed storage.",
+        "The pale cabinetry sits quietly against the surrounding walls, allowing the displayed objects and the central fireplace to remain visible parts of the room."
+      ]
     },
-    images: [
-      { src: "/images/gallery/fulham-alcove-units/fulham-alcove-units-pair-overall-00.webp", alt: "Front view of both Fulham alcove units", fit: "contain" },
-      { src: "/images/gallery/fulham-alcove-units/fulham-alcove-units-room-view-01.webp", alt: "Room view of Fulham alcove units", fit: "contain" },
-      { src: "/images/gallery/fulham-alcove-units/fulham-alcove-units-front-view-02.webp", alt: "Front view of fitted alcove cabinetry in Fulham", fit: "contain" },
-      { src: "/images/gallery/fulham-alcove-units/fulham-alcove-units-detail-03.webp", alt: "Joinery and brass detail in Fulham alcove units", fit: "contain" },
-    ],
+    {
+      "heading": "Open display and everyday storage",
+      "body": [
+        "Integrated shelf lighting gives each display area definition. The lower cupboards keep everyday items behind doors, balancing open and closed storage within the same elevation.",
+        "The photographs show both units together and closer views of the individual alcoves, so the overall proportions and shelf arrangement can be seen clearly."
+      ]
+    },
+    {
+      "heading": "Fitting around the room",
+      "body": [
+        "For furniture of this kind, the survey needs to account for the chimney breast, floor levels, skirtings and the available depth on each side. Shelf spacing and cupboard proportions can then be considered alongside sockets and lighting.",
+        "For a similar project, share photographs and approximate dimensions of both alcoves. Form & Frame can review the design, technical requirements and installation, with specialist manufacturing partners where appropriate."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/fulham-alcove-units/fulham-alcove-units-pair-overall-00.webp",
+    "alt": "Full view of both pale Fulham alcove units around the television and fireplace",
+    "fit": "contain"
   },
+  "images": [
+    {
+      "src": "/images/gallery/fulham-alcove-units/fulham-alcove-units-pair-overall-00.webp",
+      "alt": "Full view of both pale Fulham alcove units around the television and fireplace",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/fulham-alcove-units/fulham-alcove-units-room-view-01.webp",
+      "alt": "Right-hand alcove with illuminated shelves and lower cupboards",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/fulham-alcove-units/fulham-alcove-units-front-view-02.webp",
+      "alt": "Left-hand alcove cupboards and open display shelves",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/fulham-alcove-units/fulham-alcove-units-detail-03.webp",
+      "alt": "Angled view of the left alcove beside the television and fireplace",
+      "fit": "contain"
+    }
+  ]
+},
   {
     galleryId: "G33",
     slug: "fulham-juice-bar-joinery",
@@ -2088,7 +2178,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-front-view-03.webp",
       alt: "Front view of Fulham juice bar joinery",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-front-view-03.webp", alt: "Front view of Fulham juice bar joinery", fit: "contain" },
@@ -2156,7 +2246,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-front-view-02.webp",
       alt: "Front view of Fulham antique mirror feature",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-front-view-02.webp", alt: "Front view of Fulham antique mirror feature", fit: "contain" },
@@ -2222,7 +2312,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-front-view-03.webp",
       alt: "Front view of Esher Luxury Residence alcove units",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-front-view-03.webp", alt: "Front view of Esher Luxury Residence alcove units", fit: "contain" },
@@ -2362,7 +2452,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-front-view-10.webp",
       alt: "Front view of bespoke media wall with display shelving",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-front-view-10.webp", alt: "Front view of bespoke media wall with display shelving", fit: "contain" },
@@ -2433,7 +2523,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-front-view-02.webp",
       alt: "Front view of Stourcliff bespoke media wall",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-front-view-02.webp", alt: "Front view of Stourcliff bespoke media wall", fit: "contain" },
@@ -2499,7 +2589,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-front-02.webp",
       alt: "Front view of Stourcliff mirrored wardrobes",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-front-02.webp", alt: "Front view of Stourcliff mirrored wardrobes", fit: "contain" },
@@ -2564,7 +2654,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-front-02.webp",
       alt: "Front view of Stourcliff dressing table",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-front-02.webp", alt: "Front view of Stourcliff dressing table", fit: "contain" },
@@ -2627,7 +2717,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-front-02.webp",
       alt: "Front view of Stourcliff fitted wardrobe and shoe storage",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-front-02.webp", alt: "Front view of Stourcliff fitted wardrobe and shoe storage", fit: "contain" },
@@ -2692,7 +2782,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-front-02.webp",
       alt: "Front view of Stourcliff bathroom vanity and storage",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-front-02.webp", alt: "Front view of Stourcliff bathroom vanity and storage", fit: "contain" },
@@ -2702,77 +2792,7 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-cabinet-detail-05.webp", alt: "Bathroom cabinet detail", fit: "contain" },
     ],
   },
-  {
-    galleryId: "G53",
-    slug: "stourcliff-white-handleless-kitchen",
-    title: "Stourcliff White Handleless Kitchen",
-    category: "Kitchen Installation",
-    summary: "A completed white handleless kitchen with integrated appliances, clean cabinet lines and carefully coordinated worktop and fitted-unit details.",
-    seoDescription: "Stourcliff white handleless kitchen by Form & Frame, featuring integrated appliances, precise cabinet alignment and clean contemporary fitted details.",
-    keywords: [
-      "white handleless kitchen",
-      "handleless kitchen installation",
-      "integrated kitchen appliances",
-      "contemporary fitted kitchen",
-      "precision kitchen fitting",
-      "Stourcliff kitchen",
-    ],
-    highlights: [
-      "White handleless cabinetry",
-      "Integrated appliances",
-      "Clean cabinet alignment",
-      "Coordinated worktop details",
-    ],
-    caseStudy: [
-      {
-        heading: "A clean handleless kitchen composition",
-        body: [
-          "This completed kitchen uses white handleless cabinetry to create long, uninterrupted lines across the room.",
-          "Integrated appliances and fitted units sit within the same restrained composition, keeping the practical elements visually controlled.",
-        ],
-      },
-      {
-        heading: "The demanding part: maintaining continuous alignment",
-        body: [
-          "Handleless kitchens make small discrepancies easy to see because the design depends on consistent horizontal and vertical lines.",
-          "Cabinet fronts, appliance housings, fillers and adjoining panels therefore need careful setting out and final adjustment so the finished installation reads as one continuous system.",
-        ],
-      },
-      {
-        heading: "Worktops, appliances and fitted details",
-        body: [
-          "The gallery includes wider room views as well as closer photographs of worktop junctions, appliance areas and cabinet alignment.",
-          "These details show how the individual elements are brought together without interrupting the simple overall appearance.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed kitchen is deliberately understated, with the quality of the result depending on accurate fitting, controlled gaps and consistent relationships between the cabinetry and surrounding surfaces.",
-          "Form & Frame provides independent kitchen installation for customer-supplied kitchens, with projects considered across Luton, Bedfordshire, Hertfordshire and selected surrounding areas.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-overall-01.webp",
-      alt: "Stourcliff white handleless fitted kitchen",
-      fit: "contain",
-    },
-    images: [
-      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-overall-01.webp", alt: "Overall view of white handleless kitchen", fit: "contain" },
-      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-room-view-02.webp", alt: "Room view of completed handleless kitchen", fit: "contain" },
-      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-cabinetry-03.webp", alt: "White handleless kitchen cabinetry", fit: "contain" },
-      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-worktop-04.webp", alt: "Kitchen worktop and cabinetry view", fit: "contain" },
-      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-05.webp", alt: "Handleless kitchen detail", fit: "contain" },
-      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-alignment-06.webp", alt: "Kitchen cabinet alignment detail", fit: "contain" },
-      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-appliance-view-07.webp", alt: "Integrated appliance and cabinetry view", fit: "contain" },
-      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-counter-detail-08.webp", alt: "Kitchen counter detail", fit: "contain" },
-      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-fitted-detail-09.webp", alt: "Fitted kitchen detail", fit: "contain" },
-      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-10.webp", alt: "Kitchen joinery detail", fit: "contain" },
-      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-11.webp", alt: "White kitchen detail view", fit: "contain" },
-      { src: "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-12.webp", alt: "Final fitted kitchen detail", fit: "contain" },
-    ],
-  },
+
   {
     galleryId: "G54",
     slug: "stourcliff-bespoke-radiator-cover",
@@ -3561,6 +3581,211 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/8-leys-road-wine-cellar/8-leys-wine-cellar-interior-02.webp", alt: "Wine cellar interior with fitted bottle storage", fit: "contain" },
     ],
   },
+{
+  "galleryId": "G57",
+  "slug": "full-wall-white-library-bookcase",
+  "title": "Full-Wall White Library Bookcase",
+  "summary": "A full-wall white bookcase combining generous open shelving with discreet low-level storage in a furnished sitting room.",
+  "seoDescription": "Explore a completed full-wall white library bookcase, with open book shelving, lower cupboards and fitted storage details from Form & Frame.",
+  "keywords": [
+    "white library bookcase",
+    "full-wall bookcase",
+    "bespoke fitted shelving",
+    "living room book storage"
+  ],
+  "highlights": [
+    "Full-wall book and display shelving",
+    "Low-level enclosed storage",
+    "White finish with traditional detailing",
+    "Shelving arranged around the sitting room"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A wall devoted to books",
+      "body": [
+        "This completed library wall brings books and display pieces together in one fitted composition. The white finish and repeated shelf divisions give the collection a clear structure behind the sitting area, while the upper detailing finishes the cabinetry against the room."
+      ]
+    },
+    {
+      "heading": "Open shelves and hidden storage",
+      "body": [
+        "Open shelves keep frequently used books within reach. Lower compartments provide space for items that are better stored out of sight; the closer photographs show how these openings sit beneath the main shelving.",
+        "For a similar bookcase, shelf spacing, the weight of the collection, door clearance and access around existing furniture are useful starting points for the design."
+      ]
+    },
+    {
+      "heading": "Planning a fitted library",
+      "body": [
+        "Share a photograph of your wall, approximate dimensions and the kinds of books or objects you want to store. Form & Frame can discuss the proportions, storage layout and fitting requirements before confirming the project scope."
+      ]
+    }
+  ],
+  "category": "Bespoke Joinery",
+  "cover": {
+    "src": "/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-overall-01.webp",
+    "alt": "Full-wall white bookcase behind the sitting-room sofa",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-overall-01.webp",
+      "alt": "Full-wall white bookcase behind the sitting-room sofa",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-room-02.webp",
+      "alt": "Wider sitting-room view showing the fitted white library wall",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-storage-04.webp",
+      "alt": "Open lower storage compartments beneath the library shelves",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-room-05.webp",
+      "alt": "Angled view of the bookcase shelves and low-level storage",
+      "fit": "contain"
+    }
+  ]
+},
+{
+  "galleryId": "G58",
+  "slug": "esher-luxury-residence-bathroom-vanity-mirror",
+  "title": "Esher Luxury Residence — Bathroom Vanity & Mirror",
+  "location": "Esher, Surrey",
+  "summary": "Pale bathroom vanity cabinetry with decorative door fronts, a bowl basin and a large segmented mirror above.",
+  "seoDescription": "View the Esher bathroom vanity and mirror: pale decorative cabinetry, a bowl basin and a veined counter in a completed fitted-furniture project.",
+  "keywords": [
+    "Esher bathroom vanity",
+    "bespoke bathroom cabinetry",
+    "decorative vanity unit",
+    "bathroom mirror joinery"
+  ],
+  "highlights": [
+    "Decorative pale cabinet fronts",
+    "Bowl basin above a veined counter",
+    "Large segmented wall mirror",
+    "Fitted storage beneath the basin"
+  ],
+  "caseStudy": [
+    {
+      "heading": "Furniture within the bathroom",
+      "body": [
+        "The vanity forms the furniture centrepiece of this bathroom in Esher. Pale doors with crossed oval detailing sit beneath a veined counter and bowl basin. A wide segmented mirror above extends the composition across the wall."
+      ]
+    },
+    {
+      "heading": "Detail and proportion",
+      "body": [
+        "The overall and angled photographs show the relationship between the cabinetry, counter and mirror. The closer view highlights the decorative fronts and the way the basin sits above the storage below.",
+        "For bathroom furniture, the layout needs to allow for plumbing, access for maintenance and finishes appropriate to the room. These requirements form part of planning a similar vanity."
+      ]
+    },
+    {
+      "heading": "Discuss a similar piece",
+      "body": [
+        "Send the available dimensions, room photographs and your preferred basin and storage arrangement. The enquiry can focus on the vanity and mirror joinery, with other bathroom work agreed separately as part of the scope."
+      ]
+    }
+  ],
+  "category": "Bespoke Joinery",
+  "cover": {
+    "src": "/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-overall-01.webp",
+    "alt": "Full view of the Esher vanity, bowl basin and large segmented mirror",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-overall-01.webp",
+      "alt": "Full view of the Esher vanity, bowl basin and large segmented mirror",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-overall-02.webp",
+      "alt": "Angled view of the pale vanity cabinetry beneath the veined counter",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-detail-03.webp",
+      "alt": "Close view of the bowl basin and decorative vanity door fronts",
+      "fit": "contain"
+    }
+  ]
+},
+{
+  "galleryId": "G59",
+  "slug": "traditional-radiator-covers-fitted-shelving",
+  "title": "Traditional Radiator Covers & Fitted Shelving",
+  "summary": "White radiator covers and fitted shelving that bring practical room features into a coordinated traditional interior.",
+  "seoDescription": "See completed traditional radiator covers and fitted shelving, with white grilles, decorative detailing and room views from Form & Frame.",
+  "keywords": [
+    "bespoke radiator covers",
+    "traditional fitted shelving",
+    "white radiator cabinet",
+    "living room joinery"
+  ],
+  "highlights": [
+    "Full-width radiator-cover compositions",
+    "Vertical grille detailing",
+    "White fitted shelving",
+    "Joinery coordinated with room features"
+  ],
+  "caseStudy": [
+    {
+      "heading": "Bringing room details together",
+      "body": [
+        "This set of completed interiors shows radiator covers and fitted shelving in a traditional white finish. The lead photograph shows a complete radiator-cover composition beneath a decorative mirror; wider views place the furniture within the sitting room."
+      ]
+    },
+    {
+      "heading": "Useful furniture with considered details",
+      "body": [
+        "Grille openings, moulded edges and the relationship to nearby curtains and windows give the covers their character. The shelving adds space for books and display pieces without making each element feel separate from the room.",
+        "A radiator cover must be planned around ventilation, valve access and maintenance. Those practical requirements need to be considered alongside the appearance when designing a similar piece."
+      ]
+    },
+    {
+      "heading": "Planning covers and shelving",
+      "body": [
+        "Room photographs and the dimensions of the radiators, windows and available walls help establish a starting point. Form & Frame can review the furniture layout and fitting requirements before agreeing the design and scope."
+      ]
+    }
+  ],
+  "category": "Bespoke Joinery",
+  "cover": {
+    "src": "/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-window-03.webp",
+    "alt": "Full front view of a white radiator cover beneath a decorative mirror",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-window-03.webp",
+      "alt": "Full front view of a white radiator cover beneath a decorative mirror",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-overall-01.webp",
+      "alt": "Sitting-room view with white fitted shelving and radiator-cover joinery",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-overall-02.webp",
+      "alt": "Wider living-room view showing shelving, fireplace and fitted room details",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-detail-04.webp",
+      "alt": "Angled view of the radiator-cover grille beside the curtains",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-detail-05.webp",
+      "alt": "Radiator-cover joinery beside the bright bay window",
+      "fit": "contain"
+    }
+  ]
+},
 ];
 
 export function getGalleryProject(slug: string) {
