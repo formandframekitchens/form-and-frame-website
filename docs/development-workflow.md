@@ -33,7 +33,13 @@ This keeps the structure simple:
 
 `B06 TEST -> preview in Vercel -> approved -> merge to master SOLID`
 
-## Current sequence — 5 October 2026 / B17
+## Current sequence — 5 October 2026 / B18
+
+- B18 — Form & Frame wardrobe favicon with gold handles, browser and phone icons.
+- Branch: `b18-brand-favicon`.
+- Next new website batch: B19; next unassigned gallery: G78.
+
+### Previous sequence (B17)
 
 - B17 — Local bespoke joinery and kitchen SEO, gallery descriptions and image naming.
 - Branch: `b17-local-bespoke-seo`.
