@@ -1,0 +1,28 @@
+{
+  "verifiedAt": "2026-10-05T09:42:55.335Z",
+  "base": "https://formandframekitchens.co.uk",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "photoOrder": true,
+      "closedWardrobeCover": true,
+      "categories": true,
+      "enquiries": true,
+      "retiredGalleryRedirect": true,
+      "retiredIdSearch": true,
+      "legacyEnquiryReference": true,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "photoOrder": true,
+      "closedWardrobeCover": true,
+      "categories": true,
+      "enquiries": true,
+      "retiredGalleryRedirect": true,
+      "retiredIdSearch": true,
+      "legacyEnquiryReference": true,
+      "errors": []
+    }
+  ]
+}

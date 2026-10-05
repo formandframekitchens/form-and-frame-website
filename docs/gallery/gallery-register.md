@@ -4,7 +4,7 @@ This is the permanent internal tracking register for website gallery case studie
 
 ## Current checkpoint — 5 October 2026 / B14
 
-Resume from [B14 photo corrections](b14-photo-corrections.md). Owner-approved photo reassignments are verified locally and awaiting publication on `b14-gallery-photo-corrections`.
+Resume from [B14 photo corrections](b14-photo-corrections.md). Owner-approved photo reassignments are LIVE via PR #77 / merge `63b003b`; production `dpl_EL4zQfhSWxViiASzJMqWhun1ZNRC` is READY. All six affected galleries, image assignments, redirects and enquiry flows passed live desktop/mobile verification.
 
 - G51 uses the closed-door wardrobe image as its cover/first photo and remains classified as wardrobes.
 - G28 is merged into G27. G27 now includes all six unique Manchester wardrobe, island and dressing-table photos. G28's URL redirects permanently and its number is retired.
@@ -112,7 +112,7 @@ When a lane fuse fires:
 | G24 | Earls Court Bespoke TV Unit | MERGED INTO G13 | Same TV-unit photography as G13 Cream Bespoke TV Unit; duplicate retired and never reused |
 | G25 | Earls Court Floating Shelf & Mirror Wall | LIVE | Split from Arno 03 / 1 unique clean image; duplicate/logo preflight passed; Drive ingest passed |
 | G26 | Putney Bespoke TV Unit | LIVE | Arno 01 / 4 unique clean images; duplicate source photo excluded; logo preflight passed; Drive ingest passed |
-| G27 | Manchester Walk-In Wardrobe | B14 CORRECTION | Complete wardrobe, island and dressing-table project; six unique images after absorbing G28 |
+| G27 | Manchester Walk-In Wardrobe | LIVE | Complete wardrobe, island and dressing-table project; six unique images after absorbing G28; B14 live verified |
 | G28 | Manchester Make-Up Island & Dressing Table | MERGED INTO G27 | Owner confirmed the same project; photos retained once in G27, old URL redirects; ID retired and never reused |
 | G29 | Virginia Water Wine Room | LIVE | Wentworth / 6 clean images; duplicate/logo preflight passed; Drive ingest passed after push-race retry |
 | G30 | Fulham Wine Cellar | LIVE | Clean HIGH RES MH0031–MH0035; duplicate/logo preflight passed; Drive ingest passed |
@@ -128,15 +128,15 @@ When a lane fuse fires:
 | G40 | CLEARED FOR REASSIGNMENT | MERGED INTO G35 / RESERVED EMPTY | Former Belgravia Leather Wardrobe merged into G35 by owner instruction; old URL redirects to G35; G40 may be assigned to a new distinct project |
 | G41 | Esher Luxury Residence — Walk-In Wardrobe | LIVE | 7 mapped HIGH RES originals; 14/14 generated assets verified; PR #60 merged; gallery record restored by PR #64 integrity repair; final production route verified |
 | G42 | Esher Luxury Residence — Kids Room TV Unit | LIVE | 3 mapped HIGH RES originals; 6/6 generated assets verified; PR #61 merged; gallery record restored by PR #64 integrity repair; final production route verified |
-| G43 | Esher Luxury Residence — Home Office | B14 CORRECTION | Five photographs: original 1–3 plus original G45 8–9; C0054 moved to G44, A0007 to G45, B0007 removed |
-| G44 | Esher Luxury Residence — Bookcase with Leather & Brass Detail | B14 CORRECTION | Original four photographs plus C0054 from original G43 image 4 |
-| G45 | Esher Luxury Residence — Alcove Units | B14 CORRECTION | Rooflit-room installation only: original 1–5 plus A0007 from original G43 image 6; other rooms moved to G61/G43 |
+| G43 | Esher Luxury Residence — Home Office | LIVE | Five photographs: original 1–3 plus original G45 8–9; C0054 moved to G44, A0007 to G45, B0007 removed; B14 verified |
+| G44 | Esher Luxury Residence — Bookcase with Leather & Brass Detail | LIVE | Original four photographs plus C0054 from original G43 image 4; B14 verified |
+| G45 | Esher Luxury Residence — Alcove Units | LIVE | Rooflit-room installation only: original 1–5 plus A0007 from original G43 image 6; other rooms moved to G61/G43; B14 verified |
 | G46 | London Luxury Salon Joinery | LIVE | 10 clean selected salon images; LOGO folder excluded; Drive ingest and SHA verification passed; corrected preview passed; production READY |
 | G47 | Bespoke Media Wall with Display Shelving | LIVE | Aram high res images 1–11; ingest, asset verification, preview and production verification passed; PR #44 merged |
 | G48 | Stourcliff Bespoke Media Wall | LIVE | AIDA high res images 1, 2, 4, 5, 6, 7; ingest, SHA verification, preview, merge and production route verification passed |
 | G49 | Stourcliff Mirrored Wardrobes | LIVE | AIDA high res images 12–16; 10/10 assets verified; preview and production routes verified; PR #46 merged |
 | G50 | Stourcliff Dressing Table | LIVE | AIDA high res images 20–22; 6/6 assets verified; preview and production routes verified; PR #47 merged |
-| G51 | Stourcliff Fitted Wardrobe & Shoe Storage | B14 CORRECTION | Closed doors (original image 2) first; wardrobe classification; five photographs retained |
+| G51 | Stourcliff Fitted Wardrobe & Shoe Storage | LIVE | Closed doors (original image 2) first; wardrobe classification; five photographs retained; B14 verified |
 | G52 | Stourcliff Bathroom Vanity & Storage | LIVE | AIDA high res images 28–32; 10/10 assets verified; preview and production routes verified; PR #50 merged |
 | G53 | Stourcliff White Handleless Kitchen | MERGED INTO G01 | Same kitchen; 12 clean images retained in G01; former G53 URL redirects; ID retired and never reused |
 | G54 | Stourcliff Bespoke Radiator Cover | LIVE | AIDA high res images 8 and 11; 4/4 assets verified; preview and production routes verified; PR #52 merged |
@@ -146,7 +146,7 @@ When a lane fuse fires:
 | G58 | Esher Luxury Residence — Bathroom Vanity & Mirror | LIVE | Three distinct HIGH RES views; repeated exposures omitted; PR #73; preview and production verified |
 | G59 | Traditional Radiator Covers & Fitted Shelving | LIVE | Five HIGH RES views; complete radiator cover first; PR #74; preview and production verified |
 | G60 | Esher Luxury Residence — Make-Up Table | LIVE | One HIGH RES full-piece view through doorway; documented source-quality exception; PR #75; preview and production verified |
-| G61 | Esher Luxury Residence — Modern Alcove Units | B14 CORRECTION | B0001/B0004, original G45 images 6–7; one distinct modern alcove pair, two verified photos |
+| G61 | Esher Luxury Residence — Modern Alcove Units | LIVE | B0001/B0004, original G45 images 6–7; one distinct modern alcove pair, two verified photos; PR #77 preview/production verified |
 
 ## HOLD / not included in active gallery set
 - Modern Alcove Units: unfinished/weak presentation in current set.
