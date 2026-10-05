@@ -3713,6 +3713,79 @@ export const galleryProjects: GalleryProject[] = [
     }
   ]
 },
+{
+  "galleryId": "G59",
+  "slug": "traditional-radiator-covers-fitted-shelving",
+  "title": "Traditional Radiator Covers & Fitted Shelving",
+  "summary": "White radiator covers and fitted shelving that bring practical room features into a coordinated traditional interior.",
+  "seoDescription": "See completed traditional radiator covers and fitted shelving, with white grilles, decorative detailing and room views from Form & Frame.",
+  "keywords": [
+    "bespoke radiator covers",
+    "traditional fitted shelving",
+    "white radiator cabinet",
+    "living room joinery"
+  ],
+  "highlights": [
+    "Full-width radiator-cover compositions",
+    "Vertical grille detailing",
+    "White fitted shelving",
+    "Joinery coordinated with room features"
+  ],
+  "caseStudy": [
+    {
+      "heading": "Bringing room details together",
+      "body": [
+        "This set of completed interiors shows radiator covers and fitted shelving in a traditional white finish. The lead photograph shows a complete radiator-cover composition beneath a decorative mirror; wider views place the furniture within the sitting room."
+      ]
+    },
+    {
+      "heading": "Useful furniture with considered details",
+      "body": [
+        "Grille openings, moulded edges and the relationship to nearby curtains and windows give the covers their character. The shelving adds space for books and display pieces without making each element feel separate from the room.",
+        "A radiator cover must be planned around ventilation, valve access and maintenance. Those practical requirements need to be considered alongside the appearance when designing a similar piece."
+      ]
+    },
+    {
+      "heading": "Planning covers and shelving",
+      "body": [
+        "Room photographs and the dimensions of the radiators, windows and available walls help establish a starting point. Form & Frame can review the furniture layout and fitting requirements before agreeing the design and scope."
+      ]
+    }
+  ],
+  "category": "Bespoke Joinery",
+  "cover": {
+    "src": "/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-window-03.webp",
+    "alt": "Full front view of a white radiator cover beneath a decorative mirror",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-window-03.webp",
+      "alt": "Full front view of a white radiator cover beneath a decorative mirror",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-overall-01.webp",
+      "alt": "Sitting-room view with white fitted shelving and radiator-cover joinery",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-overall-02.webp",
+      "alt": "Wider living-room view showing shelving, fireplace and fitted room details",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-detail-04.webp",
+      "alt": "Angled view of the radiator-cover grille beside the curtains",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-detail-05.webp",
+      "alt": "Radiator-cover joinery beside the bright bay window",
+      "fit": "contain"
+    }
+  ]
+},
 ];
 
 export function getGalleryProject(slug: string) {

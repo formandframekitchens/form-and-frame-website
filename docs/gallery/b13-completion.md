@@ -8,8 +8,8 @@ Owner authorised the complete audit fix list and four prepared galleries in one 
 | --- | --- | --- | --- |
 | Shared corrections | b13-gallery-completion | LIVE: PR #71, merge 0d28003, production dpl_8kpjDr4ADvUnvkaZbNnPmG97ih8M READY; public gallery verified | Complete |
 | G57 white library | g57-full-wall-white-library-bookcase | LIVE: PR #72, merge ce52fed, production dpl_A4uo7oK7mRoPWmvqdW4EmnWoUTn6 READY; public route verified | Complete |
-| G58 Esher bathroom | g58-esher-bathroom-vanity-mirror | Three distinct views integrated; build and five applicable desktop/mobile checks passed | Preview, PR, production |
-| G59 radiator covers | g59-traditional-radiator-covers-shelving | Prepared assets | Verify and integrate after G58 production check |
+| G58 Esher bathroom | g58-esher-bathroom-vanity-mirror | LIVE: PR #73, merge ef3f9e1, production dpl_noVVEehKMbAJLYW7mMCLvUsPexa1 READY; public route HTTP 200 | Complete |
+| G59 radiator covers | g59-traditional-radiator-covers-shelving | Five HIGH RES views integrated; complete front view first; build and five applicable checks passed | Preview, PR, production |
 | G60 Esher make-up table | g60-esher-make-up-table | Prepared single image | Verify source-quality exception; integrate after G59 production check |
 
 Each lane keeps its own commit, preview and production verification. Shared master integration stays serial. Two failures of the same operation park that operation; diagnose once, record the cause, use a different supported approach and continue independent work. No unverified assets or invented project facts advance to publication.
