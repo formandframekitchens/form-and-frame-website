@@ -6,7 +6,7 @@ import { enquiryHref } from "../lib/enquiry";
 import { kitchenFAQs } from "../lib/supplier-pages";
 import { serviceMetadata } from "../lib/service-metadata";
 
-export const metadata = serviceMetadata("Kitchen Installation in Luton", "Independent kitchen installation from Luton across Bedfordshire and Hertfordshire: preparation, cabinet fitting, worktops, appliances and complete project coordination.", "/kitchen-installation");
+export const metadata = serviceMetadata("Kitchen Fitter & Installation Luton", "Independent kitchen fitting in Luton, Bedfordshire and Hertfordshire. Customer-supplied kitchens, worktops, appliances and installation coordination.", "/kitchen-installation");
 
 export default function KitchenInstallationPage() {
   return <>

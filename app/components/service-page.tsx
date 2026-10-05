@@ -169,6 +169,7 @@ export function LocalServiceArea() {
   return <ServiceSection title="Kitchen installation from Luton across the surrounding area" id="service-areas">
     <p className="service-prose">Luton is our core base. We also consider kitchen installations across nearby Bedfordshire and Hertfordshire towns and selected projects towards Milton Keynes, Bedford and North London when the project scope makes the travel commercially sensible.</p>
     <ul className="service-area-list">{serviceAreas.map(area => <li key={area}>{area}</li>)}</ul>
+    <Link className="text-link" href="/areas">Local coverage and project arrangements ↗</Link>
   </ServiceSection>;
 }
 

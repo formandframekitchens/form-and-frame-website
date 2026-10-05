@@ -6,7 +6,7 @@ import { enquiryHref } from "../lib/enquiry";
 
 export const metadata = serviceMetadata(
   "Internal & Sliding Door Installation Luton",
-  "Internal and sliding door installation around Luton, including hinged, glazed, double and pocket doors, hardware, frames and made-to-order doors coordinated with specialist manufacturers.",
+  "Internal door fitting in Luton: hinged, glazed, sliding and pocket doors, with careful hardware adjustment and made-to-order options where required.",
   "/internal-door-installation"
 );
 

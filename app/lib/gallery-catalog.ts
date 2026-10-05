@@ -30,7 +30,7 @@ const projectCategories: Record<string, GalleryCategory[]> = {
   G25: ["unique-furniture"], G26: ["entertainment-units"], G27: ["wardrobes", "unique-furniture"],
   G29: ["unique-furniture"], G30: ["unique-furniture"],
   G31: ["office-furniture", "bookcases"], G32: ["alcove-units", "entertainment-units"],
-  G33: ["unique-furniture"], G34: ["unique-furniture", "wardrobes"],
+  G33: ["unique-furniture"], G34: ["wardrobes", "unique-furniture"],
   G35: ["bookcases","unique-furniture"], G36: ["unique-furniture"],
   G37: ["wardrobes"], G38: ["unique-furniture"], G39: ["entertainment-units","unique-furniture"],
   G41: ["wardrobes"], G42: ["entertainment-units", "bookcases"], G43: ["office-furniture", "bookcases"],
@@ -59,17 +59,23 @@ const projectCategories: Record<string, GalleryCategory[]> = {
 };
 
 const retiredIds: Record<string, string> = { G05: "G19", G10: "G02", G18: "G04", G24: "G13", G28: "G27", G53: "G01" };
-const familyPrefixes = ["Soho", "S&C", "Northwood", "Manchester", "Fulham", "Belgravia", "Stourcliff", "Esher Luxury Residence"];
+// Commission grouping must not change when a public title is improved.
+const projectFamilies: Record<string, readonly string[]> = {
+  soho: ["G02", "G03", "G07"],
+  "dark-display-furniture": ["G15", "G16"],
+  fulham: ["G30", "G31", "G32", "G33", "G34"],
+  belgravia: ["G35", "G36", "G37", "G38", "G39", "G70", "G71", "G72", "G73", "G74", "G75", "G76", "G77"],
+  stourcliff: ["G01", "G48", "G49", "G50", "G51", "G52", "G54", "G55"],
+  esher: ["G41", "G42", "G43", "G44", "G45", "G46", "G56", "G58", "G60", "G61", "G62", "G63"],
+  "dining-and-eaves-joinery": ["G47", "G64", "G65", "G66", "G67", "G68", "G69"],
+};
 
 export function categoriesForProject(project: GalleryProject) {
   return projectCategories[project.galleryId] ?? [];
 }
 
 export function projectFamily(project: GalleryProject) {
-  // Group the source property's dining and eaves furniture without publishing
-  // its private folder name as a location or client identity.
-  if (["G47", "G64", "G65", "G66", "G67", "G68", "G69"].includes(project.galleryId)) return "dining-and-eaves-joinery";
-  return familyPrefixes.find(prefix => project.title.startsWith(prefix)) ?? project.title;
+  return Object.entries(projectFamilies).find(([, ids]) => ids.includes(project.galleryId))?.[0] ?? project.galleryId;
 }
 
 export function groupProjectsByFamily(projects: GalleryProject[]) {

@@ -21,8 +21,8 @@ test("four numbered service rows keep their routes and fit on a laptop", async (
   }
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   await page.screenshot({ path: testInfo.outputPath("services.png") });
-  const list = await page.locator('script[type="application/ld+json"]').textContent();
-  expect(JSON.parse(list!).itemListElement.map((item: { position: number }) => item.position)).toEqual([1, 2, 3, 4]);
+  const list = (await page.locator('script[type="application/ld+json"]').allTextContents()).map(value => JSON.parse(value)).find(value => value['@type'] === 'ItemList');
+  expect(list.itemListElement.map((item: { position: number }) => item.position)).toEqual([1, 2, 3, 4]);
 });
 
 test("seven kitchen rows have unique images and keep supporting content below the opening screen", async ({ page }, testInfo) => {

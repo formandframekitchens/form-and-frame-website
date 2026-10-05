@@ -20,9 +20,8 @@ export async function generateMetadata({ params }: PageProps<"/gallery/[slug]">)
   if (!project) notFound();
 
   return {
-    title: `${project.title}${project.location ? ` | ${project.location}` : ""} | Form & Frame`,
+    title: `${project.title} | Form & Frame`,
     description: project.seoDescription,
-    keywords: project.keywords,
     alternates: {
       canonical: `/gallery/${project.slug}`,
     },
@@ -31,7 +30,7 @@ export async function generateMetadata({ params }: PageProps<"/gallery/[slug]">)
       description: project.seoDescription,
       url: `/gallery/${project.slug}`,
       type: "article",
-      images: project.images.map(image => ({ url: image.src, alt: image.alt })),
+      images: [{ url: project.cover.src, alt: project.cover.alt }],
     },
     twitter: {
       card: "summary_large_image",
@@ -60,11 +59,14 @@ export default async function GalleryProjectPage({ params }: PageProps<"/gallery
     name: project.title,
     description: project.seoDescription,
     url: projectUrl,
-    image: project.images.map(image => `${siteUrl}${image.src}`),
+    "@id": `${projectUrl}#project`,
+    image: project.images.map(image => ({ "@type": "ImageObject", contentUrl: `${siteUrl}${image.src}`, caption: image.alt })),
+    mainEntityOfPage: { "@type": "WebPage", "@id": projectUrl },
     keywords: project.keywords.join(", "),
     about: project.category,
     creator: {
       "@type": "Organization",
+      "@id": `${siteUrl}/#business`,
       name: "Form & Frame",
       url: siteUrl,
     },
@@ -174,6 +176,7 @@ export default async function GalleryProjectPage({ params }: PageProps<"/gallery
                   : " Bespoke fitted-furniture projects are considered across Luton, Bedfordshire, Hertfordshire, London and selected surrounding areas depending on scope."}
               </p>
               <Link className="text-link" href={serviceHref}>Explore {serviceLabel} <span aria-hidden="true">↗</span></Link>
+              <p className="service-prose-spaced"><Link href="/areas/luton">Bespoke joinery and kitchens in Luton</Link> · <Link href="/guides/joinery-materials-finishes">Compare joinery materials and finishes</Link></p>
             </div>
           </div>
         </section>

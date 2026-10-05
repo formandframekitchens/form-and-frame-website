@@ -2,13 +2,13 @@ import { expect, test } from "@playwright/test";
 import { enquiryEmail } from "../app/lib/enquiry";
 
 const categories = [
-  ["wardrobes", "Bespoke wardrobes"],
+  ["wardrobes", "Bespoke fitted wardrobes"],
   ["alcove-units", "Bespoke alcove units"],
   ["bookcases", "Bespoke bookcases"],
-  ["entertainment-units", "Entertainment units"],
-  ["office-furniture", "Office furniture"],
+  ["entertainment-units", "Bespoke media walls & TV units"],
+  ["office-furniture", "Bespoke home office furniture"],
   ["under-stairs-storage", "Under-stairs storage"],
-  ["unique-furniture", "Unique furniture"],
+  ["unique-furniture", "Individual bespoke furniture"],
 ];
 
 test("first service opens seven illustrated joinery choices with a clean opening screen", async ({ page }, testInfo) => {
@@ -28,7 +28,7 @@ test("first service opens seven illustrated joinery choices with a clean opening
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   await page.screenshot({ path: testInfo.outputPath("joinery-landing.png") });
   await page.locator(".joinery-selection").screenshot({ path: testInfo.outputPath("joinery-selection.png") });
-  const itemList = JSON.parse((await page.locator('script[type="application/ld+json"]').textContent())!);
+  const itemList = (await page.locator('script[type="application/ld+json"]').allTextContents()).map(value => JSON.parse(value)).find(value => value['@type'] === 'ItemList');
   expect(itemList.itemListElement.map((item: { position: number }) => item.position)).toEqual([1, 2, 3, 4, 5, 6, 7]);
 });
 
@@ -37,6 +37,7 @@ test("every category has a usable destination and passes its identity to the enq
     await page.goto("/bespoke-joinery");
     await page.locator(`.joinery-selection a[href="/bespoke-joinery/${slug}"]`).click();
     await expect(page.getByRole("heading", { level: 1 })).toHaveText(title);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), slug).toBe(true);
     await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", `https://formandframekitchens.co.uk/bespoke-joinery/${slug}`);
     await expect.poll(() => page.locator(".service-hero-visual img").evaluate(image => (image as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
     await expect(page.locator(".service-hero-visual figcaption")).toHaveCount(0);

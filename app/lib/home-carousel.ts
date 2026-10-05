@@ -1,33 +1,23 @@
-export type HomepageKitchenSlide = {
-  src: string;
-  alt: string;
-  caption: string;
-};
-
+export type HomepageKitchenSlide = { src: string; alt: string; caption: string };
 export const homepageKitchenSlides: HomepageKitchenSlide[] = [
   {
-    src: "/images/homepage/modern-white-handleless-kitchen-installation.webp",
-    alt: "Modern white handleless fitted kitchen with integrated appliances installed by Form & Frame",
-    caption: "Modern handleless kitchen installation",
+    "caption": "Manchester Bespoke Walk-In Wardrobe & Island",
+    "alt": "Front view of Manchester walk-in wardrobe",
+    "src": "/images/gallery/g27/g27-01-front-view-of-manchester-walk-in-wardrobe.webp"
   },
   {
-    src: "/images/homepage/white-handleless-kitchen-fitting-integrated-appliances.webp",
-    alt: "White handleless kitchen with worktop, sink, gas hob and integrated oven",
-    caption: "Fitted kitchen with integrated appliances",
+    "caption": "Fulham Bespoke Fitted Alcove Units",
+    "alt": "Full view of both pale Fulham alcove units around the television and fireplace",
+    "src": "/images/gallery/g32/g32-01-full-view-of-both-pale-fulham-alcove-units.webp"
   },
   {
-    src: "/images/homepage/kitchen-worktop-hob-appliance-installation-detail.webp",
-    alt: "Close-up of a fitted kitchen worktop, gas hob and integrated oven installation detail",
-    caption: "Worktop and hob installation detail",
+    "caption": "Bespoke Black Oak Media Wall with Brass Inlay",
+    "alt": "Front view of full-height black oak-grain media wall with integrated television",
+    "src": "/images/gallery/g08/g08-01-front-view-of-full-height-black-oak-grain.webp"
   },
   {
-    src: "/images/homepage/integrated-dishwasher-kitchen-installation-detail.webp",
-    alt: "Integrated dishwasher fitted beneath a white kitchen worktop",
-    caption: "Integrated appliance installation detail",
-  },
-  {
-    src: "/images/homepage/fitted-kitchen-utility-storage-installation.webp",
-    alt: "Fitted kitchen utility storage with integrated microwave and tall cabinetry",
-    caption: "Fitted utility and tall-unit storage",
-  },
+    "caption": "White Handleless Kitchen & Utility Installation",
+    "alt": "White handleless fitted kitchen with a cooking run, sink and tall storage",
+    "src": "/images/gallery/g01/g01-01-white-handleless-fitted-kitchen-with-a-cooking-run.webp"
+  }
 ];

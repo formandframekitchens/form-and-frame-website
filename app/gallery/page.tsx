@@ -27,7 +27,7 @@ export default async function GalleryPage({ searchParams }: PageProps<"/gallery"
         <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/">Home</Link><span aria-hidden="true">/</span><span>Gallery</span></nav>
         <p className="eyebrow">Selected completed work</p>
         <h1>Kitchen &amp; Joinery Gallery</h1>
-        <p className="gallery-lead">Explore our completed projects. Find ideas for your room, then take a closer look at the details.</p>
+        <p className="gallery-lead">Explore fitted wardrobes, alcove cupboards, bookcases, media walls and kitchen installations. See the finished rooms, then take a closer look at the furniture details.</p>
       </div></header>
       <section className="gallery-index" aria-label="Project gallery">
         <div className="container">

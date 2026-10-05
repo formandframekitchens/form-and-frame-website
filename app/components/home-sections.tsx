@@ -1,7 +1,9 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { manufacturers, processSteps, homepageServices, faqs } from "../lib/home-data";
-import { WHATSAPP_NUMBER, planContactHref } from "../lib/contact";
+import { WHATSAPP_NUMBER } from "../lib/contact";
+import { publicGalleryProjects } from "../lib/gallery-projects";
+import { GalleryProjectCard } from "./gallery-project-card";
 import { Photo } from "./photo";
 import { KitchenCarousel } from "./kitchen-carousel";
 
@@ -17,18 +19,18 @@ export function Hero() {
     <section className="hero">
       <div className="container hero-layout">
         <div className="hero-copy">
-          <Eyebrow>Independent kitchen installation <span aria-hidden="true">·</span> Luton</Eyebrow>
-          <h1>Kitchen Installation in Luton</h1>
-          <p className="hero-description">20 years of experience in joinery manufacturing, design and installation — from reviewing your kitchen plan and preparing the room through to accurate fitting, worktops, appliances, finishing and complete project coordination.</p>
+          <Eyebrow>Made for your home <span aria-hidden="true">·</span> Luton</Eyebrow>
+          <h1>Bespoke Joinery &amp; Kitchens in Luton</h1>
+          <p className="hero-description">Fitted wardrobes, alcove cupboards, distinctive furniture and kitchens, with design, specialist manufacture and installation carefully coordinated. Based in Luton, serving Bedfordshire and Hertfordshire.</p>
         </div>
         <div className="hero-image">
           <KitchenCarousel />
           <div className="hero-overlay">
             <div className="hero-promise">
-              <strong>From plan to finished kitchen.</strong>
-              <span className="hero-process">Review <i>→</i> Prepare <i>→</i> Install <i>→</i> Finish</span>
+              <strong>Furniture that belongs in your room.</strong>
+              <span className="hero-process">Discuss <i>→</i> Design <i>→</i> Coordinate <i>→</i> Install</span>
             </div>
-            <div className="hero-actions"><Action href="/contact?service=kitchen-installation#enquiry-form">Get an installation quote</Action><Action href="/gallery" secondary>View our work</Action></div>
+            <div className="hero-actions"><Action href="/services">Choose your service</Action><Action href="/gallery" secondary>View our work</Action></div>
           </div>
         </div>
       </div>
@@ -40,11 +42,26 @@ export function TrustStrip() {
   return (
     <div className="trust-strip"><ul className="container">
       <li><strong>20 Years</strong><span>Joinery experience</span></li>
-      <li><strong>Independent</strong><span>Kitchen installer</span></li>
+      <li><strong>Made to Measure</strong><span>Furniture for your space</span></li>
       <li><strong>Luton Based</strong><span>Local service</span></li>
       <li><strong>Any Supplier</strong><span>Customer-supplied kitchens welcome</span></li>
     </ul></div>
   );
+}
+
+export function BespokeFurniture() {
+  return <section className="section installation-section"><div className="container">
+    <p className="eyebrow">Bespoke furniture &amp; kitchens</p>
+    <div className="installation-intro"><h2>Considered storage.<br />Individual details.</h2><div>
+      <p>From a fitted wardrobe to a complete kitchen, we start with the way you want to use the room. Cabinet proportions, internal storage, visible grain, painted finishes and metal details are developed together, with a clear specification before manufacture.</p>
+      <p className="service-prose-spaced">Form &amp; Frame brings design and installation together with selected specialist manufacturing partners. Explore the furniture that suits your project.</p>
+    </div></div>
+    <div className="service-grid">
+      <article><h3>Bespoke joinery &amp; fitted furniture</h3><p>Built-in wardrobes, alcove units, library bookcases, media walls and home-office furniture.</p><Link className="text-link" href="/bespoke-joinery">Explore bespoke joinery ↗</Link></article>
+      <article><h3>Bespoke kitchens</h3><p>Made-to-measure cabinetry, storage and finishes planned around the complete kitchen.</p><Link className="text-link" href="/bespoke-kitchens">Explore bespoke kitchens ↗</Link></article>
+      <article><h3>Traditional in-frame kitchens</h3><p>Inset doors, visible face frames and individually specified painted cabinetry.</p><Link className="text-link" href="/in-frame-kitchens">Explore in-frame kitchens ↗</Link></article>
+    </div>
+  </div></section>;
 }
 
 export function KitchenInstallation() {
@@ -70,7 +87,7 @@ export function TechnicalExpertise() {
         <div className="technical-copy" id="about">
           <Eyebrow>Technical installation experience</Eyebrow>
           <h2>More Than<br />Cabinet Assembly</h2>
-          <p>Experience across joinery manufacturing, design and installation helps us resolve the technical details that bring your kitchen plan and room together.</p>
+          <p>Form &amp; Frame is led by Arnas Vazinskas, drawing on around 20 years of personal experience across joinery manufacturing, technical design and installation. That background connects the appearance of your furniture with the details needed to fit it accurately.</p>
           <ul className="capability-list">
             <li>Accurate cabinet levelling</li><li>Precision scribes &amp; fillers</li><li>Worktop routing &amp; fitting</li><li>Integrated appliances &amp; complex layouts</li>
           </ul>
@@ -93,16 +110,15 @@ export function Process() {
 }
 
 export function ProjectsPreview() {
+  const projects = ["G27", "G32", "G01"].map(id => publicGalleryProjects.find(project => project.galleryId === id)!);
   return (
     <section className="section projects-section" id="projects"><div className="container">
-      <p className="eyebrow">Genuine installation photography</p>
-      <h2>Details from a completed kitchen</h2>
+      <p className="eyebrow">Completed work</p>
+      <h2>See the furniture. Explore the details.</h2>
       <p className="project-intro">Selected photographs from completed kitchen installation and bespoke joinery work. The full gallery brings each project together with its supporting views and details.</p>
       <Link className="text-link" href="/gallery">View full gallery <span aria-hidden="true">↗</span></Link>
-      <div className="project-grid">
-        <Photo name="finished" caption="Completed handleless kitchen" />
-        <Photo name="craftsmanship" caption="Integrated appliance fitting detail" />
-        <Photo name="complex" caption="Fitted utility and tall-unit detail" />
+      <div className="gallery-card-grid service-prose-spaced">
+        {projects.map(project => <GalleryProjectCard key={project.slug} project={project} />)}
       </div>
     </div></section>
   );
@@ -115,7 +131,7 @@ export function SecondaryServices() {
       <div className="service-grid">{homepageServices.map(service => (
         <article id={service.id} key={service.id}><h3>{service.title}</h3><p>{service.copy}</p><Link className="text-link" href={service.href} aria-label={`Explore ${service.title.toLowerCase()}`}>Explore service <span aria-hidden="true">↗</span></Link></article>
       ))}</div>
-      <div className="service-area" id="areas"><p>Based in Luton and working across selected areas of Bedfordshire and nearby Hertfordshire.</p><Link className="text-link" href="/kitchen-installation#service-areas">Areas we cover <span aria-hidden="true">↗</span></Link></div>
+      <div className="service-area" id="areas"><p>Based in Luton and working across selected areas of Bedfordshire and nearby Hertfordshire.</p><Link className="text-link" href="/areas">Areas we cover <span aria-hidden="true">↗</span></Link></div>
     </div></section>
   );
 }
@@ -137,9 +153,9 @@ export function FAQ() {
 export function FinalCTA() {
   return (
     <section className="section final-cta" id="quote"><div className="container">
-      <h2>Have Your Kitchen Plan Ready?</h2>
-      <p>Send your plan, postcode and a few project details. We can start by reviewing the installation remotely.</p>
-      <div className="actions"><Action href="/contact?service=kitchen-installation#enquiry-form">Send my kitchen plan</Action><a className="button button-outline" href="https://wa.me/447933026532?text=Hello%2C%20I%27d%20like%20to%20discuss%20a%20kitchen%20installation%20with%20Form%20%26%20Frame.">WhatsApp instead <span aria-hidden="true">↗</span></a></div>
+      <h2>Tell Us About Your Room</h2>
+      <p>Send your postcode, room photographs, approximate dimensions and ideas. We can review the furniture or kitchen you have in mind.</p>
+      <div className="actions"><Action>Discuss my project</Action><a className="button button-outline" href="https://wa.me/447933026532?text=Hello%2C%20I%27d%20like%20to%20discuss%20bespoke%20joinery%20or%20a%20kitchen%20with%20Form%20%26%20Frame.">WhatsApp instead <span aria-hidden="true">↗</span></a></div>
       <div className="quote-contact" id="quote-contact">
         {!WHATSAPP_NUMBER && <p>Our enquiry contact details are being set up. Plan sending and WhatsApp enquiries will be available here soon.</p>}
       </div>
