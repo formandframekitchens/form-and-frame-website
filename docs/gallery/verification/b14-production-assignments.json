@@ -1,0 +1,93 @@
+{
+  "verifiedAt": "2026-10-05T09:42:38.662Z",
+  "base": "https://formandframekitchens.co.uk",
+  "baseline": "66c1b99c1688869691102d93cda96fd7b2415724",
+  "publicProjects": 54,
+  "uniqueImages": 273,
+  "unchangedProjects": 48,
+  "assignments": {
+    "G51": [
+      "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-overall-01.webp",
+      "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-front-02.webp",
+      "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-shoe-storage-03.webp",
+      "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-open-storage-04.webp",
+      "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-junction-05.webp"
+    ],
+    "G27": [
+      "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-front-view-02.webp",
+      "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-overall-view-01.webp",
+      "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-dressing-detail-03.webp",
+      "/images/gallery/manchester-makeup-island-dressing-table/manchester-makeup-island-overall-view-01.webp",
+      "/images/gallery/manchester-makeup-island-dressing-table/manchester-makeup-island-detail-02.webp",
+      "/images/gallery/manchester-makeup-island-dressing-table/manchester-dressing-table-view-03.webp"
+    ],
+    "G43": [
+      "/images/gallery/8-leys-road-home-office/8-leys-home-office-overall-01.webp",
+      "/images/gallery/8-leys-road-home-office/8-leys-home-office-cabinetry-02.webp",
+      "/images/gallery/8-leys-road-home-office/8-leys-home-office-brass-detail-03.webp",
+      "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-third-room-08.webp",
+      "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-third-room-front-09.webp"
+    ],
+    "G44": [
+      "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-overall-01.webp",
+      "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-detail-02.webp",
+      "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-leather-led-03.webp",
+      "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-leather-led-04.webp",
+      "/images/gallery/8-leys-road-home-office/8-leys-home-office-brass-inlay-04.webp"
+    ],
+    "G45": [
+      "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-front-view-03.webp",
+      "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-overall-view-01.webp",
+      "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-angled-view-02.webp",
+      "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-detail-04.webp",
+      "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-detail-05.webp",
+      "/images/gallery/8-leys-road-home-office/8-leys-home-office-detail-06.webp"
+    ],
+    "G61": [
+      "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-second-room-06.webp",
+      "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-second-room-detail-07.webp"
+    ]
+  },
+  "removedImage": "/images/gallery/8-leys-road-home-office/8-leys-home-office-hardware-05.webp",
+  "retired": {
+    "G28": "G27"
+  },
+  "routes": [
+    {
+      "id": "G51",
+      "status": 200,
+      "imageCount": 5,
+      "deployment": "dpl_EL4zQfhSWxViiASzJMqWhun1ZNRC"
+    },
+    {
+      "id": "G27",
+      "status": 200,
+      "imageCount": 6,
+      "deployment": "dpl_EL4zQfhSWxViiASzJMqWhun1ZNRC"
+    },
+    {
+      "id": "G43",
+      "status": 200,
+      "imageCount": 5,
+      "deployment": "dpl_EL4zQfhSWxViiASzJMqWhun1ZNRC"
+    },
+    {
+      "id": "G44",
+      "status": 200,
+      "imageCount": 5,
+      "deployment": "dpl_EL4zQfhSWxViiASzJMqWhun1ZNRC"
+    },
+    {
+      "id": "G45",
+      "status": 200,
+      "imageCount": 6,
+      "deployment": "dpl_EL4zQfhSWxViiASzJMqWhun1ZNRC"
+    },
+    {
+      "id": "G61",
+      "status": 200,
+      "imageCount": 2,
+      "deployment": "dpl_EL4zQfhSWxViiASzJMqWhun1ZNRC"
+    }
+  ]
+}

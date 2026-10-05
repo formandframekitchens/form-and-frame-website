@@ -1,0 +1,36 @@
+{
+  "deployment": "dpl_9Cf3T2wfSyxDUdmEpRtAjDrq1uXY",
+  "sha": "4a9e6e2b819260f873feb99681a6ad691530d38e",
+  "routes": [
+    {
+      "id": "G51",
+      "status": 200,
+      "verified": true
+    },
+    {
+      "id": "G27",
+      "status": 200,
+      "verified": true
+    },
+    {
+      "id": "G43",
+      "status": 200,
+      "verified": true
+    },
+    {
+      "id": "G44",
+      "status": 200,
+      "verified": true
+    },
+    {
+      "id": "G45",
+      "status": 200,
+      "verified": true
+    },
+    {
+      "id": "G61",
+      "status": 200,
+      "verified": true
+    }
+  ]
+}
