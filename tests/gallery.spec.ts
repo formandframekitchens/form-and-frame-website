@@ -81,6 +81,7 @@ test("search and category navigation also work without JavaScript", async ({ bro
 test("project enquiry prefill carries a validated removable project reference", async ({ page }) => {
   await page.goto("/gallery/fulham-alcove-units");
   await page.getByRole("link", { name: "Send an enquiry" }).click();
+  await expect(page.getByRole("textbox", { name: "Name", exact: true })).toBeInViewport();
   await expect(page.getByRole("combobox", { name: "Service", exact: true })).toHaveValue("bespoke-joinery");
   await expect(page.getByRole("combobox", { name: "Furniture / joinery type", exact: true })).toHaveValue("alcove-units");
   await expect(page.locator(".enquiry-project-reference")).toContainText("G32 · Fulham Alcove Units");
