@@ -7,7 +7,7 @@ This is the permanent internal tracking register for website gallery case studie
 The previous resume pointer at the end of this file is historical. Resume from [B13 completion](b13-completion.md), which records the approved corrections and four prepared lanes.
 
 - B13 shared corrections: LIVE via PR #71 / merge 0d28003; production dpl_8kpjDr4ADvUnvkaZbNnPmG97ih8M READY and public gallery verified. Search, category filters, real-project links, project-aware enquiries, photo-dialog accessibility and private access requests are active.
-- Canonical public set after kitchen reconciliation: 50 records. G53 is merged into G01; its old URL redirects permanently. G01 retains the established route and uses the 12 clean HIGH RES kitchen photographs.
+- Final public set: 54 records, 275 image references and 274 unique photographs, including all four additions. Every route and public image passed live verification. G53 is merged into G01; its old URL redirects permanently. G01 retains the established route and uses the 12 clean HIGH RES kitchen photographs.
 - G12 and G31 now lead with full furniture views. G28 leads with the full island/table image already verified in the same Manchester project (also used in G27). G32 copy describes the pale illuminated alcove units shown in its photographs.
 - G40 remains reserved. PR #68 duplicates h0024.jpg already included in G45 and was closed as superseded on 5 October.
 - G57–G60 below are the four distinct prepared projects. Competing draft branches for Fulham media wall, Garsdale wardrobes, shoe storage and study bookcase duplicate G32, G27, G07 and G12 respectively; do not integrate those proposals.
@@ -18,7 +18,7 @@ The previous resume pointer at the end of this file is historical. Resume from [
 | G57 | g57-full-wall-white-library-bookcase | Four HIGH RES views | LIVE: PR #72, production route verified |
 | G58 | g58-esher-bathroom-vanity-mirror | Three distinct HIGH RES views | LIVE: PR #73, production route verified |
 | G59 | g59-traditional-radiator-covers-shelving | Five HIGH RES views; complete radiator cover first | LIVE: PR #74, production route verified |
-| G60 | g60-esher-make-up-table | One HIGH RES overall view | Integrated; final publication checks |
+| G60 | g60-esher-make-up-table | One HIGH RES overall view | LIVE: PR #75, production route verified |
 
 Next unassigned stable gallery ID is G61. Additional unreviewed archive projects remain source-review work. The protected Alex selection remains private and is not part of the public project count.
 
@@ -75,7 +75,7 @@ When a lane fuse fires:
 
 | No. | Project | Status | Priority / source note |
 |---|---|---|---|
-| G01 | Stourcliff White Handleless Kitchen | LIVE / B13 CORRECTION | Canonical established route; absorbs G53 photographs |
+| G01 | Stourcliff White Handleless Kitchen | LIVE | Canonical established route; absorbs G53 photographs |
 | G02 | Soho Bespoke Bookcase | LIVE | Soho 13 |
 | G03 | Soho Walk-In Wardrobe | LIVE | Soho 13 |
 | G04 | Grey & Black Bespoke Media Wall | LIVE | Canonical media-wall gallery; absorbs the G18 image set |
@@ -134,7 +134,7 @@ When a lane fuse fires:
 | G57 | Full-Wall White Library Bookcase | LIVE | Four HIGH RES views selected; WEB RES image excluded; PR #72; preview and production verified |
 | G58 | Esher Luxury Residence — Bathroom Vanity & Mirror | LIVE | Three distinct HIGH RES views; repeated exposures omitted; PR #73; preview and production verified |
 | G59 | Traditional Radiator Covers & Fitted Shelving | LIVE | Five HIGH RES views; complete radiator cover first; PR #74; preview and production verified |
-| G60 | Esher Luxury Residence — Make-Up Table | IN FINAL VERIFICATION | One HIGH RES full-piece view through doorway; documented source-quality exception |
+| G60 | Esher Luxury Residence — Make-Up Table | LIVE | One HIGH RES full-piece view through doorway; documented source-quality exception; PR #75; preview and production verified |
 
 ## HOLD / not included in active gallery set
 - Modern Alcove Units: unfinished/weak presentation in current set.

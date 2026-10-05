@@ -1,0 +1,1873 @@
+{
+  "checkedAt": "2026-10-05T08:01:49.041Z",
+  "base": "https://formandframekitchens.co.uk",
+  "projects": 54,
+  "imageReferences": 275,
+  "uniqueImages": 274,
+  "cards": 54,
+  "redirect": {
+    "status": 308,
+    "to": "/gallery/handleless-kitchen-installation"
+  },
+  "privateImageStatus": 404,
+  "routes": [
+    {
+      "id": "G04",
+      "slug": "grey-black-bespoke-media-wall",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G01",
+      "slug": "handleless-kitchen-installation",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G02",
+      "slug": "soho-bespoke-bookcase",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G03",
+      "slug": "soho-walk-in-wardrobe",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G07",
+      "slug": "soho-shoe-storage-cabinet",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G06",
+      "slug": "built-in-window-seat-storage",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G08",
+      "slug": "black-oak-media-wall-brass-inlay",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G11",
+      "slug": "westminster-polished-brass-panelled-doors",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G09",
+      "slug": "natural-walnut-bespoke-bookcase",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G13",
+      "slug": "cream-bespoke-tv-unit",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G12",
+      "slug": "bookcase-in-esher",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G14",
+      "slug": "crocodile-front-bespoke-cabinet",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G15",
+      "slug": "sc-bespoke-tv-unit",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G16",
+      "slug": "sc-bespoke-bookcase",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G17",
+      "slug": "grey-bespoke-sideboard",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G19",
+      "slug": "putney-heath-bespoke-cabinets",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G20",
+      "slug": "highgate-fitted-wardrobes",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G21",
+      "slug": "northwood-bespoke-tv-unit",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G22",
+      "slug": "northwood-home-office",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G23",
+      "slug": "putney-flat-bespoke-tv-unit",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G26",
+      "slug": "putney-bespoke-tv-unit",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G25",
+      "slug": "earls-court-floating-shelf-mirror-wall",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G27",
+      "slug": "manchester-walk-in-wardrobe",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G28",
+      "slug": "manchester-makeup-island-dressing-table",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G29",
+      "slug": "virginia-water-wine-room",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G30",
+      "slug": "fulham-wine-cellar",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G31",
+      "slug": "fulham-home-office",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G33",
+      "slug": "fulham-juice-bar-joinery",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G34",
+      "slug": "fulham-antique-mirror-feature",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G32",
+      "slug": "fulham-alcove-units",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G45",
+      "slug": "esher-luxury-residence-alcove-units",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G46",
+      "slug": "london-luxury-salon-joinery",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G47",
+      "slug": "bespoke-media-wall-display-shelving",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G48",
+      "slug": "stourcliff-bespoke-media-wall",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G49",
+      "slug": "stourcliff-mirrored-wardrobes",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G50",
+      "slug": "stourcliff-dressing-table",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G51",
+      "slug": "stourcliff-fitted-wardrobe-shoe-storage",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G52",
+      "slug": "stourcliff-bathroom-vanity-storage",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G55",
+      "slug": "stourcliff-recessed-display-niche",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G54",
+      "slug": "stourcliff-bespoke-radiator-cover",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G35",
+      "slug": "belgravia-kids-room-home-office-furniture",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G36",
+      "slug": "belgravia-bathroom-furniture-antique-mirror",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G37",
+      "slug": "belgravia-walk-in-wardrobe",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G38",
+      "slug": "belgravia-dining-room-tv-furniture",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G39",
+      "slug": "belgravia-master-bedroom-furniture",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G41",
+      "slug": "esher-luxury-residence-walk-in-wardrobe",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G42",
+      "slug": "esher-luxury-residence-kids-room-tv-unit",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G43",
+      "slug": "esher-luxury-residence-home-office",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G44",
+      "slug": "esher-luxury-residence-bookcase-leather-brass",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G56",
+      "slug": "esher-luxury-residence-wine-cellar",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G57",
+      "slug": "full-wall-white-library-bookcase",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G58",
+      "slug": "esher-luxury-residence-bathroom-vanity-mirror",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G59",
+      "slug": "traditional-radiator-covers-fitted-shelving",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    },
+    {
+      "id": "G60",
+      "slug": "esher-luxury-residence-make-up-table",
+      "status": 200,
+      "canonical": true,
+      "sitemap": true,
+      "enquiry": true,
+      "deployment": "dpl_HvsrfrNSFA8sZtanAKpctYvzaakr"
+    }
+  ],
+  "assets": [
+    {
+      "path": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-appliance-view-07.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-counter-detail-08.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-alignment-06.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-10.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-worktop-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-fitted-detail-09.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-11.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-room-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-cabinetry-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-overall-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-white-handleless-kitchen/stourcliff-white-kitchen-detail-12.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-full-height-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-room-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-display-view-05.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-frontal-room-view-04.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-aisle-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/soho-bespoke-bookcase/soho-bespoke-bookcase-door-detail-06.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-drawer-mirror-detail-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-illuminated-storage-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/grey-black-bespoke-media-wall/grey-bespoke-media-wall-front-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/grey-black-bespoke-media-wall/black-bespoke-media-wall-front-view-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/grey-black-bespoke-media-wall/grey-bespoke-media-wall-angled-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-front-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-angled-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/grey-black-bespoke-media-wall/black-bespoke-media-wall-angled-view-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-open-storage-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-finish-detail-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/dubai-bespoke-tv-unit/dubai-bespoke-tv-unit-tall-cabinet-detail-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/painted-built-in-window-seat-storage/painted-built-in-window-seat-storage-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/painted-built-in-window-seat-storage/made-to-measure-window-seat-storage-detail-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/painted-built-in-window-seat-storage/built-in-window-seat-drawer-storage-open-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-overall-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-angled-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-led-shelf-detail-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/black-oak-media-wall-brass-inlay/black-oak-media-wall-front-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/black-oak-media-wall-brass-inlay/black-oak-media-wall-room-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/black-oak-media-wall-brass-inlay/black-oak-media-wall-room-view-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/soho-shoe-storage-cabinet/soho-shoe-storage-cabinet-illuminated-centre-detail-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/black-oak-media-wall-brass-inlay/black-oak-media-wall-angled-detail-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/black-oak-media-wall-brass-inlay/black-oak-media-wall-tv-cabinet-detail-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/black-oak-media-wall-brass-inlay/black-oak-media-wall-brass-inlay-detail-06.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-angled-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-room-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-geometric-mirror-detail-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/natural-walnut-bespoke-bookcase/natural-walnut-bookcase-full-view-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-room-view-02.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-room-view-01.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-close-detail-04.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/images/gallery/westminster-polished-brass-panelled-doors/westminster-brass-panelled-doors-mid-detail-03.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-room-view-01.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-front-view-02.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-shelving-detail-04.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-detail-05.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-front-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-full-height-06.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-room-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/alexander-james-bespoke-bookcase/alexander-james-bookcase-angled-view-03.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-display-detail-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-angled-view-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-side-view-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-room-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-open-storage-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-room-context-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-texture-detail-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-wide-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-screen-view-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-room-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/crocodile-front-bespoke-cabinet/crocodile-front-cabinet-brass-handle-detail-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-side-view-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-room-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-wide-room-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/sc-bespoke-tv-unit/sc-bespoke-tv-unit-detail-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-angled-view-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-detail-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-structure-detail-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/sc-bespoke-bookcase/sc-bespoke-bookcase-opposite-room-view-06.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-front-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-angled-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-interior-detail-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/grey-bespoke-sideboard/grey-bespoke-sideboard-open-storage-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-room-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-open-storage-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-pair-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-tv-storage-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-detail-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-closed-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/putney-heath-bespoke-cabinets/putney-heath-bespoke-cabinets-front-detail-06.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-open-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/highgate-fitted-wardrobes/highgate-fitted-wardrobes-storage-detail-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/northwood-bespoke-tv-unit/northwood-bespoke-tv-unit-room-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/northwood-bespoke-tv-unit/northwood-bespoke-tv-unit-angled-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/northwood-home-office/northwood-home-office-front-view-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/northwood-home-office/northwood-home-office-overall-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/northwood-home-office/northwood-home-office-storage-detail-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-front-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-room-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-display-detail-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/earls-court-floating-shelf-mirror-wall/earls-court-floating-shelf-mirror-wall-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-front-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-open-storage-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-room-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-detail-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-front-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-overall-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/manchester-makeup-island-dressing-table/manchester-makeup-island-overall-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/manchester-makeup-island-dressing-table/manchester-makeup-island-detail-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-dressing-detail-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/manchester-makeup-island-dressing-table/manchester-dressing-table-view-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/virginia-water-wine-room/virginia-water-wine-room-overall-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/virginia-water-wine-room/virginia-water-wine-room-front-detail-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/virginia-water-wine-room/virginia-water-wine-room-rack-detail-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/virginia-water-wine-room/virginia-water-wine-room-bottle-detail-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/virginia-water-wine-room/virginia-water-wine-room-context-view-06.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/virginia-water-wine-room/virginia-water-wine-room-storage-detail-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-front-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-angled-view-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-storage-detail-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-doorway-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-home-office/fulham-home-office-desk-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-rack-detail-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-home-office/fulham-home-office-storage-detail-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-home-office/fulham-home-office-overall-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-home-office/fulham-home-office-detail-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-alcove-units/fulham-alcove-units-pair-overall-00.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-alcove-units/fulham-alcove-units-room-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-alcove-units/fulham-alcove-units-detail-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-front-view-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-overall-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-alcove-units/fulham-alcove-units-front-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-room-context-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-counter-detail-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-island-view-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-side-cabinet-06.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-front-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-service-detail-07.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-overall-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-angled-view-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-detail-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-context-view-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-angled-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-overall-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-front-view-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-detail-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-detail-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-second-room-06.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-second-room-detail-07.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-third-room-08.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-third-room-front-09.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-overall-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-room-view-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-reception-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-cabinetry-view-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-mirror-detail-06.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-context-view-07.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-storage-view-08.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-detail-10.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-station-detail-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/london-luxury-salon-joinery/london-luxury-salon-architectural-view-09.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-front-view-10.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-overall-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-angled-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelving-view-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelf-lighting-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-side-view-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-storage-detail-06.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-lighting-detail-08.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-junction-detail-09.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-tv-surround-11.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelf-edge-07.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-front-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-overall-view-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-display-detail-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-cabinet-detail-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-drawer-detail-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-front-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-overall-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-door-detail-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-junction-detail-06.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-junction-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-overall-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-detail-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-detail-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-front-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-overall-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-front-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-open-storage-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-shoe-storage-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-junction-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-front-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-overall-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-storage-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-junction-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-cabinet-detail-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-bespoke-radiator-cover/stourcliff-radiator-cover-detail-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-recessed-display-niche/stourcliff-recessed-display-niche-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/stourcliff-bespoke-radiator-cover/stourcliff-radiator-cover-overall-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-07.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-06.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-08.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-10.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-09.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-11.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-12.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-13.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-14.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-leather-wardrobe/belgravia-leather-wardrobe-panel-detail-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-leather-wardrobe/belgravia-leather-wardrobe-detail-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-leather-wardrobe/belgravia-leather-wardrobe-brass-handle-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-antique-mirror-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-antique-mirror-detail-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-furniture-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-cabinetry-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-detail-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-overall-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-interior-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-brass-inlay-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-display-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-brass-detail-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-walk-in-wardrobe/belgravia-walk-in-wardrobe-handle-detail-06.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-tv-unit-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-tv-overall-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-furniture-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-furniture-detail-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-cabinetry-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-detail-07.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-leather-detail-06.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-overall-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-view-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-makeup-table-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-bedside-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-tv-unit-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-detail-06.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-detail-07.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-overall-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-interior-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-brass-detail-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-brass-leather-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-cabinetry-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-room-06.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-detail-07.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-detail-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-cabinetry-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-home-office/8-leys-home-office-overall-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-home-office/8-leys-home-office-cabinetry-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-kids-room-tv-unit/8-leys-kids-room-tv-unit-overall-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-home-office/8-leys-home-office-brass-detail-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-home-office/8-leys-home-office-brass-inlay-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-home-office/8-leys-home-office-hardware-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-overall-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-home-office/8-leys-home-office-detail-06.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-detail-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-leather-led-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-wine-cellar/8-leys-wine-cellar-overall-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-bookcase-leather-brass/8-leys-bookcase-leather-led-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/8-leys-road-wine-cellar/8-leys-wine-cellar-interior-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-room-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-room-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-storage-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-overall-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-overall-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-overall-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-detail-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-window-03.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-overall-02.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-overall-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-detail-04.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/traditional-radiator-covers-fitted-shelving/traditional-radiator-covers-shelving-detail-05.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/gallery/esher-luxury-residence-make-up-table/esher-luxury-residence-make-up-table-overall-01.webp",
+      "status": 200,
+      "type": "image/webp"
+    }
+  ]
+}

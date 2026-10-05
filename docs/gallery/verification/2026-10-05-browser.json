@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-05T08:05:31.831Z",
+  "reports": [
+    {
+      "viewport": "desktop",
+      "projects": [
+        "G57",
+        "G58",
+        "G59",
+        "G60"
+      ],
+      "filters": true,
+      "enquiries": true,
+      "photoViewer": true,
+      "privateAccessRequest": true,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "projects": [
+        "G57",
+        "G58",
+        "G59",
+        "G60"
+      ],
+      "filters": true,
+      "enquiries": true,
+      "photoViewer": true,
+      "privateAccessRequest": true,
+      "errors": []
+    }
+  ],
+  "noJavaScriptSearch": true
+}
