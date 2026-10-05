@@ -33,7 +33,14 @@ This keeps the structure simple:
 
 `B06 TEST -> preview in Vercel -> approved -> merge to master SOLID`
 
-## Current sequence — 5 October 2026
+## Current sequence — 5 October 2026 / B16
+
+- B16 — Professional joinery galleries and item separation.
+- Branch: `b16-professional-joinery-galleries`.
+- G62–G77 add the confirmed Esher, Aram-source and Belgravia furniture items.
+- Next new website batch: B17; next unassigned gallery: G78.
+
+### Previous sequence (B15)
 
 - B15 — Owner-directed gallery visibility and bottom ordering.
 - Branch: `b15-gallery-visibility-order`.

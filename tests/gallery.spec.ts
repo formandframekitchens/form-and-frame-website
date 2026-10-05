@@ -22,7 +22,8 @@ test("gallery records preserve unique identities, complete covers and valid asse
 });
 
 test("prepared projects display their verified images and retain enquiry context", async ({ page, request }, testInfo) => {
-  for (const project of galleryProjects.filter(item => ["G57", "G58", "G59", "G60"].includes(item.galleryId))) {
+  test.setTimeout(120_000);
+  for (const project of galleryProjects.filter(item => ["G57", "G58", "G59", "G60"].includes(item.galleryId) || Number(item.galleryId.slice(1)) >= 62)) {
     await page.goto("/gallery/" + project.slug);
     await expect(page.getByRole("heading", { level: 1 })).toHaveText(project.title);
     await expect(page.locator(".project-carousel-counter")).toHaveText(`1 / ${project.images.length}`);
@@ -70,7 +71,7 @@ test("category filters, search, reload and empty results work", async ({ page },
 test("owner's bottom selection stays last, including filtered results", async ({ page }) => {
   await page.goto("/gallery");
   const ids = await page.locator(".gallery-card-project-id").allTextContents();
-  expect(ids).toHaveLength(49);
+  expect(ids).toHaveLength(publicGalleryProjects.length);
   expect(ids.slice(-11)).toEqual(["G12", "G13", "G15", "G17", "G16", "G06", "G11", "G07", "G04", "G02", "G03"]);
   expect(ids.some(id => hiddenGalleryIds.includes(id))).toBe(false);
   await page.getByRole("navigation", { name: "Filter projects by furniture type" }).getByRole("link", { name: /^Bookcases/ }).click();
@@ -81,7 +82,7 @@ test("hidden galleries are retained but unpublished from routes, search and enqu
   test.skip(testInfo.project.name !== "desktop", "Publication checks do not depend on viewport.");
   const hidden = galleryProjects.filter(project => hiddenGalleryIds.includes(project.galleryId));
   expect(hidden).toHaveLength(5);
-  expect(galleryProjects).toHaveLength(54);
+  expect(galleryProjects).toHaveLength(publicGalleryProjects.length + hidden.length);
   const sitemap = await (await request.get("/sitemap.xml")).text();
   for (const project of hidden) {
     const response = await request.get("/gallery/" + project.slug);
