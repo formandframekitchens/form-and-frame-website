@@ -7,8 +7,8 @@ Owner authorised the complete audit fix list and four prepared galleries in one 
 | Lane | Branch | Current checkpoint | Next action |
 | --- | --- | --- | --- |
 | Shared corrections | b13-gallery-completion | LIVE: PR #71, merge 0d28003, production dpl_8kpjDr4ADvUnvkaZbNnPmG97ih8M READY; public gallery verified | Complete |
-| G57 white library | g57-full-wall-white-library-bookcase | Four HIGH RES views integrated; WEB RES view excluded | Build, preview, PR, production |
-| G58 Esher bathroom | g58-esher-bathroom-vanity-mirror | Prepared assets | Verify and integrate after G57 production check |
+| G57 white library | g57-full-wall-white-library-bookcase | LIVE: PR #72, merge ce52fed, production dpl_A4uo7oK7mRoPWmvqdW4EmnWoUTn6 READY; public route verified | Complete |
+| G58 Esher bathroom | g58-esher-bathroom-vanity-mirror | Three distinct views integrated; build and five applicable desktop/mobile checks passed | Preview, PR, production |
 | G59 radiator covers | g59-traditional-radiator-covers-shelving | Prepared assets | Verify and integrate after G58 production check |
 | G60 Esher make-up table | g60-esher-make-up-table | Prepared single image | Verify source-quality exception; integrate after G59 production check |
 

@@ -3649,6 +3649,70 @@ export const galleryProjects: GalleryProject[] = [
     }
   ]
 },
+{
+  "galleryId": "G58",
+  "slug": "esher-luxury-residence-bathroom-vanity-mirror",
+  "title": "Esher Luxury Residence — Bathroom Vanity & Mirror",
+  "location": "Esher, Surrey",
+  "summary": "Pale bathroom vanity cabinetry with decorative door fronts, a bowl basin and a large segmented mirror above.",
+  "seoDescription": "View the Esher bathroom vanity and mirror: pale decorative cabinetry, a bowl basin and a veined counter in a completed fitted-furniture project.",
+  "keywords": [
+    "Esher bathroom vanity",
+    "bespoke bathroom cabinetry",
+    "decorative vanity unit",
+    "bathroom mirror joinery"
+  ],
+  "highlights": [
+    "Decorative pale cabinet fronts",
+    "Bowl basin above a veined counter",
+    "Large segmented wall mirror",
+    "Fitted storage beneath the basin"
+  ],
+  "caseStudy": [
+    {
+      "heading": "Furniture within the bathroom",
+      "body": [
+        "The vanity forms the furniture centrepiece of this bathroom in Esher. Pale doors with crossed oval detailing sit beneath a veined counter and bowl basin. A wide segmented mirror above extends the composition across the wall."
+      ]
+    },
+    {
+      "heading": "Detail and proportion",
+      "body": [
+        "The overall and angled photographs show the relationship between the cabinetry, counter and mirror. The closer view highlights the decorative fronts and the way the basin sits above the storage below.",
+        "For bathroom furniture, the layout needs to allow for plumbing, access for maintenance and finishes appropriate to the room. These requirements form part of planning a similar vanity."
+      ]
+    },
+    {
+      "heading": "Discuss a similar piece",
+      "body": [
+        "Send the available dimensions, room photographs and your preferred basin and storage arrangement. The enquiry can focus on the vanity and mirror joinery, with other bathroom work agreed separately as part of the scope."
+      ]
+    }
+  ],
+  "category": "Bespoke Joinery",
+  "cover": {
+    "src": "/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-overall-01.webp",
+    "alt": "Full view of the Esher vanity, bowl basin and large segmented mirror",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-overall-01.webp",
+      "alt": "Full view of the Esher vanity, bowl basin and large segmented mirror",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-overall-02.webp",
+      "alt": "Angled view of the pale vanity cabinetry beneath the veined counter",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/esher-luxury-residence-bathroom-vanity-mirror/esher-bathroom-vanity-mirror-detail-03.webp",
+      "alt": "Close view of the bowl basin and decorative vanity door fronts",
+      "fit": "contain"
+    }
+  ]
+},
 ];
 
 export function getGalleryProject(slug: string) {
