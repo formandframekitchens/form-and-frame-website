@@ -284,7 +284,7 @@ export const galleryProjects: GalleryProject[] = [
     cover: {
       src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-aisle-view-02.webp",
       alt: "Full aisle view through Soho walk-in wardrobe",
-    
+
     },
     images: [
       { src: "/images/gallery/soho-walk-in-wardrobe/soho-walk-in-wardrobe-aisle-view-02.webp", alt: "Full aisle view through Soho walk-in wardrobe" },
@@ -922,7 +922,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-front-view-02.webp",
       alt: "Front view of cream bespoke TV unit",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/cream-bespoke-tv-unit/cream-bespoke-tv-unit-front-view-02.webp", alt: "Front view of cream bespoke TV unit", fit: "contain" },
@@ -1503,7 +1503,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/northwood-home-office/northwood-home-office-front-view-03.webp",
       alt: "Front view of Northwood home office",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/northwood-home-office/northwood-home-office-front-view-03.webp", alt: "Front view of Northwood home office", fit: "contain" },
@@ -1575,7 +1575,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-front-view-02.webp",
       alt: "Front view of Putney Flat bespoke TV unit",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/putney-flat-bespoke-tv-unit/putney-flat-bespoke-tv-unit-front-view-02.webp", alt: "Front view of Putney Flat bespoke TV unit", fit: "contain" },
@@ -1708,7 +1708,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-front-view-02.webp",
       alt: "Front view of Putney bespoke TV unit",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/putney-bespoke-tv-unit/putney-bespoke-tv-unit-front-view-02.webp", alt: "Front view of Putney bespoke TV unit", fit: "contain" },
@@ -1782,7 +1782,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-front-view-02.webp",
       alt: "Front view of Manchester walk-in wardrobe",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/manchester-walk-in-wardrobe/manchester-walk-in-wardrobe-front-view-02.webp", alt: "Front view of Manchester walk-in wardrobe", fit: "contain" },
@@ -1952,7 +1952,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-front-view-02.webp",
       alt: "Front view of Fulham wine cellar",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/marias-house-wine-cellar/marias-house-wine-cellar-front-view-02.webp", alt: "Front view of Fulham wine cellar", fit: "contain" },
@@ -2178,7 +2178,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-front-view-03.webp",
       alt: "Front view of Fulham juice bar joinery",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/fulham-juice-bar-joinery/fulham-juice-bar-front-view-03.webp", alt: "Front view of Fulham juice bar joinery", fit: "contain" },
@@ -2246,7 +2246,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-front-view-02.webp",
       alt: "Front view of Fulham antique mirror feature",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/fulham-antique-mirror-feature/fulham-antique-mirror-front-view-02.webp", alt: "Front view of Fulham antique mirror feature", fit: "contain" },
@@ -2312,7 +2312,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-front-view-03.webp",
       alt: "Front view of Esher Luxury Residence alcove units",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/8-leys-road-alcove-units/8-leys-road-alcove-units-front-view-03.webp", alt: "Front view of Esher Luxury Residence alcove units", fit: "contain" },
@@ -2452,7 +2452,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-front-view-10.webp",
       alt: "Front view of bespoke media wall with display shelving",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-front-view-10.webp", alt: "Front view of bespoke media wall with display shelving", fit: "contain" },
@@ -2523,7 +2523,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-front-view-02.webp",
       alt: "Front view of Stourcliff bespoke media wall",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/stourcliff-bespoke-media-wall/stourcliff-media-wall-front-view-02.webp", alt: "Front view of Stourcliff bespoke media wall", fit: "contain" },
@@ -2589,7 +2589,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-front-02.webp",
       alt: "Front view of Stourcliff mirrored wardrobes",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/stourcliff-mirrored-wardrobes/stourcliff-mirrored-wardrobes-front-02.webp", alt: "Front view of Stourcliff mirrored wardrobes", fit: "contain" },
@@ -2654,7 +2654,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-front-02.webp",
       alt: "Front view of Stourcliff dressing table",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/stourcliff-dressing-table/stourcliff-dressing-table-front-02.webp", alt: "Front view of Stourcliff dressing table", fit: "contain" },
@@ -2717,7 +2717,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-front-02.webp",
       alt: "Front view of Stourcliff fitted wardrobe and shoe storage",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/stourcliff-fitted-wardrobe-shoe-storage/stourcliff-wardrobe-storage-front-02.webp", alt: "Front view of Stourcliff fitted wardrobe and shoe storage", fit: "contain" },
@@ -2782,7 +2782,7 @@ export const galleryProjects: GalleryProject[] = [
       src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-front-02.webp",
       alt: "Front view of Stourcliff bathroom vanity and storage",
       fit: "contain",
-    
+
     },
     images: [
       { src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-vanity-front-02.webp", alt: "Front view of Stourcliff bathroom vanity and storage", fit: "contain" },
@@ -2792,7 +2792,7 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/stourcliff-bathroom-vanity-storage/stourcliff-bathroom-cabinet-detail-05.webp", alt: "Bathroom cabinet detail", fit: "contain" },
     ],
   },
-  
+
   {
     galleryId: "G54",
     slug: "stourcliff-bespoke-radiator-cover",
@@ -3581,6 +3581,74 @@ export const galleryProjects: GalleryProject[] = [
       { src: "/images/gallery/8-leys-road-wine-cellar/8-leys-wine-cellar-interior-02.webp", alt: "Wine cellar interior with fitted bottle storage", fit: "contain" },
     ],
   },
+{
+  "galleryId": "G57",
+  "slug": "full-wall-white-library-bookcase",
+  "title": "Full-Wall White Library Bookcase",
+  "summary": "A full-wall white bookcase combining generous open shelving with discreet low-level storage in a furnished sitting room.",
+  "seoDescription": "Explore a completed full-wall white library bookcase, with open book shelving, lower cupboards and fitted storage details from Form & Frame.",
+  "keywords": [
+    "white library bookcase",
+    "full-wall bookcase",
+    "bespoke fitted shelving",
+    "living room book storage"
+  ],
+  "highlights": [
+    "Full-wall book and display shelving",
+    "Low-level enclosed storage",
+    "White finish with traditional detailing",
+    "Shelving arranged around the sitting room"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A wall devoted to books",
+      "body": [
+        "This completed library wall brings books and display pieces together in one fitted composition. The white finish and repeated shelf divisions give the collection a clear structure behind the sitting area, while the upper detailing finishes the cabinetry against the room."
+      ]
+    },
+    {
+      "heading": "Open shelves and hidden storage",
+      "body": [
+        "Open shelves keep frequently used books within reach. Lower compartments provide space for items that are better stored out of sight; the closer photographs show how these openings sit beneath the main shelving.",
+        "For a similar bookcase, shelf spacing, the weight of the collection, door clearance and access around existing furniture are useful starting points for the design."
+      ]
+    },
+    {
+      "heading": "Planning a fitted library",
+      "body": [
+        "Share a photograph of your wall, approximate dimensions and the kinds of books or objects you want to store. Form & Frame can discuss the proportions, storage layout and fitting requirements before confirming the project scope."
+      ]
+    }
+  ],
+  "category": "Bespoke Joinery",
+  "cover": {
+    "src": "/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-overall-01.webp",
+    "alt": "Full-wall white bookcase behind the sitting-room sofa",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-overall-01.webp",
+      "alt": "Full-wall white bookcase behind the sitting-room sofa",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-room-02.webp",
+      "alt": "Wider sitting-room view showing the fitted white library wall",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-storage-04.webp",
+      "alt": "Open lower storage compartments beneath the library shelves",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/full-wall-white-library-bookcase/full-wall-white-library-bookcase-room-05.webp",
+      "alt": "Angled view of the bookcase shelves and low-level storage",
+      "fit": "contain"
+    }
+  ]
+},
 ];
 
 export function getGalleryProject(slug: string) {

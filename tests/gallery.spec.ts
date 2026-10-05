@@ -20,6 +20,30 @@ test("gallery records preserve unique identities, complete covers and valid asse
   expect(JSON.stringify(alcoves)).not.toMatch(/dark|brass/i);
 });
 
+test("prepared projects display their verified images and retain enquiry context", async ({ page, request }, testInfo) => {
+  for (const project of galleryProjects.filter(item => ["G57", "G58", "G59", "G60"].includes(item.galleryId))) {
+    await page.goto("/gallery/" + project.slug);
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText(project.title);
+    await expect(page.locator(".project-carousel-counter")).toHaveText(`1 / ${project.images.length}`);
+    await expect.poll(() => page.locator(".project-carousel-image-button img").evaluate(image => (image as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
+    for (const image of project.images) expect((await request.get(image.src)).status(), image.src).toBe(200);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await page.locator(".project-carousel-main").scrollIntoViewIfNeeded();
+    await page.screenshot({ path: testInfo.outputPath(project.galleryId + ".png") });
+    if (project.images.length === 1) {
+      await expect(page.locator(".project-carousel-arrow, .project-carousel-thumbnails")).toHaveCount(0);
+      await page.getByRole("button", { name: /^Open larger image/ }).click();
+      const close = page.getByRole("button", { name: "Close enlarged image" });
+      await page.keyboard.press("Tab");
+      await expect(close).toBeFocused();
+      await page.keyboard.press("Escape");
+    }
+    await page.getByRole("link", { name: "Send an enquiry" }).click();
+    await expect(page.locator('input[name="project"]')).toHaveValue(project.slug);
+    await expect(page.getByRole("combobox", { name: "Furniture / joinery type", exact: true })).toHaveValue(galleryEnquirySelection(project).joinery!);
+  }
+});
+
 test("category filters, search, reload and empty results work", async ({ page }, testInfo) => {
   await page.goto("/gallery");
   await expect(page.locator(".gallery-card")).toHaveCount(galleryProjects.length);
