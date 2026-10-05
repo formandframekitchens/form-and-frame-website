@@ -6,10 +6,10 @@ This is the permanent internal tracking register for website gallery case studie
 
 The previous resume pointer at the end of this file is historical. Resume from [B13 completion](b13-completion.md), which records the approved corrections and four prepared lanes.
 
-- B13 shared corrections: in verification; search, category filters, real-project links, project-aware enquiries, photo-dialog accessibility and private access requests.
+- B13 shared corrections: LIVE via PR #71 / merge 0d28003; production dpl_8kpjDr4ADvUnvkaZbNnPmG97ih8M READY and public gallery verified. Search, category filters, real-project links, project-aware enquiries, photo-dialog accessibility and private access requests are active.
 - Canonical public set after kitchen reconciliation: 50 records. G53 is merged into G01; its old URL redirects permanently. G01 retains the established route and uses the 12 clean HIGH RES kitchen photographs.
 - G12 and G31 now lead with full furniture views. G28 leads with the full island/table image already verified in the same Manchester project (also used in G27). G32 copy describes the pale illuminated alcove units shown in its photographs.
-- G40 remains reserved. Proposed PR #68 duplicates h0024.jpg already included in G45 and is superseded.
+- G40 remains reserved. PR #68 duplicates h0024.jpg already included in G45 and was closed as superseded on 5 October.
 - G57–G60 below are the four distinct prepared projects. Competing draft branches for Fulham media wall, Garsdale wardrobes, shoe storage and study bookcase duplicate G32, G27, G07 and G12 respectively; do not integrate those proposals.
 - All 34 prepared WebP/AVIF assets passed SHA-256 and Git blob SHA checks. G57 excludes its WEB RES copy; G58 selects three distinct views and omits three near-identical repeats. G60 has one verified full-piece source viewed through a doorway; no wider honest source is available.
 
