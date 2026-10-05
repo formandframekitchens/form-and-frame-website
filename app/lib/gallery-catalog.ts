@@ -31,8 +31,8 @@ const projectCategories: Record<string, GalleryCategory[]> = {
   G29: ["unique-furniture"], G30: ["unique-furniture"],
   G31: ["office-furniture", "bookcases"], G32: ["alcove-units", "entertainment-units"],
   G33: ["unique-furniture"], G34: ["unique-furniture", "wardrobes"],
-  G35: ["office-furniture", "wardrobes", "bookcases"], G36: ["unique-furniture"],
-  G37: ["wardrobes"], G38: ["entertainment-units", "unique-furniture"], G39: ["wardrobes", "unique-furniture"],
+  G35: ["bookcases","unique-furniture"], G36: ["unique-furniture"],
+  G37: ["wardrobes"], G38: ["unique-furniture"], G39: ["entertainment-units","unique-furniture"],
   G41: ["wardrobes"], G42: ["entertainment-units", "bookcases"], G43: ["office-furniture", "bookcases"],
   G44: ["bookcases"], G45: ["alcove-units", "bookcases"], G46: ["unique-furniture"],
   G47: ["entertainment-units"], G48: ["entertainment-units"], G49: ["wardrobes"],
@@ -40,6 +40,22 @@ const projectCategories: Record<string, GalleryCategory[]> = {
   G54: ["unique-furniture"], G55: ["unique-furniture"], G56: ["unique-furniture"],
   G57: ["bookcases"], G58: ["unique-furniture"], G59: ["unique-furniture", "bookcases"], G60: ["unique-furniture"],
   G61: ["alcove-units", "bookcases"],
+  G62: ["wardrobes","unique-furniture"],
+  G63: ["wardrobes"],
+  G64: ["unique-furniture"],
+  G65: ["unique-furniture"],
+  G66: ["unique-furniture"],
+  G67: ["entertainment-units"],
+  G68: ["unique-furniture"],
+  G69: ["unique-furniture"],
+  G70: ["wardrobes"],
+  G71: ["office-furniture"],
+  G72: ["entertainment-units"],
+  G73: ["unique-furniture"],
+  G74: ["unique-furniture"],
+  G75: ["unique-furniture"],
+  G76: ["office-furniture"],
+  G77: ["unique-furniture","bookcases"],
 };
 
 const retiredIds: Record<string, string> = { G05: "G19", G10: "G02", G18: "G04", G24: "G13", G28: "G27", G53: "G01" };
@@ -50,6 +66,9 @@ export function categoriesForProject(project: GalleryProject) {
 }
 
 export function projectFamily(project: GalleryProject) {
+  // Group the source property's dining and eaves furniture without publishing
+  // its private folder name as a location or client identity.
+  if (["G47", "G64", "G65", "G66", "G67", "G68", "G69"].includes(project.galleryId)) return "dining-and-eaves-joinery";
   return familyPrefixes.find(prefix => project.title.startsWith(prefix)) ?? project.title;
 }
 

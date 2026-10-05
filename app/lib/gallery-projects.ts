@@ -2364,76 +2364,119 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
-    galleryId: "G47",
-    slug: "bespoke-media-wall-display-shelving",
-    title: "Bespoke Media Wall with Display Shelving",
-    category: "Bespoke Joinery",
-    summary: "A full-height bespoke media wall combining an integrated television, illuminated display shelving and concealed lower storage in one fitted composition.",
-    seoDescription: "Bespoke media wall by Form & Frame with integrated TV, illuminated display shelving, framed joinery details and concealed lower storage.",
-    keywords: [
-      "bespoke media wall",
-      "media wall display shelving",
-      "integrated TV wall",
-      "illuminated display shelving",
-      "bespoke fitted joinery",
-      "living room media wall",
-    ],
-    highlights: [
-      "Integrated television surround",
-      "Illuminated display shelving",
-      "Concealed lower storage",
-      "Full-height fitted composition",
-    ],
-    caseStudy: [
-      {
-        heading: "A media wall designed as fitted furniture",
-        body: [
-          "This project combines the television, display shelving and lower storage into one full-height fitted composition rather than treating each element separately.",
-          "The open shelves frame the central media area while the lower cabinetry provides practical concealed storage and keeps the overall elevation visually controlled.",
-        ],
-      },
-      {
-        heading: "The demanding part: aligning several visual zones",
-        body: [
-          "A media wall like this depends on accurate coordination between the television opening, shelf lines, outer framing and lower cabinet fronts.",
-          "Because the arrangement is highly symmetrical and viewed as one large elevation, small inconsistencies in gaps or levels would be immediately visible.",
-        ],
-      },
-      {
-        heading: "Integrated lighting and display detail",
-        body: [
-          "The shelving incorporates lighting to emphasise displayed objects and add depth to the fitted wall.",
-          "The close-up photographs show the relationship between the shelf edges, surrounding panels and lighting details, all of which need to remain cleanly integrated rather than appearing as separate add-ons.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed installation combines media, display and storage functions while maintaining a furniture-led appearance.",
-          "For similar bespoke media walls and fitted living-room joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-front-view-10.webp",
-      alt: "Front view of bespoke media wall with display shelving",
-      fit: "contain",
-
+  "galleryId": "G47",
+  "slug": "bespoke-media-wall-display-shelving",
+  "title": "Bespoke Media Wall with Display Shelving",
+  "category": "Bespoke Joinery",
+  "summary": "A full-height bespoke media wall combining an integrated television, illuminated display shelving and concealed lower storage in one fitted composition.",
+  "seoDescription": "Bespoke media wall by Form & Frame with integrated TV, illuminated display shelving, framed joinery details and concealed lower storage.",
+  "keywords": [
+    "bespoke media wall",
+    "media wall display shelving",
+    "integrated TV wall",
+    "illuminated display shelving",
+    "bespoke fitted joinery",
+    "living room media wall"
+  ],
+  "highlights": [
+    "Integrated television surround",
+    "Illuminated display shelving",
+    "Concealed lower storage",
+    "Full-height fitted composition"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A media wall designed as fitted furniture",
+      "body": [
+        "This project combines the television, display shelving and lower storage into one full-height fitted composition rather than treating each element separately.",
+        "The open shelves frame the central media area while the lower cabinetry provides practical concealed storage and keeps the overall elevation visually controlled."
+      ]
     },
-    images: [
-      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-front-view-10.webp", alt: "Front view of bespoke media wall with display shelving", fit: "contain" },
-      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-overall-view-01.webp", alt: "Overall view of bespoke media wall", fit: "contain" },
-      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-angled-view-02.webp", alt: "Angled room view of fitted media wall", fit: "contain" },
-      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelving-view-03.webp", alt: "Display shelving beside integrated television", fit: "contain" },
-      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelf-lighting-04.webp", alt: "Illuminated display shelving detail", fit: "contain" },
-      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-side-view-05.webp", alt: "Side view of full-height media wall", fit: "contain" },
-      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-storage-detail-06.webp", alt: "Open lower storage detail beneath media wall", fit: "contain" },
-      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelf-edge-07.webp", alt: "Display shelf edge detail", fit: "contain" },
-      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-lighting-detail-08.webp", alt: "Integrated shelf lighting detail", fit: "contain" },
-      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-junction-detail-09.webp", alt: "Frame and panel junction detail", fit: "contain" },
-      { src: "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-tv-surround-11.webp", alt: "Integrated television surround detail", fit: "contain" },
-    ],
+    {
+      "heading": "The demanding part: aligning several visual zones",
+      "body": [
+        "A media wall like this depends on accurate coordination between the television opening, shelf lines, outer framing and lower cabinet fronts.",
+        "Because the arrangement is highly symmetrical and viewed as one large elevation, small inconsistencies in gaps or levels would be immediately visible."
+      ]
+    },
+    {
+      "heading": "Integrated lighting and display detail",
+      "body": [
+        "The shelving incorporates lighting to emphasise displayed objects and add depth to the fitted wall.",
+        "The close-up photographs show the relationship between the shelf edges, surrounding panels and lighting details, all of which need to remain cleanly integrated rather than appearing as separate add-ons."
+      ]
+    },
+    {
+      "heading": "The finished result",
+      "body": [
+        "The completed installation combines media, display and storage functions while maintaining a furniture-led appearance.",
+        "For similar bespoke media walls and fitted living-room joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-front-view-10.webp",
+    "alt": "Front view of bespoke media wall with display shelving",
+    "fit": "contain"
   },
+  "images": [
+    {
+      "src": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-front-view-10.webp",
+      "alt": "Front view of bespoke media wall with display shelving",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-overall-view-01.webp",
+      "alt": "Overall view of bespoke media wall",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-angled-view-02.webp",
+      "alt": "Angled room view of fitted media wall",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelving-view-03.webp",
+      "alt": "Display shelving beside integrated television",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelf-lighting-04.webp",
+      "alt": "Illuminated display shelving detail",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-side-view-05.webp",
+      "alt": "Side view of full-height media wall",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-storage-detail-06.webp",
+      "alt": "Open lower storage detail beneath media wall",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-shelf-edge-07.webp",
+      "alt": "Display shelf edge detail",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-lighting-detail-08.webp",
+      "alt": "Integrated shelf lighting detail",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-junction-detail-09.webp",
+      "alt": "Frame and panel junction detail",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/bespoke-media-wall-display-shelving/bespoke-media-wall-tv-surround-11.webp",
+      "alt": "Integrated television surround detail",
+      "fit": "contain"
+    }
+  ]
+},
   {
     galleryId: "G48",
     slug: "stourcliff-bespoke-media-wall",
@@ -2891,149 +2934,113 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
-    galleryId: "G35",
-    slug: "belgravia-kids-room-home-office-furniture",
-    title: "Belgravia Kids Room & Home Office Furniture",
-    category: "Bespoke Joinery",
-    location: "Belgravia, London",
-    summary: "A coordinated fitted-furniture scheme across a kids room and home-office setting, combining desks, storage cabinetry, display elements and refined furniture details.",
-    seoDescription: "Belgravia bespoke kids-room and home-office furniture by Form & Frame, with fitted desks, storage cabinetry, display joinery and detailed furniture finishes.",
-    keywords: [
-      "Belgravia bespoke joinery",
-      "kids room fitted furniture",
-      "bespoke home office",
-      "fitted study furniture",
-      "home office cabinetry",
-      "bespoke desk London",
-    ],
-    highlights: [
-      "Fitted kids-room cabinetry",
-      "Integrated home-office furniture",
-      "Desk and storage coordination",
-      "Leather desk detail",
-      "Leather wardrobe detailing",
-    ],
-    caseStudy: [
-      {
-        heading: "A coordinated fitted-furniture scheme",
-        body: [
-          "This Belgravia project brings together fitted furniture across a kids-room and home-office setting, using built-in cabinetry and desk elements to organise the rooms without relying on freestanding storage.",
-          "The gallery shows wider room views alongside closer details of the fitted units, allowing the overall composition and individual joinery junctions to be seen together.",
-        ],
-      },
-      {
-        heading: "The demanding part: aligning desks, storage and surrounding panels",
-        body: [
-          "Where desks, cabinets and tall storage meet within one fitted composition, the visible lines need to remain consistent across several different functions.",
-          "Accurate setting out helps the furniture meet surrounding walls cleanly while keeping desk surfaces, cabinet fronts and adjacent panels visually controlled.",
-        ],
-      },
-      {
-        heading: "Furniture details within the wider scheme",
-        body: [
-          "The photography includes a leather-clad desk detail as well as fitted kids-room and home-office cabinetry.",
-          "These closer views show how material details and smaller junctions contribute to the finished appearance without overwhelming the practical storage and working areas.",
-          "The same project also includes leather-clad wardrobe detailing with brass hardware, now kept within this single Belgravia project gallery rather than as a separate case study.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed rooms combine practical study and storage functions with a consistent fitted-furniture approach.",
-          "For similar kids-room furniture, studies and home-office joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-01.webp",
-      alt: "Belgravia fitted kids-room and home-office furniture",
-      fit: "contain",
+  "galleryId": "G35",
+  "slug": "belgravia-kids-room-home-office-furniture",
+  "title": "Belgravia Bed Wall & Bookcases",
+  "category": "Bespoke Joinery",
+  "summary": "A fitted bedroom wall combining overhead cupboards, tall bookcases and bedside drawers around the bed.",
+  "seoDescription": "Explore a Belgravia fitted bed wall with overhead cupboards, full-height bookcases and bedside drawers. Completed bedroom joinery photos from Form & Frame.",
+  "keywords": [
+    "Belgravia bed wall",
+    "fitted bedroom bookcases",
+    "overhead bedroom cupboards",
+    "bespoke bedside storage"
+  ],
+  "highlights": [
+    "Bookcases flanking the bed",
+    "Overhead cupboards",
+    "Bedside drawers",
+    "Coordinated fitted wall"
+  ],
+  "caseStudy": [
+    {
+      "heading": "Storage around the bed",
+      "body": [
+        "The fitted wall brings tall bookcases, overhead cupboards and bedside storage together around the headboard. The overall view shows the arrangement as one piece of bedroom furniture."
+      ]
     },
-    images: [
-      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-01.webp", alt: "Belgravia kids-room fitted furniture view", fit: "contain" },
-      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-02.webp", alt: "Kids-room cabinetry view", fit: "contain" },
-      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-03.webp", alt: "Bespoke kids-room furniture detail", fit: "contain" },
-      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-04.webp", alt: "Belgravia home-office fitted furniture", fit: "contain" },
-      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-05.webp", alt: "Leather desk detail", fit: "contain" },
-      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-06.webp", alt: "Kids-room furniture view", fit: "contain" },
-      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-07.webp", alt: "Kids-room fitted joinery view", fit: "contain" },
-      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-08.webp", alt: "Kids-room joinery detail", fit: "contain" },
-      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-09.webp", alt: "Fitted furniture detail", fit: "contain" },
-      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-10.webp", alt: "Cabinetry detail in Belgravia kids room", fit: "contain" },
-      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-11.webp", alt: "Bespoke kids-room furniture view", fit: "contain" },
-      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-12.webp", alt: "Home-office and kids-room furniture view", fit: "contain" },
-      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-13.webp", alt: "Home-office fitted furniture detail", fit: "contain" },
-      { src: "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-home-office-14.webp", alt: "Belgravia home-office furniture view", fit: "contain" },
-      { src: "/images/gallery/belgravia-leather-wardrobe/belgravia-leather-wardrobe-detail-01.webp", alt: "Belgravia bespoke leather wardrobe detail", fit: "contain" },
-      { src: "/images/gallery/belgravia-leather-wardrobe/belgravia-leather-wardrobe-brass-handle-02.webp", alt: "Brass wardrobe handle detail", fit: "contain" },
-      { src: "/images/gallery/belgravia-leather-wardrobe/belgravia-leather-wardrobe-panel-detail-03.webp", alt: "Leather wardrobe panel detail", fit: "contain" },
-    ],
+    {
+      "heading": "Accessible books and drawers",
+      "body": [
+        "Open shelving keeps books within reach while the lower drawers provide enclosed bedside storage. The drawer photograph shows the available compartments. The wardrobe and window desk in the same room now have separate galleries."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-room-home-office-furniture-bed-wall-bookcases-overall-01.webp",
+    "alt": "Full fitted bed wall with tall bookcases, overhead cupboards and bedside storage",
+    "fit": "contain"
   },
+  "images": [
+    {
+      "src": "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-room-home-office-furniture-bed-wall-bookcases-overall-01.webp",
+      "alt": "Full fitted bed wall with tall bookcases, overhead cupboards and bedside storage",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-room-home-office-furniture-bookcase-bed-wall-angle-02.webp",
+      "alt": "Angled view of the bedroom bookcases and cupboards around the bed",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-kids-room-home-office-furniture/belgravia-kids-room-home-office-furniture-bedside-drawers-open-03.webp",
+      "alt": "Open bedside drawers beneath the fitted bedroom bookcase",
+      "fit": "contain"
+    }
+  ],
+  "location": "Belgravia, London"
+},
   {
-    galleryId: "G36",
-    slug: "belgravia-bathroom-furniture-antique-mirror",
-    title: "Belgravia Bathroom Furniture & Antique Mirror",
-    category: "Bespoke Joinery",
-    location: "Belgravia, London",
-    summary: "A fitted bathroom scheme combining bespoke cabinetry with an antique-mirror feature and carefully resolved storage details.",
-    seoDescription: "Belgravia bespoke bathroom furniture by Form & Frame, combining fitted cabinetry, antique mirror detailing and integrated storage in a refined London interior.",
-    keywords: [
-      "Belgravia bathroom furniture",
-      "bespoke bathroom cabinetry",
-      "antique mirror bathroom",
-      "fitted bathroom storage",
-      "luxury bathroom joinery",
-      "bespoke joinery London",
-    ],
-    highlights: [
-      "Antique-mirror feature",
-      "Fitted bathroom cabinetry",
-      "Integrated storage",
-      "Detailed panel junctions",
-    ],
-    caseStudy: [
-      {
-        heading: "Bathroom furniture and mirror work designed together",
-        body: [
-          "This Belgravia bathroom combines fitted furniture with an antique-mirror feature so the storage and decorative surfaces read as one coordinated joinery scheme.",
-          "The gallery shows the mirror treatment alongside the surrounding cabinetry and smaller furniture details.",
-        ],
-      },
-      {
-        heading: "The demanding part: precise fitting in a finished bathroom",
-        body: [
-          "Bathroom joinery has to meet fixed walls, surfaces and fittings with very little tolerance for inconsistent gaps.",
-          "Accurate setting out keeps the cabinet fronts, mirror edges and adjoining panels aligned while protecting the clean appearance of the finished room.",
-        ],
-      },
-      {
-        heading: "Antique mirror as an integrated feature",
-        body: [
-          "The antique mirror adds depth and reflection without reading as a separate decorative object.",
-          "By coordinating it directly with the surrounding fitted furniture, the feature becomes part of the architecture of the bathroom.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed scheme combines practical bathroom storage with a more decorative mirror-led focal point.",
-          "For similar bathroom cabinetry and specialist mirror joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-antique-mirror-01.webp",
-      alt: "Belgravia bathroom furniture with antique mirror",
-      fit: "contain",
+  "galleryId": "G36",
+  "slug": "belgravia-bathroom-furniture-antique-mirror",
+  "title": "Belgravia Decorative-Bowl Cloakroom Vanity",
+  "category": "Bespoke Joinery",
+  "summary": "A dark floating cloakroom vanity with a decorative basin and patterned reflective surroundings.",
+  "seoDescription": "View a Belgravia cloakroom vanity with dark floating cabinetry, a decorative bowl basin and patterned reflective surfaces. Form & Frame project gallery.",
+  "keywords": [
+    "Belgravia cloakroom vanity",
+    "decorative bowl basin cabinet",
+    "floating bathroom vanity",
+    "bespoke cloakroom furniture"
+  ],
+  "highlights": [
+    "Dark floating cabinet",
+    "Decorative countertop basin",
+    "Patterned reflective surroundings"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A compact cloakroom focal point",
+      "body": [
+        "The dark cabinet supports a decorative bowl basin within a narrow cloakroom. The floating installation leaves the floor visible below, while the patterned surrounding surfaces frame the basin."
+      ]
     },
-    images: [
-      { src: "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-antique-mirror-01.webp", alt: "Belgravia bathroom with antique mirror feature", fit: "contain" },
-      { src: "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-antique-mirror-detail-02.webp", alt: "Antique mirror bathroom detail", fit: "contain" },
-      { src: "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-furniture-03.webp", alt: "Fitted bathroom furniture view", fit: "contain" },
-      { src: "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-cabinetry-04.webp", alt: "Belgravia bathroom cabinetry view", fit: "contain" },
-      { src: "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-detail-05.webp", alt: "Bathroom furniture detail", fit: "contain" },
-    ],
+    {
+      "heading": "Overall and doorway views",
+      "body": [
+        "The front photograph shows the complete vanity. The doorway view establishes its position within the cloakroom. The round-basin shelf and rectangular-basin cabinet elsewhere in the property have their own galleries."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-furniture-antique-mirror-decorative-bowl-vanity-front-01.webp",
+    "alt": "Dark floating cloakroom vanity beneath a decorative bowl basin and patterned wall",
+    "fit": "contain"
   },
+  "images": [
+    {
+      "src": "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-furniture-antique-mirror-decorative-bowl-vanity-front-01.webp",
+      "alt": "Dark floating cloakroom vanity beneath a decorative bowl basin and patterned wall",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-bathroom-furniture-antique-mirror/belgravia-bathroom-furniture-antique-mirror-cloakroom-vanity-doorway-02.webp",
+      "alt": "Doorway view of the dark cloakroom vanity and decorative basin",
+      "fit": "contain"
+    }
+  ],
+  "location": "Belgravia, London"
+},
   {
     galleryId: "G37",
     slug: "belgravia-walk-in-wardrobe",
@@ -3101,207 +3108,207 @@ export const galleryProjects: GalleryProject[] = [
     ],
   },
   {
-    galleryId: "G38",
-    slug: "belgravia-dining-room-tv-furniture",
-    title: "Belgravia Dining Room & TV Furniture",
-    category: "Bespoke Joinery",
-    location: "Belgravia, London",
-    summary: "A coordinated dining-room furniture scheme combining a bespoke TV unit, fitted cabinetry and refined leather and joinery details.",
-    seoDescription: "Belgravia dining-room and TV furniture by Form & Frame, featuring bespoke cabinetry, a fitted TV unit and refined furniture detailing in a London interior.",
-    keywords: [
-      "Belgravia dining room furniture",
-      "bespoke TV unit London",
-      "fitted dining room cabinetry",
-      "bespoke living room furniture",
-      "leather furniture detail",
-      "bespoke joinery Belgravia",
-    ],
-    highlights: [
-      "Bespoke TV furniture",
-      "Fitted dining-room cabinetry",
-      "Coordinated furniture composition",
-      "Leather and joinery detailing",
-    ],
-    caseStudy: [
-      {
-        heading: "Dining-room and TV furniture as one scheme",
-        body: [
-          "This Belgravia project coordinates the TV furniture and dining-room cabinetry so the separate pieces read as one fitted interior scheme.",
-          "The wider photographs show the furniture in the room, while the closer views reveal the cabinet fronts, panel junctions and material details.",
-        ],
-      },
-      {
-        heading: "The demanding part: maintaining consistency across separate furniture pieces",
-        body: [
-          "Where several fitted pieces share the same room, proportions, panel lines and detailing need to remain consistent even when the furniture performs different functions.",
-          "Accurate setting out and final adjustment help the TV unit and dining cabinetry feel related rather than assembled as unrelated elements.",
-        ],
-      },
-      {
-        heading: "Cabinetry and material detail",
-        body: [
-          "The gallery includes closer views of fitted cabinetry and leather detailing within the scheme.",
-          "These smaller details add depth to the furniture while keeping the broader room composition visually controlled.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed room combines media, storage and dining furniture within a coordinated bespoke joinery language.",
-          "For similar dining-room and TV furniture projects, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-tv-overall-01.webp",
-      alt: "Belgravia dining room with bespoke TV and fitted furniture",
-      fit: "contain",
+  "galleryId": "G38",
+  "slug": "belgravia-dining-room-tv-furniture",
+  "title": "Belgravia Dining Display Cabinetry",
+  "category": "Bespoke Joinery",
+  "summary": "Glossy dark dining cabinetry with illuminated display shelves, enclosed storage and textured inset panels.",
+  "seoDescription": "Explore Belgravia dining display cabinetry with illuminated shelves, glossy dark fronts and textured inset panels. Form & Frame completed-project photos.",
+  "keywords": [
+    "Belgravia dining cabinetry",
+    "illuminated display cabinet",
+    "bespoke dining storage",
+    "textured cabinet panels"
+  ],
+  "highlights": [
+    "Illuminated display shelves",
+    "Tall glossy cabinetry",
+    "Enclosed lower storage",
+    "Textured inset surfaces"
+  ],
+  "caseStudy": [
+    {
+      "heading": "Display furniture for the dining area",
+      "body": [
+        "Tall display cabinetry provides a backdrop to the dining table. The open illuminated shelves contrast with the glossy surrounding fronts and enclosed storage."
+      ]
     },
-    images: [
-      { src: "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-tv-overall-01.webp", alt: "Overall Belgravia dining-room and TV furniture view", fit: "contain" },
-      { src: "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-tv-unit-02.webp", alt: "Bespoke TV furniture view", fit: "contain" },
-      { src: "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-furniture-03.webp", alt: "Dining-room bespoke furniture view", fit: "contain" },
-      { src: "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-furniture-detail-04.webp", alt: "Dining-room fitted furniture detail", fit: "contain" },
-      { src: "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-cabinetry-05.webp", alt: "Dining-room cabinetry detail", fit: "contain" },
-      { src: "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-leather-detail-06.webp", alt: "Leather and joinery detail", fit: "contain" },
-      { src: "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-detail-07.webp", alt: "Belgravia dining furniture detail", fit: "contain" },
-    ],
+    {
+      "heading": "Storage and surface details",
+      "body": [
+        "The open-door view reveals storage behind the tall fronts, while closer photographs show textured inset surfaces and lit shelves. The living-room TV wall is recorded separately so each installation can be explored on its own."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-room-tv-furniture-dining-display-front-01.webp",
+    "alt": "Front view of illuminated dining display shelves above the table",
+    "fit": "contain"
   },
+  "images": [
+    {
+      "src": "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-room-tv-furniture-dining-display-front-01.webp",
+      "alt": "Front view of illuminated dining display shelves above the table",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-room-tv-furniture-dining-cabinetry-room-view-02.webp",
+      "alt": "Full dining-room view with tall fitted display cabinetry",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-room-tv-furniture-dining-storage-closed-03.webp",
+      "alt": "Closed glossy dining storage beside the table",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-room-tv-furniture-dining-storage-open-04.webp",
+      "alt": "Open tall dining cupboard revealing shelves and stored items",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-room-tv-furniture-textured-display-panel-05.webp",
+      "alt": "Textured inset panel within the dining cabinetry",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-dining-room-tv-furniture/belgravia-dining-room-tv-furniture-illuminated-shelves-detail-06.webp",
+      "alt": "Illuminated dining display shelves beside the window shutters",
+      "fit": "contain"
+    }
+  ],
+  "location": "Belgravia, London"
+},
   {
-    galleryId: "G39",
-    slug: "belgravia-master-bedroom-furniture",
-    title: "Belgravia Master Bedroom Furniture",
-    category: "Bespoke Joinery",
-    location: "Belgravia, London",
-    summary: "A coordinated master-bedroom furniture scheme combining fitted storage, a make-up table, bedside furniture and TV cabinetry within one bespoke interior.",
-    seoDescription: "Belgravia master-bedroom furniture by Form & Frame, featuring a bespoke make-up table, bedside furniture, TV cabinetry and coordinated fitted joinery.",
-    keywords: [
-      "Belgravia master bedroom furniture",
-      "bespoke bedroom furniture London",
-      "bespoke make-up table",
-      "bedside furniture",
-      "bedroom TV unit",
-      "fitted bedroom joinery",
-    ],
-    highlights: [
-      "Coordinated bedroom furniture",
-      "Bespoke make-up table",
-      "Bedside furniture",
-      "Fitted TV cabinetry",
-    ],
-    caseStudy: [
-      {
-        heading: "A coordinated master-bedroom furniture scheme",
-        body: [
-          "This Belgravia master bedroom brings several pieces of fitted and bespoke furniture together within one interior, including the make-up table, bedside furniture and TV cabinetry.",
-          "The individual pieces perform different functions but share a consistent furniture language across the room.",
-        ],
-      },
-      {
-        heading: "The demanding part: consistency across several furniture types",
-        body: [
-          "When multiple pieces sit within the same bedroom, proportions, panel lines and detailing need to remain consistent so the room feels intentionally coordinated.",
-          "Accurate setting out and final adjustment are especially important where furniture meets walls, adjacent surfaces and other fixed elements.",
-        ],
-      },
-      {
-        heading: "Make-up table, bedside and TV furniture",
-        body: [
-          "The photography shows the relationship between the main bedroom furniture pieces as well as closer joinery details.",
-          "The combination provides practical storage and dedicated furniture functions without introducing unrelated freestanding styles.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed bedroom has a consistent bespoke-furniture character across the principal fitted elements.",
-          "For similar bedroom furniture schemes, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-overall-01.webp",
-      alt: "Belgravia bespoke master-bedroom furniture",
-      fit: "contain",
+  "galleryId": "G39",
+  "slug": "belgravia-master-bedroom-furniture",
+  "title": "Belgravia Bedroom TV Wall & Dressing Table",
+  "category": "Bespoke Joinery",
+  "summary": "A glossy fitted bedroom wall combining a television opening, dressing table, drawers and overhead cupboards.",
+  "seoDescription": "See Belgravia bedroom joinery combining a fitted TV wall, dressing table, drawers and overhead cupboards. Detailed Form & Frame project photography.",
+  "keywords": [
+    "Belgravia bedroom TV wall",
+    "fitted dressing table",
+    "bedroom media cabinet",
+    "bespoke bedroom joinery"
+  ],
+  "highlights": [
+    "Integrated television opening",
+    "Dressing table beside the TV",
+    "Overhead cupboards",
+    "Coordinated drawers and stool space"
+  ],
+  "caseStudy": [
+    {
+      "heading": "Television and dressing space together",
+      "body": [
+        "The fitted wall combines a large television opening with a dressing table to one side. Glossy panels and overhead cupboards continue across the installation, connecting its separate functions."
+      ]
     },
-    images: [
-      { src: "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-overall-01.webp", alt: "Overall Belgravia master-bedroom furniture view", fit: "contain" },
-      { src: "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-view-02.webp", alt: "Master-bedroom bespoke furniture view", fit: "contain" },
-      { src: "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-makeup-table-03.webp", alt: "Belgravia bespoke make-up table", fit: "contain" },
-      { src: "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-bedside-04.webp", alt: "Bespoke bedside furniture", fit: "contain" },
-      { src: "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-tv-unit-05.webp", alt: "Master-bedroom TV cabinetry", fit: "contain" },
-      { src: "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-detail-06.webp", alt: "Bedroom furniture detail", fit: "contain" },
-      { src: "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-detail-07.webp", alt: "Belgravia master-bedroom joinery detail", fit: "contain" },
-    ],
+    {
+      "heading": "Wider views and furniture details",
+      "body": [
+        "The room photographs show the wall opposite the bed. Closer views record the dressing surface, drawer and stool space. The headboard and bedside cabinets are now presented in a separate gallery."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-furniture-bedroom-tv-dressing-wall-01.webp",
+    "alt": "Overall bedroom TV wall with glossy cupboards and an illuminated dressing table",
+    "fit": "contain"
   },
+  "images": [
+    {
+      "src": "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-furniture-bedroom-tv-dressing-wall-01.webp",
+      "alt": "Overall bedroom TV wall with glossy cupboards and an illuminated dressing table",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-furniture-tv-wall-room-angle-02.webp",
+      "alt": "Angled room view of the TV wall and dressing table",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-furniture-dressing-table-open-drawer-03.webp",
+      "alt": "Fitted dressing table with an open drawer beside the television",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-furniture-bedroom-wall-context-04.webp",
+      "alt": "Bedroom view towards the fitted TV wall and dressing area",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-master-bedroom-furniture/belgravia-master-bedroom-furniture-dressing-stool-space-05.webp",
+      "alt": "Stool tucked beneath the fitted dressing table",
+      "fit": "contain"
+    }
+  ],
+  "location": "Belgravia, London"
+},
 
   {
-    galleryId: "G41",
-    slug: "esher-luxury-residence-walk-in-wardrobe",
-    title: "Esher Luxury Residence — Walk-In Wardrobe",
-    category: "Bespoke Joinery",
-    location: "Esher, Surrey",
-    summary: "A fitted walk-in wardrobe with dark cabinetry, mirrored doors, open storage and refined brass, leather and handle detailing.",
-    seoDescription: "Esher Luxury Residence bespoke walk-in wardrobe by Form & Frame, featuring dark fitted cabinetry, mirrored doors, open storage and brass and leather detailing.",
-    keywords: [
-      "Esher Luxury Residence walk-in wardrobe",
-      "bespoke walk-in wardrobe",
-      "dark fitted wardrobe",
-      "mirrored wardrobe doors",
-      "brass wardrobe handles",
-      "luxury fitted storage",
-    ],
-    highlights: [
-      "Full-height fitted wardrobe",
-      "Mirrored door fronts",
-      "Open illuminated storage",
-      "Brass and leather detailing",
-    ],
-    caseStudy: [
-      {
-        heading: "A fitted walk-in wardrobe with varied storage",
-        body: [
-          "This walk-in wardrobe at the Esher residence combines full-height enclosed storage with open shelving and display sections within one fitted room.",
-          "Mirrored fronts and darker cabinetry create contrast while the open sections keep selected storage accessible and visible.",
-        ],
-      },
-      {
-        heading: "The demanding part: coordinating several finishes",
-        body: [
-          "The furniture brings together dark cabinet surfaces, mirrored fronts, brass hardware and leather-related detailing, so alignment and edge treatment need to remain controlled across different materials.",
-          "Careful setting out is especially important where tall doors, shelving and decorative hardware meet within the same elevation.",
-        ],
-      },
-      {
-        heading: "Brass, leather and handle details",
-        body: [
-          "The close-up photography shows the brass handles and detailed panel treatment alongside the wider wardrobe views.",
-          "These smaller elements give the fitted storage a more furniture-led character without interrupting the overall composition.",
-        ],
-      },
-      {
-        heading: "The finished result",
-        body: [
-          "The completed walk-in wardrobe combines concealed storage, open display areas and reflective fronts within a coherent fitted scheme.",
-          "For similar wardrobes and dressing-room joinery, Form & Frame can coordinate survey, technical development, specialist manufacture where appropriate, installation and final adjustment.",
-        ],
-      },
-    ],
-    cover: {
-      src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-overall-01.webp",
-      alt: "Esher Luxury Residence bespoke walk-in wardrobe",
-      fit: "contain",
+  "galleryId": "G41",
+  "slug": "esher-luxury-residence-walk-in-wardrobe",
+  "title": "Esher Luxury Residence — Walk-In Wardrobe",
+  "category": "Bespoke Joinery",
+  "summary": "A dark fitted walk-in wardrobe with open hanging space, shelves, drawers and metallic handle details.",
+  "seoDescription": "Explore an Esher walk-in wardrobe with dark fitted cabinetry, open hanging space, shelves and drawers. Detailed Form & Frame dressing-room photographs.",
+  "keywords": [
+    "Esher walk in wardrobe",
+    "dark fitted dressing room",
+    "bespoke wardrobe shelving",
+    "wardrobe drawers"
+  ],
+  "highlights": [
+    "Dark fitted wardrobe cabinetry",
+    "Open hanging space",
+    "Shelves and drawers",
+    "Metallic handle details"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A dark fitted dressing room",
+      "body": [
+        "The wardrobe arranges open hanging space, shelving and drawers around the dressing area. Dark cabinetry gives the fitted storage a consistent appearance across the room."
+      ]
     },
-    images: [
-      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-overall-01.webp", alt: "Overall view of Esher Luxury Residence walk-in wardrobe", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-interior-02.webp", alt: "Walk-in wardrobe interior storage", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-brass-leather-03.webp", alt: "Brass and leather wardrobe detail", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-brass-detail-04.webp", alt: "Brass wardrobe detail", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-cabinetry-05.webp", alt: "Walk-in wardrobe cabinetry view", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-room-06.webp", alt: "Walk-in wardrobe room view", fit: "contain" },
-      { src: "/images/gallery/8-leys-road-walk-in-wardrobe/8-leys-walk-in-wardrobe-detail-07.webp", alt: "Walk-in wardrobe fitted detail", fit: "contain" },
-    ],
+    {
+      "heading": "Storage and finishing details",
+      "body": [
+        "The photographs show the overall wardrobe arrangement and its smaller fittings. The pale entrance wardrobe and decorative mirrored wardrobes at the same residence are different installations and now have their own galleries."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/esher-luxury-residence-walk-in-wardrobe/esher-luxury-residence-walk-in-wardrobe-dark-walk-in-wardrobe-overall-01.webp",
+    "alt": "Overall view of the dark fitted walk-in wardrobe at the Esher residence",
+    "fit": "contain"
   },
+  "images": [
+    {
+      "src": "/images/gallery/esher-luxury-residence-walk-in-wardrobe/esher-luxury-residence-walk-in-wardrobe-dark-walk-in-wardrobe-overall-01.webp",
+      "alt": "Overall view of the dark fitted walk-in wardrobe at the Esher residence",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/esher-luxury-residence-walk-in-wardrobe/esher-luxury-residence-walk-in-wardrobe-dark-wardrobe-interior-02.webp",
+      "alt": "Dark walk-in wardrobe showing open hanging and shelf storage",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/esher-luxury-residence-walk-in-wardrobe/esher-luxury-residence-walk-in-wardrobe-wardrobe-handle-panel-detail-03.webp",
+      "alt": "Close detail of the wardrobe handle and surrounding dark panel",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/esher-luxury-residence-walk-in-wardrobe/esher-luxury-residence-walk-in-wardrobe-wardrobe-hardware-detail-04.webp",
+      "alt": "Metallic fitting detail on the dark wardrobe cabinetry",
+      "fit": "contain"
+    }
+  ],
+  "location": "Esher, Surrey"
+},
   {
     galleryId: "G42",
     slug: "esher-luxury-residence-kids-room-tv-unit",
@@ -3905,6 +3912,916 @@ export const galleryProjects: GalleryProject[] = [
       "fit": "contain"
     }
   ]
+},
+{
+  "galleryId": "G62",
+  "slug": "esher-entrance-wardrobe-bench",
+  "title": "Esher Luxury Residence — Entrance Wardrobe & Bench",
+  "category": "Bespoke Joinery",
+  "summary": "Pale fitted hallway storage combining full-height wardrobes, coat hooks, a seat and open shoe shelving.",
+  "seoDescription": "Explore bespoke entrance storage in Esher: fitted wardrobes, coat hooks, shoe shelving and a bench, with closed and open views from Form & Frame.",
+  "keywords": [
+    "entrance wardrobe",
+    "hallway storage bench",
+    "fitted coat cupboard",
+    "shoe storage Esher"
+  ],
+  "highlights": [
+    "Full-height closed cupboards",
+    "Coat hooks above a fitted seat",
+    "Open shoe shelving",
+    "Hanging rails and internal shelves"
+  ],
+  "caseStudy": [
+    {
+      "heading": "Storage at the entrance",
+      "body": [
+        "This Esher entrance combines tall cupboards with a recessed seat and open shelves. Pale fronts keep the storage visually quiet, while the hooks and bench provide an accessible place for coats and shoes."
+      ]
+    },
+    {
+      "heading": "Inside the wardrobes",
+      "body": [
+        "The open view shows hanging rails, upper shelves and lower shoe storage. The closed view and doorway photograph show how these practical compartments fit into the surrounding interior."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/esher-entrance-wardrobe-bench/esher-entrance-wardrobe-bench-closed-wardrobe-bench-01.webp",
+    "alt": "Closed pale hallway wardrobe beside a fitted bench, coat hooks and open shoe shelves",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/esher-entrance-wardrobe-bench/esher-entrance-wardrobe-bench-closed-wardrobe-bench-01.webp",
+      "alt": "Closed pale hallway wardrobe beside a fitted bench, coat hooks and open shoe shelves",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/esher-entrance-wardrobe-bench/esher-entrance-wardrobe-bench-open-hanging-shoe-storage-02.webp",
+      "alt": "Open entrance wardrobe showing hanging rails, upper shelves and rows of shoe storage",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/esher-entrance-wardrobe-bench/esher-entrance-wardrobe-bench-hallway-doorway-view-03.webp",
+      "alt": "Doorway view towards the fitted hallway bench and open shelving",
+      "fit": "contain"
+    }
+  ],
+  "location": "Esher, Surrey"
+},
+{
+  "galleryId": "G63",
+  "slug": "esher-decorative-mirrored-wardrobes",
+  "title": "Esher Luxury Residence — Decorative Mirrored Wardrobes",
+  "category": "Bespoke Joinery",
+  "summary": "Full-height mirrored wardrobes with circular door patterns, hanging storage and adjoining open shoe shelves.",
+  "seoDescription": "See decorative mirrored wardrobes at an Esher residence, with circular door patterns, fitted hanging storage and shoe shelving. A Form & Frame project gallery.",
+  "keywords": [
+    "decorative mirrored wardrobes",
+    "circular wardrobe door design",
+    "fitted dressing room",
+    "shoe shelving Esher"
+  ],
+  "highlights": [
+    "Circular patterns across mirrored doors",
+    "Full-height fitted storage",
+    "Open hanging compartments",
+    "Separate open shoe shelving"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A decorative wardrobe elevation",
+      "body": [
+        "Pale circular patterns run across the mirrored doors, adding a repeated rhythm to the fitted wardrobe wall. The reflective panels sit alongside darker walls and a window, giving the storage a clear place within the dressing area."
+      ]
+    },
+    {
+      "heading": "Hanging and shoe storage",
+      "body": [
+        "An open-door photograph shows the hanging compartment and upper shelf. Wider views also show open shoe shelving along the adjoining passage, keeping frequently used footwear visible and accessible."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/esher-decorative-mirrored-wardrobes/esher-decorative-mirrored-wardrobes-mirrored-doors-closed-01.webp",
+    "alt": "Closed mirrored wardrobe doors with pale circular patterns beside a window",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/esher-decorative-mirrored-wardrobes/esher-decorative-mirrored-wardrobes-mirrored-doors-closed-01.webp",
+      "alt": "Closed mirrored wardrobe doors with pale circular patterns beside a window",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/esher-decorative-mirrored-wardrobes/esher-decorative-mirrored-wardrobes-wardrobe-doors-open-02.webp",
+      "alt": "Open mirrored wardrobe revealing hanging clothes, an upper shelf and lower storage",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/esher-decorative-mirrored-wardrobes/esher-decorative-mirrored-wardrobes-dressing-room-shelving-03.webp",
+      "alt": "Dressing-room view showing mirrored wardrobes and open shoe shelves",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/esher-decorative-mirrored-wardrobes/esher-decorative-mirrored-wardrobes-open-shoe-shelves-04.webp",
+      "alt": "Open fitted shoe shelving along the dressing-room passage",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/esher-decorative-mirrored-wardrobes/esher-decorative-mirrored-wardrobes-dressing-room-passage-05.webp",
+      "alt": "View along the passage towards mirrored wardrobe doors and shoe storage",
+      "fit": "contain"
+    }
+  ],
+  "location": "Esher, Surrey"
+},
+{
+  "galleryId": "G64",
+  "slug": "dining-display-drinks-cabinet",
+  "title": "Dining Display & Drinks Cabinet",
+  "category": "Bespoke Joinery",
+  "summary": "Dark fitted dining cabinetry with illuminated shelves, mirrored backing, lower cupboards and glazed drinks storage.",
+  "seoDescription": "Explore bespoke dining cabinetry by Form & Frame: illuminated display shelves, mirrored backing, drinks storage and detailed dark cabinet fronts.",
+  "keywords": [
+    "bespoke dining display cabinet",
+    "drinks cabinet",
+    "illuminated shelving",
+    "mirrored display cabinet",
+    "bespoke joinery"
+  ],
+  "highlights": [
+    "Illuminated display shelves",
+    "Mirrored backing",
+    "Lower storage cupboards",
+    "Glazed drinks storage"
+  ],
+  "caseStudy": [
+    {
+      "heading": "Display above, storage below",
+      "body": [
+        "This fitted cabinet spans the dining wall behind the table. Open shelves hold glassware and decorative objects above enclosed cupboards and glazed drinks storage, combining display and everyday use in a single piece."
+      ]
+    },
+    {
+      "heading": "Shelf and cabinet details",
+      "body": [
+        "Mirrored backing gives depth to the open shelving. The close-up views show warm metallic trim, cabinet handles and the junctions between the dark shelf edges and the surrounding frame."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/dining-display-drinks-cabinet/dining-display-drinks-cabinet-dining-cabinet-overall-01.webp",
+    "alt": "Full dining-wall view of dark display cabinetry behind the table",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/dining-display-drinks-cabinet/dining-display-drinks-cabinet-dining-cabinet-overall-01.webp",
+      "alt": "Full dining-wall view of dark display cabinetry behind the table",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/dining-display-drinks-cabinet/dining-display-drinks-cabinet-display-drinks-storage-02.webp",
+      "alt": "Angled view of illuminated shelves, lower cupboards and glazed drinks storage",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/dining-display-drinks-cabinet/dining-display-drinks-cabinet-lower-cupboard-open-03.webp",
+      "alt": "Open lower cupboard beneath mirrored display shelves",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/dining-display-drinks-cabinet/dining-display-drinks-cabinet-illuminated-shelf-detail-04.webp",
+      "alt": "Display shelf with a fine metallic edge and integrated lighting",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/dining-display-drinks-cabinet/dining-display-drinks-cabinet-cabinet-handle-detail-05.webp",
+      "alt": "Textured metallic handles on dark dining cabinet doors",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/dining-display-drinks-cabinet/dining-display-drinks-cabinet-shelf-trim-junction-06.webp",
+      "alt": "Fine metallic trim crossing the cabinet above glazed drinks storage",
+      "fit": "contain"
+    }
+  ]
+},
+{
+  "galleryId": "G65",
+  "slug": "lift-up-mirror-dressing-table",
+  "title": "Lift-Up Mirror Dressing Table",
+  "category": "Bespoke Joinery",
+  "summary": "A fitted dressing table beneath a rooflight, with a lift-up mirror, divided storage and drawer banks on either side.",
+  "seoDescription": "See a bespoke bespoke dressing table with a lift-up mirror, divided cosmetics storage and fitted drawers beneath a rooflight, in this Form & Frame gallery.",
+  "keywords": [
+    "lift up mirror dressing table",
+    "bespoke dressing table",
+    "divided makeup storage",
+    "fitted bedroom drawers",
+    "bespoke joinery"
+  ],
+  "highlights": [
+    "Lift-up mirror compartment",
+    "Divided cosmetics storage",
+    "Drawer banks beside the seat",
+    "Fitted beneath a rooflight"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A dressing table beneath the rooflight",
+      "body": [
+        "The fitted surface spans the end of the room beneath a sloping ceiling. Drawer banks flank the seating space, while the central lift-up mirror brings the dressing area together without needing a separate wall mirror."
+      ]
+    },
+    {
+      "heading": "Organised storage within the furniture",
+      "body": [
+        "The open views show small divided compartments for cosmetics and accessories. Close-ups document the drawer interiors, textured fronts and small rounded handles, making the storage arrangement easy to understand."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/lift-up-mirror-dressing-table/lift-up-mirror-dressing-table-dressing-table-overall-01.webp",
+    "alt": "Full dressing table with drawer banks and a raised mirror beneath a rooflight",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/lift-up-mirror-dressing-table/lift-up-mirror-dressing-table-dressing-table-overall-01.webp",
+      "alt": "Full dressing table with drawer banks and a raised mirror beneath a rooflight",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/lift-up-mirror-dressing-table/lift-up-mirror-dressing-table-dressing-table-side-view-02.webp",
+      "alt": "Side view of the fitted dressing table and chair under the sloping ceiling",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/lift-up-mirror-dressing-table/lift-up-mirror-dressing-table-lift-up-mirror-compartments-03.webp",
+      "alt": "Raised dressing-table mirror above divided cosmetics compartments",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/lift-up-mirror-dressing-table/lift-up-mirror-dressing-table-organised-storage-tray-04.webp",
+      "alt": "Divided dressing-table tray containing cosmetics and brushes",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/lift-up-mirror-dressing-table/lift-up-mirror-dressing-table-open-drawer-detail-05.webp",
+      "alt": "Open dressing-table drawer beneath a textured drawer front",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/lift-up-mirror-dressing-table/lift-up-mirror-dressing-table-drawer-front-handles-06.webp",
+      "alt": "Textured drawer fronts with small rounded metallic handles",
+      "fit": "contain"
+    }
+  ]
+},
+{
+  "galleryId": "G66",
+  "slug": "fitted-eaves-cupboard",
+  "title": "Fitted Eaves Cupboard",
+  "category": "Bespoke Joinery",
+  "summary": "A pale two-door cupboard fitted into a low opening beneath the sloping roof.",
+  "seoDescription": "View a fitted two-door eaves cupboard from the bespoke project. Pale fronts provide discreet storage beneath a sloping roof in this Form & Frame gallery.",
+  "keywords": [
+    "fitted eaves cupboard",
+    "sloping ceiling storage",
+    "bespoke low cupboard",
+    "bespoke fitted furniture"
+  ],
+  "highlights": [
+    "Two pale cupboard doors",
+    "Recessed fit beneath the roof slope",
+    "Compact vertical handles"
+  ],
+  "caseStudy": [
+    {
+      "heading": "Making use of the eaves",
+      "body": [
+        "This cupboard fits into the low wall beneath a sloping ceiling. Its simple two-door front keeps the storage compact and leaves the surrounding floor area open."
+      ]
+    },
+    {
+      "heading": "A discreet fitted front",
+      "body": [
+        "The pale finish sits quietly against the light walls, with small vertical handles providing access. The overall photograph shows the relationship between the cupboard, skirting and roof slope."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/fitted-eaves-cupboard/fitted-eaves-cupboard-two-door-eaves-cupboard-01.webp",
+    "alt": "Pale two-door fitted cupboard in the low wall beneath a sloping ceiling",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/fitted-eaves-cupboard/fitted-eaves-cupboard-two-door-eaves-cupboard-01.webp",
+      "alt": "Pale two-door fitted cupboard in the low wall beneath a sloping ceiling",
+      "fit": "contain"
+    }
+  ]
+},
+{
+  "galleryId": "G67",
+  "slug": "bedroom-tv-cabinet",
+  "title": "Bedroom TV Cabinet",
+  "category": "Bespoke Joinery",
+  "summary": "A bedroom television cabinet fitted beneath the roof slope, with pale lower cupboards, open compartments and a reflective surround.",
+  "seoDescription": "Explore a bespoke bedroom TV cabinet beneath a sloping roof, combining pale cupboards, open storage and a reflective surround. Form & Frame project photos.",
+  "keywords": [
+    "bedroom TV cabinet",
+    "fitted TV unit under eaves",
+    "bespoke media furniture",
+    "bespoke bedroom furniture"
+  ],
+  "highlights": [
+    "TV opening beneath the roof slope",
+    "Open compartments below the screen",
+    "Pale lower cupboards",
+    "Reflective surrounding panels"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A TV unit within the roof slope",
+      "body": [
+        "The television and cabinet occupy the low end of the bedroom, framed by the sloping ceiling. Lower cupboards and open compartments keep the furniture below the screen while preserving a clear view from the bed."
+      ]
+    },
+    {
+      "heading": "Proportions and room context",
+      "body": [
+        "The two photographs show the complete cabinet from slightly different positions. The reflective surround gives depth to the recess and connects the pale cabinet fronts with the rest of the bedroom."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/bedroom-tv-cabinet/bedroom-tv-cabinet-bedroom-tv-cabinet-overall-01.webp",
+    "alt": "Bedroom TV cabinet beneath a sloping ceiling with open shelves and pale lower cupboards",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/bedroom-tv-cabinet/bedroom-tv-cabinet-bedroom-tv-cabinet-overall-01.webp",
+      "alt": "Bedroom TV cabinet beneath a sloping ceiling with open shelves and pale lower cupboards",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/bedroom-tv-cabinet/bedroom-tv-cabinet-bedroom-tv-cabinet-room-view-02.webp",
+      "alt": "Room view of the fitted bedroom television cabinet and reflective surround",
+      "fit": "contain"
+    }
+  ]
+},
+{
+  "galleryId": "G68",
+  "slug": "ventilated-eaves-cabinet",
+  "title": "Ventilated Eaves Cabinet",
+  "category": "Bespoke Joinery",
+  "summary": "A low framed cabinet beneath a rooflight, with two doors, a projecting top and a visible ventilation grille.",
+  "seoDescription": "View the bespoke ventilated eaves cabinet: a low two-door fitted piece beneath a rooflight, with a projecting top and discreet pale finish. Form & Frame.",
+  "keywords": [
+    "ventilated cabinet",
+    "low eaves cabinet",
+    "fitted furniture beneath rooflight",
+    "bespoke bespoke joinery"
+  ],
+  "highlights": [
+    "Two framed doors",
+    "Ventilation grille in the top",
+    "Projecting top edge",
+    "Low profile beneath a rooflight"
+  ],
+  "caseStudy": [
+    {
+      "heading": "Low furniture beneath the rooflight",
+      "body": [
+        "This pale cabinet sits against the low wall below a rooflight. Framed doors and a projecting top distinguish it from the separate recessed eaves cupboard elsewhere in the project."
+      ]
+    },
+    {
+      "heading": "The visible details",
+      "body": [
+        "The overall view shows the grille along the top, paired handles and the junction with the surrounding skirting. These details give the compact piece a finished furniture appearance within the sloping room."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/ventilated-eaves-cabinet/ventilated-eaves-cabinet-ventilated-cabinet-rooflight-01.webp",
+    "alt": "Low pale cabinet beneath a rooflight with framed doors and a ventilation grille in the top",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/ventilated-eaves-cabinet/ventilated-eaves-cabinet-ventilated-cabinet-rooflight-01.webp",
+      "alt": "Low pale cabinet beneath a rooflight with framed doors and a ventilation grille in the top",
+      "fit": "contain"
+    }
+  ]
+},
+{
+  "galleryId": "G69",
+  "slug": "sloping-ceiling-bathroom-storage",
+  "title": "Sloping-Ceiling Bathroom Storage",
+  "category": "Bespoke Joinery",
+  "summary": "Dark fitted bathroom cupboards following the roof slope, with internal shelves and contrasting metallic handles.",
+  "seoDescription": "Discover dark fitted bathroom storage from the bespoke project, shaped beneath a sloping ceiling with internal shelving and contrasting handles. Form & Frame.",
+  "keywords": [
+    "bespoke bathroom storage",
+    "sloping ceiling cupboards",
+    "dark fitted bathroom cabinets",
+    "bespoke joinery"
+  ],
+  "highlights": [
+    "Cupboard front follows the roof slope",
+    "Dark textured cabinet faces",
+    "Internal open shelving",
+    "Contrasting metallic handles"
+  ],
+  "caseStudy": [
+    {
+      "heading": "Storage shaped around the room",
+      "body": [
+        "The cupboard elevation fills the low end of the bathroom, stepping down with the sloping ceiling at the left. Its dark finish contrasts with the pale walls and sits alongside the bath and vanity."
+      ]
+    },
+    {
+      "heading": "Closed fronts and accessible shelves",
+      "body": [
+        "The closed and open views show how the doors conceal a series of shelves. A wider room photograph establishes the cabinet’s position, while the handle detail shows the texture and contrast of the finished fronts."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/sloping-ceiling-bathroom-storage/sloping-ceiling-bathroom-storage-bathroom-cupboards-closed-01.webp",
+    "alt": "Dark bathroom cupboards with closed doors shaped beneath a sloping ceiling",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/sloping-ceiling-bathroom-storage/sloping-ceiling-bathroom-storage-bathroom-cupboards-closed-01.webp",
+      "alt": "Dark bathroom cupboards with closed doors shaped beneath a sloping ceiling",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/sloping-ceiling-bathroom-storage/sloping-ceiling-bathroom-storage-bathroom-cupboards-open-02.webp",
+      "alt": "Open bathroom cupboard doors revealing internal shelving",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/sloping-ceiling-bathroom-storage/sloping-ceiling-bathroom-storage-bathroom-storage-room-view-03.webp",
+      "alt": "Wide bathroom view of the fitted cupboards beside the bath and vanity",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/sloping-ceiling-bathroom-storage/sloping-ceiling-bathroom-storage-bathroom-cabinet-handles-04.webp",
+      "alt": "Metallic handles against the dark textured bathroom cabinet fronts",
+      "fit": "contain"
+    }
+  ]
+},
+{
+  "galleryId": "G70",
+  "slug": "belgravia-bedroom-fitted-wardrobe",
+  "title": "Belgravia Bedroom Fitted Wardrobe",
+  "category": "Bespoke Joinery",
+  "summary": "Glossy fitted bedroom wardrobes with a contrasting horizontal band, illuminated hanging space and pull-out storage.",
+  "seoDescription": "Explore a Belgravia fitted wardrobe with glossy doors, a contrasting horizontal band, illuminated hanging space and pull-out storage. Form & Frame photos.",
+  "keywords": [
+    "Belgravia fitted wardrobe",
+    "bespoke bedroom wardrobes London",
+    "illuminated wardrobe storage",
+    "pull out wardrobe drawers"
+  ],
+  "highlights": [
+    "Full-height glossy doors",
+    "Contrasting horizontal door band",
+    "Illuminated hanging space",
+    "Pull-out lower storage"
+  ],
+  "caseStudy": [
+    {
+      "heading": "Wardrobes within the bedroom",
+      "body": [
+        "These full-height wardrobes form a broad storage wall beside the bedroom doorway. A pale horizontal band breaks up the glossy darker fronts and relates the doors to the surrounding fitted furniture."
+      ]
+    },
+    {
+      "heading": "Storage behind the doors",
+      "body": [
+        "The open views show hanging space and stacked pull-out storage. Interior lighting makes the compartments visible, while the closer photograph records the junction between the decorative band and the door face."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/belgravia-bedroom-fitted-wardrobe/belgravia-bedroom-fitted-wardrobe-wardrobe-doors-closed-01.webp",
+    "alt": "Closed glossy bedroom wardrobe doors with a contrasting pale horizontal band",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/belgravia-bedroom-fitted-wardrobe/belgravia-bedroom-fitted-wardrobe-wardrobe-doors-closed-01.webp",
+      "alt": "Closed glossy bedroom wardrobe doors with a contrasting pale horizontal band",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-bedroom-fitted-wardrobe/belgravia-bedroom-fitted-wardrobe-wardrobe-open-room-view-02.webp",
+      "alt": "Open fitted wardrobe beside the bedroom doorway",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-bedroom-fitted-wardrobe/belgravia-bedroom-fitted-wardrobe-wardrobe-pull-out-storage-03.webp",
+      "alt": "Illuminated wardrobe interior with hanging clothes and pull-out storage",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-bedroom-fitted-wardrobe/belgravia-bedroom-fitted-wardrobe-wardrobe-band-detail-04.webp",
+      "alt": "Detail of the pale horizontal band across a glossy wardrobe door",
+      "fit": "contain"
+    }
+  ],
+  "location": "Belgravia, London"
+},
+{
+  "galleryId": "G71",
+  "slug": "belgravia-bedroom-study-desk",
+  "title": "Belgravia Bedroom Study Desk",
+  "category": "Bespoke Joinery",
+  "summary": "A compact fitted desk beneath the bedroom window, beside full-height bookshelves, with a wide shallow drawer.",
+  "seoDescription": "See a fitted bedroom study desk in Belgravia, set beneath the window beside a bookcase, with a wide drawer and detailed joinery. Form & Frame gallery.",
+  "keywords": [
+    "bedroom study desk",
+    "Belgravia fitted desk",
+    "bespoke study furniture London",
+    "desk beside bookcase"
+  ],
+  "highlights": [
+    "Desk beneath the window",
+    "Adjacent full-height bookcase",
+    "Wide shallow drawer",
+    "Compact seating space"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A study area within the bedroom",
+      "body": [
+        "The desk occupies the space beneath the window, with the bedroom bookcase immediately alongside. Its shallow profile creates a usable work surface while leaving room for a chair and circulation beside the bed."
+      ]
+    },
+    {
+      "heading": "Drawer and edge details",
+      "body": [
+        "The photographs show the desk in use as well as its drawer front and edge profile. These closer views focus on the furniture itself and its relationship to the seating space."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/belgravia-bedroom-study-desk/belgravia-bedroom-study-desk-window-desk-bookcase-01.webp",
+    "alt": "Fitted bedroom desk beneath a window beside a tall bookcase, with its drawer open",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/belgravia-bedroom-study-desk/belgravia-bedroom-study-desk-window-desk-bookcase-01.webp",
+      "alt": "Fitted bedroom desk beneath a window beside a tall bookcase, with its drawer open",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-bedroom-study-desk/belgravia-bedroom-study-desk-desk-drawer-front-02.webp",
+      "alt": "Close view of the fitted desk drawer front and chair",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-bedroom-study-desk/belgravia-bedroom-study-desk-desk-edge-detail-03.webp",
+      "alt": "Close-up of the dark desk edge and reflective drawer detail",
+      "fit": "contain"
+    }
+  ],
+  "location": "Belgravia, London"
+},
+{
+  "galleryId": "G72",
+  "slug": "belgravia-living-room-tv-wall",
+  "title": "Belgravia Living-Room TV Wall",
+  "category": "Bespoke Joinery",
+  "summary": "A glossy dark television wall forming a fitted focal point in a light living room.",
+  "seoDescription": "View a Belgravia living-room TV wall with glossy dark fitted panels and an integrated television opening. Completed project photography from Form & Frame.",
+  "keywords": [
+    "Belgravia TV wall",
+    "glossy media wall",
+    "bespoke living room TV furniture",
+    "fitted television wall London"
+  ],
+  "highlights": [
+    "Integrated television opening",
+    "Glossy dark panels",
+    "Full-height fitted composition"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A fitted focal point for the living room",
+      "body": [
+        "The television sits within a full-height dark panelled wall opposite the seating area. Its reflective finish contrasts with the light walls, floor and upholstery."
+      ]
+    },
+    {
+      "heading": "The complete room view",
+      "body": [
+        "The photograph shows the TV wall in its living-room setting, including the panel lines above and below the screen. The dining display cabinetry from the same property has its own separate gallery."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/belgravia-living-room-tv-wall/belgravia-living-room-tv-wall-tv-wall-living-room-01.webp",
+    "alt": "Glossy dark fitted TV wall beside the window in a light Belgravia living room",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/belgravia-living-room-tv-wall/belgravia-living-room-tv-wall-tv-wall-living-room-01.webp",
+      "alt": "Glossy dark fitted TV wall beside the window in a light Belgravia living room",
+      "fit": "contain"
+    }
+  ],
+  "location": "Belgravia, London"
+},
+{
+  "galleryId": "G73",
+  "slug": "belgravia-headboard-bedside-cabinets",
+  "title": "Belgravia Headboard & Bedside Cabinets",
+  "category": "Bespoke Joinery",
+  "summary": "A tall padded headboard with reflective side panels and coordinating dark bedside drawers.",
+  "seoDescription": "Explore Belgravia bedroom furniture with a tall padded headboard, reflective side panels and fitted bedside drawers. Detailed project photos from Form & Frame.",
+  "keywords": [
+    "Belgravia headboard",
+    "bespoke bedside cabinets",
+    "fitted bedroom furniture London",
+    "padded headboard wall"
+  ],
+  "highlights": [
+    "Tall padded headboard",
+    "Reflective side panels",
+    "Coordinating bedside cabinets",
+    "Open drawer details"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A coordinated bed wall",
+      "body": [
+        "The padded headboard extends high above the bed, with reflective panels and bedside furniture on either side. Dark drawers connect the practical storage to the broader bedroom scheme."
+      ]
+    },
+    {
+      "heading": "Bedside storage in detail",
+      "body": [
+        "The close-up views show the bedside drawers open, making the storage arrangement visible. The integrated TV wall and dressing table opposite this furniture remain in their own project gallery."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/belgravia-headboard-bedside-cabinets/belgravia-headboard-bedside-cabinets-headboard-bedside-overall-01.webp",
+    "alt": "Tall padded headboard with reflective side panels and dark bedside cabinets",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/belgravia-headboard-bedside-cabinets/belgravia-headboard-bedside-cabinets-headboard-bedside-overall-01.webp",
+      "alt": "Tall padded headboard with reflective side panels and dark bedside cabinets",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-headboard-bedside-cabinets/belgravia-headboard-bedside-cabinets-bedside-upper-drawer-02.webp",
+      "alt": "Bedside cabinet with its upper drawer open beside the padded headboard",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-headboard-bedside-cabinets/belgravia-headboard-bedside-cabinets-bedside-drawers-open-03.webp",
+      "alt": "Dark bedside cabinet with both drawers open",
+      "fit": "contain"
+    }
+  ],
+  "location": "Belgravia, London"
+},
+{
+  "galleryId": "G74",
+  "slug": "belgravia-round-basin-vanity-shelf",
+  "title": "Belgravia Round-Basin Vanity Shelf",
+  "category": "Bespoke Joinery",
+  "summary": "A dark floating vanity shelf supporting a round basin in a compact bathroom.",
+  "seoDescription": "See a compact Belgravia bathroom with a dark floating vanity shelf, round countertop basin and wall-mounted tap. Form & Frame fitted furniture gallery.",
+  "keywords": [
+    "floating vanity shelf",
+    "round basin vanity",
+    "Belgravia bathroom furniture",
+    "bespoke vanity top"
+  ],
+  "highlights": [
+    "Dark floating vanity surface",
+    "Round countertop basin",
+    "Compact bathroom setting"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A compact bathroom surface",
+      "body": [
+        "The dark vanity shelf projects from the wall beneath a round white basin. Its simple front edge contrasts with the pale wall finish and leaves the floor area below visually open."
+      ]
+    },
+    {
+      "heading": "The furniture in context",
+      "body": [
+        "The photograph shows the shelf, basin and wall-mounted tap together. It records a separate bathroom from the decorative-bowl cloakroom and rectangular-basin vanity elsewhere in the Belgravia project."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/belgravia-round-basin-vanity-shelf/belgravia-round-basin-vanity-shelf-round-basin-floating-vanity-01.webp",
+    "alt": "Round white basin on a dark floating vanity shelf in a compact bathroom",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/belgravia-round-basin-vanity-shelf/belgravia-round-basin-vanity-shelf-round-basin-floating-vanity-01.webp",
+      "alt": "Round white basin on a dark floating vanity shelf in a compact bathroom",
+      "fit": "contain"
+    }
+  ],
+  "location": "Belgravia, London"
+},
+{
+  "galleryId": "G75",
+  "slug": "belgravia-rectangular-basin-vanity",
+  "title": "Belgravia Rectangular-Basin Vanity",
+  "category": "Bespoke Joinery",
+  "summary": "A wall-mounted dark vanity with rectangular handles, a raised rectangular basin and lighting below the mirror.",
+  "seoDescription": "View a Belgravia wall-mounted vanity with dark fronts, rectangular handles, a countertop basin and mirror lighting. Form & Frame bathroom furniture photos.",
+  "keywords": [
+    "Belgravia bathroom vanity",
+    "wall mounted vanity cabinet",
+    "rectangular basin vanity",
+    "dark bathroom furniture London"
+  ],
+  "highlights": [
+    "Wall-mounted cabinet",
+    "Dark patterned fronts",
+    "Rectangular metallic handles",
+    "Raised rectangular basin"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A wall-mounted bathroom cabinet",
+      "body": [
+        "The vanity combines a dark front with three rectangular handles and a raised white basin. Space beneath the cabinet keeps the patterned floor visible and gives the fitted furniture a light appearance."
+      ]
+    },
+    {
+      "heading": "Front and side views",
+      "body": [
+        "The wider photograph establishes the full cabinet beneath the mirror. The closer side view shows the basin profile, cabinet surface and handles, with lighting illuminating the area above the vanity."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/belgravia-rectangular-basin-vanity/belgravia-rectangular-basin-vanity-rectangular-basin-vanity-overall-01.webp",
+    "alt": "Wall-mounted dark vanity with rectangular handles beneath a white rectangular basin",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/belgravia-rectangular-basin-vanity/belgravia-rectangular-basin-vanity-rectangular-basin-vanity-overall-01.webp",
+      "alt": "Wall-mounted dark vanity with rectangular handles beneath a white rectangular basin",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-rectangular-basin-vanity/belgravia-rectangular-basin-vanity-vanity-basin-handle-detail-02.webp",
+      "alt": "Side detail of the raised basin, dark vanity front and rectangular metallic handles",
+      "fit": "contain"
+    }
+  ],
+  "location": "Belgravia, London"
+},
+{
+  "galleryId": "G76",
+  "slug": "belgravia-light-fitted-study-desk",
+  "title": "Belgravia Light Fitted Study Desk",
+  "category": "Bespoke Joinery",
+  "summary": "A pale fitted desk in a narrow study space, with shallow drawers and a textured inset work surface.",
+  "seoDescription": "Explore a pale fitted study desk in Belgravia, with shallow drawers and a textured inset surface. See the overall furniture and finish detail from Form & Frame.",
+  "keywords": [
+    "light fitted study desk",
+    "Belgravia home office",
+    "bespoke compact desk",
+    "textured desk surface"
+  ],
+  "highlights": [
+    "Pale fitted desk",
+    "Shallow drawers",
+    "Textured inset surface",
+    "Compact study setting"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A separate compact study",
+      "body": [
+        "This pale desk fits into a narrow working space beside a window. Its broad side panel and shallow drawer fronts give the piece a simple fitted form with room for an office chair."
+      ]
+    },
+    {
+      "heading": "Work-surface detail",
+      "body": [
+        "The close-up photograph records the textured inset and its border. This desk is a separate installation from the darker window desk in the Belgravia bedroom."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/belgravia-light-fitted-study-desk/belgravia-light-fitted-study-desk-light-study-desk-overall-01.webp",
+    "alt": "Pale fitted study desk with shallow drawers beside a window",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/belgravia-light-fitted-study-desk/belgravia-light-fitted-study-desk-light-study-desk-overall-01.webp",
+      "alt": "Pale fitted study desk with shallow drawers beside a window",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-light-fitted-study-desk/belgravia-light-fitted-study-desk-textured-desktop-inset-02.webp",
+      "alt": "Textured inset work surface meeting the pale desk border",
+      "fit": "contain"
+    }
+  ],
+  "location": "Belgravia, London"
+},
+{
+  "galleryId": "G77",
+  "slug": "belgravia-padded-headboard-bedroom-storage",
+  "title": "Belgravia Padded Headboard & Bedroom Storage",
+  "category": "Bespoke Joinery",
+  "summary": "A padded bed wall with curved horizontal panels, open book storage, overhead cupboards and coordinated bedroom joinery.",
+  "seoDescription": "See Belgravia bedroom joinery with a padded headboard, open book storage, overhead cupboards and detailed fittings. Completed Form & Frame project photos.",
+  "keywords": [
+    "padded headboard joinery",
+    "Belgravia bedroom storage",
+    "fitted bed wall",
+    "bespoke bedroom bookcase"
+  ],
+  "highlights": [
+    "Curved padded headboard panels",
+    "Open book storage beside the bed",
+    "Overhead cupboards",
+    "Coordinated bedroom fittings"
+  ],
+  "caseStudy": [
+    {
+      "heading": "A padded bed wall with storage",
+      "body": [
+        "Curved horizontal padding forms the centre of this bed wall. Open book storage and bedside surfaces sit alongside it, with glossy cupboards above the bed."
+      ]
+    },
+    {
+      "heading": "Details within the bedroom scheme",
+      "body": [
+        "The wider bedroom view shows how the fitted elements relate to the surrounding storage. Closer photographs record the bedside switch panel and a wardrobe edge, preserving the detail views from this part of the Belgravia project."
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/gallery/belgravia-padded-headboard-bedroom-storage/belgravia-padded-headboard-bedroom-storage-padded-headboard-overall-01.webp",
+    "alt": "Curved padded headboard beneath glossy overhead cupboards with open book storage alongside",
+    "fit": "contain"
+  },
+  "images": [
+    {
+      "src": "/images/gallery/belgravia-padded-headboard-bedroom-storage/belgravia-padded-headboard-bedroom-storage-padded-headboard-overall-01.webp",
+      "alt": "Curved padded headboard beneath glossy overhead cupboards with open book storage alongside",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-padded-headboard-bedroom-storage/belgravia-padded-headboard-bedroom-storage-bedroom-joinery-room-view-02.webp",
+      "alt": "Bedroom view showing the padded bed wall, bookcase and adjacent fitted storage",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-padded-headboard-bedroom-storage/belgravia-padded-headboard-bedroom-storage-bedside-bookcase-03.webp",
+      "alt": "Open bookcase and bedside surface beside the curved padded headboard",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-padded-headboard-bedroom-storage/belgravia-padded-headboard-bedroom-storage-bedside-switch-panel-04.webp",
+      "alt": "Bedside dimmer switches mounted on a textured inset panel",
+      "fit": "contain"
+    },
+    {
+      "src": "/images/gallery/belgravia-padded-headboard-bedroom-storage/belgravia-padded-headboard-bedroom-storage-wardrobe-edge-detail-05.webp",
+      "alt": "Close detail of a textured wardrobe edge and recessed fitting in the bedroom",
+      "fit": "contain"
+    }
+  ],
+  "location": "Belgravia, London"
 },
 ];
 

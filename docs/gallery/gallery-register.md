@@ -2,7 +2,17 @@
 
 This is the permanent internal tracking register for website gallery case studies.
 
-## Current checkpoint — 5 October 2026 / B15
+## Current checkpoint — 5 October 2026 / B16
+
+Resume from [B16 professional joinery galleries](b16-professional-joinery.md). The owner approved separate projects, individual photo descriptions, image naming and publication to master.
+
+- G62–G77: sixteen new item galleries; 70 saved records, 65 public projects and 299 unique photo references.
+- G35/G36/G38/G39/G41 are narrowed to their correct furniture items; their established URLs remain valid.
+- 69 individually identified photographs; 138 verified WebP/AVIF assets. The source mapping is recorded in [B16 photo register](b16-photo-register.csv).
+- B14 corrections, B15 hidden IDs and the eleven-card bottom selection remain intact.
+- Next website batch: B17. Next unassigned gallery: G78. G40 remains reserved.
+
+## Historical checkpoint — B15 (superseded by B16)
 
 Resume from [B15 gallery visibility and order](b15-visibility-order.md). The owner requested hiding G46, G26, G23, G21 and G22, retaining their records and photographs for later restoration.
 
