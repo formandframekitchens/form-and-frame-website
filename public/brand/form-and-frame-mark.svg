@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>Form &amp; Frame wardrobe mark</title>
+  <rect width="64" height="64" fill="#fff"/>
+  <g fill="none" stroke="#111110" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M6 7h52M10 55V11h44v44M32 11v44M10 28h13M41 28h13M6 58h52"/>
+  </g>
+  <g fill="#b28b39">
+    <path d="M27 31h2.5v13H27zM34.5 31H37v13h-2.5z"/>
+  </g>
+</svg>
