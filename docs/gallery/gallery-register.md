@@ -15,10 +15,10 @@ The previous resume pointer at the end of this file is historical. Resume from [
 
 | New ID | Prepared branch | Public selection | Status |
 | --- | --- | --- | --- |
-| G57 | g57-full-wall-white-library-bookcase | Four HIGH RES views | Verified assets; awaiting integration |
-| G58 | g58-esher-bathroom-vanity-mirror | Three distinct HIGH RES views | Verified assets; awaiting G57 |
-| G59 | g59-traditional-radiator-covers-shelving | Five HIGH RES views; complete radiator cover first | Verified assets; awaiting G58 |
-| G60 | g60-esher-make-up-table | One HIGH RES overall view | Verified assets; awaiting G59 |
+| G57 | g57-full-wall-white-library-bookcase | Four HIGH RES views | LIVE: PR #72, production route verified |
+| G58 | g58-esher-bathroom-vanity-mirror | Three distinct HIGH RES views | LIVE: PR #73, production route verified |
+| G59 | g59-traditional-radiator-covers-shelving | Five HIGH RES views; complete radiator cover first | LIVE: PR #74, production route verified |
+| G60 | g60-esher-make-up-table | One HIGH RES overall view | Integrated; final publication checks |
 
 Next unassigned stable gallery ID is G61. Additional unreviewed archive projects remain source-review work. The protected Alex selection remains private and is not part of the public project count.
 
@@ -131,6 +131,10 @@ When a lane fuse fires:
 | G54 | Stourcliff Bespoke Radiator Cover | LIVE | AIDA high res images 8 and 11; 4/4 assets verified; preview and production routes verified; PR #52 merged |
 | G55 | Stourcliff Recessed Display Niche | LIVE | AIDA high res image 46; 2/2 assets verified; preview and production routes verified; PR #53 merged |
 | G56 | Esher Luxury Residence — Wine Cellar | LIVE | 2 mapped HIGH RES originals; 4/4 generated assets verified; PR #64 merged; also restored G41–G43 gallery records; final production route verified |
+| G57 | Full-Wall White Library Bookcase | LIVE | Four HIGH RES views selected; WEB RES image excluded; PR #72; preview and production verified |
+| G58 | Esher Luxury Residence — Bathroom Vanity & Mirror | LIVE | Three distinct HIGH RES views; repeated exposures omitted; PR #73; preview and production verified |
+| G59 | Traditional Radiator Covers & Fitted Shelving | LIVE | Five HIGH RES views; complete radiator cover first; PR #74; preview and production verified |
+| G60 | Esher Luxury Residence — Make-Up Table | IN FINAL VERIFICATION | One HIGH RES full-piece view through doorway; documented source-quality exception |
 
 ## HOLD / not included in active gallery set
 - Modern Alcove Units: unfinished/weak presentation in current set.
@@ -139,7 +143,7 @@ When a lane fuse fires:
 - Visualisations / Samples / product-render collections: not counted as completed-project case studies.
 - Bed projects: keep at the bottom / HOLD unless a strong finished set is found.
 
-Current reconciliation: 50 public case studies after G53 is merged into G01; four prepared additions bring the intended total to 54. Retired duplicate IDs are G05, G10, G18, G24 and G53; G40 is reserved after its former content was merged into G35.
+Current reconciliation: 54 case-study records including G57–G60. Retired duplicate IDs are G05, G10, G18, G24 and G53; G40 is reserved after its former content was merged into G35. Stable IDs are never renumbered to close those gaps.
 
 
 ## Historical checkpoint before B13 (superseded)

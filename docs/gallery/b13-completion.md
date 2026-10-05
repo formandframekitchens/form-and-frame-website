@@ -9,8 +9,8 @@ Owner authorised the complete audit fix list and four prepared galleries in one 
 | Shared corrections | b13-gallery-completion | LIVE: PR #71, merge 0d28003, production dpl_8kpjDr4ADvUnvkaZbNnPmG97ih8M READY; public gallery verified | Complete |
 | G57 white library | g57-full-wall-white-library-bookcase | LIVE: PR #72, merge ce52fed, production dpl_A4uo7oK7mRoPWmvqdW4EmnWoUTn6 READY; public route verified | Complete |
 | G58 Esher bathroom | g58-esher-bathroom-vanity-mirror | LIVE: PR #73, merge ef3f9e1, production dpl_noVVEehKMbAJLYW7mMCLvUsPexa1 READY; public route HTTP 200 | Complete |
-| G59 radiator covers | g59-traditional-radiator-covers-shelving | Five HIGH RES views integrated; complete front view first; build and five applicable checks passed | Preview, PR, production |
-| G60 Esher make-up table | g60-esher-make-up-table | Prepared single image | Verify source-quality exception; integrate after G59 production check |
+| G59 radiator covers | g59-traditional-radiator-covers-shelving | LIVE: PR #74, merge 31ff565, production dpl_CVGMs27322iABbJRcj8HRvTibHUZ READY; public route HTTP 200 | Complete |
+| G60 Esher make-up table | g60-esher-make-up-table | Single HIGH RES overall view integrated; source-quality exception documented | Final checks, preview, PR, production |
 
 Each lane keeps its own commit, preview and production verification. Shared master integration stays serial. Two failures of the same operation park that operation; diagnose once, record the cause, use a different supported approach and continue independent work. No unverified assets or invented project facts advance to publication.
 
@@ -24,6 +24,8 @@ Each lane keeps its own commit, preview and production verification. Shared mast
 - Additional Aram/kitchen archive candidates remain source-review work, not part of the four prepared publication lanes. They require original mapping and confirmed project facts.
 
 ## Verification scope
+
+Final integrated build and lint passed on 5 October. Complete desktop/mobile suite: **61 passed, 1 skipped** (the viewport-independent route check is run once). All 54 records retained with valid covers and source assets. G60 single-image focus/navigation behaviour passed. The expected unknown-category 404 test logs Next's internal NoFallbackError; its HTTP response is correctly 404.
 
 Filters/search and no-results recovery; category-to-project links; covers and full-room composition; accurate captions/copy; canonical redirects and sitemap; editable project-aware enquiry payload and notification content; related projects; keyboard/modal focus; desktop/mobile layout; private access request and local authorised-login/logout checks with a test-only code. Production private credentials remain unchanged.
 
