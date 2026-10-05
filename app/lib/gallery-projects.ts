@@ -3791,8 +3791,8 @@ export const galleryProjects: GalleryProject[] = [
   "slug": "esher-luxury-residence-make-up-table",
   "title": "Esher Luxury Residence — Make-Up Table",
   "location": "Esher, Surrey",
-  "summary": "A fitted make-up table with twin drawer pedestals, decorative pale fronts and a wide mirror in an Esher dressing space.",
-  "seoDescription": "Explore the fitted Esher make-up table, with decorative pale drawer fronts, central seating space and a wide wall mirror.",
+  "summary": "A fitted make-up table with twin drawer pedestals, decorative pale fronts and a tall mirror in an Esher dressing space.",
+  "seoDescription": "Explore the fitted Esher make-up table, with decorative pale drawer fronts, central seating space and a tall wall mirror.",
   "keywords": [
     "Esher make-up table",
     "bespoke dressing table",
@@ -3803,13 +3803,13 @@ export const galleryProjects: GalleryProject[] = [
     "Twin drawer pedestals",
     "Central space for a chair",
     "Decorative pale drawer fronts",
-    "Wide mirror above the table"
+    "Tall mirror above the table"
   ],
   "caseStudy": [
     {
       "heading": "A dedicated dressing space",
       "body": [
-        "The photograph shows a fitted make-up table set between the room's side walls. Two drawer pedestals support the work surface, leaving a central space for a chair, while a wide mirror spans the wall above."
+        "The photograph shows a fitted make-up table set between the room's side walls. Two drawer pedestals support the work surface, leaving a central space for a chair, while a tall rectangular mirror rises above the table."
       ]
     },
     {
@@ -3829,13 +3829,13 @@ export const galleryProjects: GalleryProject[] = [
   "category": "Bespoke Joinery",
   "cover": {
     "src": "/images/gallery/esher-luxury-residence-make-up-table/esher-luxury-residence-make-up-table-overall-01.webp",
-    "alt": "Complete Esher make-up table viewed through the doorway, with twin drawer units and a wide mirror",
+    "alt": "Complete Esher make-up table viewed through the doorway, with twin drawer units and a tall mirror",
     "fit": "contain"
   },
   "images": [
     {
       "src": "/images/gallery/esher-luxury-residence-make-up-table/esher-luxury-residence-make-up-table-overall-01.webp",
-      "alt": "Complete Esher make-up table viewed through the doorway, with twin drawer units and a wide mirror",
+      "alt": "Complete Esher make-up table viewed through the doorway, with twin drawer units and a tall mirror",
       "fit": "contain"
     }
   ]
