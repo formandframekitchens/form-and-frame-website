@@ -1,8 +1,10 @@
 import type { NextConfig } from "next";
+import galleryImageRedirects from "./app/lib/gallery-image-redirects.json";
 
 const nextConfig: NextConfig = {
   async redirects() {
     return [
+      ...galleryImageRedirects,
       {
         source: "/gallery/manchester-makeup-island-dressing-table",
         destination: "/gallery/manchester-walk-in-wardrobe",

@@ -4,8 +4,8 @@ export const navigation = [
   { label: "Services", href: "/services" },
   { label: "Gallery", href: "/gallery" },
   { label: "Kitchen Brands", href: "/kitchen-installation#suppliers" },
-  { label: "How It Works", href: "/kitchen-installation#installation-process" },
-  { label: "Areas", href: "/kitchen-installation#service-areas" },
+  { label: "How It Works", href: "/bespoke-joinery#joinery-process" },
+  { label: "Areas", href: "/areas" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -46,6 +46,8 @@ export const serviceAreas = [
 export const futureLutonHref = "/areas/luton";
 
 export const faqs = [
+  { question: "Can you design and install bespoke fitted furniture?", answer: "Yes. We coordinate bespoke wardrobes, alcove units, bookcases, media walls and home-office furniture, with selected specialist manufacturing partners where appropriate. Drawings and a written specification establish the agreed scope before manufacture." },
+  { question: "Do you supply bespoke and in-frame kitchens?", answer: "Yes. We offer design, supply and installation for individually specified bespoke and in-frame kitchens. If you already have a kitchen supplier, independent installation is also available." },
   { question: "Do you install kitchens bought from Howdens, Wren or IKEA?", answer: "Yes. We independently install customer-supplied kitchens from Howdens, Wren, IKEA, Magnet, Wickes, Benchmarx, B&Q and other manufacturers. Send your plan so we can review the installation scope." },
   { question: "Can you quote from my kitchen plan?", answer: "We can provide an initial scope review from your plan, postcode, room photographs and approximate installation date. A home visit then confirms site conditions and the final scope before we issue the final quotation." },
   { question: "Do I need a home visit before receiving a price?", answer: "Not for the first review. We start with the plan and project details, then arrange a home visit before confirming the final quotation." },

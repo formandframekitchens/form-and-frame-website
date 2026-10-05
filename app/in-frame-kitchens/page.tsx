@@ -3,7 +3,7 @@ import { DetailGrid, ImageTextSection, ServiceFAQs, ServiceGallery, ServicePage,
 import { serviceMetadata } from "../lib/service-metadata";
 import { enquiryHref } from "../lib/enquiry";
 
-export const metadata = serviceMetadata("Traditional In-Frame Kitchens Luton", "Traditional British in-frame kitchens: design, supply and installation by Form & Frame. Painted Shaker cabinetry, technical drawings and client sign-off. Quotation only.", "/in-frame-kitchens");
+export const metadata = serviceMetadata("Bespoke In-Frame Kitchens Luton", "Traditional in-frame kitchens in Luton: painted Shaker cabinetry, technical design, specialist manufacture and installation. Individually specified and quoted.", "/in-frame-kitchens");
 
 const stages = [
   { title: "Survey and measure", copy: "We survey the room, take measurements and discuss how you use the kitchen, the desired style and the practical constraints." },
@@ -26,6 +26,7 @@ export default function InFrameKitchensPage() {
     </ServiceSection>
     <ServiceSection title="Finishes chosen for the whole room">
       <p className="service-prose">Painted cabinetry is central to the traditional in-frame offer. Depending on the design and manufacturing specification, we can also explore natural timber or veneer, stained finishes, and matching existing furniture where feasible. Samples, material suitability and the agreed finish are reviewed before sign-off.</p>
+      <Link className="text-link" href="/guides/joinery-materials-finishes">Choosing materials and finishes for your kitchen ↗</Link>
     </ServiceSection>
     <ServiceGallery imageKey="in-frame-kitchens" title="In-frame kitchen gallery" />
     <ServiceSection title="Already have an in-frame kitchen supplier?" eyebrow="Installation-only also available" muted>

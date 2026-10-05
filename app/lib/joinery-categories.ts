@@ -15,7 +15,7 @@ export type JoineryCategory = {
 // Add curated category galleries here as each individual page is developed.
 export const joineryCategories: readonly JoineryCategory[] = [
   {
-    slug: "wardrobes", title: "Bespoke wardrobes",
+    slug: "wardrobes", title: "Bespoke fitted wardrobes",
     copy: "Fitted wardrobes with hanging space, drawers and storage arranged around you.",
     image: "/images/joinery-choices/01-wardrobes.webp",
     alt: "Sage-green fitted wardrobes with oak shelving and hanging storage",
@@ -39,7 +39,7 @@ export const joineryCategories: readonly JoineryCategory[] = [
     considerations: ["The sizes of your books and the items you would like to display.", "Open shelving, low cupboards or a combination of the two.", "Shelf spans, intended loads and suitable fixing into the existing walls."],
   },
   {
-    slug: "entertainment-units", title: "Entertainment units",
+    slug: "entertainment-units", title: "Bespoke media walls & TV units",
     copy: "Media cabinetry with space for your screen, equipment and concealed cables.",
     image: "/images/joinery-choices/04-entertainment-unit.webp",
     alt: "A television framed by oak panelling and fitted sage-green media storage",
@@ -47,7 +47,7 @@ export const joineryCategories: readonly JoineryCategory[] = [
     considerations: ["Your screen size, viewing position and any wall mounting requirements.", "Equipment dimensions, cable routes and ventilation needs.", "The balance of display shelving and closed cupboards."],
   },
   {
-    slug: "office-furniture", title: "Office furniture",
+    slug: "office-furniture", title: "Bespoke home office furniture",
     copy: "Fitted desks, shelving and storage for a comfortable place to work.",
     image: "/images/joinery-choices/05-office-furniture.webp",
     alt: "A fitted oak desk with sage-green drawers and matching office shelves",
@@ -63,7 +63,7 @@ export const joineryCategories: readonly JoineryCategory[] = [
     considerations: ["The staircase shape, available depth and clear space for opening doors or drawers.", "Shoes, coats, household items or other belongings you need to store.", "Access to existing meters, pipes, services and the staircase structure."],
   },
   {
-    slug: "unique-furniture", title: "Unique furniture",
+    slug: "unique-furniture", title: "Individual bespoke furniture",
     copy: "Individual pieces and unusual fitted projects, developed around your idea.",
     image: "/images/joinery-choices/07-unique-furniture.webp",
     alt: "A curved oak sideboard with fluted doors and a pale stone top",

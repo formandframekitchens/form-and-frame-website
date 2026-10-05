@@ -15,7 +15,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...[
       "/services",
       "/gallery",
-      ...publicGalleryProjects.map(({ slug }) => `/gallery/${slug}`),
       "/bespoke-joinery",
       ...joineryCategories.map(({ slug }) => `/bespoke-joinery/${slug}`),
       "/joinery-installation",
@@ -25,11 +24,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       "/bespoke-kitchens",
       "/internal-door-installation",
       "/contact",
+      "/areas",
+      "/areas/luton",
+      "/guides/joinery-materials-finishes",
       "/privacy",
     ].map(path => ({
       url: `${siteUrl}${path}`,
       changeFrequency: "monthly" as const,
       priority: path === "/services" ? 0.9 : path === "/kitchen-installation" ? 0.9 : path === "/gallery" ? 0.85 : path.startsWith("/gallery/") ? 0.75 : path === "/contact" ? 0.6 : 0.7,
+    })),
+    ...publicGalleryProjects.map(project => ({
+      url: `${siteUrl}/gallery/${project.slug}`,
+      lastModified: "2026-10-05",
+      images: project.images.map(image => `${siteUrl}${image.src}`),
     })),
   ];
 }

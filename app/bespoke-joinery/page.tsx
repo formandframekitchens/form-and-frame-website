@@ -5,6 +5,7 @@ import { ServiceSelection } from "../components/service-selection";
 import { joineryCategories } from "../lib/joinery-categories";
 import { serviceMetadata } from "../lib/service-metadata";
 import { enquiryHref } from "../lib/enquiry";
+import { ServiceStructuredData } from "../components/structured-data";
 
 export const metadata = serviceMetadata(
   "Bespoke Joinery & Fitted Furniture Luton",
@@ -23,22 +24,26 @@ export default function BespokeJoineryPage() {
   return <div>
     <Header />
     <main id="main-content" className="service-page services-hub">
+      <ServiceStructuredData name="Bespoke joinery and fitted furniture in Luton" description="Design, technical coordination and installation of fitted wardrobes, alcove units, bookcases, media walls and individual furniture." path="/bespoke-joinery" />
       <ServiceSelection id="choose-joinery" title="Choose your bespoke joinery" label="Bespoke joinery and fitted furniture types" choices={joineryCategories.map(category => ({ ...category, href: '/bespoke-joinery/' + category.slug }))} action="Explore joinery" className="joinery-selection" breadcrumbs={[{ label: "Services", href: "/services" }]} />
       <ServiceSection title="Furniture designed for the space" eyebrow="Bespoke joinery & fitted furniture" id="joinery-details">
         <p className="service-prose">Fitted furniture designed around the room, with Form & Frame coordinating survey, technical development, specialist manufacture where appropriate, installation and final quality control. Choose the furniture you need above, or send us an enquiry if your project brings several types together.</p>
         <Link className="text-link" href={enquiryHref({ service: "bespoke-joinery" })}>Request a quote <span aria-hidden="true">↗</span></Link>
       </ServiceSection>
 
-    <ServiceSection title="From survey to fitted result" eyebrow="A coordinated process" muted>
+    <ServiceSection title="From survey to fitted result" eyebrow="A coordinated process" id="joinery-process" muted>
       <DetailGrid items={process} />
     </ServiceSection>
 
     <ServiceSection title="How the work is delivered">
       <p className="service-prose">Form & Frame focuses on design, technical coordination, installation and project control. Specialist manufacturing partners may be used for production where that is the most suitable route for the project. Your quotation and specification confirm the agreed responsibilities before work begins.</p>
+      <p className="service-prose service-prose-spaced">For a luxury fitted interior, the distinction is in the details: the proportions of the doors, the continuity of the grain, the way lighting meets a shelf and how metal or mirror is integrated into the cabinetry. Our <Link href="/gallery">completed project galleries</Link> show these details alongside the finished rooms.</p>
+      <p className="service-prose service-prose-spaced">Natural veneer, painted surfaces, high-gloss finishes and decorative fittings can be considered within the agreed specification. A photograph is a useful reference, while physical samples establish the material, colour and sheen for your own furniture. <Link href="/guides/joinery-materials-finishes">Read our guide to joinery materials and finishes</Link>.</p>
     </ServiceSection>
 
     <ServiceSection title="Local fitted-joinery projects" eyebrow="Luton, Bedfordshire & Hertfordshire" muted>
       <p className="service-prose">Luton is our core base. We consider suitable fitted-joinery projects across Bedfordshire and Hertfordshire, including Dunstable, Harpenden, St Albans, Hemel Hempstead, Hitchin, Welwyn Garden City, Berkhamsted, Leighton Buzzard and selected surrounding areas.</p>
+      <Link className="text-link" href="/areas/luton">Bespoke furniture and kitchen services in Luton ↗</Link>
     </ServiceSection>
 
     <ServiceFAQs items={[

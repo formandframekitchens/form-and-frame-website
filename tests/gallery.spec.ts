@@ -108,8 +108,8 @@ test("search and category navigation also work without JavaScript", async ({ bro
   await page.getByRole("searchbox").fill("G32");
   await page.getByRole("button", { name: "Search", exact: true }).click();
   await expect(page.locator(".gallery-card")).toHaveCount(1);
-  await page.getByRole("link", { name: "View Fulham Alcove Units", exact: true }).click();
-  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Fulham Alcove Units");
+  await page.getByRole("link", { name: "View Fulham Bespoke Fitted Alcove Units", exact: true }).click();
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Fulham Bespoke Fitted Alcove Units");
   await context.close();
 });
 
@@ -119,7 +119,7 @@ test("project enquiry prefill carries a validated removable project reference", 
   await expect(page.getByRole("textbox", { name: "Name", exact: true })).toBeInViewport();
   await expect(page.getByRole("combobox", { name: "Service", exact: true })).toHaveValue("bespoke-joinery");
   await expect(page.getByRole("combobox", { name: "Furniture / joinery type", exact: true })).toHaveValue("alcove-units");
-  await expect(page.locator(".enquiry-project-reference")).toContainText("G32 · Fulham Alcove Units");
+  await expect(page.locator(".enquiry-project-reference")).toContainText("G32 · Fulham Bespoke Fitted Alcove Units");
   await page.reload();
   await expect(page.locator('input[name="project"]')).toHaveValue("fulham-alcove-units");
   let submittedProject = "";
@@ -155,7 +155,7 @@ test("project references are validated in URLs, API and notification content", a
   data.set("joinery", "alcove-units");
   data.set("project", "fulham-alcove-units");
   const rows = Object.fromEntries(enquiryDetails(data, "LOCAL-TEST"));
-  expect(rows["Gallery inspiration"]).toBe("G32 · Fulham Alcove Units");
+  expect(rows["Gallery inspiration"]).toBe("G32 · Fulham Bespoke Fitted Alcove Units");
   expect(rows["Gallery link"]).toBe("https://formandframekitchens.co.uk/gallery/fulham-alcove-units");
   data.set("project", "<script>");
   expect(Object.fromEntries(enquiryDetails(data, "LOCAL-TEST"))["Gallery inspiration"]).toBeUndefined();

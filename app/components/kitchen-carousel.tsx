@@ -37,7 +37,7 @@ export function KitchenCarousel() {
       className="kitchen-carousel"
       role="region"
       aria-roledescription="carousel"
-      aria-label="Form & Frame kitchen installation photography"
+      aria-label="Form & Frame completed furniture and kitchen photography"
       onMouseEnter={() => setInteractionPaused(true)}
       onMouseLeave={() => setInteractionPaused(false)}
       onFocusCapture={() => setInteractionPaused(true)}
@@ -62,8 +62,8 @@ export function KitchenCarousel() {
         ))}
       </div>
 
-      <button className="kitchen-carousel-arrow kitchen-carousel-prev" type="button" aria-label="Previous kitchen image" onClick={() => goTo(index - 1)}>←</button>
-      <button className="kitchen-carousel-arrow kitchen-carousel-next" type="button" aria-label="Next kitchen image" onClick={() => goTo(index + 1)}>→</button>
+      <button className="kitchen-carousel-arrow kitchen-carousel-prev" type="button" aria-label="Previous project image" onClick={() => goTo(index - 1)}>←</button>
+      <button className="kitchen-carousel-arrow kitchen-carousel-next" type="button" aria-label="Next project image" onClick={() => goTo(index + 1)}>→</button>
 
       {!reducedMotion && <button
         className="kitchen-carousel-pause"
@@ -74,7 +74,7 @@ export function KitchenCarousel() {
         {userPaused ? "Play slideshow" : "Pause slideshow"}
       </button>}
 
-      <div className="kitchen-carousel-dots" aria-label="Choose kitchen image">
+      <div className="kitchen-carousel-dots" aria-label="Choose project image">
         {homepageKitchenSlides.map((slide, dotIndex) => (
           <button
             key={slide.src}

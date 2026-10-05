@@ -6,8 +6,8 @@ import { serviceMetadata } from "../lib/service-metadata";
 import { getEnquiryProject } from "../lib/gallery-catalog";
 
 export const metadata = serviceMetadata(
-  "Contact Form & Frame | Project Enquiries",
-  "Contact Form & Frame for kitchen installation, bespoke joinery, internal doors and joinery installation around Luton, Bedfordshire and Hertfordshire.",
+  "Bespoke Joinery & Kitchen Enquiries Luton",
+  "Discuss bespoke joinery, fitted furniture or a kitchen with Form & Frame in Luton. Send room photographs, your postcode and plans for an initial review.",
   "/contact"
 );
 

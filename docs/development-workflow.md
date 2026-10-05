@@ -33,7 +33,14 @@ This keeps the structure simple:
 
 `B06 TEST -> preview in Vercel -> approved -> merge to master SOLID`
 
-## Current sequence — 5 October 2026 / B16
+## Current sequence — 5 October 2026 / B17
+
+- B17 — Local bespoke joinery and kitchen SEO, gallery descriptions and image naming.
+- Branch: `b17-local-bespoke-seo`.
+- Existing gallery numbers, page routes, hidden selections and bottom order retained.
+- Next new website batch: B18; next unassigned gallery: G78.
+
+### Previous sequence (B16)
 
 - B16 — Professional joinery galleries and item separation.
 - Branch: `b16-professional-joinery-galleries`.

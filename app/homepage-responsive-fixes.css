@@ -1,3 +1,15 @@
+/* The broader service heading must wrap within its own column. */
+.hero h1 { white-space: normal; text-wrap: balance; }
+.hero-copy { min-width: 0; }
+.hero-copy > * { min-width: 0; }
+@media (min-width: 1000px) {
+  .hero-copy { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px clamp(32px, 4vw, 72px); }
+}
+.projects-section .gallery-card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (max-width: 800px) {
+  .projects-section .gallery-card-grid { grid-template-columns: 1fr; }
+}
+
 /* B09: keep homepage hero CTA buttons contained at tablet / wide-mobile widths. */
 @media (min-width: 601px) and (max-width: 1199px) {
   .hero-overlay {
