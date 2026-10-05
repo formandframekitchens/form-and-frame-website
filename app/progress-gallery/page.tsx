@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { isProgressGalleryAuthorized } from "@/app/lib/progress-gallery-auth";
 import { progressGallerySections } from "./progress-gallery-data";
 import styles from "./progress-gallery.module.css";
@@ -51,6 +52,8 @@ export default async function ProgressGalleryPage({
             ) : null}
             <button type="submit">Open private gallery</button>
           </form>
+          <p className={styles.accessRequest}>Need an access code? <Link href="/contact?service=other&request=gallery-access#enquiry-form">Request access from Form &amp; Frame</Link>.</p>
+          <Link className={styles.returnLink} href="/gallery">Browse the public gallery ↗</Link>
         </section>
       </main>
     );

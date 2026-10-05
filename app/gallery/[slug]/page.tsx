@@ -5,6 +5,8 @@ import { notFound } from "next/navigation";
 import { ProjectGalleryCarousel } from "../../components/project-gallery-carousel";
 import { Footer, Header } from "../../components/site-shell";
 import { galleryProjects, getGalleryProject } from "../../lib/gallery-projects";
+import { galleryEnquiryHref, galleryEnquirySelection, relatedGalleryProjects } from "../../lib/gallery-catalog";
+import { serviceOptions } from "../../lib/enquiry";
 import { siteUrl } from "../../lib/site";
 
 export const dynamicParams = false;
@@ -44,17 +46,11 @@ export default async function GalleryProjectPage({ params }: PageProps<"/gallery
   const project = getGalleryProject((await params).slug);
   if (!project) notFound();
 
-  const enquiryHref = project.category === "Kitchen Installation"
-    ? "/contact?service=kitchen-installation#enquiry-form"
-    : "/contact?service=bespoke-joinery#enquiry-form";
-
-  const serviceHref = project.category === "Kitchen Installation"
-    ? "/kitchen-installation"
-    : "/bespoke-joinery";
-
-  const relatedProjects = galleryProjects
-    .filter(item => item.slug !== project.slug && item.category === project.category)
-    .slice(0, 3);
+  const enquiryHref = galleryEnquiryHref(project);
+  const selection = galleryEnquirySelection(project);
+  const serviceHref = selection.joinery ? `/bespoke-joinery/${selection.joinery}` : `/${selection.service}`;
+  const serviceLabel = serviceOptions.find(option => option.value === selection.service)!.label.toLowerCase();
+  const relatedProjects = relatedGalleryProjects(project);
 
   const projectUrl = `${siteUrl}/gallery/${project.slug}`;
 
@@ -172,12 +168,12 @@ export default async function GalleryProjectPage({ params }: PageProps<"/gallery
             </div>
             <div>
               <p>
-                Explore the Form &amp; Frame <Link href={serviceHref}>{project.category.toLowerCase()}</Link> service for more information about how projects are reviewed, coordinated and installed.
+                Explore the Form &amp; Frame <Link href={serviceHref}>{serviceLabel}</Link> service for more information about how projects are reviewed, coordinated and installed.
                 {project.category === "Kitchen Installation"
                   ? " Independent kitchen installation is available for customer-supplied kitchens across Luton, Bedfordshire, Hertfordshire and selected surrounding areas."
                   : " Bespoke fitted-furniture projects are considered across Luton, Bedfordshire, Hertfordshire, London and selected surrounding areas depending on scope."}
               </p>
-              <Link className="text-link" href={serviceHref}>Explore {project.category.toLowerCase()} <span aria-hidden="true">↗</span></Link>
+              <Link className="text-link" href={serviceHref}>Explore {serviceLabel} <span aria-hidden="true">↗</span></Link>
             </div>
           </div>
         </section>

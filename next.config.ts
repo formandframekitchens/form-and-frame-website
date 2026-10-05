@@ -4,6 +4,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/gallery/stourcliff-white-handleless-kitchen",
+        destination: "/gallery/handleless-kitchen-installation",
+        permanent: true,
+      },
+      {
         source: "/gallery/belgravia-leather-wardrobe",
         destination: "/gallery/belgravia-kids-room-home-office-furniture",
         permanent: true,

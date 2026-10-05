@@ -46,7 +46,7 @@ test("every category has a usable destination and passes its identity to the enq
     if (slug === "wardrobes") await page.screenshot({ path: testInfo.outputPath("wardrobes-page.png"), fullPage: true });
     await page.getByRole("link", { name: "Discuss my project" }).click();
     await expect(page.getByRole("combobox", { name: "Service", exact: true })).toHaveValue("bespoke-joinery");
-    await expect(page.getByRole("combobox", { name: "Joinery type", exact: true })).toHaveValue(slug);
+    await expect(page.getByRole("combobox", { name: "Furniture / joinery type", exact: true })).toHaveValue(slug);
     await expect(page.getByRole("combobox", { name: "Kitchen supplier", exact: true })).toHaveCount(0);
   }
   const sitemap = await request.get("/sitemap.xml");
@@ -57,7 +57,7 @@ test("every category has a usable destination and passes its identity to the enq
 
 test("joinery selections survive reload, stay editable and discard invalid or stale context", async ({ page }) => {
   await page.goto("/contact?service=bespoke-joinery&joinery=under-stairs-storage&supplier=ikea&installation=own-kitchen#enquiry-form");
-  const category = page.getByRole("combobox", { name: "Joinery type", exact: true });
+  const category = page.getByRole("combobox", { name: "Furniture / joinery type", exact: true });
   await expect(category).toHaveValue("under-stairs-storage");
   await page.reload();
   await expect(category).toHaveValue("under-stairs-storage");

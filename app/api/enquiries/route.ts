@@ -4,6 +4,7 @@ import { EMAIL_LOGO_BASE64 } from "../../lib/email-logo";
 import { customerAcknowledgementEmail, internalEnquiryEmail } from "../../lib/enquiry-email";
 import { installationOptions, serviceOptions, supplierOptions } from "../../lib/enquiry";
 import { joineryOptions } from "../../lib/joinery-types";
+import { getEnquiryProject } from "../../lib/gallery-catalog";
 
 export const runtime = "nodejs";
 
@@ -100,6 +101,7 @@ export async function POST(request: Request) {
   const supplier = text(form, "supplier", 80);
   const installation = text(form, "installation", 80);
   const joinery = text(form, "joinery", 80);
+  const project = text(form, "project", 160);
   const preferredContact = text(form, "preferredContact", 20);
   const privacyAccepted = text(form, "privacyAccepted", 20);
   const kitchenStatus = text(form, "kitchenStatus", 80);
@@ -108,6 +110,7 @@ export async function POST(request: Request) {
   const doorSupply = text(form, "doorSupply", 120);
 
   const errors: Record<string, string> = {};
+  if (project && !getEnquiryProject(project, service)) errors.project = "Please remove the gallery reference or choose the matching service.";
   if (!name) errors.name = "Please enter your name.";
   if (!location) errors.location = "Please enter your postcode or town.";
   if (!message) errors.message = "Please tell us a little about the project.";
