@@ -15,7 +15,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...[
       "/services",
       "/gallery",
+      "/kitchens",
       "/bespoke-joinery",
+      "/bespoke-joinery/projects",
       ...joineryCategories.map(({ slug }) => `/bespoke-joinery/${slug}`),
       "/joinery-installation",
       "/kitchen-installation",

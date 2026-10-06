@@ -1,5 +1,12 @@
 # Form & Frame Website Development Workflow
 
+## Current sequence — 6 October 2026 / B20
+
+- B20 — Separate Kitchens and Bespoke Joinery portfolios.
+- Branch: `b20-kitchen-joinery-portfolios`; based on verified master e210166.
+- B19 local enquiry work remains preserved in its own worktree and is not included.
+- Next new website batch: B21; next unassigned gallery: G78.
+
 ## Branch numbering
 
 Every new development batch uses one increasing branch number.
@@ -33,7 +40,7 @@ This keeps the structure simple:
 
 `B06 TEST -> preview in Vercel -> approved -> merge to master SOLID`
 
-## Current sequence — 5 October 2026 / B18
+### Previous sequence (B18)
 
 - B18 — Form & Frame wardrobe favicon with gold handles, browser and phone icons.
 - Branch: `b18-brand-favicon`.

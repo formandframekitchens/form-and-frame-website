@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { ProjectGalleryCarousel } from "../../components/project-gallery-carousel";
 import { Footer, Header } from "../../components/site-shell";
 import { publicGalleryProjects, getGalleryProject } from "../../lib/gallery-projects";
-import { galleryEnquiryHref, galleryEnquirySelection, relatedGalleryProjects } from "../../lib/gallery-catalog";
+import { galleryEnquiryHref, galleryEnquirySelection, relatedGalleryProjects, portfolioForProject, portfolioLinks } from "../../lib/gallery-catalog";
 import { serviceOptions } from "../../lib/enquiry";
 import { siteUrl } from "../../lib/site";
 
@@ -45,6 +45,7 @@ export default async function GalleryProjectPage({ params }: PageProps<"/gallery
   const project = getGalleryProject((await params).slug);
   if (!project) notFound();
 
+  const portfolio = portfolioLinks[portfolioForProject(project)];
   const enquiryHref = galleryEnquiryHref(project);
   const selection = galleryEnquirySelection(project);
   const serviceHref = selection.joinery ? `/bespoke-joinery/${selection.joinery}` : `/${selection.service}`;
@@ -91,8 +92,8 @@ export default async function GalleryProjectPage({ params }: PageProps<"/gallery
       {
         "@type": "ListItem",
         position: 2,
-        name: "Gallery",
-        item: `${siteUrl}/gallery`,
+        name: portfolio.label,
+        item: `${siteUrl}${portfolio.href}`,
       },
       {
         "@type": "ListItem",
@@ -113,7 +114,7 @@ export default async function GalleryProjectPage({ params }: PageProps<"/gallery
         <header className="project-detail-hero">
           <div className="container">
             <nav className="breadcrumbs" aria-label="Breadcrumb">
-              <Link href="/">Home</Link><span aria-hidden="true">/</span><Link href="/gallery">Gallery</Link><span aria-hidden="true">/</span><span>{project.title}</span>
+              <Link href="/">Home</Link><span aria-hidden="true">/</span><Link href={portfolio.href}>{portfolio.label}</Link><span aria-hidden="true">/</span><span>{project.title}</span>
             </nav>
             <div className="project-detail-heading">
               <div>
@@ -207,7 +208,7 @@ export default async function GalleryProjectPage({ params }: PageProps<"/gallery
             </div>
             <div className="project-detail-actions">
               <Link className="button" href={enquiryHref}>Send an enquiry <span aria-hidden="true">↗</span></Link>
-              <Link className="text-link" href="/gallery">Back to gallery <span aria-hidden="true">↗</span></Link>
+              <Link className="text-link" href={portfolio.href}>Back to {portfolio.label.toLowerCase()} <span aria-hidden="true">↗</span></Link>
             </div>
           </div>
         </section>
