@@ -15,6 +15,7 @@ export const galleryCategories = [
 ] as const;
 
 export type GalleryCategory = typeof galleryCategories[number]["value"];
+export type GalleryPortfolio = "kitchens" | "bespoke-joinery";
 export type GalleryFilters = { category: GalleryCategory | ""; q: string };
 export type GalleryReference = Pick<GalleryProject, "galleryId" | "slug" | "title">;
 
@@ -74,6 +75,15 @@ export function categoriesForProject(project: GalleryProject) {
   return projectCategories[project.galleryId] ?? [];
 }
 
+export function portfolioForProject(project: GalleryProject): GalleryPortfolio {
+  return project.category === "Kitchen Installation" ? "kitchens" : "bespoke-joinery";
+}
+
+export const portfolioLinks = {
+  kitchens: { label: "Kitchens", href: "/kitchens" },
+  "bespoke-joinery": { label: "Bespoke joinery projects", href: "/bespoke-joinery/projects" },
+} as const;
+
 export function projectFamily(project: GalleryProject) {
   return Object.entries(projectFamilies).find(([, ids]) => ids.includes(project.galleryId))?.[0] ?? project.galleryId;
 }
@@ -105,9 +115,10 @@ function searchable(value: string) {
   return value.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 }
 
-export function filterGalleryProjects(filters: GalleryFilters) {
+export function filterGalleryProjects(filters: GalleryFilters, portfolio?: GalleryPortfolio) {
   const terms = searchable(filters.q).split(/\s+/).filter(Boolean);
   const matches = publicGalleryProjects.filter(project => {
+    if (portfolio && portfolioForProject(project) !== portfolio) return false;
     const categories = categoriesForProject(project);
     if (filters.category && !categories.includes(filters.category)) return false;
     const aliases = Object.entries(retiredIds).filter(([, id]) => id === project.galleryId).map(([id]) => id);
@@ -143,6 +154,6 @@ export function relatedGalleryProjects(project: GalleryProject) {
   const score = (item: GalleryProject) => categoriesForProject(item).reduce((total, category) => total + (categories.includes(category) ? 4 : 0), 0)
     + (categoriesForProject(item)[0] === categories[0] ? 6 : 0)
     + (projectFamily(item) === projectFamily(project) ? 3 : 0);
-  return publicGalleryProjects.filter(item => item.slug !== project.slug && score(item) > 0)
+  return publicGalleryProjects.filter(item => item.slug !== project.slug && portfolioForProject(item) === portfolioForProject(project) && score(item) > 0)
     .sort((a, b) => score(b) - score(a) || Number(a.galleryId.slice(1)) - Number(b.galleryId.slice(1))).slice(0, 3);
 }

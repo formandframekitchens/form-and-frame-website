@@ -1092,8 +1092,8 @@ summary::-webkit-details-marker { display: none; }
 .gallery-index { padding-block: 28px 80px; }
 .gallery-card-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 52px 28px; }
 .gallery-card { min-width: 0; }
-.gallery-tools { display: grid; gap: 22px; }
-.gallery-search { max-width: 650px; }
+.gallery-tools { display: grid; grid-template-columns: minmax(0, 1fr); gap: 22px; }
+.gallery-search { min-width: 0; max-width: 650px; }
 .gallery-search label { display: block; margin-bottom: 8px; font-size: 13px; font-weight: 600; }
 .gallery-search-fields { display: flex; gap: 10px; }
 .gallery-search input { min-width: 0; flex: 1; border: 1px solid var(--line); background: var(--ivory); color: var(--charcoal); padding: 13px 15px; font: inherit; border-radius: 0; }
@@ -1253,3 +1253,16 @@ summary::-webkit-details-marker { display: none; }
   .project-case-study-copy p { font-size: 16px; }
   .project-related-links { grid-template-columns: 1fr; }
 }
+
+/* B20: distinct kitchen and joinery portfolio entry points. */
+.portfolio-navigation { display: flex; flex-wrap: wrap; gap: 12px 32px; margin-block: 26px; border-block: 1px solid var(--line); padding-block: 16px; }
+.portfolio-navigation a { display: inline-flex; gap: 18px; align-items: center; padding: 6px 0; }
+.portfolio-navigation a[aria-current="page"] { font-weight: 700; text-decoration: underline; text-underline-offset: 6px; }
+.portfolio-actions { margin-top: 24px; }
+.portfolio-project-grid { margin-top: 24px; }
+.kitchens-portfolio .portfolio-project-grid { grid-template-columns: 1fr; }
+.kitchens-portfolio .gallery-card > a { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); align-items: center; gap: 36px; }
+.portfolio-route-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; }
+.portfolio-route-grid p { margin-block: 18px; }
+.portfolio-route-grid .text-link { display: table; margin-top: 16px; }
+@media (max-width: 900px) { .portfolio-route-grid, .kitchens-portfolio .gallery-card > a { grid-template-columns: 1fr; } }

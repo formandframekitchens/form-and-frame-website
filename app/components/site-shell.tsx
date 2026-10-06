@@ -34,7 +34,7 @@ export function Footer() {
     <footer className="site-footer">
       <div className="container footer-main">
         <div><Wordmark /><p>Bespoke joinery, fitted furniture and kitchens.<br />Luton, Bedfordshire.</p><p><a href={PHONE_HREF}>{BUSINESS_PHONE_DISPLAY}</a><br /><a href={EMAIL_HREF}>{BUSINESS_EMAIL}</a></p></div>
-        <nav aria-label="Footer navigation">{[...navigation, { label: "Bespoke Joinery", href: "/bespoke-joinery" }, { label: "Bespoke Kitchens", href: "/bespoke-kitchens" }, { label: "In-Frame Kitchens", href: "/in-frame-kitchens" }, { label: "Materials & Finishes", href: "/guides/joinery-materials-finishes" }, { label: "Internal Doors", href: "/internal-door-installation" }, { label: "Privacy", href: "/privacy" }].map(item => <Link key={item.href} href={item.href}>{item.label}</Link>)}</nav>
+        <nav aria-label="Footer navigation">{[...navigation, { label: "Joinery Portfolio", href: "/bespoke-joinery/projects" }, { label: "All Projects", href: "/gallery" }, { label: "Kitchen Installation", href: "/kitchen-installation" }, { label: "Bespoke Kitchens", href: "/bespoke-kitchens" }, { label: "In-Frame Kitchens", href: "/in-frame-kitchens" }, { label: "Materials & Finishes", href: "/guides/joinery-materials-finishes" }, { label: "Internal Doors", href: "/internal-door-installation" }, { label: "Privacy", href: "/privacy" }].map(item => <Link key={item.href} href={item.href}>{item.label}</Link>)}</nav>
       </div>
       <div className="container footer-bottom"><span>FORM &amp; FRAME</span><span>Considered installation. From plan to finish.</span></div>
     </footer>

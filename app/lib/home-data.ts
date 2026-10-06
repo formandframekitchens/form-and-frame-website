@@ -1,10 +1,9 @@
 import { supplierPages } from "./supplier-pages";
 
 export const navigation = [
+  { label: "Kitchens", href: "/kitchens" },
+  { label: "Bespoke Joinery", href: "/bespoke-joinery" },
   { label: "Services", href: "/services" },
-  { label: "Gallery", href: "/gallery" },
-  { label: "Kitchen Brands", href: "/kitchen-installation#suppliers" },
-  { label: "How It Works", href: "/bespoke-joinery#joinery-process" },
   { label: "Areas", href: "/areas" },
   { label: "Contact", href: "/contact" },
 ];
