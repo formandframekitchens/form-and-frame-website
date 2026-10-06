@@ -39,7 +39,7 @@ export default function BespokeJoineryPage() {
 
     <ServiceSection title="How the work is delivered">
       <p className="service-prose">Form & Frame focuses on design, technical coordination, installation and project control. Specialist manufacturing partners may be used for production where that is the most suitable route for the project. Your quotation and specification confirm the agreed responsibilities before work begins.</p>
-      <p className="service-prose service-prose-spaced">For a luxury fitted interior, the distinction is in the details: the proportions of the doors, the continuity of the grain, the way lighting meets a shelf and how metal or mirror is integrated into the cabinetry. Our <Link href="/bespoke-joinery/projects">bespoke joinery portfolio</Link> show these details alongside the finished rooms.</p>
+      <p className="service-prose service-prose-spaced">For a luxury fitted interior, the distinction is in the details: the proportions of the doors, the continuity of the grain, the way lighting meets a shelf and how metal or mirror is integrated into the cabinetry. Our <Link href="/bespoke-joinery/projects">bespoke joinery portfolio</Link> shows these details alongside the finished rooms.</p>
       <p className="service-prose service-prose-spaced">Natural veneer, painted surfaces, high-gloss finishes and decorative fittings can be considered within the agreed specification. A photograph is a useful reference, while physical samples establish the material, colour and sheen for your own furniture. <Link href="/guides/joinery-materials-finishes">Read our guide to joinery materials and finishes</Link>.</p>
     </ServiceSection>
 
