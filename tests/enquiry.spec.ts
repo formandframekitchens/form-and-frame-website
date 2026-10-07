@@ -25,8 +25,12 @@ test("four numbered service rows keep their routes and fit on a laptop", async (
   expect(list.itemListElement.map((item: { position: number }) => item.position)).toEqual([1, 2, 3, 4]);
 });
 
-test("seven kitchen rows have unique images and keep supporting content below the opening screen", async ({ page }, testInfo) => {
+test("kitchen fitting enquiry is prominent and seven supplier rows retain their routes and images", async ({ page }, testInfo) => {
   await page.goto("/kitchen-installation");
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Kitchen fitting in Luton and nearby towns");
+  const fittingEnquiry = page.getByRole("link", { name: "Send your kitchen plans", exact: false });
+  await expect(fittingEnquiry).toBeInViewport();
+  await expect(fittingEnquiry).toHaveAttribute("href", "/contact?service=kitchen-installation&installation=own-kitchen#enquiry-form");
   const rows = page.locator(".kitchen-selection .services-hub-row");
   const paths = ["/in-frame-kitchens", "/bespoke-kitchens", ...suppliers.slice(0,5).map(supplier => "/kitchen-installation/" + supplier)];
   await expect(rows).toHaveCount(7);
@@ -36,9 +40,6 @@ test("seven kitchen rows have unique images and keep supporting content below th
     await expect.poll(() => rows.nth(index).locator("img").evaluate(image => (image as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
   }
   expect(new Set(await rows.locator("img").evaluateAll(images => images.map(image => image.getAttribute("src")))).size).toBe(7);
-  if (testInfo.project.name === "desktop") {
-    for (const row of await rows.all()) await expect(row).toBeInViewport({ ratio: 1 });
-  }
   expect(await page.locator("#suppliers").evaluate(element => element.getBoundingClientRect().top)).toBeGreaterThanOrEqual(testInfo.project.use.viewport!.height - 1);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   await page.screenshot({ path: testInfo.outputPath("kitchen-choice.png") });

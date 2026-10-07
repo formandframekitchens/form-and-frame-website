@@ -5,6 +5,7 @@ import { KitchenChoiceFlow } from "../components/kitchen-choice-flow";
 import { enquiryHref } from "../lib/enquiry";
 import { kitchenFAQs } from "../lib/supplier-pages";
 import { serviceMetadata } from "../lib/service-metadata";
+import { ServiceStructuredData } from "../components/structured-data";
 
 export const metadata = serviceMetadata("Kitchen Fitter & Installation Luton", "Independent kitchen fitting in Luton, Bedfordshire and Hertfordshire. Customer-supplied kitchens, worktops, appliances and installation coordination.", "/kitchen-installation");
 
@@ -14,7 +15,7 @@ export default function KitchenInstallationPage() {
     <main id="main-content" className="service-page services-hub">
     <KitchenChoiceFlow />
     <ServiceSection title="Explore installation by supplier" eyebrow="Your kitchen, independently fitted" id="suppliers">
-      <p className="service-prose">Independent kitchen installation for customer-supplied kitchens across Luton, Bedfordshire and Hertfordshire. We also fit kitchens from Benchmarx, B&amp;Q and other suppliers. <Link href="#choose-installation">Choose your kitchen above</Link>, or tell us about your project below.</p>
+      <p className="service-prose">Independent kitchen installation for customer-supplied kitchens in Luton and nearby towns. We also fit kitchens from Benchmarx, B&amp;Q and other suppliers. <Link href="#choose-installation">Explore your kitchen options above</Link>, or tell us about your project below.</p>
       <SupplierNavigation />
       <div className="actions">
         <Link className="text-link" href={enquiryHref({ service: "kitchen-installation", supplier: "other", installation: "own-kitchen" })}>Another or overseas supplier <span aria-hidden="true">↗</span></Link>
@@ -41,6 +42,7 @@ export default function KitchenInstallationPage() {
     ]} />
     <ServiceQuote enquiryUrl={enquiryHref({ service: "kitchen-installation" })} />
     </main>
+    <ServiceStructuredData name="Independent kitchen installation" description="Independent fitting of customer-supplied kitchens in Luton and nearby towns. Send your plans, postcode and room photographs for an installation enquiry." path="/kitchen-installation" />
     <Footer />
   </>;
 }
