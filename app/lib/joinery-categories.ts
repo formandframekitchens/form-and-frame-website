@@ -7,6 +7,7 @@ export type JoineryCategory = {
   copy: string;
   image: string;
   alt: string;
+  imageDisclosure?: string;
   introduction: string;
   considerations: string[];
   gallery?: JoineryGalleryImage[];
@@ -18,7 +19,8 @@ export const joineryCategories: readonly JoineryCategory[] = [
     slug: "wardrobes", title: "Bespoke fitted wardrobes",
     copy: "Fitted wardrobes with hanging space, drawers and storage arranged around you.",
     image: "/images/joinery-choices/01-wardrobes.webp",
-    alt: "Sage-green fitted wardrobes with oak shelving and hanging storage",
+    alt: "AI concept illustration: Sage-green fitted wardrobes with oak shelving and hanging storage",
+    imageDisclosure: "AI concept image",
     introduction: "Wardrobes designed around your room and the way you organise your clothes. We can discuss the fitted layout, door style, hanging space, shelving and drawers as one coordinated design.",
     considerations: ["The wall space, ceiling height and any sloping ceilings.", "Your preferred balance of hanging space, drawers and shelves.", "Door styles, handles and finishes that suit the room."],
   },
@@ -26,7 +28,8 @@ export const joineryCategories: readonly JoineryCategory[] = [
     slug: "alcove-units", title: "Bespoke alcove units",
     copy: "Cupboards and shelving fitted neatly into the spaces beside your fireplace.",
     image: "/images/joinery-choices/02-alcove-units.webp",
-    alt: "Fitted sage-green alcove cupboards with oak shelves beside a fireplace",
+    alt: "AI concept illustration: Fitted sage-green alcove cupboards with oak shelves beside a fireplace",
+    imageDisclosure: "AI concept image",
     introduction: "Make useful storage from the spaces beside a chimney breast or within a wall recess. Alcove cupboards and shelving can combine concealed storage with open display, sized to the proportions of your room.",
     considerations: ["The width and depth of each alcove, including skirtings and wall irregularities.", "What you want to display and what you would prefer to store behind doors.", "Existing sockets, cables and the relationship to the fireplace."],
   },
@@ -34,7 +37,8 @@ export const joineryCategories: readonly JoineryCategory[] = [
     slug: "bookcases", title: "Bespoke bookcases",
     copy: "Shelving made for your books, collections and the proportions of your room.",
     image: "/images/joinery-choices/03-bookcases.webp",
-    alt: "A full-wall oak bookcase with books, display shelves and low cupboards",
+    alt: "AI concept illustration: A full-wall oak bookcase with books, display shelves and low cupboards",
+    imageDisclosure: "AI concept image",
     introduction: "A bookcase can make a whole wall work harder or bring purpose to a smaller recess. We consider shelf heights, book sizes, display space and closed storage alongside the finish and proportions.",
     considerations: ["The sizes of your books and the items you would like to display.", "Open shelving, low cupboards or a combination of the two.", "Shelf spans, intended loads and suitable fixing into the existing walls."],
   },
@@ -42,7 +46,8 @@ export const joineryCategories: readonly JoineryCategory[] = [
     slug: "entertainment-units", title: "Bespoke media walls & TV units",
     copy: "Media cabinetry with space for your screen, equipment and concealed cables.",
     image: "/images/joinery-choices/04-entertainment-unit.webp",
-    alt: "A television framed by oak panelling and fitted sage-green media storage",
+    alt: "AI concept illustration: A television framed by oak panelling and fitted sage-green media storage",
+    imageDisclosure: "AI concept image",
     introduction: "Bring the television, media equipment and storage together in one considered piece of cabinetry. The layout can balance open display with concealed storage while allowing for access, cables and ventilation.",
     considerations: ["Your screen size, viewing position and any wall mounting requirements.", "Equipment dimensions, cable routes and ventilation needs.", "The balance of display shelving and closed cupboards."],
   },
@@ -50,7 +55,8 @@ export const joineryCategories: readonly JoineryCategory[] = [
     slug: "office-furniture", title: "Bespoke home office furniture",
     copy: "Fitted desks, shelving and storage for a comfortable place to work.",
     image: "/images/joinery-choices/05-office-furniture.webp",
-    alt: "A fitted oak desk with sage-green drawers and matching office shelves",
+    alt: "AI concept illustration: A fitted oak desk with sage-green drawers and matching office shelves",
+    imageDisclosure: "AI concept image",
     introduction: "Create a working space around the equipment you use and the storage you need. A fitted desk, cupboards and shelving can make a dedicated office or a quieter corner of your home more practical.",
     considerations: ["The number of people using the workspace and the equipment it needs to hold.", "Desk height, seating space and the position of windows and lighting.", "Storage for documents, printers and everyday items, with accessible cable routes."],
   },
@@ -58,7 +64,8 @@ export const joineryCategories: readonly JoineryCategory[] = [
     slug: "under-stairs-storage", title: "Under-stairs storage",
     copy: "Make the space beneath your stairs useful with cupboards and pull-out storage.",
     image: "/images/joinery-choices/06-under-stairs-storage.webp",
-    alt: "Fitted storage beneath an oak staircase with a pull-out shoe drawer",
+    alt: "AI concept illustration: Fitted storage beneath an oak staircase with a pull-out shoe drawer",
+    imageDisclosure: "AI concept image",
     introduction: "Use the shape beneath your staircase for storage that is easier to reach and organise. Depending on the space, the design can combine cupboards, shelves and pull-out compartments for everyday belongings.",
     considerations: ["The staircase shape, available depth and clear space for opening doors or drawers.", "Shoes, coats, household items or other belongings you need to store.", "Access to existing meters, pipes, services and the staircase structure."],
   },
@@ -66,7 +73,8 @@ export const joineryCategories: readonly JoineryCategory[] = [
     slug: "unique-furniture", title: "Individual bespoke furniture",
     copy: "Individual pieces and unusual fitted projects, developed around your idea.",
     image: "/images/joinery-choices/07-unique-furniture.webp",
-    alt: "A curved oak sideboard with fluted doors and a pale stone top",
+    alt: "AI concept illustration: A curved oak sideboard with fluted doors and a pale stone top",
+    imageDisclosure: "AI concept image",
     introduction: "For an idea that does not fit a standard category, share the room, the purpose and a few references. We can review an individual furniture piece or an unusual fitted project and discuss what is practical to design, make and install.",
     considerations: ["What the piece needs to do and the space it will occupy.", "Reference images, sketches or existing furniture you want it to complement.", "Materials, finish, access and the practical requirements of making and installing it."],
   },

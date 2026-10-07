@@ -4,7 +4,7 @@ import { ServiceCardImage } from "./service-card-image";
 import { Breadcrumbs, type BreadcrumbItem } from "./breadcrumbs";
 import { siteUrl } from "../lib/site";
 
-type SelectionChoice = { title: string; copy: string; href: string; image: string; alt: string };
+type SelectionChoice = { title: string; copy: string; href: string; image: string; alt: string; imageDisclosure?: string };
 
 export function ServiceSelection({ id, title, label, choices, action, className = "", breadcrumbs = [], introduction }: {
   id: string;
@@ -37,7 +37,7 @@ export function ServiceSelection({ id, title, label, choices, action, className 
             <Link href={choice.href} className="services-hub-row">
               <span className="services-card-number" aria-hidden="true">{number}</span>
               <ServiceCardImage src={choice.image} alt={choice.alt} number={number} />
-              <div className="services-card-content"><h2>{choice.title}</h2><p>{choice.copy}</p></div>
+              <div className="services-card-content"><h2>{choice.title}</h2><p>{choice.copy}</p>{choice.imageDisclosure && <small className="services-image-disclosure">{choice.imageDisclosure}</small>}</div>
               <span className="services-card-action">{action} <span aria-hidden="true">↗</span></span>
             </Link>
           </li>;

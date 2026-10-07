@@ -22,7 +22,12 @@ const makeSet = (label: string): ServiceImageSet => ({
 const makeKitchenSet = (key: string, label: string): ServiceImageSet => {
   const images = makeSet(label);
   const choice = kitchenChoices.find(item => item.href.split("/").pop() === key);
-  if (choice) images.hero = { src: choice.image, alt: choice.alt };
+  if (choice) images.hero = {
+    src: choice.image,
+    alt: choice.alt,
+    caption: "AI concept illustration",
+    note: "Illustrative design, not a completed Form & Frame project or a specific supplier product.",
+  };
   return images;
 };
 

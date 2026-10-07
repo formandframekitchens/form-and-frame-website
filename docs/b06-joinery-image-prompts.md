@@ -1,6 +1,6 @@
 # B06 joinery selection imagery
 
-Generated with the built-in image generation tool on 24 September 2026. Seven coordinated design concepts for the joinery selection and introductory category pages. These are not photographs of completed client jobs. Customer-facing images use plain subject descriptions and no generation captions, following the approved site presentation. Original generated files are retained; website copies are 1280px WebP, quality 86.
+Generated with the built-in image generation tool on 24 September 2026. Seven coordinated design concepts for the joinery selection and introductory category pages. These are not photographs of completed client jobs. B21 adds visible AI concept labels and explicit alternative text under the owner's later transparency instruction. This supersedes the earlier presentation without generation captions. Original generated files are retained; website copies are 1280px WebP, quality 86.
 
 Detailed galleries will be curated as the individual category pages are developed. Do not present these images as completed projects.
 
