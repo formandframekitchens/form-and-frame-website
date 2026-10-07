@@ -702,6 +702,8 @@ summary::-webkit-details-marker { display: none; }
 .service-selection-compact { --selection-thumb-height: clamp(64px, 8.3svh, 96px); padding-block: 20px; }
 .service-selection-compact .services-hub-hero { padding-bottom: 20px; }
 .service-selection-compact .services-hub-hero h1 { font-size: clamp(34px, 3.6vw, 46px); }
+.kitchen-fitting-intro { max-width: 850px; margin-top: 22px; }
+.kitchen-fitting-intro .actions { align-items: center; margin-block: 24px; }
 .service-selection-compact .services-hub-row { grid-template-columns: 44px calc(var(--selection-thumb-height) * 1.5) minmax(0, 1fr) auto; padding-block: 6px; }
 .service-selection-compact .services-card-image { height: var(--selection-thumb-height); }
 .service-selection-compact .services-card-content h2 { font-size: clamp(22px, 2vw, 28px); }
@@ -950,8 +952,13 @@ summary::-webkit-details-marker { display: none; }
   }
   .kitchen-carousel-pause {
     right: 10px;
-    bottom: 171px;
+    bottom: 64px;
   }
+  .hero-image { min-height: 0; }
+  .hero-image .kitchen-carousel { position: relative; height: clamp(320px, 90vw, 480px); }
+  .hero-overlay { position: relative; }
+  .hero-promise strong { white-space: normal; }
+  .kitchen-carousel-dots { bottom: 12px; left: 10px; transform: none; }
 }
 
 

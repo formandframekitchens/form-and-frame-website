@@ -10,24 +10,24 @@ const socialImage = {
 };
 
 export const metadata: Metadata = {
-  title: "Bespoke Joinery & Kitchens Luton | Form & Frame",
-  description: "Bespoke joinery, fitted wardrobes and kitchens in Luton. Design, specialist manufacture and installation coordinated across Bedfordshire and Hertfordshire.",
+  title: "Kitchen Installation & Joinery Luton | Form & Frame",
+  description: "Independent kitchen installation in Luton and nearby towns. Customer-supplied kitchens, fitted furniture and over 20 years of industry experience. Send your plans.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Bespoke Joinery & Kitchens Luton | Form & Frame",
-    description: "Made-to-measure furniture, bespoke kitchens and independent kitchen installation from Luton.",
+    title: "Kitchen Installation & Joinery Luton | Form & Frame",
+    description: "Independent fitting for your kitchen, plus fitted furniture and bespoke joinery. Based in Luton. Send your plans for an installation enquiry.",
     images: [socialImage],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bespoke Joinery & Kitchens Luton | Form & Frame",
-    description: "Made-to-measure furniture, bespoke kitchens and independent kitchen installation from Luton.",
+    title: "Kitchen Installation & Joinery Luton | Form & Frame",
+    description: "Independent fitting for your kitchen, plus fitted furniture and bespoke joinery. Based in Luton. Send your plans for an installation enquiry.",
     images: [socialImage.url],
   },
 };
 
 export default function Home() {
-  return <><Header /><main id="main-content"><div className="first-screen"><Hero /><TrustStrip /></div><BespokeFurniture /><ProjectsPreview /><KitchenInstallation /><TechnicalExpertise /><Process /><SecondaryServices /><FAQ /><FinalCTA /></main><Footer /></>;
+  return <><Header /><main id="main-content"><div className="first-screen"><Hero /><TrustStrip /></div><KitchenInstallation /><ProjectsPreview /><TechnicalExpertise /><Process /><BespokeFurniture /><SecondaryServices /><FAQ /><FinalCTA /></main><Footer /></>;
 }

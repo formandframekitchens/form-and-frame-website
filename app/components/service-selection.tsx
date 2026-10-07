@@ -1,11 +1,12 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 import { ServiceCardImage } from "./service-card-image";
 import { Breadcrumbs, type BreadcrumbItem } from "./breadcrumbs";
 import { siteUrl } from "../lib/site";
 
 type SelectionChoice = { title: string; copy: string; href: string; image: string; alt: string };
 
-export function ServiceSelection({ id, title, label, choices, action, className = "", breadcrumbs = [] }: {
+export function ServiceSelection({ id, title, label, choices, action, className = "", breadcrumbs = [], introduction }: {
   id: string;
   title: string;
   label: string;
@@ -13,6 +14,7 @@ export function ServiceSelection({ id, title, label, choices, action, className 
   action: string;
   className?: string;
   breadcrumbs?: BreadcrumbItem[];
+  introduction?: ReactNode;
 }) {
   const itemList = {
     "@context": "https://schema.org", "@type": "ItemList",
@@ -25,6 +27,7 @@ export function ServiceSelection({ id, title, label, choices, action, className 
     <header className="services-hub-hero"><div className="container">
       <Breadcrumbs items={breadcrumbs} />
       <h1>{title}</h1>
+      {introduction}
     </div></header>
     <section className="services-hub-list-section" aria-label={label}><div className="container">
       <ol className="services-hub-list">

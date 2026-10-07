@@ -6,6 +6,7 @@ import { publicGalleryProjects } from "../lib/gallery-projects";
 import { GalleryProjectCard } from "./gallery-project-card";
 import { Photo } from "./photo";
 import { KitchenCarousel } from "./kitchen-carousel";
+import { enquiryHref } from "../lib/enquiry";
 
 function Eyebrow({ children }: { children: ReactNode }) {
   return <p className="eyebrow">{children}</p>;
@@ -19,18 +20,18 @@ export function Hero() {
     <section className="hero">
       <div className="container hero-layout">
         <div className="hero-copy">
-          <Eyebrow>Made for your home <span aria-hidden="true">·</span> Luton</Eyebrow>
-          <h1>Bespoke Joinery &amp; Kitchens in Luton</h1>
-          <p className="hero-description">Fitted wardrobes, alcove cupboards, distinctive furniture and kitchens, with design, specialist manufacture and installation carefully coordinated. Based in Luton, serving Bedfordshire and Hertfordshire.</p>
+          <Eyebrow>Independent kitchen fitting <span aria-hidden="true">·</span> Luton</Eyebrow>
+          <h1>Kitchen installation in Luton</h1>
+          <p className="hero-description">Your kitchen, carefully fitted. We install customer-supplied kitchens in Luton and nearby towns, with over 20 years of industry experience. Send your plans and postcode to discuss the fitting. Fitted furniture and bespoke joinery enquiries are welcome too.</p>
         </div>
         <div className="hero-image">
           <KitchenCarousel />
           <div className="hero-overlay">
             <div className="hero-promise">
-              <strong>Furniture that belongs in your room.</strong>
-              <span className="hero-process">Discuss <i>→</i> Design <i>→</i> Coordinate <i>→</i> Install</span>
+              <strong>From your kitchen plan to the final fit.</strong>
+              <span className="hero-process">Send plans <i>→</i> Review <i>→</i> Home visit <i>→</i> Install</span>
             </div>
-            <div className="hero-actions"><Action href="/services">Choose your service</Action><Action href="/gallery" secondary>View our work</Action></div>
+            <div className="hero-actions"><Action href={enquiryHref({ service: "kitchen-installation" })}>Send your plans</Action><Action href="/kitchen-installation" secondary>Kitchen fitting</Action></div>
           </div>
         </div>
       </div>
@@ -41,7 +42,7 @@ export function Hero() {
 export function TrustStrip() {
   return (
     <div className="trust-strip"><ul className="container">
-      <li><strong>20 Years</strong><span>Joinery experience</span></li>
+      <li><strong>20+ Years</strong><span>Industry experience</span></li>
       <li><strong>Made to Measure</strong><span>Furniture for your space</span></li>
       <li><strong>Luton Based</strong><span>Local service</span></li>
       <li><strong>Any Supplier</strong><span>Customer-supplied kitchens welcome</span></li>
@@ -110,7 +111,7 @@ export function Process() {
 }
 
 export function ProjectsPreview() {
-  const projects = ["G27", "G32", "G01"].map(id => publicGalleryProjects.find(project => project.galleryId === id)!);
+  const projects = ["G01", "G27", "G32"].map(id => publicGalleryProjects.find(project => project.galleryId === id)!);
   return (
     <section className="section projects-section" id="projects"><div className="container">
       <p className="eyebrow">Completed work</p>
@@ -153,9 +154,9 @@ export function FAQ() {
 export function FinalCTA() {
   return (
     <section className="section final-cta" id="quote"><div className="container">
-      <h2>Tell Us About Your Room</h2>
-      <p>Send your postcode, room photographs, approximate dimensions and ideas. We can review the furniture or kitchen you have in mind.</p>
-      <div className="actions"><Action>Discuss my project</Action><a className="button button-outline" href="https://wa.me/447933026532?text=Hello%2C%20I%27d%20like%20to%20discuss%20bespoke%20joinery%20or%20a%20kitchen%20with%20Form%20%26%20Frame.">WhatsApp instead <span aria-hidden="true">↗</span></a></div>
+      <h2>Send Your Kitchen Plans</h2>
+      <p>Start with your postcode, supplier plan and a few room photographs. Tell us your preferred timing so we can discuss the scope and next step.</p>
+      <div className="actions"><Action href={enquiryHref({ service: "kitchen-installation" })}>Start my installation enquiry</Action><a className="button button-outline" href="https://wa.me/447933026532?text=Hello%2C%20I%27d%20like%20to%20discuss%20a%20kitchen%20installation%20with%20Form%20%26%20Frame.">WhatsApp instead <span aria-hidden="true">↗</span></a></div>
       <div className="quote-contact" id="quote-contact">
         {!WHATSAPP_NUMBER && <p>Our enquiry contact details are being set up. Plan sending and WhatsApp enquiries will be available here soon.</p>}
       </div>

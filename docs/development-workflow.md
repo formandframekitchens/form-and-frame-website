@@ -1,10 +1,11 @@
 # Form & Frame Website Development Workflow
 
-## Current sequence — 6 October 2026 / B20
+## Current sequence - 7 October 2026 / B19 resumed
 
-- B20 — Separate Kitchens and Bespoke Joinery portfolios.
-- Branch: `b20-kitchen-joinery-portfolios`; based on verified master e210166.
-- B19 local enquiry work remains preserved in its own worktree and is not included.
+- B19 - Local kitchen installation entry points and enquiries.
+- Branch: `b19-local-kitchen-enquiries`; original changes preserved in f8cdb47 before reconciliation.
+- B20 separate Kitchens and Bespoke Joinery portfolios is already live through PR83 / bb5faf2.
+- B19 includes the verified B20 implementation and retains its separate portfolio navigation.
 - Next new website batch: B21; next unassigned gallery: G78.
 
 ## Branch numbering
