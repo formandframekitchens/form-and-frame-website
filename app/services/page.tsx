@@ -15,7 +15,7 @@ const services = [
     title: "Bespoke Joinery & Fitted Furniture",
     href: "/bespoke-joinery",
     image: "/images/services-hub/01-bespoke-joinery-ai.webp",
-    alt: "Bespoke sage-green wardrobes with fitted oak shelving",
+    alt: "AI concept illustration: Bespoke sage-green wardrobes with fitted oak shelving",
     copy: "Wardrobes, alcoves, media walls and offices, designed and fitted for your room.",
   },
   {
@@ -23,7 +23,7 @@ const services = [
     title: "Kitchen Installation",
     href: "/kitchen-installation",
     image: "/images/services-hub/02-kitchen-installation-ai.webp",
-    alt: "A fitted kitchen with oak and sage-green cabinetry",
+    alt: "AI concept illustration: A fitted kitchen with oak and sage-green cabinetry",
     copy: "Your kitchen, professionally fitted. Choose your installation and supplier.",
   },
   {
@@ -31,7 +31,7 @@ const services = [
     title: "Internal Door Installation",
     href: "/internal-door-installation",
     image: "/images/services-hub/03-internal-door-ai.webp",
-    alt: "An oak internal door fitted into its matching frame",
+    alt: "AI concept illustration: An oak internal door fitted into its matching frame",
     copy: "Hinged, glazed and sliding internal doors, including made-to-order options where required.",
   },
   {
@@ -39,7 +39,7 @@ const services = [
     title: "Joinery & Furniture Installation",
     href: "/joinery-installation",
     image: "/images/services-hub/04-factory-joinery-ai.webp",
-    alt: "Finished cabinets in a joinery factory, ready for site installation",
+    alt: "AI concept illustration: Finished cabinets in a joinery factory, ready for site installation",
     copy: "Installation of factory-made cabinetry and furniture from your chosen manufacturer.",
   },
 ];
@@ -73,6 +73,7 @@ export default function ServicesPage() {
               <div className="services-card-content">
                 <h2>{service.title}</h2>
                 <p>{service.copy}</p>
+                <small className="services-image-disclosure">AI concept image</small>
               </div>
               <span className="services-card-action">Explore service <span aria-hidden="true">↗</span></span>
             </Link>

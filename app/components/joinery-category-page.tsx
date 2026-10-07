@@ -39,7 +39,7 @@ export function JoineryCategoryPage({ category }: { category: JoineryCategory })
           </div>
           <figure className="service-visual service-hero-visual"><div className="service-visual-frame">
             <Image src={hero?.src ?? category.image} alt={hero?.alt ?? category.alt} fill preload sizes="(max-width: 1000px) 92vw, 46vw" style={hero ? { objectFit: "contain" } : undefined} />
-          </div></figure>
+          </div>{!hero && category.imageDisclosure && <figcaption>{category.imageDisclosure}<span>Illustrative design, not a completed Form &amp; Frame project.</span></figcaption>}</figure>
         </div>
       </div></header>
       {projects.length > 0 && <ServiceSection title={`Completed ${category.title.toLowerCase()} projects`} eyebrow="Our work" id="completed-projects">

@@ -1,12 +1,12 @@
 # Form & Frame Website Development Workflow
 
-## Current sequence - 7 October 2026 / B19 resumed
+## Current sequence - 7 October 2026 / B21
 
-- B19 - Local kitchen installation entry points and enquiries.
-- Branch: `b19-local-kitchen-enquiries`; original changes preserved in f8cdb47 before reconciliation.
-- B20 separate Kitchens and Bespoke Joinery portfolios is already live through PR83 / bb5faf2.
-- B19 includes the verified B20 implementation and retains its separate portfolio navigation.
-- Next new website batch: B21; next unassigned gallery: G78.
+- B21 - Explicit disclosure for existing AI concept imagery.
+- Branch: `b21-ai-concept-disclosure`; reuses the B19 local checkout without altering the preserved B19 branch.
+- B19 local kitchen enquiries and B20 separate portfolios are live through PR84 / fa59d8f and PR83 / bb5faf2.
+- B21 labels 18 existing concept thumbnails, seven kitchen concept heroes and joinery concept fallbacks. Genuine portfolio heroes retain their original descriptions.
+- Next new website batch: B22; next unassigned gallery: G78.
 
 ## Branch numbering
 

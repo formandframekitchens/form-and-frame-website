@@ -294,8 +294,8 @@ summary::-webkit-details-marker { display: none; }
 .service-image-placeholder { width: 100%; height: 100%; min-height: 230px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; background: linear-gradient(135deg, color-mix(in srgb, var(--stone) 35%, var(--ivory)), color-mix(in srgb, var(--green) 12%, var(--ivory))); color: color-mix(in srgb, var(--charcoal) 58%, var(--ivory)); }
 .service-image-placeholder span { font-size: 12px; font-weight: 700; letter-spacing: .16em; }
 .service-image-placeholder small { font-size: 13px; }
-.service-visual figcaption { display: flex; justify-content: space-between; gap: 20px; padding-top: 12px; font-size: 13px; line-height: 1.4; color: color-mix(in srgb, var(--charcoal) 62%, var(--ivory)); }
-.service-visual figcaption span { flex-shrink: 0; font-size: 12px; }
+.service-visual figcaption { padding-top: 12px; font-size: 13px; line-height: 1.4; color: color-mix(in srgb, var(--charcoal) 62%, var(--ivory)); }
+.service-visual figcaption span { display: block; margin-top: 4px; font-size: 12px; }
 .service-trust-strip { max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); background: var(--green); color: var(--ivory); }
 .service-trust-strip li { min-height: 86px; padding: 18px 22px; display: flex; flex-direction: column; justify-content: center; border-left: 1px solid rgb(244 239 230 / 15%); }
 .service-trust-strip li:first-child { border-left: 0; }
@@ -691,6 +691,7 @@ summary::-webkit-details-marker { display: none; }
 .services-card-placeholder { height: 100%; display: grid; place-items: center; background: color-mix(in srgb, var(--stone) 28%, var(--ivory)); color: var(--oak); font: 32px Georgia, "Times New Roman", serif; }
 .services-card-content h2 { font-size: clamp(22px, 2.1vw, 29px); line-height: 1.12; letter-spacing: -.025em; }
 .services-card-content p { max-width: 700px; margin-top: 6px; font-size: 14px; line-height: 1.45; }
+.services-image-disclosure { display: block; margin-top: 6px; color: var(--charcoal); font-size: 12px; line-height: 1.4; }
 .services-card-action { display: inline-flex; align-items: center; gap: 16px; white-space: nowrap; font-size: 12px; letter-spacing: .05em; text-transform: uppercase; text-decoration: underline; text-decoration-color: var(--brass); text-underline-offset: 6px; }
 .services-card-action > span { font-size: 20px; }
 .services-hub-trust { padding-block: 64px; background: color-mix(in srgb, var(--stone) 14%, var(--ivory)); border-block: 1px solid var(--line); }
