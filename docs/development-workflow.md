@@ -1,12 +1,13 @@
 # Form & Frame Website Development Workflow
 
-## Current sequence - 7 October 2026 / B21
+## Current sequence - 9 October 2026 / B22
 
-- B21 - Explicit disclosure for existing AI concept imagery.
-- Branch: `b21-ai-concept-disclosure`; reuses the B19 local checkout without altering the preserved B19 branch.
+- B22 - Privacy-conscious GA4 measurement for meaningful enquiries, contact actions, case studies and existing supplier pages.
+- Branch: `b22-ga4-measurement`.
 - B19 local kitchen enquiries and B20 separate portfolios are live through PR84 / fa59d8f and PR83 / bb5faf2.
-- B21 labels 18 existing concept thumbnails, seven kitchen concept heroes and joinery concept fallbacks. Genuine portfolio heroes retain their original descriptions.
-- Next new website batch: B22; next unassigned gallery: G78.
+- B21 AI concept-image disclosure remains unchanged.
+- A real GA4 web-stream Measurement ID must be configured in Vercel before B22 collects preview or production data.
+- Next new website batch: B23; next unassigned gallery: G78.
 
 ## Branch numbering
 
