@@ -36,7 +36,7 @@ export default function PrivacyPage() {
         <h2>How long information is kept</h2>
         <p>Enquiry and project information is kept only for as long as it is reasonably needed to respond to the enquiry, manage any resulting work, maintain necessary business records, and meet applicable administrative or legal requirements. Email-delivery providers may retain delivery records in accordance with their service and security policies.</p>
 
-        <h2>Your choices and questions</h2>
+        <h2>Website measurement</h2>\n        <p>When website measurement is enabled, this site uses Google Analytics 4 to understand page visits and useful actions such as starting an enquiry or choosing a contact method. This helps Form &amp; Frame assess which services and project pages are useful. Advertising personalisation and Google signals are disabled in the website configuration.</p>\n        <p>Analytics events use page paths, service or supplier identifiers and simple yes-or-no indicators. Names, email addresses, phone numbers, enquiry messages, locations, uploaded files, project plans and enquiry reference numbers are not sent to Google Analytics.</p>\n\n        <h2>Your choices and questions</h2>
         <p>You can choose whether to attach plans or photographs. You can also contact Form & Frame directly instead of using the website form. If you want to ask about personal information connected with an enquiry, contact <a href={EMAIL_HREF}>{BUSINESS_EMAIL}</a> or call <a href={PHONE_HREF}>{BUSINESS_PHONE_DISPLAY}</a>.</p>
 
         <p className="privacy-note">This notice will be updated if the enquiry-delivery, mailbox, storage or retention arrangements materially change.</p>
