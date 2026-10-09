@@ -4,6 +4,7 @@ import "./homepage-responsive-fixes.css";
 
 import { siteUrl } from "./lib/site";
 import { BusinessIdentity } from "./components/structured-data";
+import { GoogleAnalytics } from "./components/google-analytics";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -11,5 +12,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
-  return <html lang="en-GB"><body>{children}<BusinessIdentity /></body></html>;
+  return <html lang="en-GB"><body>{children}<BusinessIdentity /><GoogleAnalytics /></body></html>;
 }
