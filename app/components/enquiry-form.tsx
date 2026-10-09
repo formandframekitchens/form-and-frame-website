@@ -7,6 +7,7 @@ import { WHATSAPP_HREF } from "../lib/contact";
 import type { GalleryReference } from "../lib/gallery-catalog";
 import { joineryOptions, type JoineryId } from "../lib/joinery-types";
 import { installationOptions, isKitchenService, readEnquirySelection, serviceOptions, supplierOptions, type EnquirySelection, type InstallationId, type ServiceId, type SupplierId } from "../lib/enquiry";
+import { trackEvent } from "../lib/analytics";
 
 const MAX_FILES = 5;
 const MAX_FILE_BYTES = 3 * 1024 * 1024;
@@ -119,6 +120,11 @@ function EnquiryFields({ initialSelection, initialProject, initialMessage }: { i
       setReference(String(result.reference || ""));
       setStatus("success");
       setStatusMessage("Thanks — your enquiry has been received. We will contact you using the details provided.");
+      trackEvent("enquiry_submit_success", {
+        service: selection.service,
+        has_attachments: files.length > 0,
+        has_project_reference: Boolean(project),
+      });
       focusStatus();
     } catch {
       setStatus("error");
