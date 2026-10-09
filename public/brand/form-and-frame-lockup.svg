@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 160" width="720" height="160" role="img" aria-labelledby="title desc">
+  <title id="title">Form &amp; Frame</title>
+  <desc id="desc">Form &amp; Frame wardrobe mark and wordmark</desc>
+  <rect width="720" height="160" rx="4" fill="#fff"/>
+  <g transform="translate(34 32) scale(1.5)" fill="none" stroke="#20201d" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M6 7h52M10 55V11h44v44M32 11v44M10 28h13M41 28h13M6 58h52"/>
+  </g>
+  <g transform="translate(34 32) scale(1.5)" fill="#b28b39">
+    <path d="M27 31h3v13h-3zM34 31h3v13h-3z"/>
+  </g>
+  <text x="154" y="98" fill="#20201d" font-family="Georgia, 'Times New Roman', serif" font-size="52" letter-spacing="-2">FORM <tspan fill="#b28b39" font-style="italic">&amp;</tspan> FRAME</text>
+</svg>

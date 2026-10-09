@@ -17,8 +17,13 @@ function AnalyticsListeners() {
     const project = pathname.match(/^\/gallery\/([^/]+)$/)?.[1];
     if (project) trackEvent("important_case_study_view", { project });
 
+    // Preserve B22 measurement on existing public supplier installation pages.
     const supplier = pathname.match(/^\/kitchen-installation\/([^/]+)$/)?.[1];
     if (supplier) trackEvent("supplier_portal_view", { supplier });
+
+    const authorizedSupplier = document.querySelector<HTMLElement>("[data-authorized-supplier]")?.dataset.authorizedSupplier;
+    if (authorizedSupplier) trackEvent("supplier_portal_view", { supplier: authorizedSupplier, access: "private" });
+
   }, [pathname]);
 
   useEffect(() => {
@@ -30,6 +35,13 @@ function AnalyticsListeners() {
       if (href.startsWith("https://wa.me/")) trackEvent("whatsapp_click", { source_path: pathname });
       if (href.startsWith("tel:")) trackEvent("phone_click", { source_path: pathname });
       if (href.startsWith("mailto:")) trackEvent("email_click", { source_path: pathname });
+
+      if (link.dataset.analytics === "instagram") {
+        trackEvent("instagram_outbound_click", {
+          source_path: pathname,
+          content_id: link.dataset.socialContent || "profile",
+        });
+      }
 
       if (href.startsWith("/contact") || href.startsWith("#enquiry-form")) {
         trackEvent("enquiry_start", { source_path: pathname });

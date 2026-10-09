@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Header, Footer } from "./components/site-shell";
 import { Hero, TrustStrip, BespokeFurniture, KitchenInstallation, TechnicalExpertise, Process, SecondaryServices, ProjectsPreview, FAQ, FinalCTA } from "./components/home-sections";
+import { SocialContent } from "./components/social-content";
+import { GoogleReviews } from "./components/google-reviews";
 
 const socialImage = {
   url: "/images/homepage/modern-white-handleless-kitchen-installation.webp",
@@ -29,5 +31,5 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  return <><Header /><main id="main-content"><div className="first-screen"><Hero /><TrustStrip /></div><KitchenInstallation /><ProjectsPreview /><TechnicalExpertise /><Process /><BespokeFurniture /><SecondaryServices /><FAQ /><FinalCTA /></main><Footer /></>;
+  return <><Header /><main id="main-content"><div className="first-screen"><Hero /><TrustStrip /></div><KitchenInstallation /><ProjectsPreview /><SocialContent /><GoogleReviews /><TechnicalExpertise /><Process /><BespokeFurniture /><SecondaryServices /><FAQ /><FinalCTA /></main><Footer /></>;
 }

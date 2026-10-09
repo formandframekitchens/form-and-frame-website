@@ -1,13 +1,26 @@
 # Form & Frame Website Development Workflow
 
-## Current sequence - 9 October 2026 / B22
+## Current sequence - 9 October 2026 / B23–B27 integration
 
-- B22 - Privacy-conscious GA4 measurement for meaningful enquiries, contact actions, case studies and existing supplier pages.
-- Branch: `b22-ga4-measurement`.
-- B19 local kitchen enquiries and B20 separate portfolios are live through PR84 / fa59d8f and PR83 / bb5faf2.
-- B21 AI concept-image disclosure remains unchanged.
-- A real GA4 web-stream Measurement ID must be configured in Vercel before B22 collects preview or production data.
-- Next new website batch: B23; next unassigned gallery: G78.
+- Integration branch: `b23-b27-integration`, PR #98, based on latest `master` with live B22.
+- B23: wardrobe-mark/header/footer lock-up; `/brand/form-and-frame-lockup.svg` and 1440×320 PNG for email signatures. Display at 360×80 or smaller, link the complete logo to `https://formandframekitchens.co.uk/`, and use alt text `Form & Frame`. The PNG is generated from the committed SVG, never a replacement for the approved brand geometry.
+- B24: Google reviews/trust is empty until verified reviews or a checked Google Business Profile review URL is configured. See `docs/google-reviews.md`. No fabricated reviews or self-serving rating schema.
+- B25: three first-party “Latest from Form & Frame” items in `app/lib/social-content.ts`, with outbound Instagram measurement. Use only verified profile/post links and existing approved public images; no third-party widget.
+- B26: four server-gated supplier presentations. See `docs/supplier-portals.md` for secure environment configuration and rotation. Missing configuration fails closed; private routes are noindex and absent from sitemap/navigation. B22 public supplier tracking remains intact; private view events require the authorized server-rendered marker and GA readiness.
+- B27: `/case-studies/k01-surbiton` is an editorial draft, noindex and excluded from the sitemap and public portfolio links. Verified project facts only; no fabricated or unapproved media. See `docs/case-studies.md` for the publication gate.
+- B22: all existing page/contact/enquiry/gallery/public-supplier GA4 events and privacy controls are retained. `NEXT_PUBLIC_GA_MEASUREMENT_ID` remains required to collect analytics. No enquiry PII or query strings are added to new events.
+- Existing gallery routes, visibility, image ordering, approved assets and enquiry behavior are preserved.
+- B28 is reserved as the next batch and is **not implemented** here; next unassigned gallery: G78.
+
+### Validation and local development
+
+Use the existing checkout; each cloud task is isolated. Run `npm ci`, `npm run lint`, `npm run build`, and `npx tsc --noEmit`. Start local development with `npm run dev`. Build before production-backed browser tests: `CI=1 npm run test:e2e`. The runner provides explicit local-only access fixtures and disables real email delivery/review claims. Production credentials belong only in deployment settings.
+
+If Playwright browser downloads are unavailable but system Chromium is installed, use `PLAYWRIGHT_EXECUTABLE_PATH=/usr/bin/chromium CI=1 npm run test:e2e`. The two-worker suite covers desktop and mobile. Use `B23_B27_GA_TEST=1 NEXT_PUBLIC_GA_MEASUREMENT_ID=G-CODEXTEST npm run build` followed by `B23_B27_GA_TEST=1 NEXT_PUBLIC_GA_MEASUREMENT_ID=G-CODEXTEST PLAYWRIGHT_EXECUTABLE_PATH=/usr/bin/chromium CI=1 npm run test:e2e -- tests/integration-analytics.spec.ts` for intercepted, non-network analytics assertions. Rebuild without the test ID afterward; never deploy a test measurement ID.
+
+## Previous sequence - B22
+
+B19/B20 portfolios and local enquiries and B21 AI concept-image disclosures remain live and unchanged.
 
 ## Branch numbering
 

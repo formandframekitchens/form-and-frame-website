@@ -16,7 +16,8 @@ The integration sends a manual `page_view` on each distinct App Router pathname.
 - `kitchen_plan_enquiry` — an enquiry link prefilled for kitchen installation.
 - `primary_cta_click` — button-styled links, with source and destination pathnames.
 - `important_case_study_view` — a public `/gallery/[slug]` view, with the project slug.
-- `supplier_portal_view` — an existing `/kitchen-installation/[supplier]` view, with the supplier slug.
+- `supplier_portal_view` — an existing `/kitchen-installation/[supplier]` view, with the supplier slug. This B22 behavior is preserved. Authorized private `/supplier-portals/[supplier]` presentations additionally emit the same event with the supplier slug and `access: "private"`, only after the server gate and GA readiness. Locked presentations do not emit that business event.
+- `instagram_outbound_click` — B25 card/footer Instagram links, with only the source pathname and stable content identifier (`profile` for the footer). No post captions, destinations or form values are sent.
 
 Route and click listeners are attached only after GA4 is ready. Path changes are de-duplicated, and GA4 automatic page views are disabled so App Router navigation is not counted twice.
 
