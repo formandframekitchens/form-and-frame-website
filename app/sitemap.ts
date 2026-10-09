@@ -4,6 +4,7 @@ import { siteUrl } from "./lib/site";
 import { supplierPages } from "./lib/supplier-pages";
 import { joineryCategories } from "./lib/joinery-categories";
 import { publicGalleryProjects } from "./lib/gallery-projects";
+import { publishedCaseStudies } from "./lib/case-studies";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
@@ -39,6 +40,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${siteUrl}/gallery/${project.slug}`,
       lastModified: "2026-10-05",
       images: project.images.map(image => `${siteUrl}${image.src}`),
+    })),
+    ...publishedCaseStudies.map(study => ({
+      url: `${siteUrl}/case-studies/${study.slug}`,
+      changeFrequency: "monthly" as const,
+      priority: 0.85,
+      images: study.media.flatMap(slot => slot.asset ? [`${siteUrl}${slot.asset.src}`] : []),
     })),
   ];
 }

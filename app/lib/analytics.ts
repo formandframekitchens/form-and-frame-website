@@ -13,7 +13,8 @@ export type AnalyticsEvent =
   | "kitchen_plan_enquiry"
   | "primary_cta_click"
   | "important_case_study_view"
-  | "supplier_portal_view";
+  | "supplier_portal_view"
+  | "instagram_outbound_click";
 
 type EventParameters = Record<string, string | boolean | number>;
 

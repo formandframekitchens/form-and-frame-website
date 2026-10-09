@@ -9,6 +9,7 @@ import { experienceContent } from "../lib/service-content";
 import { getServiceImages, type ServiceImage } from "../lib/service-images";
 import { kitchenFAQs, kitchenScope, supplierPages, type ServiceDetail, type ServiceFAQ, type SupplierPageData } from "../lib/supplier-pages";
 import { enquiryHref, supplierOptions } from "../lib/enquiry";
+import { GoogleReviews } from "./google-reviews";
 
 const supplierAccent: Record<string, string> = {
   howdens: "#c8102e",
@@ -75,6 +76,7 @@ export function ServicePage({ eyebrow, title, introduction, children, parent, br
         {beforeTrust && <div className="service-hero-brand-selector">{beforeTrust}</div>}
       </div></header>
       <ul className="service-trust-strip"><li><strong>Clear planning</strong><span>Project details reviewed first</span></li><li><strong>Independent service</strong><span>Responsibilities agreed clearly</span></li><li><strong>Luton based</strong><span>Bedfordshire & Hertfordshire</span></li><li><strong>Direct enquiry</strong><span>Website form or WhatsApp</span></li></ul>
+      <GoogleReviews />
       {children}
     </main>
     <Footer />
