@@ -4710,8 +4710,8 @@ export const galleryProjects: GalleryProject[] = [
     "galleryId": "G57",
     "slug": "full-wall-white-library-bookcase",
     "title": "Bespoke White Fitted Library Bookcase",
-    "summary": "A full-wall white fitted bookcase with open library shelving and concealed lower storage, designed around a sitting-room book collection.",
-    "seoDescription": "A full-wall white fitted bookcase with open library shelving and concealed lower storage, designed around a sitting-room book collection.",
+    "summary": "A white fitted library wall combines open shelves for books and sculpture with enclosed lower storage behind the sitting-room sofa.",
+    "seoDescription": "Explore a white fitted library bookcase with varied open book and display shelves, plus lower storage shown in detailed sitting-room photographs.",
     "keywords": [
       "bespoke white fitted library bookcase",
       "white library bookcase",
@@ -4727,62 +4727,51 @@ export const galleryProjects: GalleryProject[] = [
     ],
     "caseStudy": [
       {
-        "heading": "A wall devoted to books",
+        "heading": "Open shelves for books and sculpture",
         "body": [
-          "This completed library wall brings books and display pieces together in one fitted composition. The white finish and repeated shelf divisions give the collection a clear structure behind the sitting area, while the upper detailing finishes the cabinetry against the room."
+          "The white bookcase fills the wall behind the striped sofa, with a broad top border beneath the room's ceiling cornice. Long rows of books sit alongside smaller divided bays, while taller openings give sculptures space within the shelving. The white finish outlines the different compartments and lets the colours of the book spines and display pieces stand out. The wider photograph shows how this library wall sits between the side walls, with seating and lamps in front."
         ]
       },
       {
-        "heading": "Open shelves and hidden storage",
+        "heading": "Lower storage beside the sitting area",
         "body": [
-          "Open shelves keep frequently used books within reach. Lower compartments provide space for items that are better stored out of sight; the closer photographs show how these openings sit beneath the main shelving.",
-          "For a similar bookcase, shelf spacing, the weight of the collection, door clearance and access around existing furniture are useful starting points for the design."
+          "Beneath the open shelves, plain white doors enclose the lower storage. One close photograph shows a pair of doors open below books and a sculpture; the angled view looks along the shelves towards further open compartments beside the sofa. These views make the relationship between the display shelves, lower cupboards and nearby furniture clearer than the overall room view, where much of the base is obscured by seating.",
+          "For a similar layout, consider which items you would want on display and which would need enclosed storage. If seating will stand in front of the bookcase, allow for reaching the lower shelves and opening the storage doors without moving furniture each time."
         ]
       },
       {
-        "heading": "Planning a fitted library",
+        "heading": "Planning a library around your collection",
         "body": [
-          "Share a photograph of your wall, approximate dimensions and the kinds of books or objects you want to store. Form & Frame can discuss the proportions, storage layout and fitting requirements before confirming the project scope."
-        ]
-      },
-      {
-        "heading": "Finishes and furniture details",
-        "body": [
-          "The library wall uses a simple white framework to make the books the main visual feature. Several narrow vertical bays divide the long shelves, providing a regular structure behind the sitting-room sofa. Lower compartments offer closed storage beneath the display area. The open-door photograph shows how these cupboards remain integrated into the same grid, while an angled view makes the shelf depth and book arrangement clearer. The cabinetry fits between the surrounding walls and ceiling line, giving the collection a permanent place in the room."
-        ]
-      },
-      {
-        "heading": "Planning similar fitted furniture",
-        "body": [
-          "A home library should be planned around the sizes and weight of the books it will hold. Bay width and shelf support matter, especially with a substantial collection. It is also useful to allow space for larger volumes, objects and future additions, rather than filling every section to its limit from the outset."
+          "If you are considering a fitted library, start with approximate wall dimensions, a photograph of the room and the sizes of the books or objects you hope to store. The mix of tall display openings and shorter book shelves shown here offers a useful reference for discussing proportions. A similar design would need shelf spans and support assessed for the intended loads, with room for larger volumes and future additions.",
+          "Where the bookcase would meet existing walls or a ceiling cornice, those junctions would need checking before the layout is confirmed. Include nearby seating, lamps and access routes in the discussion, so shelf depth and lower storage clearance can be considered together. These are planning points for a future design, rather than specifications established by the photographs."
         ]
       }
     ],
     "category": "Bespoke Joinery",
     "cover": {
       "src": "/images/gallery/g57/g57-01-full-wall-white-bookcase-behind-the-sitting-room.webp",
-      "alt": "Full-wall white bookcase behind the sitting-room sofa",
+      "alt": "White library bookcase with books and sculpture in open shelves behind a striped sofa",
       "fit": "contain"
     },
     "images": [
       {
         "src": "/images/gallery/g57/g57-01-full-wall-white-bookcase-behind-the-sitting-room.webp",
-        "alt": "Full-wall white bookcase behind the sitting-room sofa",
+        "alt": "White library bookcase with books and sculpture in open shelves behind a striped sofa",
         "fit": "contain"
       },
       {
         "src": "/images/gallery/g57/g57-02-wider-sitting-room-view-showing-the-fitted-white.webp",
-        "alt": "Wider sitting-room view showing the fitted white library wall",
+        "alt": "White fitted library wall behind a striped sofa, with lamps, framed paintings and an armchair",
         "fit": "contain"
       },
       {
         "src": "/images/gallery/g57/g57-03-open-lower-storage-compartments-beneath-the-library-shelves.webp",
-        "alt": "Open lower storage compartments beneath the library shelves",
+        "alt": "Two white lower cupboard doors open beneath shelves of art books and a sculpture",
         "fit": "contain"
       },
       {
         "src": "/images/gallery/g57/g57-04-angled-view-of-the-bookcase-shelves-and-low.webp",
-        "alt": "Angled view of the bookcase shelves and low-level storage",
+        "alt": "Side view along white book shelves with CDs and open lower storage beside the sofa",
         "fit": "contain"
       }
     ]
