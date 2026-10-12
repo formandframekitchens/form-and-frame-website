@@ -21,6 +21,9 @@ test("first service opens seven illustrated joinery choices with a clean opening
     await expect(rows.nth(index)).toHaveAttribute("href", `/bespoke-joinery/${slug}`);
     await expect(rows.nth(index).getByRole("heading")).toHaveText(title);
     await expect.poll(() => rows.nth(index).locator("img").evaluate(image => (image as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
+    await expect(rows.nth(index).locator(".services-image-disclosure")).toHaveText("AI concept image");
+    await expect(rows.nth(index).locator(".services-image-disclosure")).toBeVisible();
+    await expect(rows.nth(index).locator("img")).toHaveAttribute("alt", /^AI concept illustration: .+/);
     if (testInfo.project.name === "desktop") await expect(rows.nth(index)).toBeInViewport({ ratio: 1 });
   }
   expect(new Set(await rows.locator("img").evaluateAll(images => images.map(image => image.getAttribute("src")))).size).toBe(7);
@@ -40,7 +43,20 @@ test("every category has a usable destination and passes its identity to the enq
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), slug).toBe(true);
     await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", `https://formandframekitchens.co.uk/bespoke-joinery/${slug}`);
     await expect.poll(() => page.locator(".service-hero-visual img").evaluate(image => (image as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
-    await expect(page.locator(".service-hero-visual figcaption")).toHaveCount(0);
+    const hero = page.locator(".service-hero-visual");
+    if (slug === "under-stairs-storage") {
+      await expect(hero.locator("figcaption")).toBeVisible();
+      await expect(hero.locator("figcaption")).toHaveText("AI concept imageIllustrative design, not a completed Form & Frame project.");
+      await expect(hero.locator("img")).toHaveAttribute("alt", "AI concept illustration: Fitted storage beneath an oak staircase with a pull-out shoe drawer");
+      await expect(hero.locator("img")).toHaveAttribute("src", /06-under-stairs-storage/);
+      await expect(page.locator("#completed-projects")).toHaveCount(0);
+    } else {
+      await expect(hero.locator("figcaption")).toHaveCount(0);
+      await expect(hero.locator("img")).toHaveAttribute("src", /images%2Fgallery%2F/);
+      await expect(hero.locator("img")).toHaveAttribute("alt", /\S+/);
+      await expect(hero.locator("img")).not.toHaveAttribute("alt", /AI concept|AI-generated/i);
+      await expect(page.locator("#completed-projects")).toBeVisible();
+    }
     await expect(page.getByText(/Photography slot ready|AI-generated|Coming soon/i)).toHaveCount(0);
     const enquiryUrl = `/contact?service=bespoke-joinery&joinery=${slug}#enquiry-form`;
     await expect(page.getByRole("link", { name: "Start my enquiry" })).toHaveAttribute("href", enquiryUrl);
