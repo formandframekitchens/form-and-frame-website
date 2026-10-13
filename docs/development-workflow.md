@@ -1,5 +1,11 @@
 # Form & Frame Website Development Workflow
 
+## Current sequence — 13 October 2026 / B29
+
+`b29-gallery-curation` applies the architect's visual order to the Bespoke Joinery portfolio and its filtered results, with 15 existing-photo cover substitutions. All 95 public joinery galleries and their photographs remain available. The general gallery's ordering, kitchen portfolio, related-project ranking and category landing preferences are unchanged. See `docs/tasks/b29-gallery-curation.md` and `docs/gallery/b29-curation.json`.
+
+Continue the owner-authorised architect → separate Codex author → exact-preview review → master merge → production verification workflow. No further release confirmation is required after review. Next development batch: B30. Next new gallery: G109; K01 remains reserved and unpublished. Runner and marketing schedule settings are unchanged.
+
 ## Current sequence — 13 October 2026 / B28
 
 `b28-gallery-first-news` implements gallery-first bespoke joinery, 31 approved archive gallery groups and one existing-gallery view, sourced news/ideas and compatible dependency security patches. See `docs/tasks/b28-gallery-first-news.md` and `docs/gallery/b28-import-manifest.json`.

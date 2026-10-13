@@ -956,19 +956,19 @@ export const archiveGalleryProjects: GalleryProject[] = [
       }
     ],
     "cover": {
-      "src": "/images/gallery/g92/g92-01-warm-timber-media-shelving.webp",
-      "alt": "Close angled view of a wood-grain television cabinet with warm illuminated display shelves, narrow side bays and figured cupboard doors across the base",
+      "src": "/images/gallery/g92/g92-02-warm-timber-media-shelving.webp",
+      "alt": "Wider room view showing the illuminated wood-grain media cabinet beyond a yellow chair and sofa, with the television framed by open shelving",
       "fit": "contain"
     },
     "images": [
       {
-        "src": "/images/gallery/g92/g92-01-warm-timber-media-shelving.webp",
-        "alt": "Close angled view of a wood-grain television cabinet with warm illuminated display shelves, narrow side bays and figured cupboard doors across the base",
+        "src": "/images/gallery/g92/g92-02-warm-timber-media-shelving.webp",
+        "alt": "Wider room view showing the illuminated wood-grain media cabinet beyond a yellow chair and sofa, with the television framed by open shelving",
         "fit": "contain"
       },
       {
-        "src": "/images/gallery/g92/g92-02-warm-timber-media-shelving.webp",
-        "alt": "Wider room view showing the illuminated wood-grain media cabinet beyond a yellow chair and sofa, with the television framed by open shelving",
+        "src": "/images/gallery/g92/g92-01-warm-timber-media-shelving.webp",
+        "alt": "Close angled view of a wood-grain television cabinet with warm illuminated display shelves, narrow side bays and figured cupboard doors across the base",
         "fit": "contain"
       }
     ]
@@ -1502,11 +1502,16 @@ export const archiveGalleryProjects: GalleryProject[] = [
       }
     ],
     "cover": {
-      "src": "/images/gallery/g103/g103-01-wood-grain-storage-with-shelf-and-drawer-interiors.webp",
-      "alt": "Open tall wood-grain cabinet beside a window, revealing broad shelves above two drawer stacks, with a narrow display column along the left side",
+      "src": "/images/gallery/g103/g103-03-wood-grain-storage-with-shelf-and-drawer-interiors.webp",
+      "alt": "Closed wood-grain cabinet with two long framed doors below smaller upper cupboards, standing beside a window and narrow open side shelves",
       "fit": "contain"
     },
     "images": [
+      {
+        "src": "/images/gallery/g103/g103-03-wood-grain-storage-with-shelf-and-drawer-interiors.webp",
+        "alt": "Closed wood-grain cabinet with two long framed doors below smaller upper cupboards, standing beside a window and narrow open side shelves",
+        "fit": "contain"
+      },
       {
         "src": "/images/gallery/g103/g103-01-wood-grain-storage-with-shelf-and-drawer-interiors.webp",
         "alt": "Open tall wood-grain cabinet beside a window, revealing broad shelves above two drawer stacks, with a narrow display column along the left side",
@@ -1515,11 +1520,6 @@ export const archiveGalleryProjects: GalleryProject[] = [
       {
         "src": "/images/gallery/g103/g103-02-wood-grain-storage-with-shelf-and-drawer-interiors.webp",
         "alt": "Close view inside the wood-grain cabinet with several drawers pulled forward, curved finger recesses and shelves above a brightly lit side edge",
-        "fit": "contain"
-      },
-      {
-        "src": "/images/gallery/g103/g103-03-wood-grain-storage-with-shelf-and-drawer-interiors.webp",
-        "alt": "Closed wood-grain cabinet with two long framed doors below smaller upper cupboards, standing beside a window and narrow open side shelves",
         "fit": "contain"
       }
     ]
