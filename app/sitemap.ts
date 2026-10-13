@@ -5,6 +5,7 @@ import { supplierPages } from "./lib/supplier-pages";
 import { joineryCategories } from "./lib/joinery-categories";
 import { publicGalleryProjects } from "./lib/gallery-projects";
 import { publishedCaseStudies } from "./lib/case-studies";
+import { newsArticles } from "./lib/news";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
@@ -18,7 +19,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       "/gallery",
       "/kitchens",
       "/bespoke-joinery",
-      "/bespoke-joinery/projects",
       ...joineryCategories.map(({ slug }) => `/bespoke-joinery/${slug}`),
       "/joinery-installation",
       "/kitchen-installation",
@@ -30,6 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       "/areas",
       "/areas/luton",
       "/guides/joinery-materials-finishes",
+      "/news",
       "/privacy",
     ].map(path => ({
       url: `${siteUrl}${path}`,
@@ -38,9 +39,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
     ...publicGalleryProjects.map(project => ({
       url: `${siteUrl}/gallery/${project.slug}`,
-      lastModified: "2026-10-05",
+      lastModified: project.lastModified ?? "2026-10-05",
       images: project.images.map(image => `${siteUrl}${image.src}`),
     })),
+    ...newsArticles.map(article => ({ url: `${siteUrl}/news/${article.slug}`, lastModified: article.checked, changeFrequency: "monthly" as const, priority: 0.65 })),
     ...publishedCaseStudies.map(study => ({
       url: `${siteUrl}/case-studies/${study.slug}`,
       changeFrequency: "monthly" as const,

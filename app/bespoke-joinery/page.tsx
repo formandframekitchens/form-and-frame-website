@@ -1,18 +1,23 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { DetailGrid, ServiceFAQs, ServiceQuote, ServiceSection } from "../components/service-page";
 import { Footer, Header } from "../components/site-shell";
-import { ServiceSelection } from "../components/service-selection";
+import { ProjectIndex } from "../components/project-index";
 import { joineryCategories } from "../lib/joinery-categories";
 import { serviceMetadata } from "../lib/service-metadata";
 import { enquiryHref } from "../lib/enquiry";
-import { ServiceStructuredData } from "../components/structured-data";
+import { ServiceStructuredData, StructuredData } from "../components/structured-data";
 import { PortfolioNavigation } from "../components/portfolio-navigation";
+import { filterGalleryProjects, readGalleryFilters } from "../lib/gallery-catalog";
+import { siteUrl } from "../lib/site";
 
-export const metadata = serviceMetadata(
-  "Bespoke Joinery & Fitted Furniture Luton",
-  "Bespoke fitted furniture and joinery around Luton, Bedfordshire and Hertfordshire: wardrobes, alcoves, media walls, home offices, utility and boot-room furniture.",
-  "/bespoke-joinery"
-);
+export async function generateMetadata({ searchParams }: PageProps<"/bespoke-joinery">): Promise<Metadata> {
+  const filters = readGalleryFilters(await searchParams);
+  return {
+    ...serviceMetadata("Bespoke Joinery & Fitted Furniture Luton", "Explore real fitted furniture and bespoke joinery: wardrobes, alcoves, media walls, bookcases and home offices. Based in Luton, serving Bedfordshire and Hertfordshire.", "/bespoke-joinery"),
+    ...(filters.q || filters.category ? { robots: { index: false, follow: true } } : {}),
+  };
+}
 
 const process = [
   { title: "Survey & brief", copy: "We review the room, measurements, intended use, finish preferences and practical constraints." },
@@ -21,15 +26,32 @@ const process = [
   { title: "Installation & final checks", copy: "Form & Frame coordinates installation, adjustment, finishing details and final quality checks on site." },
 ];
 
-export default function BespokeJoineryPage() {
+export default async function BespokeJoineryPage({ searchParams }: PageProps<"/bespoke-joinery">) {
+  const filters = readGalleryFilters(await searchParams);
+  const projects = filterGalleryProjects(filters, "bespoke-joinery");
+  const collection = {
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    name: "Form & Frame bespoke joinery portfolio", url: `${siteUrl}/bespoke-joinery`,
+    mainEntity: { "@type": "ItemList", itemListElement: projects.map((project, index) => ({
+      "@type": "ListItem", position: index + 1, name: project.title, url: `${siteUrl}/gallery/${project.slug}`,
+    })) },
+  };
   return <div>
     <Header />
-    <main id="main-content" className="service-page services-hub">
+    <main id="main-content" className="service-page gallery-page joinery-portfolio-page">
       <ServiceStructuredData name="Bespoke joinery and fitted furniture in Luton" description="Design, technical coordination and installation of fitted wardrobes, alcove units, bookcases, media walls and individual furniture." path="/bespoke-joinery" />
-      <ServiceSelection id="choose-joinery" title="Choose your bespoke joinery" label="Bespoke joinery and fitted furniture types" choices={joineryCategories.map(category => ({ ...category, href: '/bespoke-joinery/' + category.slug }))} action="Explore joinery" className="joinery-selection" breadcrumbs={[{ label: "Services", href: "/services" }]} />
+      <StructuredData data={collection} />
+      <header className="gallery-hero"><div className="container">
+        <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/">Home</Link><span aria-hidden="true">/</span><span>Bespoke Joinery</span></nav>
+        <h1>Bespoke joinery, room by room</h1>
+        <p className="gallery-lead">Explore real wardrobes, bookcases, media walls and individual furniture. Open a project to see its full gallery.</p>
+        <div className="joinery-intro-links"><Link href="#joinery-details">Our service &amp; process ↓</Link><Link href={enquiryHref({ service: "bespoke-joinery" })}>Discuss your project ↗</Link></div>
+      </div></header>
+      <ProjectIndex filters={filters} portfolio="bespoke-joinery" basePath="/bespoke-joinery" compactFilters />
       <ServiceSection title="Furniture designed for the space" eyebrow="Bespoke joinery & fitted furniture" id="joinery-details">
         <PortfolioNavigation current="bespoke-joinery" />
-        <p className="service-prose">Fitted furniture designed around the room, with Form & Frame coordinating survey, technical development, specialist manufacture where appropriate, installation and final quality control. Choose the furniture you need above, or send us an enquiry if your project brings several types together.</p>
+        <p className="service-prose">Fitted furniture designed around the room, with Form & Frame coordinating survey, technical development, specialist manufacture where appropriate, installation and final quality control. Explore the work above, or send us an enquiry if your project brings several types together.</p>
+        <nav className="joinery-service-links" aria-label="Bespoke joinery services">{joineryCategories.map(category => <Link key={category.slug} href={`/bespoke-joinery/${category.slug}`}>{category.title}<span aria-hidden="true">↗</span></Link>)}</nav>
         <Link className="text-link" href={enquiryHref({ service: "bespoke-joinery" })}>Request a quote <span aria-hidden="true">↗</span></Link>
       </ServiceSection>
 
@@ -39,7 +61,7 @@ export default function BespokeJoineryPage() {
 
     <ServiceSection title="How the work is delivered">
       <p className="service-prose">Form & Frame focuses on design, technical coordination, installation and project control. Specialist manufacturing partners may be used for production where that is the most suitable route for the project. Your quotation and specification confirm the agreed responsibilities before work begins.</p>
-      <p className="service-prose service-prose-spaced">For a luxury fitted interior, the distinction is in the details: the proportions of the doors, the continuity of the grain, the way lighting meets a shelf and how metal or mirror is integrated into the cabinetry. Our <Link href="/bespoke-joinery/projects">bespoke joinery portfolio</Link> shows these details alongside the finished rooms.</p>
+      <p className="service-prose service-prose-spaced">For a luxury fitted interior, the distinction is in the details: the proportions of the doors, the continuity of the grain, the way lighting meets a shelf and how metal or mirror is integrated into the cabinetry. The galleries above show these details alongside the finished rooms.</p>
       <p className="service-prose service-prose-spaced">Natural veneer, painted surfaces, high-gloss finishes and decorative fittings can be considered within the agreed specification. A photograph is a useful reference, while physical samples establish the material, colour and sheen for your own furniture. <Link href="/guides/joinery-materials-finishes">Read our guide to joinery materials and finishes</Link>.</p>
     </ServiceSection>
 

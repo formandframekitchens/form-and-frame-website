@@ -1,0 +1,564 @@
+{
+  "sourceRepository": "formandframekitchens/valdas-woodworking-website",
+  "sourceCommit": "b25221eacaff861fa157ef1960e987cf7e0f10cb",
+  "formFrameBase": "3d2f7c22ac38d1b1b1dd6a750cd614ef90be9a8b",
+  "importedOn": "2026-10-13",
+  "ownerPermission": "Owner explicitly confirmed image ownership and requested reuse in Form & Frame on 13 October 2026.",
+  "newGalleryGroups": 31,
+  "additionalExistingGalleryViews": 1,
+  "matchedPhotosNotCopied": 277,
+  "images": [
+    {
+      "galleryId": "G78",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/illuminated-charcoal-media-wall/",
+      "publicPath": "/images/gallery/g78/g78-01-illuminated-charcoal-media-wall.webp",
+      "sha256": "6473b26d4cd00e0268cf37ec1052e628e2236ddab0127fcfee9fb738ea5c2483",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "galleryId": "G78",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/illuminated-charcoal-media-wall/",
+      "publicPath": "/images/gallery/g78/g78-02-illuminated-charcoal-media-wall.webp",
+      "sha256": "2f0a454053ce052a8cf4b4b74912eb54a37293f6a6e68ef726c829b7670324c2",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "galleryId": "G78",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/illuminated-charcoal-media-wall/",
+      "publicPath": "/images/gallery/g78/g78-03-illuminated-charcoal-media-wall.webp",
+      "sha256": "8cec01f523821eef4b4be403be2bba43706bd0e101ea5b43f53691227c6fdd06",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "galleryId": "G78",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/illuminated-charcoal-media-wall/",
+      "publicPath": "/images/gallery/g78/g78-04-illuminated-charcoal-media-wall.webp",
+      "sha256": "4f39ad5ec6a554dfe4ce9c1008d616431bd8adc2d91521b91eb6deecddca73a8",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G78",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/illuminated-charcoal-media-wall/",
+      "publicPath": "/images/gallery/g78/g78-05-illuminated-charcoal-media-wall.webp",
+      "sha256": "0394f708d7177904aa269ec373c711efeed612110d0af603dae1b4603e8d5cf7",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "galleryId": "G79",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/sunburst-cabinet-doors/",
+      "publicPath": "/images/gallery/g79/g79-01-sunburst-cabinet-doors.webp",
+      "sha256": "f255d9c1eff304ee7d86ecb7e9f87ed251c3996c492d4a867609a240dfa6d4f4",
+      "width": 1600,
+      "height": 1226
+    },
+    {
+      "galleryId": "G79",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/sunburst-cabinet-doors/",
+      "publicPath": "/images/gallery/g79/g79-02-sunburst-cabinet-doors.webp",
+      "sha256": "f58319a6bee0919d1c9da17eee8530bd97ed805f526a4266c075cf7631f80da1",
+      "width": 931,
+      "height": 1600
+    },
+    {
+      "galleryId": "G79",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/sunburst-cabinet-doors/",
+      "publicPath": "/images/gallery/g79/g79-03-sunburst-cabinet-doors.webp",
+      "sha256": "380339c116d0102b7719c05da1689d3a4a849b4b79a679402cf04f2518fbb8c9",
+      "width": 1108,
+      "height": 1600
+    },
+    {
+      "galleryId": "G79",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/sunburst-cabinet-doors/",
+      "publicPath": "/images/gallery/g79/g79-04-sunburst-cabinet-doors.webp",
+      "sha256": "b72d290cdc031a40350090212c74c2b7c2d8e2e484e01e58ddd3dc08080ede07",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G79",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/sunburst-cabinet-doors/",
+      "publicPath": "/images/gallery/g79/g79-05-sunburst-cabinet-doors.webp",
+      "sha256": "541466fdbebc5b899997f9d9bf83b0a2ae0679e2d5bd8c8a5ae0a61fadbd6d3f",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G80",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/charcoal-entertaining-bar/",
+      "publicPath": "/images/gallery/g80/g80-01-charcoal-entertaining-bar.webp",
+      "sha256": "52c0e0e3bd0dba0921242cee1886b6cfe7e6fe23153ba5914693affc0393c1d6",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "galleryId": "G80",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/charcoal-entertaining-bar/",
+      "publicPath": "/images/gallery/g80/g80-02-charcoal-entertaining-bar.webp",
+      "sha256": "69d84bef7d66fc0c49f9fd25b58546764a0908c99bc96d6121057e5331cf3ef3",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G80",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/charcoal-entertaining-bar/",
+      "publicPath": "/images/gallery/g80/g80-03-charcoal-entertaining-bar.webp",
+      "sha256": "10cb3be6d0ce88474b02201c0b448db1d9a93464be6418a6be9ab5c63531953b",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G80",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/charcoal-entertaining-bar/",
+      "publicPath": "/images/gallery/g80/g80-04-charcoal-entertaining-bar.webp",
+      "sha256": "27c56bda184c30fedbd727342a2c05e7d3aa286453c1c25061e9f1e4e347e0eb",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "galleryId": "G81",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/compact-illuminated-media-cabinet/",
+      "publicPath": "/images/gallery/g81/g81-01-compact-illuminated-media-cabinet.webp",
+      "sha256": "9ac2423072b0735ef8e4215a31a64c70ed110f0ad66403ee7b235ee07dc16fb6",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "galleryId": "G82",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/curved-bar-and-green-banquette/",
+      "publicPath": "/images/gallery/g82/g82-01-curved-bar-and-green-banquette.webp",
+      "sha256": "52c5054e3f85019866416c04472d5e2571c56b2f8b31444904f90d7abd44418b",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "galleryId": "G82",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/curved-bar-and-green-banquette/",
+      "publicPath": "/images/gallery/g82/g82-02-curved-bar-and-green-banquette.webp",
+      "sha256": "db9f2a66535dc6f2ad262789a95bfe5963216c5ff83ad0c83b530a4b78da0564",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "galleryId": "G82",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/curved-bar-and-green-banquette/",
+      "publicPath": "/images/gallery/g82/g82-03-curved-bar-and-green-banquette.webp",
+      "sha256": "f0d5844aa498b5f3d33d5f4786ac26e1b6490d32b6e1dec9e0dd0079e5813dd5",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "galleryId": "G83",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/contemporary-fitted-bedroom/",
+      "publicPath": "/images/gallery/g83/g83-01-contemporary-fitted-bedroom.webp",
+      "sha256": "5e1ea6f2d80833852169cba60c21a830e96e30dbca47502832348736a53862b5",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G83",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/contemporary-fitted-bedroom/",
+      "publicPath": "/images/gallery/g83/g83-02-contemporary-fitted-bedroom.webp",
+      "sha256": "7c3e2fa4ffe6d35f7ae825cb8961e9162d295b1fe33f894c29da9cebb8d6a624",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G83",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/contemporary-fitted-bedroom/",
+      "publicPath": "/images/gallery/g83/g83-03-contemporary-fitted-bedroom.webp",
+      "sha256": "4dd1919d2d5a0b56cca1596313d8e71d9fe1c23f7b874405e80238345e1c4261",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G84",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/textured-geometric-wardrobe/",
+      "publicPath": "/images/gallery/g84/g84-01-textured-geometric-wardrobe.webp",
+      "sha256": "8fa8ec1d01ccb280dccd287d70dcc8fb6cc35249619d460e1736da84d15b397e",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G84",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/textured-geometric-wardrobe/",
+      "publicPath": "/images/gallery/g84/g84-02-textured-geometric-wardrobe.webp",
+      "sha256": "7ca09fa5290a3cfd1171143eab5c9b2f74cb00cde1edc4d1524d90f8b4800758",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G85",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/fluted-headboard-wall/",
+      "publicPath": "/images/gallery/g85/g85-01-fluted-headboard-wall.webp",
+      "sha256": "8955a8fac4f8a10f87412a171926321defb11181db2829485642760954f4d59b",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G86",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/chevron-front-entertaining-bar/",
+      "publicPath": "/images/gallery/g86/g86-01-chevron-front-entertaining-bar.webp",
+      "sha256": "1f08b90818b27e4f02a6e9a04a22a54e2ac7e770218a07efdf3ec363f2a77fa1",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G86",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/chevron-front-entertaining-bar/",
+      "publicPath": "/images/gallery/g86/g86-02-chevron-front-entertaining-bar.webp",
+      "sha256": "3bd73aec3fbffbdf872654dd58a624f268c67c42af1fe0d5e5057d113576e7c0",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G86",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/chevron-front-entertaining-bar/",
+      "publicPath": "/images/gallery/g86/g86-03-chevron-front-entertaining-bar.webp",
+      "sha256": "e6d533fcef26c6d093fb4335dfc05607bf07211dd15fe55bba76f49f997a908e",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G86",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/chevron-front-entertaining-bar/",
+      "publicPath": "/images/gallery/g86/g86-04-chevron-front-entertaining-bar.webp",
+      "sha256": "a3c6ca4a1405d2af20e54a6fd5feb0156f74a497cdde3ad4431208cd59d798ce",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G87",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/sculptural-fluted-gold-tone-cabinet/",
+      "publicPath": "/images/gallery/g87/g87-01-sculptural-fluted-gold-tone-cabinet.webp",
+      "sha256": "0b1d808163db486a4a9738c3e88ecbe2d70ab92550939571e650367c5532dcfd",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G87",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/sculptural-fluted-gold-tone-cabinet/",
+      "publicPath": "/images/gallery/g87/g87-02-sculptural-fluted-gold-tone-cabinet.webp",
+      "sha256": "84238b73beb0cf03579bc87e51e6fb92f5affe25f989ed8ecbe60cf3d861b6ae",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G87",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/sculptural-fluted-gold-tone-cabinet/",
+      "publicPath": "/images/gallery/g87/g87-03-sculptural-fluted-gold-tone-cabinet.webp",
+      "sha256": "9e052b0b4401ad220992b20d40b579fdb2237052fd0058667300af34727dbbcd",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G87",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/sculptural-fluted-gold-tone-cabinet/",
+      "publicPath": "/images/gallery/g87/g87-04-sculptural-fluted-gold-tone-cabinet.webp",
+      "sha256": "b16447fbf10da7900815aa017208f85f70148c3ec553e9b89de75e69216a103a",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G87",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/sculptural-fluted-gold-tone-cabinet/",
+      "publicPath": "/images/gallery/g87/g87-05-sculptural-fluted-gold-tone-cabinet.webp",
+      "sha256": "761948fc7099d520600419f10f8ffa491680f43393b5a8087acccb589121d545",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G88",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/pale-fitted-media-cabinet/",
+      "publicPath": "/images/gallery/g88/g88-01-pale-fitted-media-cabinet.webp",
+      "sha256": "cfe8b6e54f53ab85fe1f23895665886e05661c47d99b886e634dfc5b11373f4d",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "galleryId": "G88",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/pale-fitted-media-cabinet/",
+      "publicPath": "/images/gallery/g88/g88-02-pale-fitted-media-cabinet.webp",
+      "sha256": "da625ff2473da80d2691352c89cd2a5063bcf68560e982118d1aad20af49a3dc",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "galleryId": "G89",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/fluted-television-feature-wall/",
+      "publicPath": "/images/gallery/g89/g89-01-fluted-television-feature-wall.webp",
+      "sha256": "ddf426ec810589e2bfcbb64a3e7ee3896e84608d97525e32d83f42be9dd340df",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G90",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/gold-tone-wine-and-display-cabinet/",
+      "publicPath": "/images/gallery/g90/g90-01-gold-tone-wine-and-display-cabinet.webp",
+      "sha256": "c05f5ee876069caaba08fc2b3a0c7f40971fc7874f2ffa15aa9f751238c5b5d3",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G90",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/gold-tone-wine-and-display-cabinet/",
+      "publicPath": "/images/gallery/g90/g90-02-gold-tone-wine-and-display-cabinet.webp",
+      "sha256": "415360ad30e4de584569755cd6954ff9b0d88beda64fec0ead58dd52e573df69",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G90",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/gold-tone-wine-and-display-cabinet/",
+      "publicPath": "/images/gallery/g90/g90-03-gold-tone-wine-and-display-cabinet.webp",
+      "sha256": "cd136b6d34332ba4eb470cbed5876b314e9047de22f3337b24bb1569a360faad",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G91",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/blue-grey-living-room-media-wall/",
+      "publicPath": "/images/gallery/g91/g91-01-blue-grey-living-room-media-wall.webp",
+      "sha256": "d1ec72a7c30664b05f08d271f419adfc0a0b2f5997dd545c8496938ad4cb8235",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G91",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/blue-grey-living-room-media-wall/",
+      "publicPath": "/images/gallery/g91/g91-02-blue-grey-living-room-media-wall.webp",
+      "sha256": "e60818b4be37280502dadd7a9020d718aee95831dd38370718f0d15309568d09",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G91",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/blue-grey-living-room-media-wall/",
+      "publicPath": "/images/gallery/g91/g91-03-blue-grey-living-room-media-wall.webp",
+      "sha256": "0b3a62dc5a657f6e7a91892dd3b6cff152aad61d1ccd41a12280c6370881e93e",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G91",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/blue-grey-living-room-media-wall/",
+      "publicPath": "/images/gallery/g91/g91-04-blue-grey-living-room-media-wall.webp",
+      "sha256": "91b702c208caf776fcbf6f4f35ca8959fa70045c03dc5faff8aa8d61f81c4ff9",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G92",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/warm-timber-media-shelving/",
+      "publicPath": "/images/gallery/g92/g92-01-warm-timber-media-shelving.webp",
+      "sha256": "1ab398405b2443d9a4999337856fee2a1f5c4c68113229005a8739862df59b88",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G92",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/warm-timber-media-shelving/",
+      "publicPath": "/images/gallery/g92/g92-02-warm-timber-media-shelving.webp",
+      "sha256": "dc7217619d378c9a2b731429fa0caea0e6517136e8e84b250cf306976c7c331c",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G93",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/mirrored-grey-media-wall/",
+      "publicPath": "/images/gallery/g93/g93-01-mirrored-grey-media-wall.webp",
+      "sha256": "bdbaa8f2a6cb92e2950019415fc9d733269fe6f17062b9a73fffd3725bcabe59",
+      "width": 1599,
+      "height": 899
+    },
+    {
+      "galleryId": "G94",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/fitted-wine-rack/",
+      "publicPath": "/images/gallery/g94/g94-01-fitted-wine-rack.webp",
+      "sha256": "63b0221546697e9d677c9bcd151e3e944f5db4f2f121f79194d268dc37735b61",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G95",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/wood-grain-alcove-bookcase/",
+      "publicPath": "/images/gallery/g95/g95-01-wood-grain-alcove-bookcase.webp",
+      "sha256": "ce62137968fab1a912da27647775d3e4ee6e7f5f38529333eede5952dc85604f",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G96",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/white-alcove-bookcase/",
+      "publicPath": "/images/gallery/g96/g96-01-white-alcove-bookcase.webp",
+      "sha256": "433e273a30ddab418a97e50456a753bf98e6f3b61d8337042537afb5cd50a9a5",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G97",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/wardrobe-beneath-a-sloping-ceiling/",
+      "publicPath": "/images/gallery/g97/g97-01-wardrobe-beneath-a-sloping-ceiling.webp",
+      "sha256": "ee2c87ad2329533f6e380eb10ca46dcc2a683065cf7b9a0a76dc6fe3cc880c38",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G98",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/curved-dressing-table/",
+      "publicPath": "/images/gallery/g98/g98-01-curved-dressing-table.webp",
+      "sha256": "9ed9b91db11ea020095067494b21b3e2e9f380e77cb767e6993fcf0b930789c7",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G99",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/geometric-mirrored-wardrobe/",
+      "publicPath": "/images/gallery/g99/g99-01-geometric-mirrored-wardrobe.webp",
+      "sha256": "73dd388ce8348d9ddd80143d44f9b6f167a796db829744bf7b25fdee25227e4f",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G99",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/geometric-mirrored-wardrobe/",
+      "publicPath": "/images/gallery/g99/g99-02-geometric-mirrored-wardrobe.webp",
+      "sha256": "64e90c7f902657f1446c08272e5341bc4b00abf8f552603b4bcddf7b8f5b29c0",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G100",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/white-glazed-alcove-cabinet/",
+      "publicPath": "/images/gallery/g100/g100-01-white-glazed-alcove-cabinet.webp",
+      "sha256": "48683fcd8ab53b65f7c93c28157d7e4dbb4ea1d17a82b4d4a3aaa2ee5ba76c4b",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G101",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/pale-glazed-display-cabinet/",
+      "publicPath": "/images/gallery/g101/g101-01-pale-glazed-display-cabinet.webp",
+      "sha256": "aaef532f7af309c00391e86f763a69d99ac7496ac46ed88bfcd771d3d0c3d60e",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G102",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/corner-library-cabinetry/",
+      "publicPath": "/images/gallery/g102/g102-01-corner-library-cabinetry.webp",
+      "sha256": "ce9b9aebf74591d6f2503d682e7b0623a22134a7771715e7370b2a3688af2145",
+      "width": 1800,
+      "height": 1350
+    },
+    {
+      "galleryId": "G102",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/corner-library-cabinetry/",
+      "publicPath": "/images/gallery/g102/g102-02-corner-library-cabinetry.webp",
+      "sha256": "766acf433818761339499fe403ac12e43d3fc950949c0a605565c9994c8b35e8",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G103",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/wood-grain-storage-with-shelf-and-drawer-interiors/",
+      "publicPath": "/images/gallery/g103/g103-01-wood-grain-storage-with-shelf-and-drawer-interiors.webp",
+      "sha256": "a5494044025e907b76def1274b5c3ef367257589a505970518a628a000651547",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G103",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/wood-grain-storage-with-shelf-and-drawer-interiors/",
+      "publicPath": "/images/gallery/g103/g103-02-wood-grain-storage-with-shelf-and-drawer-interiors.webp",
+      "sha256": "cbad543def430911dd2216cf18fe4c87c04bde4a9bc71c770538fcafa0390734",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G103",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/wood-grain-storage-with-shelf-and-drawer-interiors/",
+      "publicPath": "/images/gallery/g103/g103-03-wood-grain-storage-with-shelf-and-drawer-interiors.webp",
+      "sha256": "049b9e0e50c9e4e31c8b028a26e04dde62bc9c49c02c981061d1ad9a91e439d5",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G104",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/black-bar-with-decorative-front-panel/",
+      "publicPath": "/images/gallery/g104/g104-01-black-bar-with-decorative-front-panel.webp",
+      "sha256": "354180ec4b7cd81a2ea35195956b77472eb39fefab0414e11de035eb45cd2b09",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G104",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/black-bar-with-decorative-front-panel/",
+      "publicPath": "/images/gallery/g104/g104-02-black-bar-with-decorative-front-panel.webp",
+      "sha256": "2081b6da74d8c88138505b393a8c96956f0336ea46c4784ecc289feba7ab8ce9",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G105",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/white-fitted-wardrobe-run/",
+      "publicPath": "/images/gallery/g105/g105-01-white-fitted-wardrobe-run.webp",
+      "sha256": "fb6df6b562913158dfe2df477a3e555c517078bfdea033b7999f5fbe33db0179",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G106",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/wardrobes-with-illuminated-dressing-recess/",
+      "publicPath": "/images/gallery/g106/g106-01-wardrobes-with-illuminated-dressing-recess.webp",
+      "sha256": "65579bb9ea04973879b215c06b301af01cfef9fe4e4355d2ebb9522e9553708e",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "galleryId": "G106",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/wardrobes-with-illuminated-dressing-recess/",
+      "publicPath": "/images/gallery/g106/g106-02-wardrobes-with-illuminated-dressing-recess.webp",
+      "sha256": "9b33639512a64d881dab2578008a5b8162f1b7a2733ed04964cccca6b4129353",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G107",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/corner-cabinet-with-floating-shelves/",
+      "publicPath": "/images/gallery/g107/g107-01-corner-cabinet-with-floating-shelves.webp",
+      "sha256": "eb6c43c93e76dfc20f2ab659183c06de777fde3f983609044be352bfc24c66e3",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "galleryId": "G108",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/dark-ribbed-display-shelving/",
+      "publicPath": "/images/gallery/g108/g108-01-dark-ribbed-display-shelving.webp",
+      "sha256": "6a711b81f0c0f2781643d67fd4b06f5ddf7972fb75631d96d388333634463b1f",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G108",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/dark-ribbed-display-shelving/",
+      "publicPath": "/images/gallery/g108/g108-02-dark-ribbed-display-shelving.webp",
+      "sha256": "2e8876a6ea7123b8532b9da17f7e84f7acd340dfe4c281589cbbfdd79912604b",
+      "width": 1350,
+      "height": 1800
+    },
+    {
+      "galleryId": "G29",
+      "sourceGalleryUrl": "https://valdaswoodworking.co.uk/portfolio/wine-display-cabinetry/",
+      "publicPath": "/images/gallery/g29/g29-08-empty-wine-display-cabinet-shelf-layout.webp",
+      "sha256": "aa054afc027261e5b3d54b8f488f0de1bfe17b9b221558f1264389b4a0c451eb",
+      "width": 1350,
+      "height": 1800
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import { hiddenGalleryIds } from "./gallery-visibility";
+import { archiveGalleryProjects } from "./gallery-archive-oct13";
 
 export type GalleryImage = {
   src: string;
@@ -17,6 +18,8 @@ export type GalleryProject = {
   title: string;
   category: "Kitchen Installation" | "Bespoke Joinery";
   location?: string;
+  lastModified?: string;
+  provenance?: string;
   summary: string;
   seoDescription: string;
   keywords: string[];
@@ -27,6 +30,7 @@ export type GalleryProject = {
 };
 
 export const galleryProjects: GalleryProject[] = [
+  ...archiveGalleryProjects,
   {
     "galleryId": "G01",
     "slug": "handleless-kitchen-installation",
@@ -2414,8 +2418,14 @@ export const galleryProjects: GalleryProject[] = [
         "src": "/images/gallery/g29/g29-06-room-context-for-virginia-water-wine-room.webp",
         "alt": "Room context for Virginia Water wine room",
         "fit": "contain"
+      },
+      {
+        "src": "/images/gallery/g29/g29-08-empty-wine-display-cabinet-shelf-layout.webp",
+        "alt": "Empty mirrored drinks cabinet with illuminated side shelves, two central glass shelves and geometric lines across the dark lower cupboard doors",
+        "fit": "contain"
       }
-    ]
+    ],
+    "lastModified": "2026-10-13"
   },
   {
     "galleryId": "G30",
