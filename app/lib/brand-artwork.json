@@ -31,11 +31,11 @@
   },
   "layout": {
     "markTransform": "translate(2 7)",
-    "wordmarkTransform": "translate(138 8) scale(0.518)",
-    "subtitleTransform": "translate(248.22 109) scale(0.518)",
+    "wordmarkTransform": "translate(138 30) scale(0.518)",
+    "subtitleTransform": "translate(248.22 82) scale(0.518)",
     "divider": {
       "x": 325.08,
-      "y": 74.6,
+      "y": 70,
       "width": 51.8,
       "height": 2.1
     }
