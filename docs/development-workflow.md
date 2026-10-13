@@ -1,5 +1,9 @@
 # Form & Frame Website Development Workflow
 
+## Current sequence — 13 October 2026 / B31
+
+`b31-compact-logo-wording` tightens only the vertical arrangement of the approved logo wording and gold divider beside the unchanged wardrobe mark. See `docs/tasks/b31-compact-logo-wording.md`. Follow the standing-authorised author checks → architect exact-preview review → master release → production verification workflow. Next development batch: B32. Gallery allocation, runner and marketing schedules are unchanged.
+
 ## Current sequence — 13 October 2026 / B30
 
 `b30-reference-logo` implements the owner's supplied mirrored-F logo as a horizontal website lockup, with literal outlined lettering, source-derived gold tones, consistent public assets/icons and responsive navigation clearance. See `docs/tasks/b30-reference-logo.md`. The architect reviews the exact preview before the standing-authorised master release and production check. Next development batch: B31. Gallery allocation remains G109; K01 is still reserved and unpublished. Runner and marketing schedules are unchanged.
