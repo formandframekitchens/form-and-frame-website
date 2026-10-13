@@ -521,10 +521,14 @@ export const galleryProjects: GalleryProject[] = [
       }
     ],
     "cover": {
-      "src": "/images/gallery/g06/g06-01-painted-built-in-window-seat-with-drawer-storage.webp",
-      "alt": "Painted built-in window seat with drawer storage"
+      "src": "/images/gallery/g06/g06-03-made-to-measure-window-seat-storage-detail.webp",
+      "alt": "Made-to-measure window seat storage detail"
     },
     "images": [
+      {
+        "src": "/images/gallery/g06/g06-03-made-to-measure-window-seat-storage-detail.webp",
+        "alt": "Made-to-measure window seat storage detail"
+      },
       {
         "src": "/images/gallery/g06/g06-01-painted-built-in-window-seat-with-drawer-storage.webp",
         "alt": "Painted built-in window seat with drawer storage"
@@ -532,10 +536,6 @@ export const galleryProjects: GalleryProject[] = [
       {
         "src": "/images/gallery/g06/g06-02-built-in-window-seat-drawer-storage-open.webp",
         "alt": "Built-in window seat drawer storage open"
-      },
-      {
-        "src": "/images/gallery/g06/g06-03-made-to-measure-window-seat-storage-detail.webp",
-        "alt": "Made-to-measure window seat storage detail"
       }
     ]
   },
@@ -702,11 +702,16 @@ export const galleryProjects: GalleryProject[] = [
       }
     ],
     "cover": {
-      "src": "/images/gallery/g08/g08-01-front-view-of-full-height-black-oak-grain.webp",
-      "alt": "Front view of full-height black oak-grain media wall with integrated television",
+      "src": "/images/gallery/g08/g08-03-room-view-of-dark-fitted-tv-wall-with.webp",
+      "alt": "Room view of dark fitted TV wall with open shelving and lower storage",
       "fit": "contain"
     },
     "images": [
+      {
+        "src": "/images/gallery/g08/g08-03-room-view-of-dark-fitted-tv-wall-with.webp",
+        "alt": "Room view of dark fitted TV wall with open shelving and lower storage",
+        "fit": "contain"
+      },
       {
         "src": "/images/gallery/g08/g08-01-front-view-of-full-height-black-oak-grain.webp",
         "alt": "Front view of full-height black oak-grain media wall with integrated television",
@@ -715,11 +720,6 @@ export const galleryProjects: GalleryProject[] = [
       {
         "src": "/images/gallery/g08/g08-02-black-oak-bespoke-media-wall-shown-within-a.webp",
         "alt": "Black oak bespoke media wall shown within a bright London interior",
-        "fit": "contain"
-      },
-      {
-        "src": "/images/gallery/g08/g08-03-room-view-of-dark-fitted-tv-wall-with.webp",
-        "alt": "Room view of dark fitted TV wall with open shelving and lower storage",
         "fit": "contain"
       },
       {
@@ -2888,19 +2888,19 @@ export const galleryProjects: GalleryProject[] = [
       }
     ],
     "cover": {
-      "src": "/images/gallery/g34/g34-01-open-mirrored-hallway-wardrobe-revealing-hanging-coats-an.webp",
-      "alt": "Open mirrored hallway wardrobe revealing hanging coats, an upper shelf and shoe storage",
+      "src": "/images/gallery/g34/g34-02-closed-antique-effect-mirrored-wardrobe-doors-beside-the.webp",
+      "alt": "Closed antique-effect mirrored wardrobe doors beside the staircase",
       "fit": "contain"
     },
     "images": [
       {
-        "src": "/images/gallery/g34/g34-01-open-mirrored-hallway-wardrobe-revealing-hanging-coats-an.webp",
-        "alt": "Open mirrored hallway wardrobe revealing hanging coats, an upper shelf and shoe storage",
+        "src": "/images/gallery/g34/g34-02-closed-antique-effect-mirrored-wardrobe-doors-beside-the.webp",
+        "alt": "Closed antique-effect mirrored wardrobe doors beside the staircase",
         "fit": "contain"
       },
       {
-        "src": "/images/gallery/g34/g34-02-closed-antique-effect-mirrored-wardrobe-doors-beside-the.webp",
-        "alt": "Closed antique-effect mirrored wardrobe doors beside the staircase",
+        "src": "/images/gallery/g34/g34-01-open-mirrored-hallway-wardrobe-revealing-hanging-coats-an.webp",
+        "alt": "Open mirrored hallway wardrobe revealing hanging coats, an upper shelf and shoe storage",
         "fit": "contain"
       },
       {
@@ -2976,19 +2976,19 @@ export const galleryProjects: GalleryProject[] = [
       }
     ],
     "cover": {
-      "src": "/images/gallery/g45/g45-01-full-view-of-the-illuminated-alcove-pair-beside.webp",
-      "alt": "Full view of the illuminated alcove pair beside the fireplace in the rooflit living room",
+      "src": "/images/gallery/g45/g45-02-wide-living-room-view-of-the-paired-fitted.webp",
+      "alt": "Wide living-room view of the paired fitted alcoves",
       "fit": "contain"
     },
     "images": [
       {
-        "src": "/images/gallery/g45/g45-01-full-view-of-the-illuminated-alcove-pair-beside.webp",
-        "alt": "Full view of the illuminated alcove pair beside the fireplace in the rooflit living room",
+        "src": "/images/gallery/g45/g45-02-wide-living-room-view-of-the-paired-fitted.webp",
+        "alt": "Wide living-room view of the paired fitted alcoves",
         "fit": "contain"
       },
       {
-        "src": "/images/gallery/g45/g45-02-wide-living-room-view-of-the-paired-fitted.webp",
-        "alt": "Wide living-room view of the paired fitted alcoves",
+        "src": "/images/gallery/g45/g45-01-full-view-of-the-illuminated-alcove-pair-beside.webp",
+        "alt": "Full view of the illuminated alcove pair beside the fireplace in the rooflit living room",
         "fit": "contain"
       },
       {
@@ -3418,11 +3418,16 @@ export const galleryProjects: GalleryProject[] = [
       }
     ],
     "cover": {
-      "src": "/images/gallery/g49/g49-01-front-view-of-mirrored-wardrobes.webp",
-      "alt": "Front view of mirrored wardrobes",
+      "src": "/images/gallery/g49/g49-04-full-front-view-of-fitted-wardrobes-with-mirrored.webp",
+      "alt": "Full front view of fitted wardrobes with mirrored centre doors and pale outer panels",
       "fit": "contain"
     },
     "images": [
+      {
+        "src": "/images/gallery/g49/g49-04-full-front-view-of-fitted-wardrobes-with-mirrored.webp",
+        "alt": "Full front view of fitted wardrobes with mirrored centre doors and pale outer panels",
+        "fit": "contain"
+      },
       {
         "src": "/images/gallery/g49/g49-01-front-view-of-mirrored-wardrobes.webp",
         "alt": "Front view of mirrored wardrobes",
@@ -3436,11 +3441,6 @@ export const galleryProjects: GalleryProject[] = [
       {
         "src": "/images/gallery/g49/g49-03-mirrored-wardrobe-door-detail.webp",
         "alt": "Mirrored wardrobe door detail",
-        "fit": "contain"
-      },
-      {
-        "src": "/images/gallery/g49/g49-04-full-front-view-of-fitted-wardrobes-with-mirrored.webp",
-        "alt": "Full front view of fitted wardrobes with mirrored centre doors and pale outer panels",
         "fit": "contain"
       },
       {
@@ -3515,19 +3515,19 @@ export const galleryProjects: GalleryProject[] = [
       }
     ],
     "cover": {
-      "src": "/images/gallery/g50/g50-01-front-view-of-dressing-table.webp",
-      "alt": "Front view of dressing table",
+      "src": "/images/gallery/g50/g50-02-overall-view-of-fitted-dressing-table.webp",
+      "alt": "Overall view of fitted dressing table",
       "fit": "contain"
     },
     "images": [
       {
-        "src": "/images/gallery/g50/g50-01-front-view-of-dressing-table.webp",
-        "alt": "Front view of dressing table",
+        "src": "/images/gallery/g50/g50-02-overall-view-of-fitted-dressing-table.webp",
+        "alt": "Overall view of fitted dressing table",
         "fit": "contain"
       },
       {
-        "src": "/images/gallery/g50/g50-02-overall-view-of-fitted-dressing-table.webp",
-        "alt": "Overall view of fitted dressing table",
+        "src": "/images/gallery/g50/g50-01-front-view-of-dressing-table.webp",
+        "alt": "Front view of dressing table",
         "fit": "contain"
       },
       {
@@ -3690,19 +3690,19 @@ export const galleryProjects: GalleryProject[] = [
       }
     ],
     "cover": {
-      "src": "/images/gallery/g52/g52-01-floating-bathroom-vanity-beside-the-glass-shower-enclosure.webp",
-      "alt": "Floating bathroom vanity beside the glass shower enclosure",
+      "src": "/images/gallery/g52/g52-02-overall-view-of-fitted-bathroom-vanity.webp",
+      "alt": "Overall view of fitted bathroom vanity",
       "fit": "contain"
     },
     "images": [
       {
-        "src": "/images/gallery/g52/g52-01-floating-bathroom-vanity-beside-the-glass-shower-enclosure.webp",
-        "alt": "Floating bathroom vanity beside the glass shower enclosure",
+        "src": "/images/gallery/g52/g52-02-overall-view-of-fitted-bathroom-vanity.webp",
+        "alt": "Overall view of fitted bathroom vanity",
         "fit": "contain"
       },
       {
-        "src": "/images/gallery/g52/g52-02-overall-view-of-fitted-bathroom-vanity.webp",
-        "alt": "Overall view of fitted bathroom vanity",
+        "src": "/images/gallery/g52/g52-01-floating-bathroom-vanity-beside-the-glass-shower-enclosure.webp",
+        "alt": "Floating bathroom vanity beside the glass shower enclosure",
         "fit": "contain"
       },
       {
@@ -4165,19 +4165,19 @@ export const galleryProjects: GalleryProject[] = [
       }
     ],
     "cover": {
-      "src": "/images/gallery/g38/g38-01-front-view-of-illuminated-dining-display-shelves-above.webp",
-      "alt": "Front view of illuminated dining display shelves above the table",
+      "src": "/images/gallery/g38/g38-02-full-dining-room-view-with-tall-fitted-display.webp",
+      "alt": "Full dining-room view with tall fitted display cabinetry",
       "fit": "contain"
     },
     "images": [
       {
-        "src": "/images/gallery/g38/g38-01-front-view-of-illuminated-dining-display-shelves-above.webp",
-        "alt": "Front view of illuminated dining display shelves above the table",
+        "src": "/images/gallery/g38/g38-02-full-dining-room-view-with-tall-fitted-display.webp",
+        "alt": "Full dining-room view with tall fitted display cabinetry",
         "fit": "contain"
       },
       {
-        "src": "/images/gallery/g38/g38-02-full-dining-room-view-with-tall-fitted-display.webp",
-        "alt": "Full dining-room view with tall fitted display cabinetry",
+        "src": "/images/gallery/g38/g38-01-front-view-of-illuminated-dining-display-shelves-above.webp",
+        "alt": "Front view of illuminated dining display shelves above the table",
         "fit": "contain"
       },
       {
@@ -4503,19 +4503,19 @@ export const galleryProjects: GalleryProject[] = [
       }
     ],
     "cover": {
-      "src": "/images/gallery/g43/g43-01-overall-view-of-esher-home-office.webp",
-      "alt": "Overall view of Esher home office",
+      "src": "/images/gallery/g43/g43-02-home-office-fitted-shelving-and-cabinetry.webp",
+      "alt": "Home-office fitted shelving and cabinetry",
       "fit": "contain"
     },
     "images": [
       {
-        "src": "/images/gallery/g43/g43-01-overall-view-of-esher-home-office.webp",
-        "alt": "Overall view of Esher home office",
+        "src": "/images/gallery/g43/g43-02-home-office-fitted-shelving-and-cabinetry.webp",
+        "alt": "Home-office fitted shelving and cabinetry",
         "fit": "contain"
       },
       {
-        "src": "/images/gallery/g43/g43-02-home-office-fitted-shelving-and-cabinetry.webp",
-        "alt": "Home-office fitted shelving and cabinetry",
+        "src": "/images/gallery/g43/g43-01-overall-view-of-esher-home-office.webp",
+        "alt": "Overall view of Esher home office",
         "fit": "contain"
       },
       {
@@ -4601,19 +4601,19 @@ export const galleryProjects: GalleryProject[] = [
       }
     ],
     "cover": {
-      "src": "/images/gallery/g44/g44-01-overall-view-of-esher-bespoke-bookcase.webp",
-      "alt": "Overall view of Esher bespoke bookcase",
+      "src": "/images/gallery/g44/g44-02-full-width-fitted-display-bookcase-with-lighting-beside.webp",
+      "alt": "Full-width fitted display bookcase with lighting beside a grand piano",
       "fit": "contain"
     },
     "images": [
       {
-        "src": "/images/gallery/g44/g44-01-overall-view-of-esher-bespoke-bookcase.webp",
-        "alt": "Overall view of Esher bespoke bookcase",
+        "src": "/images/gallery/g44/g44-02-full-width-fitted-display-bookcase-with-lighting-beside.webp",
+        "alt": "Full-width fitted display bookcase with lighting beside a grand piano",
         "fit": "contain"
       },
       {
-        "src": "/images/gallery/g44/g44-02-full-width-fitted-display-bookcase-with-lighting-beside.webp",
-        "alt": "Full-width fitted display bookcase with lighting beside a grand piano",
+        "src": "/images/gallery/g44/g44-01-overall-view-of-esher-bespoke-bookcase.webp",
+        "alt": "Overall view of Esher bespoke bookcase",
         "fit": "contain"
       },
       {
@@ -4699,19 +4699,19 @@ export const galleryProjects: GalleryProject[] = [
       }
     ],
     "cover": {
-      "src": "/images/gallery/g56/g56-01-overall-view-of-esher-wine-cellar.webp",
-      "alt": "Overall view of Esher wine cellar",
+      "src": "/images/gallery/g56/g56-02-wine-cellar-interior-with-fitted-bottle-storage.webp",
+      "alt": "Wine cellar interior with fitted bottle storage",
       "fit": "contain"
     },
     "images": [
       {
-        "src": "/images/gallery/g56/g56-01-overall-view-of-esher-wine-cellar.webp",
-        "alt": "Overall view of Esher wine cellar",
+        "src": "/images/gallery/g56/g56-02-wine-cellar-interior-with-fitted-bottle-storage.webp",
+        "alt": "Wine cellar interior with fitted bottle storage",
         "fit": "contain"
       },
       {
-        "src": "/images/gallery/g56/g56-02-wine-cellar-interior-with-fitted-bottle-storage.webp",
-        "alt": "Wine cellar interior with fitted bottle storage",
+        "src": "/images/gallery/g56/g56-01-overall-view-of-esher-wine-cellar.webp",
+        "alt": "Overall view of Esher wine cellar",
         "fit": "contain"
       }
     ]
@@ -4928,19 +4928,19 @@ export const galleryProjects: GalleryProject[] = [
     ],
     "category": "Bespoke Joinery",
     "cover": {
-      "src": "/images/gallery/g59/g59-01-full-front-view-of-a-white-radiator-cover.webp",
-      "alt": "Full front view of a white radiator cover beneath a decorative mirror",
+      "src": "/images/gallery/g59/g59-02-sitting-room-view-with-white-fitted-shelving-and.webp",
+      "alt": "Sitting-room view with white fitted shelving and radiator-cover joinery",
       "fit": "contain"
     },
     "images": [
       {
-        "src": "/images/gallery/g59/g59-01-full-front-view-of-a-white-radiator-cover.webp",
-        "alt": "Full front view of a white radiator cover beneath a decorative mirror",
+        "src": "/images/gallery/g59/g59-02-sitting-room-view-with-white-fitted-shelving-and.webp",
+        "alt": "Sitting-room view with white fitted shelving and radiator-cover joinery",
         "fit": "contain"
       },
       {
-        "src": "/images/gallery/g59/g59-02-sitting-room-view-with-white-fitted-shelving-and.webp",
-        "alt": "Sitting-room view with white fitted shelving and radiator-cover joinery",
+        "src": "/images/gallery/g59/g59-01-full-front-view-of-a-white-radiator-cover.webp",
+        "alt": "Full front view of a white radiator cover beneath a decorative mirror",
         "fit": "contain"
       },
       {
@@ -5382,19 +5382,19 @@ export const galleryProjects: GalleryProject[] = [
       }
     ],
     "cover": {
-      "src": "/images/gallery/g65/g65-01-full-dressing-table-with-drawer-banks-and-a.webp",
-      "alt": "Full dressing table with drawer banks and a raised mirror beneath a rooflight",
+      "src": "/images/gallery/g65/g65-02-side-view-of-the-fitted-dressing-table-and.webp",
+      "alt": "Side view of the fitted dressing table and chair under the sloping ceiling",
       "fit": "contain"
     },
     "images": [
       {
-        "src": "/images/gallery/g65/g65-01-full-dressing-table-with-drawer-banks-and-a.webp",
-        "alt": "Full dressing table with drawer banks and a raised mirror beneath a rooflight",
+        "src": "/images/gallery/g65/g65-02-side-view-of-the-fitted-dressing-table-and.webp",
+        "alt": "Side view of the fitted dressing table and chair under the sloping ceiling",
         "fit": "contain"
       },
       {
-        "src": "/images/gallery/g65/g65-02-side-view-of-the-fitted-dressing-table-and.webp",
-        "alt": "Side view of the fitted dressing table and chair under the sloping ceiling",
+        "src": "/images/gallery/g65/g65-01-full-dressing-table-with-drawer-banks-and-a.webp",
+        "alt": "Full dressing table with drawer banks and a raised mirror beneath a rooflight",
         "fit": "contain"
       },
       {

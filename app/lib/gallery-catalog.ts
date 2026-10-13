@@ -1,4 +1,5 @@
 import { archiveGalleryCategories } from "./gallery-archive-oct13";
+import { joineryGalleryRank } from "./gallery-curation";
 import { enquiryHref, type ServiceId } from "./enquiry";
 import { publicGalleryProjects, type GalleryProject } from "./gallery-projects";
 import { bottomGalleryIds } from "./gallery-visibility";
@@ -128,6 +129,12 @@ export function filterGalleryProjects(filters: GalleryFilters, portfolio?: Galle
       ...galleryCategories.filter(category => categories.includes(category.value)).map(category => category.label)].join(" "));
     return terms.every(term => text.includes(term));
   });
+  if (portfolio === "bespoke-joinery") {
+    // Preserve the reviewed sequence in every search/category subset. Future
+    // unranked projects remain visible after the explicitly curated selection.
+    return matches.sort((a, b) => (joineryGalleryRank.get(a.galleryId) ?? Number.MAX_SAFE_INTEGER)
+      - (joineryGalleryRank.get(b.galleryId) ?? Number.MAX_SAFE_INTEGER));
+  }
   const mainProjects = matches.filter(project => !bottomGalleryIds.includes(project.galleryId));
   const bottomProjects = matches.filter(project => bottomGalleryIds.includes(project.galleryId))
     .sort((a, b) => bottomGalleryIds.indexOf(a.galleryId) - bottomGalleryIds.indexOf(b.galleryId));
