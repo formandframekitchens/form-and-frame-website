@@ -1,5 +1,9 @@
 # Form & Frame Website Development Workflow
 
+## Current sequence — 13 October 2026 / B30
+
+`b30-reference-logo` implements the owner's supplied mirrored-F logo as a horizontal website lockup, with literal outlined lettering, source-derived gold tones, consistent public assets/icons and responsive navigation clearance. See `docs/tasks/b30-reference-logo.md`. The architect reviews the exact preview before the standing-authorised master release and production check. Next development batch: B31. Gallery allocation remains G109; K01 is still reserved and unpublished. Runner and marketing schedules are unchanged.
+
 ## Current sequence — 13 October 2026 / B29
 
 `b29-gallery-curation` applies the architect's visual order to the Bespoke Joinery portfolio and its filtered results, with 15 existing-photo cover substitutions. All 95 public joinery galleries and their photographs remain available. The general gallery's ordering, kitchen portfolio, related-project ranking and category landing preferences are unchanged. See `docs/tasks/b29-gallery-curation.md` and `docs/gallery/b29-curation.json`.
