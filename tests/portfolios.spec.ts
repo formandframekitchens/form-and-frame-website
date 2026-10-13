@@ -21,17 +21,17 @@ test("kitchen and joinery journeys stay in their own portfolios", async ({ page 
   await expect(page.getByRole("combobox", { name: "Service", exact: true })).toHaveValue("kitchen-installation");
   await expect(page.locator('input[name="project"]')).toHaveValue(kitchen.slug);
 
-  await page.goto("/bespoke-joinery/projects");
+  await page.goto("/bespoke-joinery");
   await expect(page.locator(".gallery-card")).toHaveCount(publicGalleryProjects.filter(project => project.category !== "Kitchen Installation").length);
   await expect(page.getByRole("navigation", { name: "Filter projects by furniture type" }).getByRole("link", { name: /^Kitchens/ })).toHaveCount(0);
   await page.getByRole("searchbox", { name: "Find a project" }).fill("G32");
   await page.getByRole("button", { name: "Search", exact: true }).click();
-  await expect(page).toHaveURL(/\/bespoke-joinery\/projects\?q=G32/);
+  await expect(page).toHaveURL(/\/bespoke-joinery\?q=G32/);
   await expect(page.locator(".gallery-card")).toHaveCount(1);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth)).toBe(true);
   await page.screenshot({ path: testInfo.outputPath("joinery-search.png"), fullPage: true });
   await page.getByRole("link", { name: `View ${joinery.title}`, exact: true }).click();
-  await expect(page.getByRole("navigation", { name: "Breadcrumb", exact: true }).getByRole("link", { name: "Bespoke joinery projects", exact: true })).toHaveAttribute("href", "/bespoke-joinery/projects");
+  await expect(page.getByRole("navigation", { name: "Breadcrumb", exact: true }).getByRole("link", { name: "Bespoke joinery projects", exact: true })).toHaveAttribute("href", "/bespoke-joinery");
   await page.getByRole("link", { name: "Send an enquiry", exact: true }).click();
   await expect(page.getByRole("combobox", { name: "Service", exact: true })).toHaveValue("bespoke-joinery");
   await expect(page.locator('input[name="project"]')).toHaveValue(joinery.slug);
@@ -41,7 +41,7 @@ test("kitchen and joinery journeys stay in their own portfolios", async ({ page 
 test("joinery search cannot leak kitchen results and works without scripts", async ({ browser }, testInfo) => {
   const context = await browser.newContext({ javaScriptEnabled: false, baseURL: String(testInfo.project.use.baseURL) });
   const page = await context.newPage();
-  await page.goto("/bespoke-joinery/projects?category=kitchens");
+  await page.goto("/bespoke-joinery?category=kitchens");
   await expect(page.locator(".gallery-card")).toHaveCount(0);
   await page.getByRole("link", { name: "Clear filters", exact: true }).click();
   await page.getByRole("searchbox").fill("G53");
@@ -55,16 +55,24 @@ test("joinery search cannot leak kitchen results and works without scripts", asy
 
 test("portfolio metadata, sitemap and project breadcrumbs agree", async ({ request }) => {
   const sitemap = await (await request.get("/sitemap.xml")).text();
-  for (const route of ["/kitchens", "/bespoke-joinery/projects"]) {
+  for (const route of ["/kitchens", "/bespoke-joinery"]) {
     expect(sitemap).toContain(`https://formandframekitchens.co.uk${route}</loc>`);
     const html = await (await request.get(route)).text();
     expect(html).toContain(`rel="canonical" href="https://formandframekitchens.co.uk${route}"`);
     expect(html).toContain('"@type":"CollectionPage"');
   }
-  const filtered = await (await request.get("/bespoke-joinery/projects?q=G32")).text();
+  const filtered = await (await request.get("/bespoke-joinery?q=G32")).text();
   expect(filtered).toContain('name="robots" content="noindex, follow"');
   const html = await (await request.get(`/gallery/${kitchen.slug}`)).text();
   const schemas = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(match => JSON.parse(match[1]));
   expect(schemas.find(schema => schema["@type"] === "BreadcrumbList").itemListElement[1].item).toBe("https://formandframekitchens.co.uk/kitchens");
   expect(html).toContain(`rel="canonical" href="https://formandframekitchens.co.uk/gallery/${kitchen.slug}"`);
+});
+
+test("legacy joinery portfolio redirects with its filters and is absent from sitemap", async ({ request }) => {
+  const response = await request.get("/bespoke-joinery/projects?category=wardrobes&q=G27", { maxRedirects: 0 });
+  expect(response.status()).toBe(308);
+  expect(response.headers().location).toBe("/bespoke-joinery?category=wardrobes&q=G27");
+  const sitemap = await (await request.get("/sitemap.xml")).text();
+  expect(sitemap).not.toContain("/bespoke-joinery/projects</loc>");
 });

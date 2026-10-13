@@ -5,6 +5,7 @@ export const navigation = [
   { label: "Bespoke Joinery", href: "/bespoke-joinery" },
   { label: "Services", href: "/services" },
   { label: "Areas", href: "/areas" },
+  { label: "News & Ideas", href: "/news" },
   { label: "Contact", href: "/contact" },
 ];
 

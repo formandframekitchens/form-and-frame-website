@@ -65,7 +65,7 @@ export default async function GalleryProjectPage({ params }: PageProps<"/gallery
     mainEntityOfPage: { "@type": "WebPage", "@id": projectUrl },
     keywords: project.keywords.join(", "),
     about: project.category,
-    creator: {
+    publisher: {
       "@type": "Organization",
       "@id": `${siteUrl}/#business`,
       name: "Form & Frame",
@@ -123,6 +123,7 @@ export default async function GalleryProjectPage({ params }: PageProps<"/gallery
               </div>
               <p className="project-detail-summary">{project.summary}</p>
             </div>
+            {project.provenance && <p className="project-provenance">{project.provenance}</p>}
           </div>
         </header>
 
@@ -185,7 +186,7 @@ export default async function GalleryProjectPage({ params }: PageProps<"/gallery
         {relatedProjects.length > 0 && (
           <section className="project-related-section">
             <div className="container">
-              <p className="eyebrow">More completed work</p>
+              <p className="eyebrow">More project photographs</p>
               <h2>Related {project.category.toLowerCase()} projects</h2>
               <div className="project-related-links">
                 {relatedProjects.map(item => (

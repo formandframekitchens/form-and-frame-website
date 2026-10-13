@@ -1,3 +1,4 @@
+import { archiveGalleryCategories } from "./gallery-archive-oct13";
 import { enquiryHref, type ServiceId } from "./enquiry";
 import { publicGalleryProjects, type GalleryProject } from "./gallery-projects";
 import { bottomGalleryIds } from "./gallery-visibility";
@@ -21,6 +22,7 @@ export type GalleryReference = Pick<GalleryProject, "galleryId" | "slug" | "titl
 
 // First category is the most specific enquiry choice. Others aid discovery.
 const projectCategories: Record<string, GalleryCategory[]> = {
+  ...archiveGalleryCategories,
   G01: ["kitchens"], G02: ["bookcases", "entertainment-units"], G03: ["wardrobes"],
   G04: ["entertainment-units"], G06: ["unique-furniture"], G07: ["wardrobes", "unique-furniture"],
   G08: ["entertainment-units"], G09: ["bookcases", "unique-furniture"], G11: ["internal-doors"],
@@ -81,7 +83,7 @@ export function portfolioForProject(project: GalleryProject): GalleryPortfolio {
 
 export const portfolioLinks = {
   kitchens: { label: "Kitchens", href: "/kitchens" },
-  "bespoke-joinery": { label: "Bespoke joinery projects", href: "/bespoke-joinery/projects" },
+  "bespoke-joinery": { label: "Bespoke joinery projects", href: "/bespoke-joinery" },
 } as const;
 
 export function projectFamily(project: GalleryProject) {

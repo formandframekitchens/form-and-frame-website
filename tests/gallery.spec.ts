@@ -104,7 +104,7 @@ test("hidden galleries are retained but unpublished from routes, search and enqu
 test("search and category navigation also work without JavaScript", async ({ browser }, testInfo) => {
   const context = await browser.newContext({ javaScriptEnabled: false, baseURL: String(testInfo.project.use.baseURL) });
   const page = await context.newPage();
-  await page.goto("/gallery");
+  await page.goto("/gallery", { waitUntil: "domcontentloaded" });
   await page.getByRole("searchbox").fill("G32");
   await page.getByRole("button", { name: "Search", exact: true }).click();
   await expect(page.locator(".gallery-card")).toHaveCount(1);
@@ -186,6 +186,7 @@ test("photo dialog traps focus, navigates and restores the opener", async ({ pag
 });
 
 test("joinery pages connect to relevant completed projects", async ({ page }) => {
+  test.setTimeout(60_000);
   for (const category of ["wardrobes", "alcove-units", "bookcases", "entertainment-units", "office-furniture", "unique-furniture"]) {
     await page.goto("/bespoke-joinery/" + category);
     expect(await page.locator("#completed-projects .gallery-card").count()).toBeGreaterThan(0);

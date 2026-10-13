@@ -15,6 +15,7 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       ...galleryImageRedirects,
+      { source: "/bespoke-joinery/projects", destination: "/bespoke-joinery", permanent: true },
       {
         source: "/gallery/manchester-makeup-island-dressing-table",
         destination: "/gallery/manchester-walk-in-wardrobe",

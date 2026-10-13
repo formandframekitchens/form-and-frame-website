@@ -1,5 +1,11 @@
 # Form & Frame Website Development Workflow
 
+## Current sequence — 13 October 2026 / B28
+
+`b28-gallery-first-news` implements gallery-first bespoke joinery, 31 approved archive gallery groups and one existing-gallery view, sourced news/ideas and compatible dependency security patches. See `docs/tasks/b28-gallery-first-news.md` and `docs/gallery/b28-import-manifest.json`.
+
+The owner authorises the architect → separate Codex author → exact-preview review → master merge → production verification workflow without another release confirmation. Retain the separate code review and preview checks. Do not change the old desktop runner or activate daily marketing scheduling until the proposed strategy and timing are agreed. Next new gallery after this batch: G109; K01 remains reserved for the separately gated case study. Next development batch: B29.
+
 ## Current sequence - 9 October 2026 / B23–B27 integration
 
 - Integration branch: `b23-b27-integration`, PR #98, based on latest `master` with live B22.
