@@ -1,10 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <title>Form &amp; Frame wardrobe mark</title>
-  <rect width="64" height="64" fill="#fff"/>
-  <g fill="none" stroke="#111110" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter">
-    <path d="M6 7h52M10 55V11h44v44M32 11v44M10 28h13M41 28h13M6 58h52"/>
-  </g>
-  <g fill="#b28b39">
-    <path d="M27 31h3v13h-3zM34 31h3v13h-3z"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><title>Form &amp; Frame wardrobe mark</title><rect width="128" height="128" fill="#fff"/><g fill="#20201d" transform="translate(14 7)"><path d="M0 0H100V1H0ZM0 113H100V114H0Z"/><path d="M49.775 5H50.225V109H49.775Z"/><path d="M6.6 11.3L37.5 12.1V14.2L10.5 15.3L9.75 44.8L30 45.4V47.4L9.65 48.2L7.8 103L6.6 11.3ZM93.4 11.3L62.5 12.1V14.2L89.5 15.3L90.25 44.8L70 45.4V47.4L90.35 48.2L92.2 103L93.4 11.3Z"/><path d="M43.4 55H45.6V79H43.4ZM54.4 55H56.6V79H54.4Z" fill="#bd8d52"/></g></svg>

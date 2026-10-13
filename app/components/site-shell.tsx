@@ -4,19 +4,23 @@ import Link from "next/link";
 import { useRef } from "react";
 import { navigation } from "../lib/home-data";
 import { BUSINESS_EMAIL, BUSINESS_PHONE_DISPLAY, EMAIL_HREF, PHONE_HREF, WHATSAPP_HREF } from "../lib/contact";
+import brand from "../lib/brand-artwork.json";
 
-export function Wordmark() {
+export function Wordmark({ tone = "light" }: { tone?: "light" | "dark" }) {
   return (
     <Link className="brand-lockup" href="/" aria-label="Form and Frame home">
-      <svg className="brand-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-        <g fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="square" strokeLinejoin="miter">
-          <path d="M6 7h52M10 55V11h44v44M32 11v44M10 28h13M41 28h13M6 58h52" />
+      <svg className="brand-artwork" viewBox={brand.viewBox} fill="currentColor" aria-hidden="true" focusable="false">
+        <g className="brand-mark" transform={brand.layout.markTransform}>
+          <path d={brand.mark.rails} />
+          <path d={brand.mark.seam} />
+          <path d={brand.mark.doors} />
+          <path d={brand.mark.handles} fill={tone === "dark" ? brand.darkGold : brand.gold} />
         </g>
-        <g className="brand-mark-handles">
-          <path d="M27 31h3v13h-3zM34 31h3v13h-3z" />
-        </g>
+        <path d={brand.wordmark.path} transform={brand.layout.wordmarkTransform} fillRule="evenodd" />
+        <rect {...brand.layout.divider} fill={tone === "dark" ? brand.darkDividerGold : brand.dividerGold} />
+        <path d={brand.subtitle.path} transform={brand.layout.subtitleTransform} fillRule="evenodd" />
       </svg>
-      <span className="brand-name">FORM <i>&amp;</i> FRAME</span>
+      <span className="brand-name" aria-hidden="true">FORM &amp; FRAME</span>
     </Link>
   );
 }
@@ -29,7 +33,7 @@ export function Header() {
     <>
       <Link className="skip-link" href="#main-content">Skip to content</Link>
       <header className="site-header"><div className="container header-inner">
-        <Wordmark />
+        <Wordmark tone="dark" />
         <nav className="desktop-nav" aria-label="Main navigation">{navigation.map(item => <Link key={item.href} href={item.href}>{item.label}</Link>)}</nav>
         <a className="button header-contact" href={WHATSAPP_HREF}>WhatsApp <span aria-hidden="true">↗</span></a>
         <details className="mobile-menu" ref={menu} onKeyDown={event => { if (event.key === "Escape") { closeMenu(); menu.current?.querySelector("summary")?.focus(); } }}>
