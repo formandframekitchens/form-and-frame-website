@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { deliveryFailureCode, EnquiryRequestError, readEnquiryForm, sendResendEmail, submissionReference } from "../../lib/enquiry-delivery";
 import { BUSINESS_EMAIL } from "../../lib/contact";
 import { EMAIL_LOGO_BASE64 } from "../../lib/email-logo";
 import { customerAcknowledgementEmail, internalEnquiryEmail } from "../../lib/enquiry-email";
@@ -41,12 +42,6 @@ async function validSignature(file: File) {
   return false;
 }
 
-function submissionReference(submissionId: string) {
-  const date = new Date().toISOString().slice(0, 10).replaceAll("-", "");
-  const suffix = submissionId.replace(/[^a-zA-Z0-9]/g, "").slice(0, 8).toUpperCase() || crypto.randomUUID().slice(0, 8).toUpperCase();
-  return `FF-${date}-${suffix}`;
-}
-
 type ResendAttachment = {
   filename: string;
   content: string;
@@ -54,44 +49,15 @@ type ResendAttachment = {
   content_id?: string;
 };
 
-type ResendMessage = {
-  from: string;
-  to: string[];
-  subject: string;
-  text: string;
-  html: string;
-  reply_to?: string[];
-  attachments?: ResendAttachment[];
-};
-
-async function sendResendEmail(apiKey: string, message: ResendMessage, idempotencyKey: string) {
-  const response = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      "Content-Type": "application/json",
-      "Idempotency-Key": idempotencyKey,
-    },
-    body: JSON.stringify(message),
-    cache: "no-store",
-  });
-
-  const result = await response.json().catch(() => ({}));
-  if (!response.ok) {
-    const messageText = typeof result?.message === "string" ? result.message : `Resend returned HTTP ${response.status}`;
-    throw new Error(messageText);
-  }
-  return result;
-}
-
 export async function POST(request: Request) {
   if (process.env.VERCEL_ENV === "preview") {
     return NextResponse.json({ ok: false, error: "This review preview does not send enquiries. Please use the live website to contact Form & Frame." }, { status: 503 });
   }
   let form: FormData;
   try {
-    form = await request.formData();
-  } catch {
+    form = await readEnquiryForm(request);
+  } catch (error) {
+    if (error instanceof EnquiryRequestError) return NextResponse.json({ ok: false, error: error.message }, { status: error.status });
     return NextResponse.json({ ok: false, error: "We could not read this enquiry. Please check the form and try again." }, { status: 400 });
   }
 
@@ -113,6 +79,14 @@ export async function POST(request: Request) {
   const doorSupply = text(form, "doorSupply", 120);
 
   const errors: Record<string, string> = {};
+  const fieldLimits: Record<string, number> = { name: 120, email: 254, phone: 60, location: 140, message: 6000, submissionId: 120 };
+  for (const [field, limit] of Object.entries(fieldLimits)) {
+    const value = form.get(field);
+    if (value !== null && (typeof value !== "string" || value.trim().length > limit)) errors[field] = `Please keep this field within ${limit} characters.`;
+  }
+  if (form.get("website")) return NextResponse.json({ ok: false, error: "We could not accept this enquiry. Please use the contact options below." }, { status: 400 });
+  const suppliedId = text(form, "submissionId", 120);
+  if (suppliedId && !/^[a-zA-Z0-9_-]{8,120}$/.test(suppliedId)) errors.submissionId = "Please reload the form before sending.";
   if (project && !getEnquiryProject(project, service)) errors.project = "Please remove the gallery reference or choose the matching service.";
   if (!name) errors.name = "Please enter your name.";
   if (!location) errors.location = "Please enter your postcode or town.";
@@ -198,7 +172,7 @@ export async function POST(request: Request) {
       attachments: attachmentPayload.length ? attachmentPayload : undefined,
     }, `${submissionId}-business`);
   } catch (error) {
-    console.error("Enquiry business notification failed", enquiryReference, error instanceof Error ? error.message : error);
+    console.error("Enquiry business notification failed", enquiryReference, deliveryFailureCode(error));
     return NextResponse.json({
       ok: false,
       error: "We could not accept the enquiry right now. Your text is still in the form, so please try again or use another contact option.",
@@ -226,7 +200,7 @@ export async function POST(request: Request) {
       }, `${submissionId}-acknowledgement`);
       acknowledgementSent = true;
     } catch (error) {
-      console.error("Enquiry acknowledgement failed", enquiryReference, error instanceof Error ? error.message : error);
+      console.error("Enquiry acknowledgement failed", enquiryReference, deliveryFailureCode(error));
     }
   }
 

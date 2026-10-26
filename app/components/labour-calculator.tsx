@@ -20,7 +20,7 @@ export function LabourCalculator() {
         <option value="1">1 specialist · £300 per day</option><option value="2">2 specialists · £600 per day</option>
       </select></div>
       <div><label htmlFor={`${id}-days`}>Number of whole labour days</label><input id={`${id}-days`} type="number" inputMode="numeric" min="1" max="365" step="1" value={days} onChange={event => setDays(event.target.value)} aria-invalid={invalid} aria-describedby={`${id}-error`} placeholder="Enter days" />
-      <p className={styles.error} id={`${id}-error`}>{invalid ? "Enter a whole number of days between 1 and 365." : "Days and working hours must be agreed before booking."}</p></div>
+      <p className={styles.error} id={`${id}-error`}>{invalid ? "Enter a whole number of days between 1 and 365." : "Each specialist day covers 8 working hours. Agree the days and start times before booking."}</p></div>
     </fieldset>
     <output className={styles.result} htmlFor={`${id}-people ${id}-days`} aria-live="polite" aria-atomic="true">
       {total === null ? <span>Enter days to see the labour amount.</span> : <><span>Illustrative labour amount</span><strong>{pounds.format(total)}</strong><span>{pounds.format(KITCHEN_LABOUR_DAY_RATE)} × {specialists} {specialists === 1 ? "specialist" : "specialists"} × {days} {days === "1" ? "day" : "days"}. No VAT added.</span></>}

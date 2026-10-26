@@ -12,7 +12,8 @@
     "typecheck": "tsc --noEmit",
     "test:guards": "node --test tests/release-guard.test.mjs",
     "check:repository": "node scripts/check-repository.mjs",
-    "test:ci": "playwright test tests/seo.spec.ts tests/local-coverage.spec.ts tests/news-feed.spec.ts tests/news-images.spec.ts tests/enquiry.spec.ts tests/analytics.spec.ts tests/private-portfolio.spec.ts tests/portfolios.spec.ts tests/k01-home-feature.spec.ts tests/k01-video-delivery.spec.ts tests/month-acceleration.spec.ts tests/labour-estimate.spec.ts"
+    "test:ci": "playwright test tests/seo.spec.ts tests/local-coverage.spec.ts tests/news-feed.spec.ts tests/news-images.spec.ts tests/enquiry.spec.ts tests/analytics.spec.ts tests/private-portfolio.spec.ts tests/portfolios.spec.ts tests/k01-home-feature.spec.ts tests/k01-video-delivery.spec.ts tests/month-acceleration.spec.ts tests/labour-estimate.spec.ts tests/enquiry-reliability.spec.ts",
+    "test:delivery": "node --test tests/enquiry-delivery.test.mjs"
   },
   "dependencies": {
     "@vercel/blob": "2.8.0",
