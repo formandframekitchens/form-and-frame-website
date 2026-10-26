@@ -3,14 +3,20 @@ import galleryImageRedirects from "./app/lib/gallery-image-redirects.json";
 
 const nextConfig: NextConfig = {
   async headers() {
-    return ["/supplier-portals/:path*", "/api/supplier-portals/:path*"].map(source => ({
+    const privateHeaders = ["/supplier-portals/:path*", "/api/supplier-portals/:path*", "/private-case-studies/:path*", "/api/private-case-studies/:path*", "/progress-gallery/:path*", "/api/progress-gallery/:path*"].map(source => ({
       source,
       headers: [
         { key: "X-Robots-Tag", value: "noindex, nofollow, noarchive" },
         { key: "Cache-Control", value: "private, no-store" },
         { key: "Referrer-Policy", value: "same-origin" },
+        { key: "X-Frame-Options", value: "DENY" },
       ],
     }));
+    return [...privateHeaders, {
+      source: "/downloads/form-and-frame-installation-portfolio.pdf",
+      // A shareable summary; the complete HTML portfolio remains the search destination.
+      headers: [{ key: "X-Robots-Tag", value: "noindex" }],
+    }];
   },
   async redirects() {
     return [

@@ -7,13 +7,22 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "prebuild": "node preview-target.mjs",
+    "typecheck": "tsc --noEmit",
+    "test:guards": "node --test tests/release-guard.test.mjs",
+    "check:repository": "node scripts/check-repository.mjs",
+    "test:ci": "playwright test tests/seo.spec.ts tests/local-coverage.spec.ts tests/news-feed.spec.ts tests/news-images.spec.ts tests/enquiry.spec.ts tests/analytics.spec.ts tests/private-portfolio.spec.ts tests/portfolios.spec.ts tests/k01-home-feature.spec.ts tests/k01-video-delivery.spec.ts tests/month-acceleration.spec.ts tests/labour-estimate.spec.ts tests/enquiry-reliability.spec.ts",
+    "test:delivery": "node --test tests/enquiry-delivery.test.mjs",
+    "test:health": "node --test tests/public-health.test.mjs"
   },
   "dependencies": {
     "@vercel/blob": "2.8.0",
-    "next": "16.3.8",
+    "jose": "^6.2.12",
+    "next": "16.4.3",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "server-only": "^0.0.1"
   },
   "devDependencies": {
     "@playwright/test": "^1.63.0",
@@ -22,8 +31,13 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.3.8",
+    "eslint-config-next": "16.4.3",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "overrides": {
+    "@vercel/cli-config": {
+      "zod": "4.6.7"
+    }
   }
 }

@@ -1,0 +1,16 @@
+.calculator { margin-block: 28px; padding: clamp(20px, 3vw, 32px); border: 1px solid var(--line); background: var(--ivory); max-width: 1000px; }
+.calculator h3 { margin-bottom: 12px; font-size: clamp(24px, 2.5vw, 30px); }
+.calculator > p { max-width: 76ch; }
+.inputs { border: 0; padding: 0; margin: 24px 0 0; display: grid; grid-template-columns: 1fr 1fr; gap: 24px; min-width: 0; }
+.inputs > div { min-width: 0; }
+.inputs label { display: block; font-size: 14px; font-weight: 600; margin-bottom: 8px; }
+.inputs input, .inputs select { width: 100%; min-height: 48px; padding: 10px 12px; border: 1px solid var(--oak); border-radius: 0; color: var(--charcoal); background: white; font: inherit; }
+.inputs input:focus-visible, .inputs select:focus-visible { outline: 3px solid var(--green); outline-offset: 3px; }
+.error { font-size: 13px; margin-top: 8px; min-height: 1.5em; }
+.inputs input[aria-invalid="true"] { border-width: 2px; }
+.result { display: flex; flex-direction: column; gap: 6px; margin-block: 20px; padding: 20px; background: var(--green); color: var(--ivory); }
+.result strong { font: 400 42px/1.15 Georgia, serif; }
+.result span { font-size: 14px; }
+.limits { font-size: 14px; line-height: 1.6; }
+.privacy { font-size: 13px; margin-top: 12px; }
+@media (max-width: 640px) { .inputs { grid-template-columns: 1fr; gap: 18px; } }

@@ -6,7 +6,7 @@ import { siteUrl } from "../lib/site";
 
 type SelectionChoice = { title: string; copy: string; href: string; image: string; alt: string; imageDisclosure?: string };
 
-export function ServiceSelection({ id, title, label, choices, action, className = "", breadcrumbs = [], introduction }: {
+export function ServiceSelection({ id, title, label, choices, action, className = "", breadcrumbs = [], introduction, beforeChoices }: {
   id: string;
   title: string;
   label: string;
@@ -15,6 +15,7 @@ export function ServiceSelection({ id, title, label, choices, action, className 
   className?: string;
   breadcrumbs?: BreadcrumbItem[];
   introduction?: ReactNode;
+  beforeChoices?: ReactNode;
 }) {
   const itemList = {
     "@context": "https://schema.org", "@type": "ItemList",
@@ -29,6 +30,7 @@ export function ServiceSelection({ id, title, label, choices, action, className 
       <h1>{title}</h1>
       {introduction}
     </div></header>
+    {beforeChoices}
     <section className="services-hub-list-section" aria-label={label}><div className="container">
       <ol className="services-hub-list">
         {choices.map((choice, index) => {

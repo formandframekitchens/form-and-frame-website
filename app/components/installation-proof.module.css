@@ -1,0 +1,12 @@
+.section { padding-block: clamp(40px, 6vw, 72px); background: var(--ivory); }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 4vw, 56px); align-items: center; }
+.picture { margin: 0; min-width: 0; }
+.picture a { display: block; }
+.picture img { display: block; width: 100%; height: auto; }
+.picture figcaption { margin-top: 10px; font-size: 13px; color: var(--muted); }
+.copy { min-width: 0; }
+.copy h2 { font-size: clamp(30px, 3.3vw, 44px); line-height: 1.12; }
+.copy > p:not(:first-child) { margin-top: 18px; }
+.actions { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 22px; margin-top: 24px; }
+.actions .text-link { margin-top: 0; }
+@media (max-width: 760px) { .layout { grid-template-columns: 1fr; } .actions { flex-direction: column; } }

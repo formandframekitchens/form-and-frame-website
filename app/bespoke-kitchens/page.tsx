@@ -1,3 +1,4 @@
+import { localServiceAreaCopy } from "../lib/service-coverage";
 import Link from "next/link";
 import { DetailGrid, ServiceFAQs, ServicePage, ServiceQuote, ServiceSection } from "../components/service-page";
 import { enquiryHref } from "../lib/enquiry";
@@ -30,8 +31,12 @@ export default function BespokeKitchensPage() {
       <p className="service-prose service-prose-spaced">Your quotation sets out the agreed scope and responsibilities. Final door and drawer adjustment, panel junctions and finishing details are part of bringing the design together on site. Browse the <Link href="/gallery">completed furniture and installation galleries</Link> to see the kinds of details that inform our approach.</p>
     </ServiceSection>
     <ServiceSection title="Bespoke kitchens in Luton and nearby areas" muted>
-      <p className="service-prose">We consider kitchen projects in Luton, Dunstable, Harpenden, St Albans and the surrounding Bedfordshire and Hertfordshire area. Larger schemes may make a wider radius practical. Send your postcode, plans, room photographs and preferred timing so that we can review the project.</p>
+      <p className="service-prose">{localServiceAreaCopy}</p>
       <Link className="text-link" href="/areas">Check our service areas ↗</Link>
+    </ServiceSection>
+    <ServiceSection title="Have you already ordered your kitchen?" eyebrow="Choose the right quotation">
+      <p className="service-prose">A bespoke design-and-supply quotation includes decisions about the cabinetry itself. If another company is supplying your kitchen, the next step is an independent installation quotation covering the room, fitting and agreed associated work.</p>
+      <div className="actions"><Link className="text-link" href="/kitchen-installation#kitchen-fitting-prices">See independent fitting and agreed labour prices ↗</Link><Link className="text-link" href="/news/comparing-kitchen-fitting-quotes">Compare the work included in each quote ↗</Link></div>
     </ServiceSection>
     <ServiceSection title="Looking for a traditional in-frame kitchen?" muted>
       <p className="service-prose">Our in-frame kitchen service focuses on traditional cabinetry with inset doors and visible face frames.</p>

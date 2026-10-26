@@ -1,3 +1,4 @@
+import { localServiceAreaCopy } from "../lib/service-coverage";
 import Link from "next/link";
 import { DetailGrid, ServiceFAQs, ServicePage, ServiceQuote, ServiceSection } from "../components/service-page";
 import { serviceMetadata } from "../lib/service-metadata";
@@ -5,7 +6,7 @@ import { enquiryHref } from "../lib/enquiry";
 
 export const metadata = serviceMetadata(
   "Joinery & Furniture Installation Luton",
-  "Professional installation of factory-produced and third-party cabinetry, wardrobes and fitted furniture around Luton, Bedfordshire and Hertfordshire.",
+  "Professional installation of factory-produced and third-party cabinetry, wardrobes and fitted furniture in Luton, Dunstable and nearby communities.",
   "/joinery-installation"
 );
 
@@ -47,7 +48,7 @@ export default function JoineryInstallationPage() {
     </ServiceSection>
 
     <ServiceSection title="Service area" muted>
-      <p className="service-prose">Based in Luton, Form & Frame considers installation projects across Bedfordshire, Hertfordshire and selected surrounding areas. Larger or commercially suitable packages can be considered further afield.</p>
+      <p className="service-prose">{localServiceAreaCopy}</p>
     </ServiceSection>
 
     <ServiceFAQs items={[

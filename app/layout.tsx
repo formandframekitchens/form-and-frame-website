@@ -12,5 +12,6 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
-  return <html lang="en-GB"><body>{children}<BusinessIdentity /><GoogleAnalytics /></body></html>;
+  // Review activity must not enter the business's live analytics property.
+  return <html lang="en-GB"><body>{children}<BusinessIdentity />{process.env.VERCEL_ENV !== "preview" ? <GoogleAnalytics /> : null}</body></html>;
 }

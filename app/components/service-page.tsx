@@ -4,7 +4,8 @@ import type { ReactNode } from "react";
 import { Header, Footer } from "./site-shell";
 import { Breadcrumbs, type BreadcrumbItem } from "./breadcrumbs";
 import { BUSINESS_EMAIL, BUSINESS_PHONE_DISPLAY, EMAIL_HREF, PHONE_HREF, whatsappHref } from "../lib/contact";
-import { processSteps, serviceAreas } from "../lib/home-data";
+import { processSteps } from "../lib/home-data";
+import { serviceTowns, localServiceAreaCopy } from "../lib/service-coverage";
 import { experienceContent } from "../lib/service-content";
 import { getServiceImages, type ServiceImage } from "../lib/service-images";
 import { kitchenFAQs, kitchenScope, supplierPages, type ServiceDetail, type ServiceFAQ, type SupplierPageData } from "../lib/supplier-pages";
@@ -75,7 +76,7 @@ export function ServicePage({ eyebrow, title, introduction, children, parent, br
         </div>
         {beforeTrust && <div className="service-hero-brand-selector">{beforeTrust}</div>}
       </div></header>
-      <ul className="service-trust-strip"><li><strong>Clear planning</strong><span>Project details reviewed first</span></li><li><strong>Independent service</strong><span>Responsibilities agreed clearly</span></li><li><strong>Luton based</strong><span>Bedfordshire & Hertfordshire</span></li><li><strong>Direct enquiry</strong><span>Website form or WhatsApp</span></li></ul>
+      <ul className="service-trust-strip"><li><strong>Clear planning</strong><span>Project details reviewed first</span></li><li><strong>Independent service</strong><span>Responsibilities agreed clearly</span></li><li><strong>Luton based</strong><span>Luton &amp; nearby communities</span></li><li><strong>Direct enquiry</strong><span>Website form or WhatsApp</span></li></ul>
       <GoogleReviews />
       {children}
     </main>
@@ -169,9 +170,10 @@ export function ServiceQuote({ title = "Have your kitchen plan ready?", copy = "
 
 export function LocalServiceArea() {
   return <ServiceSection title="Kitchen installation from Luton across the surrounding area" id="service-areas">
-    <p className="service-prose">Luton is our core base. We also consider kitchen installations across nearby Bedfordshire and Hertfordshire towns and selected projects towards Milton Keynes, Bedford and North London when the project scope makes the travel commercially sensible.</p>
-    <ul className="service-area-list">{serviceAreas.map(area => <li key={area}>{area}</li>)}</ul>
+    <p className="service-prose">{localServiceAreaCopy}</p>
+    <ul className="service-area-list">{serviceTowns.map(area => <li key={area}>{area}</li>)}</ul>
     <Link className="text-link" href="/areas">Local coverage and project arrangements ↗</Link>
+    <p className="service-prose service-prose-spaced"><Link href="/areas/dunstable">Planning a kitchen installation in Dunstable?</Link> Review the fitting scope, delivery arrangements and information to send for a quotation.</p>
   </ServiceSection>;
 }
 
@@ -179,16 +181,29 @@ export function SupplierPage({ supplier }: { supplier: SupplierPageData }) {
   const enquiryUrl = enquiryHref({ service: "kitchen-installation", supplier: supplierOptions.find(option => option.value === supplier.slug)?.value, installation: "own-kitchen" });
   return <ServicePage enquiryUrl={enquiryUrl} whatsappMessage={`Hello, I'd like to enquire about ${supplier.name} kitchen installation with Form & Frame.`} eyebrow="Independent kitchen fitter · Luton & surrounding areas" title={`${supplier.name} kitchen installation`} introduction={supplier.introduction} parent={{ label: "Kitchen installation", href: "/kitchen-installation" }} breadcrumbs={[{ label: "Services", href: "/services" }, { label: "Kitchen installation", href: "/kitchen-installation" }]} imageKey={supplier.slug} brandName={supplier.name} brandAccent={supplierAccent[supplier.slug]}>
     <div className="container"><IndependentNotice name={supplier.name} /></div>
-    <ImageTextSection imageKey={supplier.slug} title={`Planning a ${supplier.name} kitchen fit`} eyebrow="Before installation begins">
+    <ImageTextSection imageKey={supplier.slug} title={`Planning your ${supplier.name} kitchen fit`} eyebrow="Before installation begins">
       <p className="service-prose">Send the kitchen plan, order or component information, appliance details, worktop specification and photographs of the room. We use the actual project information to establish the fitting sequence, identify preparation requirements and confirm what should be included in the quotation.</p>
+      <p className="service-prose service-prose-spaced" data-independent-fitting-route>For the wider fitting scope, see our <Link href="/kitchen-installation#independent-fitting">independent kitchen installation service</Link>. You can also <Link href="/kitchen-installation#installation-film">watch the cabinet-fitting process</Link> and <Link href="/kitchen-installation#fitting-checklist">prepare your enquiry checklist</Link> before sending your {supplier.name} plan.</p>
     </ImageTextSection>
     <InstallationScope />
     <ServiceSection title={`${supplier.name} installation considerations`} eyebrow="The details that guide the fit"><DetailGrid items={supplier.considerations} /></ServiceSection>
+    <ServiceSection title={`How much does ${supplier.name} kitchen fitting cost?`} eyebrow="Independent fitting prices" id="supplier-fitting-cost" muted>
+      <p className="service-prose">For local projects around Luton and Dunstable, our agreed day rate for kitchen installation and removal labour is <strong>£300 per specialist per 8-hour day, with no VAT added</strong>. We confirm the working-day arrangements, expected labour days and scope before booking. Your kitchen purchase is separate; this is not a complete fitted-kitchen price or a {supplier.name} installation offer.</p>
+      <p className="service-prose service-prose-spaced">{supplier.quoteNote}</p>
+      <p className="service-prose service-prose-spaced">Materials, waste disposal, other expenses, additional work and specialist gas or electrical work are charged separately. Full removal, tiling and coordination can be included in the agreed project scope, with the separate costs identified in writing.</p>
+      <div className="actions"><Link className="button" href={enquiryUrl}>Discuss my {supplier.name} fitting quote <span aria-hidden="true">↗</span></Link><Link className="text-link" href="/kitchen-installation#kitchen-fitting-prices">See the labour-price breakdown ↗</Link><Link className="text-link" href="/news/comparing-kitchen-fitting-quotes">Compare like-for-like quotations ↗</Link></div>
+    </ServiceSection>
+    {supplier.planning && <ServiceSection title={supplier.planning.title} eyebrow={supplier.planning.eyebrow} id="supplier-planning" muted>
+      <DetailGrid items={supplier.planning.items} />
+      <p className="service-prose service-prose-spaced">For your {supplier.name} kitchen fitting enquiry in Luton or Dunstable, send these details with your latest plan. <Link href={supplier.planning.relatedArticle.href}>{supplier.planning.relatedArticle.label}</Link> or <Link href="/news/already-bought-your-kitchen">check the delivery-to-fitter handover</Link>.</p>
+      <p className="service-prose service-prose-spaced">Supplier references checked {supplier.planning.checked}. Use the instructions supplied for your actual products.</p>
+      <ul>{supplier.planning.sources.map(source => <li key={source.href}><a href={source.href}>{source.label}</a></li>)}</ul>
+    </ServiceSection>}
     <InstallationProcess />
     <LocalServiceArea />
     <WhyChooseUs />
     <ServiceGallery imageKey={supplier.slug} title={`${supplier.name} kitchen gallery`} />
-    <ServiceFAQs items={[supplier.faq, ...kitchenFAQs, { question: `Are you an approved ${supplier.name} installer?`, answer: `No. Form & Frame provides an independent installation service and is not affiliated with, endorsed by or an approved installer for ${supplier.name}. Your kitchen purchase remains with your supplier.` }, { question: "What should I send with my enquiry?", answer: "Send your kitchen plan, postcode, room photographs, preferred installation timing and any appliance or worktop information already available. The more complete the information, the more useful the first scope review can be." }]} />
+    <ServiceFAQs items={[supplier.faq, ...(supplier.additionalFAQs ?? []), ...kitchenFAQs, { question: `Are you an approved ${supplier.name} installer?`, answer: `No. Form & Frame provides an independent installation service and is not affiliated with, endorsed by or an approved installer for ${supplier.name}. Your kitchen purchase remains with your supplier.` }, { question: "What should I send with my enquiry?", answer: "Send your kitchen plan, postcode, room photographs, preferred installation timing and any appliance or worktop information already available. The more complete the information, the more useful the first scope review can be." }]} />
     <ServiceSection title="Explore installation by supplier" muted><SupplierNavigation current={supplier.slug} /></ServiceSection>
     <ServiceQuote enquiryUrl={enquiryUrl} whatsappMessage={`Hello, I'd like to enquire about ${supplier.name} kitchen installation with Form & Frame.`} />
   </ServicePage>;

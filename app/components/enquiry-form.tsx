@@ -17,7 +17,9 @@ const ACCEPTED_TYPES = new Set(["application/pdf", "image/jpeg", "image/png"]);
 export function EnquiryForm({ project }: { project?: GalleryReference }) {
   const params = useSearchParams();
   const initialSelection = readEnquirySelection(params);
-  const initialMessage = params.get("request") === "gallery-access" ? "I would like to request access to the private progress gallery." : "";
+  const initialMessage = params.get("request") === "gallery-access"
+    ? "I would like to request access to the private progress gallery."
+    : params.get("request") === "k01" ? "I have seen the K01 case study and would like to discuss a project with Form & Frame." : "";
   return <EnquiryFields key={JSON.stringify([initialSelection, project?.slug, initialMessage])} initialSelection={initialSelection} initialProject={project} initialMessage={initialMessage} />;
 }
 
@@ -31,6 +33,8 @@ function EnquiryFields({ initialSelection, initialProject, initialMessage }: { i
   const [reference, setReference] = useState("");
   const submissionId = useRef<string | null>(null);
   const statusRef = useRef<HTMLDivElement>(null);
+  const inFlight = useRef(false);
+  const previousFingerprint = useRef("");
 
   const kitchenService = isKitchenService(selection.service);
   const installation = installationOptions.find(option => option.value === selection.installation);
@@ -73,7 +77,7 @@ function EnquiryFields({ initialSelection, initialProject, initialMessage }: { i
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    if (status === "submitting" || status === "success") return;
+    if (inFlight.current || status === "success") return;
 
     const form = event.currentTarget;
     const data = new FormData(form);
@@ -97,16 +101,24 @@ function EnquiryFields({ initialSelection, initialProject, initialMessage }: { i
       return;
     }
 
-    if (!submissionId.current) submissionId.current = crypto.randomUUID();
-    data.set("submissionId", submissionId.current);
     files.forEach(file => data.append("files", file, file.name));
+    inFlight.current = true;
 
     setFieldErrors({});
     setStatus("submitting");
     setStatusMessage("Sending your enquiry…");
 
     try {
-      const response = await fetch("/api/enquiries", { method: "POST", body: data });
+      const fingerprintParts = await Promise.all(Array.from(data.entries()).map(async ([key, value]) => {
+        if (typeof value === "string") return [key, value];
+        const hash = Array.from(new Uint8Array(await crypto.subtle.digest("SHA-256", await value.arrayBuffer())), byte => byte.toString(16).padStart(2, "0")).join("");
+        return [key, value.name, value.type, hash];
+      }));
+      const fingerprint = JSON.stringify(fingerprintParts);
+      if (!submissionId.current || fingerprint !== previousFingerprint.current) submissionId.current = crypto.randomUUID();
+      previousFingerprint.current = fingerprint;
+      data.set("submissionId", submissionId.current);
+      const response = await fetch("/api/enquiries", { method: "POST", body: data, signal: AbortSignal.timeout(45_000) });
       const result = await response.json().catch(() => ({}));
 
       if (!response.ok || !result.ok) {
@@ -130,17 +142,20 @@ function EnquiryFields({ initialSelection, initialProject, initialMessage }: { i
       setStatus("error");
       setStatusMessage("We could not reach the enquiry service. Your details are still here, so please try again or use WhatsApp, phone or email.");
       focusStatus();
+    } finally {
+      inFlight.current = false;
     }
   }
 
   const error = (name: string) => fieldErrors[name] ? <span className="field-error" id={`${name}-error`}>{fieldErrors[name]}</span> : null;
 
-  return <form className="enquiry-form" onSubmit={submit} noValidate>
+  return <form className="enquiry-form" onSubmit={submit} aria-busy={status === "submitting"} noValidate>
+    <div hidden aria-hidden="true"><label>Leave this field empty<input disabled={status === "submitting" || status === "success"} name="website" tabIndex={-1} autoComplete="off" /></label></div>
     {initialSelection.service && <p className="enquiry-prefill-note">Your service choices have been filled in below. You can change them before sending your enquiry.</p>}
     {project && <div className="enquiry-project-reference">
-      <input type="hidden" name="project" value={project.slug} />
+      <input disabled={status === "submitting" || status === "success"} type="hidden" name="project" value={project.slug} />
       <div><span>Inspired by this project</span><Link href={`/gallery/${project.slug}`}>{project.galleryId} · {project.title}</Link></div>
-      <button type="button" onClick={() => setProject(undefined)} aria-label="Remove gallery project reference">Remove</button>
+      <button type="button" disabled={status === "submitting" || status === "success"} onClick={() => setProject(undefined)} aria-label="Remove gallery project reference">Remove</button>
     </div>}
     {error("project")}
 
@@ -156,39 +171,46 @@ function EnquiryFields({ initialSelection, initialProject, initialMessage }: { i
       {status === "success" && reference && <small>Reference: {reference}</small>}
     </div>}
 
-    {fieldErrors.contact && <div className="form-error-summary" role="alert"><strong>Contact details needed</strong><span>{fieldErrors.contact}</span></div>}
+    {fieldErrors.contact && <div className="form-error-summary" id="contact-error" role="alert"><strong>Contact details needed</strong><span>{fieldErrors.contact}</span></div>}
 
     <div className="form-grid">
       <label>Name
-        <input name="name" required autoComplete="name" aria-invalid={Boolean(fieldErrors.name)} aria-describedby={fieldErrors.name ? "name-error" : undefined} />
+        <input disabled={status === "submitting" || status === "success"} maxLength={120} name="name" required autoComplete="name" aria-invalid={Boolean(fieldErrors.name)} aria-describedby={fieldErrors.name ? "name-error" : undefined} />
         {error("name")}
       </label>
 
       <label>Email <span className="field-optional">optional if you give a phone number</span>
-        <input name="email" type="email" autoComplete="email" aria-invalid={Boolean(fieldErrors.email)} aria-describedby={fieldErrors.email ? "email-error" : undefined} />
+        <input disabled={status === "submitting" || status === "success"} maxLength={254} name="email" type="email" autoComplete="email" aria-invalid={Boolean(fieldErrors.email || fieldErrors.contact)} aria-describedby={[fieldErrors.email && "email-error", fieldErrors.contact && "contact-error"].filter(Boolean).join(" ") || undefined} />
         {error("email")}
       </label>
 
       <label>Phone <span className="field-optional">optional if you give an email</span>
-        <input name="phone" type="tel" autoComplete="tel" aria-invalid={Boolean(fieldErrors.phone)} aria-describedby={fieldErrors.phone ? "phone-error" : undefined} />
+        <input disabled={status === "submitting" || status === "success"} maxLength={60} name="phone" type="tel" autoComplete="tel" aria-invalid={Boolean(fieldErrors.phone || fieldErrors.contact)} aria-describedby={[fieldErrors.phone && "phone-error", fieldErrors.contact && "contact-error"].filter(Boolean).join(" ") || undefined} />
         {error("phone")}
       </label>
 
       <label>Preferred contact
-        <select name="preferredContact" defaultValue="either">
+        <select disabled={status === "submitting" || status === "success"} name="preferredContact" aria-invalid={Boolean(fieldErrors.preferredContact)} aria-describedby={fieldErrors.preferredContact ? "preferredContact-error" : undefined} defaultValue="either">
           <option value="either">Either email or phone</option>
           <option value="email">Email</option>
           <option value="phone">Phone</option>
         </select>
+        {error("preferredContact")}
+      </label>
+      <label>Best time to contact you <span className="field-optional">optional</span>
+        <input disabled={status === "submitting" || status === "success"} name="preferredContactTime" maxLength={240} aria-invalid={Boolean(fieldErrors.preferredContactTime)} aria-describedby={fieldErrors.preferredContactTime ? "contact-time-help preferredContactTime-error" : "contact-time-help"} placeholder="For example, weekday afternoons" />
+        <small id="contact-time-help">Let us know a suitable time. This is a request, not a confirmed appointment.</small>
+        {error("preferredContactTime")}
       </label>
 
-      <label>Postcode / town
-        <input name="location" required autoComplete="postal-code" aria-invalid={Boolean(fieldErrors.location)} aria-describedby={fieldErrors.location ? "location-error" : undefined} />
+      <label><span id="location-label">Postcode / town</span>
+        <input disabled={status === "submitting" || status === "success"} maxLength={140} name="location" aria-labelledby="location-label" required autoComplete="postal-code" aria-invalid={Boolean(fieldErrors.location)} aria-describedby={fieldErrors.location ? "location-help location-error" : "location-help"} />
+        <span className="field-optional" id="location-help">Use the project postcode if known. We check the journey, access and visits needed before confirming availability.</span>
         {error("location")}
       </label>
 
       <label>Service
-        <select name="service" required value={selection.service} aria-invalid={Boolean(fieldErrors.service)} onChange={event => { setSelection({ service: event.target.value as ServiceId, supplier: "", installation: "", joinery: "" }); setProject(undefined); }}>
+        <select disabled={status === "submitting" || status === "success"} name="service" required value={selection.service} aria-invalid={Boolean(fieldErrors.service)} aria-describedby={fieldErrors.service ? "service-error" : undefined} onChange={event => { setSelection({ service: event.target.value as ServiceId, supplier: "", installation: "", joinery: "" }); setProject(undefined); }}>
           <option value="" disabled>Select service</option>
           {serviceOptions.map(option => <option key={option.value} value={option.value}>{option.label}</option>)}
         </select>
@@ -196,14 +218,15 @@ function EnquiryFields({ initialSelection, initialProject, initialMessage }: { i
       </label>
 
       {selection.service === "bespoke-joinery" && <label>Furniture / joinery type
-        <select name="joinery" value={selection.joinery} onChange={event => setSelection({ ...selection, joinery: event.target.value as JoineryId | "" })}>
+        <select disabled={status === "submitting" || status === "success"} name="joinery" aria-invalid={Boolean(fieldErrors.joinery)} aria-describedby={fieldErrors.joinery ? "joinery-error" : undefined} value={selection.joinery} onChange={event => setSelection({ ...selection, joinery: event.target.value as JoineryId | "" })}>
           <option value="">Not sure yet</option>
           {joineryOptions.map(option => <option key={option.value} value={option.value}>{option.label}</option>)}
         </select>
+        {error("joinery")}
       </label>}
 
       {kitchenService && <label>Kitchen requirement
-        <select name="installation" value={selection.installation} aria-invalid={Boolean(fieldErrors.installation)} onChange={event => {
+        <select disabled={status === "submitting" || status === "success"} name="installation" value={selection.installation} aria-invalid={Boolean(fieldErrors.installation)} aria-describedby={fieldErrors.installation ? "installation-error" : undefined} onChange={event => {
           const value = event.target.value as InstallationId | "";
           const next = installationOptions.find(option => option.value === value);
           setSelection({ ...selection, installation: value, supplier: next?.usesSupplier === false ? "" : selection.supplier });
@@ -215,7 +238,7 @@ function EnquiryFields({ initialSelection, initialProject, initialMessage }: { i
       </label>}
 
       {showSupplier && <label>Kitchen supplier
-        <select name="supplier" value={selection.supplier} aria-invalid={Boolean(fieldErrors.supplier)} onChange={event => setSelection({ ...selection, supplier: event.target.value as SupplierId | "" })}>
+        <select disabled={status === "submitting" || status === "success"} name="supplier" value={selection.supplier} aria-invalid={Boolean(fieldErrors.supplier)} aria-describedby={fieldErrors.supplier ? "supplier-error" : undefined} onChange={event => setSelection({ ...selection, supplier: event.target.value as SupplierId | "" })}>
           <option value="">Still choosing / not sure</option>
           {supplierOptions.map(option => <option key={option.value} value={option.value}>{option.label}</option>)}
         </select>
@@ -223,21 +246,23 @@ function EnquiryFields({ initialSelection, initialProject, initialMessage }: { i
       </label>}
 
       {kitchenService && <label>Kitchen status
-        <select name="kitchenStatus" defaultValue="">
+        <select disabled={status === "submitting" || status === "success"} name="kitchenStatus" aria-invalid={Boolean(fieldErrors.kitchenStatus)} aria-describedby={fieldErrors.kitchenStatus ? "kitchenStatus-error" : undefined} defaultValue="">
           <option value="">Not sure yet</option>
           <option>Still planning</option>
           <option>Kitchen designed</option>
           <option>Kitchen ordered</option>
           <option>Kitchen delivered / ready to fit</option>
         </select>
+        {error("kitchenStatus")}
       </label>}
 
       {selection.service === "internal-door-installation" && <>
         <label>Approximate number of doors
-          <input name="doorCount" inputMode="numeric" placeholder="e.g. 5" />
+          <input disabled={status === "submitting" || status === "success"} aria-invalid={Boolean(fieldErrors.doorCount)} aria-describedby={fieldErrors.doorCount ? "doorCount-error" : undefined} maxLength={3} name="doorCount" inputMode="numeric" placeholder="e.g. 5" />
+          {error("doorCount")}
         </label>
         <label>Door type
-          <select name="doorType" defaultValue="">
+          <select disabled={status === "submitting" || status === "success"} name="doorType" aria-invalid={Boolean(fieldErrors.doorType)} aria-describedby={fieldErrors.doorType ? "doorType-error" : undefined} defaultValue="">
             <option value="">Not sure yet</option>
             <option>Hinged internal doors</option>
             <option>Double or glazed doors</option>
@@ -246,28 +271,32 @@ function EnquiryFields({ initialSelection, initialProject, initialMessage }: { i
             <option>Made-to-order / bespoke doors</option>
             <option>Other</option>
           </select>
+        {error("doorType")}
         </label>
         <label>Door supply
-          <select name="doorSupply" defaultValue="">
+          <select disabled={status === "submitting" || status === "success"} name="doorSupply" aria-invalid={Boolean(fieldErrors.doorSupply)} aria-describedby={fieldErrors.doorSupply ? "doorSupply-error" : undefined} defaultValue="">
             <option value="">Not sure yet</option>
             <option>I already have the doors</option>
             <option>I am choosing / ordering the doors</option>
             <option>I need made-to-order doors coordinated</option>
           </select>
+        {error("doorSupply")}
         </label>
       </>}
 
       <label>Timing / project stage
-        <select name="stage" defaultValue="">
+        <select disabled={status === "submitting" || status === "success"} name="stage" aria-invalid={Boolean(fieldErrors.stage)} aria-describedby={fieldErrors.stage ? "stage-error" : undefined} defaultValue="">
           <option value="">Not sure yet</option>
           <option>Planning / researching</option>
           <option>Design or order in progress</option>
           <option>Ready for installation</option>
         </select>
+        {error("stage")}
       </label>
 
       <label className="form-span">Project details
         <textarea
+          disabled={status === "submitting" || status === "success"}
           name="message"
           defaultValue={initialMessage}
           rows={7}
@@ -284,21 +313,21 @@ function EnquiryFields({ initialSelection, initialProject, initialMessage }: { i
     <div className="file-upload-block">
       <div>
         <strong>Plans & photographs <span className="field-optional">optional</span></strong>
-        <p>PDF, JPEG or PNG. Up to 5 files, 3 MB each and 4 MB total. If your phone uses HEIC/HEIF, please export or share the image as JPEG before uploading.</p>
+        <p id="file-help">PDF, JPEG or PNG. Up to 5 files, 3 MB each and 4 MB total. If your phone uses HEIC/HEIF, please export or share the image as JPEG before uploading.</p>
       </div>
       <label className="file-picker">
         <span>Choose files</span>
-        <input type="file" accept=".pdf,image/jpeg,image/png" multiple onChange={event => { addFiles(event.target.files); event.currentTarget.value = ""; }} />
+        <input disabled={status === "submitting" || status === "success"} aria-label="Choose plans and photographs" aria-invalid={Boolean(fieldErrors.files)} aria-describedby={fieldErrors.files ? "file-help files-error" : "file-help"} type="file" accept=".pdf,image/jpeg,image/png" multiple onChange={event => { addFiles(event.target.files); event.currentTarget.value = ""; }} />
       </label>
       {files.length > 0 && <ul className="file-list">{files.map((file, index) => <li key={`${file.name}-${file.lastModified}-${index}`}>
         <span><strong>{file.name}</strong><small>{(file.size / 1024 / 1024).toFixed(1)} MB</small></span>
-        <button type="button" onClick={() => setFiles(current => current.filter((_, fileIndex) => fileIndex !== index))}>Remove</button>
+        <button type="button" disabled={status === "submitting" || status === "success"} aria-label={`Remove ${file.name}`} onClick={() => setFiles(current => current.filter((_, fileIndex) => fileIndex !== index))}>Remove</button>
       </li>)}</ul>}
       {error("files")}
     </div>
 
     <label className="consent">
-      <input name="privacyAccepted" type="checkbox" required value="yes" aria-invalid={Boolean(fieldErrors.privacyAccepted)} />
+      <input disabled={status === "submitting" || status === "success"} name="privacyAccepted" type="checkbox" required value="yes" aria-invalid={Boolean(fieldErrors.privacyAccepted)} aria-describedby={fieldErrors.privacyAccepted ? "privacyAccepted-error" : undefined} />
       <span>I agree that Form & Frame can use these details to respond to my enquiry. Read our <Link href="/privacy">privacy notice</Link>.</span>
       {error("privacyAccepted")}
     </label>

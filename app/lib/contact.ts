@@ -1,4 +1,4 @@
-export const BUSINESS_CONTACT_NAME = "Arnas Vazinskas";
+export const BUSINESS_CONTACT_NAME = "Form & Frame";
 export const BUSINESS_PHONE_DISPLAY = "07933 026532";
 export const BUSINESS_PHONE_DIGITS = "07933026532";
 export const BUSINESS_PHONE_E164 = "447933026532";

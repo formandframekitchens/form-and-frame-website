@@ -4,6 +4,7 @@ import { getJoineryCategory, joineryCategories } from "../../lib/joinery-categor
 import { serviceMetadata } from "../../lib/service-metadata";
 import { joineryServiceCopy } from "../../lib/joinery-service-copy";
 import { categoriesForProject } from "../../lib/gallery-catalog";
+import { k01JoineryItems } from "../../lib/case-study-portfolio";
 import { publicGalleryProjects } from "../../lib/gallery-projects";
 
 export const dynamicParams = false;
@@ -16,7 +17,7 @@ export async function generateMetadata({ params }: PageProps<"/bespoke-joinery/[
   const category = getJoineryCategory((await params).category);
   if (!category) notFound();
   const copy = joineryServiceCopy[category.slug];
-  const cover = category.slug === "under-stairs-storage" ? undefined : publicGalleryProjects.find(project => categoriesForProject(project).includes(category.slug as Exclude<typeof category.slug, "under-stairs-storage">))?.cover;
+  const cover = k01JoineryItems.find(item=>item.categories.includes(category.slug))?.cover ?? (category.slug === "under-stairs-storage" ? undefined : publicGalleryProjects.find(project => categoriesForProject(project).includes(category.slug as Exclude<typeof category.slug, "under-stairs-storage">))?.cover);
   return serviceMetadata(copy.seoTitle, copy.description, `/bespoke-joinery/${category.slug}`, cover);
 }
 
