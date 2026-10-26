@@ -1,0 +1,21 @@
+import {test,expect} from '@playwright/test';
+test('generic kitchen enquiry does not require a supplier choice and keeps named local coverage',async({page,request},info)=>{
+ await page.goto('/');
+ await expect(page).toHaveTitle(/Kitchen Fitter Luton/);
+ const intro=page.locator('#kitchen-installation');
+ await expect(intro).toContainText('independent kitchen fitter');
+ await expect(intro).toContainText('Houghton Regis');
+ await intro.scrollIntoViewIfNeeded();await page.screenshot({path:info.outputPath('home-generic-fitting.png')});
+ await intro.getByRole('link',{name:'Independent kitchen fitting and quotations',exact:false}).click();
+ const section=page.locator('#independent-fitting');await expect(section).toContainText('without selecting a manufacturer first');
+ await section.scrollIntoViewIfNeeded();await page.screenshot({path:info.outputPath('generic-fitting.png')});
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+ await section.getByRole('link',{name:'Ask about independent kitchen fitting',exact:false}).click();
+ await expect(page.locator('select[name="service"]')).toHaveValue('kitchen-installation');
+ await expect(page.locator('select[name="installation"]')).toHaveValue('own-kitchen');
+ await page.goto('/areas#local-coverage');
+ for(const place of ['Luton','Dunstable','Houghton Regis','Flitwick','Ampthill','Leighton Buzzard','Linslade','Harpenden','Hitchin'])await expect(page.locator('#local-coverage')).toContainText(place);
+ const html=await(await request.get('/kitchen-installation')).text();
+ expect(html).toContain('Choose an independent kitchen installer');
+ expect(await(await request.get('/sitemap.xml')).text()).toMatch(/kitchen-installation<\/loc>\s*<lastmod>2026-10-\d{2}<\/lastmod>/);
+});

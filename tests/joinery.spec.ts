@@ -40,12 +40,7 @@ test("every category has a usable destination and passes its identity to the enq
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), slug).toBe(true);
     await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", `https://formandframekitchens.co.uk/bespoke-joinery/${slug}`);
     await expect.poll(() => page.locator(".service-hero-visual img").evaluate(image => (image as HTMLImageElement).naturalWidth), { timeout: 15_000 }).toBeGreaterThan(0);
-    if (slug === "under-stairs-storage") {
-      await expect(page.locator(".service-hero-visual figcaption")).toContainText("AI concept image");
-      await expect(page.locator(".service-hero-visual figcaption")).toContainText("not a completed Form & Frame project");
-    } else {
-      await expect(page.locator(".service-hero-visual figcaption")).toHaveCount(0);
-    }
+    await expect(page.locator(".service-hero-visual figcaption")).toHaveCount(0);
     await expect(page.getByText(/Photography slot ready|Coming soon/i)).toHaveCount(0);
     const enquiryUrl = `/contact?service=bespoke-joinery&joinery=${slug}#enquiry-form`;
     await expect(page.getByRole("link", { name: "Start my enquiry" })).toHaveAttribute("href", enquiryUrl);

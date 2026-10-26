@@ -85,6 +85,9 @@ async function sendResendEmail(apiKey: string, message: ResendMessage, idempoten
 }
 
 export async function POST(request: Request) {
+  if (process.env.VERCEL_ENV === "preview") {
+    return NextResponse.json({ ok: false, error: "This review preview does not send enquiries. Please use the live website to contact Form & Frame." }, { status: 503 });
+  }
   let form: FormData;
   try {
     form = await request.formData();

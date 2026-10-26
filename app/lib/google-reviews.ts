@@ -32,9 +32,17 @@ export function verifiedGoogleUrl(value: string | undefined): string | undefined
   }
 }
 
-export function getGoogleReviewsConfig(profileUrl = process.env.GOOGLE_BUSINESS_PROFILE_REVIEW_URL) {
-  const reviewUrl = verifiedGoogleUrl(profileUrl);
+// Checked against the owner's official Google Business Profile sharing links on 25 October 2026.
+export const GOOGLE_BUSINESS_PROFILE_URL = "https://www.google.com/maps/place/Form+%26+Frame+Kitchens/data=!4m2!3m1!1s0x0:0x4e2b1d814c87b388";
+export const GOOGLE_REVIEW_URL = "https://g.page/r/CYizh0yBHStOEBM/review";
+
+export function getGoogleReviewsConfig(
+  profileDestination = process.env.GOOGLE_BUSINESS_PROFILE_URL || GOOGLE_BUSINESS_PROFILE_URL,
+  reviewDestination = process.env.GOOGLE_BUSINESS_PROFILE_REVIEW_URL || GOOGLE_REVIEW_URL,
+) {
+  const profileUrl = verifiedGoogleUrl(profileDestination);
+  const reviewUrl = verifiedGoogleUrl(reviewDestination);
   const reviews = verifiedGoogleReviews.filter(review => verifiedGoogleUrl(review.sourceUrl));
 
-  return { reviewUrl, reviews };
+  return { profileUrl, reviewUrl, reviews };
 }

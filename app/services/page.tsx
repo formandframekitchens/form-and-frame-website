@@ -1,3 +1,4 @@
+import { localServiceAreaCopy } from "../lib/service-coverage";
 import Link from "next/link";
 import { Footer, Header } from "../components/site-shell";
 import { ServiceCardImage } from "../components/service-card-image";
@@ -5,7 +6,7 @@ import { serviceMetadata } from "../lib/service-metadata";
 
 export const metadata = serviceMetadata(
   "Joinery & Kitchen Installation Services",
-  "Explore kitchen installation, bespoke joinery, internal door fitting and joinery installation services from Form & Frame across Luton, Bedfordshire and Hertfordshire.",
+  "Explore kitchen installation, bespoke joinery, internal door fitting and joinery installation services from Form & Frame in Luton, Dunstable and nearby communities.",
   "/services"
 );
 
@@ -85,7 +86,7 @@ export default function ServicesPage() {
       <section className="services-hub-trust"><div className="container">
         <p className="eyebrow">Based in Luton</p>
         <h2>One practical point of contact for fitted projects.</h2>
-        <p>Projects are considered across Luton, Bedfordshire, Hertfordshire and selected surrounding areas according to scope, access and travel requirements.</p>
+        <p>{localServiceAreaCopy}</p>
       </div></section>
 
       <section className="section final-cta"><div className="container">

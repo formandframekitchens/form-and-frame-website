@@ -108,7 +108,7 @@ test("search and category navigation also work without JavaScript", async ({ bro
   await page.getByRole("searchbox").fill("G32");
   await page.getByRole("button", { name: "Search", exact: true }).click();
   await expect(page.locator(".gallery-card")).toHaveCount(1);
-  await page.getByRole("link", { name: "View Fulham Bespoke Fitted Alcove Units", exact: true }).click();
+  await page.locator('.gallery-card a[href="/gallery/fulham-alcove-units"]').click();
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("Fulham Bespoke Fitted Alcove Units");
   await context.close();
 });
@@ -191,10 +191,10 @@ test("joinery pages connect to relevant completed projects", async ({ page }) =>
     await page.goto("/bespoke-joinery/" + category);
     expect(await page.locator("#completed-projects .gallery-card").count()).toBeGreaterThan(0);
     expect((await page.locator(".gallery-card-project-id").allTextContents()).some(id => hiddenGalleryIds.includes(id))).toBe(false);
-    await expect(page.locator("#completed-projects .text-link")).toHaveAttribute("href", "/gallery?category=" + category);
+    await expect(page.locator("#completed-projects .text-link")).toHaveAttribute("href", "/bespoke-joinery?category=" + category);
   }
   await page.goto("/bespoke-joinery/under-stairs-storage");
-  await expect(page.locator("#completed-projects")).toHaveCount(0);
+  await expect(page.locator('#completed-projects [data-k01-room="under-stairs"]')).toHaveCount(1);
 });
 
 test("public routes, canonical URLs, sitemap and duplicate redirect stay valid", async ({ request }, testInfo) => {
@@ -214,11 +214,16 @@ test("public routes, canonical URLs, sitemap and duplicate redirect stay valid",
   expect(retired.headers().location).toBe("/gallery/handleless-kitchen-installation");
 });
 
-test("private access request reaches a prefilled enquiry", async ({ page }) => {
+test("private access request offers prefilled email and WhatsApp messages", async ({ page }) => {
   await page.goto("/progress-gallery");
-  await page.getByRole("link", { name: "Request access from Form & Frame" }).click();
-  await expect(page.getByRole("textbox", { name: "Project details", exact: true })).toHaveValue("I would like to request access to the private progress gallery.");
-  await expect(page.getByRole("combobox", { name: "Service", exact: true })).toHaveValue("other");
+  await expect(page).toHaveURL(/\/private-case-studies$/);
+  const email = new URL((await page.getByRole("link", { name: "Request by email" }).getAttribute("href"))!);
+  expect(email.protocol).toBe("mailto:");
+  expect(email.pathname).toBe("sales@formandframekitchens.co.uk");
+  expect(email.searchParams.get("subject")).toBe("Private projects access request");
+  const whatsapp = new URL((await page.getByRole("link", { name: "Request on WhatsApp" }).getAttribute("href"))!);
+  expect(whatsapp.origin + whatsapp.pathname).toBe("https://wa.me/447933026532");
+  expect(whatsapp.searchParams.get("text")).toContain("request an access code");
 });
 
 test("private login, lock and unauthorised image protection work locally", async ({ page, request }) => {
@@ -226,14 +231,14 @@ test("private login, lock and unauthorised image protection work locally", async
   expect(image.status()).toBe(404);
   await page.goto("/progress-gallery");
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", /noindex/);
-  await page.getByLabel("Access code").fill("incorrect-local-test");
-  await page.getByRole("button", { name: "Open private gallery" }).click();
-  await expect(page.getByText("The access code is not valid.")).toBeVisible();
+  await page.getByLabel("Please enter your access code").fill("incorrect-local-test");
+  await page.getByRole("button", { name: "View private case studies" }).click();
+  await expect(page.locator("#password-error")).toBeVisible();
   // Exercise authentication with a local fixture; no production credentials or private images are fetched.
-  await page.route("**/api/progress-gallery/image/**", route => route.fulfill({ status: 200, contentType: "image/svg+xml", body: '<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"/>' }));
-  await page.getByLabel("Access code").fill("local-gallery-test-only");
-  await page.getByRole("button", { name: "Open private gallery" }).click();
-  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Project progress gallery");
-  await page.getByRole("button", { name: "Lock gallery" }).click();
-  await expect(page.getByLabel("Access code")).toBeVisible();
+  await page.route("**/api/private-case-studies/media/**", route => route.fulfill({ status: 200, contentType: "image/svg+xml", body: '<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"/>' }));
+  await page.getByLabel("Please enter your access code").fill("local-private-test-only");
+  await page.getByRole("button", { name: "View private case studies" }).click();
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Private projects");
+  await page.getByRole("button", { name: "Lock portfolio" }).click();
+  await expect(page.getByLabel("Please enter your access code")).toBeVisible();
 });

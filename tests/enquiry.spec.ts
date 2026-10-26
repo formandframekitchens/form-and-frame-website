@@ -27,7 +27,7 @@ test("four numbered service rows keep their routes and fit on a laptop", async (
 
 test("kitchen fitting enquiry is prominent and seven supplier rows retain their routes and images", async ({ page }, testInfo) => {
   await page.goto("/kitchen-installation");
-  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Kitchen fitting in Luton and nearby towns");
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Independent kitchen fitting in Luton");
   const fittingEnquiry = page.getByRole("link", { name: "Send your kitchen plans", exact: false });
   await expect(fittingEnquiry).toBeInViewport();
   await expect(fittingEnquiry).toHaveAttribute("href", "/contact?service=kitchen-installation&installation=own-kitchen#enquiry-form");
@@ -37,10 +37,11 @@ test("kitchen fitting enquiry is prominent and seven supplier rows retain their 
   for (const [index, path] of paths.entries()) {
     await expect(rows.nth(index)).toHaveAttribute("href", path);
     await expect(rows.nth(index).locator(".services-card-number")).toHaveText("0" + (index + 1));
+    await rows.nth(index).scrollIntoViewIfNeeded();
     await expect.poll(() => rows.nth(index).locator("img").evaluate(image => (image as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
   }
   expect(new Set(await rows.locator("img").evaluateAll(images => images.map(image => image.getAttribute("src")))).size).toBe(7);
-  expect(await page.locator("#suppliers").evaluate(element => element.getBoundingClientRect().top)).toBeGreaterThanOrEqual(testInfo.project.use.viewport!.height - 1);
+  expect(await page.locator("#suppliers").evaluate(element => element.getBoundingClientRect().top + scrollY)).toBeGreaterThanOrEqual(testInfo.project.use.viewport!.height - 1);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   await page.screenshot({ path: testInfo.outputPath("kitchen-choice.png") });
   for (const row of await rows.all()) await row.scrollIntoViewIfNeeded();
@@ -283,7 +284,8 @@ test("transactional enquiry emails include every completed conditional field", (
 
   const acknowledgement = customerAcknowledgementEmail(data, "FF-20261001-TEST1234");
   expect(acknowledgement.subject).toContain("FF-20261001-TEST1234");
-  expect(acknowledgement.html).toContain("Arnas Vazinskas");
+  expect(acknowledgement.html).toContain("Form &amp; Frame");
+  expect(acknowledgement.html + acknowledgement.text).not.toMatch(/Arnas|Arnis|Vazinskas|Bazinskas/i);
   expect(acknowledgement.html).toContain("07933 026532");
   expect(acknowledgement.html).toContain("cid:form-frame-logo");
 });

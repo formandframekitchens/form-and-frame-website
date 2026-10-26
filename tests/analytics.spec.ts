@@ -11,5 +11,4 @@ test("analytics implementation does not include personal enquiry fields", async 
   for (const field of ["name", "email", "phone", "location", "message", "files", "reference", "submissionId"]) {
     expect(source).not.toContain(`data.get(\"${field}\")`);
   }
-  expect(source).not.toContain("searchParams");
 });

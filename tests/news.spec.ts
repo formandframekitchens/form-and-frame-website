@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
-import { newsArticles } from "../app/lib/news";
+import { formatArticleDate, newsArticles } from "../app/lib/news";
 import { archiveGalleryProjects } from "../app/lib/gallery-archive-oct13";
 import { galleryProjects, publicGalleryProjects } from "../app/lib/gallery-projects";
 import manifest from "../docs/gallery/b28-import-manifest.json";
@@ -25,12 +25,12 @@ test("news is discoverable and articles expose dates, sources and usable project
   await page.goto("/");
   await page.getByRole("link", { name: "All news & ideas", exact: false }).click();
   await expect(page).toHaveURL(/\/news$/);
-  await expect(page.locator(".news-card")).toHaveCount(3);
+  await expect(page.locator(".news-card")).toHaveCount(newsArticles.length);
   await expect(page.getByText(/not photographs of the supplier products/)).toBeVisible();
   for (const article of newsArticles) {
     await page.goto(`/news/${article.slug}`);
     await expect(page.getByRole("heading", { level: 1 })).toHaveText(article.title);
-    await expect(page.locator(".news-byline")).toContainText("13 October 2026");
+    await expect(page.locator(".news-byline")).toContainText(formatArticleDate(article.published));
     await expect(page.locator(".news-article-figure figcaption")).toContainText("not a supplier product");
     for (const source of article.sources) await expect(page.getByRole("link", { name: `${source.title} ↗`, exact: true })).toHaveAttribute("href", source.url);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), article.slug).toBe(true);
@@ -48,7 +48,7 @@ test("news metadata, article schema, RSS and sitemap remain consistent", async (
   const feed = await request.get("/news/feed.xml");
   expect(feed.headers()["content-type"]).toContain("application/rss+xml");
   const rss = await feed.text();
-  expect(rss.match(/<item>/g)).toHaveLength(3);
+  expect(rss.match(/<item>/g)).toHaveLength(newsArticles.length);
   for (const article of newsArticles) {
     const url = `https://formandframekitchens.co.uk/news/${article.slug}`;
     const html = await (await request.get(`/news/${article.slug}`)).text();

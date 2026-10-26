@@ -12,6 +12,7 @@ export const galleryCategories = [
   { value: "bookcases", label: "Bookcases" },
   { value: "entertainment-units", label: "Media & TV units" },
   { value: "office-furniture", label: "Home offices" },
+  { value: "under-stairs-storage", label: "Under-stairs storage" },
   { value: "unique-furniture", label: "Unique furniture" },
   { value: "internal-doors", label: "Internal doors" },
 ] as const;

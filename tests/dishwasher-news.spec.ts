@@ -1,0 +1,22 @@
+import { test, expect } from '@playwright/test';
+test('dishwasher advice discloses the concept, preserves sources and reaches the correct enquiry', async ({page,request},info)=>{
+ const path='/news/ikea-dishwasher-front-compatibility';
+ await page.goto(path);
+ await expect(page.locator('h1')).toHaveText('IKEA kitchen planning: will your dishwasher front fit?');
+ await expect(page.locator('figcaption')).toContainText('not an IKEA product');
+ await expect(page.locator('.news-article')).toContainText('not a new launch');
+ const img=page.locator('.news-article-image img'); await img.scrollIntoViewIfNeeded(); await img.evaluate((el:HTMLImageElement)=>el.decode());
+ expect(await img.evaluate((el:HTMLImageElement)=>el.naturalWidth)).toBeGreaterThan(0);
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+ await page.screenshot({path:info.outputPath('dishwasher-article.png'),fullPage:true});
+ await page.screenshot({path:info.outputPath('dishwasher-image.png')});
+ const html=await (await request.get(path)).text();
+ expect(html).toContain('ai-integrated-dishwasher-planning.webp');
+ expect(html).toContain('2026-10-22T18:43:00Z');
+ expect(await (await request.get('/sitemap.xml')).text()).toContain(path);
+ expect(await (await request.get('/news/feed.xml')).text()).toContain(path);
+ await page.getByRole('link',{name:'Send your IKEA fitting brief ↗',exact:true}).click();
+ await expect(page.locator('select[name="supplier"]')).toHaveValue('ikea');
+ await expect(page.locator('select[name="service"]')).toHaveValue('kitchen-installation');
+ await expect(page.locator('select[name="installation"]')).toHaveValue('own-kitchen');
+});

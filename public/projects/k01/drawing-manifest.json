@@ -1,0 +1,194 @@
+[
+  {
+    "id": "kitchen",
+    "title": "Kitchen design and production",
+    "src": "/projects/k01/drawings/kitchen.pdf",
+    "pages": [
+      {
+        "src": "/projects/k01/drawings/kitchen-1.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Kitchen design and production: project drawing sheet 1 of 6"
+      },
+      {
+        "src": "/projects/k01/drawings/kitchen-2.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Kitchen design and production: project drawing sheet 2 of 6"
+      },
+      {
+        "src": "/projects/k01/drawings/kitchen-3.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Kitchen design and production: project drawing sheet 3 of 6"
+      },
+      {
+        "src": "/projects/k01/drawings/kitchen-4.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Kitchen design and production: project drawing sheet 4 of 6"
+      },
+      {
+        "src": "/projects/k01/drawings/kitchen-5.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Kitchen design and production: project drawing sheet 5 of 6"
+      },
+      {
+        "src": "/projects/k01/drawings/kitchen-6.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Kitchen design and production: project drawing sheet 6 of 6"
+      }
+    ],
+    "pageCount": 6,
+    "bytes": 1252107
+  },
+  {
+    "id": "stone",
+    "title": "Stone coordination",
+    "src": "/projects/k01/drawings/stone.pdf",
+    "pages": [
+      {
+        "src": "/projects/k01/drawings/stone-1.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Stone coordination: project drawing sheet 1 of 4"
+      },
+      {
+        "src": "/projects/k01/drawings/stone-2.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Stone coordination: project drawing sheet 2 of 4"
+      },
+      {
+        "src": "/projects/k01/drawings/stone-3.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Stone coordination: project drawing sheet 3 of 4"
+      },
+      {
+        "src": "/projects/k01/drawings/stone-4.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Stone coordination: project drawing sheet 4 of 4"
+      }
+    ],
+    "pageCount": 4,
+    "bytes": 1179659
+  },
+  {
+    "id": "bedroom-wardrobe",
+    "title": "Bedroom wardrobe",
+    "src": "/projects/k01/drawings/bedroom-wardrobe.pdf",
+    "pages": [
+      {
+        "src": "/projects/k01/drawings/bedroom-wardrobe-1.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Bedroom wardrobe: project drawing sheet 1 of 3"
+      },
+      {
+        "src": "/projects/k01/drawings/bedroom-wardrobe-2.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Bedroom wardrobe: project drawing sheet 2 of 3"
+      },
+      {
+        "src": "/projects/k01/drawings/bedroom-wardrobe-3.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Bedroom wardrobe: project drawing sheet 3 of 3"
+      }
+    ],
+    "pageCount": 3,
+    "bytes": 1002943
+  },
+  {
+    "id": "entrance",
+    "title": "Entrance joinery",
+    "src": "/projects/k01/drawings/entrance.pdf",
+    "pages": [
+      {
+        "src": "/projects/k01/drawings/entrance-1.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Entrance joinery: project drawing sheet 1 of 3"
+      },
+      {
+        "src": "/projects/k01/drawings/entrance-2.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Entrance joinery: project drawing sheet 2 of 3"
+      },
+      {
+        "src": "/projects/k01/drawings/entrance-3.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Entrance joinery: project drawing sheet 3 of 3"
+      }
+    ],
+    "pageCount": 3,
+    "bytes": 999135
+  },
+  {
+    "id": "internal-doors",
+    "title": "Internal doors",
+    "src": "/projects/k01/drawings/internal-doors.pdf",
+    "pages": [
+      {
+        "src": "/projects/k01/drawings/internal-doors-1.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Internal doors: project drawing sheet 1 of 3"
+      },
+      {
+        "src": "/projects/k01/drawings/internal-doors-2.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Internal doors: project drawing sheet 2 of 3"
+      },
+      {
+        "src": "/projects/k01/drawings/internal-doors-3.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Internal doors: project drawing sheet 3 of 3"
+      }
+    ],
+    "pageCount": 3,
+    "bytes": 864191
+  },
+  {
+    "id": "under-stairs",
+    "title": "Under-stairs storage",
+    "src": "/projects/k01/drawings/under-stairs.pdf",
+    "pages": [
+      {
+        "src": "/projects/k01/drawings/under-stairs-1.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Under-stairs storage: project drawing sheet 1 of 4"
+      },
+      {
+        "src": "/projects/k01/drawings/under-stairs-2.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Under-stairs storage: project drawing sheet 2 of 4"
+      },
+      {
+        "src": "/projects/k01/drawings/under-stairs-3.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Under-stairs storage: project drawing sheet 3 of 4"
+      },
+      {
+        "src": "/projects/k01/drawings/under-stairs-4.webp",
+        "width": 2358,
+        "height": 1668,
+        "alt": "Under-stairs storage: project drawing sheet 4 of 4"
+      }
+    ],
+    "pageCount": 4,
+    "bytes": 626511
+  }
+]

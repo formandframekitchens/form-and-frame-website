@@ -1,3 +1,5 @@
+import { readAnalyticsConsent } from "./analytics-consent";
+
 export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim();
 
 export const GA_ENABLED = Boolean(
@@ -14,12 +16,17 @@ export type AnalyticsEvent =
   | "primary_cta_click"
   | "important_case_study_view"
   | "supplier_portal_view"
-  | "instagram_outbound_click";
+  | "instagram_outbound_click"
+  | "news_service_click"
+  | "project_service_click"
+  | "installation_portfolio_download"
+  | "project_checklist_download"
+  | "installation_video_play";
 
 type EventParameters = Record<string, string | boolean | number>;
 
 export function trackEvent(name: AnalyticsEvent, parameters: EventParameters = {}) {
-  if (!GA_ENABLED || typeof window === "undefined" || !window.gtag) return;
+  if (!GA_ENABLED || typeof window === "undefined" || !window.gtag || readAnalyticsConsent() !== "accepted") return;
   window.gtag("event", name, parameters);
 }
 

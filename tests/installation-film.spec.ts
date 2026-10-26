@@ -1,0 +1,52 @@
+import { expect, test } from '@playwright/test';
+
+test('installation film is light until played, captioned and playable to the end', async ({ page, request }, info) => {
+  const media: string[] = [];
+  page.on('request', req => { if (req.url().endsWith('before-the-worktops.mp4')) media.push(req.url()); });
+  await page.goto('/kitchen-installation');
+  const video = page.locator('#installation-film video');
+  await video.scrollIntoViewIfNeeded();
+  await expect(video).toHaveAttribute('preload', 'none');
+  await expect(video).not.toHaveAttribute('autoplay');
+  expect(media).toEqual([]);
+  expect((await request.get('/videos/installation/before-the-worktops.en.vtt')).headers()['content-type']).toContain('text/vtt');
+  await expect(page.locator('.installation-film-transcript li')).toHaveCount(4);
+  await video.evaluate(async (el: HTMLVideoElement) => { el.muted = true; el.textTracks[0].mode = 'showing'; await el.play(); });
+  await expect.poll(() => video.evaluate((el: HTMLVideoElement) => el.currentTime), { timeout: 10000 }).toBeGreaterThan(1);
+  await expect.poll(() => video.evaluate((el: HTMLVideoElement) => el.textTracks[0].cues?.length || 0)).toBeGreaterThan(0);
+  await page.locator('#installation-film').screenshot({ path: info.outputPath('installation-film.png') });
+  await expect.poll(() => video.evaluate((el: HTMLVideoElement) => el.ended), { timeout: 23000 }).toBe(true);
+  const state = await video.evaluate((el: HTMLVideoElement) => ({ duration: el.duration, width: el.videoWidth, height: el.videoHeight, error: el.error }));
+  expect(state.duration).toBeGreaterThan(15);
+  expect(state.duration).toBeLessThan(16);
+  expect(state).toMatchObject({ width: 720, height: 1280, error: null });
+  expect(media.length).toBeGreaterThan(0);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+});
+
+test('film and checklist measurement requires consent and is separate from enquiries', async ({ page }) => {
+  test.skip(process.env.B23_B27_GA_TEST !== '1', 'Requires intercepted test Analytics build');
+  await page.route('https://www.googletagmanager.com/**', route => route.fulfill({ contentType: 'application/javascript', body: '/* intercepted test loader */' }));
+  await page.route(/https:\/\/[^/]*google-analytics\.com\//, route => route.abort());
+  await page.goto('/kitchen-installation?email=private-do-not-track');
+  const video = page.locator('#installation-film video');
+  await video.evaluate(async (el: HTMLVideoElement) => { el.muted = true; await el.play(); el.pause(); });
+  await page.locator('#fitting-checklist button').click();
+  expect(await page.evaluate(() => typeof window.gtag)).toBe('undefined');
+  await page.getByRole('button', { name: 'Allow analytics', exact: true }).click();
+  const events = () => page.evaluate(() => (window.dataLayer || []).map(item => Array.from(item as ArrayLike<unknown>)));
+  await expect.poll(async () => (await events()).some(x => x[1] === 'page_view')).toBe(true);
+  await video.evaluate(async (el: HTMLVideoElement) => { await el.play(); });
+  await expect.poll(async () => (await events()).filter(x => x[1] === 'installation_video_play').length).toBe(1);
+  await video.evaluate(async (el: HTMLVideoElement) => { el.pause(); await el.play(); });
+  await page.locator('#fitting-checklist button').click();
+  await expect.poll(async () => (await events()).filter(x => x[1] === 'project_checklist_download').length).toBe(1);
+  const measured = await events();
+  expect(measured.filter(x => x[1] === 'installation_video_play')).toHaveLength(1);
+  expect(measured.find(x => x[1] === 'project_checklist_download')?.[2]).toEqual({ service_type: 'kitchen' });
+  expect(JSON.stringify(measured)).not.toContain('private-do-not-track');
+  expect(measured.some(x => x[1] === 'enquiry_submit_success')).toBe(false);
+  await page.getByRole('button', { name: 'Cookie preferences', exact: true }).click();
+  await page.getByRole('button', { name: 'Decline analytics', exact: true }).click();
+  await expect.poll(() => page.evaluate(() => typeof window.gtag)).toBe('undefined');
+});

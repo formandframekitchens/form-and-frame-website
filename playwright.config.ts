@@ -2,6 +2,7 @@ import { defineConfig } from "@playwright/test";
 
 export default defineConfig({
   testDir: "./tests",
+  testMatch: "**/*.spec.ts",
   fullyParallel: true,
   workers: 2,
   use: {
@@ -18,6 +19,8 @@ export default defineConfig({
   webServer: {
     env: {
       PROGRESS_GALLERY_ACCESS_CODE: "local-gallery-test-only",
+      PRIVATE_PORTFOLIO_PASSWORD: "local-private-test-only",
+      PRIVATE_PORTFOLIO_SESSION_SECRET: "local-private-test-secret-at-least-32-characters",
       GOOGLE_BUSINESS_PROFILE_REVIEW_URL: "",
       // Explicit local-only fixtures, never production credentials.
       SUPPLIER_PORTAL_SIGNING_SECRET: "local-test-signing-secret-at-least-32-characters",

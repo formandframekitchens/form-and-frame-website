@@ -3,6 +3,7 @@ import { EnquiryForm } from "../components/enquiry-form";
 import { Footer, Header } from "../components/site-shell";
 import { BUSINESS_EMAIL, BUSINESS_PHONE_DISPLAY, EMAIL_HREF, PHONE_HREF, WHATSAPP_HREF } from "../lib/contact";
 import { serviceMetadata } from "../lib/service-metadata";
+import { GoogleReviews } from "../components/google-reviews";
 import { getEnquiryProject } from "../lib/gallery-catalog";
 
 export const metadata = serviceMetadata(
@@ -33,6 +34,7 @@ export default async function ContactPage({ searchParams }: PageProps<"/contact"
         <h2>Send the essentials first</h2>
         <div className="service-section-body"><Suspense fallback={<p className="enquiry-loading">Loading your enquiry form… You can also <a href={EMAIL_HREF}>email {BUSINESS_EMAIL}</a>.</p>}><EnquiryForm project={projectReference} /></Suspense></div>
       </div></section>
+      <GoogleReviews compact />
     </main>
     <Footer />
   </>;

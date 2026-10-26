@@ -17,7 +17,9 @@ const ACCEPTED_TYPES = new Set(["application/pdf", "image/jpeg", "image/png"]);
 export function EnquiryForm({ project }: { project?: GalleryReference }) {
   const params = useSearchParams();
   const initialSelection = readEnquirySelection(params);
-  const initialMessage = params.get("request") === "gallery-access" ? "I would like to request access to the private progress gallery." : "";
+  const initialMessage = params.get("request") === "gallery-access"
+    ? "I would like to request access to the private progress gallery."
+    : params.get("request") === "k01" ? "I have seen the K01 case study and would like to discuss a project with Form & Frame." : "";
   return <EnquiryFields key={JSON.stringify([initialSelection, project?.slug, initialMessage])} initialSelection={initialSelection} initialProject={project} initialMessage={initialMessage} />;
 }
 
@@ -182,8 +184,9 @@ function EnquiryFields({ initialSelection, initialProject, initialMessage }: { i
         </select>
       </label>
 
-      <label>Postcode / town
-        <input name="location" required autoComplete="postal-code" aria-invalid={Boolean(fieldErrors.location)} aria-describedby={fieldErrors.location ? "location-error" : undefined} />
+      <label><span id="location-label">Postcode / town</span>
+        <input name="location" aria-labelledby="location-label" required autoComplete="postal-code" aria-invalid={Boolean(fieldErrors.location)} aria-describedby={fieldErrors.location ? "location-help location-error" : "location-help"} />
+        <span className="field-optional" id="location-help">Use the project postcode if known. We check the journey, access and visits needed before confirming availability.</span>
         {error("location")}
       </label>
 
