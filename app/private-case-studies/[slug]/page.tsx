@@ -1,16 +1,18 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { isPrivateAuthorized, portfolioConfigured } from "../../lib/private-portfolio/auth";
-import { privateProjects } from "../../lib/private-portfolio/catalogue";
-import { privateProjectStories } from "../../lib/private-portfolio/stories";
-import { PasswordGate, PrivateHeader, PrivateFooter } from "../components";
+import { portfolioConfigured } from "../../lib/private-portfolio/auth";
+import { getPrivatePortfolio } from "../../lib/private-portfolio/loader";
+import { PasswordGate, PrivateHeader, PrivateFooter, PortfolioUnavailable } from "../components";
 import { PhotoGallery, ProjectFilms } from "../project-media";
 import styles from "../private.module.css";
 
 export default async function PrivateCaseStudy({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   // Check access before looking up any project or returning its title/content.
-  if (!(await isPrivateAuthorized())) return <PasswordGate next={`/private-case-studies/${slug}`} available={portfolioConfigured()} />;
+  const portfolio = await getPrivatePortfolio();
+  if (portfolio.status === "unauthorized") return <PasswordGate next={`/private-case-studies/${slug}`} available={portfolioConfigured()} />;
+  if (portfolio.status !== "available") return <PortfolioUnavailable />;
+  const { projects: privateProjects, stories: privateProjectStories } = portfolio.data;
   const project = privateProjects.find(item => item.slug === slug);
   if (!project) notFound();
   const story = privateProjectStories[project.slug];

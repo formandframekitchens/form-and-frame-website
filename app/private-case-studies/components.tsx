@@ -46,3 +46,7 @@ export function PasswordGate({ error, next = "", available = true }: { error?: s
 export function PrivateFooter() {
   return <footer className={styles.footer}><span>FORM &amp; FRAME · PRIVATE PORTFOLIO</span><span>Shared for individual review. Please do not redistribute.</span></footer>;
 }
+
+export function PortfolioUnavailable() {
+  return <div className={styles.shell}><PrivateHeader unlocked /><main id="main-content" className={styles.lockPage}><section className={styles.lockCard}><h1>Portfolio temporarily unavailable</h1><p>Your access is still valid, but the project information could not be loaded. Please try again later or contact Form &amp; Frame.</p><Link href="/contact">Contact Form &amp; Frame</Link></section></main><PrivateFooter /></div>;
+}

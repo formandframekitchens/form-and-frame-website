@@ -1,12 +1,15 @@
 import { get } from "@vercel/blob";
-import { isPrivateAuthorized, privateHeaders } from "@/app/lib/private-portfolio/auth";
-import { privateAssets } from "@/app/lib/private-portfolio/catalogue";
+import { privateHeaders } from "@/app/lib/private-portfolio/auth";
+import { getPrivatePortfolio } from "@/app/lib/private-portfolio/loader";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 async function serve(request: Request, context: { params: Promise<{ id: string }> }, head = false) {
-  if (!(await isPrivateAuthorized())) return new Response("Not found", { status: 404, headers: privateHeaders });
+  const portfolio = await getPrivatePortfolio();
+  if (portfolio.status === "unauthorized") return new Response("Not found", { status: 404, headers: privateHeaders });
+  if (portfolio.status !== "available") return new Response("Media temporarily unavailable. Please reload this page.", { status: 503, headers: privateHeaders });
+  const privateAssets = portfolio.data.assets;
   const { id } = await context.params;
   const asset = Object.hasOwn(privateAssets, id) ? privateAssets[id] : undefined;
   if (!asset) return new Response("Not found", { status: 404, headers: privateHeaders });

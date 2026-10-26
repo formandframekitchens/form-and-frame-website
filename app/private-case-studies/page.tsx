@@ -1,12 +1,16 @@
 /* eslint-disable @next/next/no-img-element -- Authenticated images must bypass the public image optimisation cache. */
 import Link from "next/link";
-import { isPrivateAuthorized, portfolioConfigured } from "../lib/private-portfolio/auth";
-import { mediaUrl, privateProjects } from "../lib/private-portfolio/catalogue";
-import { PasswordGate, PrivateFooter, PrivateHeader } from "./components";
+import { portfolioConfigured } from "../lib/private-portfolio/auth";
+import { mediaUrl } from "../lib/private-portfolio/catalogue";
+import { getPrivatePortfolio } from "../lib/private-portfolio/loader";
+import { PasswordGate, PrivateFooter, PrivateHeader, PortfolioUnavailable } from "./components";
 import styles from "./private.module.css";
 
 export default async function PrivatePortfolio({ searchParams }: { searchParams: Promise<{ error?: string }> }) {
-  if (!(await isPrivateAuthorized())) return <PasswordGate error={(await searchParams).error} available={portfolioConfigured()} />;
+  const portfolio = await getPrivatePortfolio();
+  if (portfolio.status === "unauthorized") return <PasswordGate error={(await searchParams).error} available={portfolioConfigured()} />;
+  if (portfolio.status !== "available") return <PortfolioUnavailable />;
+  const privateProjects = portfolio.data.projects;
   return <div className={styles.shell}>
     <PrivateHeader unlocked />
     <main id="main-content" className={styles.main}>

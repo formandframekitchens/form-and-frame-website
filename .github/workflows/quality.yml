@@ -28,6 +28,7 @@ jobs:
       - run: npm run test:guards
       - run: npm run test:delivery
       - run: npm run test:health
+      - run: npm run test:private-data
       - run: npm run build
       - run: npm run typecheck
       - run: npx playwright install --with-deps chromium
