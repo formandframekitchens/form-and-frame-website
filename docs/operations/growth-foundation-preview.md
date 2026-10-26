@@ -12,7 +12,7 @@ Drafts #102, #104 and #106 contain older joinery disclosure/layout checks plus r
 
 Private project narratives, catalogues, captions, media indexes, source photographs and environment files are excluded. The private routes use synthetic data to test authentication, session expiry, origin checks and denial of unauthenticated media. There are no real private media paths in the fixture.
 
-The prebuild guard rejects Vercel production targets. **Do not remove that guard or promote this deployment.** An approved secure private-data migration and production review are prerequisites. The untouched live source retains the real portfolio.
+The prebuild guard rejects Vercel production targets. **Do not remove that guard or promote this deployment.** The owner chose to retain the existing private catalogue and media architecture. The separate full release candidate keeps those private files in their existing source and applies only the public change allowlist. No private migration is needed for this release. See `public-release-20261026.md`.
 
 Hosted previews omit Google Analytics and reject enquiry submissions before parsing or calling the mail provider. A dedicated preview-build test verifies both boundaries with a fake measurement ID and synthetic request.
 
@@ -26,10 +26,10 @@ Next.js and eslint-config-next are pinned to16.4.3. The undici lockfile is updat
 2. Run the Preview quality workflow: publication screen, production dependency audit, lint, release-guard tests, build, types and focused desktop/mobile browser tests.
 3. Build a protected preview for the exact revision. Do not disable hosting protection or create bypass links.
 4. Review public visuals and behaviour plus synthetic access controls. No real enquiry test or real customer email is sent.
-5. Present test evidence and remaining migration requirements to the owner.
+5. Present public preview evidence and private-preservation checks from the full local candidate to the owner.
 6. Production remains a separate approval and cannot use this synthetic-data preview as-is.
 
-GitHub master was observed without branch protection. This PR adds checks; it does not silently claim required-check enforcement or change repository permissions. Legacy gallery automations are scoped to their historical branches/manifests and are not triggered by this PR's files.
+GitHub master protections were separately approved and verified on 26 October: pull requests, current quality/Vercel checks, administrator enforcement and no force push/deletion. This release does not alter those settings. Legacy gallery automations remain scoped to their historical branches/manifests.
 
 ## Local checks
 
