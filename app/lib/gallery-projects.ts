@@ -1,5 +1,6 @@
 import { hiddenGalleryIds } from "./gallery-visibility";
 import { archiveGalleryProjects } from "./gallery-archive-oct13";
+import type { ProjectEvidenceItem } from "../components/project-evidence-grid";
 
 export type GalleryImage = {
   src: string;
@@ -25,6 +26,7 @@ export type GalleryProject = {
   keywords: string[];
   highlights: string[];
   caseStudy: GalleryCaseStudySection[];
+  installationDetails?: ProjectEvidenceItem[];
   cover: GalleryImage;
   images: GalleryImage[];
 };
@@ -34,6 +36,7 @@ export const galleryProjects: GalleryProject[] = [
   {
     "galleryId": "G01",
     "slug": "handleless-kitchen-installation",
+    "lastModified": "2026-10-24",
     "title": "White Handleless Kitchen & Utility Installation",
     "category": "Kitchen Installation",
     "summary": "White handleless kitchen installation with integrated appliances, concealed laundry storage and precise cabinet alignment.",
@@ -77,7 +80,7 @@ export const galleryProjects: GalleryProject[] = [
         "heading": "The finished result",
         "body": [
           "The final kitchen is clean, functional and deliberately understated. The emphasis is on accurate fitting rather than decorative complexity: straight lines, controlled gaps, integrated equipment and a consistent relationship between units, worktops and surrounding finishes.",
-          "Form & Frame provides independent kitchen installation for customer-supplied kitchens, with projects considered across Luton, Bedfordshire, Hertfordshire and selected surrounding areas."
+          "Form & Frame provides independent kitchen installation for customer-supplied kitchens in Luton, Dunstable and nearby communities. Send your project postcode and scope so we can confirm the practical arrangements."
         ]
       },
       {
@@ -92,6 +95,11 @@ export const galleryProjects: GalleryProject[] = [
           "For a comparable kitchen, send the supplier plan and appliance schedule alongside room photographs. Worktop templating, service connections, ventilation, door clearances and the sequence of deliveries need to be agreed before fitting. A simple handleless appearance depends on that preparation as much as on the final adjustment of the doors."
         ]
       }
+    ],
+    "installationDetails": [
+      { "title": "A furniture front on an appliance", "copy": "The open dishwasher shows the white furniture front beneath the worktop, with the appliance controls behind it. For a new installation, the exact appliance and door-fixing instructions guide the clearances and adjustment; a matching front alone does not establish compatibility.", "image": { "src": "/images/gallery/g01/g01-12-integrated-dishwasher-door-and-fitted-furniture-front.webp", "alt": "Open integrated dishwasher with its fitted white handleless furniture front" } },
+      { "title": "The drawer and worktop junction", "copy": "This close view reveals the shaped handle edge and the drawer beneath the worktop. Reviewing these details alongside neighbouring fronts helps establish how the doors and drawers will look and move once fitted.", "image": { "src": "/images/gallery/g01/g01-08-drawer-fronts-and-handle-profiles-beside-the-worktop.webp", "alt": "Open kitchen drawer showing the recessed handle edge below the worktop" } },
+      { "title": "Laundry behind a matching door", "copy": "The utility photograph shows the washing machine behind a matching cabinet door, with the microwave housed above. On a comparable plan, appliance access, door movement and the manufacturer's installation requirements need to be considered together.", "image": { "src": "/images/gallery/g01/g01-06-washing-machine-concealed-behind-a-matching-cabinet-door.webp", "alt": "Open utility cabinet door revealing the washing machine below the microwave housing" } }
     ],
     "cover": {
       "src": "/images/gallery/g01/g01-01-white-handleless-fitted-kitchen-with-a-cooking-run.webp",

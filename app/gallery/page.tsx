@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+/* eslint-disable @next/next/no-html-link-for-pages -- Private portfolio entry must clear the public analytics runtime. */
 import Link from "next/link";
 import { ProjectIndex } from "../components/project-index";
 import { PortfolioNavigation } from "../components/portfolio-navigation";
@@ -26,6 +27,7 @@ export default async function GalleryPage({ searchParams }: PageProps<"/gallery"
         <h1>Kitchen &amp; Joinery Gallery</h1>
         <p className="gallery-lead">Explore kitchen installations and bespoke joinery, or search the complete project archive below. Galleries include finished furniture, installation stages and close details.</p>
         <PortfolioNavigation />
+        <p><a className="text-link" href="/private-case-studies">Private projects · Request access ↗</a></p>
       </div></header>
       <ProjectIndex filters={filters} />
     </main>

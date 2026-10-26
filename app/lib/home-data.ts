@@ -1,4 +1,5 @@
 import { supplierPages } from "./supplier-pages";
+import { localServiceAreaCopy } from "./service-coverage";
 
 export const navigation = [
   { label: "Kitchens", href: "/kitchens" },
@@ -27,21 +28,7 @@ export const secondaryServices = [
   { id: "joinery-installation", title: "Joinery & Furniture Installation", copy: "Professional installation of cabinetry and fitted furniture manufactured or supplied by other joinery companies, builders, designers or clients." },
 ];
 
-export const serviceAreas = [
-  "Luton",
-  "Dunstable",
-  "Harpenden",
-  "St Albans",
-  "Hemel Hempstead",
-  "Hitchin",
-  "Welwyn Garden City",
-  "Berkhamsted",
-  "Leighton Buzzard",
-  "Milton Keynes",
-  "Bedford",
-  "Surrounding Bedfordshire",
-  "Surrounding Hertfordshire",
-];
+export { serviceAreas } from "./service-coverage";
 
 export const futureLutonHref = "/areas/luton";
 
@@ -54,7 +41,7 @@ export const faqs = [
   { question: "Can you remove my existing kitchen?", answer: "Yes. Old kitchen removal and room preparation can be included in the project. We agree the scope with you before installation." },
   { question: "Can you coordinate electrical and gas work?", answer: "Electrical and gas connections can be coordinated with appropriately qualified tradespeople where required." },
   { question: "Do you fit worktops?", answer: "We fit laminate and solid timber worktops where appropriate, including routed joints and sink and hob cut-outs. Specialist worktops can be coordinated with the relevant fabricator." },
-  { question: "Which areas do you cover?", answer: "Luton is our core base. We also consider projects across Dunstable, Harpenden, St Albans, Hemel Hempstead, Hitchin, Welwyn Garden City, Berkhamsted, Leighton Buzzard, Milton Keynes, Bedford and surrounding Bedfordshire and Hertfordshire." },
+  { question: "Which areas do you cover?", answer: localServiceAreaCopy },
 ];
 
 export const homepageServices = [

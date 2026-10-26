@@ -4,6 +4,7 @@ import { manufacturers, processSteps, homepageServices, faqs } from "../lib/home
 import { WHATSAPP_NUMBER } from "../lib/contact";
 import { publicGalleryProjects } from "../lib/gallery-projects";
 import { GalleryProjectCard } from "./gallery-project-card";
+import { CaseStudyCard } from "./case-study-card";
 import { Photo } from "./photo";
 import { KitchenCarousel } from "./kitchen-carousel";
 import { enquiryHref } from "../lib/enquiry";
@@ -23,6 +24,7 @@ export function Hero() {
           <Eyebrow>Independent kitchen fitting <span aria-hidden="true">·</span> Luton</Eyebrow>
           <h1>Kitchen installation in Luton</h1>
           <p className="hero-description">Your kitchen, carefully fitted. We install customer-supplied kitchens in Luton and nearby towns, with over 20 years of industry experience. Send your plans and postcode to discuss the fitting. Fitted furniture and bespoke joinery enquiries are welcome too.</p>
+          <Link className="text-link hero-project-link" href="#cabinet-opening">See the cabinet opening, step by step <span aria-hidden="true">↓</span></Link>
         </div>
         <div className="hero-image">
           <KitchenCarousel />
@@ -71,7 +73,7 @@ export function KitchenInstallation() {
       <div className="container">
         <div className="installation-intro">
           <h2>Already Bought Your Kitchen?<br />We Can Install It.</h2>
-          <div><p>You choose the kitchen. We bring the installation experience. Form & Frame independently installs customer-supplied kitchens from major manufacturers.</p><Link className="text-link" href="/kitchen-installation">Kitchen installation <span aria-hidden="true">↗</span></Link></div>
+          <div><p>Choose an independent kitchen fitter for the complete installation, whatever supplier you buy from. Based in Luton, we review local projects in Dunstable, Houghton Regis and surrounding communities, from cabinet fitting and finishing to agreed worktop and trade coordination.</p><Link className="text-link" href="/kitchen-installation">Independent kitchen fitting and quotations <span aria-hidden="true">↗</span></Link><p className="service-prose-spaced">Send the plan, room photographs and preferred dates. We agree what the fitting includes before booking. <Link href="/areas#local-coverage">Check the nearby towns and villages we serve</Link>.</p></div>
         </div>
         <ul className="manufacturer-list" id="kitchen-brands">{manufacturers.map(item => <li key={item.name}>{item.href ? <Link href={item.href}>{item.name}</Link> : item.name}</li>)}</ul>
 
@@ -88,7 +90,7 @@ export function TechnicalExpertise() {
         <div className="technical-copy" id="about">
           <Eyebrow>Technical installation experience</Eyebrow>
           <h2>More Than<br />Cabinet Assembly</h2>
-          <p>Form &amp; Frame is led by Arnas Vazinskas, drawing on around 20 years of personal experience across joinery manufacturing, technical design and installation. That background connects the appearance of your furniture with the details needed to fit it accurately.</p>
+          <p>Form &amp; Frame draws on around 20 years of hands-on experience across joinery manufacturing, technical design and installation. That background connects the appearance of your furniture with the details needed to fit it accurately.</p>
           <ul className="capability-list">
             <li>Accurate cabinet levelling</li><li>Precision scribes &amp; fillers</li><li>Worktop routing &amp; fitting</li><li>Integrated appliances &amp; complex layouts</li>
           </ul>
@@ -111,7 +113,7 @@ export function Process() {
 }
 
 export function ProjectsPreview() {
-  const projects = ["G01", "G27", "G32"].map(id => publicGalleryProjects.find(project => project.galleryId === id)!);
+  const projects = ["G27", "G32"].map(id => publicGalleryProjects.find(project => project.galleryId === id)!);
   return (
     <section className="section projects-section" id="projects"><div className="container">
       <p className="eyebrow">Completed work</p>
@@ -119,6 +121,7 @@ export function ProjectsPreview() {
       <p className="project-intro">Selected photographs from completed kitchen installation and bespoke joinery work. The full gallery brings each project together with its supporting views and details.</p>
       <Link className="text-link" href="/gallery">View full gallery <span aria-hidden="true">↗</span></Link>
       <div className="gallery-card-grid service-prose-spaced">
+        <CaseStudyCard />
         {projects.map(project => <GalleryProjectCard key={project.slug} project={project} />)}
       </div>
     </div></section>
@@ -130,9 +133,9 @@ export function SecondaryServices() {
     <section className="supporting-section"><div className="container">
       <h2>Other Services</h2>
       <div className="service-grid">{homepageServices.map(service => (
-        <article id={service.id} key={service.id}><h3>{service.title}</h3><p>{service.copy}</p><Link className="text-link" href={service.href} aria-label={`Explore ${service.title.toLowerCase()}`}>Explore service <span aria-hidden="true">↗</span></Link></article>
+        <article id={service.id} key={service.id}><h3>{service.title}</h3><p>{service.copy}</p><Link className="text-link" href={service.href} aria-label={`Explore service: ${service.title.toLowerCase()}`}>Explore service <span aria-hidden="true">↗</span></Link></article>
       ))}</div>
-      <div className="service-area" id="areas"><p>Based in Luton and working across selected areas of Bedfordshire and nearby Hertfordshire.</p><Link className="text-link" href="/areas">Areas we cover <span aria-hidden="true">↗</span></Link></div>
+      <div className="service-area" id="areas"><p>Based in Luton, with a focus on local projects in Dunstable and nearby communities. Send your postcode to check the practical arrangements.</p><Link className="text-link" href="/areas">Areas we cover <span aria-hidden="true">↗</span></Link></div>
     </div></section>
   );
 }

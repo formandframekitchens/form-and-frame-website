@@ -1,13 +1,16 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { homepageKitchenSlides } from "../lib/home-carousel";
 
 const AUTOPLAY_MS = 5200;
 
 export function KitchenCarousel() {
   const [index, setIndex] = useState(0);
+  const [requestedIndex, setRequestedIndex] = useState(0);
+  const [requestedSlides, setRequestedSlides] = useState([0]);
+  const loadedSlides = useRef(new Set<number>());
   const [interactionPaused, setInteractionPaused] = useState(false);
   const [userPaused, setUserPaused] = useState(false);
   const [reducedMotion, setReducedMotion] = useState(false);
@@ -20,24 +23,26 @@ export function KitchenCarousel() {
     return () => media.removeEventListener("change", update);
   }, []);
 
-  useEffect(() => {
-    if (interactionPaused || userPaused || reducedMotion || homepageKitchenSlides.length < 2) return;
-    const timer = window.setInterval(() => {
-      setIndex(current => (current + 1) % homepageKitchenSlides.length);
-    }, AUTOPLAY_MS);
-    return () => window.clearInterval(timer);
-  }, [interactionPaused, userPaused, reducedMotion]);
+  const goTo = useCallback((next: number) => {
+    const target = (next + homepageKitchenSlides.length) % homepageKitchenSlides.length;
+    setRequestedIndex(target);
+    setRequestedSlides(current => current.includes(target) ? current : [...current, target]);
+    if (loadedSlides.current.has(target)) setIndex(target);
+  }, []);
 
-  function goTo(next: number) {
-    setIndex((next + homepageKitchenSlides.length) % homepageKitchenSlides.length);
-  }
+  useEffect(() => {
+    if (interactionPaused || userPaused || reducedMotion || requestedIndex !== index || homepageKitchenSlides.length < 2) return;
+    const timer = window.setInterval(() => goTo(index + 1), AUTOPLAY_MS);
+    return () => window.clearInterval(timer);
+  }, [interactionPaused, userPaused, reducedMotion, requestedIndex, index, goTo]);
 
   return (
     <div
       className="kitchen-carousel"
       role="region"
       aria-roledescription="carousel"
-      aria-label="Form & Frame completed furniture and kitchen photography"
+      aria-label="K01 bespoke kitchen photographs and cabinet-opening sequence"
+      aria-busy={requestedIndex !== index}
       onMouseEnter={() => setInteractionPaused(true)}
       onMouseLeave={() => setInteractionPaused(false)}
       onFocusCapture={() => setInteractionPaused(true)}
@@ -46,24 +51,35 @@ export function KitchenCarousel() {
       <div className="kitchen-carousel-track">
         {homepageKitchenSlides.map((slide, slideIndex) => (
           <figure
-            className={`kitchen-carousel-slide${slideIndex === index ? " is-active" : ""}`}
+            className={`kitchen-carousel-slide${slide.sequence ? " kitchen-carousel-sequence" : ""}${slideIndex === index ? " is-active" : ""}`}
             aria-hidden={slideIndex !== index}
             key={slide.src}
           >
-            <Image
+            {requestedSlides.includes(slideIndex) && <Image
               src={slide.src}
               alt={slide.alt}
               fill
-              priority={slideIndex === 0}
-              sizes="(max-width: 999px) 92vw, 92vw"
-            />
+              loading="eager"
+              fetchPriority={slideIndex === 0 ? "high" : "auto"}
+              sizes="92vw"
+              onLoad={() => {
+                loadedSlides.current.add(slideIndex);
+                if (slideIndex === requestedIndex) setIndex(slideIndex);
+              }}
+              onError={() => {
+                if (slideIndex === requestedIndex) {
+                  setRequestedIndex(index);
+                  setUserPaused(true);
+                }
+              }}
+            />}
             <figcaption>{slide.caption}</figcaption>
           </figure>
         ))}
       </div>
 
-      <button className="kitchen-carousel-arrow kitchen-carousel-prev" type="button" aria-label="Previous project image" onClick={() => goTo(index - 1)}>←</button>
-      <button className="kitchen-carousel-arrow kitchen-carousel-next" type="button" aria-label="Next project image" onClick={() => goTo(index + 1)}>→</button>
+      <button className="kitchen-carousel-arrow kitchen-carousel-prev" type="button" aria-label="Previous project image" onClick={() => goTo(requestedIndex - 1)}>←</button>
+      <button className="kitchen-carousel-arrow kitchen-carousel-next" type="button" aria-label="Next project image" onClick={() => goTo(requestedIndex + 1)}>→</button>
 
       {!reducedMotion && <button
         className="kitchen-carousel-pause"

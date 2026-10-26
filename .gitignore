@@ -35,9 +35,19 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# Confidential media is stored outside this repository.
+private-media/
+private-review/
+
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Private deployment data and local verification output must never enter Git.
+/private-data/
+/app/lib/private-portfolio/*.json
+/test-results*/
+*.local

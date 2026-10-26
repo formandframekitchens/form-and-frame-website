@@ -108,7 +108,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Illuminated charcoal media wall",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "Charcoal media cabinetry with lit display bays, reflective backs and a wide fireplace beneath the television.",
     "seoDescription": "Charcoal media cabinetry with lit display bays, reflective backs and a wide fireplace beneath the television. Explore the project photographs and planning details.",
     "keywords": [
@@ -176,7 +176,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Sunburst cabinet doors",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "Pale storage fronts with a radiating grain pattern, gold-tone pulls and adjoining open display shelving.",
     "seoDescription": "Pale storage fronts with a radiating grain pattern, gold-tone pulls and adjoining open display shelving. Explore the project photographs and planning details.",
     "keywords": [
@@ -244,7 +244,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Charcoal entertaining bar",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "A pale counter set against charcoal drinks storage, illuminated shelving and reflective display panels.",
     "seoDescription": "A pale counter set against charcoal drinks storage, illuminated shelving and reflective display panels. Explore the project photographs and planning details.",
     "keywords": [
@@ -307,7 +307,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Compact illuminated media cabinet",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "A compact television cabinet with brown grain, illuminated niches and enclosed storage across its base.",
     "seoDescription": "A compact television cabinet with brown grain, illuminated niches and enclosed storage across its base. Explore the project photographs and planning details.",
     "keywords": [
@@ -355,7 +355,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Curved bar and green banquette",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "A rounded bar counter beside green channelled seating, with reflective shelves and warm metallic-colour details.",
     "seoDescription": "A rounded bar counter beside green channelled seating, with reflective shelves and warm metallic-colour details. Explore the project photographs and planning details.",
     "keywords": [
@@ -413,7 +413,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Contemporary fitted bedroom",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "A bedroom arrangement combining pale wardrobes, an open drawer column, a padded bed wall and a compact dressing area.",
     "seoDescription": "A bedroom arrangement combining pale wardrobes, an open drawer column, a padded bed wall and a compact dressing area. Explore the project photographs and planning details.",
     "keywords": [
@@ -472,7 +472,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Textured geometric wardrobe",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "Pale patterned wardrobe panels within dark framing, with a narrow illuminated display and adjoining recess.",
     "seoDescription": "Pale patterned wardrobe panels within dark framing, with a narrow illuminated display and adjoining recess. Explore the project photographs and planning details.",
     "keywords": [
@@ -525,7 +525,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Fluted headboard wall",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "A bed-wall composition pairing dark vertical fluting with pale padded-looking panels and floating bedside boxes.",
     "seoDescription": "A bed-wall composition pairing dark vertical fluting with pale padded-looking panels and floating bedside boxes. Explore the project photographs and planning details.",
     "keywords": [
@@ -573,7 +573,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Chevron-front entertaining bar",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "A long grey bar with chevron-shaped front detailing and a lit rear display around a small sink.",
     "seoDescription": "A long grey bar with chevron-shaped front detailing and a lit rear display around a small sink. Explore the project photographs and planning details.",
     "keywords": [
@@ -636,7 +636,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Sculptural fluted gold-tone cabinet",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "A sculptural gold-tone cabinet with stepped vertical profiles and illuminated storage behind its doors.",
     "seoDescription": "A sculptural gold-tone cabinet with stepped vertical profiles and illuminated storage behind its doors. Explore the project photographs and planning details.",
     "keywords": [
@@ -704,7 +704,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Pale fitted media cabinet",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "Pale television furniture with a tall side cupboard, low storage and two offset display shelves.",
     "seoDescription": "Pale television furniture with a tall side cupboard, low storage and two offset display shelves. Explore the project photographs and planning details.",
     "keywords": [
@@ -757,7 +757,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Fluted television feature wall",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "A pale fluted feature wall with a dark television recess, photographed before the screen was installed.",
     "seoDescription": "A pale fluted feature wall with a dark television recess, photographed before the screen was installed. Explore the project photographs and planning details.",
     "keywords": [
@@ -805,7 +805,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Gold-tone wine and display cabinet",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "Drinks storage with geometric gold-tone lower fronts, bottle cubbies and a reflective upper display.",
     "seoDescription": "Drinks storage with geometric gold-tone lower fronts, bottle cubbies and a reflective upper display. Explore the project photographs and planning details.",
     "keywords": [
@@ -863,7 +863,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Blue-grey living-room media wall",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "Blue-grey fitted storage around a television, with warm shelf lighting and a continuous cupboard base.",
     "seoDescription": "Blue-grey fitted storage around a television, with warm shelf lighting and a continuous cupboard base. Explore the project photographs and planning details.",
     "keywords": [
@@ -926,7 +926,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Warm timber media shelving",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "Warm wood-grain television shelving with illuminated compartments and figured lower cupboard fronts.",
     "seoDescription": "Warm wood-grain television shelving with illuminated compartments and figured lower cupboard fronts. Explore the project photographs and planning details.",
     "keywords": [
@@ -979,7 +979,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Mirrored grey media wall",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "Grey television cabinetry with reflective display towers and low enclosed storage spanning the wall.",
     "seoDescription": "Grey television cabinetry with reflective display towers and low enclosed storage spanning the wall. Explore the project photographs and planning details.",
     "keywords": [
@@ -1027,7 +1027,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Fitted wine rack",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "Fitted bottle storage combining small rectangular openings with larger diagonally divided compartments.",
     "seoDescription": "Fitted bottle storage combining small rectangular openings with larger diagonally divided compartments. Explore the project photographs and planning details.",
     "keywords": [
@@ -1075,7 +1075,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Wood-grain alcove bookcase",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "A wood-grain alcove bookcase with two open bays above four framed cupboard doors.",
     "seoDescription": "A wood-grain alcove bookcase with two open bays above four framed cupboard doors. Explore the project photographs and planning details.",
     "keywords": [
@@ -1124,7 +1124,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "White alcove bookcase",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "A white alcove bookcase with tall open shelves, enclosed lower storage and a projecting top trim.",
     "seoDescription": "A white alcove bookcase with tall open shelves, enclosed lower storage and a projecting top trim. Explore the project photographs and planning details.",
     "keywords": [
@@ -1173,7 +1173,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Wardrobe beneath a sloping ceiling",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "A two-door wardrobe with dark borders and pale panels shaped around a sloping ceiling.",
     "seoDescription": "A two-door wardrobe with dark borders and pale panels shaped around a sloping ceiling. Explore the project photographs and planning details.",
     "keywords": [
@@ -1221,7 +1221,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Curved dressing table",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "A pale wood-grain dressing table with a rounded surface and a mirror surrounded by exposed lights.",
     "seoDescription": "A pale wood-grain dressing table with a rounded surface and a mirror surrounded by exposed lights. Explore the project photographs and planning details.",
     "keywords": [
@@ -1269,7 +1269,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Geometric mirrored wardrobe",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "Mirrored wardrobe fronts crossed by slim geometric bars, shown in installation and detail photographs.",
     "seoDescription": "Mirrored wardrobe fronts crossed by slim geometric bars, shown in installation and detail photographs. Explore the project photographs and planning details.",
     "keywords": [
@@ -1322,7 +1322,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "White glazed alcove cabinet",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "White alcove storage beside a fireplace, with glazed-looking upper doors and framed cupboards below.",
     "seoDescription": "White alcove storage beside a fireplace, with glazed-looking upper doors and framed cupboards below. Explore the project photographs and planning details.",
     "keywords": [
@@ -1371,7 +1371,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Pale glazed display cabinet",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "A pale display cabinet with illuminated upper shelves, a reflective recess and framed lower doors.",
     "seoDescription": "A pale display cabinet with illuminated upper shelves, a reflective recess and framed lower doors. Explore the project photographs and planning details.",
     "keywords": [
@@ -1419,7 +1419,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Corner library cabinetry",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "Wood-grain library shelves and lower cupboards turning a room corner, documented during installation.",
     "seoDescription": "Wood-grain library shelves and lower cupboards turning a room corner, documented during installation. Explore the project photographs and planning details.",
     "keywords": [
@@ -1472,7 +1472,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Wood-grain storage with shelf and drawer interiors",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "Tall wood-grain storage with concealed shelves, paired drawer stacks and a narrow side display.",
     "seoDescription": "Tall wood-grain storage with concealed shelves, paired drawer stacks and a narrow side display. Explore the project photographs and planning details.",
     "keywords": [
@@ -1530,7 +1530,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Black bar with decorative front panel",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "A black bar with a patterned front inset and an illuminated shelving wall behind the counter.",
     "seoDescription": "A black bar with a patterned front inset and an illuminated shelving wall behind the counter. Explore the project photographs and planning details.",
     "keywords": [
@@ -1583,7 +1583,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "White fitted wardrobe run",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "A run of plain white fitted wardrobes meeting mirrored return doors, recorded in an installation photograph.",
     "seoDescription": "A run of plain white fitted wardrobes meeting mirrored return doors, recorded in an installation photograph. Explore the project photographs and planning details.",
     "keywords": [
@@ -1631,7 +1631,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Wardrobes with illuminated dressing recess",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "Grey wardrobes surrounding a mirrored dressing recess with a warm illuminated inner border.",
     "seoDescription": "Grey wardrobes surrounding a mirrored dressing recess with a warm illuminated inner border. Explore the project photographs and planning details.",
     "keywords": [
@@ -1684,7 +1684,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Corner cabinet with floating shelves",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "A compact corner cupboard with three separate triangular shelves above a muted wood-grain base.",
     "seoDescription": "A compact corner cupboard with three separate triangular shelves above a muted wood-grain base. Explore the project photographs and planning details.",
     "keywords": [
@@ -1732,7 +1732,7 @@ export const archiveGalleryProjects: GalleryProject[] = [
     "title": "Dark ribbed display shelving",
     "category": "Bespoke Joinery",
     "lastModified": "2026-10-13",
-    "provenance": "From Arnas’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
+    "provenance": "From Form & Frame’s project archive, including work delivered with specialist collaborators. These real project photographs show furniture, installation stages and individual details.",
     "summary": "Dark display furniture combining ribbed backing, illuminated shelves and a tall enclosed cabinet.",
     "seoDescription": "Dark display furniture combining ribbed backing, illuminated shelves and a tall enclosed cabinet. Explore the project photographs and planning details.",
     "keywords": [

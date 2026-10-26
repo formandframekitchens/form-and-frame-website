@@ -4,7 +4,7 @@ import type { GalleryProject } from "../lib/gallery-projects";
 
 export function GalleryProjectCard({ project, priority = false }: { project: GalleryProject; priority?: boolean }) {
   return <article className="gallery-card">
-    <Link href={`/gallery/${project.slug}`} aria-label={`View ${project.title}`} prefetch={false}>
+    <Link href={`/gallery/${project.slug}`} prefetch={false}>
       <div className="gallery-card-image">
         <span className="gallery-card-project-id">{project.galleryId}</span>
         <Image src={project.cover.src} alt={project.cover.alt} fill preload={priority}

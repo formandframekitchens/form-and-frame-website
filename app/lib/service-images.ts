@@ -44,8 +44,8 @@ export const serviceImages: Record<string, ServiceImageSet> = {
   "bespoke-kitchens": makeKitchenSet("bespoke-kitchens", "Bespoke kitchen"),
   "internal-door-installation": {
     hero: {
-      src: "/images/internal-doors/black-glazed-double-internal-door-installation.webp",
-      alt: "Black glazed double internal doors with brass detailing in a bright interior",
+      src: "/projects/k01/finished/f58.webp",
+      alt: "K01 glazed internal doors with veneered frames and brass inlays, fitted by Form & Frame",
     },
     detail: { alt: "Internal door installation detail" },
     gallery: [],

@@ -2,17 +2,32 @@ import Image from "next/image";
 import Link from "next/link";
 import { Footer, Header } from "./site-shell";
 import { Breadcrumbs } from "./breadcrumbs";
-import { ServiceFAQs, ServiceQuote, ServiceSection } from "./service-page";
+import { DetailGrid, ServiceFAQs, ServiceQuote, ServiceSection } from "./service-page";
 import { ServiceStructuredData } from "./structured-data";
 import { joineryServiceCopy } from "../lib/joinery-service-copy";
+import { joineryPlanning } from "../lib/joinery-planning";
 import { enquiryHref } from "../lib/enquiry";
-import type { JoineryCategory } from "../lib/joinery-categories";
-import { categoriesForProject, galleryHref } from "../lib/gallery-catalog";
+import { joineryCategories, type JoineryCategory } from "../lib/joinery-categories";
+import { localServiceAreaCopy } from "../lib/service-coverage";
+import { categoriesForProject } from "../lib/gallery-catalog";
 import { publicGalleryProjects } from "../lib/gallery-projects";
+import { CaseStudyRoomCard } from "./case-study-room-card";
+import { k01JoineryItems } from "../lib/case-study-portfolio";
 import { GalleryProjectCard } from "./gallery-project-card";
+
+const relatedServices: Record<JoineryCategory["slug"], JoineryCategory["slug"][]> = {
+  wardrobes: ["under-stairs-storage", "office-furniture", "unique-furniture"],
+  "alcove-units": ["bookcases", "entertainment-units", "unique-furniture"],
+  bookcases: ["alcove-units", "office-furniture", "entertainment-units"],
+  "entertainment-units": ["alcove-units", "bookcases", "unique-furniture"],
+  "office-furniture": ["bookcases", "wardrobes", "unique-furniture"],
+  "under-stairs-storage": ["wardrobes", "unique-furniture", "alcove-units"],
+  "unique-furniture": ["under-stairs-storage", "entertainment-units", "wardrobes"],
+};
 
 export function JoineryCategoryPage({ category }: { category: JoineryCategory }) {
   const copy = joineryServiceCopy[category.slug];
+  const planning = joineryPlanning[category.slug];
   const enquiryUrl = enquiryHref({ service: "bespoke-joinery", joinery: category.slug });
   const preferredProjects: Record<string, string[]> = {
     wardrobes: ["G27", "G41", "G49", "G20"], "alcove-units": ["G32", "G45", "G19"],
@@ -23,7 +38,8 @@ export function JoineryCategoryPage({ category }: { category: JoineryCategory })
   const projects = category.slug === "under-stairs-storage" ? [] : publicGalleryProjects
     .filter(project => categoriesForProject(project).includes(category.slug as Exclude<typeof category.slug, "under-stairs-storage">))
     .sort((a, b) => (preferred.includes(a.galleryId) ? preferred.indexOf(a.galleryId) : 99) - (preferred.includes(b.galleryId) ? preferred.indexOf(b.galleryId) : 99));
-  const hero = projects[0]?.cover;
+  const roomItems=k01JoineryItems.filter(item=>item.categories.includes(category.slug));
+  const hero = roomItems[0]?.cover ?? projects[0]?.cover;
   return <div>
     <Header />
     <main id="main-content" className="service-page joinery-category-page">
@@ -42,9 +58,9 @@ export function JoineryCategoryPage({ category }: { category: JoineryCategory })
           </div>{!hero && category.imageDisclosure && <figcaption>{category.imageDisclosure}<span>Illustrative design, not a completed Form &amp; Frame project.</span></figcaption>}</figure>
         </div>
       </div></header>
-      {projects.length > 0 && <ServiceSection title={`Completed ${category.title.toLowerCase()} projects`} eyebrow="Our work" id="completed-projects">
-        <div className="gallery-card-grid">{projects.slice(0, 4).map(project => <GalleryProjectCard project={project} key={project.slug} />)}</div>
-        <p className="service-prose-spaced"><Link className="text-link" href={galleryHref({ category: category.slug as Exclude<typeof category.slug, "under-stairs-storage"> })}>View all {category.title.toLowerCase()} projects <span aria-hidden="true">↗</span></Link></p>
+      {(projects.length > 0 || roomItems.length > 0) && <ServiceSection title={`Completed ${category.title.toLowerCase()} projects`} eyebrow="Our work" id="completed-projects">
+        <p className="service-prose">Browse all {projects.length + roomItems.length} project {projects.length + roomItems.length === 1 ? "gallery" : "galleries"} below. Select a project to explore its photographs and details.</p>
+        <div className="gallery-card-grid">{roomItems.map(item=><CaseStudyRoomCard key={item.href} item={item}/>)}{projects.map(project => <GalleryProjectCard project={project} key={project.slug} />)}</div>
       </ServiceSection>}
       {category.gallery && category.gallery.length > 0 && <ServiceSection title={`${category.title}: ideas & details`} id="gallery" muted>
         <div className="joinery-gallery">{category.gallery.map(image => <figure className="service-visual" key={image.src}>
@@ -59,9 +75,16 @@ export function JoineryCategoryPage({ category }: { category: JoineryCategory })
         <ul className="joinery-considerations">{category.considerations.map(item => <li key={item}>{item}</li>)}</ul>
         <p className="service-prose service-prose-spaced">Share your postcode, room photographs, approximate dimensions and any drawings or style references. Form & Frame coordinates the design, technical details and installation, with specialist manufacturing partners where appropriate. The quotation confirms the agreed scope.</p>
       </ServiceSection>
+      <ServiceSection title={planning.title} eyebrow="Before the site survey" id="project-brief">
+        <div className="joinery-planning-details"><DetailGrid items={planning.decisions} /></div>
+        <p className="service-prose service-prose-spaced"><strong>Checking the finished work.</strong> {planning.handover}</p>
+        <div className="actions"><Link className="button" href={enquiryUrl}>Send my furniture brief <span aria-hidden="true">↗</span></Link>{(projects.length > 0 || roomItems.length > 0) && <Link className="text-link" href="#completed-projects">See the completed project examples ↑</Link>}</div>
+      </ServiceSection>
       <ServiceSection title="Bespoke furniture from Luton" eyebrow="Local projects and individual details">
-        <p className="service-prose">We consider projects in Luton, Dunstable, Harpenden, St Albans and the surrounding Bedfordshire and Hertfordshire area. Share your postcode and scope so we can confirm the practical arrangements.</p>
+        <p className="service-prose">{localServiceAreaCopy}</p>
         <div className="actions"><Link className="text-link" href="/areas">Check the areas we cover ↗</Link><Link className="text-link" href="/guides/joinery-materials-finishes">Compare materials and finishes ↗</Link></div>
+        <p className="service-prose service-prose-spaced">Planning furniture for another part of the room? Explore these related services.</p>
+        <nav className="joinery-service-links" aria-label="Related bespoke joinery services">{joineryCategories.filter(item => relatedServices[category.slug].includes(item.slug)).map(item => <Link key={item.slug} href={`/bespoke-joinery/${item.slug}`}>{item.title}<span aria-hidden="true">↗</span></Link>)}</nav>
       </ServiceSection>
       <ServiceFAQs items={[
         { question: copy.question, answer: copy.answer },

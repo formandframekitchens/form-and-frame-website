@@ -3,6 +3,7 @@ import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import imageRedirects from "../app/lib/gallery-image-redirects.json";
+import { publishedCaseStudies, k01NestedRooms } from "../app/lib/case-studies";
 import { publicGalleryProjects } from "../app/lib/gallery-projects";
 
 test("all sitemap pages expose unique indexable metadata and self canonicals", async ({ request }, testInfo) => {
@@ -31,7 +32,7 @@ test("all sitemap pages expose unique indexable metadata and self canonicals", a
     const schemas = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(match => JSON.parse(match[1]));
     expect(schemas.some(schema => schema['@id'] === "https://formandframekitchens.co.uk/#business"), url).toBe(true);
   }
-  expect([...xml.matchAll(/<image:loc>/g)]).toHaveLength(publicGalleryProjects.reduce((total, project) => total + project.images.length, 0));
+  expect([...xml.matchAll(/<image:loc>/g)]).toHaveLength(publicGalleryProjects.reduce((total, project) => total + project.images.length, 0) + k01NestedRooms.reduce((sum,ch)=>sum+ch.photos.length,0) + publishedCaseStudies.reduce((total, study) => total + study.media.filter(slot => slot.asset?.approved && slot.asset.format === "image").length, 0));
   for (const project of publicGalleryProjects) for (const image of project.images) expect(xml).toContain(image.src + "</image:loc>");
 });
 

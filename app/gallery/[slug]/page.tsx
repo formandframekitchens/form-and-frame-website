@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { ProjectGalleryCarousel } from "../../components/project-gallery-carousel";
+import { ProjectEvidenceGrid } from "../../components/project-evidence-grid";
 import { Footer, Header } from "../../components/site-shell";
 import { publicGalleryProjects, getGalleryProject } from "../../lib/gallery-projects";
 import { galleryEnquiryHref, galleryEnquirySelection, relatedGalleryProjects, portfolioForProject, portfolioLinks } from "../../lib/gallery-catalog";
@@ -65,6 +66,7 @@ export default async function GalleryProjectPage({ params }: PageProps<"/gallery
     mainEntityOfPage: { "@type": "WebPage", "@id": projectUrl },
     keywords: project.keywords.join(", "),
     about: project.category,
+    ...(project.lastModified ? { dateModified: project.lastModified } : {}),
     publisher: {
       "@type": "Organization",
       "@id": `${siteUrl}/#business`,
@@ -107,7 +109,7 @@ export default async function GalleryProjectPage({ params }: PageProps<"/gallery
   return (
     <div>
       <Header />
-      <main id="main-content" className="gallery-page project-detail-page">
+      <main id="main-content" className="gallery-page project-detail-page" data-public-project={project.slug}>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(projectSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -148,6 +150,15 @@ export default async function GalleryProjectPage({ params }: PageProps<"/gallery
           </div>
         </section>
 
+        {project.installationDetails && <section className="project-installation-details" id="installation-details">
+          <div className="container">
+            <p className="eyebrow">A closer look at the fitting</p>
+            <h2>Three details in the finished installation</h2>
+            <ProjectEvidenceGrid items={project.installationDetails} />
+            <p className="service-prose service-prose-spaced">For a similar kitchen in Luton or Dunstable, use our <Link href="/kitchen-installation#fitting-checklist">kitchen fitting preparation checklist</Link> to gather the plan, appliance models and worktop arrangements. <Link href={enquiryHref}>Send those details with your installation enquiry</Link>.</p>
+          </div>
+        </section>}
+
         <section className="project-case-study-section">
           <div className="container project-case-study">
             {project.caseStudy.map((section, index) => (
@@ -174,8 +185,8 @@ export default async function GalleryProjectPage({ params }: PageProps<"/gallery
               <p>
                 Explore the Form &amp; Frame <Link href={serviceHref}>{serviceLabel}</Link> service for more information about how projects are reviewed, coordinated and installed.
                 {project.category === "Kitchen Installation"
-                  ? " Independent kitchen installation is available for customer-supplied kitchens across Luton, Bedfordshire, Hertfordshire and selected surrounding areas."
-                  : " Bespoke fitted-furniture projects are considered across Luton, Bedfordshire, Hertfordshire, London and selected surrounding areas depending on scope."}
+                  ? " Independent kitchen installation is available for customer-supplied kitchens in Luton, Dunstable and nearby communities, with your project postcode checked before booking."
+                  : " Bespoke fitted-furniture enquiries are welcome from Luton, Dunstable and nearby communities. Share your postcode and scope so we can confirm the practical arrangements."}
               </p>
               <Link className="text-link" href={serviceHref}>Explore {serviceLabel} <span aria-hidden="true">↗</span></Link>
               <p className="service-prose-spaced"><Link href="/areas/luton">Bespoke joinery and kitchens in Luton</Link> · <Link href="/guides/joinery-materials-finishes">Compare joinery materials and finishes</Link></p>

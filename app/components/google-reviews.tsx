@@ -1,20 +1,20 @@
 import { getGoogleReviewsConfig } from "../lib/google-reviews";
 
-export function GoogleReviews() {
-  const { reviewUrl, reviews } = getGoogleReviewsConfig();
-  if (!reviewUrl && reviews.length === 0) return null;
+export function GoogleReviews({ compact = false }: { compact?: boolean }) {
+  const { profileUrl, reviewUrl, reviews } = getGoogleReviewsConfig();
+  if (!profileUrl && !reviewUrl && reviews.length === 0) return null;
 
-  return <section className="google-reviews" aria-labelledby="google-reviews-title">
+  return <section className={`google-reviews${compact ? " google-reviews-compact" : ""}`} aria-labelledby="google-reviews-title">
     <div className="container">
       <div className="google-reviews-heading">
         <div>
-          <p className="eyebrow">Verified customer feedback</p>
+          <p className="eyebrow">Independent customer feedback</p>
           <h2 id="google-reviews-title">Google reviews</h2>
-          <p>Read independently published feedback or share your experience on our verified Google Business Profile.</p>
+          <p>Visit our Google Business Profile to read customer feedback. If we have worked on your project, you can share an honest review of your experience.</p>
         </div>
-        {reviewUrl && <div className="google-review-actions">
-          <a className="button" href={reviewUrl} target="_blank" rel="noopener noreferrer">Read our Google reviews <span aria-hidden="true">↗</span></a>
-          <a className="text-link" href={reviewUrl} target="_blank" rel="noopener noreferrer">Leave a Google review <span aria-hidden="true">↗</span></a>
+        {(profileUrl || reviewUrl) && <div className="google-review-actions">
+          {profileUrl && <a className="button" href={profileUrl} target="_blank" rel="noopener noreferrer">View our Google profile <span aria-hidden="true">↗</span></a>}
+          {reviewUrl && <a className="text-link" href={reviewUrl} target="_blank" rel="noopener noreferrer">Leave a Google review <span aria-hidden="true">↗</span></a>}
         </div>}
       </div>
       {reviews.length > 0 && <ul className="google-review-list">

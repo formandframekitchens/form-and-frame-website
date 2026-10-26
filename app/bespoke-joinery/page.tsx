@@ -9,12 +9,15 @@ import { enquiryHref } from "../lib/enquiry";
 import { ServiceStructuredData, StructuredData } from "../components/structured-data";
 import { PortfolioNavigation } from "../components/portfolio-navigation";
 import { filterGalleryProjects, readGalleryFilters } from "../lib/gallery-catalog";
+import { filterK01Joinery } from "../lib/case-study-portfolio";
 import { siteUrl } from "../lib/site";
+import { localServiceAreaCopy } from "../lib/service-coverage";
+import { ProjectPreparation } from "../components/project-preparation";
 
 export async function generateMetadata({ searchParams }: PageProps<"/bespoke-joinery">): Promise<Metadata> {
   const filters = readGalleryFilters(await searchParams);
   return {
-    ...serviceMetadata("Bespoke Joinery & Fitted Furniture Luton", "Explore real fitted furniture and bespoke joinery: wardrobes, alcoves, media walls, bookcases and home offices. Based in Luton, serving Bedfordshire and Hertfordshire.", "/bespoke-joinery"),
+    ...serviceMetadata("Bespoke Joinery & Fitted Furniture Luton", "Bespoke wardrobes, alcove cupboards, TV units, under-stairs storage and home offices. Based in Luton, with local projects in Dunstable and nearby communities.", "/bespoke-joinery"),
     ...(filters.q || filters.category ? { robots: { index: false, follow: true } } : {}),
   };
 }
@@ -29,12 +32,13 @@ const process = [
 export default async function BespokeJoineryPage({ searchParams }: PageProps<"/bespoke-joinery">) {
   const filters = readGalleryFilters(await searchParams);
   const projects = filterGalleryProjects(filters, "bespoke-joinery");
+  const roomItems=filterK01Joinery(filters);
   const collection = {
     "@context": "https://schema.org", "@type": "CollectionPage",
     name: "Form & Frame bespoke joinery portfolio", url: `${siteUrl}/bespoke-joinery`,
-    mainEntity: { "@type": "ItemList", itemListElement: projects.map((project, index) => ({
-      "@type": "ListItem", position: index + 1, name: project.title, url: `${siteUrl}/gallery/${project.slug}`,
-    })) },
+    mainEntity: { "@type": "ItemList", itemListElement: [...roomItems.map((item,index)=>({"@type":"ListItem",position:index+1,name:item.title,url:`${siteUrl}${item.href}`})), ...projects.map((project, index) => ({
+      "@type": "ListItem", position: index + 1 + roomItems.length, name: project.title, url: `${siteUrl}/gallery/${project.slug}`,
+    }))] },
   };
   return <div>
     <Header />
@@ -44,14 +48,16 @@ export default async function BespokeJoineryPage({ searchParams }: PageProps<"/b
       <header className="gallery-hero"><div className="container">
         <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/">Home</Link><span aria-hidden="true">/</span><span>Bespoke Joinery</span></nav>
         <h1>Bespoke joinery, room by room</h1>
-        <p className="gallery-lead">Explore real wardrobes, bookcases, media walls and individual furniture. Open a project to see its full gallery.</p>
-        <div className="joinery-intro-links"><Link href="#joinery-details">Our service &amp; process ↓</Link><Link href={enquiryHref({ service: "bespoke-joinery" })}>Discuss your project ↗</Link></div>
+        <p className="gallery-lead">Fitted furniture planned around your room, from wardrobes and alcove cupboards to TV units and home offices. Based in Luton, serving Dunstable, Houghton Regis and nearby communities.</p>
+        <div className="joinery-intro-links"><Link href="#joinery-projects">Browse completed work ↓</Link><Link href="#joinery-brief">Prepare your project brief ↓</Link><Link href={enquiryHref({ service: "bespoke-joinery" })}>Discuss your project ↗</Link></div>
+        <nav className="joinery-service-links joinery-service-intro" aria-label="Bespoke joinery services">{joineryCategories.map(category => <Link key={category.slug} href={`/bespoke-joinery/${category.slug}`}>{category.title}<span aria-hidden="true">↗</span></Link>)}</nav>
       </div></header>
+      <div id="joinery-projects" className="container joinery-project-introduction"><h2 className="joinery-project-heading">Explore completed joinery</h2><p className="service-prose">Choose a furniture type below or open a project to see the finished details. The Surbiton rooms also include drawings and available installation stages.</p></div>
       <ProjectIndex filters={filters} portfolio="bespoke-joinery" basePath="/bespoke-joinery" compactFilters />
       <ServiceSection title="Furniture designed for the space" eyebrow="Bespoke joinery & fitted furniture" id="joinery-details">
         <PortfolioNavigation current="bespoke-joinery" />
         <p className="service-prose">Fitted furniture designed around the room, with Form & Frame coordinating survey, technical development, specialist manufacture where appropriate, installation and final quality control. Explore the work above, or send us an enquiry if your project brings several types together.</p>
-        <nav className="joinery-service-links" aria-label="Bespoke joinery services">{joineryCategories.map(category => <Link key={category.slug} href={`/bespoke-joinery/${category.slug}`}>{category.title}<span aria-hidden="true">↗</span></Link>)}</nav>
+        <p className="service-prose service-prose-spaced">An alcove may need cupboards below and open shelves above; a wardrobe needs a clear balance of hanging, drawers and shelves; a TV unit needs equipment access as well as a place for the screen. Start with what the furniture must hold and how you will use it, then develop the proportions, materials and fittings together.</p>
         <Link className="text-link" href={enquiryHref({ service: "bespoke-joinery" })}>Request a quote <span aria-hidden="true">↗</span></Link>
       </ServiceSection>
 
@@ -65,9 +71,15 @@ export default async function BespokeJoineryPage({ searchParams }: PageProps<"/b
       <p className="service-prose service-prose-spaced">Natural veneer, painted surfaces, high-gloss finishes and decorative fittings can be considered within the agreed specification. A photograph is a useful reference, while physical samples establish the material, colour and sheen for your own furniture. <Link href="/guides/joinery-materials-finishes">Read our guide to joinery materials and finishes</Link>.</p>
     </ServiceSection>
 
-    <ServiceSection title="Local fitted-joinery projects" eyebrow="Luton, Bedfordshire & Hertfordshire" muted>
-      <p className="service-prose">Luton is our core base. We consider suitable fitted-joinery projects across Bedfordshire and Hertfordshire, including Dunstable, Harpenden, St Albans, Hemel Hempstead, Hitchin, Welwyn Garden City, Berkhamsted, Leighton Buzzard and selected surrounding areas.</p>
-      <Link className="text-link" href="/areas/luton">Bespoke furniture and kitchen services in Luton ↗</Link>
+    <ServiceSection title="Local fitted-joinery projects" eyebrow="Luton & Dunstable" muted>
+      <p className="service-prose">{localServiceAreaCopy}</p>
+      <div className="actions"><Link className="text-link" href="/areas/luton">Joinery and fitting in Luton ↗</Link><Link className="text-link" href="/areas/dunstable">Projects in Dunstable ↗</Link><Link className="text-link" href="/areas#local-coverage">Check nearby towns and villages ↗</Link></div>
+    </ServiceSection>
+
+    <ServiceSection title="Prepare your fitted-furniture brief" eyebrow="A useful first conversation" id="joinery-brief">
+      <ProjectPreparation service="joinery" />
+      <p className="service-prose service-prose-spaced">Already have furniture supplied by another company? Our <Link href="/joinery-installation">joinery and furniture installation service</Link> explains that route. If a new kitchen is the main project, start with <Link href="/kitchen-installation">independent kitchen fitting</Link> so we can review the supplier plan and installation responsibilities.</p>
+      <div className="actions"><Link className="button" href={enquiryHref({ service: "bespoke-joinery" })}>Send my joinery enquiry <span aria-hidden="true">↗</span></Link></div>
     </ServiceSection>
 
     <ServiceFAQs items={[

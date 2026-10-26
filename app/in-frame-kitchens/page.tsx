@@ -1,3 +1,4 @@
+import { localServiceAreaCopy } from "../lib/service-coverage";
 import Link from "next/link";
 import { DetailGrid, ImageTextSection, ServiceFAQs, ServiceGallery, ServicePage, ServiceQuote, ServiceSection } from "../components/service-page";
 import { serviceMetadata } from "../lib/service-metadata";
@@ -21,7 +22,7 @@ export default function InFrameKitchensPage() {
       <p className="service-prose service-prose-spaced">We consider the proportions of each run, the relationship between doors and drawers, appliance integration and the finishing details as part of the complete room.</p>
     </ImageTextSection>
     <ServiceSection title="A complete design, supply and installation service" eyebrow="From first survey to final check" muted>
-      <p className="service-prose">Our main in-frame offer brings design, specialist manufacture and installation together. Each kitchen is individually specified and quoted; we do not publish standard prices or offer supply-only kitchens.</p>
+      <p className="service-prose">Our main in-frame offer brings design, specialist manufacture and installation together. Each complete kitchen is individually specified and quoted; we do not publish standard cabinetry-package prices or offer supply-only kitchens.</p>
       <ol className="inframe-process">{stages.map((stage, index) => <li key={stage.title}><span className="step-number" aria-hidden="true">0{index + 1}</span><div><h3>{stage.title}</h3><p>{stage.copy}</p></div></li>)}</ol>
     </ServiceSection>
     <ServiceSection title="Finishes chosen for the whole room">
@@ -35,10 +36,12 @@ export default function InFrameKitchensPage() {
         { title: "Careful setting out", copy: "Cabinet levels, face-frame alignment and the relationship between adjoining units are considered together before fixing." },
         { title: "Consistent final adjustment", copy: "Inset doors, drawers and finishing pieces are fitted and adjusted to the agreed design and the manufacturer's requirements." },
       ]} />
+      <p className="service-prose service-prose-spaced">Keep the cabinet order separate from the fitting quotation. Send the face-frame and door details, appliance models, hinge information, decorative panels and worktop specification. Confirm who supplies any replacement or extra components and who approves changes to the manufacturer’s drawings.</p>
+      <p className="service-prose service-prose-spaced">For agreed installation-only day-rate work, see our <Link href="/kitchen-installation#kitchen-fitting-prices">£300 per-specialist labour day rate and separate costs</Link>. This is not a price for a complete bespoke kitchen or a promise that every in-frame installation will be quoted by the day. Compare the <Link href="/news/comparing-kitchen-fitting-quotes">written fitting scope</Link> before booking.</p>
       <Link className="text-link" href={enquiryHref({ service: "kitchen-installation", installation: "in-frame-installation", supplier: "other" })}>Enquire about installation only <span aria-hidden="true">↗</span></Link>
     </ServiceSection>
-    <ServiceSection title="Based in Luton, with selected projects further afield">
-      <p className="service-prose">For in-frame kitchens, we can consider a wider service radius from Luton, including Harpenden, St Albans, Hemel Hempstead, Hitchin, Welwyn Garden City and Milton Keynes where the project size and travel requirements make the work practical. Share your postcode at the enquiry stage so we can confirm suitability.</p>
+    <ServiceSection title="In-frame kitchens in Luton and nearby communities">
+      <p className="service-prose">{localServiceAreaCopy}</p>
     </ServiceSection>
     <ServiceFAQs items={[
       { question: "Can I buy an in-frame kitchen on a supply-only basis?", answer: "No. We offer the complete design, supply and installation service, or installation-only for a kitchen supplied by someone else." },
