@@ -1,48 +1,15 @@
-name: Preview quality
+name: Preview quality (intentional gate rehearsal)
 on:
   pull_request:
-  workflow_dispatch:
 permissions:
   contents: read
-concurrency:
-  group: preview-quality-${{ github.ref }}
-  cancel-in-progress: true
 jobs:
   quality:
     name: quality
     runs-on: ubuntu-latest
-    timeout-minutes: 25
-    env:
-      CI: "true"
-      NEXT_TELEMETRY_DISABLED: "1"
+    timeout-minutes: 2
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "24"
-          cache: npm
-      - run: npm ci
-      - run: npm run check:repository
-      - run: npm audit --omit=dev --audit-level=high
-      - run: npm run lint
-      - run: npm run test:guards
-      - run: npm run test:delivery
-      - run: npm run test:health
-      - run: npm run build
-      - run: npm run typecheck
-      - run: npx playwright install --with-deps chromium
-      - run: npm run test:ci
-      - run: npm run build
-        env:
-          VERCEL_ENV: preview
-          NEXT_PUBLIC_GA_MEASUREMENT_ID: G-PREVIEWTEST
-      - run: npx playwright test tests/preview-isolation.spec.ts
-        env:
-          VERCEL_ENV: preview
-          NEXT_PUBLIC_GA_MEASUREMENT_ID: G-PREVIEWTEST
-      - uses: actions/upload-artifact@v4
-        if: failure()
-        with:
-          name: synthetic-test-results
-          path: test-results/
-          retention-days: 3
+      - name: Deliberate failure for required-check verification
+        run: |
+          echo "Expected failure: this verification-only draft must not merge."
+          exit 1
