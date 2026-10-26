@@ -79,7 +79,7 @@ export async function POST(request: Request) {
   const doorSupply = text(form, "doorSupply", 120);
 
   const errors: Record<string, string> = {};
-  const fieldLimits: Record<string, number> = { name: 120, email: 254, phone: 60, location: 140, message: 6000, submissionId: 120 };
+  const fieldLimits: Record<string, number> = { name: 120, email: 254, phone: 60, location: 140, message: 6000, preferredContactTime: 240, submissionId: 120 };
   for (const [field, limit] of Object.entries(fieldLimits)) {
     const value = form.get(field);
     if (value !== null && (typeof value !== "string" || value.trim().length > limit)) errors[field] = `Please keep this field within ${limit} characters.`;

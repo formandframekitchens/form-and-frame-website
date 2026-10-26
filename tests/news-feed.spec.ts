@@ -26,8 +26,27 @@ test("news remains complete without JavaScript and homepage keeps three previews
   const page = await context.newPage();
   await page.goto("http://127.0.0.1:3105/news");
   await expect(page.locator(".news-card:visible")).toHaveCount(newsArticles.length);
+  await page.goto("http://127.0.0.1:3105/news/lift-up-kitchen-cabinet-clearance");
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("Lift-up kitchen cupboards");
+  await expect(page.locator(".news-article section")).toHaveCount(6);
   await context.close();
   const home = await (await request.get("/")).text();
   expect(home.match(/class="news-card"/g)).toHaveLength(3);
   for (const article of latestNewsArticles().slice(0, 3)) expect(home).toContain(`/news/${article.slug}`);
+});
+
+
+test("editorial draft is readable but not advertised as published", async ({ page, request }) => {
+  const slug = "lift-up-kitchen-cabinet-clearance";
+  await page.goto(`/news/${slug}`);
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("Lift-up kitchen cupboards");
+  await expect(page.locator(".news-byline")).toContainText("Draft for review — not published");
+  await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", /noindex/);
+  await expect(page.locator("figcaption")).toContainText("Original AI concept");
+  await expect(page.locator(".news-article-image img")).toBeVisible();
+  const json = (await page.locator('script[type="application/ld+json"]').allTextContents()).map(text => JSON.parse(text));
+  const article = json.find(item => item['@type'] === "Article");
+  expect(article.datePublished).toBeUndefined();
+  for (const path of ["/", "/news", "/news/feed.xml", "/sitemap.xml"]) expect(await (await request.get(path)).text()).not.toContain(`/news/${slug}`);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });

@@ -197,6 +197,11 @@ function EnquiryFields({ initialSelection, initialProject, initialMessage }: { i
         </select>
         {error("preferredContact")}
       </label>
+      <label>Best time to contact you <span className="field-optional">optional</span>
+        <input disabled={status === "submitting" || status === "success"} name="preferredContactTime" maxLength={240} aria-invalid={Boolean(fieldErrors.preferredContactTime)} aria-describedby={fieldErrors.preferredContactTime ? "contact-time-help preferredContactTime-error" : "contact-time-help"} placeholder="For example, weekday afternoons" />
+        <small id="contact-time-help">Let us know a suitable time. This is a request, not a confirmed appointment.</small>
+        {error("preferredContactTime")}
+      </label>
 
       <label><span id="location-label">Postcode / town</span>
         <input disabled={status === "submitting" || status === "success"} maxLength={140} name="location" aria-labelledby="location-label" required autoComplete="postal-code" aria-invalid={Boolean(fieldErrors.location)} aria-describedby={fieldErrors.location ? "location-help location-error" : "location-help"} />

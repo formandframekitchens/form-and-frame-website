@@ -78,3 +78,23 @@ test("confirmed eight-hour labour day renders on shared pricing routes", async (
     expect(/no VAT added/i.test(html), path).toBe(true);
   }
 });
+
+
+test("optional contact time is sent as a request and excessive values are rejected", async ({ page, request }) => {
+  let selectedTime = "";
+  await page.route("**/api/enquiries", async route => {
+    const req = new Request("https://example.invalid/api/enquiries", { method: "POST", headers: { "content-type": route.request().headers()["content-type"] }, body: new Uint8Array(route.request().postDataBuffer()!) });
+    selectedTime = String((await req.formData()).get("preferredContactTime"));
+    await route.fulfill({ json: { ok: true, reference: "FF-SYNTHETIC", acknowledgementSent: false } });
+  });
+  await fillEnquiry(page);
+  const time = page.getByLabel("Best time to contact you", { exact: false });
+  await expect(time).toHaveAttribute("maxlength", "240");
+  await expect(page.locator("#contact-time-help")).toContainText("not a confirmed appointment");
+  await time.fill("Weekday afternoons, please email first");
+  await page.getByRole("button", { name: "Send enquiry" }).click();
+  await expect.poll(() => selectedTime).toBe("Weekday afternoons, please email first");
+  const response = await request.post("/api/enquiries", { multipart: { name: "Synthetic", email: "qa@example.invalid", location: "Luton", message: "Synthetic", service: "kitchen-installation", preferredContact: "email", preferredContactTime: "x".repeat(241), privacyAccepted: "yes", submissionId: "synthetic-contact-time" } });
+  expect(response.status()).toBe(400);
+  expect((await response.json()).fields.preferredContactTime).toContain("240");
+});

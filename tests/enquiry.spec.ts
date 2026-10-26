@@ -312,3 +312,14 @@ test("door and bespoke joinery conditional fields are represented in notificatio
   expect(joineryRows["Furniture / joinery type"]).toBe("Bespoke wardrobes");
   expect(joineryRows["Kitchen supplier"]).toBeUndefined();
 });
+
+
+test("requested contact time is included safely in both email summaries", () => {
+  const form = new FormData();
+  for (const [key,value] of Object.entries({ name: "Synthetic", service: "kitchen-installation", preferredContact: "email", preferredContactTime: '<script>alert("synthetic")</script> weekday afternoons', email: "qa@example.invalid", location: "Luton", message: "Synthetic only" })) form.set(key,value);
+  for (const email of [internalEnquiryEmail(form,"FF-SYNTHETIC"),customerAcknowledgementEmail(form,"FF-SYNTHETIC")]) {
+    expect(email.text).toContain("Requested contact time (not a booking)");
+    expect(email.html).toContain("&lt;script&gt;");
+    expect(email.html).not.toContain('<script>alert');
+  }
+});
