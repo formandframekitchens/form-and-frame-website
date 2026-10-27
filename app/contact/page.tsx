@@ -23,6 +23,7 @@ export default async function ContactPage({ searchParams }: PageProps<"/contact"
         <p className="eyebrow">Project enquiries</p>
         <h1>Tell us about your project</h1>
         <p className="service-lead">Send your postcode, drawings or plans, photographs, project details and preferred timing. We can review the information before arranging the next step.</p>
+        <p className="service-prose service-prose-spaced">For projects in Luton and our agreed nearby service area, we can arrange a site survey within two weeks of your request. We confirm the appointment with you; this is separate from the installation start date.</p>
         <div className="service-contact-actions">
           <a className="button" href={WHATSAPP_HREF}>WhatsApp ↗</a>
           <a className="button button-outline" href={PHONE_HREF}>{BUSINESS_PHONE_DISPLAY}</a>
