@@ -30,6 +30,7 @@ jobs:
       - run: npm run test:guards
       - run: npm run test:delivery
       - run: npm run test:health
+      - run: node --test tests/measurement-quality.test.mjs tests/reporting-boundaries.test.mjs
       - run: npm run build
       - run: npm run typecheck
       - run: npx playwright install --with-deps chromium
