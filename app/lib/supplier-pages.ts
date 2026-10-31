@@ -229,6 +229,22 @@ export const supplierPages: SupplierPageData[] = [
       { title: "Plan beyond the cabinet list", copy: "Fillers, end panels, plinths and appliance doors are considered alongside the main units. We check their relationship with the room dimensions, door clearances and any existing finishes." },
       { title: "Fit the worktop to the layout", copy: "The worktop specification, joints and sink and hob cut-outs are reviewed with the cabinet positions. We also agree appliance integration, flooring and the extent of making good so these are included in the installation sequence." },
     ],
+    planning: {
+      title: "Check B&Q storage before ordering",
+      eyebrow: "Cabinet system & storage",
+      checked: "31 October 2026",
+      relatedArticle: { label: "See our independent kitchen-fitting scope", href: "/kitchen-installation" },
+      items: [
+        { title: "Separate fitting width from cabinet size", copy: "A storage fitting's width is not the cabinet size it needs. For example, B&Q lists Pebre pull-out 5059340141022 as 45 cm wide and specifies a 50 cm larder or tall larder cabinet; the cabinet is not included. Confirm the cabinet and storage codes together before ordering." },
+        { title: "Identify the handleless cabinet system", copy: "Caraway Innovo has its own cabinet and rail system. Its planning overview excludes the 80 cm and 100 cm kidney-shaped Pebre pull-outs. Check the manual for your actual cabinet and mechanism instead of assuming every GoodHome fitting is interchangeable." },
+        { title: "Show the opening and nearby services", copy: "Send the storage reference, cabinet code, door-opening direction and room photographs with your plan. Include nearby appliance doors, handles, walls and any pipes inside the cupboard. We review the movement and access as part of the agreed installation scope; the exact product instructions determine the fitting requirements." },
+      ],
+      sources: [
+        { label: "B&Q Pebre 5059340141022 - fitting and cabinet sizes", href: "https://www.diy.com/departments/goodhome-pebre-grey-soft-close-lh-rh-larder-45cm-pull-out-storage/5059340141022_BQ.prd" },
+        { label: "B&Q Caraway Innovo overview - internal storage, printed page 29 (PDF)", href: "https://media.diy.com/is/content/KingfisherDigital/IdeasAdvice-InstallationGuide-GoodHome-CarawayInnovo-HandlelessKitchens~c5260f5ea8876ecc04bbf2316e1ee78d25c1b027pdf" },
+      ],
+    },
+    additionalFAQs: [{ question: "Will any B&Q pull-out fit my existing cupboard?", answer: "Compatibility depends on the cabinet system, usable opening, mechanism and door arrangement. Send the exact references and photographs before ordering. A similar door style or a matching overall width does not confirm that a fitting will work in an existing cupboard." }],
     faq: { question: "Can you fit a B&Q kitchen with appliances bought elsewhere?", answer: "We can review that arrangement. Send the appliance model details and installation instructions with your kitchen plan so we can check the housings, door arrangements, clearances and service requirements before agreeing the fit." },
   },
 ];
