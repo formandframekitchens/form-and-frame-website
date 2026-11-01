@@ -16,3 +16,45 @@ test('missing position is not silently averaged as zero',()=>{assert.equal(summa
 test('owner-confirmed enquiries stay separate and dated; later missing data stays unknown',()=>{assert.equal(ownerOutcomes({}).genuineEnquiries,null);assert.equal(ownerOutcomes({confirmedByOwner:true,asOf:'2026-10-22',genuineEnquiries:0}).genuineEnquiries,0);assert.throws(()=>ownerOutcomes({confirmedByOwner:true,asOf:'2026-10-26',genuineEnquiries:0,qualifiedEnquiries:2}));});
 
 test('malformed period shapes fail closed without crashing',()=>{const good=p('2026-10-14','2026-10-20');for(const bad of [null,[],true,3,'bad',{...good,grouping:2},{...good,grouping:'query'},{...good,metrics:[]},{...good,coverage:{status:'complete',dataThrough:'2026-10-27',evidence:{}}}]){const r=comparePeriods(bad,p('2026-10-21','2026-10-27'));assert.equal(r.comparable,false);assert.equal(r.metrics,null);}});
+
+// Synthetic query fixtures only; no account extracts or customer records.
+test('plural fitting forms keep the same local and unverified groups as singular forms',()=>{
+  for(const action of ['fitter','fitters','fitting','installer','installers','installation','installations']){
+    for(const place of places){
+      const singular=classifyQuery(`kitchen ${action} ${place}`,places);
+      const plural=classifyQuery(`kitchens ${action} ${place}`,places);
+      assert.equal(plural.group,'generic_local_fitting');
+      assert.deepEqual(plural,singular);
+    }
+    const unknown=classifyQuery(`kitchens ${action} Exampletown`,places);
+    assert.equal(unknown.group,'generic_fitting_location_unverified');
+    assert.deepEqual(unknown.towns,[]);
+  }
+});
+test('plural fitting phrases preserve brand supplier advice and place-boundary precedence',()=>{
+  for(const [query,group] of [
+    ['Form and Frame kitchens installation Luton','business_brand'],
+    ['Wren kitchens installation Luton','supplier_named'],
+    ['B&Q kitchens fitting Dunstable','supplier_named'],
+    ['how much kitchens installation Luton','kitchen_advice'],
+    ['fitted kitchens Luton','local_kitchen_supply_or_design'],
+    ['kitchens installation Lutonville','generic_fitting_location_unverified'],
+  ])assert.equal(classifyQuery(query,places).group,group,query);
+  assert.deepEqual(classifyQuery('kitchens installation Lutonville',places).towns,[]);
+});
+test('plural fitting rows aggregate with singular rows without importing supplier or unknown-area traffic',()=>{
+  const report=summarizeQueryRows([
+    {query:'kitchen installation Luton',clicks:1,impressions:3,position:10},
+    {query:'kitchens installation Luton',clicks:2,impressions:5,position:30},
+    {query:'Wren kitchens installation Luton',clicks:0,impressions:2,position:50},
+    {query:'kitchens installation Exampletown',clicks:0,impressions:4,position:80},
+  ],places);
+  assert.equal(report.valid,true);
+  assert.deepEqual(report.groups.generic_local_fitting,{clicks:3,impressions:8,ctr:3/8,averagePosition:22.5});
+  assert.deepEqual(report.townSlices.Luton,report.groups.generic_local_fitting);
+  assert.equal(report.groups.supplier_named.impressions,2);
+  assert.equal(report.groups.generic_fitting_location_unverified.impressions,4);
+  assert.equal(report.groups.other,undefined);
+  assert.equal(report.scope,'visible-query-sample');
+  assert.equal(report.policyVersion,POLICY_VERSION);
+});

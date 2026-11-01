@@ -9,7 +9,7 @@ export function classifyQuery(query,places){
   if(/\bform (?:and )?frame(?: kitchens)?\b|formandframekitchens/.test(q))group='business_brand';
   else if(/\b(howdens|wren|ikea|wickes|magnet|benchmarx|diy kitchens|b and q|b q)\b/.test(q))group='supplier_named';
   else if(/\bkitchens?\b/.test(q)&&(/\b(how|what|why|when|can|do|does|which|before|after|checklist|timescales?|costs?|quotes?)\b/.test(q)))group='kitchen_advice';
-  else if(/\bkitchen (?:fitters?|fitting|installers?|installations?)\b/.test(q))group=towns.length?'generic_local_fitting':'generic_fitting_location_unverified';
+  else if(/\bkitchens? (?:fitters?|fitting|installers?|installations?)\b/.test(q))group=towns.length?'generic_local_fitting':'generic_fitting_location_unverified';
   else if(/\bkitchens?\b/.test(q)&&towns.length)group='local_kitchen_supply_or_design';
   return {group,pricingIntent,towns,policyVersion:POLICY_VERSION};
 }
