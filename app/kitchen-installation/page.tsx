@@ -4,6 +4,7 @@ import { ImageTextSection, IndependentNotice, InstallationProcess, InstallationS
 import { Footer, Header } from "../components/site-shell";
 import { KitchenChoiceFlow } from "../components/kitchen-choice-flow";
 import { enquiryHref } from "../lib/enquiry";
+import { WHATSAPP_HREF } from "../lib/contact";
 import { kitchenFAQs } from "../lib/supplier-pages";
 import { serviceMetadata } from "../lib/service-metadata";
 import { ServiceStructuredData } from "../components/structured-data";
@@ -57,7 +58,9 @@ export default function KitchenInstallationPage() {
     <KitchenPlanningJourney />
     <ServiceSection title="Get your kitchen fitting brief ready" eyebrow="Before your first enquiry" id="fitting-checklist" muted>
       <ProjectPreparation service="kitchen" />
-      <div className="actions"><Link className="button" href={enquiryHref({ service: "kitchen-installation", installation: "own-kitchen" })}>Send my fitting enquiry <span aria-hidden="true">↗</span></Link><Link className="text-link" href="/areas#local-coverage">Check our local service areas ↗</Link></div>
+      <h3>Ready to send your plans?</h3>
+      <p className="service-prose">Attach your latest kitchen plan and room photographs to the enquiry form, with your project postcode and preferred fitting period. The form accepts PDF, JPEG and PNG files and shows the size limits before you upload. For HEIC or HEIF phone photographs, export a JPEG copy first, or send your plans and photographs through WhatsApp.</p>
+      <div className="actions"><Link className="button" href={enquiryHref({ service: "kitchen-installation", installation: "own-kitchen" })}>Send plans and room photos <span aria-hidden="true">↗</span></Link><a className="text-link" href={WHATSAPP_HREF}>Send them on WhatsApp <span aria-hidden="true">↗</span></a><Link className="text-link" href="/areas#local-coverage">Check our local service areas ↗</Link></div>
     </ServiceSection>
     <WhyChooseUs />
     <ServiceGallery imageKey="kitchen-installation" title="Kitchen installation gallery" />
